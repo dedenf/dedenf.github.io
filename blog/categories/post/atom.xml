@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: post | pakeapa]]></title>
-  <link href="http://pakeapa.com//blog/categories/post/atom.xml" rel="self"/>
-  <link href="http://pakeapa.com//"/>
-  <updated>2013-10-24T09:42:03+07:00</updated>
-  <id>http://pakeapa.com//</id>
+  <title><![CDATA[Category: post | dedenf]]></title>
+  <link href="http://dedenf.com//blog/categories/post/atom.xml" rel="self"/>
+  <link href="http://dedenf.com//"/>
+  <updated>2013-10-24T09:43:32+07:00</updated>
+  <id>http://dedenf.com//</id>
   <author>
-    <name><![CDATA[pakeapa]]></name>
+    <name><![CDATA[dedenf]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[first post!]]></title>
-    <link href="http://pakeapa.com//blog/2013/10/22/first-post/"/>
+    <link href="http://dedenf.com//blog/2013/10/22/first-post/"/>
     <updated>2013-10-22T11:43:00+07:00</updated>
-    <id>http://pakeapa.com//blog/2013/10/22/first-post</id>
+    <id>http://dedenf.com//blog/2013/10/22/first-post</id>
     <content type="html"><![CDATA[<p><em>signed, sealed, delivered</em></p>
 ]]></content>
   </entry>
