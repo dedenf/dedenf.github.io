@@ -620,6 +620,8 @@ a.tags {border-bottom: 1px solid #ccc;}
 .post ul li,
 .page ul,
 .page ul li,
+.page ul li a,
+.post ul li a,
 
 {
 	font-size: 1.2em;
