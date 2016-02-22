@@ -1,24 +1,28 @@
+---
+layout: null
+---
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[dedenf]]></title>
-  <link href="http://dedenf.com//atom.xml" rel="self"/>
-  <link href="http://dedenf.com//"/>
-  <updated>2013-10-24T14:06:00+07:00</updated>
-  <id>http://dedenf.com//</id>
-  <author>
-    <name><![CDATA[dedenf]]></name>
-    
-  </author>
+ <title>{{ site.title }}</title>
+ <link href="{{ site.url }}/atom.xml" rel="self"/>
+ <link href="{{ site.url }}/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>{{ site.url }}</id>
+ <author>
+   <name>{{ site.author.name }}</name>
+   <email>{{ site.author.email }}</email>
+ </author>
 
-  
-  <entry>
-    <title type="html"><![CDATA[first post!]]></title>
-    <link href="http://dedenf.com//blog/2013/10/22/first-post/"/>
-    <updated>2013-10-22T11:43:00+07:00</updated>
-    <id>http://dedenf.com//blog/2013/10/22/first-post</id>
-    <content type="html"><![CDATA[<p><em>signed, sealed, delivered</em></p>
-]]></content>
-  </entry>
-  
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="{{ site.url }}{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>{{ site.url }}{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+
 </feed>

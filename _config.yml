@@ -1,0 +1,42 @@
+# Dependencies
+markdown:            kramdown
+highlighter:         rouge
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+# relative_permalinks: true
+
+# Setup
+title:            notes
+tagline:          'no tagline, sorry'
+description:      'no particular reason'
+url:              http://notes.dedenf.com
+baseurl: 		  ""
+# author:
+#   name:           'Deden Fathurahman'
+#   url:            http://github.com/dedef
+#   gravatar:       https://en.gravatar.com/yourname
+#   photo:          /images/sites/logo-pakeapa.png
+#   introduction:   'Some introduction words that will be displayed under the avatar. You may include HTML <a href="#">here</a>.'
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/dedenf/dedenf.github.io
+
+gems:
+  - jemoji
+  - jekyll-paginate
+
+paginate_path: "page/:num"
+excerpt_separator: "\n\n"
+
+pages_list:
+  Tentang: '/about'
+  Arsip: '/archive'
+  Feed: '/atom.xml'

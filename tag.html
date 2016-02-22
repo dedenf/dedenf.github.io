@@ -1,0 +1,66 @@
+---
+layout:   blog_index
+title:    Tag
+---
+{% comment%}
+Here we generate all the tags.
+{% endcomment%}
+
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+{% assign ttags = post.tags | join:'|' | append:'|' %}
+{% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% assign tags = "" %}
+
+{% for tag in rawtags %}
+{% if tag != "" %}
+
+{% if tags == "" %}
+{% assign tags = tag | split:'|' %}
+{% endif %}
+
+{% unless tags contains tag %}
+{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+<h1 class="page-title">
+  {{ page.title }}
+</h1>
+<br/>
+
+<div class="posts">
+<p>
+{% for tag in tags %}
+<a href="#{{ tag | slugify }}" class="button"> {{ tag }} </a> &nbsp;&nbsp;
+{% endfor %}
+
+{% for tag in tags %}
+<h3 class="tags-header" id="{{ tag | slugify }}">{{ tag }}</h3>
+
+<ul class="related-posts">
+  {% for post in site.posts %}
+  {% if post.tags contains tag %}
+  <li>
+      <h3><a href="{{ post.url }}">
+        {{ post.title }}
+        {{ post.date | date_to_string }}
+      </a></h3>
+      {% comment %}
+      {% for tag in post.tags | order: descending %}
+      <a class="tags" href="/tag/#{{ tag | cgi_escape }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>
+      {% if forloop.last != true %} / {% endif %}
+      {% endfor %}
+      {% endcomment %}
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+{% endfor %}
+
+</div>
