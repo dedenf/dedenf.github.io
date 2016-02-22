@@ -4,7 +4,7 @@
  <title>notes</title>
  <link href="http://notes.dedenf.com/atom.xml" rel="self"/>
  <link href="http://notes.dedenf.com/"/>
- <updated>2016-02-22T19:50:58+07:00</updated>
+ <updated>2016-02-22T20:03:16+07:00</updated>
  <id>http://notes.dedenf.com</id>
  <author>
    <name></name>
@@ -13,11 +13,22 @@
 
  
  <entry>
-   <title>Hellfire</title>
-   <link href="http://notes.dedenf.com/hellfire/"/>
+   <title>pakeapa and jakartadev</title>
+   <link href="http://notes.dedenf.com/2016/02/22/chapter/"/>
    <updated>2016-02-22T00:00:00+07:00</updated>
-   <id>http://notes.dedenf.com/chapter</id>
-   <content type="html">
+   <id>http://notes.dedenf.com/2016/02/22/chapter</id>
+   <content type="html">&lt;p&gt;last year i bought few domain, i just bought never had a chance to think what am i gonna do with it,
+to name a few, i bought &lt;a href=&quot;https://pakeapa.com&quot;&gt;pakeapa.com&lt;/a&gt;, when i decided to bought it, i think of it’s like a blog
+that contain information about software, open source or anything else that other people do, have, had.&lt;/p&gt;
+
+&lt;p&gt;and it turns out it did, even the content has been evolving into like an interview (it did!), it borrows the idea from &lt;a href=&quot;https://usesthis.com&quot;&gt;usesthis&lt;/a&gt;.
+and i’m glad Daniel (the onwer of the blog) is pleased and listed pakeapa.com on his site, and he’s such a nice guy, gave some advice of how i could improve.&lt;/p&gt;
+
+&lt;p&gt;second, i bought &lt;a href=&quot;https://jakartadev.org&quot;&gt;Jakartadev.org&lt;/a&gt;, it’s basically a newsletter service, focusing on developers, opensource, technology.
+it’s a weekly newsletter, i will send it every monday, it contain a lot of information, tutorial, and tools that you could use to speed up developement,
+curated by yours trully, and i hope it will become a habit for me to read tutorials, howto, or anything that could improve my dev skills.&lt;/p&gt;
+
+&lt;p&gt;i hope you enjoy it as much as i do.&lt;/p&gt;
 </content>
  </entry>
  
