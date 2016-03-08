@@ -15,8 +15,10 @@ title: Home
 
     {{ post.content }}
 
+    <br>
     <div class="panel-footer">
     {% assign taglist = post.tags | sort %}
+
     {% for tag in taglist | order: descending %}
       <a class="tags" href="/tag/#{{ tag | cgi_escape }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>
       {% if forloop.last != true %} / {% endif %}

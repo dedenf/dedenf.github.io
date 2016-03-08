@@ -3,6 +3,7 @@ layout: "post"
 title: "JakartaJS Meetup"
 date: "23 Februari 2016"
 desc: "JakartaJS Meetup, at BTPN Tower"
+tags: [meetup, jakartajs]
 --- 
 
 [![JakartaJS Meetup](/images/posts/jakartajs-small.jpg)](/images/posts/jakartajs-large.jpg)
