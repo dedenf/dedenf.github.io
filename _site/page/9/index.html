@@ -74,37 +74,6 @@
   
   <article class="post">
     <h1 class="post-title">
-      <a href="/blog/2013/09/30/how-you-enjoy-your-coffee/">
-        How you enjoy your coffee?
-      </a>
-    </h1>
-    <time datetime="2013-09-30T00:00:00+07:00" class="post-date">30 September 2013</time>
-
-    <p><img src="http://i.imgur.com/OA8tMR9.jpg" alt="coffee bean" /></p>
-
-<p>Do you love coffee? i know i do, got enough plenty variety of coffee in my house, and some processing tools that helps me enjoy my coffee.
-i know i love it, and of course enjoy it, i love to choose my beans, i love grinding my coffee beans (roasting is another level that i hadn’t mastered yet).</p>
-
-<p>but this can be a problem for some hipster, the so-called coffee-lover, they tend to preach and critize how other people make their own coffee, some people love to add sugar, or maybe adding some cream, milk or some other ingredients that people will enjoy, so be it, that’s how people enjoy their own cup of coffee.</p>
-
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#coffee" title="View posts tagged with &quot;coffee&quot;">coffee</a>
-       / 
-    
-      <a class="tags" href="/tag/#life" title="View posts tagged with &quot;life&quot;">life</a>
-      
-    
-  </div>
-
-  </article>
-  
-  <article class="post">
-    <h1 class="post-title">
       <a href="/blog/2013/09/19/something-in-the-air/">
         Something in the air
       </a>
@@ -219,6 +188,38 @@ Swimming in a fish bowl</p>
        / 
     
       <a class="tags" href="/tag/#space" title="View posts tagged with &quot;space&quot;">space</a>
+      
+    
+  </div>
+
+  </article>
+  
+  <article class="post">
+    <h1 class="post-title">
+      <a href="/blog/2013/07/02/spoofing-mac-address/">
+        Spoofing mac address
+      </a>
+    </h1>
+    <time datetime="2013-07-02T00:00:00+07:00" class="post-date">02 July 2013</time>
+
+    <p>another tool that i use for covering my ass from tracking beside my tunnel tool, i use <a href="https://github.com/feross/SpoofMAC">spoof-mac</a>, a python library that can be called from your lovely terminal, you could install it via <code class="highlighter-rouge">pip install SpoofMAC</code>.
+run <code class="highlighter-rouge">sudo spoof-mac randomize wi-fi</code> and you’ll get a random mac address assigned to your ether. you could set the spoof-mac to run everytime you boot up your machine and before joining the network (see their github project).</p>
+
+<p>or maybe if you don’t want to install spoof-mac you could always use good old fashion <code class="highlighter-rouge">ifconfig</code> by runnning this command <code class="highlighter-rouge">sudo ifconfig en0 ether xx:xx:xx:xx:xx:xx</code> (remember, use hex for macaddr). or you can use a generated value by using this <code class="highlighter-rouge">openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'</code></p>
+
+
+    <br>
+    <div class="panel-footer">
+    
+
+    
+      <a class="tags" href="/tag/#network" title="View posts tagged with &quot;network&quot;">network</a>
+       / 
+    
+      <a class="tags" href="/tag/#osx" title="View posts tagged with &quot;osx&quot;">osx</a>
+       / 
+    
+      <a class="tags" href="/tag/#python" title="View posts tagged with &quot;python&quot;">python</a>
       
     
   </div>
