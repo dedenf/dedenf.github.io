@@ -24,7 +24,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="/public/css/milligram.min.css">
   <link rel="stylesheet" href="/public/css/style.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic|Lato:400,700|Roboto+Slab">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,300italic,400, 500, 700,700italic|Lato:400,700|Roboto+Slab">
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
 
@@ -71,6 +71,48 @@
       </nav>
       <section class="container" id="post-content">
         <div class="posts">
+  
+  <article class="post">
+    <h1 class="post-title">
+      <a href="/blog/2013/02/27/git-commit-and-mood/">
+        Git commit and mood
+      </a>
+    </h1>
+    <time datetime="2013-02-27T00:00:00+07:00" class="post-date">27 February 2013</time>
+
+    <p>many developers push their code to git repo with funny or sometimes silly comments (i do that sometimes) like this <a href="http://whatthecommit.com/">whatthecommit</a> site, but maybe it will be more hips (like hipsters do) if i can fetch last.fm api from current listened music and add them to my commit message.</p>
+
+<p>here’s the idea</p>
+
+<p><code class="highlighter-rouge">$ git commit -m "fixing some bugs $(last_fm)" </code></p>
+
+<p>the last command is to insert my last.fm current track.
+so if we browse the log it will be shown <code class="highlighter-rouge">"fixing some bugs while listening to U2 - Stay"</code>. if i don’t listened any track it will return <code class="highlighter-rouge">"with no music"</code> (or any other message).</p>
+
+<p><strong>update 2013-03-05</strong></p>
+
+<p><img src="http://i.imgur.com/93x0bpc.png" alt="hispter geek" /></p>
+
+<p>here’s the <a href="https://gist.github.com/dedenf/5097395">gists on github</a> of course</p>
+
+
+    <br>
+    <div class="panel-footer">
+    
+
+    
+      <a class="tags" href="/tag/#codes" title="View posts tagged with &quot;codes&quot;">codes</a>
+       / 
+    
+      <a class="tags" href="/tag/#life" title="View posts tagged with &quot;life&quot;">life</a>
+       / 
+    
+      <a class="tags" href="/tag/#scm" title="View posts tagged with &quot;scm&quot;">scm</a>
+      
+    
+  </div>
+
+  </article>
   
   <article class="post">
     <h1 class="post-title">
@@ -192,30 +234,6 @@
        / 
     
       <a class="tags" href="/tag/#vm" title="View posts tagged with &quot;vm&quot;">vm</a>
-      
-    
-  </div>
-
-  </article>
-  
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/02/06/been-a-while/">
-        It's been a while
-      </a>
-    </h1>
-    <time datetime="2013-02-06T00:00:00+07:00" class="post-date">06 February 2013</time>
-
-    <p>yeapno</p>
-
-
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#rants" title="View posts tagged with &quot;rants&quot;">rants</a>
       
     
   </div>

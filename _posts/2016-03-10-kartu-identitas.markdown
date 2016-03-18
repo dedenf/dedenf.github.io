@@ -1,11 +1,14 @@
 ---
+published: false
 title: Kartu Identitas
 layout: post
 tags: [rant, pribadi]
 ---
-Kemarin ketika datang ke acara Toys Fair di Balai Kartika, dan di acara tersebut dijual banyak sekali 'mainan', meskipun yang menggunakan bukan cuma untuk main-main, bisa koleksi dan lainnya.
+ketika datang ke acara Toys Fair di Balai Kartika, dan di acara tersebut dijual banyak sekali 'mainan', meskipun yang menggunakan bukan cuma untuk main-main, bisa koleksi dan lainnya.
 
 Sayapun membeli koleksi LEGO 70735, di booth LEGO, dan ketika bayar diberi tahu oleh kasirnya bahwa pembelian saya *eligible* untuk mendapatkan *free goodie* dengan syarat *reciept* pembelian. tetapi saya tidak bisa mendapatkan barang tersebut karena ada aturan tak tertulis, yakni saya harus memberikan informasi identitas saya, yakni KTP atau SIM.
+
+<!-- more -->
 
 Beberapa saat saya menanyakan maksud dan tujuan pengumpulan informasi ini, petugas booth LEGO berdalih ini supaya tidak terjadi dobel *entry* orang yang membeli LEGO dan mengejar bonus barang gratisan. Meskipun alasan ini sangat menggelikan, saya coba tanya lebih jauh kenapa begitu, karena menurut aturan saya tetap *eligible* untuk mendapatkan *free item* itu, dan dijawab dengan memberikan semacam kartu pengumuman yang terdapat tambahan **"..1 ID"** di*term and conditions*, mencoba nawar dengan tidak perlu memberikan Kartu identitas, tidak bisa, bahkan diberi jawaban ampuh "jadi masnya mau apa nggak?", dengan ekspresi heran ada orang yang tidak mau memberikan kartu identitas, padahal *cuma* kartu identitas saja.
 

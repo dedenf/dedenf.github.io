@@ -4,13 +4,37 @@
  <title>notes</title>
  <link href="http://notes.dedenf.com/atom.xml" rel="self"/>
  <link href="http://notes.dedenf.com/"/>
- <updated>2016-03-08T19:42:26+07:00</updated>
+ <updated>2016-03-18T19:39:53+07:00</updated>
  <id>http://notes.dedenf.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>milk+coffee</title>
+   <link href="http://notes.dedenf.com/2016/03/18/custom-brew/"/>
+   <updated>2016-03-18T00:00:00+07:00</updated>
+   <id>http://notes.dedenf.com/2016/03/18/custom-brew</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1452882033718-1caccfcfe77f?ixlib=rb-0.3.5&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=entropy&amp;amp;s=ea55f950e65da5c0e5dfdd4a49424404&quot; alt=&quot;coffee milk&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;recently i’ve been lazy, too lazy, no coffee rituals, no fancy brewing tools, also no fancy coffee beans.
+i’ve using Nestcafe instant coffee as my caffeine boost, but not just that, here’s my recipe:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Nescafe&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+  &lt;li&gt;Sugar (optional)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-to-make-it&quot;&gt;how to make it&lt;/h3&gt;
+
+&lt;p&gt;first heat the milk (half of the glass/cup/mug), i’m using microwave to heat the milk, after that, add Nescafe instant coffee (add sugar if you want to), mix it, after that pour hot water.&lt;/p&gt;
+
+&lt;p&gt;enjoy!&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Tinypress</title>
