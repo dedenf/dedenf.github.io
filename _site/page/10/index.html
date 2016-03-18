@@ -74,6 +74,38 @@
   
   <article class="post">
     <h1 class="post-title">
+      <a href="/blog/2013/07/02/spoofing-mac-address/">
+        Spoofing mac address
+      </a>
+    </h1>
+    <time datetime="2013-07-02T00:00:00+07:00" class="post-date">02 July 2013</time>
+
+    <p>another tool that i use for covering my ass from tracking beside my tunnel tool, i use <a href="https://github.com/feross/SpoofMAC">spoof-mac</a>, a python library that can be called from your lovely terminal, you could install it via <code class="highlighter-rouge">pip install SpoofMAC</code>.
+run <code class="highlighter-rouge">sudo spoof-mac randomize wi-fi</code> and you’ll get a random mac address assigned to your ether. you could set the spoof-mac to run everytime you boot up your machine and before joining the network (see their github project).</p>
+
+<p>or maybe if you don’t want to install spoof-mac you could always use good old fashion <code class="highlighter-rouge">ifconfig</code> by runnning this command <code class="highlighter-rouge">sudo ifconfig en0 ether xx:xx:xx:xx:xx:xx</code> (remember, use hex for macaddr). or you can use a generated value by using this <code class="highlighter-rouge">openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'</code></p>
+
+
+    <br>
+    <div class="panel-footer">
+    
+
+    
+      <a class="tags" href="/tag/#network" title="View posts tagged with &quot;network&quot;">network</a>
+       / 
+    
+      <a class="tags" href="/tag/#osx" title="View posts tagged with &quot;osx&quot;">osx</a>
+       / 
+    
+      <a class="tags" href="/tag/#python" title="View posts tagged with &quot;python&quot;">python</a>
+      
+    
+  </div>
+
+  </article>
+  
+  <article class="post">
+    <h1 class="post-title">
       <a href="/blog/2013/06/29/ten-cli-command/">
         My ten most frequent Command line
       </a>
@@ -173,35 +205,6 @@ Please upgrade your Subversion client to use this to your bash profile. working 
 
     
       <a class="tags" href="/tag/#life" title="View posts tagged with &quot;life&quot;">life</a>
-      
-    
-  </div>
-
-  </article>
-  
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/06/15/galactic-center/">
-        Time-lapse of the Galactic Center
-      </a>
-    </h1>
-    <time datetime="2013-06-15T00:00:00+07:00" class="post-date">15 June 2013</time>
-
-    <p>Galactic Center at zenith Paranal observatory, a whole sky time-lapse video of the galactic center by Astrophotographer <a href="http://vimeo.com/sguisard">Stéphane Guisard</a></p>
-
-<iframe src="http://player.vimeo.com/video/68260417" width="550" height="350" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-
-<p>Awesome video!</p>
-
-<p>(via <a href="http://www.theatlantic.com/technology/archive/2013/06/you-are-here-a-whole-sky-time-lapse-of-the-galactic-center/276891/">@TheAtlantic</a>)</p>
-
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#space" title="View posts tagged with &quot;space&quot;">space</a>
       
     
   </div>
