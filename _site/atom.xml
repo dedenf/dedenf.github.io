@@ -4,13 +4,24 @@
  <title>notes</title>
  <link href="http://notes.dedenf.com/atom.xml" rel="self"/>
  <link href="http://notes.dedenf.com/"/>
- <updated>2016-03-18T20:29:51+07:00</updated>
+ <updated>2016-03-24T18:26:23+07:00</updated>
  <id>http://notes.dedenf.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Watching The Watcher</title>
+   <link href="http://notes.dedenf.com/2016/03/24/watching-the-watcher/"/>
+   <updated>2016-03-24T00:00:00+07:00</updated>
+   <id>http://notes.dedenf.com/2016/03/24/watching-the-watcher</id>
+   <content type="html">&lt;p&gt;This is a constant rant, we have a Job Service defined on our stack, using the very simple tool, Supervisor. this awesome tool do its job, but the thing is, our job service is sucks, and it did not cue or trigger anything if the job stuck/stalled, supervisor assumed that everything is working, because the service is still running, but failed to pass the job and execute it.&lt;/p&gt;
+
+&lt;p&gt;all we have to do is restarting the job on &lt;code class=&quot;highlighter-rouge&quot;&gt;supervisor&lt;/code&gt;, guess we should refactoring the job service. &lt;em&gt;darn!&lt;/em&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>milk+coffee</title>
