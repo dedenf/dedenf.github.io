@@ -74,6 +74,48 @@
   
   <article class="post">
     <h1 class="post-title">
+      <a href="/blog/2013/03/06/hispterize-commit/">
+        Hipsterized commit
+      </a>
+    </h1>
+    <time datetime="2013-03-06T00:00:00+07:00" class="post-date">06 March 2013</time>
+
+    <p>After adding current listened track into my commit message, now i’m adding the action, i take picture everytime commiting something. here’s how.</p>
+
+<ul>
+  <li>get ImageSnap
+ <code class="highlighter-rouge">brew install imagesnap</code> or <code class="highlighter-rouge">port install imagesnap</code></li>
+  <li>create this hook at your project .git/hooks/</li>
+</ul>
+
+<p>the hook</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<span class="nv">COMMITID</span><span class="o">=</span><span class="k">$(</span>git rev-parse HEAD<span class="k">)</span>
+imagesnap -q -w 1 .gitsnap/<span class="nv">$COMMITID</span>.jpg<span class="sb">`</span>
+</code></pre>
+</div>
+
+<p>save as post-commit (so it will run after commit)</p>
+
+
+    <br>
+    <div class="panel-footer">
+    
+
+    
+      <a class="tags" href="/tag/#fun" title="View posts tagged with &quot;fun&quot;">fun</a>
+       / 
+    
+      <a class="tags" href="/tag/#git" title="View posts tagged with &quot;git&quot;">git</a>
+      
+    
+  </div>
+
+  </article>
+  
+  <article class="post">
+    <h1 class="post-title">
       <a href="/blog/2013/02/28/stop-procrastination/">
         How to stop procrastination
       </a>
@@ -198,42 +240,6 @@ so if we browse the log it will be shown <code class="highlighter-rouge">"fixing
        / 
     
       <a class="tags" href="/tag/#osx" title="View posts tagged with &quot;osx&quot;">osx</a>
-      
-    
-  </div>
-
-  </article>
-  
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/02/07/three-charts/">
-        The Charts that you need
-      </a>
-    </h1>
-    <time datetime="2013-02-07T00:00:00+07:00" class="post-date">07 February 2013</time>
-
-    <p><a href="http://37signals.com/svn/writers/noah">Noah</a> at 37signal made a list about the chart that he need to display data.</p>
-
-<blockquote>
-  <ol>
-    <li>When you want to show how something has changed over time, use a line chart.</li>
-    <li>When you want to show how something is distributed, use a histogram.</li>
-    <li>When you want to display summary information, use a table.</li>
-  </ol>
-</blockquote>
-
-<p>seeing this chart type for people other than devops people or developer i think it’s enough to display data.</p>
-
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#charts" title="View posts tagged with &quot;charts&quot;">charts</a>
-       / 
-    
-      <a class="tags" href="/tag/#design" title="View posts tagged with &quot;design&quot;">design</a>
       
     
   </div>
