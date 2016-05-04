@@ -539,6 +539,7 @@ h1 {font-weight: 500;}
 h1.title {
     font-weight: normal;
     text-transform: uppercase;
+    font-size: 2em;
 }
 
 h1.post-title a, h1.page-title a {font-size: 100%;font-weight: bold;}

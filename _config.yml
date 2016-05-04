@@ -10,9 +10,9 @@ permalink:           pretty
 
 # Setup
 title:            notes
-tagline:          'no tagline, sorry'
-description:      'no particular reason'
-url:              http://notes.dedenf.com
+tagline:          'on the HyperText'
+description:      'HyperText Thrones'
+url:              https://notes.dedenf.com
 baseurl: 		  ""
 # author:
 #   name:           'Deden Fathurahman'
