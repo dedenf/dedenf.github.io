@@ -1,5 +1,5 @@
 ---
-title: Firefix Testpilot
+title: Firefox Testpilot
 layout: post
 tags:
     - web
@@ -9,7 +9,7 @@ tags:
 ---
 
 
-recently today i tried a feature published by Mozilla Firefox, it called Testpilot, basically it's a playground for Firefox team to add new feature on their browser, and test it.
+Recently today i tried a feature published by Mozilla Firefox, it called Testpilot, basically it's a playground for Firefox team to add new feature on their browser, and test it.
 
 Currently there are 3 feature that has been rolled out, [Tab center](https://testpilot.firefox.com/experiments/tab-center), [Activity Streaming](https://testpilot.firefox.com/experiments/activity-stream), and [Universal Search](https://testpilot.firefox.com/experiments/universal-search), the most significant is Tab center, it change how we react with Tabs.
 

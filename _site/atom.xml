@@ -4,7 +4,7 @@
  <title>notes</title>
  <link href="https://notes.dedenf.com/atom.xml" rel="self"/>
  <link href="https://notes.dedenf.com/"/>
- <updated>2016-05-11T19:11:45+07:00</updated>
+ <updated>2016-05-11T19:13:28+07:00</updated>
  <id>https://notes.dedenf.com</id>
  <author>
    <name></name>
@@ -13,11 +13,11 @@
 
  
  <entry>
-   <title>Firefix Testpilot</title>
+   <title>Firefox Testpilot</title>
    <link href="https://notes.dedenf.com/2016/05/11/firefox-testpilot/"/>
    <updated>2016-05-11T00:00:00+07:00</updated>
    <id>https://notes.dedenf.com/2016/05/11/firefox-testpilot</id>
-   <content type="html">&lt;p&gt;recently today i tried a feature published by Mozilla Firefox, it called Testpilot, basically it’s a playground for Firefox team to add new feature on their browser, and test it.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Recently today i tried a feature published by Mozilla Firefox, it called Testpilot, basically it’s a playground for Firefox team to add new feature on their browser, and test it.&lt;/p&gt;
 
 &lt;p&gt;Currently there are 3 feature that has been rolled out, &lt;a href=&quot;https://testpilot.firefox.com/experiments/tab-center&quot;&gt;Tab center&lt;/a&gt;, &lt;a href=&quot;https://testpilot.firefox.com/experiments/activity-stream&quot;&gt;Activity Streaming&lt;/a&gt;, and &lt;a href=&quot;https://testpilot.firefox.com/experiments/universal-search&quot;&gt;Universal Search&lt;/a&gt;, the most significant is Tab center, it change how we react with Tabs.&lt;/p&gt;
 
