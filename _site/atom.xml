@@ -4,13 +4,30 @@
  <title>notes</title>
  <link href="https://notes.dedenf.com/atom.xml" rel="self"/>
  <link href="https://notes.dedenf.com/"/>
- <updated>2016-05-11T19:13:28+07:00</updated>
+ <updated>2016-08-03T11:24:37+07:00</updated>
  <id>https://notes.dedenf.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Go-Jek Privacy Policy</title>
+   <link href="https://notes.dedenf.com/2016/08/02/on-gojek-term-of-use/"/>
+   <updated>2016-08-02T00:00:00+07:00</updated>
+   <id>https://notes.dedenf.com/2016/08/02/on-gojek-term-of-use</id>
+   <content type="html">&lt;p&gt;Go-Jek is one of the hot startup in Indonesia, operating in major cities in Indonesia, they have massive users, lots of people use their service, from transportation, delivery, cleaning, even massage service.&lt;/p&gt;
+
+&lt;p&gt;someone at Telegram group asked is this for real, the Privacy Policy, security section there’s a suprising point, that they are not responsible of their own data. recently gojek was is &lt;a href=&quot;http://teknologi.news.viva.co.id/news/read/720973-hacker-bocorkan-lemahnya-keamanan-aplikasi-gojek&quot;&gt;hacked&lt;/a&gt; and leave huge hole in their systems, and its data has been sold in black market.&lt;/p&gt;
+
+&lt;p&gt;this screenshot on their Privacy Policy is their segway if such a thing like data breach like previous ever happen again.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/posts/gojek-provacy-policy.jpg&quot;&gt;&lt;img src=&quot;/images/posts/gojek-provacy-policy.jpg&quot; alt=&quot;Gojek Privacy Policy&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Looking at this terms, i think we should be carefull of what data that you are gonna or already shared with them, ‘cause they are not gonna responsible for your data.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Firefox Testpilot</title>
