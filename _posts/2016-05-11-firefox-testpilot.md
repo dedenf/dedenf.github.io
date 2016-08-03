@@ -17,3 +17,7 @@ Currently there are 3 feature that has been rolled out, [Tab center](https://tes
 
 
 Not hated it, but old habbit die hard, it used to be on the top of the browser, now it moved to the side, a bit weird i think, but let see if it improve the experience.
+
+_**update (<time datetime="2016-08-03">2016-08-03</time>) :** they updated the look and feel, and adding few changes, now it displayed page preview instead of favicon._
+
+![mozilla firefox tab center](/images/posts/updated-tabs.png)
