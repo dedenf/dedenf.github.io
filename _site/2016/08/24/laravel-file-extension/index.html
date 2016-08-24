@@ -17,7 +17,7 @@
 
   <title>
     
-      Spoofing mac address &middot; notes
+      Extensi file Virtual di Laravel &middot; notes
     
   </title>
 
@@ -71,20 +71,36 @@
       </nav>
       <section class="container" id="post-content">
         <div class="post">
-  <h1 class="post-title">Spoofing mac address</h1>
-  <span class="post-date" style="display:inline-block;">02 July 2013</span>
-  <p>another tool that i use for covering my ass from tracking beside my tunnel tool, i use <a href="https://github.com/feross/SpoofMAC">spoof-mac</a>, a python library that can be called from your lovely terminal, you could install it via <code class="highlighter-rouge">pip install SpoofMAC</code>.
-run <code class="highlighter-rouge">sudo spoof-mac randomize wi-fi</code> and you’ll get a random mac address assigned to your ether. you could set the spoof-mac to run everytime you boot up your machine and before joining the network (see their github project).</p>
+  <h1 class="post-title">Extensi file Virtual di Laravel</h1>
+  <span class="post-date" style="display:inline-block;">24 August 2016</span>
+  <p>Kasus ini terjadi karena hendak menggunakan Facebook dynamic ads, untuk memenuhi syarat yang ditulis di <a href="https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/product-catalog">dokumentasi facebook marketing</a>, dibutuhkan file XML sebagai data feeding ke marketing funnel feed.</p>
 
-<p>or maybe if you don’t want to install spoof-mac you could always use good old fashion <code class="highlighter-rouge">ifconfig</code> by runnning this command <code class="highlighter-rouge">sudo ifconfig en0 ether xx:xx:xx:xx:xx:xx</code> (remember, use hex for macaddr). or you can use a generated value by using this <code class="highlighter-rouge">openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'</code></p>
+<p>dalam percobaan pertama, hasil response yang digunakan adalah dengan menambahkan <code class="highlighter-rouge">Content-Type</code> dioutput, tapi ini tidak cukup, facebook feed fetcher tidak support hal ini, diharuskan berupa ektensi file. memang ada cara bagaimana untuk membuat file feed ini dengan menggunakan facebook Ads SDK, tetapi hal ini mengharuskan kita untuk meng-<em>update</em> <code class="highlighter-rouge">composer.json</code>, dan menambahkan library-nya.</p>
+
+<p>ada cara yang lebih mudah, yaitu dengan menggunakan <code class="highlighter-rouge">routes.php</code>, dan mendeklarasikan ekstensi file (entah itu pdf, xml, csv dan lainnya),</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>    Route::get('/products/feed/{category}{extension?}', [
+        'uses' =&gt; 'ProductController@FacebookFeed',
+        'as' =&gt; 'facebook.feed',
+    ])-&gt;where([
+        'category' =&gt; '[a-zA-Z0-9-_]+',
+        'extension' =&gt; '\..+'
+    ]);
+</code></pre>
+</div>
+
+<p>dengan menggunakan entry routes di atas, kita memiliki kemudahan dalam men-<em>generate</em> file, berikut extensinya, di sini, akan terbuat url <code class="highlighter-rouge">https://www.example.com/products/feed/baju.xml</code></p>
+
+<p>ini mirip dengan yang dulu pernah diimplementasikan di codeigniter.</p>
+
+<p>dengan cara ini kita bisa dengan mudah menggunakan extensi file semau kita, tanpa perlu ada aktual file-nya, dengan didukung oleh content-type dari hasil output kita.</p>
+
 
 
   
-    <a class="button" href="/tag/#osx" title="View posts tagged with &quot;osx&quot;">osx</a>
+    <a class="button" href="/tag/#laravel" title="View posts tagged with &quot;laravel&quot;">laravel</a>
   
-    <a class="button" href="/tag/#python" title="View posts tagged with &quot;python&quot;">python</a>
-  
-    <a class="button" href="/tag/#network" title="View posts tagged with &quot;network&quot;">network</a>
+    <a class="button" href="/tag/#php" title="View posts tagged with &quot;php&quot;">php</a>
   
 
 </div>
@@ -92,15 +108,6 @@ run <code class="highlighter-rouge">sudo spoof-mac randomize wi-fi</code> and yo
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
-    
-    <li>
-      <h3>
-        <a href="/2016/08/24/laravel-file-extension/">
-          Extensi file Virtual di Laravel
-          <small>24 Aug 2016</small>
-        </a>
-      </h3>
-    </li>
     
     <li>
       <h3>
@@ -116,6 +123,15 @@ run <code class="highlighter-rouge">sudo spoof-mac randomize wi-fi</code> and yo
         <a href="/2016/08/02/on-gojek-term-of-use/">
           Go-Jek Privacy Policy
           <small>02 Aug 2016</small>
+        </a>
+      </h3>
+    </li>
+    
+    <li>
+      <h3>
+        <a href="/2016/05/11/firefox-testpilot/">
+          Firefox Testpilot
+          <small>11 May 2016</small>
         </a>
       </h3>
     </li>

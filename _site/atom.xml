@@ -4,13 +4,43 @@
  <title>notes</title>
  <link href="https://notes.dedenf.com/atom.xml" rel="self"/>
  <link href="https://notes.dedenf.com/"/>
- <updated>2016-08-09T15:04:53+07:00</updated>
+ <updated>2016-08-24T18:22:54+07:00</updated>
  <id>https://notes.dedenf.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Extensi file Virtual di Laravel</title>
+   <link href="https://notes.dedenf.com/2016/08/24/laravel-file-extension/"/>
+   <updated>2016-08-24T00:00:00+07:00</updated>
+   <id>https://notes.dedenf.com/2016/08/24/laravel-file-extension</id>
+   <content type="html">&lt;p&gt;Kasus ini terjadi karena hendak menggunakan Facebook dynamic ads, untuk memenuhi syarat yang ditulis di &lt;a href=&quot;https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/product-catalog&quot;&gt;dokumentasi facebook marketing&lt;/a&gt;, dibutuhkan file XML sebagai data feeding ke marketing funnel feed.&lt;/p&gt;
+
+&lt;p&gt;dalam percobaan pertama, hasil response yang digunakan adalah dengan menambahkan &lt;code class=&quot;highlighter-rouge&quot;&gt;Content-Type&lt;/code&gt; dioutput, tapi ini tidak cukup, facebook feed fetcher tidak support hal ini, diharuskan berupa ektensi file. memang ada cara bagaimana untuk membuat file feed ini dengan menggunakan facebook Ads SDK, tetapi hal ini mengharuskan kita untuk meng-&lt;em&gt;update&lt;/em&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;composer.json&lt;/code&gt;, dan menambahkan library-nya.&lt;/p&gt;
+
+&lt;p&gt;ada cara yang lebih mudah, yaitu dengan menggunakan &lt;code class=&quot;highlighter-rouge&quot;&gt;routes.php&lt;/code&gt;, dan mendeklarasikan ekstensi file (entah itu pdf, xml, csv dan lainnya),&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    Route::get(&#39;/products/feed/{category}{extension?}&#39;, [
+        &#39;uses&#39; =&amp;gt; &#39;ProductController@FacebookFeed&#39;,
+        &#39;as&#39; =&amp;gt; &#39;facebook.feed&#39;,
+    ])-&amp;gt;where([
+        &#39;category&#39; =&amp;gt; &#39;[a-zA-Z0-9-_]+&#39;,
+        &#39;extension&#39; =&amp;gt; &#39;\..+&#39;
+    ]);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;dengan menggunakan entry routes di atas, kita memiliki kemudahan dalam men-&lt;em&gt;generate&lt;/em&gt; file, berikut extensinya, di sini, akan terbuat url &lt;code class=&quot;highlighter-rouge&quot;&gt;https://www.example.com/products/feed/baju.xml&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;ini mirip dengan yang dulu pernah diimplementasikan di codeigniter.&lt;/p&gt;
+
+&lt;p&gt;dengan cara ini kita bisa dengan mudah menggunakan extensi file semau kita, tanpa perlu ada aktual file-nya, dengan didukung oleh content-type dari hasil output kita.&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>cmus</title>

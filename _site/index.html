@@ -74,6 +74,53 @@
   
   <article class="post">
     <h1 class="post-title">
+      <a href="/2016/08/24/laravel-file-extension/">
+        Extensi file Virtual di Laravel
+      </a>
+    </h1>
+    <time datetime="2016-08-24T00:00:00+07:00" class="post-date">24 August 2016</time>
+
+    <p>Kasus ini terjadi karena hendak menggunakan Facebook dynamic ads, untuk memenuhi syarat yang ditulis di <a href="https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/product-catalog">dokumentasi facebook marketing</a>, dibutuhkan file XML sebagai data feeding ke marketing funnel feed.</p>
+
+<p>dalam percobaan pertama, hasil response yang digunakan adalah dengan menambahkan <code class="highlighter-rouge">Content-Type</code> dioutput, tapi ini tidak cukup, facebook feed fetcher tidak support hal ini, diharuskan berupa ektensi file. memang ada cara bagaimana untuk membuat file feed ini dengan menggunakan facebook Ads SDK, tetapi hal ini mengharuskan kita untuk meng-<em>update</em> <code class="highlighter-rouge">composer.json</code>, dan menambahkan library-nya.</p>
+
+<p>ada cara yang lebih mudah, yaitu dengan menggunakan <code class="highlighter-rouge">routes.php</code>, dan mendeklarasikan ekstensi file (entah itu pdf, xml, csv dan lainnya),</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>    Route::get('/products/feed/{category}{extension?}', [
+        'uses' =&gt; 'ProductController@FacebookFeed',
+        'as' =&gt; 'facebook.feed',
+    ])-&gt;where([
+        'category' =&gt; '[a-zA-Z0-9-_]+',
+        'extension' =&gt; '\..+'
+    ]);
+</code></pre>
+</div>
+
+<p>dengan menggunakan entry routes di atas, kita memiliki kemudahan dalam men-<em>generate</em> file, berikut extensinya, di sini, akan terbuat url <code class="highlighter-rouge">https://www.example.com/products/feed/baju.xml</code></p>
+
+<p>ini mirip dengan yang dulu pernah diimplementasikan di codeigniter.</p>
+
+<p>dengan cara ini kita bisa dengan mudah menggunakan extensi file semau kita, tanpa perlu ada aktual file-nya, dengan didukung oleh content-type dari hasil output kita.</p>
+
+
+
+    <br>
+    <div class="panel-footer">
+    
+
+    
+      <a class="tags" href="/tag/#laravel" title="View posts tagged with &quot;laravel&quot;">laravel</a>
+       / 
+    
+      <a class="tags" href="/tag/#php" title="View posts tagged with &quot;php&quot;">php</a>
+      
+    
+  </div>
+
+  </article>
+  
+  <article class="post">
+    <h1 class="post-title">
       <a href="/2016/08/09/cmus/">
         cmus
       </a>
@@ -224,37 +271,6 @@ menuliskan surel yang resmi.</p>
        / 
     
       <a class="tags" href="/tag/#iseng" title="View posts tagged with &quot;iseng&quot;">iseng</a>
-      
-    
-  </div>
-
-  </article>
-  
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/2016/03/24/watching-the-watcher/">
-        Watching The Watcher
-      </a>
-    </h1>
-    <time datetime="2016-03-24T00:00:00+07:00" class="post-date">24 March 2016</time>
-
-    <p>This is a constant rant, we have a Job Service defined on our stack, using the very simple tool, Supervisor. this awesome tool do its job, but the thing is, our job service is sucks, and it did not cue or trigger anything if the job stuck/stalled, supervisor assumed that everything is working, because the service is still running, but failed to pass the job and execute it.</p>
-
-<p>all we have to do is restarting the job on <code class="highlighter-rouge">supervisor</code>, guess we should refactoring the job service. <em>darn!</em></p>
-
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#development" title="View posts tagged with &quot;development&quot;">development</a>
-       / 
-    
-      <a class="tags" href="/tag/#operations" title="View posts tagged with &quot;operations&quot;">operations</a>
-       / 
-    
-      <a class="tags" href="/tag/#rant" title="View posts tagged with &quot;rant&quot;">rant</a>
       
     
   </div>
