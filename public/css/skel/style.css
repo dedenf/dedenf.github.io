@@ -74,7 +74,6 @@
   border-radius: 6px;
   border: 1px solid #eee;
   height: 250px; }
-
  img {
     width: 100%;
     height: auto;
@@ -84,32 +83,32 @@
 .page{
   margin:2em 0;
 }
-  .title-link {
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: .2rem;
-    margin-right: 35px;
-    text-decoration: none;
-    color: #222; }
-  .title-link.active {
-      color: #33C3F0; }
+.title-link {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: .2rem;
+  margin-right: 35px;
+  text-decoration: none;
+  color: #222; }
+.title-link.active {
+    color: #33C3F0; }
 .navbar, .logotext {
   display: none; }
-  .logotext h3 a{
-    color: #222;
-    text-decoration: none;
-    font-weight: 600;
-  }
+.logotext h3 a{
+  color: #222;
+  text-decoration: none;
+  font-weight: 600;
+}
 /* Larger than phone */
 @media (min-width: 550px) {
   .section-foot {
   }
   .header {
     margin-top: 18rem; }
-    .logotext a{
-      color: #33C3F0;
-    }
+  .logotext a{
+    color: #33C3F0;
+  }
   .title-link {
     text-transform: uppercase;
     font-size: 20px;
@@ -146,15 +145,17 @@
   /* Navbar */
   .navbar + .docs-section, .logotext + .docs-section {
     border-top-width: 0; }
+  .logotext h3 a{
+    color: #222;
+    text-decoration: none;
+    font-weight: 600;
+  }
   .navbar,
   .navbar-spacer,
-  .logotext {
+  .logotext, .logotext h3 a {
     display: block;
     width: 100%;
     height: 6.5rem;
-    background: #fff;
-    z-index: 99;
-    margin-top: 0px;
     padding-top: 10px;
      }
   .logotext {
@@ -164,11 +165,6 @@
   }
   .logotext a{
     color: #33C3F0;
-  }
-  .section-foot {
-  }
-  .tophead {
-    border-bottom: 1px solid #ccc;
   }
   .navbar-spacer {
     display: none; }
