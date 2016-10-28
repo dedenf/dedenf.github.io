@@ -7,5 +7,5 @@ title: Tentang
 nothing to see here, move on!
 
 ### ACK
-CSS Styling and design using [miligram](https://github.com/milligram/milligram).
+CSS Styling and design using [skeleton](hhttp://getskeleton.com/).
 jekyll + github.

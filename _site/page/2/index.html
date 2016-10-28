@@ -20,98 +20,105 @@
       notes &middot; on the HyperText
     
   </title>
-
   <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/milligram.min.css">
+  <!-- <link rel="stylesheet" href="/public/css/milligram.min.css">
   <link rel="stylesheet" href="/public/css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,400, 500, 700,700italic|Lato:400,700|Roboto+Slab">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"> -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/public/css/skel/normalize.css">
+  <link rel="stylesheet" href="/public/css/skel/skeleton.css">
+  <link rel="stylesheet" href="/public/css/skel/style.css">
+
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="https://notes.dedenf.com/images/sites/logo.png"/>
+  <link rel="shortcut icon" href="http://localhost:4000/images/sites/logo.png"/>
 
-  <link rel="canonical" href="https://notes.dedenf.com">
-  <link rel="image_src" href="https://notes.dedenf.comimages/sites/logo.png">
+  <link rel="canonical" href="http://localhost:4000">
+  <link rel="image_src" href="http://localhost:4000images/sites/logo.png">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/public/js/site.js"></script>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-38299976-3', 'auto');
-    ga('send', 'pageview');
-
-  </script>
 </head>
 
-  <body>
-    <main class="wrapper">
-      <nav class="navigation">
-        <section class="container">
+  <body class="code-snippets-visible">
 
-          <a class="navigation-title float-left" href="https://notes.dedenf.com">
-            <h1 class="title">my notes</h1>
-          </a>
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="section hero tophead">
+      <div class="container">
+        <div class="row">
 
-          <ul class="navigation-list float-right">
-            <li class="navigation-item">
-              <a class="navigation-link" href="/about/">About</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="/archive/">Archives</a>
-            </li>
-          </ul>
-        </section>
-      </nav>
-      <section class="container" id="post-content">
-        <div class="posts">
-  
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/2016/03/24/watching-the-watcher/">
-        Watching The Watcher
-      </a>
-    </h1>
-    <time datetime="2016-03-24T00:00:00+07:00" class="post-date">24 March 2016</time>
+          <div class="one-half column">
+            <div class="logotext">
+              <div class="container">
+                <h3 class="hero-heading"><a href="http://localhost:4000">on the hypertext.</a></h3>
+              </div>
+            </div>
 
-    <p>This is a constant rant, we have a Job Service defined on our stack, using the very simple tool, Supervisor. this awesome tool do its job, but the thing is, our job service is sucks, and it did not cue or trigger anything if the job stuck/stalled, supervisor assumed that everything is working, because the service is still running, but failed to pass the job and execute it.</p>
+          </div>
+          <div class="one-half column" >
+            <!-- nav -->
+            <nav class="navbar">
+              <div class="container">
+                <ul class="navbar-list">
+                  <li class="navbar-item"><a class="navbar-link" href="/about/">About</a></li>
+                  <li class="navbar-item"><a class="navbar-link" href="/archive/">Archives</a></li>
+                </ul>
+              </div>
+            </nav>
+            <!-- end nav -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- body -->
+    <div class="container">
+        
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/2016/03/24/watching-the-watcher/">
+    Watching The Watcher
+  </a></h3>
+
+  <p>This is a constant rant, we have a Job Service defined on our stack, using the very simple tool, Supervisor. this awesome tool do its job, but the thing is, our job service is sucks, and it did not cue or trigger anything if the job stuck/stalled, supervisor assumed that everything is working, because the service is still running, but failed to pass the job and execute it.</p>
 
 <p>all we have to do is restarting the job on <code class="highlighter-rouge">supervisor</code>, guess we should refactoring the job service. <em>darn!</em></p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#development" title="View posts tagged with &quot;development&quot;">development</a>
-       / 
-    
-      <a class="tags" href="/tag/#operations" title="View posts tagged with &quot;operations&quot;">operations</a>
-       / 
-    
-      <a class="tags" href="/tag/#rant" title="View posts tagged with &quot;rant&quot;">rant</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/2016/03/18/custom-brew/">
-        milk+coffee
-      </a>
-    </h1>
-    <time datetime="2016-03-18T00:00:00+07:00" class="post-date">18 March 2016</time>
 
-    <p><img src="https://images.unsplash.com/photo-1452882033718-1caccfcfe77f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;s=ea55f950e65da5c0e5dfdd4a49424404" alt="coffee milk" /></p>
+  
+    <a class="button " href="/tag/#development" title="View posts tagged with &quot;development&quot;">development</a>
+    
+  
+    <a class="button " href="/tag/#operations" title="View posts tagged with &quot;operations&quot;">operations</a>
+    
+  
+    <a class="button " href="/tag/#rant" title="View posts tagged with &quot;rant&quot;">rant</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2016-03-24T00:00:00+07:00" >posted 24 March 2016</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/2016/03/18/custom-brew/">
+    milk+coffee
+  </a></h3>
+
+  <p><img src="https://images.unsplash.com/photo-1452882033718-1caccfcfe77f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;s=ea55f950e65da5c0e5dfdd4a49424404" alt="coffee milk" /></p>
 
 <p>recently i’ve been lazy, too lazy, no coffee rituals, no fancy brewing tools, also no fancy coffee beans.
 i’ve using Nestcafe instant coffee as my caffeine boost, but not just that, here’s my recipe:</p>
@@ -128,85 +135,76 @@ i’ve using Nestcafe instant coffee as my caffeine boost, but not just that, he
 
 <p>enjoy!</p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#coffee" title="View posts tagged with &quot;coffee&quot;">coffee</a>
-       / 
-    
-      <a class="tags" href="/tag/#milk" title="View posts tagged with &quot;milk&quot;">milk</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/2016/03/03/tinypress/">
-        Tinypress
-      </a>
-    </h1>
-    <time datetime="2016-03-03T00:00:00+07:00" class="post-date">03 March 2016</time>
 
-    <p>with <a href="https://tinypress.co/">tinypress</a>, it might be a good thing to have a publishing platform using github as its engine and also as storage.</p>
+  
+    <a class="button " href="/tag/#coffee" title="View posts tagged with &quot;coffee&quot;">coffee</a>
+    
+  
+    <a class="button " href="/tag/#milk" title="View posts tagged with &quot;milk&quot;">milk</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2016-03-18T00:00:00+07:00" >posted 18 March 2016</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/2016/03/03/tinypress/">
+    Tinypress
+  </a></h3>
+
+  <p>with <a href="https://tinypress.co/">tinypress</a>, it might be a good thing to have a publishing platform using github as its engine and also as storage.</p>
 
 <p>With Jekyll, it provide simplicity yet still looks awesomely hackish™</p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#writing" title="View posts tagged with &quot;writing&quot;">writing</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/2016/02/23/jakartajs/">
-        JakartaJS Meetup
-      </a>
-    </h1>
-    <time datetime="2016-02-23T00:00:00+07:00" class="post-date">23 February 2016</time>
 
-    <p><a href="/images/posts/jakartajs-large.jpg"><img src="/images/posts/jakartajs-small.jpg" alt="JakartaJS Meetup" /></a></p>
+  
+    <a class="button " href="/tag/#writing" title="View posts tagged with &quot;writing&quot;">writing</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2016-03-03T00:00:00+07:00" >posted 03 March 2016</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/2016/02/23/jakartajs/">
+    JakartaJS Meetup
+  </a></h3>
+
+  <p><a href="/images/posts/jakartajs-large.jpg"><img src="/images/posts/jakartajs-small.jpg" alt="JakartaJS Meetup" /></a></p>
 
 <p>Today, after hour, finally got a chance to attend one of the hottest Meetup, JakartaJS, even though i came late to the Meetup, but it was fun. Met few friends there, catching up old story with my friend, updating what was what.
 The presentation also quite fun, i just got there and people from <strong>Yes Boss</strong> is already giving their deck, i missed the first one.</p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#jakartajs" title="View posts tagged with &quot;jakartajs&quot;">jakartajs</a>
-       / 
-    
-      <a class="tags" href="/tag/#meetup" title="View posts tagged with &quot;meetup&quot;">meetup</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/2016/02/22/chapter/">
-        pakeapa and jakartadev
-      </a>
-    </h1>
-    <time datetime="2016-02-22T00:00:00+07:00" class="post-date">22 February 2016</time>
 
-    <p>last year i bought few domain, i just bought it, and never had a chance to think what am i gonna do with it,
+  
+    <a class="button " href="/tag/#jakartajs" title="View posts tagged with &quot;jakartajs&quot;">jakartajs</a>
+    
+  
+    <a class="button " href="/tag/#meetup" title="View posts tagged with &quot;meetup&quot;">meetup</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2016-02-23T00:00:00+07:00" >posted 23 February 2016</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/2016/02/22/chapter/">
+    pakeapa and jakartadev
+  </a></h3>
+
+  <p>last year i bought few domain, i just bought it, and never had a chance to think what am i gonna do with it,
 to name a few, i bought <a href="https://pakeapa.com">pakeapa.com</a>, when i decided to bought it, i think of it’s like a blog
 that contain information about software, open source or anything else that other people do, have, had.</p>
 
@@ -219,43 +217,56 @@ curated by yours trully, and i hope it will become a habit for me to read tutori
 
 <p>i hope you enjoy it as much as i do.</p>
 
+  <br>
+  <div class="panel-footer">
+  
 
-    <br>
-    <div class="panel-footer">
+  
+    <a class="button " href="/tag/#developer" title="View posts tagged with &quot;developer&quot;">developer</a>
     
+  
 
-    
-      <a class="tags" href="/tag/#developer" title="View posts tagged with &quot;developer&quot;">developer</a>
-      
-    
+  <h6 class="docs-header" datetime="2016-02-22T00:00:00+07:00" >posted 22 February 2016</h6>
+</div>
+
+
+<div class="container">
+  
+
+</div>
+
+<div class="section-foot">
+  <div class="containers" >
+  
+    <a class="button button-primary older" href="/page/3">Older</a>
+  
+  
+    <a class="button button-primary  pagination-item newer" href="/">Newer</a>
+  
   </div>
-
-  </article>
-  
-
-
-  
 </div>
 
-<div class="pagination">
-  
-    <a class="pagination-item older" href="/page/3">Older</a>
-  
-  
-    <a class="pagination-item newer" href="/">Newer</a>
-  
-</div>
 
-      </section>
+              <footer class="footer">
+                <hr />
+                <h5>@dedenf</h5>
+              </footer>
+
+    </div>
+    <!-- /body -->
 
 
-      <footer class="footer">
-        <section class="container">
-          <p>notes.dedenf.com</p>
-        </section>
-      </footer>
 
-    </main>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-38299976-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/r298/run_prettify.js"></script>
   </body>
 </html>

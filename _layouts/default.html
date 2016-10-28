@@ -1,37 +1,64 @@
 <!DOCTYPE html>
 <html lang="en-us">
   {% include head.html %}
-  <body>
-    <main class="wrapper">
-      <nav class="navigation">
-        <section class="container">
+  <body class="code-snippets-visible">
 
-          <a class="navigation-title float-left" href="{{ site.url }}">
-            <h1 class="title">my notes</h1>
-          </a>
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="section hero tophead">
+      <div class="container">
+        <div class="row">
 
-          <ul class="navigation-list float-right">
-            <li class="navigation-item">
-              <a class="navigation-link" href="/about/">About</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="/archive/">Archives</a>
-            </li>
-          </ul>
-        </section>
-      </nav>
-      <section class="container" id="post-content">
+          <div class="one-half column">
+            <div class="logotext">
+              <div class="container">
+                <h3 class="hero-heading"><a href="{{ site.url }}">on the hypertext.</a></h3>
+              </div>
+            </div>
+
+          </div>
+          <div class="one-half column" >
+            <!-- nav -->
+            <nav class="navbar">
+              <div class="container">
+                <ul class="navbar-list">
+                  <li class="navbar-item"><a class="navbar-link" href="/about/">About</a></li>
+                  <li class="navbar-item"><a class="navbar-link" href="/archive/">Archives</a></li>
+                </ul>
+              </div>
+            </nav>
+            <!-- end nav -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- body -->
+    <div class="container">
         {{ content }}
-      </section>
+
+              <footer class="footer">
+                <hr />
+                <h5>@dedenf</h5>
+              </footer>
+
+    </div>
+    <!-- /body -->
 
 
-      <footer class="footer">
-        <section class="container">
-          <p>notes.dedenf.com</p>
-        </section>
-      </footer>
 
-    </main>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-38299976-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/r298/run_prettify.js"></script>
   </body>
 </html>

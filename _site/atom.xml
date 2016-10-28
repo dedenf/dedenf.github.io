@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>notes</title>
- <link href="https://notes.dedenf.com/atom.xml" rel="self"/>
- <link href="https://notes.dedenf.com/"/>
- <updated>2016-09-13T15:35:11+07:00</updated>
- <id>https://notes.dedenf.com</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2016-10-28T22:19:26+07:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name></name>
    <email></email>
@@ -14,39 +14,36 @@
  
  <entry>
    <title>Extensi file Virtual di Laravel</title>
-   <link href="https://notes.dedenf.com/2016/08/24/laravel-file-extension/"/>
+   <link href="http://localhost:4000/2016/08/24/laravel-file-extension/"/>
    <updated>2016-08-24T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/2016/08/24/laravel-file-extension</id>
+   <id>http://localhost:4000/2016/08/24/laravel-file-extension</id>
    <content type="html">&lt;p&gt;Kasus ini terjadi karena hendak menggunakan Facebook dynamic ads, untuk memenuhi syarat yang ditulis di &lt;a href=&quot;https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/product-catalog&quot;&gt;dokumentasi facebook marketing&lt;/a&gt;, dibutuhkan file XML sebagai data feeding ke marketing funnel feed.&lt;/p&gt;
 
-&lt;p&gt;dalam percobaan pertama, hasil response yang digunakan adalah dengan menambahkan &lt;code class=&quot;highlighter-rouge&quot;&gt;Content-Type&lt;/code&gt; dioutput, tapi ini tidak cukup, facebook feed fetcher tidak support hal ini, diharuskan berupa ektensi file. memang ada cara bagaimana untuk membuat file feed ini dengan menggunakan facebook Ads SDK, tetapi hal ini mengharuskan kita untuk meng-&lt;em&gt;update&lt;/em&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;composer.json&lt;/code&gt;, dan menambahkan library-nya.&lt;/p&gt;
+&lt;p&gt;dalam percobaan pertama, hasil response yang digunakan adalah dengan menambahkan &lt;code class=&quot;highlighter-rouge&quot;&gt;Content-Type&lt;/code&gt; dioutput, tapi ini tidak cukup, facebook feed fetcher tidak support hal ini, diharuskan berupa ektensi file. memang ada cara bagaimana untuk membuat file feed ini dengan menggunakan facebook Ads SDK, tetapi hal ini mengharuskan kita untuk meng-_update_ &lt;code class=&quot;highlighter-rouge&quot;&gt;composer.json&lt;/code&gt;, dan menambahkan library-nya.&lt;/p&gt;
 
 &lt;p&gt;ada cara yang lebih mudah, yaitu dengan menggunakan &lt;code class=&quot;highlighter-rouge&quot;&gt;routes.php&lt;/code&gt;, dan mendeklarasikan ekstensi file (entah itu pdf, xml, csv dan lainnya),&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    Route::get(&#39;/products/feed/{category}{extension?}&#39;, [
-        &#39;uses&#39; =&amp;gt; &#39;ProductController@FacebookFeed&#39;,
-        &#39;as&#39; =&amp;gt; &#39;facebook.feed&#39;,
-    ])-&amp;gt;where([
-        &#39;category&#39; =&amp;gt; &#39;[a-zA-Z0-9-_]+&#39;,
-        &#39;extension&#39; =&amp;gt; &#39;\..+&#39;
-    ]);
+&lt;pre&gt;&lt;code&gt;
+        Route::get('/products/feed/{category}{extension?}', [
+            'uses' =&amp;gt; 'ProductController@FacebookFeed',
+            'as' =&amp;gt; 'facebook.feed',
+        ])-&amp;gt;where([
+            'category' =&amp;gt; '[a-zA-Z0-9-_]+',
+            'extension' =&amp;gt; '\..+'
+        ]);
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;dengan menggunakan entry routes di atas, kita memiliki kemudahan dalam men-&lt;em&gt;generate&lt;/em&gt; file, berikut extensinya, di sini, akan terbuat url &lt;code class=&quot;highlighter-rouge&quot;&gt;https://www.example.com/products/feed/baju.xml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;dengan menggunakan entry routes di atas, kita memiliki kemudahan dalam men-_generate_ file, berikut extensinya, di sini, akan terbuat url &lt;code class=&quot;highlighter-rouge&quot;&gt;https://www.example.com/products/feed/baju.xml&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;ini mirip dengan yang dulu pernah diimplementasikan di codeigniter.&lt;/p&gt;
 
 &lt;p&gt;dengan cara ini kita bisa dengan mudah menggunakan extensi file semau kita, tanpa perlu ada aktual file-nya, dengan didukung oleh content-type dari hasil output kita.&lt;/p&gt;
-
 </content>
  </entry>
  
  <entry>
    <title>cmus</title>
-   <link href="https://notes.dedenf.com/2016/08/09/cmus/"/>
+   <link href="http://localhost:4000/2016/08/09/cmus/"/>
    <updated>2016-08-09T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/2016/08/09/cmus</id>
+   <id>http://localhost:4000/2016/08/09/cmus</id>
    <content type="html">&lt;p&gt;found new tool for playing my mp3 collection, on command line interface, it called &lt;a href=&quot;https://cmus.github.io/&quot;&gt;cmus&lt;/a&gt;, you could install it using your package manager (yum, apt, homebrew, &lt;em&gt;etc&lt;/em&gt;).&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/images/posts/cmus.png&quot;&gt;&lt;img src=&quot;/images/posts/cmus.png&quot; alt=&quot;CMUS&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -55,9 +52,9 @@
  
  <entry>
    <title>Go-Jek Privacy Policy</title>
-   <link href="https://notes.dedenf.com/2016/08/02/on-gojek-term-of-use/"/>
+   <link href="http://localhost:4000/2016/08/02/on-gojek-term-of-use/"/>
    <updated>2016-08-02T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/2016/08/02/on-gojek-term-of-use</id>
+   <id>http://localhost:4000/2016/08/02/on-gojek-term-of-use</id>
    <content type="html">&lt;p&gt;Go-Jek is one of the hot startup in Indonesia, operating in major cities in Indonesia, they have massive users, lots of people use their service, from transportation, delivery, cleaning, even massage service.&lt;/p&gt;
 
 &lt;p&gt;someone at Telegram group asked is this for real, the Privacy Policy, security section there’s a suprising point, that they are not responsible of their own data. recently gojek was &lt;a href=&quot;http://teknologi.news.viva.co.id/news/read/720973-hacker-bocorkan-lemahnya-keamanan-aplikasi-gojek&quot;&gt;hacked&lt;/a&gt; and leave huge hole in their systems, and its data has been sold in black market.&lt;/p&gt;
@@ -72,9 +69,9 @@
  
  <entry>
    <title>Firefox Testpilot</title>
-   <link href="https://notes.dedenf.com/2016/05/11/firefox-testpilot/"/>
+   <link href="http://localhost:4000/2016/05/11/firefox-testpilot/"/>
    <updated>2016-05-11T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/2016/05/11/firefox-testpilot</id>
+   <id>http://localhost:4000/2016/05/11/firefox-testpilot</id>
    <content type="html">&lt;p&gt;Recently today i tried a feature published by Mozilla Firefox, it called Testpilot, basically it’s a playground for Firefox team to add new feature on their browser, and test it.&lt;/p&gt;
 
 &lt;p&gt;Currently there are 3 feature that has been rolled out, &lt;a href=&quot;https://testpilot.firefox.com/experiments/tab-center&quot;&gt;Tab center&lt;/a&gt;, &lt;a href=&quot;https://testpilot.firefox.com/experiments/activity-stream&quot;&gt;Activity Streaming&lt;/a&gt;, and &lt;a href=&quot;https://testpilot.firefox.com/experiments/universal-search&quot;&gt;Universal Search&lt;/a&gt;, the most significant is Tab center, it change how we react with Tabs.&lt;/p&gt;
@@ -91,9 +88,9 @@
  
  <entry>
    <title>EYD</title>
-   <link href="https://notes.dedenf.com/2016/05/03/eyd/"/>
+   <link href="http://localhost:4000/2016/05/03/eyd/"/>
    <updated>2016-05-03T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/2016/05/03/eyd</id>
+   <id>http://localhost:4000/2016/05/03/eyd</id>
    <content type="html">&lt;p&gt;Penggunaan Ejaan Yang Disempurnakan memang terkadang sangat berat dan terkesan kaku, hal ini dikarenakan penggunaan kata yang baku,
 kumpulan kata menjadikan kalimat, dan kalimat ini yang terkesan kaku dikarenakan orang-orang tidak setiap hari mendengar percakapan dengan menggunakan susunan baku.&lt;/p&gt;
 
@@ -119,9 +116,9 @@ menuliskan surel yang resmi.&lt;/p&gt;
  
  <entry>
    <title>Watching The Watcher</title>
-   <link href="https://notes.dedenf.com/2016/03/24/watching-the-watcher/"/>
+   <link href="http://localhost:4000/2016/03/24/watching-the-watcher/"/>
    <updated>2016-03-24T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/2016/03/24/watching-the-watcher</id>
+   <id>http://localhost:4000/2016/03/24/watching-the-watcher</id>
    <content type="html">&lt;p&gt;This is a constant rant, we have a Job Service defined on our stack, using the very simple tool, Supervisor. this awesome tool do its job, but the thing is, our job service is sucks, and it did not cue or trigger anything if the job stuck/stalled, supervisor assumed that everything is working, because the service is still running, but failed to pass the job and execute it.&lt;/p&gt;
 
 &lt;p&gt;all we have to do is restarting the job on &lt;code class=&quot;highlighter-rouge&quot;&gt;supervisor&lt;/code&gt;, guess we should refactoring the job service. &lt;em&gt;darn!&lt;/em&gt;&lt;/p&gt;
@@ -130,9 +127,9 @@ menuliskan surel yang resmi.&lt;/p&gt;
  
  <entry>
    <title>milk+coffee</title>
-   <link href="https://notes.dedenf.com/2016/03/18/custom-brew/"/>
+   <link href="http://localhost:4000/2016/03/18/custom-brew/"/>
    <updated>2016-03-18T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/2016/03/18/custom-brew</id>
+   <id>http://localhost:4000/2016/03/18/custom-brew</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1452882033718-1caccfcfe77f?ixlib=rb-0.3.5&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=entropy&amp;amp;s=ea55f950e65da5c0e5dfdd4a49424404&quot; alt=&quot;coffee milk&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;recently i’ve been lazy, too lazy, no coffee rituals, no fancy brewing tools, also no fancy coffee beans.
@@ -154,9 +151,9 @@ i’ve using Nestcafe instant coffee as my caffeine boost, but not just that, he
  
  <entry>
    <title>Tinypress</title>
-   <link href="https://notes.dedenf.com/2016/03/03/tinypress/"/>
+   <link href="http://localhost:4000/2016/03/03/tinypress/"/>
    <updated>2016-03-03T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/2016/03/03/tinypress</id>
+   <id>http://localhost:4000/2016/03/03/tinypress</id>
    <content type="html">&lt;p&gt;with &lt;a href=&quot;https://tinypress.co/&quot;&gt;tinypress&lt;/a&gt;, it might be a good thing to have a publishing platform using github as its engine and also as storage.&lt;/p&gt;
 
 &lt;p&gt;With Jekyll, it provide simplicity yet still looks awesomely hackish™&lt;/p&gt;
@@ -165,9 +162,9 @@ i’ve using Nestcafe instant coffee as my caffeine boost, but not just that, he
  
  <entry>
    <title>JakartaJS Meetup</title>
-   <link href="https://notes.dedenf.com/2016/02/23/jakartajs/"/>
+   <link href="http://localhost:4000/2016/02/23/jakartajs/"/>
    <updated>2016-02-23T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/2016/02/23/jakartajs</id>
+   <id>http://localhost:4000/2016/02/23/jakartajs</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/images/posts/jakartajs-large.jpg&quot;&gt;&lt;img src=&quot;/images/posts/jakartajs-small.jpg&quot; alt=&quot;JakartaJS Meetup&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Today, after hour, finally got a chance to attend one of the hottest Meetup, JakartaJS, even though i came late to the Meetup, but it was fun. Met few friends there, catching up old story with my friend, updating what was what.
@@ -177,9 +174,9 @@ The presentation also quite fun, i just got there and people from &lt;strong&gt;
  
  <entry>
    <title>pakeapa and jakartadev</title>
-   <link href="https://notes.dedenf.com/2016/02/22/chapter/"/>
+   <link href="http://localhost:4000/2016/02/22/chapter/"/>
    <updated>2016-02-22T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/2016/02/22/chapter</id>
+   <id>http://localhost:4000/2016/02/22/chapter</id>
    <content type="html">&lt;p&gt;last year i bought few domain, i just bought it, and never had a chance to think what am i gonna do with it,
 to name a few, i bought &lt;a href=&quot;https://pakeapa.com&quot;&gt;pakeapa.com&lt;/a&gt;, when i decided to bought it, i think of it’s like a blog
 that contain information about software, open source or anything else that other people do, have, had.&lt;/p&gt;
@@ -197,9 +194,9 @@ curated by yours trully, and i hope it will become a habit for me to read tutori
  
  <entry>
    <title>Setapak Sriwedari</title>
-   <link href="https://notes.dedenf.com/blog/2015/08/04/setapak-sriwedari/"/>
+   <link href="http://localhost:4000/blog/2015/08/04/setapak-sriwedari/"/>
    <updated>2015-08-04T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2015/08/04/setapak-sriwedari</id>
+   <id>http://localhost:4000/blog/2015/08/04/setapak-sriwedari</id>
    <content type="html">&lt;script&gt;
 	(function(d, s, id) {
 	var js, djs = d.getElementsByTagName(s)[0];
@@ -216,18 +213,18 @@ curated by yours trully, and i hope it will become a habit for me to read tutori
  
  <entry>
    <title>it is hurt</title>
-   <link href="https://notes.dedenf.com/blog/2015/06/12/hurt/"/>
+   <link href="http://localhost:4000/blog/2015/06/12/hurt/"/>
    <updated>2015-06-12T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2015/06/12/hurt</id>
+   <id>http://localhost:4000/blog/2015/06/12/hurt</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/637900/scriptogram/itis.jpg&quot; alt=&quot;it fucking hurts&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Few coffee reading material</title>
-   <link href="https://notes.dedenf.com/blog/2015/04/20/coffee-reading/"/>
+   <link href="http://localhost:4000/blog/2015/04/20/coffee-reading/"/>
    <updated>2015-04-20T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2015/04/20/coffee-reading</id>
+   <id>http://localhost:4000/blog/2015/04/20/coffee-reading</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.newyorker.com/news/daily-comment/the-coffee-of-civilization-in-iceland&quot;&gt;The Coffee of Civilization in Iceland&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://indohoy.com/giyanti-coffee-roastery-one-best-coffee-jakarta/&quot;&gt;Giyanti&lt;/a&gt;&lt;/li&gt;
@@ -239,9 +236,9 @@ curated by yours trully, and i hope it will become a habit for me to read tutori
  
  <entry>
    <title>repeat ad infinitum</title>
-   <link href="https://notes.dedenf.com/blog/2015/03/05/trust/"/>
+   <link href="http://localhost:4000/blog/2015/03/05/trust/"/>
    <updated>2015-03-05T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2015/03/05/trust</id>
+   <id>http://localhost:4000/blog/2015/03/05/trust</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/u9XToQO.png&quot; alt=&quot;lastfm&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -252,9 +249,9 @@ curated by yours trully, and i hope it will become a habit for me to read tutori
  
  <entry>
    <title>couldn't do it</title>
-   <link href="https://notes.dedenf.com/blog/2015/02/27/couldnt-do-it/"/>
+   <link href="http://localhost:4000/blog/2015/02/27/couldnt-do-it/"/>
    <updated>2015-02-27T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2015/02/27/couldnt-do-it</id>
+   <id>http://localhost:4000/blog/2015/02/27/couldnt-do-it</id>
    <content type="html">&lt;p&gt;something i could not do right now. be cool, not to get angry..&lt;/p&gt;
 
 </content>
@@ -262,9 +259,9 @@ curated by yours trully, and i hope it will become a habit for me to read tutori
  
  <entry>
    <title>Interstellar</title>
-   <link href="https://notes.dedenf.com/blog/2015/02/25/interstellar/"/>
+   <link href="http://localhost:4000/blog/2015/02/25/interstellar/"/>
    <updated>2015-02-25T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2015/02/25/interstellar</id>
+   <id>http://localhost:4000/blog/2015/02/25/interstellar</id>
    <content type="html">&lt;p&gt;As science fiction fans, i love Interstellar, it’s a really great movie, backed by real science and real scientist (who also a robot’s name), not gonna spoiled it, but really it’s a must watch movie. the acting, the cinematography, the visual effect, the deepness of the universe, the silence, and don’t forget the soundtrack&lt;/p&gt;
 
 &lt;p&gt;it’s composed by none other than Hans Zimmer who always worked with Christopher nolan apparently, the music is representing (imo) a thriller and yet a silences of the outer space, that silence, the beating, the instrument helps me forget about the sound, when my ears is not occupied. you can feel it, and helps you forget even for a while.&lt;/p&gt;
@@ -275,18 +272,18 @@ curated by yours trully, and i hope it will become a habit for me to read tutori
  
  <entry>
    <title>I Should Do This</title>
-   <link href="https://notes.dedenf.com/blog/2015/02/20/i-should-do-this/"/>
+   <link href="http://localhost:4000/blog/2015/02/20/i-should-do-this/"/>
    <updated>2015-02-20T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2015/02/20/i-should-do-this</id>
+   <id>http://localhost:4000/blog/2015/02/20/i-should-do-this</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/637900/fucking-poster-on-jony-ive-wall.jpg&quot; alt=&quot;believe in your fucking self&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Here with me</title>
-   <link href="https://notes.dedenf.com/blog/2015/02/15/here-with-me/"/>
+   <link href="http://localhost:4000/blog/2015/02/15/here-with-me/"/>
    <updated>2015-02-15T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2015/02/15/here-with me</id>
+   <id>http://localhost:4000/blog/2015/02/15/here-with me</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;wheels are turning
 i remember when you were mine
@@ -309,32 +306,32 @@ I want you here with me
  
  <entry>
    <title>M.I.A</title>
-   <link href="https://notes.dedenf.com/blog/2015/02/06/mia/"/>
+   <link href="http://localhost:4000/blog/2015/02/06/mia/"/>
    <updated>2015-02-06T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2015/02/06/mia</id>
+   <id>http://localhost:4000/blog/2015/02/06/mia</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;I want to hold out hope.
 But hope is painful.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;-&lt;em&gt;harold finch&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;-_harold finch_&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>⌘q</title>
-   <link href="https://notes.dedenf.com/blog/2015/02/02/Quit/"/>
+   <link href="http://localhost:4000/blog/2015/02/02/Quit/"/>
    <updated>2015-02-02T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2015/02/02/Quit</id>
+   <id>http://localhost:4000/blog/2015/02/02/Quit</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/637900/okay.png&quot; alt=&quot;okay&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>That bad stuff</title>
-   <link href="https://notes.dedenf.com/blog/2015/01/26/we-found-love/"/>
+   <link href="http://localhost:4000/blog/2015/01/26/we-found-love/"/>
    <updated>2015-01-26T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2015/01/26/we-found-love</id>
+   <id>http://localhost:4000/blog/2015/01/26/we-found-love</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;You almost wish that you could have all that bad stuff back
 So that you could have the good&lt;/p&gt;
@@ -346,9 +343,9 @@ So that you could have the good&lt;/p&gt;
  
  <entry>
    <title>bekerja</title>
-   <link href="https://notes.dedenf.com/blog/2015/01/23/bekerja/"/>
+   <link href="http://localhost:4000/blog/2015/01/23/bekerja/"/>
    <updated>2015-01-23T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2015/01/23/bekerja</id>
+   <id>http://localhost:4000/blog/2015/01/23/bekerja</id>
    <content type="html">&lt;p&gt;Pernah dengar kalimat yang kira-kira begini:
 “…&lt;em&gt;Dia bangun dari pagi hari, terus cari bahan-bahan buat dia jual hari itu, rajin sekali ya? cari uang buat keluarganya, baik pula&lt;/em&gt;.”
 atau ini:
@@ -370,9 +367,9 @@ atau ini:
  
  <entry>
    <title>Boys Don't Cry</title>
-   <link href="https://notes.dedenf.com/blog/2014/12/09/boys-dont-cry/"/>
+   <link href="http://localhost:4000/blog/2014/12/09/boys-dont-cry/"/>
    <updated>2014-12-09T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2014/12/09/boys-dont-cry</id>
+   <id>http://localhost:4000/blog/2014/12/09/boys-dont-cry</id>
    <content type="html">&lt;iframe scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; src=&quot;http://www.deezer.com/plugins/player?autoplay=false&amp;amp;playlist=false&amp;amp;width=700&amp;amp;height=80&amp;amp;cover=true&amp;amp;type=tracks&amp;amp;id=2715862&amp;amp;title=&amp;amp;app_id=undefined&quot; width=&quot;700&quot; height=&quot;80&quot;&gt;&lt;/iframe&gt;
 
 </content>
@@ -380,9 +377,9 @@ atau ini:
  
  <entry>
    <title>TMUX</title>
-   <link href="https://notes.dedenf.com/blog/2014/12/03/tmux-configuration/"/>
+   <link href="http://localhost:4000/blog/2014/12/03/tmux-configuration/"/>
    <updated>2014-12-03T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2014/12/03/tmux-configuration</id>
+   <id>http://localhost:4000/blog/2014/12/03/tmux-configuration</id>
    <content type="html">&lt;p&gt;My Tmux configuration&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/637900/blogs/tmux.png&quot; alt=&quot;tmux config&quot; /&gt;&lt;/p&gt;
@@ -394,9 +391,9 @@ atau ini:
  
  <entry>
    <title>A Man and his problems</title>
-   <link href="https://notes.dedenf.com/blog/2014/11/24/my-momma-said/"/>
+   <link href="http://localhost:4000/blog/2014/11/24/my-momma-said/"/>
    <updated>2014-11-24T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2014/11/24/my-momma-said</id>
+   <id>http://localhost:4000/blog/2014/11/24/my-momma-said</id>
    <content type="html">&lt;p&gt;my momma said, i’ll be alright.
 my momma said, everything you’ll do that’s because you want it.
 my momma said, nothing ever last forever.
@@ -410,18 +407,18 @@ my momma said, i want you to be happy.&lt;/p&gt;
  
  <entry>
    <title>Minimum Viable Infrastructure</title>
-   <link href="https://notes.dedenf.com/blog/2014/10/20/minimum-viable-infrastructure/"/>
+   <link href="http://localhost:4000/blog/2014/10/20/minimum-viable-infrastructure/"/>
    <updated>2014-10-20T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2014/10/20/minimum-viable-infrastructure</id>
+   <id>http://localhost:4000/blog/2014/10/20/minimum-viable-infrastructure</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>Programmer Flowchart</title>
-   <link href="https://notes.dedenf.com/blog/2014/10/10/programmer-flowchart/"/>
+   <link href="http://localhost:4000/blog/2014/10/10/programmer-flowchart/"/>
    <updated>2014-10-10T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2014/10/10/programmer-flowchart</id>
+   <id>http://localhost:4000/blog/2014/10/10/programmer-flowchart</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/BhZ0MHoCcAABGut.jpg:large&quot; alt=&quot;might be true&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;yes, this might be true.&lt;/p&gt;
@@ -432,9 +429,9 @@ my momma said, i want you to be happy.&lt;/p&gt;
  
  <entry>
    <title>Milky way</title>
-   <link href="https://notes.dedenf.com/blog/2014/10/01/milkyway/"/>
+   <link href="http://localhost:4000/blog/2014/10/01/milkyway/"/>
    <updated>2014-10-01T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2014/10/01/milkyway</id>
+   <id>http://localhost:4000/blog/2014/10/01/milkyway</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://www.spacetelescope.org/static/archives/images/screen/ann0912a.jpg&quot; alt=&quot;milky way&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;i think this track suits well, i love stars.&lt;/p&gt;
@@ -447,9 +444,9 @@ my momma said, i want you to be happy.&lt;/p&gt;
  
  <entry>
    <title>D'Cinnamons</title>
-   <link href="https://notes.dedenf.com/blog/2014/10/01/dcinnamons/"/>
+   <link href="http://localhost:4000/blog/2014/10/01/dcinnamons/"/>
    <updated>2014-10-01T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2014/10/01/dcinnamons</id>
+   <id>http://localhost:4000/blog/2014/10/01/dcinnamons</id>
    <content type="html">&lt;p&gt;Yes, it’s an -old- album, but still love it.&lt;/p&gt;
 
 &lt;iframe scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; src=&quot;http://www.deezer.com/plugins/player?autoplay=false&amp;amp;playlist=true&amp;amp;width=700&amp;amp;height=240&amp;amp;cover=true&amp;amp;type=album&amp;amp;id=7538440&amp;amp;title=&amp;amp;app_id=undefined&quot; width=&quot;700&quot; height=&quot;240&quot;&gt;&lt;/iframe&gt;
@@ -459,9 +456,9 @@ my momma said, i want you to be happy.&lt;/p&gt;
  
  <entry>
    <title>What Changed?</title>
-   <link href="https://notes.dedenf.com/blog/2014/09/27/git-whatchanged/"/>
+   <link href="http://localhost:4000/blog/2014/09/27/git-whatchanged/"/>
    <updated>2014-09-27T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2014/09/27/git-whatchanged</id>
+   <id>http://localhost:4000/blog/2014/09/27/git-whatchanged</id>
    <content type="html">&lt;p&gt;sometime i wish i could just &lt;a href=&quot;https://www.kernel.org/pub/software/scm/git/docs/git-whatchanged.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$ life whatchanged&lt;/code&gt;&lt;/a&gt;, and i could see what has been changed in my whole life.&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
@@ -488,9 +485,9 @@ Date:   Sat Sep 27 08:30:32 2014 +0700
  
  <entry>
    <title>Be yourself</title>
-   <link href="https://notes.dedenf.com/blog/2014/09/18/yourself/"/>
+   <link href="http://localhost:4000/blog/2014/09/18/yourself/"/>
    <updated>2014-09-18T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2014/09/18/yourself</id>
+   <id>http://localhost:4000/blog/2014/09/18/yourself</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;Be yourself;
 Everyone else is already taken.&lt;/p&gt;
@@ -502,9 +499,9 @@ Everyone else is already taken.&lt;/p&gt;
  
  <entry>
    <title>Di kereta</title>
-   <link href="https://notes.dedenf.com/blog/2014/09/08/di-kereta/"/>
+   <link href="http://localhost:4000/blog/2014/09/08/di-kereta/"/>
    <updated>2014-09-08T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2014/09/08/di-kereta</id>
+   <id>http://localhost:4000/blog/2014/09/08/di-kereta</id>
    <content type="html">&lt;p&gt;Beberapa waktu ini, dengan pekerjaan baru yang jaraknya lumayan dari tempat tinggal, menuju tempat kerja yang di daerah utara dari arah selatan memang lumayan memakan waktu, dan dilakukanlah semacam eksperimen dengan menggunakan moda dan trayek yang ditempuh.&lt;/p&gt;
 
 &lt;p&gt;pertama yang saya coba adalah memakai bis transjakarta, dengan menaiki koridor 9 arah pluit, dan kemudian transit melanjutkan ke arah kota total waktu yang dibutuhkan 2.5 jam plus menunggu bis transit.&lt;/p&gt;
@@ -523,9 +520,9 @@ Everyone else is already taken.&lt;/p&gt;
  
  <entry>
    <title>Crack your code</title>
-   <link href="https://notes.dedenf.com/blog/2014/07/01/crack-your-code/"/>
+   <link href="http://localhost:4000/blog/2014/07/01/crack-your-code/"/>
    <updated>2014-07-01T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2014/07/01/crack-your-code</id>
+   <id>http://localhost:4000/blog/2014/07/01/crack-your-code</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;It’s amazing I’m in this maze with you
 I just can’t crack your code&lt;/p&gt;
@@ -538,9 +535,9 @@ I just can’t crack your code&lt;/p&gt;
  
  <entry>
    <title>Penamaan URL yang lebih baik</title>
-   <link href="https://notes.dedenf.com/blog/2014/04/17/penamaan-url-lebih-baik/"/>
+   <link href="http://localhost:4000/blog/2014/04/17/penamaan-url-lebih-baik/"/>
    <updated>2014-04-17T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2014/04/17/penamaan-url-lebih-baik</id>
+   <id>http://localhost:4000/blog/2014/04/17/penamaan-url-lebih-baik</id>
    <content type="html">&lt;p&gt;Hari ini mendapat tautan mengenenai sistem pengawasan perlindungan konsumen di situs kemendag, tautan yang dibuat adalah &lt;a href=&quot;http://siswaspk.kemendag.go.id/&quot;&gt;http://siswaspk.kemendag.go.id/&lt;/a&gt;, sangat tidak intuitif dan mungkin susah diingat.&lt;/p&gt;
 
 &lt;p&gt;kenapa tidak dibuat yang lebih sederhana dan dimengerti, misalkan &lt;a href=&quot;http://pengaduan.kemendag.go.id/konsumen/&quot;&gt;http://pengaduan.kemendag.go.id/konsumen/&lt;/a&gt; kata ‘konsumen’ bisa ditambahkan lagi jika ada sistem lain misalkan pengaduan pedagang.&lt;/p&gt;
@@ -550,9 +547,9 @@ I just can’t crack your code&lt;/p&gt;
  
  <entry>
    <title>The Right Thing</title>
-   <link href="https://notes.dedenf.com/2013/12/21/the-right-thing/"/>
+   <link href="http://localhost:4000/2013/12/21/the-right-thing/"/>
    <updated>2013-12-21T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/2013/12/21/the-right-thing</id>
+   <id>http://localhost:4000/2013/12/21/the-right-thing</id>
    <content type="html">&lt;p&gt;spoilers: there is no the right thing. &lt;br /&gt;
 at least for something you didn’t know or something you thing you didn’t know, you have to walk through it to get the answer, there’s no The Oracle who can guide you make your choice. how can you tell which decision is right or wrong? well you don’t, at least until you live with that decision.&lt;/p&gt;
 
@@ -572,9 +569,9 @@ at least for something you didn’t know or something you thing you didn’t kno
  
  <entry>
    <title>Kano</title>
-   <link href="https://notes.dedenf.com/blog/2013/11/22/kano/"/>
+   <link href="http://localhost:4000/blog/2013/11/22/kano/"/>
    <updated>2013-11-22T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/11/22/kano</id>
+   <id>http://localhost:4000/blog/2013/11/22/kano</id>
    <content type="html">&lt;p&gt;found a kickstarter project, &lt;a href=&quot;http://www.kickstarter.com/projects/alexklein/kano-a-computer-anyone-can-make&quot;&gt;Kano&lt;/a&gt;, what a great project. AND I WANT ONE!&lt;/p&gt;
 
 &lt;iframe width=&quot;480&quot; height=&quot;360&quot; src=&quot;http://www.kickstarter.com/projects/alexklein/kano-a-computer-anyone-can-make/widget/video.html&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt; &lt;/iframe&gt;
@@ -583,9 +580,9 @@ at least for something you didn’t know or something you thing you didn’t kno
  
  <entry>
    <title>you are a dent in the universe</title>
-   <link href="https://notes.dedenf.com/blog/2013/11/17/dent-in-universe/"/>
+   <link href="http://localhost:4000/blog/2013/11/17/dent-in-universe/"/>
    <updated>2013-11-17T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/11/17/dent-in-universe</id>
+   <id>http://localhost:4000/blog/2013/11/17/dent-in-universe</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;We’re here to put a dent in the universe. Otherwise why else even be here?
 —Steve Jobs&lt;/p&gt;
@@ -596,18 +593,18 @@ at least for something you didn’t know or something you thing you didn’t kno
  
  <entry>
    <title>Share your dream</title>
-   <link href="https://notes.dedenf.com/blog/2013/11/14/share-your-dream/"/>
+   <link href="http://localhost:4000/blog/2013/11/14/share-your-dream/"/>
    <updated>2013-11-14T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/11/14/share-your-dream</id>
+   <id>http://localhost:4000/blog/2013/11/14/share-your-dream</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/n5H7RtY.jpg&quot; alt=&quot;share your dream&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Music pick - Spanish Prisoners</title>
-   <link href="https://notes.dedenf.com/blog/2013/11/08/music-pick-spanish-prisoners/"/>
+   <link href="http://localhost:4000/blog/2013/11/08/music-pick-spanish-prisoners/"/>
    <updated>2013-11-08T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/11/08/music pick-spanish-prisoners</id>
+   <id>http://localhost:4000/blog/2013/11/08/music pick-spanish-prisoners</id>
    <content type="html">&lt;p&gt;if you love gloomy, dreamy melodic guitar like post-rock, you’ll love this.&lt;/p&gt;
 
 &lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;http://bandcamp.com/EmbeddedPlayer/album=2428500762/size=medium/bgcol=ffffff/linkcol=0687f5/transparent=true/&quot; seamless=&quot;&quot;&gt;&lt;a href=&quot;http://spanishprisoners.bandcamp.com/album/gold-fools&quot;&gt;Gold Fools by Spanish Prisoners&lt;/a&gt;&lt;/iframe&gt;
@@ -616,15 +613,17 @@ at least for something you didn’t know or something you thing you didn’t kno
  
  <entry>
    <title>Daemon</title>
-   <link href="https://notes.dedenf.com/2013/11/04/daemon/"/>
+   <link href="http://localhost:4000/2013/11/04/daemon/"/>
    <updated>2013-11-04T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/2013/11/04/daemon</id>
+   <id>http://localhost:4000/2013/11/04/daemon</id>
    <content type="html">&lt;p&gt;Title: Daemon
 Date: 2013-11-04 00:00
 Tags: life&lt;/p&gt;
 
-&lt;p&gt;in operating system, there’s a term called Daemon, according to wikipedia :
-&amp;gt;In multitasking computer operating systems, a daemon (/ˈdeɪmən/ or /ˈdiːmən/)[1] is a computer program that runs as a background process, rather than being under the direct control of an interactive user.&lt;/p&gt;
+&lt;p&gt;in operating system, there’s a term called Daemon, according to wikipedia :&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;In multitasking computer operating systems, a daemon (/ˈdeɪmən/ or /ˈdiːmən/)[1] is a computer program that runs as a background process, rather than being under the direct control of an interactive user.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;so, basically, daemon runs everything in the background without users &lt;em&gt;knows&lt;/em&gt; about it, bet i bet you could apply this term into your relationship model (not the database, you fool. but real 3D relationship with other human. read my lips, HUMAN).&lt;/p&gt;
 
@@ -636,18 +635,18 @@ Tags: life&lt;/p&gt;
  
  <entry>
    <title>The holstee manifesto</title>
-   <link href="https://notes.dedenf.com/blog/2013/11/01/the-holstee/"/>
+   <link href="http://localhost:4000/blog/2013/11/01/the-holstee/"/>
    <updated>2013-11-01T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/11/01/the-holstee</id>
+   <id>http://localhost:4000/blog/2013/11/01/the-holstee</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/G8RRuaJ.jpg&quot; alt=&quot;the holstee manifesto&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>How coffee transformed someone's life</title>
-   <link href="https://notes.dedenf.com/blog/2013/10/31/how-coffee-transformed-life/"/>
+   <link href="http://localhost:4000/blog/2013/10/31/how-coffee-transformed-life/"/>
    <updated>2013-10-31T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/10/31/how-coffee-transformed-life</id>
+   <id>http://localhost:4000/blog/2013/10/31/how-coffee-transformed-life</id>
    <content type="html">&lt;p&gt;watching at this video, i’m envy to the people who found their passion and they love doing what the wanted to do.
 it’s not just the coffee, it’s their story that makes this talk is thoughtful.&lt;/p&gt;
 
@@ -657,9 +656,9 @@ it’s not just the coffee, it’s their story that makes this talk is thoughtfu
  
  <entry>
    <title>Violent</title>
-   <link href="https://notes.dedenf.com/blog/2013/10/30/quote-one/"/>
+   <link href="http://localhost:4000/blog/2013/10/30/quote-one/"/>
    <updated>2013-10-30T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/10/30/quote-one</id>
+   <id>http://localhost:4000/blog/2013/10/30/quote-one</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;The most violent element in society is ignorance&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -670,9 +669,9 @@ it’s not just the coffee, it’s their story that makes this talk is thoughtfu
  
  <entry>
    <title>Perfect Day</title>
-   <link href="https://notes.dedenf.com/blog/2013/10/30/perfect-day/"/>
+   <link href="http://localhost:4000/blog/2013/10/30/perfect-day/"/>
    <updated>2013-10-30T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/10/30/perfect-day</id>
+   <id>http://localhost:4000/blog/2013/10/30/perfect-day</id>
    <content type="html">&lt;p&gt;I heard &lt;a href=&quot;http://en.wikipedia.org/wiki/Lou_Reed&quot;&gt;Lou reed&lt;/a&gt; from a friend when i was in college, and this is the first song i’ve been listening to, love it. sadly he &lt;a href=&quot;http://www.rollingstone.com/music/news/lou-reed-velvet-underground-leader-and-rock-pioneer-dead-at-71-20131027&quot;&gt;died at 71&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;♫ &lt;a href=&quot;http://ex.fm/song/1gk8jg&quot;&gt;Lou Reed - Perfect Day&lt;/a&gt;&lt;/p&gt;
@@ -683,9 +682,9 @@ it’s not just the coffee, it’s their story that makes this talk is thoughtfu
  
  <entry>
    <title>Music pick - Asobi Seksu</title>
-   <link href="https://notes.dedenf.com/blog/2013/10/30/farewell/"/>
+   <link href="http://localhost:4000/blog/2013/10/30/farewell/"/>
    <updated>2013-10-30T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/10/30/farewell</id>
+   <id>http://localhost:4000/blog/2013/10/30/farewell</id>
    <content type="html">&lt;p&gt;Just yesterday i heard about Asobi Seksu, when i’m browsing at last.fm looking for &lt;a href=&quot;http://www.last.fm/music/Blonde+Redhead&quot;&gt;Blonde Readhead&lt;/a&gt; entries, and stumble upon &lt;a href=&quot;http://www.last.fm/music/Asobi+Seksu/&quot;&gt;Asobi Seksu&lt;/a&gt;, and found their music is also mesmerizing.&lt;/p&gt;
 
 &lt;p&gt;♫ &lt;a href=&quot;https://soundcloud.com/sargent-house/asobi-seksu-farewell&quot;&gt;Asobi Seksu - Farewell&lt;/a&gt;&lt;/p&gt;
@@ -696,9 +695,9 @@ it’s not just the coffee, it’s their story that makes this talk is thoughtfu
  
  <entry>
    <title>Disconnected</title>
-   <link href="https://notes.dedenf.com/blog/2013/10/19/disconnected/"/>
+   <link href="http://localhost:4000/blog/2013/10/19/disconnected/"/>
    <updated>2013-10-19T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/10/19/disconnected</id>
+   <id>http://localhost:4000/blog/2013/10/19/disconnected</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.elezea.com/2012/11/a-life-less-posted/&quot;&gt;A life less posted&lt;/a&gt;, a story about how awesome we could spend our time with our significant other, without a ‘burden’ to share, a ‘burden’ about how we socialize with others. Some might say that if we’re not on facebook or other social media site, we didn’t exist.&lt;/p&gt;
 
 &lt;p&gt;we share almost everything, what we eat, what we wear, who we go out, and we share our own children, post them online with no consideration whatsoever. is that good or bad? i don’t know.&lt;/p&gt;
@@ -707,9 +706,9 @@ it’s not just the coffee, it’s their story that makes this talk is thoughtfu
  
  <entry>
    <title>How you enjoy your coffee?</title>
-   <link href="https://notes.dedenf.com/blog/2013/09/30/how-you-enjoy-your-coffee/"/>
+   <link href="http://localhost:4000/blog/2013/09/30/how-you-enjoy-your-coffee/"/>
    <updated>2013-09-30T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/09/30/how-you-enjoy-your-coffee</id>
+   <id>http://localhost:4000/blog/2013/09/30/how-you-enjoy-your-coffee</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/OA8tMR9.jpg&quot; alt=&quot;coffee bean&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Do you love coffee? i know i do, got enough plenty variety of coffee in my house, and some processing tools that helps me enjoy my coffee.
@@ -721,9 +720,9 @@ i know i love it, and of course enjoy it, i love to choose my beans, i love grin
  
  <entry>
    <title>Something in the air</title>
-   <link href="https://notes.dedenf.com/blog/2013/09/19/something-in-the-air/"/>
+   <link href="http://localhost:4000/blog/2013/09/19/something-in-the-air/"/>
    <updated>2013-09-19T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/09/19/something-in-the-air</id>
+   <id>http://localhost:4000/blog/2013/09/19/something-in-the-air</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;you won’t have THAT something in the air if all the air is being sucked away.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -738,9 +737,9 @@ from &lt;a href=&quot;http://vimeo.com/sandwichvideo&quot;&gt;Sandwich Video&lt;
  
  <entry>
    <title>Wish You Were Here</title>
-   <link href="https://notes.dedenf.com/blog/2013/08/30/pink-floyd-wish-you-were-here/"/>
+   <link href="http://localhost:4000/blog/2013/08/30/pink-floyd-wish-you-were-here/"/>
    <updated>2013-08-30T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/08/30/pink-floyd-wish-you-were-here</id>
+   <id>http://localhost:4000/blog/2013/08/30/pink-floyd-wish-you-were-here</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://25.media.tumblr.com/tumblr_m7dxps5BGw1rbrdrco1_500.jpg&quot; alt=&quot;wish you were here&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -754,9 +753,9 @@ Swimming in a fish bowl&lt;/p&gt;
  
  <entry>
    <title>Current reading list</title>
-   <link href="https://notes.dedenf.com/blog/2013/08/14/reading-list/"/>
+   <link href="http://localhost:4000/blog/2013/08/14/reading-list/"/>
    <updated>2013-08-14T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/08/14/reading-list</id>
+   <id>http://localhost:4000/blog/2013/08/14/reading-list</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.computerandvideogames.com/421728/features/the-boy-who-beat-ocarina-of-time-in-22-minutes/&quot;&gt;The boy who beat Ocarina of Time in 22 minutes&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://blog.bufferapp.com/10-scientifically-proven-ways-to-make-yourself-happier&quot;&gt;10 Simple Things You Can Do Today That Will Make You Happier, Backed By Science&lt;/a&gt;&lt;/li&gt;
@@ -768,9 +767,9 @@ Swimming in a fish bowl&lt;/p&gt;
  
  <entry>
    <title>The Most Astounding Fact</title>
-   <link href="https://notes.dedenf.com/blog/2013/08/02/most-astounding-fact/"/>
+   <link href="http://localhost:4000/blog/2013/08/02/most-astounding-fact/"/>
    <updated>2013-08-02T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/08/02/most-astounding-fact</id>
+   <id>http://localhost:4000/blog/2013/08/02/most-astounding-fact</id>
    <content type="html">&lt;iframe src=&quot;http://player.vimeo.com/video/38101676?color=00c4ff&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href=&quot;http://vimeo.com/38101676&quot;&gt;The Most Astounding Fact&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/maxschlick&quot;&gt;Max Schlickenmeyer&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 </content>
@@ -778,21 +777,21 @@ Swimming in a fish bowl&lt;/p&gt;
  
  <entry>
    <title>Spoofing mac address</title>
-   <link href="https://notes.dedenf.com/blog/2013/07/02/spoofing-mac-address/"/>
+   <link href="http://localhost:4000/blog/2013/07/02/spoofing-mac-address/"/>
    <updated>2013-07-02T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/07/02/spoofing-mac-address</id>
+   <id>http://localhost:4000/blog/2013/07/02/spoofing-mac-address</id>
    <content type="html">&lt;p&gt;another tool that i use for covering my ass from tracking beside my tunnel tool, i use &lt;a href=&quot;https://github.com/feross/SpoofMAC&quot;&gt;spoof-mac&lt;/a&gt;, a python library that can be called from your lovely terminal, you could install it via &lt;code class=&quot;highlighter-rouge&quot;&gt;pip install SpoofMAC&lt;/code&gt;.
 run &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo spoof-mac randomize wi-fi&lt;/code&gt; and you’ll get a random mac address assigned to your ether. you could set the spoof-mac to run everytime you boot up your machine and before joining the network (see their github project).&lt;/p&gt;
 
-&lt;p&gt;or maybe if you don’t want to install spoof-mac you could always use good old fashion &lt;code class=&quot;highlighter-rouge&quot;&gt;ifconfig&lt;/code&gt; by runnning this command &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo ifconfig en0 ether xx:xx:xx:xx:xx:xx&lt;/code&gt; (remember, use hex for macaddr). or you can use a generated value by using this &lt;code class=&quot;highlighter-rouge&quot;&gt;openssl rand -hex 6 | sed &#39;s/\(..\)/\1:/g; s/.$//&#39;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;or maybe if you don’t want to install spoof-mac you could always use good old fashion &lt;code class=&quot;highlighter-rouge&quot;&gt;ifconfig&lt;/code&gt; by runnning this command &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo ifconfig en0 ether xx:xx:xx:xx:xx:xx&lt;/code&gt; (remember, use hex for macaddr). or you can use a generated value by using this &lt;code class=&quot;highlighter-rouge&quot;&gt;openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'&lt;/code&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>My ten most frequent Command line</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/29/ten-cli-command/"/>
+   <link href="http://localhost:4000/blog/2013/06/29/ten-cli-command/"/>
    <updated>2013-06-29T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/29/ten-cli-command</id>
+   <id>http://localhost:4000/blog/2013/06/29/ten-cli-command</id>
    <content type="html">&lt;p&gt;this is &lt;a href=&quot;https://coderwall.com/p/o5qijw&quot;&gt;the tip post&lt;/a&gt; from coderwall, and here’s my result.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/Kp2djiL.png&quot; alt=&quot;10 commands&quot; /&gt;&lt;/p&gt;
@@ -801,9 +800,9 @@ run &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo spoof-mac randomize wi-
  
  <entry>
    <title>I hate SVN</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/21/hate-svn/"/>
+   <link href="http://localhost:4000/blog/2013/06/21/hate-svn/"/>
    <updated>2013-06-21T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/21/hate-svn</id>
+   <id>http://localhost:4000/blog/2013/06/21/hate-svn</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;svn: The path ‘.’ appears to be part of a Subversion 1.7 or greater working copy.
 Please upgrade your Subversion client to use this to your bash profile. working copy.&lt;/p&gt;
@@ -813,18 +812,18 @@ Please upgrade your Subversion client to use this to your bash profile. working 
  
  <entry>
    <title>Tmux copy paste with mouse on MacOSX</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/19/tmux-copy-paste/"/>
+   <link href="http://localhost:4000/blog/2013/06/19/tmux-copy-paste/"/>
    <updated>2013-06-19T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/19/tmux-copy-paste</id>
+   <id>http://localhost:4000/blog/2013/06/19/tmux-copy-paste</id>
    <content type="html">&lt;p&gt;using &lt;a href=&quot;http://tmux.sourceforge.net&quot;&gt;tmux&lt;/a&gt; is great for your productivity. so, by default tmux is not capable doing copy pasting using your mouse by dragging text and then right click copy as usual. here’s what you can do, by pressing &lt;code class=&quot;highlighter-rouge&quot;&gt;option&lt;/code&gt; and select what text that you want to copy at the same time.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Want! Selvedge Sleeves</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/15/selvedge-sleeves/"/>
+   <link href="http://localhost:4000/blog/2013/06/15/selvedge-sleeves/"/>
    <updated>2013-06-15T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/15/selvedge-sleeves</id>
+   <id>http://localhost:4000/blog/2013/06/15/selvedge-sleeves</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://uncrate.com/p/2010/11/selvedge-sleeves-xl.jpg&quot; alt=&quot;Selvedge Sleeves&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Denim! WANT!&lt;/p&gt;
@@ -835,9 +834,9 @@ Please upgrade your Subversion client to use this to your bash profile. working 
  
  <entry>
    <title>Time-lapse of the Galactic Center</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/15/galactic-center/"/>
+   <link href="http://localhost:4000/blog/2013/06/15/galactic-center/"/>
    <updated>2013-06-15T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/15/galactic-center</id>
+   <id>http://localhost:4000/blog/2013/06/15/galactic-center</id>
    <content type="html">&lt;p&gt;Galactic Center at zenith Paranal observatory, a whole sky time-lapse video of the galactic center by Astrophotographer &lt;a href=&quot;http://vimeo.com/sguisard&quot;&gt;Stéphane Guisard&lt;/a&gt;&lt;/p&gt;
 
 &lt;iframe src=&quot;http://player.vimeo.com/video/68260417&quot; width=&quot;550&quot; height=&quot;350&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -850,9 +849,9 @@ Please upgrade your Subversion client to use this to your bash profile. working 
  
  <entry>
    <title>Full path info on title</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/14/st-fullpath/"/>
+   <link href="http://localhost:4000/blog/2013/06/14/st-fullpath/"/>
    <updated>2013-06-14T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/14/st-fullpath</id>
+   <id>http://localhost:4000/blog/2013/06/14/st-fullpath</id>
    <content type="html">&lt;p&gt;if you want to have full path information in your sublime text window title. open User preference, add this line.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -863,9 +862,9 @@ Please upgrade your Subversion client to use this to your bash profile. working 
  
  <entry>
    <title>Another Google reader alternative</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/14/google-reader-alt/"/>
+   <link href="http://localhost:4000/blog/2013/06/14/google-reader-alt/"/>
    <updated>2013-06-14T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/14/google-reader-alt</id>
+   <id>http://localhost:4000/blog/2013/06/14/google-reader-alt</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/yg6WuL0.png&quot; alt=&quot;readable.css&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As we may know, Google will shutdown google reader, a much beloved rss reader/service that many users have used it as their daily activity. i’ve been using Google reader for a long time, as alternative i’ve found &lt;a href=&quot;http://theoldreader.com/&quot;&gt;The Old Reader&lt;/a&gt; as my replacement for Google Reader, Today i found about &lt;a href=&quot;http://readable.cc/&quot;&gt;redable.cc&lt;/a&gt;.&lt;/p&gt;
@@ -877,9 +876,9 @@ Think i might use it for a while.&lt;/p&gt;
  
  <entry>
    <title>Reading List</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/13/reading-list/"/>
+   <link href="http://localhost:4000/blog/2013/06/13/reading-list/"/>
    <updated>2013-06-13T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/13/reading-list</id>
+   <id>http://localhost:4000/blog/2013/06/13/reading-list</id>
    <content type="html">&lt;p&gt;reading list this week, still digging about API, its scale, optimization, what kinda resource do i need for upcoming/current project.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -894,17 +893,19 @@ Friend of mine is building an API for the app that one of the largest telco comp
  
  <entry>
    <title>Eye tracking study on CamelCase and under_score style</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/13/eye-tracking-study/"/>
+   <link href="http://localhost:4000/blog/2013/06/13/eye-tracking-study/"/>
    <updated>2013-06-13T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/13/eye-tracking-study</id>
+   <id>http://localhost:4000/blog/2013/06/13/eye-tracking-study</id>
    <content type="html">&lt;p&gt;Title:
 Date: 2013-06-13 00:00
 Tags:&lt;/p&gt;
 
 &lt;p&gt;A &lt;a href=&quot;http://www.cs.kent.edu/~jmaletic/papers/ICPC2010-CamelCaseUnderScoreClouds.pdf&quot;&gt;study&lt;/a&gt; by Bonita Sharif and Jonathan I. Maletic from Department of Computer Science
-Kent State University about how the eye response to camelCase and under_score indentifier, or might be function or variable naming style.
-&amp;gt;Visual effort is determined using six measures based on eye gaze data namely: fixation counts and durations. Although, no
+Kent State University about how the eye response to camelCase and under_score indentifier, or might be function or variable naming style.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Visual effort is determined using six measures based on eye gaze data namely: fixation counts and durations. Although, no
 difference was found between identifier styles with respect to accuracy, results indicate a significant improvement in time and lower visual effort with the underscore style.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;personally, i like underscore rather than camelCase, it’s more readable and concise, and easily to read between word.&lt;/p&gt;
 
@@ -914,9 +915,9 @@ difference was found between identifier styles with respect to accuracy, results
  
  <entry>
    <title>Mixtape Breathe</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/12/mixtape-breathe/"/>
+   <link href="http://localhost:4000/blog/2013/06/12/mixtape-breathe/"/>
    <updated>2013-06-12T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/12/mixtape-breathe</id>
+   <id>http://localhost:4000/blog/2013/06/12/mixtape-breathe</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://8tracks.imgix.net/i/000/423/929/c/bbr-3640.jpg&quot; alt=&quot;breathe&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;this mixtape was made for my significant other. still, it has genre of Triphop, electronic, ambient and post-rock. featured artist is Télépopmusik, Dido, and indonesian Triphop/electronic group &lt;a href=&quot;http://www.last.fm/music/Homogenic&quot;&gt;Homogenic&lt;/a&gt;!&lt;/p&gt;
@@ -940,9 +941,9 @@ difference was found between identifier styles with respect to accuracy, results
  
  <entry>
    <title>16 common mistake young startup make</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/12/common-startup-mistake/"/>
+   <link href="http://localhost:4000/blog/2013/06/12/common-startup-mistake/"/>
    <updated>2013-06-12T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/12/common-startup-mistake</id>
+   <id>http://localhost:4000/blog/2013/06/12/common-startup-mistake</id>
    <content type="html">&lt;p&gt;mashable has wrapup the that mistake by young startup often did, here’s the recap.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -972,9 +973,9 @@ difference was found between identifier styles with respect to accuracy, results
  
  <entry>
    <title>Server Name</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/11/server-name/"/>
+   <link href="http://localhost:4000/blog/2013/06/11/server-name/"/>
    <updated>2013-06-11T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/11/server-name</id>
+   <id>http://localhost:4000/blog/2013/06/11/server-name</id>
    <content type="html">&lt;p&gt;as been discussed on id-gmail mailing list, naming a server name is hard, sometimes you have to pick a theme for your servers, there’s some who named their server using mountain name, or using Myth Gods names, and sometime some lady’s names like dewi, julie.
 it’s hard because sometimes once you named one of your server you should know its purpose, its capabilities based on their representative name, for example Zeus, it’s a main server that have a significant purpose on the network.&lt;/p&gt;
 
@@ -986,9 +987,9 @@ it’s hard because sometimes once you named one of your server you should know 
  
  <entry>
    <title>My dream backup scheme</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/11/my-dream-backup-scheme/"/>
+   <link href="http://localhost:4000/blog/2013/06/11/my-dream-backup-scheme/"/>
    <updated>2013-06-11T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/11/my-dream-backup-scheme</id>
+   <id>http://localhost:4000/blog/2013/06/11/my-dream-backup-scheme</id>
    <content type="html">&lt;p&gt;Hey it’s rhyme!
 on my system right now, i have two timemachine who backed up my entire system, one i had it on my whole dedicated external drive, it’s an old 320GB Seagate drive, and in my &lt;a href=&quot;http://en.wikipedia.org/wiki/Direct_Attached_Storage&quot;&gt;DAS&lt;/a&gt; system (i named it “Kimu Garden”, because it’s sounds beautiful) as a backup in sparsedisk image.&lt;/p&gt;
 
@@ -1004,9 +1005,9 @@ on my system right now, i have two timemachine who backed up my entire system, o
  
  <entry>
    <title>Postman</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/08/postman/"/>
+   <link href="http://localhost:4000/blog/2013/06/08/postman/"/>
    <updated>2013-06-08T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/08/postman</id>
+   <id>http://localhost:4000/blog/2013/06/08/postman</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/IFgsFPM.jpg&quot; alt=&quot;postman&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;at my &lt;a href=&quot;https://coderwall.com/dedenf&quot;&gt;coderwall&lt;/a&gt; page, i wrote about &lt;a href=&quot;https://coderwall.com/p/kw6mbg?i=2&amp;amp;p=1&amp;amp;q=author%3Adedenf&amp;amp;t%5B%5D=dedenf&quot; title=&quot;osx http client url&quot;&gt;OSX HTTP client&lt;/a&gt;, it’s a great app, but sometimes i want more of it, i want to craft the request intuitively with easy option to set up, and i want it without have to open another app.&lt;/p&gt;
@@ -1021,9 +1022,9 @@ on my system right now, i have two timemachine who backed up my entire system, o
  
  <entry>
    <title>Run</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/07/runnnn/"/>
+   <link href="http://localhost:4000/blog/2013/06/07/runnnn/"/>
    <updated>2013-06-07T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/07/runnnn</id>
+   <id>http://localhost:4000/blog/2013/06/07/runnnn</id>
    <content type="html">&lt;iframe src=&quot;http://player.vimeo.com/video/67676730&quot; width=&quot;600&quot; height=&quot;311&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;em&gt;i wanna run&lt;/em&gt;&lt;/p&gt;
@@ -1032,9 +1033,9 @@ on my system right now, i have two timemachine who backed up my entire system, o
  
  <entry>
    <title>Infrastructure as code</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/07/infrastructure-as-code/"/>
+   <link href="http://localhost:4000/blog/2013/06/07/infrastructure-as-code/"/>
    <updated>2013-06-07T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/07/infrastructure-as-code</id>
+   <id>http://localhost:4000/blog/2013/06/07/infrastructure-as-code</id>
    <content type="html">&lt;iframe src=&quot;http://www.slideshare.net/slideshow/embed_code/21814324&quot; width=&quot;490&quot; height=&quot;400&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/jedi4ever/infrastructure-as-code-abug-session&quot; title=&quot;Infrastructure as Code - ABUG Session&quot;&gt;Infrastructure as Code - ABUG Session&lt;/a&gt; from &lt;a href=&quot;http://www.slideshare.net/jedi4ever&quot;&gt;Patrick Debois&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -1042,9 +1043,9 @@ on my system right now, i have two timemachine who backed up my entire system, o
  
  <entry>
    <title>Every WWDC Banner Ever For The Last 11 Years</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/06/wwdc-11-years-banner/"/>
+   <link href="http://localhost:4000/blog/2013/06/06/wwdc-11-years-banner/"/>
    <updated>2013-06-06T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/06/wwdc-11-years-banner</id>
+   <id>http://localhost:4000/blog/2013/06/06/wwdc-11-years-banner</id>
    <content type="html">&lt;p&gt;impressive collection of WWDC banner for 11 years.&lt;/p&gt;
 
 &lt;p&gt;(via &lt;a href=&quot;http://www.cultofmac.com/171434/every-wwdc-banner-ever-for-the-last-10-years-gallery/&quot;&gt;@cultofmac&lt;/a&gt;)&lt;/p&gt;
@@ -1053,9 +1054,9 @@ on my system right now, i have two timemachine who backed up my entire system, o
  
  <entry>
    <title>Mixtape apart</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/06/mixtape-apart/"/>
+   <link href="http://localhost:4000/blog/2013/06/06/mixtape-apart/"/>
    <updated>2013-06-06T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/06/mixtape-apart</id>
+   <id>http://localhost:4000/blog/2013/06/06/mixtape-apart</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imgix.8tracks.com/i/000/407/643/c/apart-3255.png&quot; alt=&quot;apart&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;currently listening to blue october lately, especially 18th Floor Balcony. and there also daft punk’s newest album.
@@ -1081,9 +1082,9 @@ this mixtape consist 11 tracks.&lt;/p&gt;
  
  <entry>
    <title>Installing Laravel 4, oneliner</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/05/oneline-laravel/"/>
+   <link href="http://localhost:4000/blog/2013/06/05/oneline-laravel/"/>
    <updated>2013-06-05T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/05/oneline-laravel</id>
+   <id>http://localhost:4000/blog/2013/06/05/oneline-laravel</id>
    <content type="html">&lt;p&gt;downloading package or setup composer.json could become a hassle.
 instead, just go with this one line of command on terminal. make sure you already installed composer and put it in the system wide bin (eg. /usr/local/bin/).&lt;/p&gt;
 
@@ -1097,9 +1098,9 @@ instead, just go with this one line of command on terminal. make sure you alread
  
  <entry>
    <title>New office</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/05/new-office/"/>
+   <link href="http://localhost:4000/blog/2013/06/05/new-office/"/>
    <updated>2013-06-05T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/05/new-office</id>
+   <id>http://localhost:4000/blog/2013/06/05/new-office</id>
    <content type="html">&lt;p&gt;it’s been more than one month since i’m joining new office, my responsisbily now is as API developer, currently working at game publisher company, so much different from where i’ve been regarding the business process etc.&lt;/p&gt;
 
 &lt;p&gt;it’s always hard to leave my previous job, at least for me, more than three years working with wonderful team, so many jokes that we invented there, so many memories.
@@ -1115,18 +1116,18 @@ we also have a soon to be launch product, &lt;a href=&quot;http://kineria.com/&q
  
  <entry>
    <title>This is blasphemy, this is ...</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/05/blasphemy/"/>
+   <link href="http://localhost:4000/blog/2013/06/05/blasphemy/"/>
    <updated>2013-06-05T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/05/blasphemy</id>
+   <id>http://localhost:4000/blog/2013/06/05/blasphemy</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/eb10cjH.jpg&quot; alt=&quot;this..&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Markdown with custom css class test</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/05/big-text/"/>
+   <link href="http://localhost:4000/blog/2013/06/05/big-text/"/>
    <updated>2013-06-05T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/05/big-text</id>
+   <id>http://localhost:4000/blog/2013/06/05/big-text</id>
    <content type="html">&lt;p&gt;&lt;span class=&quot;big-text&quot;&gt;
 So, this &lt;span class=&quot;medium-big-text font-della&quot;&gt;should&lt;/span&gt; be a &lt;span class=&quot;very-big font-sail&quot;&gt;big&lt;/span&gt; text
 &lt;/span&gt;&lt;/p&gt;
@@ -1135,9 +1136,9 @@ So, this &lt;span class=&quot;medium-big-text font-della&quot;&gt;should&lt;/spa
  
  <entry>
    <title>Mixtape Trip-ish</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/04/mixtape-one/"/>
+   <link href="http://localhost:4000/blog/2013/06/04/mixtape-one/"/>
    <updated>2013-06-04T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/04/mixtape-one</id>
+   <id>http://localhost:4000/blog/2013/06/04/mixtape-one</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imgix.8tracks.com/mix_covers/000/570/340/27602.original.jpg?fm=jpg&amp;amp;q=65&amp;amp;sharp=15&amp;amp;vib=10&amp;amp;w=1024&amp;amp;h=1024&amp;amp;fit=max&quot; alt=&quot;trip-ish&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;liked the mixtape, full of Triphop artist, like &lt;a href=&quot;http://en.wikipedia.org/wiki/Portishead_(band)&quot;&gt;Portishead&lt;/a&gt;, &lt;a href=&quot;http://en.wikipedia.org/wiki/Lamb_(band)&quot;&gt;Lamb&lt;/a&gt;, and many others.&lt;/p&gt;
@@ -1148,9 +1149,9 @@ So, this &lt;span class=&quot;medium-big-text font-della&quot;&gt;should&lt;/spa
  
  <entry>
    <title>How to negotiate, Steve Job's style.</title>
-   <link href="https://notes.dedenf.com/blog/2013/06/03/stevejobs-negotiate/"/>
+   <link href="http://localhost:4000/blog/2013/06/03/stevejobs-negotiate/"/>
    <updated>2013-06-03T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/06/03/stevejobs-negotiate</id>
+   <id>http://localhost:4000/blog/2013/06/03/stevejobs-negotiate</id>
    <content type="html">&lt;p&gt;in this &lt;a href=&quot;http://qz.com/87184/the-steve-jobs-emails-that-show-how-to-win-a-hard-nosed-negotiation/&quot;&gt;post&lt;/a&gt;, it shows how steve jobs negotiate with HarperCollins.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -1161,18 +1162,18 @@ So, this &lt;span class=&quot;medium-big-text font-della&quot;&gt;should&lt;/spa
  
  <entry>
    <title>Something you know</title>
-   <link href="https://notes.dedenf.com/blog/2013/05/01/something-you-know/"/>
+   <link href="http://localhost:4000/blog/2013/05/01/something-you-know/"/>
    <updated>2013-05-01T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/05/01/something-you-know</id>
+   <id>http://localhost:4000/blog/2013/05/01/something-you-know</id>
    <content type="html">&lt;p&gt;Jetpants is an automation toolkit for handling monstrously large MySQL database topologies. It is geared towards common operational tasks like cloning slaves, rebalancing shards, and performing master promotions. It features a command suite for easy use by operations staff, though it’s also a full Ruby library for use in developing custom migration scripts and database automation.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Google Reader</title>
-   <link href="https://notes.dedenf.com/blog/2013/03/21/google-reader/"/>
+   <link href="http://localhost:4000/blog/2013/03/21/google-reader/"/>
    <updated>2013-03-21T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/03/21/google-reader</id>
+   <id>http://localhost:4000/blog/2013/03/21/google-reader</id>
    <content type="html">&lt;p&gt;Google reader will say its goodbye on July 1st 2013..&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/H1Sumib.png&quot; alt=&quot;my reading history&quot; /&gt;&lt;/p&gt;
@@ -1181,9 +1182,9 @@ So, this &lt;span class=&quot;medium-big-text font-della&quot;&gt;should&lt;/spa
  
  <entry>
    <title>Grown up</title>
-   <link href="https://notes.dedenf.com/blog/2013/03/20/grown-ups/"/>
+   <link href="http://localhost:4000/blog/2013/03/20/grown-ups/"/>
    <updated>2013-03-20T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/03/20/grown-ups</id>
+   <id>http://localhost:4000/blog/2013/03/20/grown-ups</id>
    <content type="html">&lt;p&gt;read a post from &lt;a href=&quot;http://daltoncaldwell.com/&quot;&gt;dalton caldwell&lt;/a&gt; about &lt;a href=&quot;http://daltoncaldwell.com/touring-by-yourself&quot;&gt;Touring yourself&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;i love this quote&lt;/p&gt;
@@ -1200,9 +1201,9 @@ So, this &lt;span class=&quot;medium-big-text font-della&quot;&gt;should&lt;/spa
  
  <entry>
    <title>Hipsterized commit</title>
-   <link href="https://notes.dedenf.com/blog/2013/03/06/hispterize-commit/"/>
+   <link href="http://localhost:4000/blog/2013/03/06/hispterize-commit/"/>
    <updated>2013-03-06T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/03/06/hispterize commit</id>
+   <id>http://localhost:4000/blog/2013/03/06/hispterize commit</id>
    <content type="html">&lt;p&gt;After adding current listened track into my commit message, now i’m adding the action, i take picture everytime commiting something. here’s how.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -1225,9 +1226,9 @@ imagesnap -q -w 1 .gitsnap/&lt;span class=&quot;nv&quot;&gt;$COMMITID&lt;/span&g
  
  <entry>
    <title>How to stop procrastination</title>
-   <link href="https://notes.dedenf.com/blog/2013/02/28/stop-procrastination/"/>
+   <link href="http://localhost:4000/blog/2013/02/28/stop-procrastination/"/>
    <updated>2013-02-28T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/02/28/stop-procrastination</id>
+   <id>http://localhost:4000/blog/2013/02/28/stop-procrastination</id>
    <content type="html">&lt;p&gt;did you always stuck in the morning reading news, hundred of rss feed, Flipboarding(?), and last but not least, Twitter or Facebook. they can suck all of your productive time.&lt;/p&gt;
 
 &lt;p&gt;but there’s a way to satisfy your need to tweets or update you status. you can use the tool that [hipster(?)] developer already knows, GIT.&lt;/p&gt;
@@ -1242,9 +1243,9 @@ imagesnap -q -w 1 .gitsnap/&lt;span class=&quot;nv&quot;&gt;$COMMITID&lt;/span&g
  
  <entry>
    <title>Git commit and mood</title>
-   <link href="https://notes.dedenf.com/blog/2013/02/27/git-commit-and-mood/"/>
+   <link href="http://localhost:4000/blog/2013/02/27/git-commit-and-mood/"/>
    <updated>2013-02-27T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/02/27/git-commit-and-mood</id>
+   <id>http://localhost:4000/blog/2013/02/27/git-commit-and-mood</id>
    <content type="html">&lt;p&gt;many developers push their code to git repo with funny or sometimes silly comments (i do that sometimes) like this &lt;a href=&quot;http://whatthecommit.com/&quot;&gt;whatthecommit&lt;/a&gt; site, but maybe it will be more hips (like hipsters do) if i can fetch last.fm api from current listened music and add them to my commit message.&lt;/p&gt;
 
 &lt;p&gt;here’s the idea&lt;/p&gt;
@@ -1264,18 +1265,18 @@ so if we browse the log it will be shown &lt;code class=&quot;highlighter-rouge&
  
  <entry>
    <title>It means we are productive</title>
-   <link href="https://notes.dedenf.com/blog/2013/02/26/git-commit/"/>
+   <link href="http://localhost:4000/blog/2013/02/26/git-commit/"/>
    <updated>2013-02-26T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/02/26/git-commit</id>
+   <id>http://localhost:4000/blog/2013/02/26/git-commit</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/evpKeCw.png&quot; alt=&quot;commit&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Mou &#9829; scriptogr.am</title>
-   <link href="https://notes.dedenf.com/blog/2013/02/11/mou-scriptogram/"/>
+   <link href="http://localhost:4000/blog/2013/02/11/mou-scriptogram/"/>
    <updated>2013-02-11T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/02/11/mou-scriptogram</id>
+   <id>http://localhost:4000/blog/2013/02/11/mou-scriptogram</id>
    <content type="html">&lt;p&gt;i know it’s late, but just stumbling that we can post to &lt;a href=&quot;http://scriptogr.am&quot;&gt;scriptogr.am&lt;/a&gt; via &lt;a href=&quot;http://mouapp.com/&quot;&gt;Mou&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/RROdN0e.png&quot; alt=&quot;scriptogr.am ID from Mou app&quot; /&gt;&lt;/p&gt;
@@ -1286,9 +1287,9 @@ so if we browse the log it will be shown &lt;code class=&quot;highlighter-rouge&
  
  <entry>
    <title>The Charts that you need</title>
-   <link href="https://notes.dedenf.com/blog/2013/02/07/three-charts/"/>
+   <link href="http://localhost:4000/blog/2013/02/07/three-charts/"/>
    <updated>2013-02-07T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/02/07/three-charts</id>
+   <id>http://localhost:4000/blog/2013/02/07/three-charts</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://37signals.com/svn/writers/noah&quot;&gt;Noah&lt;/a&gt; at 37signal made a list about the chart that he need to display data.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -1305,9 +1306,9 @@ so if we browse the log it will be shown &lt;code class=&quot;highlighter-rouge&
  
  <entry>
    <title>Vagrantfile for everyday use</title>
-   <link href="https://notes.dedenf.com/blog/2013/02/06/vagrant-everyday/"/>
+   <link href="http://localhost:4000/blog/2013/02/06/vagrant-everyday/"/>
    <updated>2013-02-06T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/02/06/vagrant-everyday</id>
+   <id>http://localhost:4000/blog/2013/02/06/vagrant-everyday</id>
    <content type="html">&lt;p&gt;built up this repo to share my everyday use vagrant configuration on my local machine, i use Centos 6.3 as my basebox, there’s 3 instance right now, running different purposes, talk to each other, they having threesome.&lt;/p&gt;
 
 &lt;p&gt;clone, fork &lt;code class=&quot;highlighter-rouge&quot;&gt;https://github.com/dedenf/vagrant&lt;/code&gt;&lt;/p&gt;
@@ -1316,9 +1317,9 @@ so if we browse the log it will be shown &lt;code class=&quot;highlighter-rouge&
  
  <entry>
    <title>It's been a while</title>
-   <link href="https://notes.dedenf.com/blog/2013/02/06/been-a-while/"/>
+   <link href="http://localhost:4000/blog/2013/02/06/been-a-while/"/>
    <updated>2013-02-06T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2013/02/06/been-a-while</id>
+   <id>http://localhost:4000/blog/2013/02/06/been-a-while</id>
    <content type="html">&lt;p&gt;yeapno&lt;/p&gt;
 
 </content>
@@ -1326,9 +1327,9 @@ so if we browse the log it will be shown &lt;code class=&quot;highlighter-rouge&
  
  <entry>
    <title>What a day</title>
-   <link href="https://notes.dedenf.com/blog/2012/02/22/what-a-day/"/>
+   <link href="http://localhost:4000/blog/2012/02/22/what-a-day/"/>
    <updated>2012-02-22T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2012/02/22/what-a-day</id>
+   <id>http://localhost:4000/blog/2012/02/22/what-a-day</id>
    <content type="html">&lt;p&gt;yesterday, a site that i help build, &lt;a href=&quot;http://wujudkan.com&quot;&gt;wujudkan.com&lt;/a&gt; is launched, for those who don’t know wujudkan is, it’s a crowd funding site, that helps creative talent, or someone who wants to build something and need some fundings.&lt;/p&gt;
 
 &lt;p&gt;it took a lot of confident to launch it, since so many little things that we have to handle, from the working codes, redactional text, email etc. from many startup advice, launch as soon as possible is essential, to get users feedback you have to launch your product, to get to know what is wrong with your app is launch it. so by today, i look at the Google Analytics, it was quite good, from the developers perspective, the site is running just fine, no choke, no database overload, maybe because the traffic is just average (dunno, though).&lt;/p&gt;
@@ -1345,9 +1346,9 @@ so if we browse the log it will be shown &lt;code class=&quot;highlighter-rouge&
  
  <entry>
    <title>Modernizr vs IE</title>
-   <link href="https://notes.dedenf.com/blog/2012/02/20/modernizr-vs-ie/"/>
+   <link href="http://localhost:4000/blog/2012/02/20/modernizr-vs-ie/"/>
    <updated>2012-02-20T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2012/02/20/modernizr-vs-ie</id>
+   <id>http://localhost:4000/blog/2012/02/20/modernizr-vs-ie</id>
    <content type="html">&lt;p&gt;Today, i’ve found out something weird, we took an internal launch of our newly developed app that display numerous graph and statistics, it went crash. not the app, but the browser, and you can guess, it’s IE.&lt;/p&gt;
 
 &lt;p&gt;From IE6 on XP sp2 until IE8 on windows 7, it all went crash, first i thought about many ‘add-ons’ like Yahoo! websearch (curse you!), and other kind of IE rubbish. i’m heading to the code to look something that might be not right, first i disabled header() from the code, but it’s not it, and the look at the doctype, maybe
@@ -1365,9 +1366,9 @@ so if we browse the log it will be shown &lt;code class=&quot;highlighter-rouge&
  
  <entry>
    <title>Codeigniter Cache Tips</title>
-   <link href="https://notes.dedenf.com/blog/2012/01/16/codeigniter-cache/"/>
+   <link href="http://localhost:4000/blog/2012/01/16/codeigniter-cache/"/>
    <updated>2012-01-16T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2012/01/16/codeigniter-cache</id>
+   <id>http://localhost:4000/blog/2012/01/16/codeigniter-cache</id>
    <content type="html">&lt;p&gt;Cache system in Codeigniter is a quite nice feature, thanks to its modular system, you can add more than just a built in cache system, you can add your own.&lt;/p&gt;
 
 &lt;p&gt;if you want to make an app with search feature, if you don’t implement cache feature in it, the app will always ask the database whether it has the data or not, this could make your database work for just a ‘historical’ data.
@@ -1381,9 +1382,9 @@ to make things faster, use cache. to get this cache (even it’s in-memory or in
  
  <entry>
    <title>Playing with Twitter Bootstrap</title>
-   <link href="https://notes.dedenf.com/blog/2012/01/12/playing-with-twitter-bootstrap/"/>
+   <link href="http://localhost:4000/blog/2012/01/12/playing-with-twitter-bootstrap/"/>
    <updated>2012-01-12T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2012/01/12/playing-with-twitter-bootstrap</id>
+   <id>http://localhost:4000/blog/2012/01/12/playing-with-twitter-bootstrap</id>
    <content type="html">&lt;p&gt;Been playing with twitter bootstrap for a while now, i’m considering to make this bootstrap template as my starting point of my project.&lt;/p&gt;
 
 &lt;p&gt;for the past 3 days, i’ve been working creating a &lt;a href=&quot;http://patungan.co&quot;&gt;patungan&lt;/a&gt; design template. lots of tear to create a slightly similar look to &lt;a href=&quot;http://kickstarter.com&quot;&gt;kickstarter&lt;/a&gt;.&lt;/p&gt;
@@ -1403,18 +1404,18 @@ for now, i’m making my own design system, taking from couple of source.&lt;/p&
  
  <entry>
    <title>Not To great</title>
-   <link href="https://notes.dedenf.com/blog/2012/01/09/not-to-great/"/>
+   <link href="http://localhost:4000/blog/2012/01/09/not-to-great/"/>
    <updated>2012-01-09T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2012/01/09/not-to-great</id>
+   <id>http://localhost:4000/blog/2012/01/09/not-to-great</id>
    <content type="html">&lt;p&gt;with all this deadline, i think i’m about to explode.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>If i were Facebook</title>
-   <link href="https://notes.dedenf.com/blog/2011/01/18/if-i-were-facebook/"/>
+   <link href="http://localhost:4000/blog/2011/01/18/if-i-were-facebook/"/>
    <updated>2011-01-18T00:00:00+07:00</updated>
-   <id>https://notes.dedenf.com/blog/2011/01/18/if-i-were-facebook</id>
+   <id>http://localhost:4000/blog/2011/01/18/if-i-were-facebook</id>
    <content type="html">&lt;p&gt;i will buy Last.fm.&lt;/p&gt;
 
 &lt;p&gt;create a ‘channel-app-like’, so we’ve got status stream (text), photos, video, and last but not least, Audio. that’s where Last.fm coming.&lt;/p&gt;

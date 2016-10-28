@@ -20,81 +20,91 @@
       Extensi file Virtual di Laravel &middot; notes
     
   </title>
-
   <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/milligram.min.css">
+  <!-- <link rel="stylesheet" href="/public/css/milligram.min.css">
   <link rel="stylesheet" href="/public/css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,400, 500, 700,700italic|Lato:400,700|Roboto+Slab">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"> -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/public/css/skel/normalize.css">
+  <link rel="stylesheet" href="/public/css/skel/skeleton.css">
+  <link rel="stylesheet" href="/public/css/skel/style.css">
+
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="https://notes.dedenf.com/images/sites/logo.png"/>
+  <link rel="shortcut icon" href="http://localhost:4000/images/sites/logo.png"/>
 
-  <link rel="canonical" href="https://notes.dedenf.com">
-  <link rel="image_src" href="https://notes.dedenf.comimages/sites/logo.png">
+  <link rel="canonical" href="http://localhost:4000">
+  <link rel="image_src" href="http://localhost:4000images/sites/logo.png">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/public/js/site.js"></script>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-38299976-3', 'auto');
-    ga('send', 'pageview');
-
-  </script>
 </head>
 
-  <body>
-    <main class="wrapper">
-      <nav class="navigation">
-        <section class="container">
+  <body class="code-snippets-visible">
 
-          <a class="navigation-title float-left" href="https://notes.dedenf.com">
-            <h1 class="title">my notes</h1>
-          </a>
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="section hero tophead">
+      <div class="container">
+        <div class="row">
 
-          <ul class="navigation-list float-right">
-            <li class="navigation-item">
-              <a class="navigation-link" href="/about/">About</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="/archive/">Archives</a>
-            </li>
-          </ul>
-        </section>
-      </nav>
-      <section class="container" id="post-content">
+          <div class="one-half column">
+            <div class="logotext">
+              <div class="container">
+                <h3 class="hero-heading"><a href="http://localhost:4000">on the hypertext.</a></h3>
+              </div>
+            </div>
+
+          </div>
+          <div class="one-half column" >
+            <!-- nav -->
+            <nav class="navbar">
+              <div class="container">
+                <ul class="navbar-list">
+                  <li class="navbar-item"><a class="navbar-link" href="/about/">About</a></li>
+                  <li class="navbar-item"><a class="navbar-link" href="/archive/">Archives</a></li>
+                </ul>
+              </div>
+            </nav>
+            <!-- end nav -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- body -->
+    <div class="container">
         <div class="post">
   <h1 class="post-title">Extensi file Virtual di Laravel</h1>
   <span class="post-date" style="display:inline-block;">24 August 2016</span>
   <p>Kasus ini terjadi karena hendak menggunakan Facebook dynamic ads, untuk memenuhi syarat yang ditulis di <a href="https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/product-catalog">dokumentasi facebook marketing</a>, dibutuhkan file XML sebagai data feeding ke marketing funnel feed.</p>
 
-<p>dalam percobaan pertama, hasil response yang digunakan adalah dengan menambahkan <code class="highlighter-rouge">Content-Type</code> dioutput, tapi ini tidak cukup, facebook feed fetcher tidak support hal ini, diharuskan berupa ektensi file. memang ada cara bagaimana untuk membuat file feed ini dengan menggunakan facebook Ads SDK, tetapi hal ini mengharuskan kita untuk meng-<em>update</em> <code class="highlighter-rouge">composer.json</code>, dan menambahkan library-nya.</p>
+<p>dalam percobaan pertama, hasil response yang digunakan adalah dengan menambahkan <code class="highlighter-rouge">Content-Type</code> dioutput, tapi ini tidak cukup, facebook feed fetcher tidak support hal ini, diharuskan berupa ektensi file. memang ada cara bagaimana untuk membuat file feed ini dengan menggunakan facebook Ads SDK, tetapi hal ini mengharuskan kita untuk meng-_update_ <code class="highlighter-rouge">composer.json</code>, dan menambahkan library-nya.</p>
 
 <p>ada cara yang lebih mudah, yaitu dengan menggunakan <code class="highlighter-rouge">routes.php</code>, dan mendeklarasikan ekstensi file (entah itu pdf, xml, csv dan lainnya),</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>    Route::get('/products/feed/{category}{extension?}', [
-        'uses' =&gt; 'ProductController@FacebookFeed',
-        'as' =&gt; 'facebook.feed',
-    ])-&gt;where([
-        'category' =&gt; '[a-zA-Z0-9-_]+',
-        'extension' =&gt; '\..+'
-    ]);
+<pre><code>
+        Route::get('/products/feed/{category}{extension?}', [
+            'uses' =&gt; 'ProductController@FacebookFeed',
+            'as' =&gt; 'facebook.feed',
+        ])-&gt;where([
+            'category' =&gt; '[a-zA-Z0-9-_]+',
+            'extension' =&gt; '\..+'
+        ]);
 </code></pre>
-</div>
-
-<p>dengan menggunakan entry routes di atas, kita memiliki kemudahan dalam men-<em>generate</em> file, berikut extensinya, di sini, akan terbuat url <code class="highlighter-rouge">https://www.example.com/products/feed/baju.xml</code></p>
+<p>dengan menggunakan entry routes di atas, kita memiliki kemudahan dalam men-_generate_ file, berikut extensinya, di sini, akan terbuat url <code class="highlighter-rouge">https://www.example.com/products/feed/baju.xml</code></p>
 
 <p>ini mirip dengan yang dulu pernah diimplementasikan di codeigniter.</p>
 
 <p>dengan cara ini kita bisa dengan mudah menggunakan extensi file semau kita, tanpa perlu ada aktual file-nya, dengan didukung oleh content-type dari hasil output kita.</p>
-
 
 
   
@@ -141,16 +151,27 @@
 
 
 
-      </section>
+
+              <footer class="footer">
+                <hr />
+                <h5>@dedenf</h5>
+              </footer>
+
+    </div>
+    <!-- /body -->
 
 
-      <footer class="footer">
-        <section class="container">
-          <p>notes.dedenf.com</p>
-        </section>
-      </footer>
 
-    </main>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-38299976-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/r298/run_prettify.js"></script>
   </body>
 </html>
