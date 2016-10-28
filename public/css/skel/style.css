@@ -80,7 +80,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-.page{
+.page, .post{
   margin:2em 0;
 }
 .title-link {
@@ -99,6 +99,17 @@
   color: #222;
   text-decoration: none;
   font-weight: 600;
+}
+.related-posts{
+
+}
+ul.related-posts h6 a{
+  font-size: .9em;
+  color: #222;
+  text-decoration: none;
+}
+ul.related-posts h6 a:hover{
+  text-decoration: underline;
 }
 /* Larger than phone */
 @media (min-width: 550px) {
