@@ -20,67 +20,77 @@
       notes &middot; on the HyperText
     
   </title>
-
   <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/milligram.min.css">
+  <!-- <link rel="stylesheet" href="/public/css/milligram.min.css">
   <link rel="stylesheet" href="/public/css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,400, 500, 700,700italic|Lato:400,700|Roboto+Slab">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"> -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/public/css/skel/normalize.css">
+  <link rel="stylesheet" href="/public/css/skel/skeleton.css">
+  <link rel="stylesheet" href="/public/css/skel/style.css">
+
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="https://notes.dedenf.com/images/sites/logo.png"/>
+  <link rel="shortcut icon" href="http://localhost:4000/images/sites/logo.png"/>
 
-  <link rel="canonical" href="https://notes.dedenf.com">
-  <link rel="image_src" href="https://notes.dedenf.comimages/sites/logo.png">
+  <link rel="canonical" href="http://localhost:4000">
+  <link rel="image_src" href="http://localhost:4000images/sites/logo.png">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/public/js/site.js"></script>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-38299976-3', 'auto');
-    ga('send', 'pageview');
-
-  </script>
 </head>
 
-  <body>
-    <main class="wrapper">
-      <nav class="navigation">
-        <section class="container">
+  <body class="code-snippets-visible">
 
-          <a class="navigation-title float-left" href="https://notes.dedenf.com">
-            <h1 class="title">my notes</h1>
-          </a>
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="section hero tophead">
+      <div class="container">
+        <div class="row">
 
-          <ul class="navigation-list float-right">
-            <li class="navigation-item">
-              <a class="navigation-link" href="/about/">About</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="/archive/">Archives</a>
-            </li>
-          </ul>
-        </section>
-      </nav>
-      <section class="container" id="post-content">
-        <div class="posts">
-  
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/06/08/postman/">
-        Postman
-      </a>
-    </h1>
-    <time datetime="2013-06-08T00:00:00+07:00" class="post-date">08 June 2013</time>
+          <div class="one-half column">
+            <div class="logotext">
+              <div class="container">
+                <h3 class="hero-heading"><a href="http://localhost:4000">on the hypertext.</a></h3>
+              </div>
+            </div>
 
-    <p><img src="http://i.imgur.com/IFgsFPM.jpg" alt="postman" /></p>
+          </div>
+          <div class="one-half column" >
+            <!-- nav -->
+            <nav class="navbar">
+              <div class="container">
+                <ul class="navbar-list">
+                  <li class="navbar-item"><a class="navbar-link" href="/about/">About</a></li>
+                  <li class="navbar-item"><a class="navbar-link" href="/archive/">Archives</a></li>
+                </ul>
+              </div>
+            </nav>
+            <!-- end nav -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- body -->
+    <div class="container">
+        
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/06/08/postman/">
+    Postman
+  </a></h3>
+
+  <p><img src="http://i.imgur.com/IFgsFPM.jpg" alt="postman" /></p>
 
 <p>at my <a href="https://coderwall.com/dedenf">coderwall</a> page, i wrote about <a href="https://coderwall.com/p/kw6mbg?i=2&amp;p=1&amp;q=author%3Adedenf&amp;t%5B%5D=dedenf" title="osx http client url">OSX HTTP client</a>, it’s a great app, but sometimes i want more of it, i want to craft the request intuitively with easy option to set up, and i want it without have to open another app.</p>
 
@@ -90,114 +100,102 @@
 
 <p><em>photo are taken from <a href="http://www.flickr.com/photos/thedownstairslounge/6435380929">here</a>, <a href="http://en.wikipedia.org/wiki/Postman_Pat">Postman Pat</a>, a series that Athar used to watch on JimJam.</em></p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#api" title="View posts tagged with &quot;api&quot;">api</a>
-       / 
-    
-      <a class="tags" href="/tag/#chrome" title="View posts tagged with &quot;chrome&quot;">chrome</a>
-       / 
-    
-      <a class="tags" href="/tag/#developement" title="View posts tagged with &quot;developement&quot;">developement</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/06/07/runnnn/">
-        Run
-      </a>
-    </h1>
-    <time datetime="2013-06-07T00:00:00+07:00" class="post-date">07 June 2013</time>
 
-    <iframe src="http://player.vimeo.com/video/67676730" width="600" height="311" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  
+    <a class="button " href="/tag/#api" title="View posts tagged with &quot;api&quot;">api</a>
+    
+  
+    <a class="button " href="/tag/#chrome" title="View posts tagged with &quot;chrome&quot;">chrome</a>
+    
+  
+    <a class="button " href="/tag/#developement" title="View posts tagged with &quot;developement&quot;">developement</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2013-06-08T00:00:00+07:00" >posted 08 June 2013</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/06/07/runnnn/">
+    Run
+  </a></h3>
+
+  <iframe src="http://player.vimeo.com/video/67676730" width="600" height="311" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
 <p><em>i wanna run</em></p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#fun" title="View posts tagged with &quot;fun&quot;">fun</a>
-       / 
-    
-      <a class="tags" href="/tag/#life" title="View posts tagged with &quot;life&quot;">life</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/06/07/infrastructure-as-code/">
-        Infrastructure as code
-      </a>
-    </h1>
-    <time datetime="2013-06-07T00:00:00+07:00" class="post-date">07 June 2013</time>
 
-    <iframe src="http://www.slideshare.net/slideshow/embed_code/21814324" width="490" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""> </iframe>
+  
+    <a class="button " href="/tag/#fun" title="View posts tagged with &quot;fun&quot;">fun</a>
+    
+  
+    <a class="button " href="/tag/#life" title="View posts tagged with &quot;life&quot;">life</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2013-06-07T00:00:00+07:00" >posted 07 June 2013</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/06/07/infrastructure-as-code/">
+    Infrastructure as code
+  </a></h3>
+
+  <iframe src="http://www.slideshare.net/slideshow/embed_code/21814324" width="490" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""> </iframe>
 <p><a href="http://www.slideshare.net/jedi4ever/infrastructure-as-code-abug-session" title="Infrastructure as Code - ABUG Session">Infrastructure as Code - ABUG Session</a> from <a href="http://www.slideshare.net/jedi4ever">Patrick Debois</a></p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#development" title="View posts tagged with &quot;development&quot;">development</a>
-       / 
-    
-      <a class="tags" href="/tag/#devops" title="View posts tagged with &quot;devops&quot;">devops</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/06/06/wwdc-11-years-banner/">
-        Every WWDC Banner Ever For The Last 11 Years
-      </a>
-    </h1>
-    <time datetime="2013-06-06T00:00:00+07:00" class="post-date">06 June 2013</time>
 
-    <p>impressive collection of WWDC banner for 11 years.</p>
+  
+    <a class="button " href="/tag/#development" title="View posts tagged with &quot;development&quot;">development</a>
+    
+  
+    <a class="button " href="/tag/#devops" title="View posts tagged with &quot;devops&quot;">devops</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2013-06-07T00:00:00+07:00" >posted 07 June 2013</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/06/06/wwdc-11-years-banner/">
+    Every WWDC Banner Ever For The Last 11 Years
+  </a></h3>
+
+  <p>impressive collection of WWDC banner for 11 years.</p>
 
 <p>(via <a href="http://www.cultofmac.com/171434/every-wwdc-banner-ever-for-the-last-10-years-gallery/">@cultofmac</a>)</p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#apple" title="View posts tagged with &quot;apple&quot;">apple</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/06/06/mixtape-apart/">
-        Mixtape apart
-      </a>
-    </h1>
-    <time datetime="2013-06-06T00:00:00+07:00" class="post-date">06 June 2013</time>
 
-    <p><img src="http://imgix.8tracks.com/i/000/407/643/c/apart-3255.png" alt="apart" /></p>
+  
+    <a class="button " href="/tag/#apple" title="View posts tagged with &quot;apple&quot;">apple</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2013-06-06T00:00:00+07:00" >posted 06 June 2013</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/06/06/mixtape-apart/">
+    Mixtape apart
+  </a></h3>
+
+  <p><img src="http://imgix.8tracks.com/i/000/407/643/c/apart-3255.png" alt="apart" /></p>
 
 <p>currently listening to blue october lately, especially 18th Floor Balcony. and there also daft punk’s newest album.
 this mixtape consist 11 tracks.</p>
@@ -218,46 +216,59 @@ this mixtape consist 11 tracks.</p>
   <li><em>Travis - Closer</em></li>
 </ol>
 
+  <br>
+  <div class="panel-footer">
+  
 
-    <br>
-    <div class="panel-footer">
+  
+    <a class="button " href="/tag/#mixtape" title="View posts tagged with &quot;mixtape&quot;">mixtape</a>
     
+  
+    <a class="button " href="/tag/#music" title="View posts tagged with &quot;music&quot;">music</a>
+    
+  
 
-    
-      <a class="tags" href="/tag/#mixtape" title="View posts tagged with &quot;mixtape&quot;">mixtape</a>
-       / 
-    
-      <a class="tags" href="/tag/#music" title="View posts tagged with &quot;music&quot;">music</a>
-      
-    
+  <h6 class="docs-header" datetime="2013-06-06T00:00:00+07:00" >posted 06 June 2013</h6>
+</div>
+
+
+<div class="container">
+  
+
+</div>
+
+<div class="section-foot">
+  <div class="containers" >
+  
+    <a class="button button-primary older" href="/page/15">Older</a>
+  
+  
+    <a class="button button-primary  pagination-item newer" href="/page/13">Newer</a>
+  
   </div>
-
-  </article>
-  
-
-
-  
 </div>
 
-<div class="pagination">
-  
-    <a class="pagination-item older" href="/page/15">Older</a>
-  
-  
-    <a class="pagination-item newer" href="/page/13">Newer</a>
-  
-</div>
 
-      </section>
+              <footer class="footer">
+                <hr />
+                <h5>@dedenf</h5>
+              </footer>
+
+    </div>
+    <!-- /body -->
 
 
-      <footer class="footer">
-        <section class="container">
-          <p>notes.dedenf.com</p>
-        </section>
-      </footer>
 
-    </main>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-38299976-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/r298/run_prettify.js"></script>
   </body>
 </html>

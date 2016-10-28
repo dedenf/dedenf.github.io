@@ -20,104 +20,113 @@
       notes &middot; on the HyperText
     
   </title>
-
   <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/milligram.min.css">
+  <!-- <link rel="stylesheet" href="/public/css/milligram.min.css">
   <link rel="stylesheet" href="/public/css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,400, 500, 700,700italic|Lato:400,700|Roboto+Slab">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"> -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/public/css/skel/normalize.css">
+  <link rel="stylesheet" href="/public/css/skel/skeleton.css">
+  <link rel="stylesheet" href="/public/css/skel/style.css">
+
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="https://notes.dedenf.com/images/sites/logo.png"/>
+  <link rel="shortcut icon" href="http://localhost:4000/images/sites/logo.png"/>
 
-  <link rel="canonical" href="https://notes.dedenf.com">
-  <link rel="image_src" href="https://notes.dedenf.comimages/sites/logo.png">
+  <link rel="canonical" href="http://localhost:4000">
+  <link rel="image_src" href="http://localhost:4000images/sites/logo.png">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/public/js/site.js"></script>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-38299976-3', 'auto');
-    ga('send', 'pageview');
-
-  </script>
 </head>
 
-  <body>
-    <main class="wrapper">
-      <nav class="navigation">
-        <section class="container">
+  <body class="code-snippets-visible">
 
-          <a class="navigation-title float-left" href="https://notes.dedenf.com">
-            <h1 class="title">my notes</h1>
-          </a>
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="section hero tophead">
+      <div class="container">
+        <div class="row">
 
-          <ul class="navigation-list float-right">
-            <li class="navigation-item">
-              <a class="navigation-link" href="/about/">About</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="/archive/">Archives</a>
-            </li>
-          </ul>
-        </section>
-      </nav>
-      <section class="container" id="post-content">
-        <div class="posts">
-  
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/06/13/eye-tracking-study/">
-        Eye tracking study on CamelCase and under_score style
-      </a>
-    </h1>
-    <time datetime="2013-06-13T00:00:00+07:00" class="post-date">13 June 2013</time>
+          <div class="one-half column">
+            <div class="logotext">
+              <div class="container">
+                <h3 class="hero-heading"><a href="http://localhost:4000">on the hypertext.</a></h3>
+              </div>
+            </div>
 
-    <p>Title:
+          </div>
+          <div class="one-half column" >
+            <!-- nav -->
+            <nav class="navbar">
+              <div class="container">
+                <ul class="navbar-list">
+                  <li class="navbar-item"><a class="navbar-link" href="/about/">About</a></li>
+                  <li class="navbar-item"><a class="navbar-link" href="/archive/">Archives</a></li>
+                </ul>
+              </div>
+            </nav>
+            <!-- end nav -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- body -->
+    <div class="container">
+        
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/06/13/eye-tracking-study/">
+    Eye tracking study on CamelCase and under_score style
+  </a></h3>
+
+  <p>Title:
 Date: 2013-06-13 00:00
 Tags:</p>
 
 <p>A <a href="http://www.cs.kent.edu/~jmaletic/papers/ICPC2010-CamelCaseUnderScoreClouds.pdf">study</a> by Bonita Sharif and Jonathan I. Maletic from Department of Computer Science
-Kent State University about how the eye response to camelCase and under_score indentifier, or might be function or variable naming style.
-&gt;Visual effort is determined using six measures based on eye gaze data namely: fixation counts and durations. Although, no
+Kent State University about how the eye response to camelCase and under_score indentifier, or might be function or variable naming style.</p>
+<blockquote>
+  <p>Visual effort is determined using six measures based on eye gaze data namely: fixation counts and durations. Although, no
 difference was found between identifier styles with respect to accuracy, results indicate a significant improvement in time and lower visual effort with the underscore style.</p>
+</blockquote>
 
 <p>personally, i like underscore rather than camelCase, it’s more readable and concise, and easily to read between word.</p>
 
 <p>(<a href="http://www.cs.kent.edu/~jmaletic/papers/ICPC2010-CamelCaseUnderScoreClouds.pdf">Paper Link</a>)</p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#paper" title="View posts tagged with &quot;paper&quot;">paper</a>
-       / 
-    
-      <a class="tags" href="/tag/#reading" title="View posts tagged with &quot;reading&quot;">reading</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/06/12/mixtape-breathe/">
-        Mixtape Breathe
-      </a>
-    </h1>
-    <time datetime="2013-06-12T00:00:00+07:00" class="post-date">12 June 2013</time>
 
-    <p><img src="http://8tracks.imgix.net/i/000/423/929/c/bbr-3640.jpg" alt="breathe" /></p>
+  
+    <a class="button " href="/tag/#paper" title="View posts tagged with &quot;paper&quot;">paper</a>
+    
+  
+    <a class="button " href="/tag/#reading" title="View posts tagged with &quot;reading&quot;">reading</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2013-06-13T00:00:00+07:00" >posted 13 June 2013</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/06/12/mixtape-breathe/">
+    Mixtape Breathe
+  </a></h3>
+
+  <p><img src="http://8tracks.imgix.net/i/000/423/929/c/bbr-3640.jpg" alt="breathe" /></p>
 
 <p>this mixtape was made for my significant other. still, it has genre of Triphop, electronic, ambient and post-rock. featured artist is Télépopmusik, Dido, and indonesian Triphop/electronic group <a href="http://www.last.fm/music/Homogenic">Homogenic</a>!</p>
 
@@ -136,31 +145,28 @@ difference was found between identifier styles with respect to accuracy, results
 <p><em>the cover is slightly cut almost half of it</em>
 (<a href="http://inspcollection.com/post/4070889611">photo</a>)</p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#mixtape" title="View posts tagged with &quot;mixtape&quot;">mixtape</a>
-       / 
-    
-      <a class="tags" href="/tag/#music" title="View posts tagged with &quot;music&quot;">music</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/06/12/common-startup-mistake/">
-        16 common mistake young startup make
-      </a>
-    </h1>
-    <time datetime="2013-06-12T00:00:00+07:00" class="post-date">12 June 2013</time>
 
-    <p>mashable has wrapup the that mistake by young startup often did, here’s the recap.</p>
+  
+    <a class="button " href="/tag/#mixtape" title="View posts tagged with &quot;mixtape&quot;">mixtape</a>
+    
+  
+    <a class="button " href="/tag/#music" title="View posts tagged with &quot;music&quot;">music</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2013-06-12T00:00:00+07:00" >posted 12 June 2013</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/06/12/common-startup-mistake/">
+    16 common mistake young startup make
+  </a></h3>
+
+  <p>mashable has wrapup the that mistake by young startup often did, here’s the recap.</p>
 
 <ol>
   <li>Forgoing Simplicity</li>
@@ -185,59 +191,53 @@ difference was found between identifier styles with respect to accuracy, results
 
 <p>(via <a href="http://mashable.com/2013/06/10/startup-mistakes/">mashable</a>)</p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#startup" title="View posts tagged with &quot;startup&quot;">startup</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/06/11/server-name/">
-        Server Name
-      </a>
-    </h1>
-    <time datetime="2013-06-11T00:00:00+07:00" class="post-date">11 June 2013</time>
 
-    <p>as been discussed on id-gmail mailing list, naming a server name is hard, sometimes you have to pick a theme for your servers, there’s some who named their server using mountain name, or using Myth Gods names, and sometime some lady’s names like dewi, julie.
+  
+    <a class="button " href="/tag/#startup" title="View posts tagged with &quot;startup&quot;">startup</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2013-06-12T00:00:00+07:00" >posted 12 June 2013</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/06/11/server-name/">
+    Server Name
+  </a></h3>
+
+  <p>as been discussed on id-gmail mailing list, naming a server name is hard, sometimes you have to pick a theme for your servers, there’s some who named their server using mountain name, or using Myth Gods names, and sometime some lady’s names like dewi, julie.
 it’s hard because sometimes once you named one of your server you should know its purpose, its capabilities based on their representative name, for example Zeus, it’s a main server that have a significant purpose on the network.</p>
 
 <p>and <a href="xkcd.com">xkcd</a> <a href="http://imgs.xkcd.com/comics/permanence.png">nailed it</a>.</p>
 
 <p><img src="http://imgs.xkcd.com/comics/permanence.png" alt="permanance" /></p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#geek" title="View posts tagged with &quot;geek&quot;">geek</a>
-       / 
-    
-      <a class="tags" href="/tag/#humor" title="View posts tagged with &quot;humor&quot;">humor</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/06/11/my-dream-backup-scheme/">
-        My dream backup scheme
-      </a>
-    </h1>
-    <time datetime="2013-06-11T00:00:00+07:00" class="post-date">11 June 2013</time>
 
-    <p>Hey it’s rhyme!
+  
+    <a class="button " href="/tag/#geek" title="View posts tagged with &quot;geek&quot;">geek</a>
+    
+  
+    <a class="button " href="/tag/#humor" title="View posts tagged with &quot;humor&quot;">humor</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2013-06-11T00:00:00+07:00" >posted 11 June 2013</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/06/11/my-dream-backup-scheme/">
+    My dream backup scheme
+  </a></h3>
+
+  <p>Hey it’s rhyme!
 on my system right now, i have two timemachine who backed up my entire system, one i had it on my whole dedicated external drive, it’s an old 320GB Seagate drive, and in my <a href="http://en.wikipedia.org/wiki/Direct_Attached_Storage">DAS</a> system (i named it “Kimu Garden”, because it’s sounds beautiful) as a backup in sparsedisk image.</p>
 
 <p>On my 320GB Seagate drive i’m using plain TimeMachine app, as for sparsedisk i use <a href="http://www.bombich.com/">carbon copy cloner</a> (i use the free one) as backup app, maybe having 2 backup for my machine is overkill, but hey, nobody knows when shit happens.</p>
@@ -248,46 +248,59 @@ on my system right now, i have two timemachine who backed up my entire system, o
 
 <p>i want to have a system that can do the backup for me, i heard backblaze have amazing service and cheap comparing to the other services</p>
 
+  <br>
+  <div class="panel-footer">
+  
 
-    <br>
-    <div class="panel-footer">
+  
+    <a class="button " href="/tag/#backup" title="View posts tagged with &quot;backup&quot;">backup</a>
     
+  
+    <a class="button " href="/tag/#computing" title="View posts tagged with &quot;computing&quot;">computing</a>
+    
+  
 
-    
-      <a class="tags" href="/tag/#backup" title="View posts tagged with &quot;backup&quot;">backup</a>
-       / 
-    
-      <a class="tags" href="/tag/#computing" title="View posts tagged with &quot;computing&quot;">computing</a>
-      
-    
+  <h6 class="docs-header" datetime="2013-06-11T00:00:00+07:00" >posted 11 June 2013</h6>
+</div>
+
+
+<div class="container">
+  
+
+</div>
+
+<div class="section-foot">
+  <div class="containers" >
+  
+    <a class="button button-primary older" href="/page/14">Older</a>
+  
+  
+    <a class="button button-primary  pagination-item newer" href="/page/12">Newer</a>
+  
   </div>
-
-  </article>
-  
-
-
-  
 </div>
 
-<div class="pagination">
-  
-    <a class="pagination-item older" href="/page/14">Older</a>
-  
-  
-    <a class="pagination-item newer" href="/page/12">Newer</a>
-  
-</div>
 
-      </section>
+              <footer class="footer">
+                <hr />
+                <h5>@dedenf</h5>
+              </footer>
+
+    </div>
+    <!-- /body -->
 
 
-      <footer class="footer">
-        <section class="container">
-          <p>notes.dedenf.com</p>
-        </section>
-      </footer>
 
-    </main>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-38299976-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/r298/run_prettify.js"></script>
   </body>
 </html>

@@ -20,128 +20,132 @@
       notes &middot; on the HyperText
     
   </title>
-
   <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/milligram.min.css">
+  <!-- <link rel="stylesheet" href="/public/css/milligram.min.css">
   <link rel="stylesheet" href="/public/css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,400, 500, 700,700italic|Lato:400,700|Roboto+Slab">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"> -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/public/css/skel/normalize.css">
+  <link rel="stylesheet" href="/public/css/skel/skeleton.css">
+  <link rel="stylesheet" href="/public/css/skel/style.css">
+
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="https://notes.dedenf.com/images/sites/logo.png"/>
+  <link rel="shortcut icon" href="http://localhost:4000/images/sites/logo.png"/>
 
-  <link rel="canonical" href="https://notes.dedenf.com">
-  <link rel="image_src" href="https://notes.dedenf.comimages/sites/logo.png">
+  <link rel="canonical" href="http://localhost:4000">
+  <link rel="image_src" href="http://localhost:4000images/sites/logo.png">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/public/js/site.js"></script>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-38299976-3', 'auto');
-    ga('send', 'pageview');
-
-  </script>
 </head>
 
-  <body>
-    <main class="wrapper">
-      <nav class="navigation">
-        <section class="container">
+  <body class="code-snippets-visible">
 
-          <a class="navigation-title float-left" href="https://notes.dedenf.com">
-            <h1 class="title">my notes</h1>
-          </a>
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="section hero tophead">
+      <div class="container">
+        <div class="row">
 
-          <ul class="navigation-list float-right">
-            <li class="navigation-item">
-              <a class="navigation-link" href="/about/">About</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="/archive/">Archives</a>
-            </li>
-          </ul>
-        </section>
-      </nav>
-      <section class="container" id="post-content">
-        <div class="posts">
-  
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/02/06/vagrant-everyday/">
-        Vagrantfile for everyday use
-      </a>
-    </h1>
-    <time datetime="2013-02-06T00:00:00+07:00" class="post-date">06 February 2013</time>
+          <div class="one-half column">
+            <div class="logotext">
+              <div class="container">
+                <h3 class="hero-heading"><a href="http://localhost:4000">on the hypertext.</a></h3>
+              </div>
+            </div>
 
-    <p>built up this repo to share my everyday use vagrant configuration on my local machine, i use Centos 6.3 as my basebox, there’s 3 instance right now, running different purposes, talk to each other, they having threesome.</p>
+          </div>
+          <div class="one-half column" >
+            <!-- nav -->
+            <nav class="navbar">
+              <div class="container">
+                <ul class="navbar-list">
+                  <li class="navbar-item"><a class="navbar-link" href="/about/">About</a></li>
+                  <li class="navbar-item"><a class="navbar-link" href="/archive/">Archives</a></li>
+                </ul>
+              </div>
+            </nav>
+            <!-- end nav -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- body -->
+    <div class="container">
+        
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/02/06/vagrant-everyday/">
+    Vagrantfile for everyday use
+  </a></h3>
+
+  <p>built up this repo to share my everyday use vagrant configuration on my local machine, i use Centos 6.3 as my basebox, there’s 3 instance right now, running different purposes, talk to each other, they having threesome.</p>
 
 <p>clone, fork <code class="highlighter-rouge">https://github.com/dedenf/vagrant</code></p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#cluster" title="View posts tagged with &quot;cluster&quot;">cluster</a>
-       / 
-    
-      <a class="tags" href="/tag/#development" title="View posts tagged with &quot;development&quot;">development</a>
-       / 
-    
-      <a class="tags" href="/tag/#vagrant" title="View posts tagged with &quot;vagrant&quot;">vagrant</a>
-       / 
-    
-      <a class="tags" href="/tag/#virtualbox" title="View posts tagged with &quot;virtualbox&quot;">virtualbox</a>
-       / 
-    
-      <a class="tags" href="/tag/#vm" title="View posts tagged with &quot;vm&quot;">vm</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/02/06/been-a-while/">
-        It's been a while
-      </a>
-    </h1>
-    <time datetime="2013-02-06T00:00:00+07:00" class="post-date">06 February 2013</time>
 
-    <p>yeapno</p>
-
-
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#rants" title="View posts tagged with &quot;rants&quot;">rants</a>
-      
-    
-  </div>
-
-  </article>
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2012/02/22/what-a-day/">
-        What a day
-      </a>
-    </h1>
-    <time datetime="2012-02-22T00:00:00+07:00" class="post-date">22 February 2012</time>
+    <a class="button " href="/tag/#cluster" title="View posts tagged with &quot;cluster&quot;">cluster</a>
+    
+  
+    <a class="button " href="/tag/#development" title="View posts tagged with &quot;development&quot;">development</a>
+    
+  
+    <a class="button " href="/tag/#vagrant" title="View posts tagged with &quot;vagrant&quot;">vagrant</a>
+    
+  
+    <a class="button " href="/tag/#virtualbox" title="View posts tagged with &quot;virtualbox&quot;">virtualbox</a>
+    
+  
+    <a class="button " href="/tag/#vm" title="View posts tagged with &quot;vm&quot;">vm</a>
+    
+  
 
-    <p>yesterday, a site that i help build, <a href="http://wujudkan.com">wujudkan.com</a> is launched, for those who don’t know wujudkan is, it’s a crowd funding site, that helps creative talent, or someone who wants to build something and need some fundings.</p>
+  <h6 class="docs-header" datetime="2013-02-06T00:00:00+07:00" >posted 06 February 2013</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/02/06/been-a-while/">
+    It's been a while
+  </a></h3>
+
+  <p>yeapno</p>
+
+
+  <br>
+  <div class="panel-footer">
+  
+
+  
+    <a class="button " href="/tag/#rants" title="View posts tagged with &quot;rants&quot;">rants</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2013-02-06T00:00:00+07:00" >posted 06 February 2013</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2012/02/22/what-a-day/">
+    What a day
+  </a></h3>
+
+  <p>yesterday, a site that i help build, <a href="http://wujudkan.com">wujudkan.com</a> is launched, for those who don’t know wujudkan is, it’s a crowd funding site, that helps creative talent, or someone who wants to build something and need some fundings.</p>
 
 <p>it took a lot of confident to launch it, since so many little things that we have to handle, from the working codes, redactional text, email etc. from many startup advice, launch as soon as possible is essential, to get users feedback you have to launch your product, to get to know what is wrong with your app is launch it. so by today, i look at the Google Analytics, it was quite good, from the developers perspective, the site is running just fine, no choke, no database overload, maybe because the traffic is just average (dunno, though).</p>
 
@@ -153,37 +157,34 @@
 
 <p>and now for the engagement to the users, from the beginning, the team has already using social media tools to make an introductory to the users. the feedback from twitter channel is quite positive, they help us by reporting bugs and what features they want. so i guess now is the time for some bug squashing and development.</p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#dev" title="View posts tagged with &quot;dev&quot;">dev</a>
-       / 
-    
-      <a class="tags" href="/tag/#development" title="View posts tagged with &quot;development&quot;">development</a>
-       / 
-    
-      <a class="tags" href="/tag/#startup" title="View posts tagged with &quot;startup&quot;">startup</a>
-       / 
-    
-      <a class="tags" href="/tag/#wujudkan" title="View posts tagged with &quot;wujudkan&quot;">wujudkan</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2012/02/20/modernizr-vs-ie/">
-        Modernizr vs IE
-      </a>
-    </h1>
-    <time datetime="2012-02-20T00:00:00+07:00" class="post-date">20 February 2012</time>
 
-    <p>Today, i’ve found out something weird, we took an internal launch of our newly developed app that display numerous graph and statistics, it went crash. not the app, but the browser, and you can guess, it’s IE.</p>
+  
+    <a class="button " href="/tag/#dev" title="View posts tagged with &quot;dev&quot;">dev</a>
+    
+  
+    <a class="button " href="/tag/#development" title="View posts tagged with &quot;development&quot;">development</a>
+    
+  
+    <a class="button " href="/tag/#startup" title="View posts tagged with &quot;startup&quot;">startup</a>
+    
+  
+    <a class="button " href="/tag/#wujudkan" title="View posts tagged with &quot;wujudkan&quot;">wujudkan</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2012-02-22T00:00:00+07:00" >posted 22 February 2012</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2012/02/20/modernizr-vs-ie/">
+    Modernizr vs IE
+  </a></h3>
+
+  <p>Today, i’ve found out something weird, we took an internal launch of our newly developed app that display numerous graph and statistics, it went crash. not the app, but the browser, and you can guess, it’s IE.</p>
 
 <p>From IE6 on XP sp2 until IE8 on windows 7, it all went crash, first i thought about many ‘add-ons’ like Yahoo! websearch (curse you!), and other kind of IE rubbish. i’m heading to the code to look something that might be not right, first i disabled header() from the code, but it’s not it, and the look at the doctype, maybe
 <code class="highlighter-rouge"><span class="c">&lt;!--[if lt IE 7]&gt; &lt;html lang="en"&gt; &lt;![endif]--&gt;</span></code>,</p>
@@ -196,34 +197,31 @@
 
 <p>well, time to write about Sherlock’s ending.</p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#ie" title="View posts tagged with &quot;ie&quot;">ie</a>
-       / 
-    
-      <a class="tags" href="/tag/#javascript" title="View posts tagged with &quot;javascript&quot;">javascript</a>
-       / 
-    
-      <a class="tags" href="/tag/#web-development" title="View posts tagged with &quot;web-development&quot;">web-development</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2012/01/16/codeigniter-cache/">
-        Codeigniter Cache Tips
-      </a>
-    </h1>
-    <time datetime="2012-01-16T00:00:00+07:00" class="post-date">16 January 2012</time>
 
-    <p>Cache system in Codeigniter is a quite nice feature, thanks to its modular system, you can add more than just a built in cache system, you can add your own.</p>
+  
+    <a class="button " href="/tag/#ie" title="View posts tagged with &quot;ie&quot;">ie</a>
+    
+  
+    <a class="button " href="/tag/#javascript" title="View posts tagged with &quot;javascript&quot;">javascript</a>
+    
+  
+    <a class="button " href="/tag/#web-development" title="View posts tagged with &quot;web-development&quot;">web-development</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2012-02-20T00:00:00+07:00" >posted 20 February 2012</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2012/01/16/codeigniter-cache/">
+    Codeigniter Cache Tips
+  </a></h3>
+
+  <p>Cache system in Codeigniter is a quite nice feature, thanks to its modular system, you can add more than just a built in cache system, you can add your own.</p>
 
 <p>if you want to make an app with search feature, if you don’t implement cache feature in it, the app will always ask the database whether it has the data or not, this could make your database work for just a ‘historical’ data.
 to make things faster, use cache. to get this cache (even it’s in-memory or in-file cache) work, you could make a GET method (or if you have to use POST, that’s ok, will work too) and create a <a href="http://en.wikipedia.org/wiki/URI">URI</a> for that search.</p>
@@ -232,49 +230,62 @@ to make things faster, use cache. to get this cache (even it’s in-memory or in
 
 <p>“what if the user information is changed?”, yes, if the user information is changed your cache will be something  to blame if the information is not updated instantly. to make this work, just delete the cache if there’s a update action in your module, with that you’ll get the same result after its get updated</p>
 
+  <br>
+  <div class="panel-footer">
+  
 
-    <br>
-    <div class="panel-footer">
+  
+    <a class="button " href="/tag/#cache" title="View posts tagged with &quot;cache&quot;">cache</a>
     
+  
+    <a class="button " href="/tag/#codeigniter" title="View posts tagged with &quot;codeigniter&quot;">codeigniter</a>
+    
+  
+    <a class="button " href="/tag/#php" title="View posts tagged with &quot;php&quot;">php</a>
+    
+  
 
-    
-      <a class="tags" href="/tag/#cache" title="View posts tagged with &quot;cache&quot;">cache</a>
-       / 
-    
-      <a class="tags" href="/tag/#codeigniter" title="View posts tagged with &quot;codeigniter&quot;">codeigniter</a>
-       / 
-    
-      <a class="tags" href="/tag/#php" title="View posts tagged with &quot;php&quot;">php</a>
-      
-    
+  <h6 class="docs-header" datetime="2012-01-16T00:00:00+07:00" >posted 16 January 2012</h6>
+</div>
+
+
+<div class="container">
+  
+
+</div>
+
+<div class="section-foot">
+  <div class="containers" >
+  
+    <a class="button button-primary older" href="/page/19">Older</a>
+  
+  
+    <a class="button button-primary  pagination-item newer" href="/page/17">Newer</a>
+  
   </div>
-
-  </article>
-  
-
-
-  
 </div>
 
-<div class="pagination">
-  
-    <a class="pagination-item older" href="/page/19">Older</a>
-  
-  
-    <a class="pagination-item newer" href="/page/17">Newer</a>
-  
-</div>
 
-      </section>
+              <footer class="footer">
+                <hr />
+                <h5>@dedenf</h5>
+              </footer>
+
+    </div>
+    <!-- /body -->
 
 
-      <footer class="footer">
-        <section class="container">
-          <p>notes.dedenf.com</p>
-        </section>
-      </footer>
 
-    </main>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-38299976-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/r298/run_prettify.js"></script>
   </body>
 </html>

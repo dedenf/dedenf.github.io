@@ -3,32 +3,29 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{site.baseurl}}{{post.url}}">
-        {{ post.title }}
-      </a>
-    </h1>
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_long_string }}</time>
 
-    {{ post.content }}
+{% for post in paginator.posts %}
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="{{site.baseurl}}{{post.url}}">
+    {{ post.title }}
+  </a></h3>
 
-    <br>
-    <div class="panel-footer">
-    {% assign taglist = post.tags | sort %}
+  {{ post.content }}
+  <br>
+  <div class="panel-footer">
+  {% assign taglist = post.tags | sort %}
 
-    {% for tag in taglist | order: descending %}
-      <a class="tags" href="/tag/#{{ tag | cgi_escape }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>
-      {% if forloop.last != true %} / {% endif %}
-    {% endfor %}
-  </div>
-
-  </article>
+  {% for tag in taglist | order: descending %}
+    <a class="button " href="/tag/#{{ tag | cgi_escape }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>
+    {% if forloop.last != true %}  {% endif %}
   {% endfor %}
 
+  <h6 class="docs-header" datetime="{{ post.date | date_to_xmlschema }}" >posted {{ post.date | date_to_long_string }}</h6>
+</div>
+{% endfor %}
 
+<div class="container">
   {% comment %}
   {% if paginator.total_pages > 1 %}
     <ul class="pager">
@@ -43,17 +40,20 @@ title: Home
     </ul>
   {% endif %}
 {% endcomment %}
+
 </div>
 
-<div class="pagination">
+<div class="section-foot">
+  <div class="containers" >
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+    <a class="button button-primary older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
   {% else %}
     <span class="pagination-item older">Older</span>
   {% endif %}
   {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+    <a class="button button-primary  pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <span class="button pagination-item newer">Newer</span>
   {% endif %}
+  </div>
 </div>

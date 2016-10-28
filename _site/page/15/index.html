@@ -20,67 +20,77 @@
       notes &middot; on the HyperText
     
   </title>
-
   <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/milligram.min.css">
+  <!-- <link rel="stylesheet" href="/public/css/milligram.min.css">
   <link rel="stylesheet" href="/public/css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,400, 500, 700,700italic|Lato:400,700|Roboto+Slab">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"> -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/public/css/skel/normalize.css">
+  <link rel="stylesheet" href="/public/css/skel/skeleton.css">
+  <link rel="stylesheet" href="/public/css/skel/style.css">
+
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="https://notes.dedenf.com/images/sites/logo.png"/>
+  <link rel="shortcut icon" href="http://localhost:4000/images/sites/logo.png"/>
 
-  <link rel="canonical" href="https://notes.dedenf.com">
-  <link rel="image_src" href="https://notes.dedenf.comimages/sites/logo.png">
+  <link rel="canonical" href="http://localhost:4000">
+  <link rel="image_src" href="http://localhost:4000images/sites/logo.png">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/public/js/site.js"></script>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-38299976-3', 'auto');
-    ga('send', 'pageview');
-
-  </script>
 </head>
 
-  <body>
-    <main class="wrapper">
-      <nav class="navigation">
-        <section class="container">
+  <body class="code-snippets-visible">
 
-          <a class="navigation-title float-left" href="https://notes.dedenf.com">
-            <h1 class="title">my notes</h1>
-          </a>
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="section hero tophead">
+      <div class="container">
+        <div class="row">
 
-          <ul class="navigation-list float-right">
-            <li class="navigation-item">
-              <a class="navigation-link" href="/about/">About</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="/archive/">Archives</a>
-            </li>
-          </ul>
-        </section>
-      </nav>
-      <section class="container" id="post-content">
-        <div class="posts">
-  
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/06/05/oneline-laravel/">
-        Installing Laravel 4, oneliner
-      </a>
-    </h1>
-    <time datetime="2013-06-05T00:00:00+07:00" class="post-date">05 June 2013</time>
+          <div class="one-half column">
+            <div class="logotext">
+              <div class="container">
+                <h3 class="hero-heading"><a href="http://localhost:4000">on the hypertext.</a></h3>
+              </div>
+            </div>
 
-    <p>downloading package or setup composer.json could become a hassle.
+          </div>
+          <div class="one-half column" >
+            <!-- nav -->
+            <nav class="navbar">
+              <div class="container">
+                <ul class="navbar-list">
+                  <li class="navbar-item"><a class="navbar-link" href="/about/">About</a></li>
+                  <li class="navbar-item"><a class="navbar-link" href="/archive/">Archives</a></li>
+                </ul>
+              </div>
+            </nav>
+            <!-- end nav -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- body -->
+    <div class="container">
+        
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/06/05/oneline-laravel/">
+    Installing Laravel 4, oneliner
+  </a></h3>
+
+  <p>downloading package or setup composer.json could become a hassle.
 instead, just go with this one line of command on terminal. make sure you already installed composer and put it in the system wide bin (eg. /usr/local/bin/).</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>$ composer create-project laravel/laravel
@@ -89,34 +99,31 @@ instead, just go with this one line of command on terminal. make sure you alread
 
 <p>this command also work if you want to setup a new package on composer packagist repo. for example installing Slimframework <code class="highlighter-rouge">composer create-project slim/slim</code></p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#composer" title="View posts tagged with &quot;composer&quot;">composer</a>
-       / 
-    
-      <a class="tags" href="/tag/#laravel" title="View posts tagged with &quot;laravel&quot;">laravel</a>
-       / 
-    
-      <a class="tags" href="/tag/#php" title="View posts tagged with &quot;php&quot;">php</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/06/05/new-office/">
-        New office
-      </a>
-    </h1>
-    <time datetime="2013-06-05T00:00:00+07:00" class="post-date">05 June 2013</time>
 
-    <p>it’s been more than one month since i’m joining new office, my responsisbily now is as API developer, currently working at game publisher company, so much different from where i’ve been regarding the business process etc.</p>
+  
+    <a class="button " href="/tag/#composer" title="View posts tagged with &quot;composer&quot;">composer</a>
+    
+  
+    <a class="button " href="/tag/#laravel" title="View posts tagged with &quot;laravel&quot;">laravel</a>
+    
+  
+    <a class="button " href="/tag/#php" title="View posts tagged with &quot;php&quot;">php</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2013-06-05T00:00:00+07:00" >posted 05 June 2013</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/06/05/new-office/">
+    New office
+  </a></h3>
+
+  <p>it’s been more than one month since i’m joining new office, my responsisbily now is as API developer, currently working at game publisher company, so much different from where i’ve been regarding the business process etc.</p>
 
 <p>it’s always hard to leave my previous job, at least for me, more than three years working with wonderful team, so many jokes that we invented there, so many memories.
 we also have a soon to be launch product, <a href="http://kineria.com/">kineria.com</a> a movie streaming service.</p>
@@ -127,118 +134,122 @@ we also have a soon to be launch product, <a href="http://kineria.com/">kineria.
 
 <p>PS: previous photo is my new office.</p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#life" title="View posts tagged with &quot;life&quot;">life</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/06/05/blasphemy/">
-        This is blasphemy, this is ...
-      </a>
-    </h1>
-    <time datetime="2013-06-05T00:00:00+07:00" class="post-date">05 June 2013</time>
 
-    <p><img src="http://i.imgur.com/eb10cjH.jpg" alt="this.." /></p>
-
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#fun" title="View posts tagged with &quot;fun&quot;">fun</a>
-      
-    
-  </div>
-
-  </article>
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/06/05/big-text/">
-        Markdown with custom css class test
-      </a>
-    </h1>
-    <time datetime="2013-06-05T00:00:00+07:00" class="post-date">05 June 2013</time>
+    <a class="button " href="/tag/#life" title="View posts tagged with &quot;life&quot;">life</a>
+    
+  
 
-    <p><span class="big-text">
+  <h6 class="docs-header" datetime="2013-06-05T00:00:00+07:00" >posted 05 June 2013</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/06/05/blasphemy/">
+    This is blasphemy, this is ...
+  </a></h3>
+
+  <p><img src="http://i.imgur.com/eb10cjH.jpg" alt="this.." /></p>
+
+  <br>
+  <div class="panel-footer">
+  
+
+  
+    <a class="button " href="/tag/#fun" title="View posts tagged with &quot;fun&quot;">fun</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2013-06-05T00:00:00+07:00" >posted 05 June 2013</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/06/05/big-text/">
+    Markdown with custom css class test
+  </a></h3>
+
+  <p><span class="big-text">
 So, this <span class="medium-big-text font-della">should</span> be a <span class="very-big font-sail">big</span> text
 </span></p>
 
-
-    <br>
-    <div class="panel-footer">
-    
-
-    
-      <a class="tags" href="/tag/#geeking" title="View posts tagged with &quot;geeking&quot;">geeking</a>
-      
-    
-  </div>
-
-  </article>
+  <br>
+  <div class="panel-footer">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2013/06/04/mixtape-one/">
-        Mixtape Trip-ish
-      </a>
-    </h1>
-    <time datetime="2013-06-04T00:00:00+07:00" class="post-date">04 June 2013</time>
 
-    <p><img src="http://imgix.8tracks.com/mix_covers/000/570/340/27602.original.jpg?fm=jpg&amp;q=65&amp;sharp=15&amp;vib=10&amp;w=1024&amp;h=1024&amp;fit=max" alt="trip-ish" /></p>
+  
+    <a class="button " href="/tag/#geeking" title="View posts tagged with &quot;geeking&quot;">geeking</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2013-06-05T00:00:00+07:00" >posted 05 June 2013</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2013/06/04/mixtape-one/">
+    Mixtape Trip-ish
+  </a></h3>
+
+  <p><img src="http://imgix.8tracks.com/mix_covers/000/570/340/27602.original.jpg?fm=jpg&amp;q=65&amp;sharp=15&amp;vib=10&amp;w=1024&amp;h=1024&amp;fit=max" alt="trip-ish" /></p>
 
 <p>liked the mixtape, full of Triphop artist, like <a href="http://en.wikipedia.org/wiki/Portishead_(band)">Portishead</a>, <a href="http://en.wikipedia.org/wiki/Lamb_(band)">Lamb</a>, and many others.</p>
 
 <p>♫ <a href="http://8tracks.com/shirink/trip-ish">8tracks</a></p>
 
+  <br>
+  <div class="panel-footer">
+  
 
-    <br>
-    <div class="panel-footer">
+  
+    <a class="button " href="/tag/#mixtape" title="View posts tagged with &quot;mixtape&quot;">mixtape</a>
     
+  
 
-    
-      <a class="tags" href="/tag/#mixtape" title="View posts tagged with &quot;mixtape&quot;">mixtape</a>
-      
-    
+  <h6 class="docs-header" datetime="2013-06-04T00:00:00+07:00" >posted 04 June 2013</h6>
+</div>
+
+
+<div class="container">
+  
+
+</div>
+
+<div class="section-foot">
+  <div class="containers" >
+  
+    <a class="button button-primary older" href="/page/16">Older</a>
+  
+  
+    <a class="button button-primary  pagination-item newer" href="/page/14">Newer</a>
+  
   </div>
-
-  </article>
-  
-
-
-  
 </div>
 
-<div class="pagination">
-  
-    <a class="pagination-item older" href="/page/16">Older</a>
-  
-  
-    <a class="pagination-item newer" href="/page/14">Newer</a>
-  
-</div>
 
-      </section>
+              <footer class="footer">
+                <hr />
+                <h5>@dedenf</h5>
+              </footer>
+
+    </div>
+    <!-- /body -->
 
 
-      <footer class="footer">
-        <section class="container">
-          <p>notes.dedenf.com</p>
-        </section>
-      </footer>
 
-    </main>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-38299976-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/r298/run_prettify.js"></script>
   </body>
 </html>
