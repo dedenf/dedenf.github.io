@@ -173,6 +173,7 @@ ul.related-posts h6 a:hover{
     text-align: left;
     z-index: 99 !important;
     background: #fff;
+    font-weight: bold;
   }
   .logotext a{
     color: #33C3F0;
@@ -183,6 +184,7 @@ ul.related-posts h6 a:hover{
     width: 100%; }
   .navbar-list {
     list-style: none;
+    margin-top: 10px;
     margin-bottom: 0;
     float: right;
     text-align: right;
