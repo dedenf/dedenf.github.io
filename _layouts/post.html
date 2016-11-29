@@ -3,19 +3,18 @@ layout: default
 ---
 
 <div class="post">
-  <h3>
+  <h3 class="center">
     <a class="title-link" href="{{site.baseurl}}{{post.url}}">
     {{ page.title }}
   </a></h3>
+
+  <div class="post post-meta">{{ page.date | date_to_long_string }}</div>
 
   {{ content }}
 
   {% for tag in page.tags %}
     <a class="button" href="/tag/#{{ tag | cgi_escape }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>
   {% endfor %}
-
-  <br />
-  <h6 class="docs-header" >{{ page.date | date_to_long_string }}</h6>
 
 </div>
 

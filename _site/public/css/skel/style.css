@@ -111,6 +111,15 @@ ul.related-posts h6 a{
 ul.related-posts h6 a:hover{
   text-decoration: underline;
 }
+
+.center {
+  text-align: center;
+}
+.post-meta{
+  text-align: center;
+  color: #666;
+}
+
 /* Larger than phone */
 @media (min-width: 550px) {
   .section-foot {
@@ -155,7 +164,7 @@ ul.related-posts h6 a:hover{
 @media (min-width: 750px) {
   /* Navbar */
   .navbar + .docs-section, .logotext + .docs-section {
-    border-top-width: 0; }
+    }
   .logotext h3 a{
     color: #222;
     text-decoration: none;
@@ -200,7 +209,7 @@ ul.related-posts h6 a:hover{
     font-size: 20px;
     font-weight: 600;
     letter-spacing: .2rem;
-    margin-right: 35px;
+    margin-right: 0px;
     text-decoration: none;
     color: #222; }
   .title-link.active {

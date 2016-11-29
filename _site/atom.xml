@@ -4,13 +4,28 @@
  <title>notes</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2016-11-04T11:54:47+07:00</updated>
+ <updated>2016-11-29T19:18:00+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Life at Jenius</title>
+   <link href="http://localhost:4000/2016/11/25/life-at-jenius/"/>
+   <updated>2016-11-25T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2016/11/25/life-at-jenius</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/jenius-logo.png&quot; alt=&quot;jenius&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;for the past few month, i’ve been working at &lt;a href=&quot;https://jenius.com&quot;&gt;Jenius&lt;/a&gt;, for those who don’t know, Jenius is a bank, a fintech solution for your everyday lifes #shamelessplug.&lt;/p&gt;
+
+&lt;p&gt;as and engineer, and have been work at the different company, from solution, bank, ecommerce, and now going back to bank again, at first i thought that it would be boring and enterprise-y, sure, there are few things that enterprisey, few things aren’t, couple things move like startup, the agility, vibrantly and the spirit of the team, probably this is the first fintech who acted like a full bank, not e-wallet, not just some sort of payment wallet, it’s a bank, you can do things like bank can do, it also support visa, this helps me a lot, i not a fan of credit card, but with this, i could pay like credit card do, Uber, Grab, Play Store, App Store, and if you were fans of Spotify, you could do that also.&lt;/p&gt;
+
+&lt;p&gt;it’s a complex system, core bank, its surrounding system, services and so on, things are very exciting if you are a problem solver. and Jenius is hiring jenius@btpn.com&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Extensi file Virtual di Laravel</title>
