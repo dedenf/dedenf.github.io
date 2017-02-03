@@ -4,13 +4,35 @@
  <title>notes</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-01-06T18:05:18+07:00</updated>
+ <updated>2017-02-03T21:02:32+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>eat your own dogfood</title>
+   <link href="http://localhost:4000/blog/2017/02/03/eat-your-own-dogfood/"/>
+   <updated>2017-02-03T00:00:00+07:00</updated>
+   <id>http://localhost:4000/blog/2017/02/03/eat-your-own-dogfood</id>
+   <content type="html">&lt;p&gt;This term might be unfamiliar with indonesian, but this is important if you build product and hope people gonna use it.&lt;/p&gt;
+
+&lt;p&gt;A product has a long and sometimes tedious processes, from initiations, designing, architecturing, if the product is a software, doing the coding, go back and forth, finalizing story, bargaining, a lot of process, sometimes drama, and we shipped the product.&lt;/p&gt;
+
+&lt;p&gt;Did user happy? who is the user? did we heard their feedback, or if the product is not exist yet, did we do research first? how cooked the story, requirement.&lt;/p&gt;
+
+&lt;p&gt;The one thing that sometimes we missed is, did we as someone who make the product use the product itself? did we as the &lt;em&gt;maker&lt;/em&gt; understand what we build? is the product itself speaks our story, and reflected on our product. if the the &lt;em&gt;maker&lt;/em&gt; did not use their own product, how can they understand what people need, we won’t have empathy towards our targetted customers, no sense of ownership, feeld nothing, just plain emotion, work just work, no sense of belonging and urgency whether our product being used by the user or just a bunch of features that they did not need at all.&lt;/p&gt;
+
+&lt;p&gt;If the product built by team, and in that organization have multiple team like sales, marketing, products etc, make all the team use it, make all the team get the sense of what our users feels, the crash, the frustations. and in my opinion, it is better if our internal team finds out what went wrong, rather than if our customers in the wild, they can complain, and it’s good, but if they did not, and decided to just not use and uninstall our product, that’s the worst thing that could happened to your product.&lt;/p&gt;
+
+&lt;p&gt;Listen your customers feedback, listen their whining, their complain, improve, repeat. 
+avoid adding too much feature that sometime the users itself did not need. the feature will overburden the team with no benefit for all.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;always listen&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Life at Jenius</title>
