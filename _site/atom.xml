@@ -4,13 +4,25 @@
  <title>notes</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-02-03T21:02:32+07:00</updated>
+ <updated>2017-03-17T18:15:57+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Ode For Wujudkan.com</title>
+   <link href="http://localhost:4000/blog/2017/03/17/an-ode-wujudkan/"/>
+   <updated>2017-03-17T00:00:00+07:00</updated>
+   <id>http://localhost:4000/blog/2017/03/17/an-ode-wujudkan</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;spoiler&lt;/em&gt;, &lt;a href=&quot;https://wujudkan.com&quot;&gt;wujudkan.com&lt;/a&gt; is &lt;a href=&quot;http://blog.wujudkan.com/2017/02/01/sebuah-pengumuman-penting/&quot;&gt;closing its door&lt;/a&gt;, it’s a sad an must be hard decision for &lt;a href=&quot;https://twitter.com/somemandy&quot;&gt;Mandy&lt;/a&gt; and team. &lt;br /&gt;
+I am very lucky to be a small part of their journey. hope its for the best.&lt;/p&gt;
+
+&lt;p&gt;good luck in the future project guys!&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>eat your own dogfood</title>
