@@ -1,3 +1,6 @@
+body{
+  font-family: 'roboto', arial, sans-serif;
+}
 .container {
   max-width: 600px; }
 .section-foot {
@@ -12,6 +15,7 @@
 .value-props {
   margin-top: 4rem;
   margin-bottom: 4rem; }
+ul li .docs-header {}
 .docs-header {
   text-transform: uppercase;
   font-size: 1.4rem;
@@ -90,6 +94,7 @@
   letter-spacing: .2rem;
   margin-right: 35px;
   text-decoration: none;
+  text-indent: -1px;
   color: #222; }
 .title-link.active {
     color: #33C3F0; }
@@ -100,13 +105,15 @@
   text-decoration: none;
   font-weight: 600;
 }
-.related-posts{
-
-}
 ul.related-posts h6 a{
   font-size: .9em;
   color: #222;
   text-decoration: none;
+
+}
+ul.related-posts li {
+  list-style: none;
+  list-style-type: none;
 }
 ul.related-posts h6 a:hover{
   text-decoration: underline;
@@ -168,7 +175,8 @@ ul.related-posts h6 a:hover{
   .logotext h3 a{
     color: #222;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 300;
+    
   }
   .navbar,
   .navbar-spacer,
@@ -205,10 +213,11 @@ ul.related-posts h6 a:hover{
     float: left;
     margin-bottom: 0; }
   .title-link {
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: .2rem;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: -1px;
+    font-family: 'Poppins', sans-serif;
     margin-right: 0px;
     text-decoration: none;
     color: #222; }

@@ -13,15 +13,9 @@ Kasus ini terjadi karena hendak menggunakan Facebook dynamic ads, untuk memenuhi
 dalam percobaan pertama, hasil response yang digunakan adalah dengan menambahkan `Content-Type` dioutput, tapi ini tidak cukup, facebook feed fetcher tidak support hal ini, diharuskan berupa ektensi file. memang ada cara bagaimana untuk membuat file feed ini dengan menggunakan facebook Ads SDK, tetapi hal ini mengharuskan kita untuk meng-_update_ `composer.json`, dan menambahkan library-nya.
 
 ada cara yang lebih mudah, yaitu dengan menggunakan `routes.php`, dan mendeklarasikan ekstensi file (entah itu pdf, xml, csv dan lainnya),
-<pre><code>
-        Route::get('/products/feed/{category}{extension?}', [
-            'uses' => 'ProductController@FacebookFeed',
-            'as' => 'facebook.feed',
-        ])->where([
-            'category' => '[a-zA-Z0-9-_]+',
-            'extension' => '\..+'
-        ]);
-</code></pre>
+
+<script src="https://gist.github.com/dedenf/56c9a236e5f6ae04c516a88895448ed9.js"></script>
+
 dengan menggunakan entry routes di atas, kita memiliki kemudahan dalam men-_generate_ file, berikut extensinya, di sini, akan terbuat url `https://www.example.com/products/feed/baju.xml`
 
 ini mirip dengan yang dulu pernah diimplementasikan di codeigniter.

@@ -4,7 +4,7 @@
  <title>notes</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-03-17T18:15:57+07:00</updated>
+ <updated>2017-04-26T17:29:36+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -73,15 +73,9 @@ avoid adding too much feature that sometime the users itself did not need. the f
 &lt;p&gt;dalam percobaan pertama, hasil response yang digunakan adalah dengan menambahkan &lt;code class=&quot;highlighter-rouge&quot;&gt;Content-Type&lt;/code&gt; dioutput, tapi ini tidak cukup, facebook feed fetcher tidak support hal ini, diharuskan berupa ektensi file. memang ada cara bagaimana untuk membuat file feed ini dengan menggunakan facebook Ads SDK, tetapi hal ini mengharuskan kita untuk meng-_update_ &lt;code class=&quot;highlighter-rouge&quot;&gt;composer.json&lt;/code&gt;, dan menambahkan library-nya.&lt;/p&gt;
 
 &lt;p&gt;ada cara yang lebih mudah, yaitu dengan menggunakan &lt;code class=&quot;highlighter-rouge&quot;&gt;routes.php&lt;/code&gt;, dan mendeklarasikan ekstensi file (entah itu pdf, xml, csv dan lainnya),&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;
-        Route::get('/products/feed/{category}{extension?}', [
-            'uses' =&amp;gt; 'ProductController@FacebookFeed',
-            'as' =&amp;gt; 'facebook.feed',
-        ])-&amp;gt;where([
-            'category' =&amp;gt; '[a-zA-Z0-9-_]+',
-            'extension' =&amp;gt; '\..+'
-        ]);
-&lt;/code&gt;&lt;/pre&gt;
+
+&lt;script src=&quot;https://gist.github.com/dedenf/56c9a236e5f6ae04c516a88895448ed9.js&quot;&gt;&lt;/script&gt;
+
 &lt;p&gt;dengan menggunakan entry routes di atas, kita memiliki kemudahan dalam men-_generate_ file, berikut extensinya, di sini, akan terbuat url &lt;code class=&quot;highlighter-rouge&quot;&gt;https://www.example.com/products/feed/baju.xml&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;ini mirip dengan yang dulu pernah diimplementasikan di codeigniter.&lt;/p&gt;

@@ -23,10 +23,10 @@
   <!-- CSS -->
   <!-- <link rel="stylesheet" href="/public/css/milligram.min.css">
   <link rel="stylesheet" href="/public/css/style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,400, 500, 700,700italic|Lato:400,700|Roboto+Slab">
+  <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,400, 500, 700,700italic|Lato:400,700|Roboto+Slab">-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"> -->
-  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600|Poppins:300,400' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="/public/css/skel/normalize.css">
   <link rel="stylesheet" href="/public/css/skel/skeleton.css">
@@ -97,15 +97,9 @@
 <p>dalam percobaan pertama, hasil response yang digunakan adalah dengan menambahkan <code class="highlighter-rouge">Content-Type</code> dioutput, tapi ini tidak cukup, facebook feed fetcher tidak support hal ini, diharuskan berupa ektensi file. memang ada cara bagaimana untuk membuat file feed ini dengan menggunakan facebook Ads SDK, tetapi hal ini mengharuskan kita untuk meng-_update_ <code class="highlighter-rouge">composer.json</code>, dan menambahkan library-nya.</p>
 
 <p>ada cara yang lebih mudah, yaitu dengan menggunakan <code class="highlighter-rouge">routes.php</code>, dan mendeklarasikan ekstensi file (entah itu pdf, xml, csv dan lainnya),</p>
-<pre><code>
-        Route::get('/products/feed/{category}{extension?}', [
-            'uses' =&gt; 'ProductController@FacebookFeed',
-            'as' =&gt; 'facebook.feed',
-        ])-&gt;where([
-            'category' =&gt; '[a-zA-Z0-9-_]+',
-            'extension' =&gt; '\..+'
-        ]);
-</code></pre>
+
+<script src="https://gist.github.com/dedenf/56c9a236e5f6ae04c516a88895448ed9.js"></script>
+
 <p>dengan menggunakan entry routes di atas, kita memiliki kemudahan dalam men-_generate_ file, berikut extensinya, di sini, akan terbuat url <code class="highlighter-rouge">https://www.example.com/products/feed/baju.xml</code></p>
 
 <p>ini mirip dengan yang dulu pernah diimplementasikan di codeigniter.</p>
