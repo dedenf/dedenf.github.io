@@ -19,4 +19,4 @@ here are few photos on the meetup.
 ![jvm meetup](/images/posts/jvmusergroup/jvm2.jpg)
 ![jvm meetup](/images/posts/jvmusergroup/jvm3.jpeg)
 
-make sure you join their telegram group @JVMUsergroup, and we are planning to do the next meetup again with JVMUsergroup, at Jenius](https://jenius.com) floor about reactive programming. thanks for all participant and organizer.
+make sure you join their telegram group @JVMUsergroup, and we are planning to do the next meetup again with JVMUsergroup, at [Jenius](https://jenius.com) floor about reactive programming. thanks for all participant and organizer.
