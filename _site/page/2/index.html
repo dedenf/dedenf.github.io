@@ -84,6 +84,69 @@
         
 <div class="docs-section" id="intro">
   <h3>
+    <a class="title-link" href="/2016/08/24/laravel-file-extension/">
+    Extensi file Virtual di Laravel
+  </a></h3>
+
+  <p>Kasus ini terjadi karena hendak menggunakan Facebook dynamic ads, untuk memenuhi syarat yang ditulis di <a href="https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/product-catalog">dokumentasi facebook marketing</a>, dibutuhkan file XML sebagai data feeding ke marketing funnel feed.</p>
+
+<p>dalam percobaan pertama, hasil response yang digunakan adalah dengan menambahkan <code class="highlighter-rouge">Content-Type</code> dioutput, tapi ini tidak cukup, facebook feed fetcher tidak support hal ini, diharuskan berupa ektensi file. memang ada cara bagaimana untuk membuat file feed ini dengan menggunakan facebook Ads SDK, tetapi hal ini mengharuskan kita untuk meng-_update_ <code class="highlighter-rouge">composer.json</code>, dan menambahkan library-nya.</p>
+
+<p>ada cara yang lebih mudah, yaitu dengan menggunakan <code class="highlighter-rouge">routes.php</code>, dan mendeklarasikan ekstensi file (entah itu pdf, xml, csv dan lainnya),</p>
+
+<script src="https://gist.github.com/dedenf/56c9a236e5f6ae04c516a88895448ed9.js"></script>
+
+<p>dengan menggunakan entry routes di atas, kita memiliki kemudahan dalam men-_generate_ file, berikut extensinya, di sini, akan terbuat url <code class="highlighter-rouge">https://www.example.com/products/feed/baju.xml</code></p>
+
+<p>ini mirip dengan yang dulu pernah diimplementasikan di codeigniter.</p>
+
+<p>dengan cara ini kita bisa dengan mudah menggunakan extensi file semau kita, tanpa perlu ada aktual file-nya, dengan didukung oleh content-type dari hasil output kita.</p>
+
+  <br>
+  <div class="panel-footer">
+  
+
+  
+    <a class="button " href="/tag/#laravel" title="View posts tagged with &quot;laravel&quot;">laravel</a>
+    
+  
+    <a class="button " href="/tag/#php" title="View posts tagged with &quot;php&quot;">php</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2016-08-24T00:00:00+07:00" >posted 24 August 2016</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/2016/08/09/cmus/">
+    cmus
+  </a></h3>
+
+  <p>found new tool for playing my mp3 collection, on command line interface, it called <a href="https://cmus.github.io/">cmus</a>, you could install it using your package manager (yum, apt, homebrew, <em>etc</em>).</p>
+
+<p><a href="/images/posts/cmus.png"><img src="/images/posts/cmus.png" alt="CMUS" /></a></p>
+
+  <br>
+  <div class="panel-footer">
+  
+
+  
+    <a class="button " href="/tag/#app" title="View posts tagged with &quot;app&quot;">app</a>
+    
+  
+    <a class="button " href="/tag/#cli" title="View posts tagged with &quot;cli&quot;">cli</a>
+    
+  
+    <a class="button " href="/tag/#music" title="View posts tagged with &quot;music&quot;">music</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2016-08-09T00:00:00+07:00" >posted 09 August 2016</h6>
+</div>
+
+<div class="docs-section" id="intro">
+  <h3>
     <a class="title-link" href="/2016/08/02/on-gojek-term-of-use/">
     Go-Jek Privacy Policy
   </a></h3>
@@ -198,72 +261,6 @@ menuliskan surel yang resmi.</p>
   
 
   <h6 class="docs-header" datetime="2016-05-03T00:00:00+07:00" >posted 03 May 2016</h6>
-</div>
-
-<div class="docs-section" id="intro">
-  <h3>
-    <a class="title-link" href="/2016/03/24/watching-the-watcher/">
-    Watching The Watcher
-  </a></h3>
-
-  <p>This is a constant rant, we have a Job Service defined on our stack, using the very simple tool, Supervisor. this awesome tool do its job, but the thing is, our job service is sucks, and it did not cue or trigger anything if the job stuck/stalled, supervisor assumed that everything is working, because the service is still running, but failed to pass the job and execute it.</p>
-
-<p>all we have to do is restarting the job on <code class="highlighter-rouge">supervisor</code>, guess we should refactoring the job service. <em>darn!</em></p>
-
-  <br>
-  <div class="panel-footer">
-  
-
-  
-    <a class="button " href="/tag/#development" title="View posts tagged with &quot;development&quot;">development</a>
-    
-  
-    <a class="button " href="/tag/#operations" title="View posts tagged with &quot;operations&quot;">operations</a>
-    
-  
-    <a class="button " href="/tag/#rant" title="View posts tagged with &quot;rant&quot;">rant</a>
-    
-  
-
-  <h6 class="docs-header" datetime="2016-03-24T00:00:00+07:00" >posted 24 March 2016</h6>
-</div>
-
-<div class="docs-section" id="intro">
-  <h3>
-    <a class="title-link" href="/2016/03/18/custom-brew/">
-    milk+coffee
-  </a></h3>
-
-  <p><img src="https://images.unsplash.com/photo-1452882033718-1caccfcfe77f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;s=ea55f950e65da5c0e5dfdd4a49424404" alt="coffee milk" /></p>
-
-<p>recently i’ve been lazy, too lazy, no coffee rituals, no fancy brewing tools, also no fancy coffee beans.
-i’ve using Nestcafe instant coffee as my caffeine boost, but not just that, here’s my recipe:</p>
-
-<ul>
-  <li>Nescafe</li>
-  <li>Milk</li>
-  <li>Sugar (optional)</li>
-</ul>
-
-<h3 id="how-to-make-it">how to make it</h3>
-
-<p>first heat the milk (half of the glass/cup/mug), i’m using microwave to heat the milk, after that, add Nescafe instant coffee (add sugar if you want to), mix it, after that pour hot water.</p>
-
-<p>enjoy!</p>
-
-  <br>
-  <div class="panel-footer">
-  
-
-  
-    <a class="button " href="/tag/#coffee" title="View posts tagged with &quot;coffee&quot;">coffee</a>
-    
-  
-    <a class="button " href="/tag/#milk" title="View posts tagged with &quot;milk&quot;">milk</a>
-    
-  
-
-  <h6 class="docs-header" datetime="2016-03-18T00:00:00+07:00" >posted 18 March 2016</h6>
 </div>
 
 
