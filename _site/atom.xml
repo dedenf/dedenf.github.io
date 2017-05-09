@@ -4,13 +4,24 @@
  <title>notes</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-05-05T12:01:10+07:00</updated>
+ <updated>2017-05-09T21:36:59+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>take a moment</title>
+   <link href="http://localhost:4000/blog/2017/05/09/hero-not-deserved/"/>
+   <updated>2017-05-09T00:00:00+07:00</updated>
+   <id>http://localhost:4000/blog/2017/05/09/hero-not-deserved</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/hero-not-deserved.png&quot; alt=&quot;hero does not deserved&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;/ht @inasaf&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Diversity</title>
