@@ -6,7 +6,7 @@ tags:
     - workplace
 
 category: blog
-publish: false
+published: false
 
 ---
 
