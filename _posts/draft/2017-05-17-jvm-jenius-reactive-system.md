@@ -14,7 +14,7 @@ Team Jenius dan komunitas JVM user group mengadakan event meetup dengan topik me
 *Reactive System* sendiri merupakan satu cara untuk membangun arsitektural sistem yang memungkin aplikasi-aplikasi atau servis-servis yang tersebar menjadi semacam satu unit, bereaksi ke sistem yang ada di sekelilingnya, dan *aware* terhadap satu sistem dengan lainnya.
 *Meetup* ini menghadirkan pembicara **Eko Kurniawan** *Principal Engineer* dari **blibli.com** dan **Andi Pangeran** *Senior Software Engineer* dari **jurnal.id**.
 
-[Jenius](https://jenius.com) akan selalu mengadakan event-event yang bisa digunakan untuk komunitas (tidak terbatas *tech*), untuk menambah pengetahuan, kultur *engineering* di Jenius dan juga bermanfaat bagi komunitas.
+[Jenius](https://jenius.com) akan selalu mengadakan event-event yang bisa digunakan untuk komunitas (tidak terbatas *tech*), selain untuk menambah pengetahuan, kultur *engineering* di Jenius dan juga bermanfaat bagi komunitas.
 
 photo dari *meetup*
 [![jvm x Jenius](/images/posts/jvm2/jvm2-0.jpg)](/images/posts/jvm2/jvm2-0-large.jpg)
