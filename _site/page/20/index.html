@@ -34,7 +34,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="/public/favicon.png"/>
 
-  <link rel="canonical" href="http://localhost:4000">
+  <link rel="canonical" href="http://localhost:4001">
   <link rel="image_src" href="/images/sites/logo.png">
 
   <!-- RSS -->
@@ -61,7 +61,7 @@
           <div class="one-half column">
             <div class="logotext">
               <div class="container">
-                <h3 class="hero-heading"><a href="http://localhost:4000">On the hypertext</a></h3>
+                <h3 class="hero-heading"><a href="http://localhost:4001">On the hypertext</a></h3>
               </div>
             </div>
 
@@ -88,6 +88,39 @@
     <!-- body -->
     <div class="container">
         
+<div class="docs-section" id="intro">
+  <h3>
+    <a class="title-link" href="/blog/2012/01/16/codeigniter-cache/">
+    Codeigniter Cache Tips
+  </a></h3>
+
+  <p>Cache system in Codeigniter is a quite nice feature, thanks to its modular system, you can add more than just a built in cache system, you can add your own.</p>
+
+<p>if you want to make an app with search feature, if you don’t implement cache feature in it, the app will always ask the database whether it has the data or not, this could make your database work for just a ‘historical’ data.
+to make things faster, use cache. to get this cache (even it’s in-memory or in-file cache) work, you could make a GET method (or if you have to use POST, that’s ok, will work too) and create a <a href="http://en.wikipedia.org/wiki/URI">URI</a> for that search.</p>
+
+<p>for example, if you want to cache a user information, just put ?key=user_name in URI, so that the URI will be saved as cache by your app (of course you must enable the cache system on config file!).</p>
+
+<p>“what if the user information is changed?”, yes, if the user information is changed your cache will be something  to blame if the information is not updated instantly. to make this work, just delete the cache if there’s a update action in your module, with that you’ll get the same result after its get updated</p>
+
+  <br>
+  <div class="panel-footer">
+  
+
+  
+    <a class="button " href="/tag/#cache" title="View posts tagged with &quot;cache&quot;">cache</a>
+    
+  
+    <a class="button " href="/tag/#codeigniter" title="View posts tagged with &quot;codeigniter&quot;">codeigniter</a>
+    
+  
+    <a class="button " href="/tag/#php" title="View posts tagged with &quot;php&quot;">php</a>
+    
+  
+
+  <h6 class="docs-header" datetime="2012-01-16T00:00:00+07:00" >posted 16 January 2012</h6>
+</div>
+
 <div class="docs-section" id="intro">
   <h3>
     <a class="title-link" href="/blog/2012/01/12/playing-with-twitter-bootstrap/">
