@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jenius x JVM User Group meetup
+title: "Jenius x JVM User Group meetup"
 tags: 
     - meetup
     - event
@@ -11,7 +11,7 @@ publish: true
 ---
 
 On May 3rd, [Jenius](https://jenius.com) with JVMUserGroup community held an event, it's a developer's event, since its JVM (taken from Java Virtual Machine), it discussed couple new technology that happened on the Java world, the subject is "**Microservice mudah dan cepat dengan Spring Boot**".
-
+<!--more-->
 Since Spring is one of the popular java framework on earth, and when it mentioned about the easiness of how this Spring framework advantage, and how it can be used as microservices.   
 here are few photos on the meetup.
 

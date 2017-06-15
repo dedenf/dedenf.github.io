@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>notes</title>
+ <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-06-13T21:21:36+07:00</updated>
+ <updated>2017-06-15T14:57:28+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -19,14 +19,17 @@
    <id>http://localhost:4000/blog/2017/06/13/a-day-with-safari</id>
    <content type="html">&lt;p&gt;Currently i’m trying to use Safari more than before, this idea coming because using Chrome is pain in the ass in terms of resources, and by simple thought, probably if i use Safari as a default browser it could dramatically change how my browsing experience and also its resources.&lt;/p&gt;
 
+&lt;!--more--&gt;
+
 &lt;p&gt;I still use El Capitan macOS, i hate Sierra, the iCloud integration seems annoying (i do have other backup strategy tho), i’ve installed Sierra on my other macs, and regretting it.&lt;/p&gt;
 
 &lt;p&gt;And using Safari (on El Capitan) did not improve my browsing experience, and sometimes the page did not loaded perfectly, probably the site, but &lt;em&gt;again&lt;/em&gt; on Chrome it is smooth.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/images/posts/safari.jpg&quot;&gt;&lt;img src=&quot;/images/posts/safari.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;OTOH&lt;/em&gt;, Chrome.
-&lt;a href=&quot;/images/posts/chrome.jpg&quot;&gt;&lt;img src=&quot;/images/posts/chrome.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Chrome.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/posts/chrome.jpg&quot;&gt;&lt;img src=&quot;/images/posts/chrome.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;see the top menu position?&lt;/p&gt;
 
@@ -40,9 +43,9 @@
    <updated>2017-05-17T00:00:00+07:00</updated>
    <id>http://localhost:4000/blog/2017/05/17/jvm-jenius-reactive-system</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/jvm2/jvm2.jpeg&quot; alt=&quot;jvm x Jenius&quot; /&gt;
-Team Jenius dan komunitas JVM user group mengadakan event meetup dengan topik mengenai &lt;strong&gt;&lt;em&gt;Reactive System&lt;/em&gt;&lt;/strong&gt;, topik ini sangat menarik karena membahas ide fundamental dari bagaimana membangun system yang &lt;em&gt;robust&lt;/em&gt; dan tentu saja &lt;em&gt;scaled&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Reactive System&lt;/em&gt; sendiri merupakan satu cara untuk membangun arsitektural sistem yang memungkin aplikasi-aplikasi atau servis-servis yang tersebar menjadi semacam satu unit, bereaksi ke sistem yang ada di sekelilingnya, dan &lt;em&gt;aware&lt;/em&gt; terhadap satu sistem dengan lainnya.
+Team Jenius dan komunitas JVM user group mengadakan event meetup dengan topik mengenai &lt;strong&gt;&lt;em&gt;Reactive System&lt;/em&gt;&lt;/strong&gt;, topik ini sangat menarik karena membahas ide fundamental dari bagaimana membangun system yang &lt;em&gt;robust&lt;/em&gt; dan tentu saja &lt;em&gt;scaled&lt;/em&gt;.
+&lt;!--more--&gt;
+&lt;em&gt;Reactive System&lt;/em&gt; sendiri merupakan satu cara untuk membangun arsitektural sistem yang memungkin aplikasi-aplikasi atau servis-servis yang tersebar menjadi semacam satu unit, bereaksi ke sistem yang ada di sekelilingnya, dan &lt;em&gt;aware&lt;/em&gt; terhadap satu sistem dengan lainnya.
 &lt;em&gt;Meetup&lt;/em&gt; ini menghadirkan pembicara &lt;strong&gt;Eko Kurniawan&lt;/strong&gt; &lt;em&gt;Principal Engineer&lt;/em&gt; dari &lt;strong&gt;blibli.com&lt;/strong&gt; dan &lt;strong&gt;Andi Pangeran&lt;/strong&gt; &lt;em&gt;Senior Software Engineer&lt;/em&gt; dari &lt;strong&gt;jurnal.id&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://jenius.com&quot;&gt;Jenius&lt;/a&gt; akan selalu mengadakan event-event yang bisa digunakan untuk komunitas (tidak terbatas &lt;em&gt;tech&lt;/em&gt;), selain untuk menambah pengetahuan, kultur &lt;em&gt;engineering&lt;/em&gt; di Jenius dan juga bermanfaat bagi komunitas.&lt;/p&gt;
@@ -58,7 +61,7 @@ Team Jenius dan komunitas JVM user group mengadakan event meetup dengan topik me
  </entry>
  
  <entry>
-   <title>take a moment</title>
+   <title>Take a moment</title>
    <link href="http://localhost:4000/blog/2017/05/09/hero-not-deserved/"/>
    <updated>2017-05-09T00:00:00+07:00</updated>
    <id>http://localhost:4000/blog/2017/05/09/hero-not-deserved</id>
@@ -73,9 +76,9 @@ Team Jenius dan komunitas JVM user group mengadakan event meetup dengan topik me
    <link href="http://localhost:4000/blog/2017/05/04/jvm-meetup/"/>
    <updated>2017-05-04T00:00:00+07:00</updated>
    <id>http://localhost:4000/blog/2017/05/04/jvm-meetup</id>
-   <content type="html">&lt;p&gt;On May 3rd, &lt;a href=&quot;https://jenius.com&quot;&gt;Jenius&lt;/a&gt; with JVMUserGroup community held an event, it’s a developer’s event, since its JVM (taken from Java Virtual Machine), it discussed couple new technology that happened on the Java world, the subject is “&lt;strong&gt;Microservice mudah dan cepat dengan Spring Boot&lt;/strong&gt;”.&lt;/p&gt;
-
-&lt;p&gt;Since Spring is one of the popular java framework on earth, and when it mentioned about the easiness of how this Spring framework advantage, and how it can be used as microservices. &lt;br /&gt;
+   <content type="html">&lt;p&gt;On May 3rd, &lt;a href=&quot;https://jenius.com&quot;&gt;Jenius&lt;/a&gt; with JVMUserGroup community held an event, it’s a developer’s event, since its JVM (taken from Java Virtual Machine), it discussed couple new technology that happened on the Java world, the subject is “&lt;strong&gt;Microservice mudah dan cepat dengan Spring Boot&lt;/strong&gt;”.
+&lt;!--more--&gt;
+Since Spring is one of the popular java framework on earth, and when it mentioned about the easiness of how this Spring framework advantage, and how it can be used as microservices. &lt;br /&gt;
 here are few photos on the meetup.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/posts/jvmusergroup/jvm1.png&quot; alt=&quot;jvm meetup&quot; /&gt;
@@ -105,9 +108,9 @@ I am very lucky to be a small part of their journey. hope its for the best.&lt;/
    <id>http://localhost:4000/blog/2017/02/03/eat-your-own-dogfood</id>
    <content type="html">&lt;p&gt;This term might be unfamiliar with indonesian, but this is important if you build product and hope people gonna use it.&lt;/p&gt;
 
-&lt;p&gt;A product has a long and sometimes tedious processes, from initiations, designing, architecturing, if the product is a software, doing the coding, go back and forth, finalizing story, bargaining, a lot of process, sometimes drama, and we shipped the product.&lt;/p&gt;
-
-&lt;p&gt;Did user happy? who is the user? did we heard their feedback, or if the product is not exist yet, did we do research first? how cooked the story, requirement.&lt;/p&gt;
+&lt;p&gt;A product has a long and sometimes tedious processes, from initiations, designing, architecturing, if the product is a software, doing the coding, go back and forth, finalizing story, bargaining, a lot of process, sometimes drama, and we shipped the product.
+&lt;!--more--&gt;
+Did user happy? who is the user? did we heard their feedback, or if the product is not exist yet, did we do research first? how cooked the story, requirement.&lt;/p&gt;
 
 &lt;p&gt;The one thing that sometimes we missed is, did we as someone who make the product use the product itself? did we as the &lt;em&gt;maker&lt;/em&gt; understand what we build? is the product itself speaks our story, and reflected on our product. if the the &lt;em&gt;maker&lt;/em&gt; did not use their own product, how can they understand what people need, we won’t have empathy towards our targetted customers, no sense of ownership, feeld nothing, just plain emotion, work just work, no sense of belonging and urgency whether our product being used by the user or just a bunch of features that they did not need at all.&lt;/p&gt;
 
@@ -125,9 +128,8 @@ avoid adding too much feature that sometime the users itself did not need. the f
    <link href="http://localhost:4000/2016/11/25/life-at-jenius/"/>
    <updated>2016-11-25T00:00:00+07:00</updated>
    <id>http://localhost:4000/2016/11/25/life-at-jenius</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/jenius-logo.png&quot; alt=&quot;jenius&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;for the past few month, i’ve been working at &lt;a href=&quot;https://jenius.com&quot;&gt;Jenius&lt;/a&gt;, for those who don’t know, Jenius is a bank, a fintech solution for your everyday lifes #shamelessplug.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/jenius-logo.png&quot; alt=&quot;jenius&quot; /&gt;
+for the past few month, i’ve been working at &lt;a href=&quot;https://jenius.com&quot;&gt;Jenius&lt;/a&gt;, for those who don’t know, Jenius is a bank, a fintech solution for your everyday lifes #shamelessplug.&lt;/p&gt;
 
 &lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
 
@@ -144,9 +146,9 @@ avoid adding too much feature that sometime the users itself did not need. the f
    <id>http://localhost:4000/2016/08/24/laravel-file-extension</id>
    <content type="html">&lt;p&gt;Kasus ini terjadi karena hendak menggunakan Facebook dynamic ads, untuk memenuhi syarat yang ditulis di &lt;a href=&quot;https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/product-catalog&quot;&gt;dokumentasi facebook marketing&lt;/a&gt;, dibutuhkan file XML sebagai data feeding ke marketing funnel feed.&lt;/p&gt;
 
-&lt;p&gt;dalam percobaan pertama, hasil response yang digunakan adalah dengan menambahkan &lt;code class=&quot;highlighter-rouge&quot;&gt;Content-Type&lt;/code&gt; dioutput, tapi ini tidak cukup, facebook feed fetcher tidak support hal ini, diharuskan berupa ektensi file. memang ada cara bagaimana untuk membuat file feed ini dengan menggunakan facebook Ads SDK, tetapi hal ini mengharuskan kita untuk meng-_update_ &lt;code class=&quot;highlighter-rouge&quot;&gt;composer.json&lt;/code&gt;, dan menambahkan library-nya.&lt;/p&gt;
-
-&lt;p&gt;ada cara yang lebih mudah, yaitu dengan menggunakan &lt;code class=&quot;highlighter-rouge&quot;&gt;routes.php&lt;/code&gt;, dan mendeklarasikan ekstensi file (entah itu pdf, xml, csv dan lainnya),&lt;/p&gt;
+&lt;p&gt;dalam percobaan pertama, hasil response yang digunakan adalah dengan menambahkan &lt;code class=&quot;highlighter-rouge&quot;&gt;Content-Type&lt;/code&gt; dioutput, tapi ini tidak cukup, facebook feed fetcher tidak support hal ini, diharuskan berupa ektensi file. memang ada cara bagaimana untuk membuat file feed ini dengan menggunakan facebook Ads SDK, tetapi hal ini mengharuskan kita untuk meng-_update_ &lt;code class=&quot;highlighter-rouge&quot;&gt;composer.json&lt;/code&gt;, dan menambahkan library-nya.
+&lt;!--more--&gt;
+ada cara yang lebih mudah, yaitu dengan menggunakan &lt;code class=&quot;highlighter-rouge&quot;&gt;routes.php&lt;/code&gt;, dan mendeklarasikan ekstensi file (entah itu pdf, xml, csv dan lainnya),&lt;/p&gt;
 
 &lt;script src=&quot;https://gist.github.com/dedenf/56c9a236e5f6ae04c516a88895448ed9.js&quot;&gt;&lt;/script&gt;
 
@@ -159,7 +161,7 @@ avoid adding too much feature that sometime the users itself did not need. the f
  </entry>
  
  <entry>
-   <title>cmus</title>
+   <title>CMUS</title>
    <link href="http://localhost:4000/2016/08/09/cmus/"/>
    <updated>2016-08-09T00:00:00+07:00</updated>
    <id>http://localhost:4000/2016/08/09/cmus</id>
@@ -176,9 +178,9 @@ avoid adding too much feature that sometime the users itself did not need. the f
    <id>http://localhost:4000/2016/08/02/on-gojek-term-of-use</id>
    <content type="html">&lt;p&gt;Go-Jek is one of the hot startup in Indonesia, operating in major cities in Indonesia, they have massive users, lots of people use their service, from transportation, delivery, cleaning, even massage service.&lt;/p&gt;
 
-&lt;p&gt;someone at Telegram group asked is this for real, the Privacy Policy, security section there’s a suprising point, that they are not responsible of their own data. recently gojek was &lt;a href=&quot;http://teknologi.news.viva.co.id/news/read/720973-hacker-bocorkan-lemahnya-keamanan-aplikasi-gojek&quot;&gt;hacked&lt;/a&gt; and leave huge hole in their systems, and its data has been sold in black market.&lt;/p&gt;
-
-&lt;p&gt;this screenshot on their Privacy Policy is their segway if such a thing like data breach like previous ever happen again.&lt;/p&gt;
+&lt;p&gt;someone at Telegram group asked is this for real, the Privacy Policy, security section there’s a suprising point, that they are not responsible of their own data. recently gojek was &lt;a href=&quot;http://teknologi.news.viva.co.id/news/read/720973-hacker-bocorkan-lemahnya-keamanan-aplikasi-gojek&quot;&gt;hacked&lt;/a&gt; and leave huge hole in their systems, and its data has been sold in black market.
+&lt;!--more--&gt;
+this screenshot on their Privacy Policy is their segway if such a thing like data breach like previous ever happen again.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/images/posts/gojek-provacy-policy.jpg&quot;&gt;&lt;img src=&quot;/images/posts/gojek-provacy-policy.jpg&quot; alt=&quot;Gojek Privacy Policy&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 

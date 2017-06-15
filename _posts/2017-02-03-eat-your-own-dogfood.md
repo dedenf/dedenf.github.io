@@ -11,7 +11,7 @@ category: blog
 This term might be unfamiliar with indonesian, but this is important if you build product and hope people gonna use it.
 
 A product has a long and sometimes tedious processes, from initiations, designing, architecturing, if the product is a software, doing the coding, go back and forth, finalizing story, bargaining, a lot of process, sometimes drama, and we shipped the product.
-
+<!--more-->
 Did user happy? who is the user? did we heard their feedback, or if the product is not exist yet, did we do research first? how cooked the story, requirement.
 
 The one thing that sometimes we missed is, did we as someone who make the product use the product itself? did we as the _maker_ understand what we build? is the product itself speaks our story, and reflected on our product. if the the _maker_ did not use their own product, how can they understand what people need, we won't have empathy towards our targetted customers, no sense of ownership, feeld nothing, just plain emotion, work just work, no sense of belonging and urgency whether our product being used by the user or just a bunch of features that they did not need at all.

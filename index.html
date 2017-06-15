@@ -1,59 +1,40 @@
 ---
 layout: default
 title: Home
+with_header: true
 ---
 
-
 {% for post in paginator.posts %}
-<div class="docs-section" id="intro">
-  <h3>
-    <a class="title-link" href="{{site.baseurl}}{{post.url}}">
-    {{ post.title }}
-  </a></h3>
+  <article class='justify'>
+    {% if post.link %}
+      <h2 class='h3'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h2>
+    {% else %}
+      <div class='mb2'>
+        <h2 class='m0'><a href='{{ site.baseurl }}{{ post.url }}/'>{{ post.title }}</a></h2>
+        <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }} &mdash; {% include read-time.html %}</time>
+      </div>
+    {% endif %}
 
-  {{ post.content }}
-  <br>
-  <div class="panel-footer">
-  {% assign taglist = post.tags | sort %}
+    {% if post.summary %}
+      {% if post.image.teaser %}
+        <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/images/{{ post.image.teaser }}"></a>
+      {% endif %}
+      {{ post.summary | markdownify }}
+      <a href='{{ site.baseurl }}{{ post.url }}/'>Continue reading &rarr;</a>
+    {% else %}
+      {% if post.layout != post %}
+        {% assign words = post.content | strip_html | number_of_words %}
+        {% if words > 50 %}
+          {{ post.excerpt }} <a href="{{ site.github.url }}{{ post.url }}">Read more &rarr;</a>
+        {% else %}
+          {{ post.content }}
+        {% endif %}
+      {% endif %}
+    {% endif %}
 
-  {% for tag in taglist | order: descending %}
-    <a class="button " href="/tag/#{{ tag | cgi_escape }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>
-    {% if forloop.last != true %}  {% endif %}
-  {% endfor %}
+  </article>
 
-  <h6 class="docs-header" datetime="{{ post.date | date_to_xmlschema }}" >posted {{ post.date | date_to_long_string }}</h6>
-</div>
+  <hr class='half-width'/>
 {% endfor %}
 
-<div class="container">
-  {% comment %}
-  {% if paginator.total_pages > 1 %}
-    <ul class="pager">
-      {% if paginator.previous_page %}
-      <li class="previous"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Previous page</a>
-      </li>
-      {% endif %}
-      {% if paginator.next_page %}
-      <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next page &rarr;</a>
-      </li>
-      {% endif %}
-    </ul>
-  {% endif %}
-{% endcomment %}
-
-</div>
-
-<div class="section-foot">
-  <div class="containers" >
-  {% if paginator.next_page %}
-    <a class="button button-primary older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="button button-primary  pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  {% else %}
-    <span class="button pagination-item newer">Newer</span>
-  {% endif %}
-  </div>
-</div>
+{% include pagination.html %}
