@@ -13,7 +13,7 @@ permalink: /:year/:month/:title
 title:            HyperText Thrones
 tagline:          'on the HyperText'
 description:      'HyperText Thrones'
-url:              /
+url:              https://notes.dedenf.com
 baseurl: 		  ""
 # author:
 #   name:           'Deden Fathurahman'
