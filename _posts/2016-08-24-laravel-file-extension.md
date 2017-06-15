@@ -11,7 +11,7 @@ description : menggunakan route sebagai cara untuk mendapatkan extension file vi
 Kasus ini terjadi karena hendak menggunakan Facebook dynamic ads, untuk memenuhi syarat yang ditulis di [dokumentasi facebook marketing](https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/product-catalog), dibutuhkan file XML sebagai data feeding ke marketing funnel feed.
 
 dalam percobaan pertama, hasil response yang digunakan adalah dengan menambahkan `Content-Type` dioutput, tapi ini tidak cukup, facebook feed fetcher tidak support hal ini, diharuskan berupa ektensi file. memang ada cara bagaimana untuk membuat file feed ini dengan menggunakan facebook Ads SDK, tetapi hal ini mengharuskan kita untuk meng-_update_ `composer.json`, dan menambahkan library-nya.
-
+<!--more-->
 ada cara yang lebih mudah, yaitu dengan menggunakan `routes.php`, dan mendeklarasikan ekstensi file (entah itu pdf, xml, csv dan lainnya),
 
 <script src="https://gist.github.com/dedenf/56c9a236e5f6ae04c516a88895448ed9.js"></script>

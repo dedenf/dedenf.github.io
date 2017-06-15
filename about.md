@@ -4,8 +4,8 @@ title: Tentang
 ---
 
 
-nothing to see here, move on!
+You can find me on [Github](https://github.com/dedenf), [Twitter](https://twitter.com/dedenf), [Keybase](https://keybase.io/dedenf).
 
-### ACK
-CSS Styling and design using [skeleton](hhttp://getskeleton.com/).
+## ACK
+CSS Styling and design using [ace](http://aliou.github.io/ace/).
 jekyll + github.

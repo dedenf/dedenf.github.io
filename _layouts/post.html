@@ -1,37 +1,17 @@
 ---
 layout: default
 ---
-<script type="text/javascript">
-  mixpanel.track("read a post");
-</script>
-<div class="post">
-  <h3 class="center">
-    <a class="title-link" href="{{site.baseurl}}{{post.url}}">
-    {{ page.title }}
-  </a></h3>
 
-  <div class="post post-meta">{{ page.date | date_to_long_string }}</div>
+<a href='{{ site.baseurl }}/'>&larr; Posts</a>
 
+<article class='justify'>
+  <div class='mb2'>
+    <h2 class='h3 mb0'><a href='{{ site.baseurl }}{{ page.url }}/'>{{ page.title }}</a></h2>
+    <time class='grayish'>{{ page.date | date: '%B %-d, %Y' }}</time>
+  </div>
   {{ content }}
 
-  {% for tag in page.tags %}
-    <a class="button" href="/tag/#{{ tag | cgi_escape }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>
-  {% endfor %}
+  {% include medium-crosspost.html url=page.medium_url%}
+</article>
 
-</div>
-
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-    <li>
-      <h6 class="docs-header" >
-        <a href="{{ post.url }}">
-          {{ post.title }}
-          <small>{{ post.date | date_to_string }}</small>
-        </a>
-      </h6>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
+{% include post_pagination.html %}

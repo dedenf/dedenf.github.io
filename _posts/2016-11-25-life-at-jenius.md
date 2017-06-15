@@ -5,13 +5,9 @@ tags:
     - life
     - work
 
-description : life at jenius
-excerpt: for the past few month, i've been working at [Jenius](https://jenius.com), for those who don't know, Jenius is a bank, a fintech solution for your everyday lifes #shamelessplug.
 ---
 
 ![jenius](/images/posts/jenius-logo.png)
-
-
 for the past few month, i've been working at [Jenius](https://jenius.com), for those who don't know, Jenius is a bank, a fintech solution for your everyday lifes #shamelessplug.
 
  <!--more-->
