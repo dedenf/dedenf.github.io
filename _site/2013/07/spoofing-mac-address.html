@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <meta charset="UTF-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name='description' content="HyperText Thrones" />
+
+  <title>
+    
+      Spoofing mac address &middot; HyperText Thrones
+    
+  </title>
+
+  <link rel="stylesheet" href="/public/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+</head>
+
+
+  <body class='navy bg-white'>
+
+    <main class='container px4 sm-px2' role='main'>
+      <header class='mt4 mb3 ml4 mr1 sm-ml2'>
+  <h1 class='mb1' role='banner'><a href='/'>&#45;HyperText Thrones&#45;</a></h1>
+  <div class='mxn1' role='navigation'>
+    <a class='btn button-narrow h3' href='/about/'>About</a>
+    <a class='btn button-narrow h3' href='/archive/'>Archive</a>
+  </div>
+</header>
+
+      <a href='/'>&larr; Posts</a>
+
+<article class='justify'>
+  <div class='mb2'>
+    <h2 class='h3 mb0'><a href='/2013/07/spoofing-mac-address/'>Spoofing mac address</a></h2>
+    <time class='grayish'>July 2, 2013</time>
+  </div>
+  <p>another tool that i use for covering my ass from tracking beside my tunnel tool, i use <a href="https://github.com/feross/SpoofMAC">spoof-mac</a>, a python library that can be called from your lovely terminal, you could install it via <code class="highlighter-rouge">pip install SpoofMAC</code>.
+run <code class="highlighter-rouge">sudo spoof-mac randomize wi-fi</code> and you’ll get a random mac address assigned to your ether. you could set the spoof-mac to run everytime you boot up your machine and before joining the network (see their github project).</p>
+
+<p>or maybe if you don’t want to install spoof-mac you could always use good old fashion <code class="highlighter-rouge">ifconfig</code> by runnning this command <code class="highlighter-rouge">sudo ifconfig en0 ether xx:xx:xx:xx:xx:xx</code> (remember, use hex for macaddr). or you can use a generated value by using this <code class="highlighter-rouge">openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'</code></p>
+
+
+  
+
+</article>
+
+<footer class='py4'>
+  
+    <a class='h2' href="/2013/06/ten-cli-command/">&larr;</a>
+  
+
+  
+    <a class='h2' href="/2013/08/most-astounding-fact/">&rarr;</a>
+  
+</footer>
+
+
+    </main>
+  </body>
+</html>

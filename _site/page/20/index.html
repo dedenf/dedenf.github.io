@@ -36,48 +36,7 @@
   <article class='justify'>
     
       <div class='mb2'>
-        <h2 class='m0'><a href='/blog/2012/02/20/modernizr-vs-ie//'>Modernizr vs IE</a></h2>
-        <time class='grayish'>February 20, 2012 &mdash; 
-  
-  
-    1 minute read
-  
-
-
-
-</time>
-      </div>
-    
-
-    
-      
-        
-        
-          <p>Today, i’ve found out something weird, we took an internal launch of our newly developed app that display numerous graph and statistics, it went crash. not the app, but the browser, and you can guess, it’s IE.</p>
-
-<p>From IE6 on XP sp2 until IE8 on windows 7, it all went crash, first i thought about many ‘add-ons’ like Yahoo! websearch (curse you!), and other kind of IE rubbish. i’m heading to the code to look something that might be not right, first i disabled header() from the code, but it’s not it, and the look at the doctype, maybe
-<code class="highlighter-rouge"><span class="c">&lt;!--[if lt IE 7]&gt; &lt;html lang="en"&gt; &lt;![endif]--&gt;</span></code>,</p>
-
-<p>delete that line, but still it doesn’t work.</p>
-
-<p>ook a shot disabled Modernizr (mine is v2.0.6), and it went ok, that’s the ‘culprit’ behind the IE6-IE8 assasinations, as usual, went to google, stumbling at the Modernizr github repo to see maybe other users experienced the same thing, and yes, there is. many <a href="https://github.com/scottjehl/Respond/issues/27">asking</a> about the positioning of the Modernizr call, is it before css, or after css calls. the documentation <a href="http://www.modernizr.com/docs/#installing">says</a> that to install Modernizr is after CSS calls. went to see my code again, it is after CSS calls, a mystery that should be solve, but it’s not, the IE still crashing.</p>
-
-<p>Right now, i just disabled the Modernizr, because can’t find any windows machine right now, too much if i’m firing my VM right now. but i still do believe that placing jQuery and Modernizr is the problem, and some about some CSS3 code that i’ve written, oh they all plotted together to kill our beloved IE.</p>
-
-<p>well, time to write about Sherlock’s ending.</p>
- <a href="/blog/2012/02/20/modernizr-vs-ie/">Read more &rarr;</a>
-        
-      
-    
-
-  </article>
-
-  <hr class='half-width'/>
-
-  <article class='justify'>
-    
-      <div class='mb2'>
-        <h2 class='m0'><a href='/blog/2012/01/16/codeigniter-cache//'>Codeigniter Cache Tips</a></h2>
+        <h2 class='m0'><a href='/2012/01/codeigniter-cache'>Codeigniter Cache Tips</a></h2>
         <time class='grayish'>January 16, 2012 &mdash; 
   
   
@@ -102,7 +61,7 @@ to make things faster, use cache. to get this cache (even it’s in-memory or in
 <p>for example, if you want to cache a user information, just put ?key=user_name in URI, so that the URI will be saved as cache by your app (of course you must enable the cache system on config file!).</p>
 
 <p>“what if the user information is changed?”, yes, if the user information is changed your cache will be something  to blame if the information is not updated instantly. to make this work, just delete the cache if there’s a update action in your module, with that you’ll get the same result after its get updated</p>
- <a href="/blog/2012/01/16/codeigniter-cache/">Read more &rarr;</a>
+ <a href="/2012/01/codeigniter-cache">Read more &rarr;</a>
         
       
     
@@ -114,7 +73,7 @@ to make things faster, use cache. to get this cache (even it’s in-memory or in
   <article class='justify'>
     
       <div class='mb2'>
-        <h2 class='m0'><a href='/blog/2012/01/12/playing-with-twitter-bootstrap//'>Playing with Twitter Bootstrap</a></h2>
+        <h2 class='m0'><a href='/2012/01/playing-with-twitter-bootstrap'>Playing with Twitter Bootstrap</a></h2>
         <time class='grayish'>January 12, 2012 &mdash; 
   
   
@@ -145,7 +104,7 @@ for now, i’m making my own design system, taking from couple of source.</p>
 <p><strong>update</strong></p>
 
 <p>patungan is renamed to <a href="http://wujudkan.com">wujudkan.com</a>, go make some project over there!</p>
- <a href="/blog/2012/01/12/playing-with-twitter-bootstrap/">Read more &rarr;</a>
+ <a href="/2012/01/playing-with-twitter-bootstrap">Read more &rarr;</a>
         
       
     
@@ -157,7 +116,7 @@ for now, i’m making my own design system, taking from couple of source.</p>
   <article class='justify'>
     
       <div class='mb2'>
-        <h2 class='m0'><a href='/blog/2012/01/09/not-to-great//'>Not To great</a></h2>
+        <h2 class='m0'><a href='/2012/01/not-to-great'>Not To great</a></h2>
         <time class='grayish'>January 9, 2012 &mdash; 
   
   
@@ -187,7 +146,7 @@ for now, i’m making my own design system, taking from couple of source.</p>
   <article class='justify'>
     
       <div class='mb2'>
-        <h2 class='m0'><a href='/blog/2011/01/18/if-i-were-facebook//'>If i were Facebook</a></h2>
+        <h2 class='m0'><a href='/2011/01/if-i-were-facebook'>If i were Facebook</a></h2>
         <time class='grayish'>January 18, 2011 &mdash; 
   
   
@@ -209,7 +168,7 @@ for now, i’m making my own design system, taking from couple of source.</p>
 <p>create a ‘channel-app-like’, so we’ve got status stream (text), photos, video, and last but not least, Audio. that’s where Last.fm coming.</p>
 
 <p>as we know that Spotify is already built in to the Facebook, it’s easier to integrate both of them. status flooding is something that many user would not love, so for the audio, the traffic will be huge, don’t bother about putting what other people listened into their wall. just don’t do that.</p>
- <a href="/blog/2011/01/18/if-i-were-facebook/">Read more &rarr;</a>
+ <a href="/2011/01/if-i-were-facebook">Read more &rarr;</a>
         
       
     

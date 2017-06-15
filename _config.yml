@@ -5,14 +5,15 @@ highlighter:         rouge
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+# permalink:           pretty
+permalink: /:year/:month/:title
 # relative_permalinks: true
 
 # Setup
 title:            HyperText Thrones
 tagline:          'on the HyperText'
 description:      'HyperText Thrones'
-url:              https://notes.dedenf.com
+url:              /
 baseurl: 		  ""
 # author:
 #   name:           'Deden Fathurahman'
