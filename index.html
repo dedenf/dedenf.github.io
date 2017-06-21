@@ -5,7 +5,7 @@ with_header: true
 ---
 
 {% for post in paginator.posts %}
-  <article class='justify'>
+  <article class=''>
     {% if post.link %}
       <h2 class='h3'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h2>
     {% else %}
