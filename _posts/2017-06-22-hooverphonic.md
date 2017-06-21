@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Hooverphonic"
+title: Hooverphonic
 tags: 
     - daily
     - music
     - productivity
 
 category: blog
-publish: true
+
 ---
 
 Don't know where i have been, these Hooverphonic concert with an orchestra is AMAZING!, the symfony, vocals, everything, it's just perfect.
