@@ -15,12 +15,11 @@ tagline:          'on the HyperText'
 description:      'HyperText Thrones'
 url:              https://notes.dedenf.com
 baseurl: 		  ""
-# author:
-#   name:           'Deden Fathurahman'
-#   url:            http://github.com/dedef
-#   gravatar:       https://en.gravatar.com/yourname
-#   photo:          /images/sites/logo-pakeapa.png
-#   introduction:   'Some introduction words that will be displayed under the avatar. You may include HTML <a href="#">here</a>.'
+author:
+  name:           'Deden Fathurahman'
+  url:            https://notes.dedenf.com/
+  handle:         "@dedenf"
+  email:          dedenf@gmail.com
 
 paginate:         5
 

@@ -4,13 +4,34 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-06-15T19:20:48+07:00</updated>
+ <updated>2017-06-21T12:37:49+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
-   <name></name>
-   <email></email>
+   <name>Deden Fathurahman</name>
+   <email>dedenf@gmail.com</email>
+   <twitter>@dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>A Sociology of the Smartphone</title>
+   <link href="http://localhost:4000/2017/06/reading-list"/>
+   <updated>2017-06-20T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/06/reading-list</id>
+   <content type="html">&lt;p&gt;This is a quite long essay, things are spot on, it tells how smartphones changes our lives, our behavior.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For many of us, they are the last thing we look at before sleep each night, and the first thing we reach for upon waking. We use them to meet people, to communicate, to entertain ourselves, and to find our way around.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;those line almost summed up our daily activity, and how smartphone integral part to our lives, read it all, it is worth the time.&lt;/p&gt;
+
+&lt;h4 id=&quot;another-read&quot;&gt;Another read&lt;/h4&gt;
+&lt;h4 id=&quot;why-you-should-manage-your-energy-not-your-time-&quot;&gt;&lt;a href=&quot;http://www.bbc.com/capital/story/20170612-why-you-should-manage-your-energy-not-your-time&quot;&gt;Why you should manage your energy, not your time →&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;leaving-social-media-taught-me-how-broken-the-news-cycle-is-&quot;&gt;&lt;a href=&quot;https://fivethirtyeight.com/features/leaving-social-media-taught-me-how-broken-the-news-cycle-is&quot;&gt;Leaving Social Media Taught Me How Broken The News Cycle Is →&lt;/a&gt;&lt;/h4&gt;
+</content>
+ </entry>
  
  <entry>
    <title>A day with Safari</title>
