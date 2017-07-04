@@ -4,7 +4,7 @@ layout: post
 tags:
     - life
     - work
-
+category: blog
 ---
 
 ![jenius](/images/posts/jenius-logo.png)

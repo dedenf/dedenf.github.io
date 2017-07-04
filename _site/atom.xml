@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-06-22T02:18:58+07:00</updated>
+ <updated>2017-07-05T00:05:51+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,17 @@
    <twitter>@dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>How the iPhone Was Born: Inside Stories of Missteps and Triumphs</title>
+   <link href="http://localhost:4000/2017/07/links"/>
+   <updated>2017-07-04T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/07/links</id>
+   <content type="html">&lt;p&gt;How Apple build and success with the iPhone, couple former VPs on the interview, it’s a great video!&lt;/p&gt;
+
+&lt;p&gt;and also &lt;a href=&quot;http://www.wsj.com/video/living-with-the-original-iphone-in-2017/790062D5-748C-47CE-A515-549D1C03E6F3.html&quot;&gt;this video&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Hooverphonic</title>

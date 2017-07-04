@@ -3,8 +3,9 @@ layout: link
 type: link
 link: https://longreads.com/2017/06/13/a-sociology-of-the-smartphone/
 title: A Sociology of the Smartphone
-categories:
-- links
+category: links
+tags:
+    - links
 ---
 
 This is a quite long essay, things are spot on, it tells how smartphones changes our lives, our behavior.
