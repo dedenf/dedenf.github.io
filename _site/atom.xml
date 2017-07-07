@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-07-05T00:05:51+07:00</updated>
+ <updated>2017-07-07T11:49:40+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,24 @@
    <twitter>@dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>USB Type-C</title>
+   <link href="http://localhost:4000/2017/07/usb-type-c"/>
+   <updated>2017-07-06T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/07/usb-type-c</id>
+   <content type="html">&lt;p&gt;Using &lt;a href=&quot;https://en.wikipedia.org/wiki/MacBook_Pro#Fourth_generation_.28Touch_Bar.29&quot;&gt;Macbook Pro&lt;/a&gt; that equipped with USB Type-c is quite challenging, not because it’s bad, but this USB type is ‘unconventional’, means, it’s hard to connect your peripherals because all you have is USB Type-A connectors, buying an &lt;a href=&quot;https://www.apple.com/shop/product/MJ1M2AM/A/usb-c-to-usb-adapter&quot;&gt;Apple USB-C to USB converter&lt;/a&gt; seems ridiculously pricey, and this is a review-ish kinda thing.&lt;/p&gt;
+
+&lt;p&gt;Enter &lt;a href=&quot;https://en.wikipedia.org/wiki/USB_On-The-Go&quot;&gt;OTG&lt;/a&gt; (On The Go), and i bought an OTG device branded REMAX, i use the USB-C to USB-A type, it works, it can connect my mouse, external harddrive, iPhone, and other peripherals. 
+&lt;img src=&quot;/images/posts/usbc-connected.jpg&quot; alt=&quot;in action&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Because it converting to USB 3.0 port, the speed is quite decend, the device benchmarked using &lt;a href=&quot;https://itunes.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12&quot;&gt;Blackmagic Disk Speed Test&lt;/a&gt; and &lt;a href=&quot;http://www.xbench.com/&quot;&gt;Xbench&lt;/a&gt;, and it shows a decend speed, in terms of read and write.
+&lt;img src=&quot;/images/posts/usbc-diskspeedtest.jpg&quot; alt=&quot;blackmagic&quot; /&gt;
+&lt;img src=&quot;/images/posts/usbc-xbench.jpg&quot; alt=&quot;Xbench&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;All and all, using the new device with ALL port using USB-C is quite cumbersome if you are using a lot of peripherals USB-A that needed to be connected.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>How the iPhone Was Born: Inside Stories of Missteps and Triumphs</title>
