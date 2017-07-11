@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-07-07T12:08:20+07:00</updated>
+ <updated>2017-07-12T00:28:28+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,19 @@
    <twitter>@dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>LEGO&reg;: Customer service done right</title>
+   <link href="http://localhost:4000/2017/07/customer-service-lego"/>
+   <updated>2017-07-12T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/07/customer-service-lego</id>
+   <content type="html">&lt;p&gt;So the story began when my nephew had his Lego brick piece is missing, it’s new, and he was trying to search the piece, probably hiding somewhere in the box, with no luck. And cleverly decided to email Lego support, tell them that he had not recieve a full pieces of his Lego, and the response from Lego is astonishing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/lego-custserving.jpg&quot; alt=&quot;Lego letter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s customer satisfaction.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>USB Type-C</title>
