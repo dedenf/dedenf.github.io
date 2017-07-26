@@ -83,6 +83,44 @@ mixpanel.init("4bbf3c20e8028da7e4bcba50aaf37552");</script><!-- end Mixpanel -->
   <article class=''>
     
       <div class='mb2'>
+        <h2 class='m0'><a href='/2013/03/grown-ups'>Grown up</a></h2>
+        <time class='grayish'>March 20, 2013 &mdash; 
+  
+  
+    less than 1 minute read
+  
+
+
+
+</time>
+      </div>
+    
+
+    
+      
+        
+        
+          read a post from [dalton caldwell](http://daltoncaldwell.com/) about [Touring yourself](http://daltoncaldwell.com/touring-by-yourself)
+
+i love this quote
+
+> Going “indie” is clearly not for everyone, but I have the utmost respect for the people that are able and willing to do it.
+
+if you read the whole post, you'll get what his meant. and i think personally, there's a connection of how you become a grown ups, especially when you were married, you support your family by what you were doing right now.
+
+that kinda responsibility is not bounded by age, any age who matches criteria like supporting family and the love ones is considered a grown-ups, responsible for himself and other.
+
+        
+      
+    
+
+  </article>
+
+  <hr class='half-width'/>
+
+  <article class=''>
+    
+      <div class='mb2'>
         <h2 class='m0'><a href='/2013/03/hispterize-commit'>Hipsterized commit</a></h2>
         <time class='grayish'>March 6, 2013 &mdash; 
   
@@ -100,23 +138,19 @@ mixpanel.init("4bbf3c20e8028da7e4bcba50aaf37552");</script><!-- end Mixpanel -->
       
         
         
-          <p>After adding current listened track into my commit message, now i’m adding the action, i take picture everytime commiting something. here’s how.</p>
+          After adding current listened track into my commit message, now i'm adding the action, i take picture everytime commiting something. here's how.
 
-<ul>
-  <li>get ImageSnap
- <code class="highlighter-rouge">brew install imagesnap</code> or <code class="highlighter-rouge">port install imagesnap</code></li>
-  <li>create this hook at your project .git/hooks/</li>
-</ul>
+- get ImageSnap
+ `brew install imagesnap` or `port install imagesnap`
+- create this hook at your project .git/hooks/
 
-<p>the hook</p>
+the hook
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
-<span class="nv">COMMITID</span><span class="o">=</span><span class="k">$(</span>git rev-parse HEAD<span class="k">)</span>
-imagesnap -q -w 1 .gitsnap/<span class="nv">$COMMITID</span>.jpg<span class="sb">`</span>
-</code></pre>
-</div>
+    #!/bin/bash
+    COMMITID=$(git rev-parse HEAD)
+    imagesnap -q -w 1 .gitsnap/$COMMITID.jpg`
 
-<p>save as post-commit (so it will run after commit)</p>
+  save as post-commit (so it will run after commit)
 
         
       
@@ -227,41 +261,7 @@ so if we browse the log it will be shown <code class="highlighter-rouge">"fixing
       
         
         
-          <p><img src="http://i.imgur.com/evpKeCw.png" alt="commit" /></p>
-
-        
-      
-    
-
-  </article>
-
-  <hr class='half-width'/>
-
-  <article class=''>
-    
-      <div class='mb2'>
-        <h2 class='m0'><a href='/2013/02/mou-scriptogram'>Mou &#9829; scriptogr.am</a></h2>
-        <time class='grayish'>February 11, 2013 &mdash; 
-  
-  
-    less than 1 minute read
-  
-
-
-
-</time>
-      </div>
-    
-
-    
-      
-        
-        
-          <p>i know it’s late, but just stumbling that we can post to <a href="http://scriptogr.am">scriptogr.am</a> via <a href="http://mouapp.com/">Mou</a>.</p>
-
-<p><img src="http://i.imgur.com/RROdN0e.png" alt="scriptogr.am ID from Mou app" /></p>
-
-<p>if you are Mac users, Mou is the best app for markdown, and it’s free!.</p>
+          ![commit](http://i.imgur.com/evpKeCw.png)
 
         
       
