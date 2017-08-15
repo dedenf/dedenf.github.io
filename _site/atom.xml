@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-07-26T22:46:37+07:00</updated>
+ <updated>2017-08-15T11:27:42+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -20,9 +20,11 @@
    <id>http://localhost:4000/2017/07/mail-app</id>
    <content type="html">&lt;p&gt;I Have been tried many mail client for my work email (Polymail, Spark, Outlook(!), etc), and as we all know, corporate web based email is ugly, from Zimbra to Microsoft Outlook, some might tried to make it look nicer, but still i prefer using a desktop app for my everyday mailing needs.&lt;/p&gt;
 
-&lt;p&gt;I love macOS mail app, but up until Sierra released, the Mail app change, the one thing that annoyed me is, i cannot client the recipients list unless i clicked the ‘&lt;code class=&quot;highlighter-rouge&quot;&gt;Details&lt;/code&gt;’ menu. it used to be clicking the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;amp; 10 more&lt;/code&gt; if you have more than 2 cc for example.&lt;/p&gt;
+&lt;p&gt;I love macOS mail app, but up until Sierra released, the Mail app change, the one thing that annoyed me is, i cannot see the recipients list unless i clicked the ‘&lt;strong&gt;Details&lt;/strong&gt;’ menu. it used to be clicking the ‘&lt;strong&gt;&amp;amp; 10 more&lt;/strong&gt;’ if you have more than 2 cc for example.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/posts/hate-this-feature.jpg&quot; alt=&quot;why&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;the only thing i complained about Spark is, it cannot send email with email as an attachments.&lt;/p&gt;
 </content>
  </entry>
  
