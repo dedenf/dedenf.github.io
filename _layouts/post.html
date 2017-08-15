@@ -12,6 +12,26 @@ layout: default
   {{ content }}
 
   {% include medium-crosspost.html url=page.medium_url%}
+
+  <div class="article_details h-small">
+    <div class="article_details_left">
+      <div class="detail">
+        <span class="field-name">Author: </span>
+        <span class="authors-container">
+          <a href="https://twitter.com/{{site.author.handle}}">
+          {{site.author.name}}							</a>												</span>
+      </div>
+      </div>
+        <div class="article_details_right">
+          <div class="detail">
+            <span class="field-name">Published: {{ page.date | date: '%B %-d, %Y' }}</span> 	
+          </div>
+          <div class="detail">
+            <span class="field-name">Length: {% include read-time.html %} </span> 
+          </div>
+    </div>
+  </div>
+
 </article>
 
 {% include post_pagination.html %}

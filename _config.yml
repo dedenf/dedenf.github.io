@@ -18,7 +18,7 @@ baseurl: 		  ""
 author:
   name:           'Deden Fathurahman'
   url:            https://notes.dedenf.com/
-  handle:         "@dedenf"
+  handle:         "dedenf"
   email:          dedenf@gmail.com
 
 paginate:         5
