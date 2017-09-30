@@ -4,14 +4,45 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-08-15T11:27:42+07:00</updated>
+ <updated>2017-09-30T14:58:07+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
    <email>dedenf@gmail.com</email>
-   <twitter>@dedenf</twitter>
+   <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>High Sierra</title>
+   <link href="http://localhost:4000/2017/09/high-sierra"/>
+   <updated>2017-09-30T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/09/high-sierra</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/high-sierra.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Upgraded to latest Apple macOS High Sierra, i think i love it, and i think this is the first time i upgraded the system without waiting x.x.1 (10.12.1 for example). couple thing that i considered as things i hate, digital clock (now with dot, e.g 10.12), how it displayed the size of the file or transfer (now with comma, e.g &lt;em&gt;Transfering 10,3MB&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;Couple review from other site&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arstechnica.com/gadgets/2017/09/macos-10-13-high-sierra-the-ars-technica-review/&quot;&gt;macOS 10.13 High Sierra: The Ars Technica review&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.theverge.com/2017/9/25/16352736/macos-high-sierra-review-safari-autoplay-blocking&quot;&gt;There’s one good reason to update to macOS High Sierra&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://techcrunch.com/2017/09/25/macos-high-sierra-is-an-infrastructural-update/&quot;&gt;macOS High Sierra’s biggest updates happen behind the scenes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.trustedreviews.com/reviews/apple-macos-high-sierra&quot;&gt;Apple macOS High Sierra&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Acquired Taste</title>
+   <link href="http://localhost:4000/2017/09/acquired-taste"/>
+   <updated>2017-09-15T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/09/acquired-taste</id>
+   <content type="html">&lt;p&gt;Have you ever have a thing that used to be you dislike and from time to time you were changed and began to like the thing that you dislike? maybe by experiece, by how we approach things differently, or you just forced it and become a habit and it suddenly less sucks than it used to be.&lt;/p&gt;
+
+&lt;p&gt;I used to be dislike coffee without sugar, it’s bitter, nothing else, but through out the time, i began to enjoy coffee without sugar after couple of time tasting it, and also using different approach of how i tasted the coffee, buying couple coffee brewing tools and different varieties of coffee, single origin or blend, or whatever. bought a domain name for my love for coffee (&lt;a href=&quot;http://epicoffee.com&quot;&gt;http://epicoffee.com&lt;/a&gt;), this thing also happened to Guinness, Wine.&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Sierra Mail App</title>
