@@ -20,3 +20,7 @@ Couple review from other site
 - [There's one good reason to update to macOS High Sierra](https://www.theverge.com/2017/9/25/16352736/macos-high-sierra-review-safari-autoplay-blocking)
 - [macOS High Sierra’s biggest updates happen behind the scenes](https://techcrunch.com/2017/09/25/macos-high-sierra-is-an-infrastructural-update/)
 - [Apple macOS High Sierra](http://www.trustedreviews.com/reviews/apple-macos-high-sierra)
+
+**update 3 October 2017**    
+since i'm using Macbook Pro with touchbar, i can't swipe between desktop, sometimes it broken, don't know whether it's related, it has different trackpad, checked my uptime and it says only 7 days up, bummer.
+

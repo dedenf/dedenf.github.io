@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-09-30T14:58:07+07:00</updated>
+ <updated>2017-10-03T11:02:08+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -29,6 +29,10 @@
   &lt;li&gt;&lt;a href=&quot;https://techcrunch.com/2017/09/25/macos-high-sierra-is-an-infrastructural-update/&quot;&gt;macOS High Sierra’s biggest updates happen behind the scenes&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.trustedreviews.com/reviews/apple-macos-high-sierra&quot;&gt;Apple macOS High Sierra&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;update 3 October 2017&lt;/strong&gt;  &lt;br /&gt;
+since i’m using Macbook Pro with touchbar, i can’t swipe between desktop, sometimes it broken, don’t know whether it’s related, it has different trackpad, checked my uptime and it says only 7 days up, bummer.&lt;/p&gt;
+
 </content>
  </entry>
  
