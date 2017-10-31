@@ -82,7 +82,7 @@
 
   
   
-    less than 1 minute read (73 words)
+    less than 1 minute read (75 words)
   
 
 </time>
@@ -97,11 +97,10 @@
 
 <p>the hook</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
 <span class="nv">COMMITID</span><span class="o">=</span><span class="k">$(</span>git rev-parse HEAD<span class="k">)</span>
-imagesnap -q -w 1 .gitsnap/<span class="nv">$COMMITID</span>.jpg<span class="sb">`</span>
-</code></pre>
-</div>
+imagesnap <span class="nt">-q</span> <span class="nt">-w</span> 1 .gitsnap/<span class="nv">$COMMITID</span>.jpg<span class="sb">`</span>
+</code></pre></div></div>
 
 <p>save as post-commit (so it will run after commit)</p>
 
@@ -128,7 +127,7 @@ imagesnap -q -w 1 .gitsnap/<span class="nv">$COMMITID</span>.jpg<span class="sb"
 
   
   
-    less than 1 minute read (73 words)
+    less than 1 minute read (75 words)
   
 
  </span> 

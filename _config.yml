@@ -10,8 +10,8 @@ permalink: /:year/:month/:title
 # relative_permalinks: true
 
 # Setup
-title:            HyperText Thrones
-tagline:          'on the HyperText'
+title:            "HyperText Thrones"
+tagline:          "on the HyperText"
 description:      'HyperText Thrones'
 url:              https://notes.dedenf.com
 baseurl: 		  ""
@@ -29,7 +29,9 @@ version:          1.0.0
 github:
   repo:           https://github.com/dedenf/dedenf.github.io
 
-gems: [jemoji, jekyll-paginate]
+gems: 
+  - jemoji
+  - jekyll-paginate
   
 paginate_path: "page/:num"
 excerpt_separator: "<!--more-->"
