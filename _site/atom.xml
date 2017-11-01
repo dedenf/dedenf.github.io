@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-10-31T23:24:45+07:00</updated>
+ <updated>2017-11-01T20:00:13+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,28 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #2</title>
+   <link href="http://localhost:4000/2017/11/daily-bite-2"/>
+   <updated>2017-11-01T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/11/daily-bite-2</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.hpe.com/us/en/insights/articles/the-owasp-top-10-is-killing-me-and-killing-you-1710.html&quot;&gt;The OWASP Top 10 is killing me, and killing you!&lt;/a&gt; – 
+Another laundry list&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sbs.com.au/news/article/2015/12/30/paris-syndrome-culture-shock-sickness-sends-japanese-tourists-packing&quot;&gt;Paris Syndrome: culture shock sickness sends Japanese tourists packing&lt;/a&gt; &lt;br /&gt;
+Non-techie article, and a bit old, and quite frankly, a lot of people having the same issue, the real world is not what they expected to be. people saw it on photos/video/movie and hopping the same thing.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://medium.com/the-node-js-collection/news-node-js-8-moves-into-long-term-support-and-node-js-9-becomes-the-new-current-release-line-74cf754a10a0&quot;&gt;Node 8 Moves into Long-Term Support and Node 9 is the current release&lt;/a&gt; &lt;br /&gt;
+Truth is, i’m a bit skeptical and confused sometimes about Node life cycle, and between major release don’t know how many APIs that gonna be broken.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #1</title>
