@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-11-05T11:09:50+07:00</updated>
+ <updated>2017-11-06T10:18:38+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,28 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #5</title>
+   <link href="http://localhost:4000/2017/11/daily-bite-5"/>
+   <updated>2017-11-05T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/11/daily-bite-5</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://i.kinja-img.com/gawker-media/image/upload/aoxjg0jeh5zeg424uyy6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;em&gt;Whale Whisperers. Credit: Anuar Patjane Floriuk&lt;/em&gt;&lt;/center&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://sploid.gizmodo.com/this-years-best-press-photos-are-absolutely-electrifyin-1759894233?utm_source=dedenf&quot;&gt;This Year’s Best Press Photos Are Absolutely Electrifying&lt;/a&gt; – i love these photos, especially Whale Whisperer (above).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://zwischenzugs.com/2017/10/27/ten-things-i-wish-id-known-before-using-vagrant/?utm_source=dedenf&quot;&gt;Ten Things I Wish I’d Known Before Using Vagrant&lt;/a&gt; – i use Vagrant almost all the time, for openshift development and whole bunch of things.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://medium.com/@pamelafox/my-morning-practice-40ec0887a260?utm_source=dedenf&quot;&gt;My Morning Practice&lt;/a&gt; – i don’t have one, beside waking up (sometimes late), i should start one &lt;em&gt;tomorrow&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #4</title>
