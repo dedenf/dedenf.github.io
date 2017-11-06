@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-11-06T11:29:33+07:00</updated>
+ <updated>2017-11-06T21:14:13+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -14,10 +14,29 @@
 
  
  <entry>
-   <title>The Flash</title>
-   <link href="http://localhost:4000/2017/11/the-flash"/>
+   <title>Daily Bite #6</title>
+   <link href="http://localhost:4000/2017/11/02-daily-bite-6"/>
    <updated>2017-11-06T00:00:00+07:00</updated>
-   <id>http://localhost:4000/2017/11/the-flash</id>
+   <id>http://localhost:4000/2017/11/02-daily-bite-6</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://landing.google.com/sre/book.html&quot;&gt;Site Reliability Engineering – The Book&lt;/a&gt; – Freely available, you can read it online or buy hard copy. this is absolute gems for my team.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://medium.com/@deusexmachina667/you-fired-your-top-talent-i-hope-youre-happy-cf57c41183dd&quot;&gt;You fired your top talent. I hope you’re happy.&lt;/a&gt; – it is basically a shout out to previous article (&lt;a href=&quot;https://medium.freecodecamp.org/we-fired-our-top-talent-best-decision-we-ever-made-4c0a99728fde?gi=fbc062e62a4&quot;&gt;read here first&lt;/a&gt;), all argument on both article could be right, i have seen both of the case, from the developer itself and from the company who were don’t give a damn to the developers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.gq.com/story/taika-waititi-thor-ragnarok-profile&quot;&gt;&lt;em&gt;Thor: Ragnarok’s&lt;/em&gt; Taika Waititi Is Here to Save the Blockbuster&lt;/a&gt; – it’s a fun movie btw, but not much i can remember, it’s just many laughter, funny character, after watch it, it just… gone.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Flash</title>
+   <link href="http://localhost:4000/2017/11/01-the-flash"/>
+   <updated>2017-11-06T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/11/01-the-flash</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/flash-run.jpg&quot; alt=&quot;the flash run! but damaging the stairs&quot; /&gt;
 As one of the flash’ fans, not a hardcore fans, but enjoying the mythology. and been a loyal audience for the flash series. but still sometime it irritated me to see how Flash potrayed, on the series (the old one and new), the most irritating one is well his speed (i’m talking about Barry Allen’s flash, yeah there’s a lot of Flashs), Flash should be faster than anyone, even Reverse Flash could travel time/universe while having conversation with himself to decieved anyone that they were different person.&lt;/p&gt;
 
