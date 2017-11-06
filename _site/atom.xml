@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-11-06T10:38:21+07:00</updated>
+ <updated>2017-11-06T11:26:50+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,20 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>The Flash</title>
+   <link href="http://localhost:4000/2017/11/the-flash"/>
+   <updated>2017-11-06T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/11/the-flash</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/flash-run.jpg&quot; alt=&quot;the flash run! but damaging the stairs&quot; /&gt;
+As one of the flash’ fans, not a hardcore fans, but enjoying the mythology. and been a loyal audience for the flash series. but still sometime it irritated me to see how Flash potrayed, on the series (the old one and new), the most irritating one is well his speed (i’m talking about Barry Allen’s flash, yeah there’s a lot of Flashs), Flash should be faster than anyone, even Reverse Flash could travel time/universe while having conversation with himself to decieved anyone that they were different person.&lt;/p&gt;
+
+&lt;p&gt;But somehow, the flash, when he ran, there’s lightning and glasses shattered when he run, this is annoying, since he is the fastest man alive, and according &lt;a href=&quot;https://comicvine.gamespot.com/barry-allen/4005-22804/forums/flash-max-speed-704188/&quot;&gt;this fans calculation&lt;/a&gt;, he can run 9,400,000 million times the speed of light, so basically, he is invinsible, and with that speed, he could fly and after watching &lt;a href=&quot;https://www.youtube.com/watch?v=r9-DM9uBtVI&quot;&gt;Justice league final trailer&lt;/a&gt;, again, disappointed, the surface is breaking while he ran and almost all of the villian can see flash run (see above screencap), why?.&lt;/p&gt;
+
+&lt;p&gt;he just ordinary fast, not as much as 9.400.000 million the speed of light and i’m being too serious, where’s my coffee?&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #5</title>
