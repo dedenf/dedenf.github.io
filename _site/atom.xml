@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-11-06T21:14:13+07:00</updated>
+ <updated>2017-11-07T23:18:49+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,28 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #7</title>
+   <link href="http://localhost:4000/2017/11/daily-bite-7"/>
+   <updated>2017-11-07T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/11/daily-bite-7</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/blogs/2017/10/24/theicon&quot;&gt;The Icon Journey&lt;/a&gt; – The icon journey of Visual Studio Code, how its being made and how the initial design since its inception.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://experiments.withgoogle.com/ai/&quot;&gt;Google AI Experiment&lt;/a&gt; – Fun!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://edwardtufte.github.io/tufte-css/&quot;&gt;Tufte CSS&lt;/a&gt; – I kinda like this CSS, tempting to revamp my blog (again) using this, i always love the style with heavy texts.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://hackernoon.com/what-habits-made-me-a-better-software-engineer-47e7d54b8fa&quot;&gt;What habits made me a better Software Engineer?&lt;/a&gt; – every developers has their own approach to become better (better is so subjective btw), but from these list, a lot of point spot on, and i want to point out how important writing blogs or article is (i try to do that to &lt;a href=&quot;http://jenius.tech&quot;&gt;developers&lt;/a&gt; at &lt;a href=&quot;https://www.jenius.com&quot;&gt;Jenius&lt;/a&gt; ), it is so helpful and also makes you a good storyteller.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #6</title>
@@ -26,7 +48,7 @@
     &lt;p&gt;&lt;a href=&quot;https://medium.com/@deusexmachina667/you-fired-your-top-talent-i-hope-youre-happy-cf57c41183dd&quot;&gt;You fired your top talent. I hope you’re happy.&lt;/a&gt; – it is basically a shout out to previous article (&lt;a href=&quot;https://medium.freecodecamp.org/we-fired-our-top-talent-best-decision-we-ever-made-4c0a99728fde?gi=fbc062e62a4&quot;&gt;read here first&lt;/a&gt;), all argument on both article could be right, i have seen both of the case, from the developer itself and from the company who were don’t give a damn to the developers.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.gq.com/story/taika-waititi-thor-ragnarok-profile&quot;&gt;&lt;em&gt;Thor: Ragnarok’s&lt;/em&gt; Taika Waititi Is Here to Save the Blockbuster&lt;/a&gt; – it’s a fun movie btw, but not much i can remember, it’s just many laughter, funny character, after watch it, it just… gone.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.gq.com/story/taika-waititi-thor-ragnarok-profile&quot;&gt;&lt;em&gt;Thor: Ragnarok’s&lt;/em&gt; Taika Waititi Is Here to Save the Blockbuster&lt;/a&gt; – it’s a fun movie btw, but not much i can remember, it’s just many laughter, funny character, after watch it, it’s just… gone.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 </content>
