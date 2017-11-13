@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-11-07T23:18:49+07:00</updated>
+ <updated>2017-11-13T17:33:28+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,28 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #8</title>
+   <link href="http://localhost:4000/2017/11/dailybite-8"/>
+   <updated>2017-11-12T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/11/dailybite-8</id>
+   <content type="html">&lt;p&gt;Being busy is a good thing, but the progress of this dailybites deprioritized, hate to see that, now, i’m trying to keep up!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.independent.co.uk/news/sleep-deprivation-epidemic-health-effects-tired-heart-disease-stroke-dementia-cancer-a7964156.html&quot;&gt;‘Catastrophic’ lack of sleep in modern society is killing us, warns leading sleep scientist&lt;/a&gt; – this is so true in may ways, there are still developers who were bragging this habbit, lack of sleep is not a bragging rights, it’s a downright productivities, and how can four or five hours’ sleep a night can triggered cancer cell.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://insights.stackoverflow.com/survey/2017#overview&quot;&gt;Developer Survey Results 2017&lt;/a&gt; – I love the way STO present these kinda thing. i’m focusing on technologies, and &lt;code class=&quot;highlighter-rouge&quot;&gt;Javascript&lt;/code&gt; is the most popular language that lots of people use.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/toddmotto/public-apis&quot;&gt;A collective list of free APIs for use in web development.&lt;/a&gt; &lt;br /&gt;
+quite a comprehensive list of all things APIs.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #7</title>
