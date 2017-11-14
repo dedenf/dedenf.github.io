@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-11-13T17:33:28+07:00</updated>
+ <updated>2017-11-14T17:27:47+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,21 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>About RSS</title>
+   <link href="http://localhost:4000/2017/11/1on-rss"/>
+   <updated>2017-11-14T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/11/1on-rss</id>
+   <content type="html">&lt;p&gt;One of the my rss feed source &lt;a href=&quot;https://www.macsparky.com/blog/2017/11/the-case-for-rss?ref=dedenf&quot;&gt;posted&lt;/a&gt; about how he still using RSS as a main source of information, and i’m fully agree with it, i’m a fan of RSS, i can’t replace it with social media like Twitter, following news outlet to get some news, or any other social media platform, i still use the old plain RSS (regardless its an xml feed or json feed), using the social media as a source can be distracting, you could ended up reading many post unrelated to your interest.&lt;/p&gt;
+
+&lt;p&gt;It is so much easier to look upon, maintain and follow. yes, you could ended up with a lot of ‘dirty’ things filled on your reader, but the key is you have to selectively choose the feed that you like, and make sure the quality of the post itself. i will not for example subscribe to news site like Detik.com or Kompas.com, it’s a suicide.&lt;/p&gt;
+
+&lt;p&gt;For RSS reader i’m using &lt;a href=&quot;http://cappuccinoapp.com/?ref=dedenf&quot;&gt;Cappuccino&lt;/a&gt;, it’s a beta for now, and good thing it’s free, i’m using Feedly for a while, but i came back to Cappuccino.
+&lt;img src=&quot;/images/posts/cappuccino.jpg&quot; alt=&quot;Cappuccino&quot; /&gt;
+all my feed could be grabbed on my &lt;a href=&quot;https://github.com/dedenf/news-feed&quot;&gt;Github repo&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #8</title>
