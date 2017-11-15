@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-11-15T12:37:52+07:00</updated>
+ <updated>2017-11-15T12:41:39+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -26,9 +26,10 @@
     &lt;p&gt;&lt;a href=&quot;https://github.com/athityakumar/colorls&quot;&gt;Colorls&lt;/a&gt; – it’s an &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; with color!&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://blog.mozilla.org/blog/2017/11/14/introducing-firefox-quantum/&quot;&gt;Firefox Quantum&lt;/a&gt; – I guess it is fast!&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://blog.mozilla.org/blog/2017/11/14/introducing-firefox-quantum/&quot;&gt;Firefox Quantum&lt;/a&gt; – I guess it is fast! &lt;a href=&quot;https://youtu.be/n6wiRyKkmKc&quot;&gt;Firefox Quantum&lt;/a&gt; kinda Chrome-ish, but it is better than previous version.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
 </content>
  </entry>
  
