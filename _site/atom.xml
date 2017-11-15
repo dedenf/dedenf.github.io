@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-11-15T12:41:39+07:00</updated>
+ <updated>2017-11-15T14:48:29+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,28 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #10</title>
+   <link href="http://localhost:4000/2017/11/dailybite10"/>
+   <updated>2017-11-15T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/11/dailybite10</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.buzzfeed.com/mjs538/i-followed-my-stolen-iphone-across-the-world-became-a-celebr?ref=dedenf&quot;&gt;I Followed My Stolen iPhone Across The World, Became A Celebrity In China, And Found A Friend For Life&lt;/a&gt; &lt;br /&gt;
+ this is an old post, but still amazing to read, how this guy lost his iPhone, and that iPhone somehow ended up in China, he already set up his iCould, and the guy who bought the iPhone’s photos always sent out to iCould. the journey is hillarious and simply amazing.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://stratechery.com/2017/apple-at-its-best/&quot;&gt;Apple at its best&lt;/a&gt; &lt;br /&gt;
+ The latest flagship from Apple, iPhone X (ten!) still a thing that people [need|want] to buy, &lt;a href=&quot;https://www.youtube.com/watch?v=J5etXw2ngaE&quot;&gt;people still lining up to buy one&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://ici.radio-canada.ca/special/sextorsion/en/index.html&quot;&gt;Inside the fake Facebook profile industry&lt;/a&gt; &lt;br /&gt;
+ Luring people to add someone else and ‘like-farming’ activity are not a secret in Facebook world. There’s a network of fake profile and then sell it when it got famous on black market.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #9</title>
