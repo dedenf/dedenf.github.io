@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-11-15T14:48:29+07:00</updated>
+ <updated>2017-11-15T17:25:05+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,32 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Firefox Quantum</title>
+   <link href="http://localhost:4000/2017/11/firefox-quantum"/>
+   <updated>2017-11-15T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/11/firefox-quantum</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/firefox-quantum/1.png&quot; alt=&quot;firefox quantum&quot; /&gt;
+Recently Firefox launched its new version of Firefox, dubbed Firefox Quantum, it promised a lot of improvements from previous version. according to the &lt;a href=&quot;https://blog.mozilla.org/blog/2017/11/14/introducing-firefox-quantum/&quot;&gt;release post&lt;/a&gt;, it was built using new core engine to render page, and also new UI &lt;a href=&quot;http://design.firefox.com/photon/welcome.html&quot;&gt;design&lt;/a&gt;, it also promised less memory consumption. &lt;br /&gt;
+Few things i want to highlight from this new release.
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h4 id=&quot;search&quot;&gt;Search&lt;/h4&gt;
+&lt;p&gt;The new search design also compelling, it displayed multiple search engine as you go, and you can switch between search engine easily.
+&lt;img src=&quot;/images/posts/firefox-quantum/2.png&quot; alt=&quot;search engine&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;addons-management&quot;&gt;Addons Management&lt;/h4&gt;
+&lt;p&gt;I think there’s no radical change from this feature compared with the old one, but this UI look and feel a bit fresh.
+&lt;img src=&quot;/images/posts/firefox-quantum/3.png&quot; alt=&quot;Addons Management&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;customize-firefox&quot;&gt;Customize Firefox&lt;/h4&gt;
+&lt;p&gt;This feature has been redesigned also, and also looks fresh. i love it.
+&lt;img src=&quot;/images/posts/firefox-quantum/4.png&quot; alt=&quot;Customize Firefox&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;
+&lt;p&gt;This new release, Firefox Quantum has been proven fast!, i love it, yes it uses purely 64bit, new design, i like it, just need to get used to with black bar (yes you can customize it, but still..), in the Chrome world it is an Incognito mode. the syncing account works fine. Probably this is the right time to come back using it.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #10</title>
