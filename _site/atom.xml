@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-11-14T17:27:47+07:00</updated>
+ <updated>2017-11-15T12:37:52+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,25 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #9</title>
+   <link href="http://localhost:4000/2017/11/2dailybite-9"/>
+   <updated>2017-11-14T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/11/2dailybite-9</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.macsparky.com/blog/2017/11/the-case-for-rss&quot;&gt;The Case For RSS&lt;/a&gt; – i’ve put up the comment on this &lt;a href=&quot;http://notes.dedenf.com/2017/11/1on-rss&quot;&gt;post&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/athityakumar/colorls&quot;&gt;Colorls&lt;/a&gt; – it’s an &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; with color!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://blog.mozilla.org/blog/2017/11/14/introducing-firefox-quantum/&quot;&gt;Firefox Quantum&lt;/a&gt; – I guess it is fast!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>About RSS</title>
