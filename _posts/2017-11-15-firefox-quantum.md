@@ -2,10 +2,10 @@
 layout: post
 title: "Firefox Quantum"
 tags: 
-    - personal
+    - browser
+    - technology
     - firefox
     - "firefox quantum"
-    - rss
 
 category: blog
 published: true
