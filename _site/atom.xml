@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-11-16T13:37:04+07:00</updated>
+ <updated>2017-11-17T17:02:45+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,31 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #12</title>
+   <link href="http://localhost:4000/2017/11/dailybite-12"/>
+   <updated>2017-11-17T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/11/dailybite-12</id>
+   <content type="html">&lt;p&gt;Another friday, have we all reflect on what we have done over the weekdays?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://firstround.com/review/veteran-cto-with-20-years-experience-answers-your-top-startup-building-questions/?ref=dedenf&quot;&gt;Veteran CTO (with Multiple Successful Exits) Answers Your Top Startup-Building Questions&lt;/a&gt; – 
+Many advice for an inspiring tech managers, the list and experience by Adil Ajmal are gold, how the engineer accept its roles, and how they become a team player. Mesuring projects, performances, so on. and i’m quite intrigued by this:
+    &lt;blockquote&gt;
+      &lt;p&gt;I believe that architecting a system is the responsibility of all engineers who have to build and maintain that system and not the exclusive responsibility of a single individual or a team of individuals who just tell others what to do without actually building the system themselves.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://m.signalvnoise.com/move-slowly-and-fix-things-e5a560fd928b?ref=dedenf&quot;&gt;Move Slowly and Fix Things&lt;/a&gt; – I do love this approach, do with small thing, fix that small thing, look upon what’s coming, iterate. i tried to keep things small, functional, add some stuff slowly and iterate to be better.
+    &lt;blockquote&gt;
+      &lt;p&gt;But now most software is so much more than that. It listens to us. It goes everywhere we go. It tracks everything we do. It has our fingerprints. Our heart rate. Our money. Our location. Our face. It’s the primary way we communicate our thoughts and feelings to our friends and family. &lt;br /&gt;
+It’s deeply personal and ingrained into every aspect of our lives. It commands our gaze more and more every day.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://motherboard.vice.com/en_us/article/d3devm/motherboard-guide-to-not-getting-hacked-online-safety-guide?ref=dedenf&quot;&gt;The Motherboard Guide to Not Getting Hacked&lt;/a&gt; – a comprehensive guide for not getting hacked. but all the tools for security always falls down to how the user treat their data. people tend to share almost everything on the internet, and hoping what they do won’t have consequence&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #11</title>
