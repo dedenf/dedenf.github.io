@@ -25,11 +25,19 @@ with_header: true
     {% else %}
       {% if post.layout != post %}
         {% assign words = post.content | strip_html | number_of_words %}
-        {% if words > 110 %}
-          {{ post.excerpt }} <a href="{{ site.github.url }}{{ post.url }}">Read more &rarr;</a>
+
+        {% if post.page_type != "long" %}
+        
+          {% if words > 110 %}
+            {{ post.excerpt }} <a href="{{ site.github.url }}{{ post.url }}">Read more &rarr;</a>
+          {% else %}
+            {{ post.content }}
+          {% endif %}
+
         {% else %}
           {{ post.content }}
         {% endif %}
+
       {% endif %}
     {% endif %}
 
