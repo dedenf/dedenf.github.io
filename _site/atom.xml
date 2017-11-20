@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-11-20T10:41:09+07:00</updated>
+ <updated>2017-11-20T22:05:54+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,29 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #14</title>
+   <link href="http://localhost:4000/2017/11/dailybite-14"/>
+   <updated>2017-11-20T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/11/dailybite-14</id>
+   <content type="html">&lt;h2 id=&quot;lets-talk-about-sleep&quot;&gt;Let’s Talk about sleep&lt;/h2&gt;
+&lt;p&gt;i’ve been talking about sleep deprivation on my &lt;a href=&quot;https://notes.dedenf.com/2017/11/dailybite-8?utm_source=dedenf&quot;&gt;dailybite issue #8&lt;/a&gt;, &lt;a href=&quot;http://www.independent.co.uk/news/sleep-deprivation-epidemic-health-effects-tired-heart-disease-stroke-dementia-cancer-a7964156.html?utm_source=dedenf&quot;&gt;how it affect how we live&lt;/a&gt;, and society is changing, with all the gadgets, nightlife, always-on, fomo.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Electric lights, television and computer screens, longer commutes, the blurring of the line between work and personal time, and a host of other aspects of modern life have contributed to sleep deprivation, which is defined as less than seven hours a night. &lt;br /&gt;
+But this has been linked to cancer, diabetes, heart disease, stroke, Alzheimer’s disease, obesity and poor mental health among other health problems. In short, a lack of sleep is killing us.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Other experiment also proving the same thing about the impact of sleep deprivation, &lt;a href=&quot;http://bigthink.com/philip-perry/how-sleep-deprivation-leads-to-mental-sluggishness?utm_source=dedenf&quot;&gt;mental sluggishness&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The sleep deprived have a higher risk of quite a number of conditions including heart disease, hypertension, type 2 diabetes, obesity, and depression. Lack of sleep also has a deleterious effect on the brain, particularly on memory and cognition.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And this is much more scarier, &lt;a href=&quot;http://www.businessinsider.com/how-much-sleep-is-enough-health-risks-dangers-of-sleep-deprivation-2017-11/?utm_source=dedenf&quot;&gt;Sleep debt is carcinogenic&lt;/a&gt;, watch the video &lt;a href=&quot;https://content.jwplatform.com/players/GNX7U2Wq-puACk8ZV.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A &lt;a href=&quot;https://www.theatlantic.com/magazine/archive/2017/01/how-to-sleep/508781/?utm_source=dedenf&quot;&gt;healthy sleep&lt;/a&gt;, that’s what we need, according that article, women need at least 7.63 hours of sleep, and men 7.76 hours of sleep, so there’s no hack for long we can stay awake without disturbing our sleep behaviour, and no, you cannot take some drugs as a replacement.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #13</title>

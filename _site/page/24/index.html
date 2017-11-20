@@ -76,6 +76,49 @@
   <article class=''>
     
       <div class='mb2'>
+        <h2 class='m0'><a href='/2013/02/mou-scriptogram'>Mou &#9829; scriptogr.am</a></h2>
+        <time class='grayish'>February 11, 2013 &mdash; 
+  
+  
+    less than 1 minute read (30 words)
+  
+
+
+
+</time>
+      </div>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>i know it’s late, but just stumbling that we can post to <a href="http://scriptogr.am">scriptogr.am</a> via <a href="http://mouapp.com/">Mou</a>.</p>
+
+<p><img src="http://i.imgur.com/RROdN0e.png" alt="scriptogr.am ID from Mou app" /></p>
+
+<p>if you are Mac users, Mou is the best app for markdown, and it’s free!.</p>
+
+          
+
+        
+
+      
+    
+
+    
+
+
+  </article>
+
+  <hr class='half-width'/>
+
+  <article class=''>
+    
+      <div class='mb2'>
         <h2 class='m0'><a href='/2013/02/three-charts'>The Charts that you need</a></h2>
         <time class='grayish'>February 7, 2013 &mdash; 
   
@@ -92,8 +135,11 @@
     
       
         
+
         
-          <p><a href="http://37signals.com/svn/writers/noah">Noah</a> at 37signal made a list about the chart that he need to display data.</p>
+        
+          
+            <p><a href="http://37signals.com/svn/writers/noah">Noah</a> at 37signal made a list about the chart that he need to display data.</p>
 
 <blockquote>
   <ol>
@@ -105,7 +151,10 @@
 
 <p>seeing this chart type for people other than devops people or developer i think it’s enough to display data.</p>
 
+          
+
         
+
       
     
 
@@ -135,12 +184,18 @@
     
       
         
+
         
-          <p>built up this repo to share my everyday use vagrant configuration on my local machine, i use Centos 6.3 as my basebox, there’s 3 instance right now, running different purposes, talk to each other, they having threesome.</p>
+        
+          
+            <p>built up this repo to share my everyday use vagrant configuration on my local machine, i use Centos 6.3 as my basebox, there’s 3 instance right now, running different purposes, talk to each other, they having threesome.</p>
 
 <p>clone, fork <code class="highlighter-rouge">https://github.com/dedenf/vagrant</code></p>
 
+          
+
         
+
       
     
 
@@ -170,11 +225,17 @@
     
       
         
-        
-          <p>yeapno</p>
-
 
         
+        
+          
+            <p>yeapno</p>
+
+
+          
+
+        
+
       
     
 
@@ -204,8 +265,11 @@
     
       
         
+
         
-          <p>yesterday, a site that i help build, <a href="http://wujudkan.com">wujudkan.com</a> is launched, for those who don’t know wujudkan is, it’s a crowd funding site, that helps creative talent, or someone who wants to build something and need some fundings.</p>
+        
+          
+            <p>yesterday, a site that i help build, <a href="http://wujudkan.com">wujudkan.com</a> is launched, for those who don’t know wujudkan is, it’s a crowd funding site, that helps creative talent, or someone who wants to build something and need some fundings.</p>
 
 <p>it took a lot of confident to launch it, since so many little things that we have to handle, from the working codes, redactional text, email etc. from many startup advice, launch as soon as possible is essential, to get users feedback you have to launch your product, to get to know what is wrong with your app is launch it. so by today, i look at the Google Analytics, it was quite good, from the developers perspective, the site is running just fine, no choke, no database overload, maybe because the traffic is just average (dunno, though).</p>
 
@@ -217,51 +281,10 @@
 
 <p>and now for the engagement to the users, from the beginning, the team has already using social media tools to make an introductory to the users. the feedback from twitter channel is quite positive, they help us by reporting bugs and what features they want. so i guess now is the time for some bug squashing and development.</p>
  <a href="/2012/02/what-a-day">Read more &rarr;</a>
+          
+
         
-      
-    
 
-    
-
-
-  </article>
-
-  <hr class='half-width'/>
-
-  <article class=''>
-    
-      <div class='mb2'>
-        <h2 class='m0'><a href='/2012/02/modernizr-vs-ie'>Modernizr vs IE</a></h2>
-        <time class='grayish'>February 20, 2012 &mdash; 
-  
-  
-    1 minute read
-  
-
-
-
-</time>
-      </div>
-    
-
-    
-      
-        
-        
-          <p>Today, i’ve found out something weird, we took an internal launch of our newly developed app that display numerous graph and statistics, it went crash. not the app, but the browser, and you can guess, it’s IE.</p>
-
-<p>From IE6 on XP sp2 until IE8 on windows 7, it all went crash, first i thought about many ‘add-ons’ like Yahoo! websearch (curse you!), and other kind of IE rubbish. i’m heading to the code to look something that might be not right, first i disabled header() from the code, but it’s not it, and the look at the doctype, maybe
-<code class="highlighter-rouge"><span class="c">&lt;!--[if lt IE 7]&gt; &lt;html lang="en"&gt; &lt;![endif]--&gt;</span></code>,</p>
-
-<p>delete that line, but still it doesn’t work.</p>
-
-<p>ook a shot disabled Modernizr (mine is v2.0.6), and it went ok, that’s the ‘culprit’ behind the IE6-IE8 assasinations, as usual, went to google, stumbling at the Modernizr github repo to see maybe other users experienced the same thing, and yes, there is. many <a href="https://github.com/scottjehl/Respond/issues/27">asking</a> about the positioning of the Modernizr call, is it before css, or after css calls. the documentation <a href="http://www.modernizr.com/docs/#installing">says</a> that to install Modernizr is after CSS calls. went to see my code again, it is after CSS calls, a mystery that should be solve, but it’s not, the IE still crashing.</p>
-
-<p>Right now, i just disabled the Modernizr, because can’t find any windows machine right now, too much if i’m firing my VM right now. but i still do believe that placing jQuery and Modernizr is the problem, and some about some CSS3 code that i’ve written, oh they all plotted together to kill our beloved IE.</p>
-
-<p>well, time to write about Sherlock’s ending.</p>
- <a href="/2012/02/modernizr-vs-ie">Read more &rarr;</a>
-        
       
     
 
