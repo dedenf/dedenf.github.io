@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-11-23T22:21:16+07:00</updated>
+ <updated>2017-11-24T16:17:45+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,19 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #17</title>
+   <link href="http://localhost:4000/2017/11/dailybite-17"/>
+   <updated>2017-11-24T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/11/dailybite-17</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.thankyouopensource.com/&quot;&gt;Thank you Opensource project letter&lt;/a&gt; – It’s a way to say thank you to Opensource creator/contributor, people can say gratitude to their favorite Opensource project, and sometimes the letter are quite hillarious.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.fugue.co/2015-11-11-guide-to-emacs.html&quot;&gt;A CEO’s Guide to Emacs&lt;/a&gt; – Even tho i’m not a CEO or using EMACs intensively, this is a quite comprehensive reading, Emacs can be use with other thing, some people integrate it with mp3/Spotify, and other things that i cannot imagined.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wexnermedical.osu.edu/brain-spine-neuro/memory-disorders/sage&quot;&gt;SAGE: A Test to Detect Signs of Alzheimer’s and Dementia&lt;/a&gt; – Self-Administered Gerocognitive Exam, I remember my grandmother had this Alzheimer, this simple testing could analyze and do some simple evaluation (you still nedd to go to the doctor for further evalution).&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #16</title>
