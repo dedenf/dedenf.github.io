@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-12-13T16:35:21+07:00</updated>
+ <updated>2017-12-18T10:00:39+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,22 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #19</title>
+   <link href="http://localhost:4000/2017/12/dailybite-19"/>
+   <updated>2017-12-15T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/12/dailybite-19</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.bloomberg.com/view/articles/2017-12-14/2017-was-bad-for-facebook-2018-will-be-worse&quot;&gt;2017 was bad for facebook, 2018 Will Be Worse.&lt;/a&gt; – i’ve quit Facebook since 4 years ago, but have to admit that social media are still the place where you can see or feel connected to the world.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.shirky.com/weblog/2010/04/the-collapse-of-complex-business-models/&quot;&gt;The Collapse of Complex Business Models&lt;/a&gt; – Interesting essay, and i suppose the ancient cities that spans accross Europe for example, reach its peak, and crumble, dunno whether it because of how they manage the country or just simply decided to abandon everything.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #18</title>
