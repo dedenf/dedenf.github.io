@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-12-18T11:10:10+07:00</updated>
+ <updated>2017-12-19T17:27:15+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,28 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #20</title>
+   <link href="http://localhost:4000/2017/12/dailybite-20"/>
+   <updated>2017-12-19T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/12/dailybite-20</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://stateofjs.com/2017/introduction/&quot;&gt;The State of Javascript 2017&lt;/a&gt; – we’re using quite awful lots of nodejs currently to build Jenius’ microservices, sometimes this thing could be a heaven, but lot of time it’s a pain in the ass. i’m not hating nodejs environment or scene, just can’t stand with the &lt;em&gt;ALL THINGS NEW!&lt;/em&gt; frameworks, again and again.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://woz.posthaven.com/what-orms-have-taught-me-just-learn-sql&quot;&gt;What ORMs have taught me: just learn SQL&lt;/a&gt; – Yes, ORM could save you a lot of time, but it also kills you, you became more and more forgetting how the SQL works, or sometimes you forgot how to do the simple &lt;code class=&quot;highlighter-rouge&quot;&gt;JOIN&lt;/code&gt; queries. ORM just please use it wisely.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://mehdi.cherti.name/improving-my-productivity-using-pomodoro-takeaways-after-2-years-of-practice.html&quot;&gt;Improving productivity – 2 Years practicing Pomodoro&lt;/a&gt; – I use Pomodoro not often, use it when i need to complete task that are time sensitive, for example, writing a blog, or lenghty email. with 25 minutes per session, the words will coming at my fingertip. and sometimes do that when in the development mode, trully efective.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Cryptocurrency&quot;&gt;Cryptocurrencies&lt;/a&gt; – i’m into this right now, still not serious enough like other, i need to find out how this things are going and how it used in the real world. many choices, and i since i’m in the bank industry right now, blockchain technology will be use in most of the banks.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Worst Macbook Pro Ever</title>
