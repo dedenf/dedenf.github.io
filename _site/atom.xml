@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-12-21T14:40:06+07:00</updated>
+ <updated>2017-12-22T00:07:56+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,25 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #22</title>
+   <link href="http://localhost:4000/2017/12/dailybite-22"/>
+   <updated>2017-12-21T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/12/dailybite-22</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://renderman.pixar.com/stories/cars-3&quot;&gt;Photorealism at Pixar&lt;/a&gt; – i’ve watched the movie, the story is touching and yet somehow the first one is still better on story persfective. this article took us to how cars 3 got made, the images are amazing, attention to details are awesome, it is that good, closer to realistic one, and the holygrail for computer graphics, Photorealism, where you almost can’t tell whether this is a CGI or photo.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://nautil.us/issue/55/trust/the-bitcoin-paradox&quot;&gt;Blockchain Explainer&lt;/a&gt; – as previously i’ve mentioned, for the past few days i’m into cryptocurrencies, took a quick lession on how future index where made, and learn couple lingo to familiarizing with index world, it’s not an index, but using the same lingo.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.theverge.com/circuitbreaker/2017/12/20/16803190/iphone-slowdown-is-needed-but-also-a-problem&quot;&gt;iPhones start slowing down after a year of use, and that’s way too soon&lt;/a&gt; – this is a bullshit thing from Apple, the reasons behind it are stupid as stupid does.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #21</title>
