@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-12-19T17:27:15+07:00</updated>
+ <updated>2017-12-21T14:40:06+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,27 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #21</title>
+   <link href="http://localhost:4000/2017/12/dailybite-21"/>
+   <updated>2017-12-20T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/12/dailybite-21</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://blog.mozilla.org/firefox/update-looking-glass-add/?utm_source=dedenf&amp;amp;utm_medium=blog&quot;&gt;Mozilla screw things up&lt;/a&gt; &lt;br /&gt;
+the internet praising about how Firefox stand with its user, how they were sworn to protect the internet, but screw their users trust by installing add ons without permission, sure there’s an explanation about it, from configuration failure to flawed system, but it still happened, and users did not happy, and this is their apologia regarding that. on the sidenote, Firefox inscreasingly disappointing, the performance are bad, &lt;a href=&quot;/2017/11/firefox-quantum&quot;&gt;not long ago i wrote a praising post&lt;/a&gt; regarding quantum, it even became my primary browser, but now it has go back to where Firefox used to be, sluggish, CPU and RAM eater and put your computer to no use. at first launch it can open 50 tabs with no issue, now i opened 15 tabs and it’s start to slowing down and eventually i have close couple tab or save it on my OneTab extension and opened later.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.dwmkerr.com/effective-shell-part-1-navigating-the-command-line/?utm_source=dedenf&amp;amp;utm_medium=blog&quot;&gt;Effective Shell&lt;/a&gt; – this is a series of how to use shell effectively, the whole part can be digested even for someone who just know the cli, already watched how Dave worked, indeed, he used the shell effectively.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://bigthink.com/scotty-hendricks/10-schools-of-philosophy-and-why-you-should-know-them?utm_source=dedenf&amp;amp;utm_medium=blog&quot;&gt;10 school of tought&lt;/a&gt; – list of popular thought, Stoicism are probably important one, in muslim teaching there’s a tought called &lt;code class=&quot;highlighter-rouge&quot;&gt;_Qonaah_&lt;/code&gt; meaning accepting with we have and keep working.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #20</title>
