@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-12-22T00:07:56+07:00</updated>
+ <updated>2017-12-27T10:27:13+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,25 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #23</title>
+   <link href="http://localhost:4000/2017/12/dailybite-23"/>
+   <updated>2017-12-24T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/12/dailybite-23</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://nakedsecurity.sophos.com/2016/08/18/nists-new-password-rules-what-you-need-to-know/&quot;&gt;NIST’s new password rules&lt;/a&gt; – an old read, but one of the fine rule how to create password guide for your users.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://coinsutra.com/hodl-popular-cryptocurrency-terms/&quot;&gt;Just HODL!&lt;/a&gt; – couple new lingo from crytocurrencies market, and how the users using it in the chat or forums, some of it hillarious (i have private group to discuss crypto market).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.openrailwaymap.org/&quot;&gt;Open Railway Map&lt;/a&gt; – a crowdsourcing data for railway all over the world.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #22</title>
