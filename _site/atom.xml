@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-12-27T10:27:13+07:00</updated>
+ <updated>2017-12-28T14:15:54+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,25 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #24</title>
+   <link href="http://localhost:4000/2017/12/dailybite-24"/>
+   <updated>2017-12-27T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2017/12/dailybite-24</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.justinobeirne.com/google-maps-moat&quot;&gt;Google Maps’ Moat&lt;/a&gt; – Google Maps’ Fascinating, yet scary detail.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://medium.com/war-is-boring/eating-too-much-rice-almost-sank-the-japanese-navy-f985772c81a6&quot;&gt;Eating Too Much Rice Almost Sank the Japanese Navy One doctor’s fight against the nutritional woes of a nation&lt;/a&gt; – the story about one doctor who fight against &lt;em&gt;beriberi&lt;/em&gt; desease that affecting Japanese navy.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://medium.com/charged-tech/apple-just-told-the-world-it-has-no-idea-who-the-mac-is-for-722a2438389b&quot;&gt;Apple just told the world it has no idea who the Mac is for&lt;/a&gt; – an old article, but still reflecting today’s condition, after Macbook Pro with Touchbar came up, the Macbook Pro lineup are not as good as their predecessors.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #23</title>
