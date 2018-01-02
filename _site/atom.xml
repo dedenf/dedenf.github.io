@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-01-02T09:57:20+07:00</updated>
+ <updated>2018-01-02T10:33:33+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,50 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Podcast</title>
+   <link href="http://localhost:4000/2018/01/podcast"/>
+   <updated>2018-01-02T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/01/podcast</id>
+   <content type="html">&lt;p&gt;Happy new year!&lt;/p&gt;
+
+&lt;p&gt;I love podcast, when podcast got introduced at macworld, people start flocking in and many listener, there’s a lot of channel/network that provide variety of podcast genre, from news, comedy, dramedy, tech, productivty, etc. here are couple podcast that i listened quite often.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://atp.fm/&quot;&gt;Accidental Tech Podcast&lt;/a&gt; &lt;br /&gt;
+ The podcast created by &lt;a href=&quot;https://marco.org/&quot;&gt;Marco Arment&lt;/a&gt; which his blog i subscribed on my feed reader. this podcast will rumbling about tech, sometime about developments.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://devchat.tv/ruby-rogues&quot;&gt;The Ruby Rogues&lt;/a&gt; &lt;br /&gt;
+This one self explanatory, tells about Ruby development, sometimes there’s panelist and will talk about how ruby world currently, and tips also trick how things developed, and of course the guest, i loved the episode about &lt;a href=&quot;https://devchat.tv/ruby-rogues/rr-340-strings-encodings-ruby-aaron-lasseigne&quot;&gt;string&lt;/a&gt; and about &lt;a href=&quot;https://devchat.tv/ruby-rogues/mrs-024-peter-cooper&quot;&gt;Peter Cooper&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.realvision.com/free-stuff/podcasts/&quot;&gt;Adventures In Finance&lt;/a&gt; &lt;br /&gt;
+I like the finance and all that kinda things, i just loved to see how a company, countries and even personal build and manage their financial life, and how to go thru, and this podcast is kinda like that, with recent development like cryptocurrencies etc.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://devchat.tv/freelancers&quot;&gt;Freelancer&lt;/a&gt; &lt;br /&gt;
+This podcast is on the same network with Ruby Rouges, it’s about freelancing and the likes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://rework.fm/&quot;&gt;Rework&lt;/a&gt; &lt;br /&gt;
+This podcast hosted by DHH (creator of Ruby on Rails) and Jason Fried, it tell about development, tools, basecamp (their product) and how they run their business.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;other mention:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ted.com/about/programs-initiatives/ted-talks/ted-talks-audio&quot;&gt;TED Talks Daily&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cynicaldeveloper.com/Podcast/&quot;&gt;Cynical Developer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.theverge.com/whyd-you-push-that-button&quot;&gt;Why’d You Push That Button?&lt;/a&gt; also &lt;a href=&quot;https://www.theverge.com/the-vergecast&quot;&gt;The Vergecast&lt;/a&gt; from The Verge&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://serialpodcast.org/&quot;&gt;Serial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://freakonomics.com/archive/&quot;&gt;Freakonomics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.radiolab.org/&quot;&gt;Radiolab&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.startalkradio.net/&quot;&gt;StarTalk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>720p vs 1080p vs 1080i vs 4K</title>
