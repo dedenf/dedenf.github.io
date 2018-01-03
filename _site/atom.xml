@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-01-02T10:33:33+07:00</updated>
+ <updated>2018-01-03T22:49:18+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,26 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #26</title>
+   <link href="http://localhost:4000/2018/01/dailybite-26"/>
+   <updated>2018-01-03T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/01/dailybite-26</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@frodefrodefrode/put-a-ring-on-it-part-i-18531066c896&quot;&gt;History of Å&lt;/a&gt; – a story about how the Å character created.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hackaday.com/2018/01/03/why-sonys-trinitron-tubes-were-the-best/&quot;&gt;Why sony’s Trinitron tubes were the best&lt;/a&gt; – i remember my neighbor have this kinda TV, i still remember the ad for Sony’s Trinitron.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.theage.com.au/interactive/2017/what-sugar-does-to-your-brain/&quot;&gt;What sugar does to your brain&lt;/a&gt;  &lt;br /&gt;
+sugar and all the bad things it brings to your health, it also can damage your memory, in animal’s brain experiment, they could not create new memory.
+    &lt;blockquote&gt;
+      &lt;p&gt;“We need to eat more to get the same feeling. That’s a classic feature of addiction.”   &lt;br /&gt;
+Dr Zane Andrews&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.newyorker.com/magazine/2017/11/27/the-root-of-all-cruelty&quot;&gt;The Root of All Cruelty?&lt;/a&gt; – humans&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Podcast</title>
