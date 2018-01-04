@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-01-03T22:49:18+07:00</updated>
+ <updated>2018-01-04T16:43:49+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,28 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #27</title>
+   <link href="http://localhost:4000/2018/01/dailybite-27"/>
+   <updated>2018-01-04T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/01/dailybite-27</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/janfeb2018_l02_apollo8.jpg&quot; alt=&quot;earth rising&quot; /&gt; &lt;br /&gt;
+&lt;a href=&quot;https://www.smithsonianmag.com/science-nature/who-took-legendary-earthrise-photo-apollo-8-180967505/&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://meltdownattack.com/&quot;&gt;Meltdown and Spectre Attack&lt;/a&gt; new attach on almost all CPU chip, Intel, ARM, AMD, following news &lt;a href=&quot;https://www.axios.com/massive-chip-flaw-not-limited-to-intel-2522178225.html&quot;&gt;Axios&lt;/a&gt;&lt;a href=&quot;https://www.theregister.co.uk/2018/01/02/intel_cpu_design_flaw/&quot;&gt;The Register&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(&lt;a href=&quot;http://wayoflinux.com/blog/debian-stable-on-desktop&quot;&gt;Why use Debian Stable on the Desktop?&lt;/a&gt; — if i’m using a pc laptop, i will use Dell XPS and Debian as its operating system.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.smithsonianmag.com/science-nature/who-took-legendary-earthrise-photo-apollo-8-180967505/?no-ist&quot;&gt;Who Took the Legendary Earthrise Photo From Apollo 8?&lt;/a&gt; — a brief history how the legendary photo was taken&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #26</title>
