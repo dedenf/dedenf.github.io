@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-01-06T13:18:28+07:00</updated>
+ <updated>2018-01-10T22:50:26+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,40 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Must have addons for your browser</title>
+   <link href="http://localhost:4000/2018/01/must-have-addons"/>
+   <updated>2018-01-10T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/01/must-have-addons</id>
+   <content type="html">&lt;p&gt;This is my list of must have extension or addons for my browsers, i’m using quite a lot of browser, mostly for testing, my main browser still &lt;a href=&quot;/2017/11/firefox-quantum&quot;&gt;Firefox Quantum&lt;/a&gt; and Google Chrome, but it can be installed on most major browser, even Brave or Vivaldi can.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://agilebits.com/onepassword/extensions&quot;&gt;1Password&lt;/a&gt; &lt;br /&gt;
+People forget their password most of the time, using different password for different website is a secure way to protect your account, but to remember all of them is hard, that’s why password management like &lt;a href=&quot;https://agilebits.com/onepassword/&quot;&gt;1Password&lt;/a&gt; come handy, mind you that this is a paid service. but you could install another password management like &lt;a href=&quot;https://www.lastpass.com/&quot;&gt;Lastpass&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.one-tab.com/&quot;&gt;Onetab&lt;/a&gt; &lt;br /&gt;
+This one is a saviour, you browse one website, the hyperlink sends you another one and another one, and you ended up with 32 tabs opened, Onetab will save your opened tab and close it, and you will regain your precious CPU and RAM.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.eff.org/privacybadger&quot;&gt;Privacy Badger&lt;/a&gt; &lt;br /&gt;
+This addons will block ads and invisible trackers, a lot of website have their javascript calls to tracking services, and it will track your behaviour and sell it to advertisers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/gorhill/uBlock#ublock-origin&quot;&gt;uBlock Origin&lt;/a&gt; &lt;br /&gt;
+Like Privacy Badger, uBlock origin also remove ads from website with less CPU, and quite efective than Adblock Plus or its variant.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://getpocket.com/&quot;&gt;Pocket&lt;/a&gt; &lt;br /&gt;
+I saved a lot of article into my Pocket (formerly &lt;em&gt;Read it later&lt;/em&gt;) i curated most of my dailybite or &lt;a href=&quot;http://jenius.tech&quot;&gt;Jenius engineering&lt;/a&gt; there.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That’s my five must have extension/addons and most used, there’s quite a lot of other addons that useful for development or productivity out there.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #27</title>
