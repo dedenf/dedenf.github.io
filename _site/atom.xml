@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-01-11T00:56:09+07:00</updated>
+ <updated>2018-01-11T19:37:55+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,26 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #28</title>
+   <link href="http://localhost:4000/2018/01/dailybite-28"/>
+   <updated>2018-01-11T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/01/dailybite-28</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://medium.com/the-mission/the-system-i-used-to-write-5-books-and-over-1-000-blog-posts-5872451d7461&quot;&gt;Jeff Goins System to Write 5 Books and Over 1,000 Blog Posts&lt;/a&gt; – how to be an effective writer, a writer is not limited to just some novel, scifi etc, but it could be a technical writer, guide, howtos, anything.  &lt;br /&gt;
+Jeff Goins wrote how he focus with three bucket for each time he wants to write, one for Ideas, one for Drafts, one for Edits. with this system, we can have as many as writing we could have and write. i need to build a habit of writing, i hope i can write everyday.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.npr.org/sections/goatsandsoda/2018/01/06/573869099/whats-the-difference-between-children-s-books-in-china-and-the-u-s&quot;&gt;The Difference Between Children’s Books In China And The U.S.&lt;/a&gt; – how to plant the idea to children about perseverance, struggle, effort. and not always everything will according to our plan, everything is changeable, not persist.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.nytimes.com/2018/01/09/world/africa/snow-sahara.html&quot;&gt;Snow in the Sahara&lt;/a&gt; – Just like Anggun’ song title, it is possible.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Must have addons for your browser</title>
