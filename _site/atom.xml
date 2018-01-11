@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-01-11T19:37:55+07:00</updated>
+ <updated>2018-01-11T19:42:31+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,15 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Please Stay</title>
+   <link href="http://localhost:4000/2018/01/please-stay"/>
+   <updated>2018-01-11T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/01/please stay</id>
+   <content type="html">&lt;iframe width=&quot;580&quot; height=&quot;335&quot; src=&quot;https://www.youtube.com/embed/GX3oTm7Lxus?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #28</title>
