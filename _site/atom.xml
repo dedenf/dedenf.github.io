@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-01-11T22:43:10+07:00</updated>
+ <updated>2018-01-16T00:13:34+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -14,11 +14,27 @@
 
  
  <entry>
+   <title>Daily Bite #29</title>
+   <link href="http://localhost:4000/2018/01/dailybite-29"/>
+   <updated>2018-01-12T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/01/dailybite-29</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://thinkingwithtype.com/&quot;&gt;Thinking with Type&lt;/a&gt; – it’s a quite comprehensive knowledge of how you do with your typeface, for print or for web, if you type lover, you’ll love this site.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/pulse/14-steps-building-thriving-family-business-andrew-senduk&quot;&gt;Building a thriving familiy and business&lt;/a&gt; – Comprehensive lists, still working on it, and i think, it will always be a work in progress, will not have a finish line. and that’s the beauty of it. because life will not stop.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Please Stay</title>
    <link href="http://localhost:4000/2018/01/please-stay"/>
    <updated>2018-01-11T00:00:00+07:00</updated>
    <id>http://localhost:4000/2018/01/please stay</id>
-   <content type="html">&lt;iframe width=&quot;580&quot; height=&quot;335&quot; src=&quot;https://www.youtube.com/embed/GX3oTm7Lxus?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+   <content type="html">&lt;iframe width=&quot;700&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/GX3oTm7Lxus?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </content>
  </entry>
  
