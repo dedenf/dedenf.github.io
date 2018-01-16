@@ -7,7 +7,7 @@ tags:
     - blogging
 
 category: blog
-published: false
+published: true
 image:
   feature: /images/posts/illustration/photo-1499750310107-5fef28a66643.jpeg
   teaser: /images/posts/illustration/photo-1499750310107-5fef28a66643.jpeg
@@ -16,7 +16,7 @@ image:
 ![](/images/posts/illustration/photo-1499750310107-5fef28a66643.jpeg)
 <div class="photo-credit">Photo by <a href="https://unsplash.com/photos/cckf4TsHAuw">Andrew Neel</a> on Unsplash.</div>
 
-Markdown as [wikipedia](https://id.wikipedia.org/wiki/Markdown) mentioned it, is a lightweight markup language with simple text formatting syntax. the syntax is easy to write, i use markdown for this blog also, confluence page, documents, readme etc. i did love [Markdown mindset](https://hiltmon.com/blog/2012/02/20/the-markdown-mindset/).
+Markdown as [wikipedia](https://id.wikipedia.org/wiki/Markdown) mentioned it, is a lightweight markup language with simple text formatting syntax. the syntax is easy to write, i use markdown for this blog also, confluence page, documents, readme etc. i love [Markdown mindset](https://hiltmon.com/blog/2012/02/20/the-markdown-mindset/) essay.
 
 And for using markdown essentially you don’t need an Editor if you remember all the syntax, but sometimes it is nice to use an editor for quick formatting and also exporting markdown document to other format like HTML, PDF (_it’s depends on your editor basically_), this list is not necessarily a review, i can comment with my own usage.
 <!--more-->
@@ -37,4 +37,4 @@ This editor is has much more feature then above, has advance mechanism to store 
 5. [Visual Studio Code](https://code.visualstudio.com/)   
 This one is not really markdown editor, but a code editor with markdown plugin added, i use this a lot when wants to publish my blog, i edit most of my Jekyll theme and blog content using VSC, integrated with terminal, so i can push to GitHub directly.
 
-For me i use mostly Typora for all purpose one-off markdown editing, manage my journal in Bear, i also write my blog entry  on Bear, and passed to VSC if i satisfy with the content.
+For me, i use Typora mostly for all purpose one-off markdown editing, manage my journal in Bear, i also write my blog entry on Bear, and passed to VSC if i satisfy with the content.
