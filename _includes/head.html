@@ -48,7 +48,7 @@
   {% if page.title == "Home" %}
 	<meta property="og:image" content="{{ site.baseurl }}/images/sites/logo.png" />
   {% else %}
-  <meta property="og:image" content="{{ site.baseurl }}/images/sites/logo.png" />
+  <meta property="og:image" content="{{ site.baseurl }}{{ page.image.teaser }}" />
   {% endif %}
   
   {% include google_analytics.html %}
