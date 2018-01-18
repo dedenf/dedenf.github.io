@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-01-16T21:53:01+07:00</updated>
+ <updated>2018-01-18T22:52:35+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,19 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>TLDR; a simplified and community-driven man pages</title>
+   <link href="http://localhost:4000/2018/01/tldr"/>
+   <updated>2018-01-18T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/01/tldr</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/tldr.png&quot; alt=&quot;TLDR;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These day if i’m stumbling around the terminal, and doing some &lt;code class=&quot;highlighter-rouge&quot;&gt;brew&lt;/code&gt; or &lt;a href=&quot;https://brew.sh/&quot;&gt;homebrew&lt;/a&gt;, sometimes i look up the &lt;strong&gt;Updated Formulae&lt;/strong&gt; status, and found a lot of gem, one of it &lt;a href=&quot;https://tldr.sh/&quot;&gt;TLDR&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It will displayed man page, with only most used or short as possible, and it is maintaned by community.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Markdown Editor</title>
