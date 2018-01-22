@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-01-18T22:52:35+07:00</updated>
+ <updated>2018-01-22T13:26:01+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,33 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #30</title>
+   <link href="http://localhost:4000/2018/01/dailybite-30"/>
+   <updated>2018-01-22T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/01/dailybite-30</id>
+   <content type="html">&lt;p&gt;New podcast channel that i’ve found recently, here it is&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://spec.fm/podcasts/fragmented&quot;&gt;Fragmented&lt;/a&gt; – This podcast explore and talks about Android, with interesting guest each week.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://spec.fm/podcasts/developer-tea&quot;&gt;Developer Tea&lt;/a&gt; – Lighting talks about how developers fit in, there are few other podcast at Spec.fm channel that i haven’t yet listened yet.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://tim.blog/podcast/&quot;&gt;Tim Ferriss Show&lt;/a&gt; – i love this podcast, it’s easy to grasp, and Tim deliver the talks amazingly with exceptional guest.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://gimletmedia.com/startup/&quot;&gt;Gimlet Media – Startup&lt;/a&gt; – Amazing podcast, wrapped differently, it’s like you were there with the host, and use real life sound to enrich the result.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.npr.org/podcasts/510313/how-i-built-this&quot;&gt;How i build this&lt;/a&gt; – This podcast feature the person behind a product or company, i particularly like the Instagram episode.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>TLDR; a simplified and community-driven man pages</title>
