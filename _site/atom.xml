@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-01-22T13:26:01+07:00</updated>
+ <updated>2018-01-23T13:20:38+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,21 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Airasia password rule is ridiculous</title>
+   <link href="http://localhost:4000/2018/01/airasia-password"/>
+   <updated>2018-01-23T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/01/airasia-password</id>
+   <content type="html">&lt;p&gt;This is probably quite disturbing security practice by one of the high traffic airlines, and it has a huge members on its website, but this user password policy is ridiculous to follow, it even failed &lt;a href=&quot;https://auth0.com/blog/dont-pass-on-the-new-nist-password-guidelines/&quot;&gt;NiST&lt;/a&gt; password guideline, most password right now are sometimes more than 15 characters.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/airasia-password.png&quot; alt=&quot;airasia password&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;photo-credit&quot;&gt;Airasia &lt;a href=&quot;https://member.airasia.com/register.aspx?culture=en-GB&quot;&gt;registration page&lt;/a&gt;.&lt;/div&gt;
+
+&lt;p&gt;and please check your account if it’s already hacked or not at &lt;a href=&quot;https://haveibeenpwned.com/haveibeenpwned.com&quot;&gt;haveibeenpwned.com&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #30</title>
