@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-01-29T11:06:59+07:00</updated>
+ <updated>2018-01-29T19:15:41+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,28 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #31</title>
+   <link href="http://localhost:4000/2018/01/dailybite-31"/>
+   <updated>2018-01-29T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/01/dailybite-31</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://stackshare.io/stream/stream-and-go-news-feeds-for-over-300-million-end-users&quot;&gt;tream &amp;amp; Go: News Feeds for Over 300 Million End Users&lt;/a&gt; – an impressive development, and how they get there.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.spiegel.de/international/world/surgeon-on-separating-siamese-twins-the-first-time-i-cried-in-the-operating-room-a-1189755.html&quot;&gt;It Was the First Time I Cried in the Operating Room&lt;/a&gt; – A story of pedriatric surgeon, when he operate a siamese twins, it’s a touching story.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.iflscience.com/health-and-medicine/after-missile-alert-confirmed-as-false-alarm-this-is-how-hawaii-celebrated/&quot;&gt;Pornhub’s data during false missile alert&lt;/a&gt; – it’s funny how they think they’re gonna die, and the last thing they want to watch is, pr0n. – &lt;em&gt;for science!&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://hacks.mozilla.org/2018/01/firefox-58-the-quantum-era-continues/&quot;&gt;Firefox 58: The Quantum Era Continues&lt;/a&gt; – i’ve review the &lt;a href=&quot;/2017/11/firefox-quantum&quot;&gt;Firefox Quantum&lt;/a&gt; earlier, yes it is a big jump from previous version, and also leave Chrome behind in terms of performance, hope they will keep up with it, and not become a bloated software or worst &lt;a href=&quot;https://www.theverge.com/2018/1/4/16805216/google-chrome-only-sites-internet-explorer-6-web-standards&quot;&gt;become a IE 6-&lt;em&gt;ish&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>NGC281 - The Pacman nebula</title>
