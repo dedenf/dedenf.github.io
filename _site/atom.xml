@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-01-30T17:10:57+07:00</updated>
+ <updated>2018-01-30T20:40:45+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,32 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #32</title>
+   <link href="http://localhost:4000/2018/01/dailybite-32"/>
+   <updated>2018-01-30T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/01/dailybite-32</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.abc.net.au/news/2017-06-25/the-plan-to-plant-nearly-100,000-trees-a-day-with-drones/8642766?utm_source=notes.dedenf.com&quot;&gt;Drones that can plant 100,000 trees a day&lt;/a&gt; &lt;br /&gt;
+A good news, and a bit scary one, bit still a good news! these drones can planted at most 100.000 trees a day, and almost 1 billion trees a year, it can reach the unreachable area, well it flies. the drones will fires germinated seed on to the ground.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.harvardmagazine.com/2003/07/who-built-the-pyramids-html?utm_source=notes.dedenf.com&quot;&gt;Who built pyramids&lt;/a&gt; &lt;br /&gt;
+Contrary to popular believe, Pyramids was build not by slaves, but by true believer of pharaoh, privileged workers. people who built pyramids knows exactly what they do and they are willing to do it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://causeandeffect.kinja.com/oxfams-excellent-inequality-report-1822314028&quot;&gt;Oxfam’s excellent inequality report &lt;/a&gt;  &lt;br /&gt;
+How exactly the wealth distributed amongst people, and this year their mony has been stacked up, what if those were distributed to the one that need the most, it might be no more proverty.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://qz.com/1191654/a-banana-with-an-edible-peel-is-now-available-for-sale-in-japan/?utm_source=nextdraft&amp;amp;utm_medium=notes.dedenf.com&quot;&gt;Japanese farmers created a new kind of banana with an edible peel&lt;/a&gt; &lt;br /&gt;
+Well, this is interesting, banana with edible peel, they sell it on the limited proportion tho.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #31</title>
