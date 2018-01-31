@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-01-30T20:40:45+07:00</updated>
+ <updated>2018-01-31T23:00:11+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,34 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #33</title>
+   <link href="http://localhost:4000/2018/01/dailybite-33"/>
+   <updated>2018-01-31T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/01/dailybite-33</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://techcrunch.com/gallery/inside-amazons-spheres/&quot;&gt;Inside Amazon’s Sphere&lt;/a&gt; &lt;br /&gt;
+Great architectural achievement, it’s a great design, cant help it but to notice that the sphere is like sanctum sanctorum’s Dr Stephen Strange.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.securityweek.com/microsoft-disables-spectre-mitigations-due-instability&quot;&gt;Microsoft Disables Spectre Mitigations Due to Instability&lt;/a&gt;
+The patch up is not smooth, and introducing instability to the servers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://edition.cnn.com/2018/01/15/europe/garbage-collectors-open-library-with-abandoned-books/index.html&quot;&gt;Garbage collectors open library with abandoned books&lt;/a&gt; &lt;br /&gt;
+This is amazing, salvaging abandoned books from the trash and build a library out of it, and it’s not that &lt;a href=&quot;http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html&quot;&gt;GC&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.economist.com/news/business/21735623-popular-messaging-service-shows-facebooks-efforts-fight-fake-news-may-fail-whatsapp&quot;&gt;WhatsApp: Mark Zuckerberg’s other headache&lt;/a&gt; &lt;br /&gt;
+I think we (almost) all have family group chat, or friends/alumni group chat, and we have one (or more) member that spreading hoax, misinformation and sometimes these messages wildly spread from one group to another, the key is because it is often times the people who forward it are people we know, and because believing to that person, and their messages, pictures and video.   &lt;br /&gt;
+And it also happened in my family group chat, sometimes i became a hoax buster or reminding my family that this is not correct, or this one is out of control and needs to be set straight. it’s hard when it comes about religion and its rules.  &lt;br /&gt;
+This could have much longer post or rants.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #32</title>
