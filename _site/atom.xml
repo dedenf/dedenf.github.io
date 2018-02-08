@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-01-31T23:00:11+07:00</updated>
+ <updated>2018-02-08T17:24:31+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,22 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #34</title>
+   <link href="http://localhost:4000/2018/02/dailybite-34"/>
+   <updated>2018-02-08T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/02/dailybite-34</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/starman_departure.jpg&quot; alt=&quot;starman&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.latimes.com/business/la-fi-spacex-falcon-heavy-orbit-20180207-story.html&quot;&gt;SpaceX’s Falcon Heavy rocket flung that Tesla car on a path that goes beyond Mars&lt;/a&gt; – Amazing journey for human being, &lt;a href=&quot;https://www.theverge.com/tldr/2018/2/6/16980538/spacex-falcon-heavy-isaac-asimovs-foundation-series&quot;&gt;it also put some stuff in the rocket&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stratechery.com/2018/apples-middle-age/&quot;&gt;Apple’s Middle Age&lt;/a&gt; – is Apple already saturated? i feel it is, they did not have many thing they offer, the iPhoneX is &lt;a href=&quot;https://www.forbes.com/sites/gordonkelly/2018/01/21/apple-iphone-x-buy-sales-specs-new-iphone-release-date/#4e89863710cb&quot;&gt;declining&lt;/a&gt;, i’ve been bitchin’ about how &lt;a href=&quot;/2017/12/worst-macbookpro&quot;&gt;horrible new Macbook Pro&lt;/a&gt; is.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.newyorker.com/magazine/2018/02/12/the-white-darkness&quot;&gt;The White Darkness&lt;/a&gt; – Amazing journey across Antartica, how he surivived on that environment are amazing.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://atdt.freeshell.org/k5/story_2004_2_15_71552_7795.html&quot;&gt;We Are Morons: a quick look at the Win2k source&lt;/a&gt; – old stuff, but still amusing piece of technology, for people who don’t use win2k back then, it was one of the stable windows ever alive.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #33</title>
