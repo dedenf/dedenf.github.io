@@ -95,6 +95,60 @@
   <article class=''>
     
       <div class='mb2'>
+        <h2 class='m0'><a href='/2013/07/spoofing-mac-address'>Spoofing mac address</a></h2>
+        <time class='grayish'>July 2, 2013 &mdash; 
+  
+  
+    less than 1 minute read (124 words)
+  
+
+
+
+</time>
+      </div>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>another tool that i use for covering my ass from tracking beside my tunnel tool, i use <a href="https://github.com/feross/SpoofMAC">spoof-mac</a>, a python library that can be called from your lovely terminal, you could install it via <code class="highlighter-rouge">pip install SpoofMAC</code>.
+run <code class="highlighter-rouge">sudo spoof-mac randomize wi-fi</code> and you’ll get a random mac address assigned to your ether. you could set the spoof-mac to run everytime you boot up your machine and before joining the network (see their github project).</p>
+
+<p>or maybe if you don’t want to install spoof-mac you could always use good old fashion <code class="highlighter-rouge">ifconfig</code> by runnning this command <code class="highlighter-rouge">sudo ifconfig en0 ether xx:xx:xx:xx:xx:xx</code> (remember, use hex for macaddr). or you can use a generated value by using this <code class="highlighter-rouge">openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'</code></p>
+ <a href="/2013/07/spoofing-mac-address">Read more &rarr;</a>
+          
+
+        
+
+      
+    
+    
+    <!-- Get the tag name for every tag on the site and set them
+    to the `site_tags` variable. -->
+    
+
+    <!-- `tag_words` is a sorted array of the tag names. -->
+    
+
+    tagged under : 
+    
+      
+      <a href="/tags#osx" class="tag">osx</a>
+    
+      
+      <a href="/tags#python" class="tag">python</a>
+    
+
+  </article>
+  <hr class='half-width'/>
+
+  <article class=''>
+    
+      <div class='mb2'>
         <h2 class='m0'><a href='/2013/06/ten-cli-command'>My ten most frequent Command line</a></h2>
         <time class='grayish'>June 29, 2013 &mdash; 
   
@@ -266,57 +320,6 @@ Please upgrade your Subversion client to use this to your bash profile. working 
 <p>Denim! WANT!</p>
 
 <p>(via <a href="http://uncrate.com/stuff/selvedge-sleeves/">uncrate</a>)</p>
-
-          
-
-        
-
-      
-    
-    
-    <!-- Get the tag name for every tag on the site and set them
-    to the `site_tags` variable. -->
-    
-
-    <!-- `tag_words` is a sorted array of the tag names. -->
-    
-
-    tagged under : 
-    
-
-  </article>
-  <hr class='half-width'/>
-
-  <article class=''>
-    
-      <div class='mb2'>
-        <h2 class='m0'><a href='/2013/06/galactic-center'>Time-lapse of the Galactic Center</a></h2>
-        <time class='grayish'>June 15, 2013 &mdash; 
-  
-  
-    less than 1 minute read (23 words)
-  
-
-
-
-</time>
-      </div>
-    
-
-    
-      
-        
-
-        
-        
-          
-            <p>Galactic Center at zenith Paranal observatory, a whole sky time-lapse video of the galactic center by Astrophotographer <a href="http://vimeo.com/sguisard">Stéphane Guisard</a></p>
-
-<iframe src="http://player.vimeo.com/video/68260417" width="550" height="350" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-
-<p>Awesome video!</p>
-
-<p>(via <a href="http://www.theatlantic.com/technology/archive/2013/06/you-are-here-a-whole-sky-time-lapse-of-the-galactic-center/276891/">@TheAtlantic</a>)</p>
 
           
 
