@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-02-21T20:24:29+07:00</updated>
+ <updated>2018-02-21T20:33:44+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -14,9 +14,47 @@
 
  
  <entry>
+   <title>That domain names</title>
+   <link href="http://localhost:4000/2018/02/that-domain-name"/>
+   <updated>2018-02-16T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/02/that-domain-name</id>
+   <content type="html">&lt;p&gt;This one is more like a retrospective blog post, i have a quite number of domains, from idea to just for fun, and just few of them i kept as it going, and probably will need some idea refinement to make things as i want it to be.&lt;/p&gt;
+
+&lt;p&gt;As of today i have and maintaining these&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://notes.dedenf.com&quot;&gt;notes.dedenf.com&lt;/a&gt; – this blog, trying to update things on daily basis, still trying tho, can’t keep up with the work stuff. &lt;br /&gt;
+&lt;!--more--&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://epicoffee.com&quot;&gt;Epicofee.com&lt;/a&gt; &lt;br /&gt;
+this one is a niché topic, and specialized, in hope i can keep updating it with more coffee i can drank, even though now this one is my other skill that slowly perished.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://jakartadev.org&quot;&gt;Jakartadev.org&lt;/a&gt; &lt;br /&gt;
+the blog that i present as a technology and development site, right now it serve as newsletter.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pakeapa.com&quot;&gt;Pakeapa.com&lt;/a&gt;  &lt;br /&gt;
+this blog dedicated to individual and professional that i interviewed with couple template-&lt;em&gt;ish&lt;/em&gt; question, and yeah, it is inspired by &lt;a href=&quot;https://usesthis.com&quot;&gt;usesthis.com&lt;/a&gt; and also i’ve emailed Daniel who run the site to give me some feedback, tips to get the source of intervew.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;All site using couple free service or rather free tier like Github to store the codes and github pages for serving the site content, and &lt;a href=&quot;https://cloudflare.com&quot;&gt;cloudflare.com&lt;/a&gt; to host the domain and ssl support.&lt;/p&gt;
+
+&lt;h2 id=&quot;maintenance&quot;&gt;Maintenance&lt;/h2&gt;
+&lt;p&gt;Maintaining those site can be hard in terms of updating the site it self, the content, theme and everything, if it just throwing links all over the place that could easy, but i want to know the content and learn everything that i could.&lt;/p&gt;
+
+&lt;p&gt;For instance, epicoffee.com, this site came as my love for coffee, and everything arounds it, i loved it smell, it taste, technology of brewing, how people enjoy their cup of coffee, the downside is, it need experiment to become experienced thru lots of coffee, different way of roasting can resulting different taste.&lt;/p&gt;
+
+&lt;h2 id=&quot;plan&quot;&gt;Plan&lt;/h2&gt;
+&lt;p&gt;Do i wanted to be heard thru the blog? probably, but i’m not quite in a hurry, i write because i wanted to, and i love to write, publishing it is one of the way to creating something, i do publishing code and release it to the masses, and blogging is not that different. for now, i wanna keep it regular, as my regular exercise.&lt;/p&gt;
+
+&lt;p&gt;And for long run, i want to have these sites evolve and have its own topic domain to take care.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Daily Bite #35</title>
    <link href="http://localhost:4000/2018/02/dailybite-35"/>
-   <updated>2018-02-09T00:00:00+07:00</updated>
+   <updated>2018-02-12T00:00:00+07:00</updated>
    <id>http://localhost:4000/2018/02/dailybite-35</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://stackshare.io/posts/top-developer-tools-2017&quot;&gt;Top developer tools 2017&lt;/a&gt; – From stackshare, the lists of top list of tools that developer popularly used at 2017, i fond of Kubernetes project, and year 2018 will be a lot more in containers tech and tool.&lt;/li&gt;
