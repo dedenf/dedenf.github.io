@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-02-08T17:24:31+07:00</updated>
+ <updated>2018-02-21T20:20:44+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,21 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #35</title>
+   <link href="http://localhost:4000/2018/02/dailybite-35"/>
+   <updated>2018-02-09T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/02/dailybite-35</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackshare.io/posts/top-developer-tools-2017&quot;&gt;Top developer tools 2017&lt;/a&gt; – From stackshare, the lists of top list of tools that developer popularly used at 2017, i fond of Kubernetes project, and year 2018 will be a lot more in containers tech and tool.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://research.hackerrank.com/developer-skills/2018/&quot;&gt;Developer skills 2018&lt;/a&gt; – Python and Go are prefered language, with Javascript as its icing.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tirto.id/menyimak-gaya-busana-ibu-negara-indonesia-cEQW&quot;&gt;Menyimak Gaya Busana Ibu Negara Indonesia&lt;/a&gt; – it’s inviting, how Indonesia’ first lady wearing Kebaya as its identity.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.theguardian.com/lifeandstyle/shortcuts/2017/may/10/avocado-hand-why-the-fruit-has-become-a-health-hazard&quot;&gt;Avocado hand: why the fruit has become a health hazard &lt;/a&gt; – With nerve or tendon damage while removing the avocado stone. just why people, why?.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pi.co/&quot;&gt;pi.co&lt;/a&gt; – Another site which featured creative people, i always love site like this, i actually made one, called &lt;a href=&quot;http://pakeapa.com&quot;&gt;Pakeapa.com&lt;/a&gt;, not much, have not update it for a while.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #34</title>
