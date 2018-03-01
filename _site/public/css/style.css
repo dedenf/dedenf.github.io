@@ -16,3 +16,30 @@ h2.m0, .h3.mb0 {
 }
 .footnotes {border-top:1px solid #c0c0c0;padding:20px 0;margin:40px 0 0 0;}
 .photo-credit{font-style: italic;margin-bottom:10px;text-align:center;}
+
+.author__avatar {
+    display:table-cell;
+    vertical-align:top;
+    width:36px;
+    height:36px;
+    margin-left:0;
+    margin-right:0;
+    text-align: center;
+   }
+   @media (min-width: 64em) {
+    .author__avatar {
+     display:block;
+     width:auto;
+     height:auto
+    }
+   }
+   .author__avatar img {
+    max-width:110px;
+    border-radius:50%
+   }
+   @media (min-width: 64em) {
+    .author__avatar img {
+     padding:5px;
+     border:1px solid #f2f3f3
+    }
+   }
