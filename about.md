@@ -4,6 +4,11 @@ title: Tentang
 ---
 
 # About
+<div class="author__avatar">
+    <a href="https://notes.dedenf.com/">
+        <img src="/public/avatar.jpg" alt="Deden Fathurahman" itemprop="image">
+    </a>
+</div>
 Hi i'm Deden fathurahman,
 
 I'm a [developer](https://github.com/dedenf), a more like system architects, [blogger](https://notes.dedenf.com), [newsletter author](http://jakartadev.org), working at a fintech company [Jenius](https://www.jenius.com). Listened to a lot of [podcast](/2018/01/podcast), mumbling about development stuff at [Jakartadev](http://jakartadev.org) or [Jenius Tech Engineering](http://jenius.tech).
