@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-03-01T11:48:35+07:00</updated>
+ <updated>2018-03-02T00:11:59+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,20 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Jakartadev.org redesign</title>
+   <link href="http://localhost:4000/2018/03/ui-redesign-jakartadev"/>
+   <updated>2018-03-01T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/03/ui-redesign-jakartadev</id>
+   <content type="html">&lt;p&gt;Well, this is quite huge-&lt;em&gt;ish&lt;/em&gt; redesign, at first i was using &lt;a href=&quot;https://github.com/poole/lanyon&quot;&gt;Lanyon&lt;/a&gt; by &lt;a href=&quot;https://github.com/mdo&quot;&gt;@mdo&lt;/a&gt; for quite sometime, and got bored, and try to use &lt;a href=&quot;https://github.com/barryclark/jekyll-now&quot;&gt;jekyll-now&lt;/a&gt; as basis theme. it has quite straight forward theme, no fuss, just link, content, all things that matter.
+&lt;img src=&quot;/images/posts/new-jakartadev.png&quot; alt=&quot;new look, yeay!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On that update, i also dividing between daily update, and newsletter. Daily update aiming for well, daily, it will contain links that i’ve been reading through the morning and put it on the site, mainly about development and stuff like it. Newsletter still will be send every tuesday, and will contained some comment from me, these newsletter is like a links that i personally picked through out the week, it could picked from my daily digest with a bit comment and takes.&lt;/p&gt;
+
+&lt;p&gt;Head out to &lt;a href=&quot;https://jakartadev.org&quot;&gt;Jakartadev.org&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #38</title>
@@ -22,6 +36,7 @@
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=-6Wu0Q7x5D0&quot;&gt;The History of the World: Every Year&lt;/a&gt; – i was impressed by the how civilization rise and fall, how they found tools to conquer.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.vox.com/science-and-health/2018/1/8/16822272/black-hole-looks-like-what&quot;&gt;Most images of black holes are illustrations. Here’s what our telescopes actually capture.&lt;/a&gt; – On how people illustrate the blackhole, i love how movie Interstellar illustrated it, and it was the closest thing to real illustration and animation off course.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://blog.cloudflare.com/memcrashed-major-amplification-attacks-from-port-11211/&quot;&gt;Memcrashed - Major amplification attacks from UDP port 11211&lt;/a&gt; – how memcached helped to amplify an attack.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.macsparky.com/blog/2018/2/my-blogging-workflow&quot;&gt;Macsparky blogging workflow&lt;/a&gt; – i should write mine.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
