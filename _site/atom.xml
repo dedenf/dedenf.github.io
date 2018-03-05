@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4001/atom.xml" rel="self"/>
  <link href="http://localhost:4001/"/>
- <updated>2018-03-02T17:48:27+07:00</updated>
+ <updated>2018-03-05T19:02:07+07:00</updated>
  <id>http://localhost:4001</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,20 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #40</title>
+   <link href="http://localhost:4001/2018/03/dailybite-40"/>
+   <updated>2018-03-05T00:00:00+07:00</updated>
+   <id>http://localhost:4001/2018/03/dailybite-40</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nature.com/articles/d41586-018-02391-6&quot;&gt;How flashing lights and pink noise might banish Alzheimer’s, improve memory and more&lt;/a&gt; – what a great news, beside coffee, people who has this, can improve their memory. and because this was can be inherited, i should be careful.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.gojekengineering.com/cracking-the-code-to-build-an-all-star-product-team-8611f659b11c&quot;&gt;Cracking the Code to build an All-Star Product team&lt;/a&gt; – i kinda follow Gojek Engineering recently, and there’s quite a lot of things i could follow or take as an insight to test or experiment.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;www.mooreds.com/wordpress/archives/2812&quot;&gt;When is a senior engineer not a senior engineer?&lt;/a&gt; – where we at?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.anandtech.com/show/12478/exynos-9810-handson-awkward-first-results&quot;&gt;Galaxy S9 Exynos 9810 Hands-On - Awkward First Results&lt;/a&gt; – basically, S9 beated by iPhone 8.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #39</title>
