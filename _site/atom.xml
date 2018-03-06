@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4001/atom.xml" rel="self"/>
  <link href="http://localhost:4001/"/>
- <updated>2018-03-05T19:02:07+07:00</updated>
+ <updated>2018-03-06T15:12:18+07:00</updated>
  <id>http://localhost:4001</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,20 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #41</title>
+   <link href="http://localhost:4001/2018/03/dailybite-41"/>
+   <updated>2018-03-06T00:00:00+07:00</updated>
+   <id>http://localhost:4001/2018/03/dailybite-41</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.southernliving.com/syndication/why-you-should-never-order-drinks-with-ice-bartenders-say&quot;&gt;Why You Should Never Order Drinks With Ice, Bartenders Say&lt;/a&gt; – &lt;em&gt;Spoilers!&lt;/em&gt; it’s dirty.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.businessinsider.com/big-blockbuster-movies-on-netflix-list-2018-2#the-indiana-jones-series-19&quot;&gt;12 big blockbuster movies you may not realize are on Netflix — and a few on Hulu too&lt;/a&gt; – I haven’t watch &lt;em&gt;Beauty and the beast&lt;/em&gt; (or should i?)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.npr.org/sections/monkeysee/2018/03/04/589540426/oscars-2018-the-list-of-winners-so-far&quot;&gt;2018 Oscar Winners: The Complete List&lt;/a&gt; – Still, i was missing out, lots of movie i haven’t watch. last movie i watch was &lt;a href=&quot;/2018/02/yowis-ben&quot;&gt;&lt;em&gt;Yowis Ben&lt;/em&gt;&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cnet.com/news/stephen-hawking-tells-degrasse-tyson-what-preceded-big-bang/&quot;&gt;Stephen Hawking explains what happened before Big Bang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #40</title>
