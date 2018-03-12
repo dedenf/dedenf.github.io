@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4001/atom.xml" rel="self"/>
  <link href="http://localhost:4001/"/>
- <updated>2018-03-10T16:34:06+07:00</updated>
+ <updated>2018-03-12T09:25:37+07:00</updated>
  <id>http://localhost:4001</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,20 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #43</title>
+   <link href="http://localhost:4001/2018/03/dailybite-43"/>
+   <updated>2018-03-12T00:00:00+07:00</updated>
+   <id>http://localhost:4001/2018/03/dailybite-43</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/%C5%A0-L-M&quot;&gt;Š-L-M&lt;/a&gt; – root of many Semitic words. “&lt;em&gt;whole, safe, intact, unharmed, to go free, without blemish&lt;/em&gt;”, it’s a quite a word for kinda ancient one.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mosaicscience.com/story/staying-awake-surprisingly-effective-way-treat-depression/&quot;&gt;Staying awake: the surprisingly effective way to treat depression&lt;/a&gt; – Got to get deep in to this, it does not not works for everyone, but some people found that works.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.theverge.com/2018/3/6/17044344/know-your-meme-10-year-anniversary-brad-kim-interview&quot;&gt;The story of the internet, as told by Know Your Meme&lt;/a&gt; – A lengthy post from the Verge, the whole internet culture.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sciencealert.com/where-body-fat-ends-up-when-you-lose-weight&quot;&gt;This Is Where Body Fat Actually Goes When You Lose Weight&lt;/a&gt; – tl;dr; &lt;em&gt;Spoiler&lt;/em&gt;, it is goes into thin air, you breathe away you fat.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>daily found</title>
