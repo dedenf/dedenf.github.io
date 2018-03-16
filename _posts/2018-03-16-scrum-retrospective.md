@@ -11,7 +11,7 @@ page_type: long
 published: true
 ---
 
-In Scrum world, when the organization having a running a sprint and after that sprint review where they reviewing many backlogs on that particular sprint. and came sprint retrospective.
+In Scrum world, when the organization having a running a sprint, and after that, came sprint review where they reviewing many backlogs on that particular sprint, and weighing it maybe with scoring, depends on how hard or impact. And then came sprint retrospective.   
 In this sprint retro (for short) it will discusses about : 
 - what when well
 - what things that can be improved
@@ -22,4 +22,4 @@ Those are the most important of the sprint, and with this retro, team can be sel
 *Spoilers*, above words ['done', 'complete', 'perfect'] are not gonna be reached, at least in my opinion, product keeps evolving, keeps reaching to the higher end, products will be interrupted, life will interrupted. 
 
 So, by looking at the past we can learn how to face the future.    
-main tumse pyar kartha hoon, *channa mereya beliya o piyaa*....
+*Main tumse pyar kartha hoon, channa mereya beliya o piyaa, meree patnee*.

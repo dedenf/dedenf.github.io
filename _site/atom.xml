@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-03-15T21:46:50+07:00</updated>
+ <updated>2018-03-16T10:59:20+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,28 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Scrum Retrospective</title>
+   <link href="http://localhost:4000/2018/03/scrum-retrospective"/>
+   <updated>2018-03-16T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/03/scrum-retrospective</id>
+   <content type="html">&lt;p&gt;In Scrum world, when the organization having a running a sprint, and after that, came sprint review where they reviewing many backlogs on that particular sprint, and weighing it maybe with scoring, depends on how hard or impact. And then came sprint retrospective. &lt;br /&gt;
+In this sprint retro (for short) it will discusses about :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;what when well&lt;/li&gt;
+  &lt;li&gt;what things that can be improved&lt;/li&gt;
+  &lt;li&gt;what things that will be committed over the next sprint&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Those are the most important of the sprint, and with this retro, team can be selfcheck their own issue or progress, what are thing that they thought it worked and not worked, this is so important for team to become more agile and more mature, and we keep learning along the way, there are no finish line in Agile world, everything evolved for the better, keep practicing what is done, what is complete, what is perfect.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Spoilers&lt;/em&gt;, above words [‘done’, ‘complete’, ‘perfect’] are not gonna be reached, at least in my opinion, product keeps evolving, keeps reaching to the higher end, products will be interrupted, life will interrupted.&lt;/p&gt;
+
+&lt;p&gt;So, by looking at the past we can learn how to face the future.  &lt;br /&gt;
+&lt;em&gt;Main tumse pyar kartha hoon, channa mereya beliya o piyaa, meree patnee&lt;/em&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daily Bite #44</title>
