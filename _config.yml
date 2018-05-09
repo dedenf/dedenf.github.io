@@ -14,7 +14,7 @@ title:            "HyperText Thrones"
 tagline:          "on the HyperText"
 description:      'HyperText Thrones'
 url:              https://notes.dedenf.com
-baseurl: 		  ""
+baseurl: 		      ''
 author:
   name:           'Deden Fathurahman'
   url:            https://notes.dedenf.com/
