@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-04-19T20:37:44+07:00</updated>
+ <updated>2018-05-09T17:18:10+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,17 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Having Your Smartphone Nearby Takes a Toll on Your Thinking</title>
+   <link href="http://localhost:4000/2018/05/daily-found"/>
+   <updated>2018-05-09T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/05/daily-found</id>
+   <content type="html">&lt;p&gt;This kind of anxiety happened to all of us, whether it’s someone calling, message us, or email from work that got us always looking at the smartphone, we sometimes cannot enjoy or live the life that we have.&lt;/p&gt;
+
+&lt;p&gt;And the threat is real to the way of our thinking, our focus span become narrow, cannot concentrate on what in front of us.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Mudah membayar pajak kendaraan (perpanjang STNK)</title>
