@@ -12,6 +12,8 @@ published: true
 
 ![hate](/images/posts/t-chick-mcclure-609632-unsplash.jpg)
 
+<center><em>Photo by <a href="https://unsplash.com/photos/UFNWLYzBR9w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">T. Chick McClure</a> on <a href="https://unsplash.com/search/photos/hate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></em></center>
+
 Dengan makin mendekatnya pemilihan presiden, makin banyak pula komentar-komentar sampah yang bertebaran baik di-sosial media maupun di lingkungan tempat tinggal. memang secara natural dalam negara demokrasi, ada pemerintah berkuasa, ada juga oposisi yang dalam teori menjadi penyeimbang dalam pemerintah menjalankan pemerintahan dan juga sebagai pengawas pemerintah yang berkuasa.
 <!--more-->
 hanya saja, saya pribadi melihat ini sudah sangat amat keterlaluan, sebelum menuliskan kekesalan, saya sangat amat mengetahui juga bahwa pendukung pemerintahan sekarang tidak semuanya murni mendukung, ada yang hanya ikut-ikutan, dan ada yang membela dengan cara mengeluarkan cara-cara yang tidak elegan, meski katanya hal ini wajar dalam politik, tapi itu topik yang lain. Saya lebih ingin melihat dari sisi oposisi yang saat ini terus-terusan menyerang pemerintah dengan cara-cara yang tidak baik, dengan cara-cara yang menurut saya sudah keterlaluan, yang paling membuat saya kesal luar biasa adalah membawa agama. 
