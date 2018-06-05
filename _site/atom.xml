@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-06-05T21:41:35+07:00</updated>
+ <updated>2018-06-05T21:47:42+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -19,6 +19,8 @@
    <updated>2018-06-05T00:00:00+07:00</updated>
    <id>http://localhost:4000/2018/06/kebencian</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/t-chick-mcclure-609632-unsplash.jpg&quot; alt=&quot;hate&quot; /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;em&gt;Photo by &lt;a href=&quot;https://unsplash.com/photos/UFNWLYzBR9w?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;T. Chick McClure&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/search/photos/hate?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/em&gt;&lt;/center&gt;
 
 &lt;p&gt;Dengan makin mendekatnya pemilihan presiden, makin banyak pula komentar-komentar sampah yang bertebaran baik di-sosial media maupun di lingkungan tempat tinggal. memang secara natural dalam negara demokrasi, ada pemerintah berkuasa, ada juga oposisi yang dalam teori menjadi penyeimbang dalam pemerintah menjalankan pemerintahan dan juga sebagai pengawas pemerintah yang berkuasa.
 &lt;!--more--&gt;
