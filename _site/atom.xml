@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-06-05T21:47:42+07:00</updated>
+ <updated>2018-07-04T17:13:45+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,16 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Millions of Americans Make a Costly Mistake When Paying Credit Card Bills</title>
+   <link href="http://localhost:4000/2018/07/credit-card"/>
+   <updated>2018-07-04T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/07/credit-card</id>
+   <content type="html">&lt;p&gt;Not just in America, in Indonesia also have this misconception, an a lot people only paid at minimum of its bill.
+I don’t use any credit cards, kinda reluctant to apply for it, now i have met Jenius, not because i worked here, but it suited my need for my financial need, pay online payments, servers bills etc.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Untuk apa semua kebencian itu?</title>
