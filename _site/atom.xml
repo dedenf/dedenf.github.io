@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-10T17:23:30+07:00</updated>
+ <updated>2018-07-11T00:11:56+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,34 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Pengalaman topup M-Tix melalui Tokopedia dan Jenius</title>
+   <link href="http://localhost:4000/2018/07/pengalaman-dengan-mtix"/>
+   <updated>2018-07-11T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/07/pengalaman-dengan-mtix</id>
+   <content type="html">&lt;p&gt;Dengan teknologi yang sekarang menyentuh hampir semua lini, menonton di bioskop adalah salah satu bentuk hiburan yang tak lepas dari kemajuan teknologi, pembelian tiket bioskop sekarang amat mudah, bisa dilakukan di rumah, dimanapun.&lt;/p&gt;
+
+&lt;p&gt;Ini adalah pengalaman saya menggunakan M-Tix XXI sebagai salah satu bioskop yang banyak cabangnya di indonesia.&lt;/p&gt;
+
+&lt;p&gt;Di aplikasi &lt;strong&gt;Cinema XXI&lt;/strong&gt;, untuk pembelian tiket diharuskan melakukan &lt;em&gt;topup&lt;/em&gt; saldo yang ada di aplikasi itu yang terkait dengan akun yang dimiliki, untuk pengisian bisa melalui beberapa &lt;em&gt;channel&lt;/em&gt;, antara lain.
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Transaksi ATM (BCA, Mandiri)&lt;/li&gt;
+  &lt;li&gt;Tokopedia&lt;/li&gt;
+  &lt;li&gt;Credit Card&lt;/li&gt;
+  &lt;li&gt;BCA Klikpay&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Masing-masing dengan kelebihan dan kekurangannya, untuk ATM kekurangannya tentunya kita harus berjalan ke ATM ditambah biaya administrasi, dan jika menggunakan m-banking juga dikenakan biaya administrasi, semuanya dikenakan biaya Rp5000 rupiah.&lt;/p&gt;
+
+&lt;p&gt;Untuk &lt;em&gt;Channel&lt;/em&gt; Tokopedia yang saya gunakan, juga sama dikenakan biaya Rp5000 sebagai biaya transaksi di Tokopedia, dari Rp150.0000 nilai topup, saya membayar ke Tokopedia sebesar Rp155.000, dan kebetulan hari yang dipilih untuk menonton adalah hari minggu, jadi agak lebih mahal dari hari biasa, yaitu Rp40.000 pertiket. dengan melakukan pembelian 4 tiket, dikenakan biaya sebesar Rp160.000 ditambah biaya administrasi Cinema 21 sebesar Rp4000, total untuk pembelian 4 tiket Rp164.000. (1 tiket Rp1000 biaya administrasi) jika dari awal dihitung dengan biaya admin topup dan admin pembelian tiket menjadi sebesar Rp9000.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Channel&lt;/em&gt; topup dengan menggunakan Credit Card dan BCA Klikpay dikenakan biaya agak lumayan pertransaksi, yaitu sebesar Rp10.000.&lt;/p&gt;
+
+&lt;p&gt;Untuk saat ini yang paling murah dan ‘nyaman’ adalah pembelian melalui Tokopedia, selain karena kartu &lt;em&gt;e-card&lt;/em&gt; &lt;a href=&quot;https://www.jenius.com/en/features/card-center/&quot;&gt;Jenius&lt;/a&gt; sudah didaftarkan di Tokopedia, jadi lebih mudah dan aman (ada OTP sms) untuk melakukan setiap transaksi online, juga lebih mudah dan terkontrol dalam melakukan transaksi, secara histori akan terekam di Jenius dan juga Tokopedia, meski sebenarnya Rp9000 lumayan juga untuk biaya admin keseluruhan transaksi 4 tiket.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>How Facebook’s Rise Fueled Chaos and Confusion in Myanmar</title>
