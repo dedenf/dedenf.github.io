@@ -12,4 +12,4 @@ published: true
 ---
 
 Not just in America, in Indonesia also have this misconception, an a lot people only paid at minimum of its bill.
-I don't use any credit cards, kinda reluctant to apply for it, now i have met Jenius, not because i worked here, but it suited my need for my financial need, pay online payments, servers bills etc.
+I don't use any credit cards, kinda reluctant to apply for it, now i have met and use and even working at [Jenius](https://www.jenius.com), not because i worked here, but it suited my need for my financial need, pay online payments, servers bills etc.
