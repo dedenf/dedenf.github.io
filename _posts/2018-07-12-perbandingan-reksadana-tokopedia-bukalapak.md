@@ -8,7 +8,7 @@ tags:
     - finance
 
 category: post
-published: true
+published: false
 ---
 
 Reksadana sebagai salah satu cara untuk berinvestasi non-sektor rill (emas, properti, dll) menjadi salah satu cara mudah untuk melakukan investasi tanpa harus melakukan pembelian sesuatu yang fisik, setidaknya itu apa yang saya rasakan dan mengerti semenjak membeli produk reksadana, untuk mengetahui apa itu reksadana, silakan baca [artikel ini](https://www.moneysmart.id/untuk-pemula-begini-lah-cara-kerja-investasi-reksa-dana-dan-simulasinya-secara-sederhana/) dan [jenisnya](http://www.aberdeen-asset.com/tengoldenrulesid/article/jenis-jenis-reksadana.html).
