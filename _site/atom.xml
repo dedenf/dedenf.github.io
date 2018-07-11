@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-11T00:11:56+07:00</updated>
+ <updated>2018-07-11T17:35:41+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,42 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Mencoba Reksadana di Bukalapak dan Tokopedia</title>
+   <link href="http://localhost:4000/2018/07/perbandingan-reksadana-tokopedia-bukalapak"/>
+   <updated>2018-07-11T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/07/perbandingan-reksadana-tokopedia-bukalapak</id>
+   <content type="html">&lt;p&gt;Reksadana sebagai salah satu cara untuk berinvestasi non-sektor rill (emas, properti, dll) menjadi salah satu cara mudah untuk melakukan investasi tanpa harus melakukan pembelian sesuatu yang fisik, setidaknya itu apa yang saya rasakan dan mengerti semenjak membeli produk reksadana, untuk mengetahui apa itu reksadana, silakan baca &lt;a href=&quot;https://www.moneysmart.id/untuk-pemula-begini-lah-cara-kerja-investasi-reksa-dana-dan-simulasinya-secara-sederhana/&quot;&gt;artikel ini&lt;/a&gt; dan &lt;a href=&quot;http://www.aberdeen-asset.com/tengoldenrulesid/article/jenis-jenis-reksadana.html&quot;&gt;jenisnya&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dulu saya melakukan transaksi pembelian/penjualan unit reksadana di bank commonwealth, di bank ini menyediakan fitur di aplikasi web bankingnya pembelian atau penjualan (&lt;em&gt;redemption&lt;/em&gt;) unit, nyaman, tapi pilihan terbatas (ini pengetahuan saya 3 tahun ke belakang, sudah tidak aktif menggunakan commbank).
+&lt;!--more--&gt;
+Saat ini saya mencoba melakukan investasi reksadana melalui Bukalapak dan Tokopedia, di Bukalapak produk/fitur reksadana menggunakan nama BukaReksa, sedang di Tokopedia menggunakan diberi nama, Reksa Dana di menu keuangan.&lt;/p&gt;
+
+&lt;h2 id=&quot;bukareksa&quot;&gt;BukaReksa&lt;/h2&gt;
+&lt;p&gt;Membuka akun reksadana di Bukalapak terbilang mudah, dengan login ke Bukalapak dan juga daftar sebagai nasabah BukaReksa, dengan melengkapi identitas dan mengunggah photo KTP dan juga tandatangan digital di aplikasi Bukalapak, maka aplikasi reksadana sudah selesai, selanjutnya tinggal menunggu approval dari pihak BukaReksa (Bukalapak menggunakan Bareksa sebagai manajer investasi).&lt;/p&gt;
+
+&lt;p&gt;Dari pengajuan aplikasi (diajukan pagi hari) sampai penyetujuan terhitung cepat, hitungan 2 jam aplikasi saya sudah disetujui.&lt;/p&gt;
+
+&lt;h3 id=&quot;pembelian-unit&quot;&gt;Pembelian Unit&lt;/h3&gt;
+&lt;p&gt;Setelah aplikasi disetujui, saya bisa melakukan pembelian jenis reksadana yang dipilih, hanya saja pembelian reksadana harus menunggu lumayan lama, dari saat disetujui saya langsung membeli, sampai sorenya sekitar jam 18.30 proses pembelian saya masih dalam status &lt;strong&gt;&lt;em&gt;diproses&lt;/em&gt;&lt;/strong&gt;, dan Surat Konfirmasi transaksi (SKT) belum terbit. kemungkinan besar, proses rekapitulasi dilakukan dengan &lt;em&gt;batch&lt;/em&gt;.
+Produk pertama yang saya beli di BukaReksa adalah Saham (yeah, agresif), dengan NAB saat itu Rp26.478,84, saya membeli unit senilai Rp100.000, untuk transaksi pembelian ini saya dikenakan semacam biaya tambahan (dalih kode pembayaran) sebesar Rp793.&lt;/p&gt;
+
+&lt;p&gt;Tanggal 11 Juli, unit sudah bisa dilihat di kolom portfolio, ini lebih cepat dari Tokopedia, ini tandanya sudah muncul SKT dari pembelian sebelumnya.
+&lt;img src=&quot;/images/posts/reksadana-bukareksa-portfolio.png&quot; alt=&quot;BukaReksa portfolio&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tokopedia-reksa-dana&quot;&gt;Tokopedia Reksa Dana&lt;/h2&gt;
+&lt;p&gt;Membuka akun reksadana di Tokopedia juga hampir sama dengan Bukalapak, memasukan identitas dan photo KTP dan juga tandatangan di aplikasi Tokopedia, untuk penyetujuan aplikasi reksadana agak lebih lama dari BukaReksa, dari permohonan aplikasi reksa dana baru disetujui sekitar jam 17.15 (dibanding Bukalapak jam 11.43), Tokopedia Reksa Dana juga menggunakan Bareksa sebagai manajer investasi.&lt;/p&gt;
+
+&lt;h3 id=&quot;pembelian-unit-reksa-dana&quot;&gt;Pembelian Unit Reksa Dana&lt;/h3&gt;
+&lt;p&gt;Pembelian unit di tokopedia lebih mudah menurut saya, tinggal melakukan &lt;em&gt;checkout&lt;/em&gt; seperti biasa, saya pilih Mandiri &lt;em&gt;virtual account&lt;/em&gt; dan melakukan &lt;em&gt;transfer&lt;/em&gt; ke sana, dan serunya, tidak ada biaya tambahan apapun, saya beli unit senilai Rp100.000 dan uang yang saya &lt;em&gt;transfer&lt;/em&gt; tetap.
+Untuk di Tokopedia, saya masih belum melihat pilihan produk reksadana yang lain, hanya ditampilkan Syeilendra tidak ada produk lain, atau tampilan seperti BukaReksa yang lengkap. 
+Dari unit yang dibeli, menurut tulisan yang tertera, dari tanggal beli 10 juli, maka unit akan aktif pada 12 juli 2018, ini bisa jadi lebih cepat, karena sebelumnya juga akun saya menurut yang tertera diperkirakan akan aktif tanggal 11 juli, tapi bisa lebih cepat.&lt;/p&gt;
+
+&lt;h2 id=&quot;selanjutnya&quot;&gt;Selanjutnya&lt;/h2&gt;
+&lt;p&gt;Untuk berikutnya saya akan coba untuk menuliskan pembelian variasi jenis Reksadana yang ada di masing-masing toko online ini (jika ada), dan juga perkembangan nilai dari tiap jenis reksadana yang dibeli.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Pengalaman topup M-Tix melalui Tokopedia dan Jenius</title>
@@ -89,13 +125,15 @@ hanya saja, saya pribadi melihat ini sudah sangat amat keterlaluan, sebelum menu
 
 &lt;p&gt;Ambil contoh presiden Joko Widodo sekarang ini, isu yang dilontarkan ke beliau sangat banyak, dan masing-masing tuduhan tidak kalah kejamnya, dari mulai isu PKI, antek komunis, antek asing yang siap menjual aset negara, penghancur agama islam, antek yahudi, antek kristen, bahkan ada yang mempermasahkan muka presiden Joko Widodo, mempermasalahkan muka yang sudah diberikan oleh Alloh, bahkan tuduhan PKI, komunis, menjadi saling bertentangan dengan tuduhan antek yahudi, kristen.&lt;/p&gt;
 
-&lt;p&gt;Meski tuduhan yang dilontarkan itu banyak yang tanpa bukti, tanpa fakta, yang penting tuduh dulu, ditambah dengan masyarakat yang malas sekali mencari tahu, hanya dengan modal kiriman tulisan yang bombastis di sosial media, atau whatsapp, cukup untuk membuat orang membenci Joko Widodo, tanpa fakta. Dan ini terjadi di keluarga saya sendiri, dengan menuduh Jokowi anti islam, menuduh Jokowi menghancurkan islam, lagi-lagi tanpa bukti, meski sekarang misalkan Jokowi selama berkuasa sudah mengunjungi &lt;a href=&quot;https://infonawacita.com/ternyata-presiden-jokowi-sudah-kunjungi-60-pesantren-di-nusantara-dalam-tiga-tahun/&quot;&gt;60 pesantren&lt;/a&gt; misalkan, atau membangun asrama pesantren, membangun universitas islam indonesia, hal ini tidak akan dilihat oleh orang yang berhati benci, semua itu akan dianggap sebagai pencintraan atau kepalsuan semata.&lt;/p&gt;
+&lt;p&gt;Meski tuduhan yang dilontarkan itu banyak yang tanpa bukti, tanpa fakta, yang penting tuduh dulu, ditambah dengan masyarakat yang malas sekali mencari tahu, hanya dengan modal kiriman tulisan yang bombastis di sosial media, atau whatsapp, cukup untuk membuat orang membenci Joko Widodo, tanpa fakta. Dan ini terjadi bahkan di lingkungan terdekat, dengan menuduh Jokowi anti islam, menuduh Jokowi menghancurkan islam, lagi-lagi tanpa bukti, meski sekarang misalkan Jokowi selama berkuasa sudah mengunjungi &lt;a href=&quot;https://infonawacita.com/ternyata-presiden-jokowi-sudah-kunjungi-60-pesantren-di-nusantara-dalam-tiga-tahun/&quot;&gt;60 pesantren&lt;/a&gt; misalkan, atau membangun asrama pesantren, membangun universitas islam indonesia, hal ini tidak akan dilihat oleh orang yang berhati benci, semua itu akan dianggap sebagai pencintraan atau kepalsuan semata.&lt;/p&gt;
 
 &lt;p&gt;Di sisi lain ada pihak yang merasa diri paling mulia, merasa diri paling islami tanpa ada prestasi, tanpa ada bukti apa yang dilakukan untuk islam, atau untuk negara.&lt;/p&gt;
 
+&lt;p&gt;Ditambah dengan banyak sekali membangun infrastruktur, &lt;a href=&quot;https://www.instagram.com/p/Bkv7Wq-A92k/?taken-by=kemenpupr&quot;&gt;jalan&lt;/a&gt; beberapa ribu kilometer, &lt;a href=&quot;https://www.instagram.com/p/BiovZLBnZ5i/?taken-by=kemenpupr&quot;&gt;jembatan&lt;/a&gt;, &lt;a href=&quot;https://www.instagram.com/p/BhakvhpHY_P/?taken-by=kemenpupr&quot;&gt;bendungan&lt;/a&gt;, &lt;a href=&quot;https://www.instagram.com/p/Bd_5LH4gbzw/&quot;&gt;pembangkit listrik terbarukan&lt;/a&gt;, maritim, kesetaraan harga BBM antara jawa dan pulau di indonesia lainnya, kemudian muncul argumen “itu dibangun dengan berhutang!”, &lt;em&gt;well&lt;/em&gt;, tidak ada negara yang tidak berhutang, Brunei atau bahkan untuk yang nge-&lt;em&gt;fans&lt;/em&gt; ke Arab Saudi, mereka juga berhutang, hutang bukan melulu hal yang jelek, dan Indonesia juga membayar hutangnya, tidak macet (untuk beritanya googling sendiri, jangan malas cari berita), semua itu tetap membuat Jokowi salah, iya, selalu salah.&lt;/p&gt;
+
 &lt;p&gt;Sebagai warga negara Indonesia, tidak terima simbol negara dijadikan olok-olok, terlebih oleh bangsa sendiri yang buta akan semua yang sudah dilakukan, dibangun oleh Jokowi, tidak akan melihat bandara yang sudah dibangun, ribuan jalan yang sudah dibangun, bendungan, infrastruktur yang sudah dibangun, yang dilihat adalah postingan atau hasil &lt;em&gt;forward&lt;/em&gt; pesan berantai yang didapat dari whatsapp.&lt;/p&gt;
 
-&lt;p&gt;Saya kecewa dengan tingkat kecerdasan masyarakat yang gampang terpancing, kecewa dengan yang membawa isu islam tapi dia sendiri tidak menerapkan islam dalam dirinya, &lt;em&gt;tabayyun&lt;/em&gt; adalah hal yang paling anti dilakukan oleh pihak yang membenci, bahkan ayat pertama yang diturunkan oleh Alloh pun TIDAK dilakukan, yaitu &lt;em&gt;iqraa&lt;/em&gt;. bacalah dulu, telitilah dulu sebelum melakukan tudingan terhadap siapapun.&lt;/p&gt;
+&lt;p&gt;Saya kecewa dengan tingkat kecerdasan masyarakat yang gampang terpancing, kecewa dengan yang membawa isu agama tapi dia sendiri tidak menerapkan keagamaan itu sendiri dalam dirinya, &lt;em&gt;tabayyun&lt;/em&gt; adalah hal yang paling anti dilakukan oleh pihak yang membenci, bahkan ayat pertama yang diturunkan oleh Alloh pun TIDAK dilakukan, yaitu &lt;em&gt;iqraa&lt;/em&gt;. bacalah dulu, telitilah dulu sebelum melakukan tudingan terhadap siapapun.&lt;/p&gt;
 </content>
  </entry>
  
