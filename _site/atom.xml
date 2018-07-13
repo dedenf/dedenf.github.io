@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-12T08:22:38+07:00</updated>
+ <updated>2018-07-13T07:37:56+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,33 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Mailspring app review</title>
+   <link href="http://localhost:4000/2018/07/mailspring"/>
+   <updated>2018-07-13T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/07/mailspring</id>
+   <content type="html">&lt;p&gt;Attempting to find and use Mail.app alternatives is quite hard, Mailapp itself is already mature in my opinion, all the feature are there, no gimmick, no fancy add ons that will make you miserable sometimes.&lt;/p&gt;
+
+&lt;p&gt;I’ve been using quite a lot alternatives, like &lt;a href=&quot;https://www.thunderbird.net/en-US/&quot;&gt;Mozilla Thunderbird&lt;/a&gt;, &lt;a href=&quot;https://canarymail.io/&quot;&gt;Canary&lt;/a&gt;, &lt;a href=&quot;https://sparkmailapp.com/&quot;&gt;Spark&lt;/a&gt;, &lt;a href=&quot;https://cloudmagic.com/&quot;&gt;CloudMagic&lt;/a&gt;, &lt;a href=&quot;https://www.postbox-inc.com/&quot;&gt;Postbox&lt;/a&gt;. still they can’t beat Mail.app (this is debatable), and right now, i was introduced to Mailspring. Mailspring is Electron-based app, like many of app that i have mentioned before, it’s free for basic tier, and $8/mo if you want to have extra feature (i’m fine with this current basic tier).
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2 id=&quot;user-interface&quot;&gt;User Interface&lt;/h2&gt;
+&lt;p&gt;Well, as a mac app, User Interface or UI are main object sometimes, you did not want the app to look fugly, outdated and hard to navigate (as it’s part of User eXperience or UX for hipsterized word). Because the design is quite familiar, and i can easily navigate between menus and also couple &lt;em&gt;nice-to-have&lt;/em&gt; feature that probably useful for me later on, and also it supporting themes (in the screenshot i’m using Taiga).
+&lt;a href=&quot;/images/posts/mailspring-ui-large.png&quot;&gt;&lt;img src=&quot;/images/posts/mailspring-ui.png&quot; alt=&quot;mailspring UI&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;accounts-management&quot;&gt;Accounts Management&lt;/h2&gt;
+&lt;p&gt;Mailspring support multiple account and manages under one roof, for basic tier, you can only have 4 accounts. i think that will be fine for average users (most people have 2 mail accounts), it support IMAP, Yahoo!, Gmail suite, Office 365, iCloud, Fastmail (dunno what that is), sadly it’s not supporting Exchange yet, yeah, i’m using Microsoft Exchange at work.
+Accounts management feature lies on preferences panel, but how it got displayed makes me scratch my head, it was not trigger modal or new panel, it use the same window, because i’m using keyboard quite a lot for navigation, and i tend to close window using &lt;code class=&quot;highlighter-rouge&quot;&gt;command+w&lt;/code&gt;, and because this is not using the same behavior, using &lt;code class=&quot;highlighter-rouge&quot;&gt;esc&lt;/code&gt; to close the preference window.
+&lt;a href=&quot;/images/posts/mailspring-accounts-large.png&quot;&gt;&lt;img src=&quot;/images/posts/mailspring-accounts.png&quot; alt=&quot;mailspring UI&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;composing-email&quot;&gt;Composing email&lt;/h2&gt;
+&lt;p&gt;Mailspring almost has the same UI with other mail client, text format, and couple other feature, it did not support markdown yet as default, you have to install it manually.
+&lt;a href=&quot;/images/posts/mailspring-compose-large.png&quot;&gt;&lt;img src=&quot;/images/posts/mailspring-compose.png&quot; alt=&quot;mailspring UI&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;With its simplicity, i will try to use it for the time being, it cannot be use as my primary working mail client yet, but will use it as mail client for other email account. This version (Version 1.2.2 (1.2.2)), it has quite small memory footprint, event tho electron base app sometime became a memory hog.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Mencoba Reksadana di Bukalapak dan Tokopedia</title>
