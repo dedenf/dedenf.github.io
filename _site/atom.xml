@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-16T19:29:17+07:00</updated>
+ <updated>2018-07-16T19:36:24+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -23,6 +23,12 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;Totally out of line.&lt;/p&gt;
+
+&lt;p&gt;Other news links about this crap from Elon musk&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fortune.com/2018/07/15/elon-musk-thai-rescue-diver-pedo-guy/&quot;&gt;Elon Musk Calls Diver in Thai Soccer Team Rescue a Pedophile&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gizmodo.com/hero-diver-threatens-lawsuit-against-elon-musk-for-call-1827620681&quot;&gt;Hero Diver Threatens Lawsuit Against Elon Musk for Calling Him a Pedophile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
