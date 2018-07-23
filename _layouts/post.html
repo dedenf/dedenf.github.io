@@ -7,7 +7,7 @@ layout: default
 <article class='justify'>
   <div class='mb2'>
     <h2 class='h3 mb0'>{{ page.title }}</h2>
-    <time class='grayish'>{{ page.date | date: '%B %-d, %Y' }} &mdash; {% include read-time.html %}</time>
+    <time class='grayish'>Published at {{ page.date | date: '%B %-d, %Y' }} &mdash; {% include read-time.html %}</time>
   </div>
   {{ content }}
 
