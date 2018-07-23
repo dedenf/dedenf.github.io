@@ -8,7 +8,7 @@ with_header: true
 {% if post.sticky == true %}
   <article class=''>
     {% if post.link %}
-      <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }} &mdash; <a href='{{ post.link }}'>links</a></time>
+      <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }} &mdash; <a href='{{ post.url }}'>link to the post</a></time>
       <h2 class='h3 mb0'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h2>
     {% else %}
       <div class='mb2'>
@@ -50,7 +50,7 @@ with_header: true
 {% for post in paginator.posts %}
   <article class=''>
     {% if post.link %}
-      <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }} &mdash; <a href='{{ post.url }}'>links</a></time>
+      <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }} &mdash; <a href='{{ post.url }}'>link to the post</a></time>
       <h2 class='h3 mb0'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h2>
     {% else %}
       <div class='mb2'>
