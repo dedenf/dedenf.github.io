@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-23T16:46:43+07:00</updated>
+ <updated>2018-07-24T14:51:31+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,26 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Winds app for RSS and Podcast</title>
+   <link href="http://localhost:4000/2018/07/winds-review"/>
+   <updated>2018-07-23T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/07/winds-review</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/images/posts/winds-large.jpg&quot;&gt;&lt;img src=&quot;/images/posts/winds.jpg&quot; alt=&quot;Winds&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As i mentioned before, i love &lt;a href=&quot;http://notes.dedenf.com/2017/11/1on-rss&quot;&gt;RSS&lt;/a&gt;, i consumed quite a lot of rss for news feed, source code feed push, and also i love Podcast, listened to &lt;a href=&quot;http://notes.dedenf.com/2018/01/podcast&quot;&gt;podcast&lt;/a&gt; for quite sometime, subscribed to a handful of podcast ‘station’. 
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;I used to listen podcast using either spotify, or soundcloud, itunes, depending on how the publisher published the podcast, but probably that will be change, right now i use &lt;a href=&quot;https://getstream.io/winds/&quot;&gt;Winds app&lt;/a&gt; by &lt;a href=&quot;https://getstream.io/&quot;&gt;getstream.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The app displayed like it’s a website, consist of podcast and rss news feed, i use Winds as my main podcast client, so simple and intuitive, support podfaster, bookmarking, also can resume it after we left of if we closed it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/posts/winds-podcast-large.jpg&quot;&gt;&lt;img src=&quot;/images/posts/winds-podcast.jpg&quot; alt=&quot;Winds podcast&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For RSS news feed i still use Cappuccino as my main app, And for Winds I’m gonna use it for a while for my podcasting, and see how it goes.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Abdul Wahid Azad; Pahlawan Kemerdekaan yang Dilupakan</title>
