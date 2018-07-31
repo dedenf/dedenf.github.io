@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-24T14:51:31+07:00</updated>
+ <updated>2018-07-31T17:25:51+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,17 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Teens Are Debating the News on Instagram</title>
+   <link href="http://localhost:4000/2018/07/debating-instagram"/>
+   <updated>2018-07-31T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/07/debating-instagram</id>
+   <content type="html">&lt;p&gt;Dengan munggunakan sedikit keahlian di aplikasi photoshop misalkan, atau hasil ngambil gambar, &lt;em&gt;meme&lt;/em&gt; yang bertebaran, membuat informasi tidak benar sangat gampang, diawali dengan kemalasan membaca, memcari kebenaran berita, verifikasi. dan akhirnya informasi makin liar menjadikan opini, kemudian menjadi satu faktor untuk memutuskan sesuatu.&lt;/p&gt;
+
+&lt;p&gt;Artikel tersebut memang menggambarkan apa yang terjadi di Amerika, tapi tidak jauh beda dengan apa yang terjadi di Indonesia, dengan sosial media dipenuhi &lt;em&gt;ABG&lt;/em&gt; yang sok bicara politik, menyampaikan ide-ide sendiri, &lt;a href=&quot;/2018/06/kebencian&quot;&gt;dipenuhi dengan kebencian&lt;/a&gt; yang tidak ada asalnya, ditambah dengan &lt;em&gt;confirmation bias&lt;/em&gt; + &lt;em&gt;cocoklogi&lt;/em&gt; menjadikan semakin keruhnya sosial media, ditambah menjelang pemilihan presiden.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Winds app for RSS and Podcast</title>
