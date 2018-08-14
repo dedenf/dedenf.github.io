@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-08-14T23:32:41+07:00</updated>
+ <updated>2018-08-15T00:21:57+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,39 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Mencairkan Reksadana di Tokopedia</title>
+   <link href="http://localhost:4000/2018/08/mencairkan-reksadana-di-bukalapak"/>
+   <updated>2018-08-15T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/08/mencairkan-reksadana-di-bukalapak</id>
+   <content type="html">&lt;p&gt;Melanjutkan apa yang pernah saya tulis sebelummya, yaitu perbandingan &lt;a href=&quot;https://notes.dedenf.com/2018/07/perbandingan-reksadana-tokopedia-bukalapak&quot;&gt;pembukaan reksadana di tokopedia dan bukalapak&lt;/a&gt;, kali ini saya akan membahas proses pencairan dari reksadana yang sudah saya beli di &lt;a href=&quot;https://www.tokopedia.com/reksa-dana&quot;&gt;Tokopedia&lt;/a&gt; terlebih dahulu.&lt;/p&gt;
+
+&lt;p&gt;Meskipun fitur Reksa Dana ini menggunakan Bareksa sebagai agen penjual reksa dana (APRD) seperti Bukalapak, tetapi Bareksa tidak menampilkan portfolio saya di web Bareksa untuk Reksa Dana yang saya beli di Tokopedia, lain hal dengan Bukalapak, akun saya dan portofolio langsung &lt;em&gt;nge-sync&lt;/em&gt; dan bisa melakukan aksi di app/web Bareksa langsung, tetapi saya belum mencoba melakukan pembelian di Bareksa apakah akan &lt;em&gt;nge-sync&lt;/em&gt; balik ke Bukalapak (saya rasa &lt;em&gt;sih&lt;/em&gt; tidak akan, nanti dicoba).&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Untuk pencairan di bukalapak cukup cepat, kita disediakan pilihan untuk mencairkan berapa rupiah milik kita yang hendak dicairkan di menu “&lt;strong&gt;Jual&lt;/strong&gt;”, saya sejauh ini tidak menemukan opsi untuk menjual berdasarkan unit yang kita punya.
+&lt;img src=&quot;/images/posts/tokopedia-reksadana-jual.png&quot; alt=&quot;jual reksadana&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dari unit yang saya beli, sebelumnya saya beli Rp100.000, karena saya menggunakan &lt;a href=&quot;https://www.jenius.com&quot;&gt;Jenius&lt;/a&gt; untuk membeli Reksa Dana ini, sehingga tidak dikenakan bea transfer antar bank, maka yang saya beli sama dengan harga yang saya tertera.&lt;/p&gt;
+
+&lt;p&gt;Saya menunggu sebulan untuk mencairkan Reksadana ini hanya untuk melihat dana yang mungkin bisa didapat dan kemudahan dari ecommerce dalam transaksi, hasil yang saya dapatkan adalah sejumlah Rp100.430 (ya, memang seharusnya lebih lama, lagi, ini hanya untuk coba-coba).
+&lt;img src=&quot;/images/posts/tokopedia-reksadana-cairkan.png&quot; alt=&quot;jual cairkan&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dan yang masuk ke rekening saya setelah 2 hari kerja adalah sebesar Rp95,430, terpotong Rp5000, kemungkinan besar itu untuk &lt;em&gt;fee&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Beberapa pelajaran yang diambil dari sini.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Selalu menghitung jumlah biaya yang dikeluarkan untuk pembelian Reksa Dana, terutama jika bank yang Anda punya tidak sama dengan bank tujuan di Tokopedia&lt;/li&gt;
+  &lt;li&gt;Hitung juga untung rugi-nya, jangan sampai poin nomor 1 itu malah menjadikan investasi Anda jadi minus ketika dilakukan pencairan&lt;/li&gt;
+  &lt;li&gt;Cairkan jika memang untung (tentu saja!), atau sudah di atas nilai yang Anda beli + biaya tambahan baik transfer atau &lt;em&gt;fee&lt;/em&gt; admin seperti yang dilakukan Tokopedia.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Selanjutnya akan dicoba dilakukan di BukaReksa.&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Does Taking Pictures on Our Smartphones Have Any Effect on Our Memory?</title>
