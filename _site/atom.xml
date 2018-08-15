@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-08-15T20:34:48+07:00</updated>
+ <updated>2018-08-16T00:01:31+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,32 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Will.i.am on His Creative Journey and Breaking Down Barriers</title>
+   <link href="http://localhost:4000/2018/08/will.i.am-podcast"/>
+   <updated>2018-08-16T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/08/will.i.am-podcast</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;Consuming information at the speeds of space travel, There’s no absorbing. … There’s so much information being thrown around that it’s hard to keep up to know what’s real and what’s fake. It’s being done systematically to confuse.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Keep listening until the end.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Podcast TemuKonco: Lantip dan keris</title>
+   <link href="http://localhost:4000/2018/08/lantip-dan-keris"/>
+   <updated>2018-08-16T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/08/lantip-dan-keris</id>
+   <content type="html">&lt;iframe src=&quot;https://www.podbean.com/media/player/smt84-958c35?from=site&amp;amp;vjs=1&amp;amp;skin=1&amp;amp;fonts=Helvetica&amp;amp;auto=0&amp;amp;download=0&quot; height=&quot;315&quot; width=&quot;100%&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; data-name=&quot;pb-iframe-player&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Judul di atas memang beda dengan judul episode &lt;em&gt;podcast&lt;/em&gt;-nya, tapi memang itu isinya, keris, dari mulai membahas keris yang biasa sampai yang bisa dibilang langka, dan banyak diburu, desain, pamor dan lainnya.&lt;/p&gt;
+
+&lt;p&gt;Karena baru pertama kali dengar &lt;em&gt;podcast&lt;/em&gt; ini, bukan karena kenal &lt;a href=&quot;https://twitter.com/lantip&quot;&gt;@lantip&lt;/a&gt;-nya, tapi memang suka dengan bagaimana TemuKonco ini membungkus &lt;em&gt;podcast&lt;/em&gt;-nya, meski direkam di studio, tapi dibuat seperti di angkringan, dan ada efek suara orang ngobrol di belakang, atau suara air dikucurkan dan kemudian suara adukan sendok, asumsi saya itu teh manis :smile:. apik, santai, itu kesan yang saya dapatkan, semoga bisa terus tim &lt;a href=&quot;https://temukonco.com/&quot;&gt;Temukonco&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Mencairkan Reksadana di Tokopedia</title>
