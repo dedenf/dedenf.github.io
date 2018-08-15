@@ -9,6 +9,8 @@ tags:
     - chaos
     - "false news"
     - hoax
+    - "daily found"
+    
 published: true
 ---
 

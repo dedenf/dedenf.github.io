@@ -8,6 +8,8 @@ tags:
     - banking
     - smartphone
     - credits
+    - "daily found"
+    
 published: true
 ---
 

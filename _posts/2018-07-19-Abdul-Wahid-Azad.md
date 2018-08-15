@@ -7,6 +7,7 @@ category: links
 tags: 
     - pahlawan
     - indonesia
+    - "daily found"
 
 published: true
 ---

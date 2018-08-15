@@ -8,6 +8,7 @@ tags:
     - psychology
     - addiction
     - smartphone
+    - "daily found"
 
 published: true
 ---

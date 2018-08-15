@@ -9,6 +9,7 @@ tags:
     - addiction
     - smartphone
     - memories
+    - "daily found"
 
 published: true
 ---

@@ -7,6 +7,8 @@ category: links
 tags: 
     - psychology
     - smartphone
+    - "daily found"
+    
 published: true
 ---
 

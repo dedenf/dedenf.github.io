@@ -8,6 +8,7 @@ tags:
     - psychology
     - rant
     - "social media"
+    - "daily found"
 
 published: true
 ---
