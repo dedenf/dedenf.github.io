@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-08-24T11:23:08+07:00</updated>
+ <updated>2018-08-24T15:58:56+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -24,6 +24,19 @@
 &lt;a href=&quot;/images/posts/windows95.png&quot;&gt;&lt;img src=&quot;/images/posts/windows95.jpg&quot; alt=&quot;windows 95&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;head out to this page to &lt;a href=&quot;https://github.com/felixrieseberg/windows95/releases&quot;&gt;download the release on its github&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Simple Solution to Traffic</title>
+   <link href="http://localhost:4000/2018/08/traffic-solution"/>
+   <updated>2018-08-24T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/08/traffic-solution</id>
+   <content type="html">&lt;p&gt;Indeed this was happened in every road, all of the points are valid, even tho the solution is simple, but it was hard to implement, we are monkey.&lt;/p&gt;
+
+&lt;iframe width=&quot;700&quot; height=&quot;500&quot; src=&quot;https://www.youtube.com/embed/iHzzSao6ypE&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;via &lt;a href=&quot;https://www..com/&quot;&gt;cgpgrey&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
