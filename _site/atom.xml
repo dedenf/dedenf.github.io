@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-08-24T15:58:56+07:00</updated>
+ <updated>2018-08-25T21:03:03+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,21 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Daily Bite #45</title>
+   <link href="http://localhost:4000/2018/08/daily-bite-45"/>
+   <updated>2018-08-25T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/08/daily-bite-45</id>
+   <content type="html">&lt;p&gt;Try to listen couple podcast, and making a round up of what i’ve listened for the past week, here what i’ve listened, and probably making podcasting a routine.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cynicaldeveloper.com/podcast/90/&quot;&gt;Episode 90 - Developer Promotion Prospects&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soundcloud.com/thenewstackmakers/a-look-back-at-kubernetes-with-microsofts-brendan-burns&quot;&gt;A Look Back at Kubernetes with Microsoft’s Brendan Burns&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soundcloud.com/intercom/nick-caldwell-reddit&quot;&gt;Nick Caldwell, VP of Engineering at Reddit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>💩🚀 Windows 95 in Electron. Runs on macOS, Linux, and Windows</title>
