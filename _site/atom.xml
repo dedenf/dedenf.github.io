@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-09-04T19:30:27+07:00</updated>
+ <updated>2018-09-05T11:38:31+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,24 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Jangan Takut Beli Ikat Pinggang</title>
+   <link href="http://localhost:4000/2018/09/ikat-pinggang"/>
+   <updated>2018-09-05T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/09/ikat-pinggang</id>
+   <content type="html">&lt;p&gt;Tulisan menarik dari &lt;a href=&quot;https://twitter.com/iskan_dahlan?lang=en&quot;&gt;Dahlan Iskan&lt;/a&gt;. Saya &lt;em&gt;highlight&lt;/em&gt; yang menarik bagi saya.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Kita juga lagi sulit. Jangan salahkan Sri Mulyani. Kalau kita tidak gagal di bidang ekspor Sri Mulyani akan baik-baik saja. Kalau ambisi kita tidak berlebihan semua akan baik-baik saja.
+Tapi siapa mau all out menggalakkan ekspor? Politik, bagi mereka, lebih menggiurkan.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Iya, issue ini &lt;em&gt;massive&lt;/em&gt;, banyak negara terkena massalah ini, banyak orang tidak tahu, banyak orang yang sama sekali &lt;em&gt;ignorant&lt;/em&gt;, diberi fakta hanya bisa &lt;em&gt;nyinyir&lt;/em&gt; dan &lt;em&gt;counter&lt;/em&gt; dengan argumen bodoh. Ditambah lagi dengan &lt;a href=&quot;https://notes.dedenf.com/2018/06/kebencian&quot;&gt;kebencian&lt;/a&gt; yang sudah mengakar.&lt;/p&gt;
+
+&lt;p&gt;Alih-alih memahami apa yang ada, lebih suka menyalahkan apapun dan siapapun, karena menyalahkan itu lebih mudah daripada berpikir atau belajar.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Life at Jenius #2</title>
