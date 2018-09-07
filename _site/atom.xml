@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-09-05T11:38:31+07:00</updated>
+ <updated>2018-09-07T10:45:17+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -112,9 +112,9 @@ Tapi siapa mau all out menggalakkan ekspor? Politik, bagi mereka, lebih menggiur
  
  <entry>
    <title>Mencairkan Reksadana di Tokopedia</title>
-   <link href="http://localhost:4000/2018/08/mencairkan-reksadana-di-bukalapak"/>
+   <link href="http://localhost:4000/2018/08/mencairkan-reksadana-di-tokopedia"/>
    <updated>2018-08-15T00:00:00+07:00</updated>
-   <id>http://localhost:4000/2018/08/mencairkan-reksadana-di-bukalapak</id>
+   <id>http://localhost:4000/2018/08/mencairkan-reksadana-di-tokopedia</id>
    <content type="html">&lt;p&gt;Melanjutkan apa yang pernah saya tulis sebelummya, yaitu perbandingan &lt;a href=&quot;https://notes.dedenf.com/2018/07/perbandingan-reksadana-tokopedia-bukalapak&quot;&gt;pembukaan reksadana di tokopedia dan bukalapak&lt;/a&gt;, kali ini saya akan membahas proses pencairan dari reksadana yang sudah saya beli di &lt;a href=&quot;https://www.tokopedia.com/reksa-dana&quot;&gt;Tokopedia&lt;/a&gt; terlebih dahulu.&lt;/p&gt;
 
 &lt;p&gt;Meskipun fitur Reksa Dana ini menggunakan Bareksa sebagai agen penjual reksa dana (APRD) seperti Bukalapak, tetapi Bareksa tidak menampilkan portfolio saya di web Bareksa untuk Reksa Dana yang saya beli di Tokopedia, lain hal dengan Bukalapak, akun saya dan portofolio langsung &lt;em&gt;nge-sync&lt;/em&gt; dan bisa melakukan aksi di app/web Bareksa langsung, tetapi saya belum mencoba melakukan pembelian di Bareksa apakah akan &lt;em&gt;nge-sync&lt;/em&gt; balik ke Bukalapak (saya rasa &lt;em&gt;sih&lt;/em&gt; tidak akan, nanti dicoba).&lt;/p&gt;
