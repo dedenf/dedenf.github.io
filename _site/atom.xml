@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-09-07T10:45:17+07:00</updated>
+ <updated>2018-09-09T22:40:05+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,33 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Loneliness</title>
+   <link href="http://localhost:4000/2018/09/loneliness"/>
+   <updated>2018-09-09T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/09/loneliness</id>
+   <content type="html">&lt;p&gt;A piece from &lt;a href=&quot;https://www.economist.com/&quot;&gt;Economist&lt;/a&gt; about &lt;a href=&quot;https://www.economist.com/international/2018/09/01/loneliness-is-a-serious-public-health-problem&quot;&gt;&lt;em&gt;Loneliness is a serious public-health problem&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;That the problem exists is obvious; its nature and extent are not. Obesity can be measured on scales. But how to weigh an emotion? Researchers start by distinguishing several related conditions. Loneliness is not synonymous with social isolation (how often a person meets or speaks to friends and family) or with solitude (which implies a choice to be alone).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And came to this&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Another villain in the contemporary debate is technology. Smartphones and social media are blamed for a rise in loneliness in young people.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;These are other articles that mentioned and researched about Loneliness epidemic.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.forbes.com/sites/daviddisalvo/2018/08/26/what-is-the-connection-between-sleep-and-loneliness-new-research-reveals-how-one-affects-the-other/&quot;&gt;What Is The Connection Between Sleep And Loneliness? New Research Reveals How One Affects The Other&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.telegraph.co.uk/science/2018/08/14/sleep-deprivation-fuels-loneliness-tired-people-socially-repellent/&quot;&gt;Sleep deprivation fuels loneliness because tired people are socially repellent, say scientists  &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.heartsupport.com/why-is-everyone-so-lonely-these-days-9a7781527296&quot;&gt;Why Is Everyone So Lonely These Days?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.theguardian.com/media/2017/dec/15/loneliness-heightened-by-social-media-jo-coxs-sister-says&quot;&gt;Loneliness heightened by social media, Jo Cox’s sister says&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Jangan Takut Beli Ikat Pinggang</title>
