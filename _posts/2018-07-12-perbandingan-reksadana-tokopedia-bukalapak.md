@@ -8,6 +8,7 @@ tags:
     - finance
 
 category: post
+comments: true
 published: true
 ---
 
