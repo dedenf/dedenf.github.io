@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Perbandingan Bareksa vs Tanam Duit vs Investree, bagian 1."
+title: "Perbandingan Bareksa vs Tanam Duit vs Investree, bagian 1"
 tags: 
     - reksadana
     - jenius
