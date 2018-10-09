@@ -102,6 +102,66 @@
   <article class=''>
     
       <div class='mb2'>
+        <h2 class='m0'><a href='/2013/03/hispterize-commit'>Hipsterized commit</a></h2>
+        <time class='grayish'>March 6, 2013 &mdash; 
+  
+  
+    less than 1 minute read (58 words)
+  
+
+
+
+</time>
+      </div>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>After adding current listened track into my commit message, now i’m adding the action, i take picture everytime commiting something. here’s how.</p>
+
+<ul>
+  <li>get ImageSnap
+ <code class="highlighter-rouge">brew install imagesnap</code> or <code class="highlighter-rouge">port install imagesnap</code></li>
+  <li>create this hook at your project .git/hooks/</li>
+</ul>
+
+<p>the hook</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<span class="nv">COMMITID</span><span class="o">=</span><span class="k">$(</span>git rev-parse HEAD<span class="k">)</span>
+imagesnap <span class="nt">-q</span> <span class="nt">-w</span> 1 .gitsnap/<span class="nv">$COMMITID</span>.jpg<span class="sb">`</span>
+</code></pre></div></div>
+
+<p>save as post-commit (so it will run after commit)</p>
+
+          
+
+        
+
+      
+    
+
+    
+    Tags:
+    
+      <a href="/tags#git">git</a>,
+    
+      <a href="/tags#fun">fun</a>
+    
+
+
+
+  </article>
+  <hr class='half-width'/>
+
+  <article class=''>
+    
+      <div class='mb2'>
         <h2 class='m0'><a href='/2013/02/stop-procrastination'>How to stop procrastination</a></h2>
         <time class='grayish'>February 28, 2013 &mdash; 
   
@@ -301,61 +361,6 @@ so if we browse the log it will be shown <code class="highlighter-rouge">"fixing
       <a href="/tags#apps">apps</a>,
     
       <a href="/tags#osx">osx</a>
-    
-
-
-
-  </article>
-  <hr class='half-width'/>
-
-  <article class=''>
-    
-      <div class='mb2'>
-        <h2 class='m0'><a href='/2013/02/three-charts'>The Charts that you need</a></h2>
-        <time class='grayish'>February 7, 2013 &mdash; 
-  
-  
-    less than 1 minute read (71 words)
-  
-
-
-
-</time>
-      </div>
-    
-
-    
-      
-        
-
-        
-        
-          
-            <p><a href="http://37signals.com/svn/writers/noah">Noah</a> at 37signal made a list about the chart that he need to display data.</p>
-
-<blockquote>
-  <ol>
-    <li>When you want to show how something has changed over time, use a line chart.</li>
-    <li>When you want to show how something is distributed, use a histogram.</li>
-    <li>When you want to display summary information, use a table.</li>
-  </ol>
-</blockquote>
-
-<p>seeing this chart type for people other than devops people or developer i think it’s enough to display data.</p>
-
-          
-
-        
-
-      
-    
-
-    
-    Tags:
-    
-      <a href="/tags#design">design</a>,
-    
-      <a href="/tags#charts">charts</a>
     
 
 

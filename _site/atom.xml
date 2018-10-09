@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-10-02T17:16:00+07:00</updated>
+ <updated>2018-10-09T15:47:19+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,25 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Perbandingan Bareksa vs Tanam Duit vs Investree, bagian 2</title>
+   <link href="http://localhost:4000/2018/10/perbandingan-bareksa-tanamduit-investree-bagian-2"/>
+   <updated>2018-10-09T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/10/perbandingan-bareksa-tanamduit-investree-bagian-2</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Bagian kedua pembahasan layanan investasi online yakni Bareksa, Tanam Duit dan Investree, jangan lewatkan &lt;a href=&quot;https://notes.dedenf.com/2018/09/perbandingan-bareksa-tanamduit-investree&quot;&gt;membaca bagian 1&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pada bagian pertama, dijelaskan tentang apa yang disajikan dimasing-masing website dan bagaimana caranya untuk membuka akun dimasing-masing.&lt;/p&gt;
+
+&lt;h2 id=&quot;pembelian-dan-penjualan&quot;&gt;Pembelian dan penjualan&lt;/h2&gt;
+&lt;p&gt;Pembelian dan penjualan reksadana yang dimiliki oleh pengguna, mungkin akan berbeda pengalamannya pada tiap pengguna.&lt;/p&gt;
+&lt;h2 id=&quot;cara-membeli-produk-reksadana&quot;&gt;Cara membeli produk reksadana&lt;/h2&gt;
+&lt;h2 id=&quot;cara-menjual-produk-reksadana&quot;&gt;Cara menjual produk reksadana&lt;/h2&gt;
+&lt;h2 id=&quot;mencairkan-dana-dari-masing-masing-layanan&quot;&gt;Mencairkan dana dari masing-masing layanan&lt;/h2&gt;
+&lt;h2 id=&quot;mengawasi-dana-dan-reksadana&quot;&gt;Mengawasi dana dan reksadana&lt;/h2&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Comparing Git Workflows</title>
