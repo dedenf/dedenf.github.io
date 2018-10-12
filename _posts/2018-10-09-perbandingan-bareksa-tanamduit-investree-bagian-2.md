@@ -9,7 +9,7 @@ tags:
 
 category: post
 comments: true
-published: true
+published: false
 ---
 
 _Bagian kedua pembahasan layanan investasi online yakni Bareksa, Tanam Duit dan Investree, jangan lewatkan [membaca bagian 1](https://notes.dedenf.com/2018/09/perbandingan-bareksa-tanamduit-investree)_.
