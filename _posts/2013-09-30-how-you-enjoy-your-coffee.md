@@ -7,7 +7,7 @@ category: blog
 
 ---
 
-![coffee bean](http://i.imgur.com/OA8tMR9.jpg)
+![coffee bean](https://i.imgur.com/OA8tMR9.jpg)
 
 Do you love coffee? i know i do, got enough plenty variety of coffee in my house, and some processing tools that helps me enjoy my coffee.
 i know i love it, and of course enjoy it, i love to choose my beans, i love grinding my coffee beans (roasting is another level that i hadn't mastered yet).

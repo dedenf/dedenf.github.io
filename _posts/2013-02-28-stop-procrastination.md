@@ -15,4 +15,4 @@ see, i have a record **7.777** tweets right now, and i hate to break this number
 
 P.S: i can also wrote a 'blog' [like this one](https://github.com/dedenf/vagrant/commit/7467f6c1708795016818718e2dd66fda82645a93), besides for my technical stuff i've been blogging on [coderwall.com](https://coderwall.com/dedenf)
 
-![lovely number](http://i.imgur.com/hy1kOgg.png)
+![lovely number](https://i.imgur.com/hy1kOgg.png)
