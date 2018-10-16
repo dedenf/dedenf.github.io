@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-10-12T17:31:08+07:00</updated>
+ <updated>2018-10-16T11:48:26+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,21 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>6 Fakta Ilmiah Pencemaran Timbel di Bogor dan Tangerang</title>
+   <link href="http://localhost:4000/2018/10/bahaya-timbel"/>
+   <updated>2018-10-16T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2018/10/bahaya-timbel</id>
+   <content type="html">&lt;p&gt;Membaca liputan ini memang sangat miris, didukung oleh hasil investigasi dari tim kompas investigasi, fakta limbah ini sudah puluhan tahun, akibat dari limbah ini seperti cacat pada anak-anak sudah banyak terjadi, hanya saja masyarakat mungkin tidak begitu paham dengan bahaya ini. Udara, air hingga tanah sudah tercemar, untuk membalikkan hal ini sangat sulit.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Menurut Budi, konsentrasi timbel yang terdeposit dalam tubuh tidak dapat dihilangkan. Dampaknya, timbel bisa mengganggu fungsi sistem saraf pusat dalam tubuh manusia.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Semua ini berawal dari proses &lt;a href=&quot;https://kompas.id/baca/bebas-akses/2018/10/15/membahayakan-timbal-sudah-cemari-udara-tanah-dan-darah/&quot;&gt;peleburan aki (accu) bekas, debu, asapnya sangat berbahaya&lt;/a&gt;, lihat pula &lt;a href=&quot;https://kompas.id/baca/bebas-akses/2018/10/15/anak-anak-menjadi-korbannya/&quot;&gt;akibatnya pada anak-anak&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Spotify + Noizio</title>
