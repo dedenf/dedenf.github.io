@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="https://notes.dedenf.com/atom.xml" rel="self"/>
  <link href="https://notes.dedenf.com/"/>
- <updated>2018-12-05T15:51:49+07:00</updated>
+ <updated>2018-12-12T01:57:20+07:00</updated>
  <id>https://notes.dedenf.com</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,49 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Year in review: Podcast</title>
+   <link href="https://notes.dedenf.com/2018/12/year-in-review-podcast"/>
+   <updated>2018-12-11T00:00:00+07:00</updated>
+   <id>https://notes.dedenf.com/2018/12/year-in-review-podcast</id>
+   <content type="html">&lt;p&gt;Ditahun ini banyak mendengarkan podcast yang menurut saya menarik untuk diikuti atau hanya untuk didengarkan sesekali di episode yang menarik.&lt;/p&gt;
+
+&lt;p&gt;Beberapa yang &lt;em&gt;notable&lt;/em&gt;, sampai ditulis di blog ini adalah:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://notes.dedenf.com/2018/08/lantip-dan-keris&quot;&gt;Podcast TemuKonco: Lantip dan keris &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://notes.dedenf.com/2018/08/will.i.am-podcast&quot;&gt;Will.i.am on His Creative Journey and Breaking Down Barriers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Untuk mendengarkan podcast saya seringnya menggunakan aplikasi &lt;a href=&quot;http://castbox.fm/&quot;&gt;Castbox&lt;/a&gt;, terkadang Spotify, tapi sudah tidak lagi, terlalu bercampur dengan &lt;em&gt;playlist&lt;/em&gt; dan tidak ada fitur untuk melakukan &lt;a href=&quot;https://www.buzzfeednews.com/article/doree/meet-the-people-who-listen-to-podcasts-at-super-fast-speeds#.wqNwyjQq&quot;&gt;podfaster&lt;/a&gt; yang biasanya dipunyai aplikasi podcast.&lt;/p&gt;
+
+&lt;p&gt;berikut channel podcast yang biasa diikuti :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pythonbytes.fm&quot;&gt;Python Bytes&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/Python-Bytes-id410810?country=us&quot;&gt;subs&lt;/a&gt;
+&lt;!--more--&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://talkpython.fm/home&quot;&gt;Talk Python&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/Talk-Python-To-Me-(SoundCloud)-id463767?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://changelog.com/podcast&quot;&gt;The Changelog&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/The-Changelog-id397058?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.recode.net/recode-decode-podcast-kara-swisher&quot;&gt;Recode Decode, hosted by kara swisher&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/Recode-Decode%2C-hosted-by-Kara-Swisher-id1481590?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.openshift.com/tag/podctl/&quot;&gt;Podctl&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/PodCTL-Containers-%7C-Kubernetes-%7C-OpenShift-id1248118?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kubernetespodcast.com&quot;&gt;Kubernetes Podcast from Google&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/Kubernetes-Podcast-from-Google-id1227906?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://techmeme.com&quot;&gt;Techmeme ride home&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/Techmeme-Ride-Home-id1194232?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://thecyberwire.com&quot;&gt;Cyberwire&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/The-CyberWire-id101971?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://testandcode.com&quot;&gt;Test &amp;amp; Code&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/Test-and-Code-A-Podcast-about-Software-Testing%2C-Software-Development%2C-and-Python-id1435607?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://freakonomics.com&quot;&gt;Freakonomics&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/Freakonomics-Radio-id1356283?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.theverge.com/the-vergecast&quot;&gt;Vergecast&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/Vergecast-id1482249?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://5by5.tv/rubyonrails&quot;&gt;Ruby on Rails Podcast&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/Ruby-on-Rails-Podcast-id2352?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/podcasts/aws-techchat/&quot;&gt;AWS Techchat&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/AWS-TechChat-id449238?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.intercom.com/blog/podcasts/&quot;&gt;Inside Intercom&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/Inside-Intercom-Podcast-id427342?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://redhat.com/commandlineheroes&quot;&gt;Command Line Heroes&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/Command-Line-Heroes-id1105224?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.softwaredefinedtalk.com&quot;&gt;Software Defined Talk&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/Software-Defined-Talk-id1412222?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codenewbie.org&quot;&gt;Code Newbie&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/CodeNewbie-id375912?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://scrum-master-toolbox.org&quot;&gt;Scrum Master Toolbox Podcast&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/Scrum-Master-Toolbox-Podcast-id28543?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codingblocks.net&quot;&gt;Coding blocks&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/Coding-Blocks-id423998?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://softwareengineeringdaily.com&quot;&gt;Software Engineering Daily&lt;/a&gt; – &lt;a href=&quot;https://castbox.fm/channel/Software-Engineering-Daily-id1056455?country=us&quot;&gt;subs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Awam</title>
