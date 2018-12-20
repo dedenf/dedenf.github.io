@@ -20,6 +20,11 @@ The site started around 2013, but the content has been imported from my various 
 
 I host this site using [Github page](https://pages.github.com/), so, no server cost, _ha!_, just push the content to [my repo](https://github.com/dedenf/dedenf.github.io/), and Github will take care the rest. I use [Ruby Jekyll](https://jekyllrb.com/) blogging engine, been eyeing Ghost, but i always came back to Jekyll. Park my domain to Cloudflare, they took care about security and any other stuff.
 
+
+# Bahasa/Language
+Jadi, terkadang isi dari *blog* ini campur-campur, kadang bahasa inggris, kadang bahasa indonesia, tergantung konteks dan keinginan *hehe..*, jadi iya, bahasa indonesia adalah bahasa indonesia, *don't call it bahasa, call it indonesian.*
+
+
 # Contact
 Email : dedenf@gmail.com or me@dedenf.com
 
