@@ -16,7 +16,7 @@ I'm a [developer](https://github.com/dedenf), a more like system architects, [bl
 I love coffee, started a semi-active blog site [Epicoffee](http://epicoffee.com).
 
 # About _HyperText Thrones_
-The site started around 2013, but the content has been imported from my various blogging platform, i'm blogging since 2006, my content scattered, from Blogger.com, Blogsome.com, wordpress.com and eventually bought my own domain and imported my _can-save_ content out there.
+The site started around 2013, but the content has been imported from my various blogging platform, i'm blogging since 2006, my content scattered, from blogger.com, blogsome, posterous, wordpress and eventually bought my own domain and imported my _can-save_ content out there.
 
 I host this site using [Github page](https://pages.github.com/), so, no server cost, _ha!_, just push the content to [my repo](https://github.com/dedenf/dedenf.github.io/), and Github will take care the rest. I use [Ruby Jekyll](https://jekyllrb.com/) blogging engine, been eyeing Ghost, but i always came back to Jekyll. Park my domain to Cloudflare, they took care about security and any other stuff.
 
