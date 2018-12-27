@@ -12,7 +12,7 @@ comments: true
 published: true
 ---
 
-_Ini adalah pengalaman saya menggunakan tiga servis untuk kebutuhan investasi saya, terutama untuk investasi berupa reksadana atau obligasi, karena terlalu panjang, dipecah menjadi 2 bagian_.
+_Ini adalah pengalaman saya menggunakan tiga servis untuk kebutuhan investasi saya, terutama untuk investasi berupa reksadana atau obligasi, karena terlalu panjang, dipecah menjadi 2 bagian, [klik di sini untuk membaca bagian 2](https://notes.dedenf.com/2018/12/perbandingan-bareksa-tanamduit-investree-bagian-2)_. 
 
 Setelah sebelumnya menulis membuka [reksadana di bukalapak dan tokopedia](/2018/07/perbandingan-reksadana-tokopedia-bukalapak), dituliskan bagaimana membuka reksadana dengan mudah di 2 e-commerce tersebut. Kali ini saya *share* pengalaman membuka dan menggunakan aplikasi reksadana di 3 situs yang menjual reeksadan, yaitu [Bareksa](https://www.bareksa.com/), [Tanam Duit](https://tanamduit.com/) dan [Investree](https://investree.id) sebagai agen penjual reksadana yang dikemas dalam bentuk *marketplace*.
 <!--more-->
