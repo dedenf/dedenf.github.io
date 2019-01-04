@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="https://notes.dedenf.com/atom.xml" rel="self"/>
  <link href="https://notes.dedenf.com/"/>
- <updated>2018-12-27T11:02:56+07:00</updated>
+ <updated>2019-01-04T12:19:36+07:00</updated>
  <id>https://notes.dedenf.com</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,44 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Being Cashless</title>
+   <link href="https://notes.dedenf.com/2019/01/cashless-society"/>
+   <updated>2019-01-04T00:00:00+07:00</updated>
+   <id>https://notes.dedenf.com/2019/01/cashless-society</id>
+   <content type="html">&lt;p&gt;Sudah hampir 2 bulan ini saya mencoba eksperimen dengan tidak menggunakan uang tunai sebagai media pembayaran untuk beberapa besar pengeluaran yang bisa dibayarkan dengan kartu debit offline/online.&lt;/p&gt;
+
+&lt;p&gt;Menggunakan &lt;em&gt;cashless&lt;/em&gt; untuk pembelian bensin, membayar online &lt;em&gt;riding&lt;/em&gt; (grab, gojek), membayar tagihan, investasi dan lainnya. Memang masih menyimpan uang di dompet (&lt;em&gt;harus!&lt;/em&gt;), saya tidak memiliki kartu kredit, tidak tertarik juga saat ini. Untuk beberapa tagihan, pembelian, saya menggunakan e-Card dari Jenius, dibantu dengan beberapa &lt;em&gt;online tools&lt;/em&gt; dan dari bank lainnya sebagai suplemen yang biasanya dihubungkan dengan akun Jenius saya atau bank yang menyediakan aplikasi online tersebut.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;h2 id=&quot;listrik&quot;&gt;Listrik&lt;/h2&gt;
+&lt;p&gt;Untuk pembayaran ini saya menggunakan DANA yang dihubungkan dengan e-Card, Bukalapak, Tokopedia, tergantung dari promo, jika sedang ada yang &lt;em&gt;free admin fee&lt;/em&gt; selalu pakai itu, tidak ada satu pilihan khusus untuk membayar tagihan ini, (&lt;em&gt;modis&lt;/em&gt;, modal diskon).&lt;/p&gt;
+
+&lt;h2 id=&quot;telekomunikasi&quot;&gt;Telekomunikasi&lt;/h2&gt;
+&lt;p&gt;Pulsa, tagihan internet juga sama, saat ini menggunakan DANA, OVO atau online shop lain yang menyediakan diskon, misalkan terkadang DANA memberikan subsidi 10.000 setiap pembelian pulsa. Pembayaran internet bisa juga melalui aplikasi tersebut di atas.&lt;/p&gt;
+
+&lt;h2 id=&quot;investasi&quot;&gt;Investasi&lt;/h2&gt;
+&lt;p&gt;Untuk keperluan ini, menggunakan Trima, Bareksa, Investree, Tanamduit untuk transaksi jual beli portolio yang dimiliki, lihat artikel investasi reksadana &lt;a href=&quot;https://notes.dedenf.com/2018/09/perbandingan-bareksa-tanamduit-investree&quot;&gt;bagian 1&lt;/a&gt; dan &lt;a href=&quot;https://notes.dedenf.com/2018/12/perbandingan-bareksa-tanamduit-investree-bagian-2&quot;&gt;bagian 2&lt;/a&gt;. Karena perusahaan investasi ini biasanya menggunakan BCA sebagai media transfer (bukan kustodiannya), maka bisa menggunakan m-banking BCA (free admin jika sesama BCA)&lt;/p&gt;
+
+&lt;h2 id=&quot;tranportasi&quot;&gt;Tranportasi&lt;/h2&gt;
+&lt;p&gt;Pembelian bensin menggunakan xcard yang selalu dihitung budgetnya setiap bulan, sebisa mungkin mengisi bensin di SPBU yang menerima pembayaran melalui EDC, dan juga untuk biaya tol yang menggunakan Mandiri E-Money (sebelumnya bisa &lt;a href=&quot;https://jenius.tech/2017/10/19/jenius-topup-emoney/&quot;&gt;menggunakan Jenius + aplikasi isi ulang mandiri&lt;/a&gt;, sekarang topup menggunakan tokopedia atau via ATM untuk aktivasi saldo, tapi ada biaya admin, sama seperti topup di indomaret/alfamart).&lt;/p&gt;
+
+&lt;p&gt;Jika menggunakan Grab (OVO) atau Gojek (Go-Pay) untuk transportasi, karena masing-masing sudah &lt;em&gt;cashless&lt;/em&gt; juga, jadi bisa &lt;em&gt;budgeting&lt;/em&gt; untuk masing-masing layanan yang tetap dikontrol dari Jenius untuk &lt;em&gt;topup&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;transaksi-lainnya&quot;&gt;Transaksi lainnya&lt;/h2&gt;
+&lt;p&gt;Untuk transaksi yang menggunakan EDC tetap pakai xcard dari Jenius, makan juga terkadang bisa dengan Go-Pay (&lt;em&gt;suprisingly&lt;/em&gt; warung makan kelas nasi rames/warteg/padang sudah &lt;em&gt;cashless&lt;/em&gt; dengan Go-Pay), ini juga memudahkan untuk &lt;em&gt;tracking&lt;/em&gt; pengeluaran, juga terkadang menggunakan OVO, Cashbac, semua aplikasi pembayaran itu digunakan tergantung cashback/diskon (iya, penting!).&lt;/p&gt;
+
+&lt;p&gt;Aplikasi pembayaran ada yang bisa menggunakan kartu debit/credit ada yang tidak, enaknya yang bisa menggunakan kartu, pos uang bisa langsung dimasukkan ke e-Card (Jenius), untuk yang tidak bisa seperti OVO dan Go-Pay tetap menggunakan metode transfer melalui fitur &lt;strong&gt;e-Wallet&lt;/strong&gt; Jenius (perhatikan, ini bisa mengurangi jumlah &lt;em&gt;free&lt;/em&gt; transaksi di-&lt;em&gt;awards&lt;/em&gt; Jenius)&lt;/p&gt;
+
+&lt;h2 id=&quot;kesimpulan&quot;&gt;Kesimpulan&lt;/h2&gt;
+&lt;p&gt;Transaksi-transaksi yang kita lakukan, biasanya selalu ada biaya admin, oleh karena itu selalu lihat &lt;em&gt;fee&lt;/em&gt; dari setiap transaksi jika ada, karena bisa jadi menambah jumlah yang harus kita bayar, contoh BCA menetapkan tarif 6.500 untuk setiap transaksi transfer ke bank lain, Jenius ada &lt;em&gt;free&lt;/em&gt; admin, 25 kali, pergunakan itu kalau bisa.&lt;/p&gt;
+
+&lt;p&gt;Selalu perhatikan hal yang berbau berlangganan seperti spotify, netflix, google dll, berhenti jika tidak digunakan, karena terkadang kita bisa lupa dan uang terdebet tanpa kita sadar.&lt;/p&gt;
+
+&lt;p&gt;Yang tak kalah penting juga, perhatikan selalu &lt;strong&gt;diskon, voucher, cashback&lt;/strong&gt; dari tiap layanan yang digunakan, mungkin ini terdengar tidak efektif dengan menggunakan banyak aplikasi pembayaran, karena uang terkadang tersebar kecil-kecil dimasing-masing, hanya saja selama dipakai saya pikir tidak menjadi masalah (yup, pernah beli pulsa 50.000 tapi bayar 25.000, lumayan)&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Perbandingan Bareksa vs Tanam Duit vs Investree, bagian 2</title>
