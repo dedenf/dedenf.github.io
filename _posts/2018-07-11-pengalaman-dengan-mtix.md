@@ -11,6 +11,10 @@ category: post
 published: true
 ---
 
+### Update
+4 Januari 2019, Artikel susulan, mengenai [M-Tix dan TIX-ID](https://notes.dedenf.com/2019/01/m-tix-atau-tix-id).
+
+
 Dengan teknologi yang sekarang menyentuh hampir semua lini, menonton di bioskop adalah salah satu bentuk hiburan yang tak lepas dari kemajuan teknologi, pembelian tiket bioskop sekarang amat mudah, bisa dilakukan di rumah, dimanapun. 
 
 Ini adalah pengalaman saya menggunakan M-Tix XXI sebagai salah satu bioskop yang banyak cabangnya di indonesia.
