@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-01-05T23:27:47+07:00</updated>
+ <updated>2019-01-07T21:20:05+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,25 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>How Imgur avoids the ugliness of social media</title>
+   <link href="http://localhost:4000/2019/01/when-you-are-on-instagram"/>
+   <updated>2019-01-07T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/01/when-you-are-on-instagram</id>
+   <content type="html">&lt;iframe src=&quot;https://art19.com/shows/recode-decode/episodes/8ca42c3b-b2b7-473a-ac8f-8b87d80c50c9/embed?theme=dark-custom&quot; style=&quot;width: 100%; height: 200px; border: 0 none;&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;when you post on Instagram you’re actually curating your own personal brand. You are sharing the highlight moments of your life and in order to make your life look quite good. But then on the receiving end, the people that are looking at it, it makes them feel just a little bit worse about their life because they don’t quite measure up.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Could not agree more, yes, i have an instagram, yes, sometimes i did felt that feeling, and i remember a words or something on interwebs.&lt;/p&gt;
+
+&lt;p&gt;“&lt;em&gt;Instagram is a the gallery of curated fake life&lt;/em&gt;”.&lt;/p&gt;
+
+&lt;p&gt;Dunno whether it’s true on people’s case, but i think the real life, the thing that we hold on to, people that we care (in real life) are much more important that how many likes we got.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>M-Tix atau TIX-ID?</title>
