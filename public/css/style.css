@@ -203,7 +203,9 @@ code,
 pre,
 samp {
     font-family: 'Source Code Pro', Consolas, monospace;
-    font-size: inherit
+    font-size: .7em; 
+    background: #f0f0f0;
+    padding:2px 5px;
 }
 
 pre {
@@ -1035,7 +1037,7 @@ a:hover {
 
 code,
 pre {
-    background-color: transparent;
+    /* background-color: transparent; */
     border-radius: 3px
 }
 
