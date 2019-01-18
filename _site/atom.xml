@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-01-15T15:53:10+07:00</updated>
+ <updated>2019-01-18T16:25:00+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,22 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Gumpnhell: Drainase</title>
+   <link href="http://localhost:4000/2019/01/gumpnhell-drainase"/>
+   <updated>2019-01-18T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/01/gumpnhell-drainase</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://bit.ly/gumpnhelldrainase&quot;&gt;&lt;img src=&quot;/images/posts/gumpnhell-drainase.jpg&quot; alt=&quot;drainase&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;hati2-kamu-mulai-berpikir&quot;&gt;Hati2, kamu mulai berpikir!&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ilustrasi keren dari &lt;a href=&quot;https://instagram.com/gumpnhell&quot;&gt;@gumpnhell&lt;/a&gt;, klik gambarnya untuk unduh file pdf-nya.&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Isi ulang e-money/e-toll gratis dengan Jenius dan Tokopedia</title>
