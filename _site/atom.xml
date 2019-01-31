@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-01-18T16:25:00+07:00</updated>
+ <updated>2019-01-31T17:49:57+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,19 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>By Defying Apple’s Rules, Facebook Shows It Never Learns</title>
+   <link href="http://localhost:4000/2019/01/this-is-crap"/>
+   <updated>2019-01-31T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/01/this-is-crap</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;In public and even under oath, executives like Mark Zuckerberg and Sheryl Sandberg have spent at least a year—if not their entire careers—promising to do better by their users. But in private, evidence abounds that the company continues to flout every rule and attempt at oversight placed before it. They’ve promised to protect user privacy by cutting off developer access to data while continuing to give it away to corporate giants and major advertisers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is utter crap, &lt;a href=&quot;https://techcrunch.com/2019/01/30/googles-also-peddling-a-data-collector-through-apples-back-door/&quot;&gt;and Google did it too&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Gumpnhell: Drainase</title>
