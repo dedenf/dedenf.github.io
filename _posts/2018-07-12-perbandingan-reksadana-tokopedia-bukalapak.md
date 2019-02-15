@@ -19,7 +19,7 @@ Dulu saya melakukan transaksi pembelian/penjualan unit reksadana di bank commonw
 Saat ini saya mencoba melakukan investasi reksadana melalui Bukalapak dan Tokopedia, di Bukalapak produk/fitur reksadana menggunakan nama BukaReksa, sedang di Tokopedia menggunakan diberi nama, Reksa Dana di menu keuangan.
 
 ## BukaReksa
-Membuka akun reksadana di Bukalapak terbilang mudah, dengan login ke Bukalapak dan juga daftar sebagai nasabah BukaReksa, dengan melengkapi identitas dan mengunggah photo KTP dan juga tandatangan digital di aplikasi Bukalapak, maka aplikasi reksadana sudah selesai, selanjutnya tinggal menunggu approval dari pihak BukaReksa (Bukalapak menggunakan Bareksa sebagai manajer investasi).
+Membuka akun reksadana di Bukalapak terbilang mudah, dengan login ke Bukalapak dan juga daftar sebagai nasabah BukaReksa, dengan melengkapi identitas dan mengunggah photo KTP dan juga tandatangan digital di aplikasi Bukalapak, maka aplikasi reksadana sudah selesai, selanjutnya tinggal menunggu approval dari pihak BukaReksa (Bukalapak menggunakan Bareksa sebagai ~~manajer investasi~~ agen penjual).
 
 Dari pengajuan aplikasi (diajukan pagi hari) sampai penyetujuan terhitung cepat, hitungan 2 jam aplikasi saya sudah disetujui.
 
@@ -42,3 +42,5 @@ Dari unit yang dibeli, menurut tulisan yang tertera, dari tanggal beli 10 juli, 
 
 ## Selanjutnya
 Untuk berikutnya saya akan coba untuk menuliskan pembelian variasi jenis Reksadana yang ada di masing-masing toko online ini (jika ada), dan juga perkembangan nilai dari tiap jenis reksadana yang dibeli.
+
+### 2019-02-15: [salah satu pembaca](https://disqus.com/by/disqus_DmELZtjURw/) mengoreksi peran bareksa.
