@@ -31,7 +31,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="/public/favicon.png"/>
 
-  <link rel="canonical" href="https://notes.dedenf.com">
+  <link rel="canonical" href="http://localhost:4000">
   <link rel="image_src" href="/images/sites/noun_717989_cc.png">
 
   <!-- Sharing -->
@@ -39,13 +39,29 @@
   <meta property="og:title" content="HyperText Thrones" />
   
 	<meta property="og:site_name" content="HyperText Thrones | on the HyperText"/>
-	<meta property="og:url" content="https://notes.dedenf.com/page/21/" />
+	<meta property="og:url" content="http://localhost:4000/page/21/" />
    
 	<meta property="og:type" content="website" />
   
 	<meta property="og:image" content="/images/sites/logo.png" />
   
   
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dedenf">
+  <meta name="twitter:title" content="Home">
+  <meta name="twitter:description" content="{% for post in paginator.posts %} {% if post.sticky == true %} {% if post.link %} {{ post.date | date: '%B %-d, %Y' }} &mdash; link to the post {{ post.title }} &rarr; {% else %} {{ post.title }} {{ post.date | date: '%B %-d, %Y' }} &mdash; {% include...">
+  <meta name="twitter:image:src" content="/images/sites/logo.png">
+  
+
+
+  <meta itemprop="name" content="Home" />
+	<meta itemprop="headline" content="Home" />
+	<meta itemprop="author" content="dedenf, deden fathurahman" />
+	<meta itemprop="description" content="{% for post in paginator.posts %} {% if post.sticky == true %} {% if post.link %} {{ post.date | date: '%B %-d, %Y' }} &mdash; link to the post {{ post.title }} &rarr; {% else %} {{ post.title }} {{ post.date | date: '%B %-d, %Y' }} &mdash; {% include..." />
+	<link itemprop="url" href="http://localhost:4000/page/21/" />
+
+
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -98,6 +114,53 @@
 
 
 
+
+  <article class=''>
+    
+      <div class='mb2'>
+        <h2 class='m0'><a href='/2017/11/1mainframe-kid'>Mainframe Kid</a></h2>
+        <time class='grayish'>November 16, 2017 &mdash; 
+  
+  
+    less than 1 minute read (18 words)
+  
+
+
+
+</time>
+      </div>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Loved this video, it’s just about a kid, who build his own mainframe, a normal kid would do.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wJyiHsfJLEI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+
+          
+
+        
+
+      
+    
+
+    
+    Tags:
+    
+      <a href="/tags#IBM">IBM</a>,
+    
+      <a href="/tags#Technology">Technology</a>
+    
+
+
+
+  </article>
+  <hr class='half-width'/>
 
   <article class=''>
     
@@ -318,67 +381,6 @@ all my feed could be grabbed on my <a href="https://github.com/dedenf/news-feed"
       <a href="/tags#rant">rant</a>,
     
       <a href="/tags#rss">rss</a>
-    
-
-
-
-  </article>
-  <hr class='half-width'/>
-
-  <article class=''>
-    
-      <div class='mb2'>
-        <h2 class='m0'><a href='/2017/11/dailybite-8'>Daily Bite #8</a></h2>
-        <time class='grayish'>November 12, 2017 &mdash; 
-  
-  
-    less than 1 minute read (129 words)
-  
-
-
-
-</time>
-      </div>
-    
-
-    
-      
-        
-
-        
-        
-          
-            <p>Being busy is a good thing, but the progress of this dailybites deprioritized, hate to see that, now, i’m trying to keep up!</p>
-
-<ul>
-  <li>
-    <p><a href="http://www.independent.co.uk/news/sleep-deprivation-epidemic-health-effects-tired-heart-disease-stroke-dementia-cancer-a7964156.html">‘Catastrophic’ lack of sleep in modern society is killing us, warns leading sleep scientist</a> – this is so true in may ways, there are still developers who were bragging this habbit, lack of sleep is not a bragging rights, it’s a downright productivities, and how can four or five hours’ sleep a night can triggered cancer cell.</p>
-  </li>
-  <li>
-    <p><a href="https://insights.stackoverflow.com/survey/2017#overview">Developer Survey Results 2017</a> – I love the way STO present these kinda thing. i’m focusing on technologies, and <code class="highlighter-rouge">Javascript</code> is the most popular language that lots of people use.</p>
-  </li>
-  <li>
-    <p><a href="https://github.com/toddmotto/public-apis">A collective list of free APIs for use in web development.</a> <br />
-quite a comprehensive list of all things APIs.</p>
-  </li>
-</ul>
- 
-            <a href="/2017/11/dailybite-8">Read more &rarr;</a><br><br>
-          
-
-        
-
-      
-    
-
-    
-    Tags:
-    
-      <a href="/tags#learn">learn</a>,
-    
-      <a href="/tags#hack">hack</a>,
-    
-      <a href="/tags#development">development</a>
     
 
 

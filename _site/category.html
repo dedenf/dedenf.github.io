@@ -31,7 +31,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="/public/favicon.png"/>
 
-  <link rel="canonical" href="https://notes.dedenf.com">
+  <link rel="canonical" href="http://localhost:4000">
   <link rel="image_src" href="/images/sites/noun_717989_cc.png">
 
   <!-- Sharing -->
@@ -39,13 +39,29 @@
   <meta property="og:title" content="Category | HyperText Thrones" />
   
 	<meta property="og:site_name" content="HyperText Thrones | on the HyperText"/>
-	<meta property="og:url" content="https://notes.dedenf.com/category" />
+	<meta property="og:url" content="http://localhost:4000/category" />
    
 	<meta property="og:type" content="website" />
   
   <meta property="og:image" content="" />
   
   
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dedenf">
+  <meta name="twitter:title" content="Category">
+  <meta name="twitter:description" content="{% comment%} Here we generate all the categories. {% endcomment%} {% assign rawcats = "" %} {% for post in site.posts %} {% assign tcats = post.category | join:'|' | append:'|' %} {% assign rawcats = rawcats | append:tcats %} {% endfor %} {% assign rawcats = rawcats | split:'|'...">
+  <meta name="twitter:image:src" content="/images/sites/logo.png">
+  
+
+
+  <meta itemprop="name" content="Category" />
+	<meta itemprop="headline" content="Category" />
+	<meta itemprop="author" content="dedenf, deden fathurahman" />
+	<meta itemprop="description" content="{% comment%} Here we generate all the categories. {% endcomment%} {% assign rawcats = "" %} {% for post in site.posts %} {% assign tcats = post.category | join:'|' | append:'|' %} {% assign rawcats = rawcats | append:tcats %} {% endfor %} {% assign rawcats = rawcats | split:'|'..." />
+	<link itemprop="url" href="http://localhost:4000/category" />
+
+
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -113,6 +129,8 @@
 
 <h2 id="blog">blog</h2>
 <ul class="codinfox-category-list">
+  
+  
   
   
   
@@ -1914,6 +1932,8 @@
   
   
   
+  
+  
   <li>
       <h2 class='m0'><a href="/2018/08/daily-bite-45">
         Daily Bite #45
@@ -3013,6 +3033,8 @@
 <ul class="codinfox-category-list">
   
   
+  
+  
   <li>
       <h2 class='m0'><a href="/2019/03/daily-found-podcast-choiceology">
         Choiceology
@@ -3890,6 +3912,26 @@
 <ul class="codinfox-category-list">
   
   
+  <li>
+      <h2 class='m0'><a href="/2019/03/hijrah">
+        Tentang Hijrah
+        13 Mar 2019
+      </a></h2>
+      
+      <a class="button" href="/tags/#life">life</a>
+      
+      <a class="button" href="/tags/#finance">finance</a>
+      
+      <a class="button" href="/tags/#hijrah">hijrah</a>
+      
+      <a class="button" href="/tags/#agamis">agamis</a>
+      
+      <a class="button" href="/tags/#mikir">mikir</a>
+      
+  </li>
+  
+  
+  
   
   
   <li>
@@ -4722,6 +4764,8 @@
 
 <h2 id="no-category">No Category</h2>
 <ul class="codinfox-category-list">
+  
+  
   
   
   

@@ -31,7 +31,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="/public/favicon.png"/>
 
-  <link rel="canonical" href="https://notes.dedenf.com">
+  <link rel="canonical" href="http://localhost:4000">
   <link rel="image_src" href="/images/sites/noun_717989_cc.png">
 
   <!-- Sharing -->
@@ -39,13 +39,29 @@
   <meta property="og:title" content="HyperText Thrones" />
   
 	<meta property="og:site_name" content="HyperText Thrones | on the HyperText"/>
-	<meta property="og:url" content="https://notes.dedenf.com/page/42/" />
+	<meta property="og:url" content="http://localhost:4000/page/42/" />
    
 	<meta property="og:type" content="website" />
   
 	<meta property="og:image" content="/images/sites/logo.png" />
   
   
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dedenf">
+  <meta name="twitter:title" content="Home">
+  <meta name="twitter:description" content="{% for post in paginator.posts %} {% if post.sticky == true %} {% if post.link %} {{ post.date | date: '%B %-d, %Y' }} &mdash; link to the post {{ post.title }} &rarr; {% else %} {{ post.title }} {{ post.date | date: '%B %-d, %Y' }} &mdash; {% include...">
+  <meta name="twitter:image:src" content="/images/sites/logo.png">
+  
+
+
+  <meta itemprop="name" content="Home" />
+	<meta itemprop="headline" content="Home" />
+	<meta itemprop="author" content="dedenf, deden fathurahman" />
+	<meta itemprop="description" content="{% for post in paginator.posts %} {% if post.sticky == true %} {% if post.link %} {{ post.date | date: '%B %-d, %Y' }} &mdash; link to the post {{ post.title }} &rarr; {% else %} {{ post.title }} {{ post.date | date: '%B %-d, %Y' }} &mdash; {% include..." />
+	<link itemprop="url" href="http://localhost:4000/page/42/" />
+
+
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -98,6 +114,51 @@
 
 
 
+
+  <article class=''>
+    
+      <div class='mb2'>
+        <h2 class='m0'><a href='/2013/03/google-reader'>Google Reader</a></h2>
+        <time class='grayish'>March 21, 2013 &mdash; 
+  
+  
+    less than 1 minute read (10 words)
+  
+
+
+
+</time>
+      </div>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Google reader will say its goodbye on July 1st 2013..</p>
+
+<p><img src="http://i.imgur.com/H1Sumib.png" alt="my reading history" /></p>
+
+          
+
+        
+
+      
+    
+
+    
+    Tag:
+    
+      <a href="/tags#google">google</a>
+    
+
+
+
+  </article>
+  <hr class='half-width'/>
 
   <article class=''>
     
@@ -324,49 +385,6 @@ so if we browse the log it will be shown <code class="highlighter-rouge">"fixing
       <a href="/tags#codes">codes</a>,
     
       <a href="/tags#scm">scm</a>
-    
-
-
-
-  </article>
-  <hr class='half-width'/>
-
-  <article class=''>
-    
-      <div class='mb2'>
-        <h2 class='m0'><a href='/2013/02/git-commit'>It means we are productive</a></h2>
-        <time class='grayish'>February 26, 2013 &mdash; 
-  
-  
-    less than 1 minute read (0 words)
-  
-
-
-
-</time>
-      </div>
-    
-
-    
-      
-        
-
-        
-        
-          
-            <p><img src="https://i.imgur.com/evpKeCw.png" alt="commit" /></p>
-
-          
-
-        
-
-      
-    
-
-    
-    Tag:
-    
-      <a href="/tags#git">git</a>
     
 
 

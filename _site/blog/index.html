@@ -31,7 +31,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="/public/favicon.png"/>
 
-  <link rel="canonical" href="https://notes.dedenf.com">
+  <link rel="canonical" href="http://localhost:4000">
   <link rel="image_src" href="/images/sites/noun_717989_cc.png">
 
   <!-- Sharing -->
@@ -39,13 +39,41 @@
   <meta property="og:title" content="Archive | HyperText Thrones" />
   
 	<meta property="og:site_name" content="HyperText Thrones | on the HyperText"/>
-	<meta property="og:url" content="https://notes.dedenf.com/blog/" />
+	<meta property="og:url" content="http://localhost:4000/blog/" />
    
 	<meta property="og:type" content="website" />
   
   <meta property="og:image" content="" />
   
   
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dedenf">
+  <meta name="twitter:title" content="Archive">
+  <meta name="twitter:description" content="{% for post in site.posts %}
+  
+    {{ post.title }}
+    {{ post.date | date: '%B %-d, %Y' }}
+  
+{% endfor %}
+">
+  <meta name="twitter:image:src" content="/images/sites/logo.png">
+  
+
+
+  <meta itemprop="name" content="Archive" />
+	<meta itemprop="headline" content="Archive" />
+	<meta itemprop="author" content="dedenf, deden fathurahman" />
+	<meta itemprop="description" content="{% for post in site.posts %}
+  
+    {{ post.title }}
+    {{ post.date | date: '%B %-d, %Y' }}
+  
+{% endfor %}
+" />
+	<link itemprop="url" href="http://localhost:4000/blog/" />
+
+
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -81,6 +109,11 @@
 </header>
 
       
+  <article class='mb2'>
+    <h2 class='h3 m0'><a href='/2019/03/hijrah/'>Tentang Hijrah</a></h2>
+    <time class='grayish'>March 13, 2019</time>
+  </article>
+
   <article class='mb2'>
     <h2 class='h3 m0'><a href='/2019/03/daily-found-podcast-choiceology/'>Choiceology</a></h2>
     <time class='grayish'>March 13, 2019</time>
