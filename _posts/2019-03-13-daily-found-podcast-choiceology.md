@@ -6,7 +6,6 @@ title: "Choiceology"
 category: links
 tags: 
     - tech
-    - git
     - podcast
     - development
     - "daily found"
