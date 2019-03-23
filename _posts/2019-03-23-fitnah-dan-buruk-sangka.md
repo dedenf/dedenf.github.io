@@ -8,7 +8,7 @@ tags:
     - life
     - learn
 
-published: true
+published: false
 ---
 
 >Bayangkan salah satu dari fitnah-fitnah itu suatu saat kembali pada dirimu sendiri. Barangkali kamu akan berusaha meluruskannya, karena kamu benar-benar merasa bersalah telah menyakiti orang lain dengan kata-katamu itu. Barangkali kamu tak ingin mendengarnya lagi. Tetapi kamu tak bisa menghentikan semua itu!,"
