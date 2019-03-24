@@ -1,17 +1,19 @@
 ---
-layout: link
-type: link
-link: https://www.nu.or.id/post/read/103614/bulu-kemoceng-dan-fitnah-kepada-sang-kiai
+layout: post
 title: "Fitnah dan buruk sangka"
-category: links
 tags: 
     - life
-    - learn
-comments: true
+    - hijrah
+    - agamis
+    - mikir
+    
+category: post
+comments: false
 published: true
 ---
 
-Suatu kisah yang menarik yang bisa banyak dipetik pelajarannya dalam hidup ini, agar tidak terburu-buru dalam melakukan penilaian, tanpa _tabayyun_, apalagi menyebarkan fitnah tersebut kepada orang lain, tentu selengkapnya bisa dibaca ditautan berikut tentang [bulu kemoceng dan fitnah kepada sang kiai](https://www.nu.or.id/post/read/103614/bulu-kemoceng-dan-fitnah-kepada-sang-kiai).
+
+Suatu kisah yang menarik yang bisa banyak dipetik pelajarannya dalam hidup ini, agar tidak terburu-buru dalam melakukan penilaian, tanpa _check-recheck_ (_tabayyun_), apalagi menyebarkan fitnah tersebut kepada orang lain, tentu selengkapnya bisa dibaca ditautan berikut tentang [bulu kemoceng dan fitnah kepada sang kiai](https://www.nu.or.id/post/read/103614/bulu-kemoceng-dan-fitnah-kepada-sang-kiai).
 <!--more-->
 > Bulu-bulu yang kamu cabuti dan kamu jatuhkan sepanjang perjalanan adalah fitnah-fitnah yang kamu sebarkan. Meskipun kamu benar-benar menyesali perbuatanmu dan berusaha memperbaikinya, fitnah-fitnah itu telah menjadi bulu-bulu yg beterbangan entah kemana. Bulu-bulu itu adalah kata-katamu. Mereka dibawa angin waktu ke mana saja, ke berbagai tempat yang tak mungkin bisa kamu duga-duga, ke berbagai wilayah yang tak mungkin bisa kamu hitung!.
 
