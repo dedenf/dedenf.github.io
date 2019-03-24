@@ -11,7 +11,7 @@ title: Tentang
 </div>
 Hi i'm Deden fathurahman,
 
-I'm a [developer](https://github.com/dedenf), a more like system architects, [blogger](https://notes.dedenf.com), [newsletter author](http://jakartadev.org), working at a fintech company [Jenius](https://www.jenius.com). Listened to a lot of [podcast](/2018/01/podcast), mumbling about development stuff at [Jakartadev](http://jakartadev.org) or [Jenius Tech Engineering](http://jenius.tech).
+I'm a [engineer](https://github.com/dedenf), a more like system architects, [blogger](https://notes.dedenf.com), [newsletter author](http://jakartadev.org), working at a fintech company [Jenius](https://www.jenius.com). Listened to a lot of [podcast](/2018/01/podcast), mumbling about development stuff at [Jakartadev](http://jakartadev.org) or [Jenius Tech Engineering](http://jenius.tech), like things about developments, agile, high performance/availability, product management.
 
 I love coffee, started a semi-active blog site [Epicoffee](http://epicoffee.com).
 
