@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-03-25T19:00:58+07:00</updated>
+ <updated>2019-03-26T17:33:20+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,41 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Blogging workflow</title>
+   <link href="http://localhost:4000/2019/03/blogging-workflow"/>
+   <updated>2019-03-26T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/03/blogging-workflow</id>
+   <content type="html">&lt;p&gt;Menulis untuk saya, selain sebagai proses belajar, dan juga menyebarkan ilmu, menuangkan apa yang ada dikepala kepada bentuk tulisan, dan memulainya adalah proses yang setidaknya menurut saya adalah proses yang susah, dari ide, pemilihan ide, kemudian membuat tulisan berdasarkan ide tersebut, terkadang dibutuhkan alur kerja, agar tulisan bisa dengan baik ditulis, dimengerti, dengan mengikuti ide, kemudian mungkin memutuskan menulis dalam bahasa apa, misalkan untuk yang berkaitan dengen hal-hal teknikal, kadang saya lebih memilih untuk menggunakan bahasa inggris karena ada beberapa padanan yang terkadang tidak ketemu dalam bahasa indonesia, untuk bahasa indonesia sendiri sebisa mungkin menggunakan ejaan yang disempurnakan, agar lebih mudah dibaca dan &lt;em&gt;future-proof&lt;/em&gt;.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;memulai&quot;&gt;Memulai&lt;/h4&gt;
+&lt;p&gt;Seperti yang disebut sebelumnya, memulai adalah hal yang buat saya, dan terkadang ide yang muncul itu hanya dalam bentuk judul, atau tema, yang belum matang dan mungkin perlu kajian ulang, untuk ini saya membuat semacam folder, untuk alat yang digunakan bisa aplikasi ponsel pintar atar didalam komputer, jangan terlalu terpaku dengan alat, karena yang membuat tulisan itu berguna adalah menuliskannya menjadi sebuah tulisan, jika menggunakan aplikasi Notes.app di macOS atau iOS bisa dengan mudah membuatnya, atau mungkin di Evernote, atau dropbox tau menggunakan folder biasa di komputer, di sini biasanya saya memberi nama “&lt;strong&gt;1 - Ide&lt;/strong&gt;”.&lt;/p&gt;
+
+&lt;p&gt;Folder &lt;strong&gt;Ide&lt;/strong&gt; ini berisi nama ide, atau &lt;strong&gt;tema&lt;/strong&gt; yang saya pikir menarik dan belum pernah saya tulis atau bahas, bisa sembarangan, bisa apapun, jangan ragu menulis apa saja, tidak perlu sampai harus berpikir apakah ini berguna atau tidak nanti, atau apakah terdengar menggelikan, jadi tulis saja dulu, apapun itu, karena biasanya suka hilang ide tersebut beberapa saat kemudian.&lt;/p&gt;
+
+&lt;h4 id=&quot;menulis&quot;&gt;Menulis&lt;/h4&gt;
+&lt;p&gt;Untuk fase menulis, saya menggunakan teknik folder juga, dengan memberi nama “&lt;strong&gt;2 - Drafts&lt;/strong&gt;”, di sini, ide yang ‘selamat’ dan bisa kita jadikan suatu tulisan, masuk ke folder ini, yang mana kita harus memindahkan dari folder “&lt;strong&gt;1 - Ide&lt;/strong&gt;” ke folder “&lt;strong&gt;2 - Drafts&lt;/strong&gt;” sebagai bentuk keberlanjutan, di sini kita menuliskan apa saja yang ada di kepala kita, tuangkan dalam bentuk tulisan, typo, penggunaan kata yang tidak sensuai atau apapun, bisa terjadi di sini, wajar, yang terpenting segera tuangkan dalam bentik tulisan.&lt;/p&gt;
+
+&lt;p&gt;Fase selanjutnya adalah membuat folder “&lt;strong&gt;3 - Edits&lt;/strong&gt;”, di sinilah waktunya melakukan revisi, proof-reading, atau mungkin mencoba tes analisa yang dibuat ditulisan tersebut, terbukti atau tidak, atau sekedar meyakinkan bahwa versi perangkat lunak yang dibahas di tulisan tersebut &lt;em&gt;valid&lt;/em&gt; jika sedang menulis hal yang teknikal, terkadang juga ada perubahan yang lumayan dari sisi isi atau penulis berpikir ulang mengenai banyak hal, iya, hal itu sering terjadi.&lt;/p&gt;
+
+&lt;h4 id=&quot;publikasi&quot;&gt;Publikasi&lt;/h4&gt;
+&lt;p&gt;Selanjutnya, jika kita sudah puas dengan tulisan yang dibuat dan hendak mempublikasikannya, dibuat lagi folder baru dengan nama “&lt;strong&gt;4 - Published&lt;/strong&gt;”, tulisan yang dirasa layak publik, akan pindah ke folder ini dari folder sebelumnya (folder &lt;strong&gt;3 - Edits&lt;/strong&gt;), dengan memindahkannya kita yakin dan puas dengan apa yang kita sudah tulis, terserah mau mempublikasikan di blog atau dimanapun, saya sendiri menggunakan &lt;a href=&quot;https://github.com/dedenf/&quot;&gt;Github&lt;/a&gt; yang terhubung dengan &lt;a href=&quot;https://netlify.com&quot;&gt;Netlify&lt;/a&gt; untuk publikasi blog ini &lt;a href=&quot;https://jakartadev.org/&quot;&gt;atau&lt;/a&gt; blog &lt;a href=&quot;https://jenius.tech/&quot;&gt;lainnya&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;rekap&quot;&gt;Rekap&lt;/h4&gt;
+&lt;p&gt;Folder yang digunakan &lt;br /&gt;
+&lt;strong&gt;1 - Ide &lt;br /&gt;
+2 - Drafts &lt;br /&gt;
+3 - Edits &lt;br /&gt;
+4 - Published&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/blogging-workflow.png&quot; alt=&quot;macOS notes app&quot; /&gt;  &lt;br /&gt;
+&lt;em&gt;Tangkapan layar tampilan folder di Notes.app macOS&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Alur kerja ini untuk saya sangat berguna, dan konsep serupa juga sering diterapkan oleh developer-developer dalam membuat software dengen teknik pencabangan (branching) di &lt;em&gt;source code management&lt;/em&gt; (SCM).&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Review: Mencoba reksadana dengan menggunakan aplikasi BIBIT</title>
