@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-04-01T14:30:27+07:00</updated>
+ <updated>2019-04-16T23:51:21+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,22 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Former Mozilla exec: Google has sabotaged Firefox for years</title>
+   <link href="http://localhost:4000/2019/04/google-and-mozilla"/>
+   <updated>2019-04-16T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/04/google-and-mozilla</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;… it’s very hard not to believe or take Nightingale’s comments seriously. Slowly but surely, Google is becoming the new Microsoft, and Chrome is slowly turning into the new IE…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Not just &lt;a href=&quot;https://notes.dedenf.com/2019/02/google-product-confusing-as-hell&quot;&gt;confusing&lt;/a&gt;, and i agree that they have grew larger and became the new Microsoft, Google products designed only to be use optimally using Google Chrome.  &lt;br /&gt;
+And yes this is bad, not to mention Microsoft also adopting Chromium for their Microsoft Edge browser, and now Firefox is the browser that use rendering engine other than Chromium.&lt;/p&gt;
+
+&lt;p&gt;I’ve been using Firefox for quite some years now, and happy with it, and because Google being evil and some of their site are better with Chrome, i go with &lt;a href=&quot;https://brave.com/&quot;&gt;Brave browser&lt;/a&gt;, it’s a Chromium based browser, but with less tracker than Chrome implmented (hopefully).&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Can you stop your parents sharing photos of you online?</title>
