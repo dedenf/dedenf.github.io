@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-05-14T17:54:44+07:00</updated>
+ <updated>2019-05-21T15:03:28+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,21 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Podcast: Suara Puan</title>
+   <link href="http://localhost:4000/2019/05/suara-puan-podcast"/>
+   <updated>2019-05-21T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/05/suara-puan-podcast</id>
+   <content type="html">&lt;p&gt;Adalah &lt;em&gt;podcast&lt;/em&gt; yang terakhir ini saya ketemukan, menurut pewicaranya, kata puan (menurut salah satu episodenya bernama Stephani(?)), diawali dari bentuk tulisan yang dibuat di &lt;a href=&quot;https://instagram.com/kata.puan&quot;&gt;Instagram&lt;/a&gt; yang kemudian berkembang merambah media baru, yaitu suara, &lt;em&gt;podcast&lt;/em&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Diberdayakan oleh Kata Puan (Instagram: &lt;a href=&quot;https://instagram.com/kata.puan&quot;&gt;@kata.puan&lt;/a&gt;) untuk menyuarakan isi pikiran yang berisik dan tak mau diam. Suara ini. Sebuah emosi. Banyaknya rasa.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sejauh ini saya menikmati, bahasa yang mudah, dan untuk yang menyukai &lt;a href=&quot;https://en.wikipedia.org/wiki/Autonomous_sensory_meridian_response&quot;&gt;ASMR&lt;/a&gt; bisa jauh menikmati &lt;em&gt;podcast&lt;/em&gt; ini.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Jakarta circa tahun 1965-1970</title>
