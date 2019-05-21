@@ -11,6 +11,7 @@ tags:
     - "daily found"
 
 published: true
+comments: true
 ---
 
 Adalah _podcast_ yang terakhir ini saya ketemukan, menurut pewicaranya, kata puan (menurut salah satu episodenya bernama Stephani(?)), diawali dari bentuk tulisan yang dibuat di [Instagram](https://instagram.com/kata.puan) yang kemudian berkembang merambah media baru, yaitu suara, _podcast_.

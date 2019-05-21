@@ -12,6 +12,7 @@ tags:
     - "daily found"
 
 published: true
+comments: true
 ---
 
 
