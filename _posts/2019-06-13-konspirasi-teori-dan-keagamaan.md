@@ -12,6 +12,8 @@ comments: true
 published: true
 ---
 
+![](/images/posts/photo-1524664399170-77e7118fdb6d.jpeg)
+
 Akhir-akhir ini ramai sekali pembicaraan (atau polemik) mengenai desain dari masjid Al-Safar di km 88 purbalenyi, hal ini mencuat ketika salah-satu-yang-menyebut-dirinya-ustad berpendapat bahwa masjid tersebut dipenuhi simbol-simbol illuminati, yakni kelompok yang hendak mendominasi dunia dengan segala triknya, dan juga diasosiasikan dengan Dajjal, karena ada segitiga dan satu mata di mihrabnya.
 
 Hal ini juga seperti biasa dibawa didiskusi grup WhatsApp keluarga (biasanya ini tempat hoax/disinformasi/misinformasi berada 🤣), semakin menyebarnya keanehan ini, dan bahkan dari pendapat salah-satu-yang-menyebut-dirinya-ustad ini meminta umat islam untuk tidak sholat di masjid tersebut, karena tidak sah sholatnya.
