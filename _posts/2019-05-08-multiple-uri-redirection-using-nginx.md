@@ -2,7 +2,7 @@
 layout: link
 type: link
 link: https://jakartadev.org/redirection-nginx-multiple-uri/
-title: "Redireksi banyakw URI dengan menggunakan NGINX"
+title: "Redireksi banyak URI dengan menggunakan NGINX"
 category: links
 tags: 
     - nginx
