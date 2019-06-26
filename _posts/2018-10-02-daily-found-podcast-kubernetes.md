@@ -3,7 +3,7 @@ layout: link
 type: link
 link: https://www.codingblocks.net/episode90
 title: "Comparing Git Workflows"
-category: links
+category: [link, podcast]
 tags: 
     - tech
     - git

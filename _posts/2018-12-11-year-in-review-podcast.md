@@ -5,7 +5,7 @@ tags:
     - podcast
     - contemplation
     - development
-category: post
+category: [post, podcast]
 published: true
 ---
 

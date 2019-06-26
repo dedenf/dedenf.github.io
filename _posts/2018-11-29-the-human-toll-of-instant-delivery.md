@@ -3,7 +3,7 @@ layout: link
 type: link
 link: https://www.nytimes.com/2018/11/26/podcasts/the-daily/warehouse-workers-instant-delivery.html
 title: "The Human Toll of Instant Delivery"
-category: links
+category: [dailybite, link, podcast]
 tags: 
     - tech
     - podcast

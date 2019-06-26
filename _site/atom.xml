@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-06-26T13:54:28+07:00</updated>
+ <updated>2019-06-26T17:39:30+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,33 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Spotify 'Your Library' design refresh</title>
+   <link href="http://localhost:4000/2019/06/spotify-your-library-new-design"/>
+   <updated>2019-06-26T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/06/spotify-your-library-new-design</id>
+   <content type="html">&lt;p&gt;Since i’m using Spotify mainly only for music, before their purchase of &lt;a href=&quot;https://techcrunch.com/2019/02/14/spotify-gimlet-anchor-340-million/&quot;&gt;Gimlet&lt;/a&gt; (their show is great) and &lt;a href=&quot;https://techcrunch.com/2019/02/14/spotify-gimlet-anchor-340-million/&quot;&gt;Anchor&lt;/a&gt; (which i also use), they already get in to the podcast show, but just that, they are not focusing the business towards podcasting, but after acquires Gimlet and Anchor, shits got real.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://newsroom.spotify.com/2019-06-13/spotifys-your-library-refresh-what-you-need-to-know/&quot;&gt;And Spotify announced&lt;/a&gt; the new refreshed design of “&lt;em&gt;Your Library&lt;/em&gt;”, adding podcast as a main menu beside Music, this make sense after those acquire, here are my podcast show that i tried to listen on Spotify lately.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;div class=&quot;center&quot;&gt;
+&lt;img src=&quot;/images/posts/spotify-podcast.jpg&quot; alt=&quot;Spotify Podcast&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I’m a fan of podcast, it helps me get through the traffic, commuting, of when i can, &lt;a href=&quot;/category#podcast&quot;&gt;sometimes blogged about it&lt;/a&gt; when i found new great podcast show or episode of the show that i followed.&lt;/p&gt;
+
+&lt;p&gt;Spotify refreshed design even though podcast it was focused on one tab, yes, it became easy to access, but still hard to manage, i’m subcribing to a lot of podcast show, to manage shows is kinda hard on Spotify, comparing to Castbox or Google Podcast, i need to scroll quite a lot. Even Google Podcast has its own issue like Spotify (no categorization for instance). Spotify currently don’t have In Progress show that haven’t finished while you were on the road, and other thing.&lt;/p&gt;
+
+&lt;div class=&quot;center&quot;&gt;
+&lt;img src=&quot;/images/posts/google-podcast.jpg&quot; alt=&quot;Google Podcast&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I’m still sticking with Google Podcast now, just hopefully Google did not ended up killing it like other product (&lt;a href=&quot;https://google.com/reader/&quot;&gt;Google Reader&lt;/a&gt; and &lt;a href=&quot;https://killedbygoogle.com/&quot;&gt;others&lt;/a&gt;)&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Teori konspirasi dan keagamaan</title>
@@ -107,7 +134,7 @@
  </entry>
  
  <entry>
-   <title>Redireksi banyakw URI dengan menggunakan NGINX</title>
+   <title>Redireksi banyak URI dengan menggunakan NGINX</title>
    <link href="http://localhost:4000/2019/05/multiple-uri-redirection-using-nginx"/>
    <updated>2019-05-08T00:00:00+07:00</updated>
    <id>http://localhost:4000/2019/05/multiple-uri-redirection-using-nginx</id>

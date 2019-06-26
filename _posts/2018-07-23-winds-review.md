@@ -8,7 +8,7 @@ tags:
     - news
     - rss
 
-category: post
+category: [post, podcast]
 image:
   feature: /images/posts/winds.jpg
   teaser: /images/posts/winds.jpg

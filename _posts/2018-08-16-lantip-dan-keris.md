@@ -3,7 +3,7 @@ layout: link
 type: link
 link: https://www.podbean.com/media/share/pb-smt84-958c35
 title: "Podcast TemuKonco: Lantip dan keris"
-category: links
+category: [dailybite, podcast, link]
 tags: 
     - indonesia
     - keris

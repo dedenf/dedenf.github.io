@@ -3,7 +3,7 @@ layout: link
 type: link
 link: https://www.schwab.com/resource-center/insights/podcast
 title: "Choiceology"
-category: links
+category: [dailybite, link, podcast]
 tags: 
     - tech
     - podcast

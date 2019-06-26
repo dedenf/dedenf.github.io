@@ -3,7 +3,7 @@ layout: link
 type: link
 link: https://anchor.fm/suara-puan/
 title: "Podcast: Suara Puan"
-category: links
+category: [dailybite, link, podcast]
 tags: 
     - asmr
     - podcast

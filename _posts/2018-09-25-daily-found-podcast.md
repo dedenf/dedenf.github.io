@@ -3,7 +3,7 @@ layout: link
 type: link
 link: https://softwareengineeringdaily.com/2018/09/19/kubernetes-distributions-with-brian-gracely-and-michael-hausenblas/
 title: "Kubernetes Distributions with Brian Gracely and Michael Hausenblas"
-category: links
+category: [link, podcast]
 tags: 
     - tech
     - container

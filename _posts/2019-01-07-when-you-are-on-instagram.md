@@ -3,7 +3,7 @@ layout: link
 type: link
 link: https://www.recode.net/2018/12/26/18155660/imgur-alan-schaaf-social-media-cesspool-abuse-moderation-kara-swisher-recode-decode-podcast
 title: "How Imgur avoids the ugliness of social media"
-category: links
+category: [dailybite, link, podcast]
 tags: 
     - podcast
     - "social media"
