@@ -19,6 +19,8 @@ Akhir-akhir ini ramai sekali pembicaraan (atau polemik) mengenai desain dari mas
 
 Hal ini juga seperti biasa dibawa didiskusi grup WhatsApp keluarga (biasanya ini tempat hoax/disinformasi/misinformasi berada 🤣), semakin menyebarnya keanehan ini, dan bahkan dari pendapat salah-satu-yang-menyebut-dirinya-ustad ini meminta umat islam untuk tidak sholat di masjid tersebut, karena tidak sah sholatnya.
 
+<!--more-->
+
 Menurut artikel yang dimuat oleh [Tirto](https://tirto.id/mengapa-orang-takut-pada-simbol-illuminati-dan-teori-konspirasi-ecf1), melalui sosiolog UNY Amika Wardhana, diungkapkan alasan-alasan kenapa orang-orang menjadi seperti ketakutan dengan simbol-simbol adalah (_tulisan miring_ tambahan dari saya)
 - kemudahan orang mengakses internet, banyak orang yang ingin terkenal dengan menyebarkan hal yang konspiratif, _dan banyak yang merasa hal tersebut benar adanya, terlebih untuk yang baru menemukan tuhan, apalagi yang bicara adalah salah-satu-yang-menyebut-dirinya-ustad, maka sudah pasti benar_.
 - harapan akan kebenaran ramalan, saat sesuatu yang keliru dibicarakan banyak orang, maka hal itu dianggap sebagai kebenaran _(hal ini juga bisa disebut [Fallacy of division](https://en.wikipedia.org/wiki/Fallacy_of_division))_

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i|Lato');
 
 .bold,
 .button,
@@ -176,7 +176,10 @@ td {
 body {
     margin: 0;
     line-height: 1.5;
-    font-size: 100%
+    font-size: 1.1em;
+    background-color: #fff;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Crimson Text', Georgia, serif;
 }
 
 h1,
@@ -185,25 +188,32 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Crimson Text', Helvetica, sans-serif;
-    font-weight: 700;
+    font-family: 'Crimson Text', Georgia, serif;
+    font-weight: 400;
     line-height: 1.25;
     margin-top: 1em;
-    margin-bottom: .5em
+    margin-bottom: .5em;
+    line-height: 1.2;
+    opacity: 1;
+    margin-top: 0;
+    margin-bottom: 10px;
+    letter-spacing: -.72px;
+    word-spacing: 0;
+    text-transform: none
 }
-
 dl,
 ol,
 p,
 ul {
-    font-size: 1.3rem
+    font-size: inherit;
+    line-height: 1.5;
 }
 
 code,
 pre,
 samp {
     font-family: 'Source Code Pro', Consolas, monospace;
-    font-size: .7em; 
+    font-size: inherit; 
     background: #f0f0f0;
     padding:2px 5px;
 }
@@ -224,7 +234,7 @@ blockquote {
 
 blockquote,
 blockquote p {
-    font-size: 1.25rem;
+    font-size: inherit;
     font-style: italic
 }
 
@@ -1024,11 +1034,6 @@ h6 {
     .lg-flex>div {
         box-sizing: border-box
     }
-}
-
-body {
-    background-color: #fff;
-    font-family: 'Crimson Text', Georgia, serif
 }
 
 a:hover {
@@ -1935,12 +1940,9 @@ h3 {
 }
 
 p {
-    font-size: 1.3em
+    
 }
 
-li p {
-    font-size: 1em
-}
 
 pre {
     padding: 1rem;
