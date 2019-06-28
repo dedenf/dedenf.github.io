@@ -3,7 +3,7 @@
 body {
     margin: 0;
     line-height: 1.5;
-    font-size: 1.3em;
+    font-size: 1.2em;
     background-color: #fff;
     /* font-family: 'Lato', sans-serif; */
     font-family: 'Crimson Text', Georgia, serif;
@@ -1937,15 +1937,9 @@ h3 {
 }
 
 .container {
-    max-width: 48em;
+    max-width: 750px;
     /*margin:0*/
 }
-
-p {
-    
-}
-
-
 pre {
     padding: 1rem;
     background-color: rgba(0, 0, 0, .0625)

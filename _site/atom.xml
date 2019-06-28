@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-06-28T13:09:51+07:00</updated>
+ <updated>2019-06-29T00:27:52+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,19 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Microsoft & Apple OSs: A visual history</title>
+   <link href="http://localhost:4000/2019/06/Microsoft-Apple-OSs-A-visual-history"/>
+   <updated>2019-06-29T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/06/Microsoft-Apple-OSs-A-visual-history</id>
+   <content type="html">&lt;iframe width=&quot;640&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/f_Q0XPher3o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Watching this, a blast from the past, remind me of the journey, experiencing the evolution of the desktop computing and its interface, both windows and mac.&lt;/p&gt;
+
+&lt;p&gt;Yes there’s a lot of other OSes that i’ve been play with like OS/2, Novell netware, GNU/Linux (Suse, Slackware, Mandrake in particular), BSDs, Solaris.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Dua Garis Biru</title>
