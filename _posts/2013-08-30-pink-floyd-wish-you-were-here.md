@@ -8,9 +8,9 @@ category: blog
 ---
 
 
-![wish you were here](http://25.media.tumblr.com/tumblr_m7dxps5BGw1rbrdrco1_500.jpg)
+![wish you were here](https://25.media.tumblr.com/tumblr_m7dxps5BGw1rbrdrco1_500.jpg)
 
 > We're just two lost souls
 > Swimming in a fish bowl
 
-♪ [Pink Floyd - Wish you were here](http://ex.fm/song/1evtba)
+♪ [Pink Floyd - Wish you were here](https://ex.fm/song/1evtba)

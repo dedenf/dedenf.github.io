@@ -7,4 +7,4 @@ category: blog
 
 ---
 
-![the holstee manifesto](http://i.imgur.com/G8RRuaJ.jpg)
+![the holstee manifesto](https://i.imgur.com/G8RRuaJ.jpg)

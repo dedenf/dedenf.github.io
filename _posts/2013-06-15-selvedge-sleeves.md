@@ -7,8 +7,8 @@ category: blog
 
 ---
 
-![Selvedge Sleeves](http://uncrate.com/p/2010/11/selvedge-sleeves-xl.jpg)
+![Selvedge Sleeves](https://uncrate.com/p/2010/11/selvedge-sleeves-xl.jpg)
 
 Denim! WANT!
 
-(via [uncrate](http://uncrate.com/stuff/selvedge-sleeves/))
+(via [uncrate](https://uncrate.com/stuff/selvedge-sleeves/))
