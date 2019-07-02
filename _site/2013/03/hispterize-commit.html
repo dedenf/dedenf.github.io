@@ -31,7 +31,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="/public/favicon.png"/>
 
-  <link rel="canonical" href="https://notes.dedenf.com">
+  <link rel="canonical" href="http://localhost:4001">
   <link rel="image_src" href="/images/sites/noun_717989_cc.png">
 
   <!-- Sharing -->
@@ -39,7 +39,7 @@
   <meta property="og:title" content="Hipsterized commit | HyperText Thrones" />
   
 	<meta property="og:site_name" content="HyperText Thrones | on the HyperText"/>
-	<meta property="og:url" content="https://notes.dedenf.com/2013/03/hispterize-commit" />
+	<meta property="og:url" content="http://localhost:4001/2013/03/hispterize-commit" />
    
 	<meta property="og:type" content="website" />
   
@@ -59,7 +59,7 @@
 	<meta itemprop="headline" content="Hipsterized commit" />
 	<meta itemprop="author" content="dedenf, deden fathurahman" />
 	<meta itemprop="description" content="After adding current listened track into my commit message, now i’m adding the action, i take picture everytime commiting something. here’s how. get ImageSnap brew install imagesnap or port install imagesnap create this hook at your project .git/hooks/ the hook #!/bin/bash COMMITID=$(git rev-parse HEAD) imagesnap -q -w 1 .gitsnap/$COMMITID.jpg` save..." />
-	<link itemprop="url" href="https://notes.dedenf.com/2013/03/hispterize-commit" />
+	<link itemprop="url" href="http://localhost:4001/2013/03/hispterize-commit" />
 
 
   <script>
@@ -122,7 +122,7 @@
 <p>the hook</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
-<span class="nv">COMMITID</span><span class="o">=</span><span class="k">$(</span>git rev-parse HEAD<span class="k">)</span>
+<span class="nv">COMMITID</span><span class="o">=</span><span class="si">$(</span>git rev-parse HEAD<span class="si">)</span>
 imagesnap <span class="nt">-q</span> <span class="nt">-w</span> 1 .gitsnap/<span class="nv">$COMMITID</span>.jpg<span class="sb">`</span>
 </code></pre></div></div>
 
@@ -174,8 +174,8 @@ imagesnap <span class="nt">-q</span> <span class="nt">-w</span> 1 .gitsnap/<span
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
 var disqus_config = function () {
-this.page.url = "https://notes.dedenf.com/2013/03/hispterize-commit";  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = "https://notes.dedenf.com/2013/03/hispterize commit"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.url = "http://localhost:4001/2013/03/hispterize-commit";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "http://localhost:4001/2013/03/hispterize commit"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE
