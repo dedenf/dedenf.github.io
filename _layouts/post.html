@@ -7,13 +7,16 @@ layout: default
 <article class='justify'>
   <div class='mb2'>
     <h2 class='h3 mb0'>{{ page.title }}</h2>
-    <time class='grayish'>Published at {{ page.date | date: '%B %-d, %Y' }} &mdash; {% include read-time.html %}</time>
+    <a href="{{site.author.url}}">{{ site.author.name }}</a> &mdash; 
+    <time class='grayish'>{{ page.date | date: '%B %-d, %Y' }}</time> <br>
+    <i class="far fa-clock"></i> {% include read-time.html %}
+
   </div>
   {{ content }}
 
   {% include medium-crosspost.html url=page.medium_url%}
 
-  <div class="article_details h-small">
+  <!-- <div class="article_details h-small">
     <div class="article_details_left">
       <div class="detail">
         <span class="field-name">Author: </span>
@@ -30,7 +33,7 @@ layout: default
             <span class="field-name">Length: {% include read-time.html %} </span> 
           </div>
     </div>
-  </div>
+  </div> -->
 
 </article>
 {% if site.comments != false and page.comments != false %}

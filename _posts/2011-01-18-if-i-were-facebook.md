@@ -1,11 +1,8 @@
 ---
 layout: post
 title: If i were Facebook
-
 tags: [facebook, rant, idea]
-
 category: blog
-
 ---
 
 i will buy Last.fm.

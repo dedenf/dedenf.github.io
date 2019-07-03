@@ -25,13 +25,13 @@
 
   <link rel="stylesheet" href="/public/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="/public/favicon.png"/>
 
-  <link rel="canonical" href="http://localhost:4001">
+  <link rel="canonical" href="http://localhost:4000">
   <link rel="image_src" href="/images/sites/noun_717989_cc.png">
 
   <!-- Sharing -->
@@ -39,7 +39,7 @@
   <meta property="og:title" content="Category | HyperText Thrones" />
   
 	<meta property="og:site_name" content="HyperText Thrones | on the HyperText"/>
-	<meta property="og:url" content="http://localhost:4001/category" />
+	<meta property="og:url" content="http://localhost:4000/category" />
    
 	<meta property="og:type" content="website" />
   
@@ -59,7 +59,7 @@
 	<meta itemprop="headline" content="Category" />
 	<meta itemprop="author" content="dedenf, deden fathurahman" />
 	<meta itemprop="description" content="{% comment%} Here we generate all the categories. {% endcomment%} {% assign rawcats = "" %} {% for post in site.posts %} {% assign tcats = post.category | join:'|' | append:'|' %} {% assign rawcats = rawcats | append:tcats %} {% endfor %} {% assign rawcats = rawcats | split:'|'..." />
-	<link itemprop="url" href="http://localhost:4001/category" />
+	<link itemprop="url" href="http://localhost:4000/category" />
 
 
   <script>
@@ -88,7 +88,6 @@
     <main class='container px4 sm-px2' role='main'>
       <header class='mt4 mb3 ml4 mr1 sm-ml2'>
   <h1 class='mb1' role='banner'><a href='/'> HyperText Thrones </a></h1>
-  <div class='mb1'>By Deden Fathurahman</div>
   <div class='mxn1' role='navigation'>
     <a class='btn button-narrow h3' href='/about'>About</a>
     <a class='btn button-narrow h3' href='/archive'>Archive</a>
@@ -3660,6 +3659,8 @@
       
       <a class="button" href="/tags/#tools">tools</a>
       
+      <a class="button" href="/tags/#review">review</a>
+      
   </li>
   
   
@@ -4680,6 +4681,8 @@
       <a class="button" href="/tags/#daily-found">daily found</a>
       
       <a class="button" href="/tags/#tools">tools</a>
+      
+      <a class="button" href="/tags/#review">review</a>
       
   </li>
   

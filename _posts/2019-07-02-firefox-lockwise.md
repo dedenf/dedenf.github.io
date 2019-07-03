@@ -1,6 +1,5 @@
 ---
-layout: link
-type: link
+layout: post
 link: https://lockwise.firefox.com/
 title: "Firefox Lockwise"
 category: links
@@ -8,6 +7,7 @@ tags:
     - firefox
     - "daily found"
     - tools
+    - review
 
 published: true
 comments: true

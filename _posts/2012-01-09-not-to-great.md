@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Not To great
-
 tags: [rants]
-
 category: blog
 
 ---

@@ -3,7 +3,7 @@
   {% if words < 180 %}
     less than 1 minute read ({{ words }} words)
   {% elsif words < 360 %}
-    1 minute read
+    1 minute read ({{ words }} words)
   {% else %}
     {{ words | divided_by:180 }} minute read ({{ words }} words)
   {% endif %}
@@ -14,7 +14,7 @@
   {% if words < 180 %}
     less than 1 minute read ({{ words }} words)
   {% elsif words < 360 %}
-    1 minute read
+    1 minute read ({{ words }} words)
   {% else %}
     {{ words | divided_by:180 }} minute read ({{ words }} words)
   {% endif %}
