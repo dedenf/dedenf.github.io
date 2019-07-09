@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Privasi dan default browsers"
+title: "Privasi dan keamanan pada aplikasi peramban (browser)"
 tags: 
     - firefox
     - browser
@@ -10,6 +10,8 @@ category: post
 comments: true
 published: true
 ---
+
+_TL;DR_ : gunakan firefox dan brave
 
 [Goodbye, Chrome: Google’s web browser has become spy software](https://www.washingtonpost.com/technology/2019/06/21/google-chrome-has-become-surveillance-software-its-time-switch/)
 

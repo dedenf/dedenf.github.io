@@ -13,7 +13,7 @@ published: true
 comments: true
 ---
 
-<iframe width="640" height="400" src="https://www.youtube.com/embed/f_Q0XPher3o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class='embed-container'><iframe class="embed-container" src="https://www.youtube.com/embed/f_Q0XPher3o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 Watching this, a blast from the past, remind me of the journey, experiencing the evolution of the desktop computing and its interface, both windows and mac.
 
