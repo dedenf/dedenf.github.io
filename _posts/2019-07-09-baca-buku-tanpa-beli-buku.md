@@ -1,16 +1,14 @@
 ---
 layout: post
-link: https://www.washingtonpost.com/technology/2019/06/21/google-chrome-has-become-surveillance-software-its-time-switch/
-title: "Goodbye, Chrome: Google’s web browser has become spy software"
-category: links
+title: "Membaca buku tanpa membeli buku"
 tags: 
-    - firefox
-    - "daily found"
-    - browser
-    - review
+    - read
+    - books
+    - "self development"
 
-published: false
+category: post
 comments: true
+published: false
 ---
 
 Apakah bisa membaca buku tanpa membelinya?
