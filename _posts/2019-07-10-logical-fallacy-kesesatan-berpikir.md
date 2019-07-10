@@ -17,6 +17,8 @@ Ya tentu saja itu sebuah sarkasme dari status di media sosial yang diunggah oleh
 
 Dari cara berpikir ini, bisa dikategorikan _fallacy_ atau dalam bahasa indonesia diartikan [kesesatan](https://id.wikipedia.org/wiki/Kesesatan),  dikategorikan sebagai jenis [kesesatan sebab-akibat, atau Kesesatan non causa pro causa (post hoc ergo propter hoc/ false cause)](https://id.wikipedia.org/wiki/Kesesatan#Kesesatan_non_causa_pro_causa_(post_hoc_ergo_propter_hoc/_false_cause)), jika kita terapkan _fallacy_/kesesatan ini dengan unggahan di sosial media di atas adalah
 
+<!--more-->
+
 > Karena presidennya A, maka jalan tol ini menjadi macet
 
 Atau kita bisa ambil contoh lebih ekstrim, seperti [video di sini](https://twitter.com/eko_kuntadhi/status/1045905195010424833?lang=en) mengenai kemarau yang terjadi, salah siapa? lihat sendiri.
