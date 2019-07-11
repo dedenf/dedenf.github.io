@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-07-10T18:33:29+07:00</updated>
+ <updated>2019-07-11T22:46:45+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,15 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Menabung dan investasi</title>
+   <link href="http://localhost:4000/2019/07/seputarfinansial-menabung-dan-investasi"/>
+   <updated>2019-07-11T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/07/seputarfinansial-menabung-dan-investasi</id>
+   <content type="html">&lt;p&gt;Membahas tentang perbedaan dan persamaan dari menabung dan investasi, instrumen-instrumen apa saja yang biasa dipakai, &lt;em&gt;gak&lt;/em&gt; membahas keseluruhan instrumen, karena akan banyak sekali.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Logical Fallacy/Kesesatan berpikir</title>
@@ -26,8 +35,10 @@
 
 &lt;p&gt;Dari cara berpikir ini, bisa dikategorikan &lt;em&gt;fallacy&lt;/em&gt; atau dalam bahasa indonesia diartikan &lt;a href=&quot;https://id.wikipedia.org/wiki/Kesesatan&quot;&gt;kesesatan&lt;/a&gt;,  dikategorikan sebagai jenis &lt;a href=&quot;https://id.wikipedia.org/wiki/Kesesatan#Kesesatan_non_causa_pro_causa_(post_hoc_ergo_propter_hoc/_false_cause)&quot;&gt;kesesatan sebab-akibat, atau Kesesatan non causa pro causa (post hoc ergo propter hoc/ false cause)&lt;/a&gt;, jika kita terapkan &lt;em&gt;fallacy&lt;/em&gt;/kesesatan ini dengan unggahan di sosial media di atas adalah&lt;/p&gt;
 
+&lt;!--more--&gt;
+
 &lt;blockquote&gt;
-  &lt;p&gt;Karena presidennya Jokowi, maka jalan tol ini menjadi macet&lt;/p&gt;
+  &lt;p&gt;Karena presidennya A, maka jalan tol ini menjadi macet&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Atau kita bisa ambil contoh lebih ekstrim, seperti &lt;a href=&quot;https://twitter.com/eko_kuntadhi/status/1045905195010424833?lang=en&quot;&gt;video di sini&lt;/a&gt; mengenai kemarau yang terjadi, salah siapa? lihat sendiri.&lt;/p&gt;
@@ -35,9 +46,9 @@
 &lt;p&gt;Kesesatan/&lt;em&gt;fallacy&lt;/em&gt; yang lain muncul di masyarakat saat ini adalah &lt;em&gt;Composition/Division&lt;/em&gt; yaitu fallacy yang percaya bahwa jika sesuatu berlaku untuk sebagian dari suatu sistem, maka berlaku juga bagi seluruhnya. Begitu juga sebaliknya&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Di beberapa daerah paslon 2 ketika kampanye ramai sekali&lt;/li&gt;
-  &lt;li&gt;Di daerah saya, paslon 2 kampanye juga ramai&lt;/li&gt;
-  &lt;li&gt;Maka dari itu, paslon 2 ketika pemilihan seharusnya menang&lt;/li&gt;
+  &lt;li&gt;Di beberapa daerah paslon 3 ketika kampanye ramai sekali&lt;/li&gt;
+  &lt;li&gt;Di daerah saya, paslon 3 kampanye juga ramai&lt;/li&gt;
+  &lt;li&gt;Maka dari itu, paslon 3 ketika pemilihan seharusnya menang&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Menurut artikel dari &lt;a href=&quot;https://www.tribunnews.com/tribunners/2017/01/29/masyarakat-pro-logika-tumbuh-dampak-hoax-lumpuh?page=all&quot;&gt;Tribunnews&lt;/a&gt; ini (penekanan kalimat dari saya),&lt;/p&gt;
