@@ -8,7 +8,7 @@ category: blog
 ---
 
 
-![apart](http://imgix.8tracks.com/i/000/407/643/c/apart-3255.png)
+![apart](https://imgix.8tracks.com/i/000/407/643/c/apart-3255.png)
 
 currently listening to blue october lately, especially 18th Floor Balcony. and there also daft punk's newest album.
 this mixtape consist 11 tracks.
