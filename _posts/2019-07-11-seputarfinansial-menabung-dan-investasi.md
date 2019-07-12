@@ -1,6 +1,6 @@
 ---
 layout: post
-link: https://seputarfinansial.com/menabung-dan-investasi/
+link: https://seputarfinansial.com/menabung-dan-investasi/?utm_source=dedenf
 title: "Menabung dan investasi"
 category: links
 tags: 
