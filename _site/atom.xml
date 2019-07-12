@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-07-11T22:46:45+07:00</updated>
+ <updated>2019-07-12T14:22:08+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -3876,9 +3876,9 @@ Please upgrade your Subversion client to use this to your bash profile. working 
    <link href="http://localhost:4000/2013/06/google-reader-alt"/>
    <updated>2013-06-14T00:00:00+07:00</updated>
    <id>http://localhost:4000/2013/06/google-reader-alt</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/yg6WuL0.png&quot; alt=&quot;readable.css&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/yg6WuL0.png&quot; alt=&quot;readable.css&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;As we may know, Google will shutdown google reader, a much beloved rss reader/service that many users have used it as their daily activity. i’ve been using Google reader for a long time, as alternative i’ve found &lt;a href=&quot;http://theoldreader.com/&quot;&gt;The Old Reader&lt;/a&gt; as my replacement for Google Reader, Today i found about &lt;a href=&quot;http://readable.cc/&quot;&gt;redable.cc&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As we may know, Google will shutdown google reader, a much beloved rss reader/service that many users have used it as their daily activity. i’ve been using Google reader for a long time, as alternative i’ve found &lt;a href=&quot;https://theoldreader.com/&quot;&gt;The Old Reader&lt;/a&gt; as my replacement for Google Reader, Today i found about &lt;a href=&quot;https://readable.cc/&quot;&gt;redable.cc&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;It’s not like usual rss reader that has ‘folder’ like icon, but instead it has a list with big heading information about what rss that we’ve been subscribed. it has a simple interface with serif typeface all over the place (which is a good thing for readable purpose).
 Think i might use it for a while.&lt;/p&gt;
@@ -3929,12 +3929,12 @@ difference was found between identifier styles with respect to accuracy, results
    <link href="http://localhost:4000/2013/06/mixtape-breathe"/>
    <updated>2013-06-12T00:00:00+07:00</updated>
    <id>http://localhost:4000/2013/06/mixtape-breathe</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://8tracks.imgix.net/i/000/423/929/c/bbr-3640.jpg&quot; alt=&quot;breathe&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://8tracks.imgix.net/i/000/423/929/c/bbr-3640.jpg&quot; alt=&quot;breathe&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;this mixtape was made for my significant other. still, it has genre of Triphop, electronic, ambient and post-rock. featured artist is Télépopmusik, Dido, and indonesian Triphop/electronic group &lt;a href=&quot;http://www.last.fm/music/Homogenic&quot;&gt;Homogenic&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;this mixtape was made for my significant other. still, it has genre of Triphop, electronic, ambient and post-rock. featured artist is Télépopmusik, Dido, and indonesian Triphop/electronic group &lt;a href=&quot;https://www.last.fm/music/Homogenic&quot;&gt;Homogenic&lt;/a&gt;!&lt;/p&gt;
 
 &lt;p&gt;some of the tracks listed below
-♫ &lt;a href=&quot;http://8tracks.com/dedenf/breathe&quot;&gt;8Tracks&lt;/a&gt;&lt;/p&gt;
+♫ &lt;a href=&quot;https://8tracks.com/dedenf/breathe&quot;&gt;8Tracks&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Télépopmusik - Breathe&lt;/li&gt;
@@ -3946,7 +3946,7 @@ difference was found between identifier styles with respect to accuracy, results
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;em&gt;the cover is slightly cut almost half of it&lt;/em&gt;
-(&lt;a href=&quot;http://inspcollection.com/post/4070889611&quot;&gt;photo&lt;/a&gt;)&lt;/p&gt;
+(&lt;a href=&quot;https://inspcollection.com/post/4070889611&quot;&gt;photo&lt;/a&gt;)&lt;/p&gt;
 </content>
  </entry>
  
@@ -4068,7 +4068,7 @@ on my system right now, i have two timemachine who backed up my entire system, o
    <link href="http://localhost:4000/2013/06/mixtape-apart"/>
    <updated>2013-06-06T00:00:00+07:00</updated>
    <id>http://localhost:4000/2013/06/mixtape-apart</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://imgix.8tracks.com/i/000/407/643/c/apart-3255.png&quot; alt=&quot;apart&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://imgix.8tracks.com/i/000/407/643/c/apart-3255.png&quot; alt=&quot;apart&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;currently listening to blue october lately, especially 18th Floor Balcony. and there also daft punk’s newest album.
 this mixtape consist 11 tracks.&lt;/p&gt;
@@ -4129,7 +4129,7 @@ we also have a soon to be launch product, &lt;a href=&quot;http://kineria.com/&q
    <link href="http://localhost:4000/2013/06/blasphemy"/>
    <updated>2013-06-05T00:00:00+07:00</updated>
    <id>http://localhost:4000/2013/06/blasphemy</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/eb10cjH.jpg&quot; alt=&quot;this..&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/eb10cjH.jpg&quot; alt=&quot;this..&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4149,11 +4149,11 @@ So, this &lt;span class=&quot;medium-big-text font-della&quot;&gt;should&lt;/spa
    <link href="http://localhost:4000/2013/06/mixtape-one"/>
    <updated>2013-06-04T00:00:00+07:00</updated>
    <id>http://localhost:4000/2013/06/mixtape-one</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://imgix.8tracks.com/mix_covers/000/570/340/27602.original.jpg?fm=jpg&amp;amp;q=65&amp;amp;sharp=15&amp;amp;vib=10&amp;amp;w=1024&amp;amp;h=1024&amp;amp;fit=max&quot; alt=&quot;trip-ish&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://imgix.8tracks.com/mix_covers/000/570/340/27602.original.jpg?fm=jpg&amp;amp;q=65&amp;amp;sharp=15&amp;amp;vib=10&amp;amp;w=1024&amp;amp;h=1024&amp;amp;fit=max&quot; alt=&quot;trip-ish&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;liked the mixtape, full of Triphop artist, like &lt;a href=&quot;http://en.wikipedia.org/wiki/Portishead_(band)&quot;&gt;Portishead&lt;/a&gt;, &lt;a href=&quot;http://en.wikipedia.org/wiki/Lamb_(band)&quot;&gt;Lamb&lt;/a&gt;, and many others.&lt;/p&gt;
+&lt;p&gt;liked the mixtape, full of Triphop artist, like &lt;a href=&quot;https://en.wikipedia.org/wiki/Portishead_(band)&quot;&gt;Portishead&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Lamb_(band)&quot;&gt;Lamb&lt;/a&gt;, and many others.&lt;/p&gt;
 
-&lt;p&gt;♫ &lt;a href=&quot;http://8tracks.com/shirink/trip-ish&quot;&gt;8tracks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;♫ &lt;a href=&quot;https://8tracks.com/shirink/trip-ish&quot;&gt;8tracks&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4186,7 +4186,7 @@ So, this &lt;span class=&quot;medium-big-text font-della&quot;&gt;should&lt;/spa
    <id>http://localhost:4000/2013/03/google-reader</id>
    <content type="html">&lt;p&gt;Google reader will say its goodbye on July 1st 2013..&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/H1Sumib.png&quot; alt=&quot;my reading history&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/H1Sumib.png&quot; alt=&quot;my reading history&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4255,7 +4255,7 @@ imagesnap &lt;span class=&quot;nt&quot;&gt;-q&lt;/span&gt; &lt;span class=&quot;
    <link href="http://localhost:4000/2013/02/git-commit-and-mood"/>
    <updated>2013-02-27T00:00:00+07:00</updated>
    <id>http://localhost:4000/2013/02/git-commit-and-mood</id>
-   <content type="html">&lt;p&gt;many developers push their code to git repo with funny or sometimes silly comments (i do that sometimes) like this &lt;a href=&quot;http://whatthecommit.com/&quot;&gt;whatthecommit&lt;/a&gt; site, but maybe it will be more hips (like hipsters do) if i can fetch last.fm api from current listened music and add them to my commit message.&lt;/p&gt;
+   <content type="html">&lt;p&gt;many developers push their code to git repo with funny or sometimes silly comments (i do that sometimes) like this &lt;a href=&quot;https://whatthecommit.com/&quot;&gt;whatthecommit&lt;/a&gt; site, but maybe it will be more hips (like hipsters do) if i can fetch last.fm api from current listened music and add them to my commit message.&lt;/p&gt;
 
 &lt;p&gt;here’s the idea&lt;/p&gt;
 
@@ -4266,7 +4266,7 @@ so if we browse the log it will be shown &lt;code class=&quot;highlighter-rouge&
 
 &lt;p&gt;&lt;strong&gt;update 2013-03-05&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/93x0bpc.png&quot; alt=&quot;hispter geek&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/93x0bpc.png&quot; alt=&quot;hispter geek&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;here’s the &lt;a href=&quot;https://gist.github.com/dedenf/5097395&quot;&gt;gists on github&lt;/a&gt; of course&lt;/p&gt;
 </content>
@@ -4286,9 +4286,9 @@ so if we browse the log it will be shown &lt;code class=&quot;highlighter-rouge&
    <link href="http://localhost:4000/2013/02/mou-scriptogram"/>
    <updated>2013-02-11T00:00:00+07:00</updated>
    <id>http://localhost:4000/2013/02/mou-scriptogram</id>
-   <content type="html">&lt;p&gt;i know it’s late, but just stumbling that we can post to &lt;a href=&quot;http://scriptogr.am&quot;&gt;scriptogr.am&lt;/a&gt; via &lt;a href=&quot;http://mouapp.com/&quot;&gt;Mou&lt;/a&gt;.&lt;/p&gt;
+   <content type="html">&lt;p&gt;i know it’s late, but just stumbling that we can post to &lt;a href=&quot;https://scriptogr.am&quot;&gt;scriptogr.am&lt;/a&gt; via &lt;a href=&quot;https://mouapp.com/&quot;&gt;Mou&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/RROdN0e.png&quot; alt=&quot;scriptogr.am ID from Mou app&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/RROdN0e.png&quot; alt=&quot;scriptogr.am ID from Mou app&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;if you are Mac users, Mou is the best app for markdown, and it’s free!.&lt;/p&gt;
 </content>
@@ -4343,11 +4343,11 @@ so if we browse the log it will be shown &lt;code class=&quot;highlighter-rouge&
 
 &lt;p&gt;it took a lot of confident to launch it, since so many little things that we have to handle, from the working codes, redactional text, email etc. from many startup advice, launch as soon as possible is essential, to get users feedback you have to launch your product, to get to know what is wrong with your app is launch it. so by today, i look at the Google Analytics, it was quite good, from the developers perspective, the site is running just fine, no choke, no database overload, maybe because the traffic is just average (dunno, though).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://cl.ly/3Q3r19053a390s08300d/Screen%20Shot%202012-02-22%20at%2012.58.36%20PM.png&quot; alt=&quot;stats&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cl.ly/3Q3r19053a390s08300d/Screen%20Shot%202012-02-22%20at%2012.58.36%20PM.png&quot; alt=&quot;stats&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;and&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://cl.ly/032E2S1p3j38181f1W1O/Screen%20Shot%202012-02-22%20at%2012.58.46%20PM.png&quot; alt=&quot;another stat&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cl.ly/032E2S1p3j38181f1W1O/Screen%20Shot%202012-02-22%20at%2012.58.46%20PM.png&quot; alt=&quot;another stat&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;and now for the engagement to the users, from the beginning, the team has already using social media tools to make an introductory to the users. the feedback from twitter channel is quite positive, they help us by reporting bugs and what features they want. so i guess now is the time for some bug squashing and development.&lt;/p&gt;
 </content>
