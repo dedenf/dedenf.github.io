@@ -17,6 +17,6 @@ Isinya akan lebih banyak ke hal-hal yang saya kurasi sendiri, bisa teknologi, du
 
 Bisa _subscribe_/berlangganan <a href="https://dedenf.substack.com" target="_blank"><i>newsletter</i> di sini</a>, atau form di bawah.
 
-<iframe width="660" height="220" src="https://dedenf.substack.com/embed" frameborder="0" scrolling="no"></iframe>     
+<div class='embed-container'><iframe width="660" height="220" src="https://dedenf.substack.com/embed" frameborder="0" scrolling="no"></iframe></div> 
 
 Menggunakan [substack](https://substack.com) sebagai penyedia layanan newsletter.

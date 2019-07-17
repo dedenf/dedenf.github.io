@@ -418,6 +418,7 @@ h1.mb1{font-family:'Crimson Text',Bitter,serif;font-size:1.8em}
 .h3.mb0,h2.m0{font-family:'Crimson Text',Bitter,serif;font-size:30px;font-weight:400;line-height:1.2;opacity:1;margin-top:0;margin-bottom:10px;letter-spacing:-.72px;word-spacing:0;text-transform:none}
 h4.m0{margin-top:10px}
 .footnotes{border-top:1px solid silver;padding:20px 0;margin:40px 0 0}
+.image-caption {font-size: 16px;text-align: center;font-style: italic;margin:5px 0;color:#333;}
 .photo-credit{font-style:italic;margin-bottom:10px;text-align:center}
 .author__avatar{display:table-cell;vertical-align:top;width:36px;height:36px;margin-left:0;margin-right:0;text-align:center}
 .author__avatar img{max-width:110px;border-radius:50%}

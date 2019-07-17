@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-07-17T12:46:26+07:00</updated>
+ <updated>2019-07-17T17:06:35+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -14,17 +14,36 @@
 
  
  <entry>
-   <title>Newslettering</title>
-   <link href="http://localhost:4000/2019/07/newsletter"/>
+   <title>Bersyukur</title>
+   <link href="http://localhost:4000/2019/07/bersyukur"/>
    <updated>2019-07-17T00:00:00+07:00</updated>
-   <id>http://localhost:4000/2019/07/newsletter</id>
+   <id>http://localhost:4000/2019/07/bersyukur</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/images/posts/bekerja-bersyukur.jpeg&quot;&gt;&lt;img src=&quot;/images/posts/bekerja-bersyukur-small.jpg&quot; alt=&quot;bekerja bersyukur&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;image-caption&quot;&gt;Sibuk lagi kerja dulu...&lt;/div&gt;
+
+&lt;p&gt;Itu adalah photo dan isi pesan whatsapp dari teman di grup whatsapp alumni SMP, bukan bermaksud membandingkan atau memandang beda, tapi dengan melihat photo itu, saya menjadi lebih bersyukur, banyak teman-teman saya yang harus bekerja di pabrik, dengan kondisi tempat kerja yang bisa dibilang tidak begitu nyaman, kondisi suara berisik, panas dan lainnya, atau bekerja di tempat yang mungkin beberapa orang menilai tidak layak.
+Di sisi lain, saya bisa dengan nyamannya menulis blog ini, bekerja sambil mendengarkan music, ambil camilan, sambil ngopi, bebas, tidak ada yang akan datang dan bertanya mengapa terlihat “santai”.
+&lt;!--more--&gt;
+Memang, kerja tetaplah kerja, bagaimanapun kondisinya, semua orang bekerja menukar waktunya dengan uang, sebagaimana besar waktu yang digunakan dan seberapa besar uang yang didapat irelevan, kita tidak terlahir sultan, harus bekerja untuk mendapatkan yang kita inginkan, materil, imateril.&lt;/p&gt;
+
+&lt;p&gt;Perbedaan tempat kerja bukan jadi tolak ukur kebahagiaan, bisa jadi teman saya yang bekerja di pabrik lebih bahagia daripada orang lain yang bekerja di tempat yang sejuk tapi tidak bahagia, selalu merasa kurang, selalu menyalahkan orang lain/negara atas kondisinya yang tidak bahagia.&lt;/p&gt;
+
+&lt;p&gt;Jangan lupa bersyukur.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Newslettering</title>
+   <link href="http://localhost:4000/2019/07/1newsletter"/>
+   <updated>2019-07-17T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/07/1newsletter</id>
    <content type="html">&lt;p&gt;Mencoba hal baru dalam berkomunikasi, atau &lt;em&gt;sharing&lt;/em&gt; dengan menggunakan &lt;em&gt;newsletter&lt;/em&gt;, yang mana akan bisa lebih praktis dalam mengkompilasi links, berita, daily found, daily muse yang mungkin tidak ditulis di blog, akan mencoba mengirimkan perminggu untuk awal-awal.&lt;/p&gt;
 
 &lt;p&gt;Isinya akan lebih banyak ke hal-hal yang saya kurasi sendiri, bisa teknologi, dunia development, komputer, podcasts, finansial (&lt;em&gt;anyway&lt;/em&gt; kunjungi &lt;a href=&quot;https://seputarfinansial.com&quot;&gt;seputar finansial&lt;/a&gt; ya!) dan hal-hal lain.&lt;/p&gt;
 
 &lt;p&gt;Bisa &lt;em&gt;subscribe&lt;/em&gt;/berlangganan &lt;a href=&quot;https://dedenf.substack.com&quot; target=&quot;_blank&quot;&gt;&lt;i&gt;newsletter&lt;/i&gt; di sini&lt;/a&gt;, atau form di bawah.&lt;/p&gt;
 
-&lt;iframe width=&quot;660&quot; height=&quot;220&quot; src=&quot;https://dedenf.substack.com/embed&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe width=&quot;660&quot; height=&quot;220&quot; src=&quot;https://dedenf.substack.com/embed&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;Menggunakan &lt;a href=&quot;https://substack.com&quot;&gt;substack&lt;/a&gt; sebagai penyedia layanan newsletter.&lt;/p&gt;
 </content>
