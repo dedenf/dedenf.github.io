@@ -90,13 +90,12 @@ with_header: true
     {% else %}
       {% assign tags = page.tags %}
     {% endif %}
+    <div>
     Tag{% if post.tags.size > 1 %}s{% endif %}:
     {% for tag in tags %}
       <a href="/tags#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %},{% endunless %}
     {% endfor %}
-
-
-
+    </div>
   </article>
   <hr class='half-width'/>
 {% endfor %}

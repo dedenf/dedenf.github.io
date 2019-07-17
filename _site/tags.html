@@ -31,7 +31,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="/public/favicon.png"/>
 
-  <link rel="canonical" href="http://localhost:4001">
+  <link rel="canonical" href="http://localhost:4000">
   <link rel="image_src" href="/public/deden.png">
 
   <!-- Sharing -->
@@ -39,7 +39,7 @@
   <meta property="og:title" content="Tags | HyperText Thrones" />
   
 	<meta property="og:site_name" content="HyperText Thrones | on the HyperText"/>
-	<meta property="og:url" content="http://localhost:4001/tags" />
+	<meta property="og:url" content="http://localhost:4000/tags" />
    
 	<meta property="og:type" content="website" />
   
@@ -59,7 +59,7 @@
 	<meta itemprop="headline" content="Tags" />
 	<meta itemprop="author" content="dedenf, deden fathurahman" />
 	<meta itemprop="description" content="{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %} {% assign tag_words = site_tags | split:',' | sort %} {% for item in (0..site.tags.size) %}{% unless forloop.last %} {% capture this_word %}{{ tag_words[item] }}{% endcapture %} {{..." />
-	<link itemprop="url" href="http://localhost:4001/tags" />
+	<link itemprop="url" href="http://localhost:4000/tags" />
 
 
   <script>
@@ -871,7 +871,7 @@ to the `site_tags` variable. -->
     
     <li>
       <a href="#life" class="tag">life
-        <span>(79)</span>
+        <span>(80)</span>
       </a>
     </li>
   
@@ -1039,7 +1039,14 @@ to the `site_tags` variable. -->
     
     <li>
       <a href="#news" class="tag">news
-        <span>(2)</span>
+        <span>(3)</span>
+      </a>
+    </li>
+  
+    
+    <li>
+      <a href="#newsletter" class="tag">newsletter
+        <span>(1)</span>
       </a>
     </li>
   
@@ -5716,6 +5723,16 @@ to the `site_tags` variable. -->
     
       <div>
         <span style="float: left;">
+          <a href="/2019/07/newsletter">Newslettering</a>
+        </span>
+        <span style="float: right;">
+          17 Jul 2019
+        </span>
+      </div>
+      <div style="clear: both;"></div>
+    
+      <div>
+        <span style="float: left;">
           <a href="/2019/07/podcast-sudutsuarakumandang">Sudut Suara Kumandang</a>
         </span>
         <span style="float: right;">
@@ -7012,6 +7029,16 @@ to the `site_tags` variable. -->
     
       <div>
         <span style="float: left;">
+          <a href="/2019/07/newsletter">Newslettering</a>
+        </span>
+        <span style="float: right;">
+          17 Jul 2019
+        </span>
+      </div>
+      <div style="clear: both;"></div>
+    
+      <div>
+        <span style="float: left;">
           <a href="/2018/07/winds-review">Winds app for RSS and Podcast</a>
         </span>
         <span style="float: right;">
@@ -7026,6 +7053,20 @@ to the `site_tags` variable. -->
         </span>
         <span style="float: right;">
           16 Jul 2018
+        </span>
+      </div>
+      <div style="clear: both;"></div>
+    
+  
+    
+    <h2 id="newsletter">newsletter</h2>
+    
+      <div>
+        <span style="float: left;">
+          <a href="/2019/07/newsletter">Newslettering</a>
+        </span>
+        <span style="float: right;">
+          17 Jul 2019
         </span>
       </div>
       <div style="clear: both;"></div>
@@ -9039,6 +9080,9 @@ to the `site_tags` variable. -->
 
 
  <hr class='half-width'/>
+ 
+    
     </main>
+    
   </body>
 </html>

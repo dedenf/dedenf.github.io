@@ -37,6 +37,9 @@ or you can [buy me a coffee](https://www.buymeacoffee.com/dedenf)
 
 <style>.bmc-button img{vertical-align: middle !important;}.bmc-button{text-decoration: none; !important;display:inline-block !important;padding:5px 10px !important;color:#FFFFFF !important;background-color:#BB5794 !important;border-radius: 3px !important;border: 1px solid transparent !important;font-size: 26px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;-webkit-transition: 0.3s all linear !important;transition: 0.3s all linear !important;margin: 0 auto !important;font-family:"Cookie", cursive !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0 4px 16px 0 rgba(190, 190, 190,.45) !important;box-shadow: 0 4px 16px 0 rgba(190, 190, 190,.45) !important;opacity: 0.85 !important;color:#FFFFFF !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/dedenf"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="BMC logo"><span style="margin-left:5px">Buy me a coffee</span></a>
 
+or subscribe to my newsletter
+<iframe width="660" height="220" src="https://dedenf.substack.com/embed" frameborder="0" scrolling="no"></iframe>     
+
 # Ack
 CSS Styling and design using [ACE](http://aliou.github.io/ace/) with couple custom style.
 
