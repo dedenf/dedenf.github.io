@@ -66,6 +66,9 @@
 	<meta itemprop="description" content="{{ page.content | strip_html| truncatewords:50 | split:'<!--break-->' | first }}" />
 	<link itemprop="url" href="{{ site.url }}{{ page.url }}" />
 
+  {% if page.gallery == true %}
+  <link href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css" rel="stylesheet">
+  {% endif %}
 
   {% include google_analytics.html %}
 
