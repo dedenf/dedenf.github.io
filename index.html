@@ -9,10 +9,10 @@ with_header: true
   <article class=''>
     {% if post.link %}
       <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }} &mdash; <a href='{{ post.url }}'>link to the post</a></time>
-      <h2 class='h3 mb0'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h2>
+      <h1 class='h3 mb0'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h1>
     {% else %}
       <div class='mb2'>
-        <h2 class='m0'><a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a></h2>
+        <h1 class='m0'><a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a></h1>
         <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }} &mdash; {% include read-time.html %} &mdash; Sticky Post</time>
       </div>
     {% endif %}
@@ -51,10 +51,10 @@ with_header: true
   <article class=''>
     {% if post.link %}
       <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }} &mdash; <a href='{{ post.url }}'>link to the post</a></time>
-      <h2 class='h3 mb0'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h2>
+      <h1 class='h3 mb0'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h1>
     {% else %}
       <div class='mb2'>
-        <h2 class='m0'><a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a></h2>
+        <h1 class='m0'><a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a></h1>
         <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }} &mdash; {% include read-time.html %}</time>
       </div>
     {% endif %}

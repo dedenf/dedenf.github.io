@@ -4,7 +4,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  {% if page.title == "Home" %}
   <meta name='description' content="{{ site.description }}" />
+  {% else %}
+  <meta name='description' content="{{ page.title }} {{ page.content | strip_html| truncatewords:50 | split:'<!--break-->' | first }}" />
+  {% endif %}
   <meta charset="utf-8">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#f4f5f6">
@@ -38,6 +42,7 @@
   <meta property="og:title" content="{{ site.title }}" />
   {% else %}
   <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
+  <meta property="og:description" content="{{ page.content | strip_html| truncatewords:50 | split:'<!--break-->' | first }}" />
   {% endif %}
 	<meta property="og:site_name" content="{{ site.title }} | {{ site.tagline }}"/>
 	<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
