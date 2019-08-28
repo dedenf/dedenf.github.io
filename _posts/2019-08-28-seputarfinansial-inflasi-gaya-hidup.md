@@ -2,7 +2,7 @@
 layout: link
 type: link
 link: https://seputarfinansial.com/inflasi-gaya-hidup/
-title: "Inflasi gaya hidup”
+title: "Inflasi gaya hidup"
 category: links
 tags: 
     - seputarfinansial
