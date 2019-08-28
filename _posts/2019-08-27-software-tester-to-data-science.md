@@ -2,7 +2,7 @@
 layout: link
 type: link
 link: https://techbeacon.com/app-dev-testing/how-i-jumped-software-testing-data-science
-title: "How I jumped from software testing to data science”"
+title: "How I jumped from software testing to data science"
 category: links
 tags: 
     - engineer
