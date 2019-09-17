@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-08-27T17:31:06+07:00</updated>
+ <updated>2019-09-17T14:40:50+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -14,10 +14,48 @@
 
  
  <entry>
+   <title>Mengapa memperhatikan biaya admin (fee) itu penting?</title>
+   <link href="http://localhost:4000/2019/09/penting-perhatikan-selalu-fee-biaya-admin"/>
+   <updated>2019-09-03T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/09/penting-perhatikan-selalu-fee-biaya-admin</id>
+   <content type="html">&lt;p&gt;Artikel terbaru yang ditulis di seputarfinansial, membahas mengenai fee atau biaya admin yang terkadang bisa bikin pusing, atau bahkan membuat pengeluaran yang &lt;em&gt;gak&lt;/em&gt; perlu.&lt;/p&gt;
+
+&lt;p&gt;Daftar dari beberapa fee yang muncul dalam transaksi keseharian kita, dan bagaimana kita bisa meminimalisir biaya-biaya tersebut.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Death of Alexander the Great: One of History’s Great Unsolved Mysteries</title>
+   <link href="http://localhost:4000/2019/08/the-death-of-alexander-the-great"/>
+   <updated>2019-08-29T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/08/the-death-of-alexander-the-great</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Dionysus, the god of wine, sets out the stages of inebriation&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;For sensible men I prepare only three craters: one for health (which they drink first), the second for love and pleasure, and the third for sleep. After the third mixing bowl is drained, sensible men go home. The fourth crater is nothing to do with me—it belongs to bad behavior; the fifth is for shouting; the sixth is for rudeness and insults; the seventh is for fights; the eighth is for breaking the furniture; the ninth is for depression; the tenth is for madness and unconsciousness.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Little nugget from the article.&lt;/p&gt;
+
+&lt;p&gt;Even until now, there’s no explanation about how the king died and what happen after that.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Inflasi gaya hidup</title>
+   <link href="http://localhost:4000/2019/08/seputarfinansial-inflasi-gaya-hidup"/>
+   <updated>2019-08-28T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/08/seputarfinansial-inflasi-gaya-hidup</id>
+   <content type="html">&lt;p&gt;Hal yang hampir tidak bisa kita hindarkan, dengan naiknya pendapatan, bisa naik juga gaya hidup kita, hal itu yang disebut inflasi gaya hidup, lebih banyak memikirkan yang sekarang dibanding dengan finansial di masa depan.&lt;/p&gt;
+
+&lt;p&gt;Tulisan terbaru yang setelah lebih dari sebulan tidak menulis blog.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Milky Way Timelapses</title>
-   <link href="http://localhost:4000/2019/08/timelapse-of-milky-way"/>
+   <link href="http://localhost:4000/2019/08/timelapses-of-milky-way"/>
    <updated>2019-08-27T00:00:00+07:00</updated>
-   <id>http://localhost:4000/2019/08/timelapse-of-milky-way</id>
+   <id>http://localhost:4000/2019/08/timelapses-of-milky-way</id>
    <content type="html">&lt;video style=&quot;width:100%&quot; controls=&quot;&quot;&gt;
     &lt;source src=&quot;/images/posts/milky-time.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
@@ -29,7 +67,7 @@
  </entry>
  
  <entry>
-   <title>How I jumped from software testing to data science”</title>
+   <title>How I jumped from software testing to data science</title>
    <link href="http://localhost:4000/2019/08/software-tester-to-data-science"/>
    <updated>2019-08-27T00:00:00+07:00</updated>
    <id>http://localhost:4000/2019/08/software-tester-to-data-science</id>
@@ -110,10 +148,12 @@
    <content type="html">&lt;p&gt;&lt;a href=&quot;/images/posts/bekerja-bersyukur.jpeg&quot;&gt;&lt;img src=&quot;/images/posts/bekerja-bersyukur-small.jpg&quot; alt=&quot;bekerja bersyukur&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&quot;image-caption&quot;&gt;Sibuk lagi kerja dulu...&lt;/div&gt;
 
-&lt;p&gt;Itu adalah photo dan isi pesan whatsapp dari teman di grup whatsapp alumni SMP, bukan bermaksud membandingkan atau memandang beda, tapi dengan melihat photo itu, saya menjadi lebih bersyukur, banyak teman-teman saya yang harus bekerja di pabrik, dengan kondisi tempat kerja yang bisa dibilang tidak begitu nyaman, kondisi suara berisik, panas dan lainnya, atau bekerja di tempat yang mungkin beberapa orang menilai tidak layak.
-Di sisi lain, saya bisa dengan nyamannya menulis blog ini, bekerja sambil mendengarkan music, ambil camilan, sambil ngopi, bebas, tidak ada yang akan datang dan bertanya mengapa terlihat “santai”.
+&lt;p&gt;Itu adalah photo dan isi pesan whatsapp dari teman di grup whatsapp alumni SMP, bukan bermaksud membandingkan atau memandang beda, tapi dengan melihat photo itu, saya menjadi lebih bersyukur, banyak teman-teman saya yang harus bekerja di pabrik, dengan kondisi tempat kerja yang bisa dibilang tidak begitu nyaman, kondisi suara berisik, panas dan lainnya, atau bekerja di tempat yang mungkin beberapa orang menilai tidak layak.&lt;/p&gt;
+
+&lt;p&gt;Di sisi lain, saya bisa dengan nyamannya menulis blog ini, bekerja sambil mendengarkan music, ambil camilan, sambil ngopi, bebas, tidak ada yang akan datang dan bertanya mengapa terlihat “santai”.&lt;/p&gt;
+
 &lt;!--more--&gt;
-Memang, kerja tetaplah kerja, bagaimanapun kondisinya, semua orang bekerja menukar waktunya dengan uang, sebagaimana besar waktu yang digunakan dan seberapa besar uang yang didapat irelevan, kita tidak terlahir kaya, harus bekerja untuk mendapatkan yang kita inginkan, materil, imateril.&lt;/p&gt;
+&lt;p&gt;Memang, kerja tetaplah kerja, bagaimanapun kondisinya, semua orang bekerja menukar waktunya dengan uang, sebagaimana besar waktu yang digunakan dan seberapa besar uang yang didapat irelevan, kita tidak terlahir kaya, harus bekerja untuk mendapatkan yang kita inginkan, materil, imateril.&lt;/p&gt;
 
 &lt;p&gt;Perbedaan tempat kerja bukan jadi tolak ukur kebahagiaan, bisa jadi teman saya yang bekerja di pabrik lebih bahagia daripada orang lain yang bekerja di tempat yang sejuk tapi tidak bahagia, selalu merasa kurang, selalu menyalahkan orang lain/negara atas kondisinya yang tidak bahagia.&lt;/p&gt;
 
