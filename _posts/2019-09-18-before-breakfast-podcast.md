@@ -21,3 +21,5 @@ Found new podcast, i've been binge listening to this podcast from episode 1, yes
 Particularly about the danger of spending time mindlessly, being one of it sometime, reading one article, go to another, open social media, and 30 minutes slip without having any memorable memory, it's just gone, with no money in the world could bring that 30 minutes' back.
 
 Thanks Laura!
+
+[Before Breakfast Website](https://www.beforebreakfastpodcast.com/) | [Apple podcast](https://podcasts.apple.com/us/podcast/before-breakfast/id1450018819) | [Breaker App](https://www.breaker.audio/before-breakfast)
