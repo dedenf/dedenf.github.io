@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-09-17T14:40:50+07:00</updated>
+ <updated>2019-09-18T15:47:35+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,44 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Before Breakfast Podcast</title>
+   <link href="http://localhost:4000/2019/09/before-breakfast-podcast"/>
+   <updated>2019-09-18T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/09/before-breakfast-podcast</id>
+   <content type="html">&lt;p&gt;From description&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In each bite-sized, daily episode of Before Breakfast, host Laura Vanderkam shares a time management strategy or an answer to a listener’s schedule question. How can listeners make the most of their time, both at work and at home? The mission is to give listeners practical tools to feel less busy and get more done.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Found new podcast, i’ve been binge listening to this podcast from episode 1, yes, it’s a short podcast that will make you wonder of how you spend/waste/lost your time, how you can manage your time.&lt;/p&gt;
+
+&lt;p&gt;Particularly about the danger of spending time mindlessly, being one of it sometime, reading one article, go to another, open social media, and 30 minutes slip without having any memorable memory, it’s just gone, with no money in the world could bring that 30 minutes’ back.&lt;/p&gt;
+
+&lt;p&gt;Thanks Laura!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.beforebreakfastpodcast.com/&quot;&gt;Before Breakfast Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://podcasts.apple.com/us/podcast/before-breakfast/id1450018819&quot;&gt;Apple podcast&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.breaker.audio/before-breakfast&quot;&gt;Breaker App&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Analisis CSS dengan menggunakan Wallace-CLI</title>
+   <link href="http://localhost:4000/2019/09/jenius-tech-analisa-css-dengan-wallace-cli"/>
+   <updated>2019-09-17T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/09/jenius-tech-analisa-css-dengan-wallace-cli</id>
+   <content type="html">&lt;p&gt;CSS sebagai salah satu bahasa pembangun web saat ini lumayan menjadi lebih ‘rumit’, dengan banyaknya juga lahir &lt;em&gt;pre-processor&lt;/em&gt; yang manjadikan CSS lebih modular, lebih sederhana dan dinamis.&lt;/p&gt;
+
+&lt;p&gt;Disisi lain file CSS yang dibuat oleh developer bisa menjadi besar, dan menjadikan halaman web menjadi lebih lama untuk ditampilkan, untuk itu perlu digunakan &lt;em&gt;tool&lt;/em&gt; yang bisa membantu kita dalam analisa halaman dan CSS yang akan dibuka, apakah perlu dilakukan optimasi, menuliskan kembali properti-properti atau aksi lainnya&lt;/p&gt;
+
+&lt;p&gt;Wallace bisa dijadikan satu cara/acuan untuk melakukan optimasi di kode CSS yang kita punya.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Mengapa memperhatikan biaya admin (fee) itu penting?</title>

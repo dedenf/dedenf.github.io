@@ -30,7 +30,7 @@ dl,ol,p,ul{line-height:1.5}
 code,pre,samp{font-family:'Source Code Pro',Consolas,monospace;background:#f0f0f0;padding:2px 5px}
 pre{overflow-x:scroll}
 hr{margin-top:5rem;margin-bottom:5rem}
-blockquote{border-left:1px solid #ddd;color:#767676;margin:1rem 0;padding:0 1rem;font-style:italic;}
+blockquote{border-left:2px solid #005eb0;color:#767676;margin:1rem 0;padding:0 1rem;font-style:italic;}
 blockquote,blockquote p{font-style:italic;}
 .h1,h1{font-size:2rem}
 .h2,h2{font-size:1.5rem}
