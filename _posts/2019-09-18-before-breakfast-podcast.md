@@ -22,4 +22,6 @@ Particularly about the danger of spending time mindlessly, being one of it somet
 
 Thanks Laura!
 
-[Before Breakfast Website](https://www.beforebreakfastpodcast.com/) | [Apple podcast](https://podcasts.apple.com/us/podcast/before-breakfast/id1450018819) | [Breaker App](https://www.breaker.audio/before-breakfast)
+- [Before Breakfast Website](https://www.beforebreakfastpodcast.com/)
+- [Apple podcast](https://podcasts.apple.com/us/podcast/before-breakfast/id1450018819) 
+- [Breaker App](https://www.breaker.audio/before-breakfast)
