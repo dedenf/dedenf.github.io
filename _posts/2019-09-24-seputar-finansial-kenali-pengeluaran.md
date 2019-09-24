@@ -2,7 +2,7 @@
 layout: link
 type: link
 link: https://seputarfinansial.com/ketahui-pengeluaran-pengeluaran/
-title: "Ketahui dan kenali pengeluaran-pengeluaranmup"
+title: "Ketahui dan kenali pengeluaran-pengeluaranmu"
 category: links
 tags: 
     - seputarfinansial
