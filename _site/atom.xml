@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-09-18T15:47:35+07:00</updated>
+ <updated>2019-09-25T14:55:20+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,58 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Be kind to your future self</title>
+   <link href="http://localhost:4000/2019/09/lets-be-kind-to-your-future-self"/>
+   <updated>2019-09-25T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/09/lets-be-kind-to-your-future-self</id>
+   <content type="html">&lt;p&gt;Sebenarnya agak bingung kalau diterjemahkan ke bahasa indonesia, mungkin kira-kira, berbaik-baiklah terhadap masa depanmu sendiri.&lt;/p&gt;
+
+&lt;p&gt;Mendengar hal ini ketika mendengarkan satu podcast, yang bercerita tentang apa yang sekarang dilakukan ada konsekuensi atau akan terlihat nanti di masa depan, baik itu misalkan finansial, pekerjaan dan yang paling penting kesehatan.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Dengan menjalankan hidup sehat, kita sedang berbuat baik untuk kita dimasa depan, anggap itu sebagai investasi kalo di dunia &lt;a href=&quot;https://seputarfinansial.com&quot;&gt;personal finance&lt;/a&gt;, akhir-akhir ini mencoba lari, meski tidak dilakukan setiap hari, tapi berusaha untuk lari jika bisa, gak banyak, 3-4KM dengan pace yang ga cepat tentunya, cukup membuat jantung berdebar dan kulit berkeringat.&lt;/p&gt;
+
+&lt;p&gt;Yang belum mungkin makan makanan yang sehat, karena ya memang susah, di rumah bisa sedikit lebih sehat karena ada pilihan untuk bisa beli bahan-bahan yang sehat, dimasak dengan cara sehat, sedang kalo sedang kerja pilihan sedikit untuk makan sehat &lt;em&gt;hahaha..&lt;/em&gt;, karena pilihan yang terhitung sehat terhitung lumayan mahal, meski bisa diakali dengan membawa bekal dari rumah, tapi itu masalah lain.&lt;/p&gt;
+
+&lt;p&gt;Poinnya adalah, menjaga kesehatan, cukup tidur, berolahraga, menjadi hal yang menguntungkan kita saat ini dan nanti, asal dilakukan terartur, ada cerita yang mengatakan bahwa orang tidak akan menjadi kaya dengan uang receh, memang, tapi kalo uang receh ini dikumpulkan setiap hari, tentu jadi besar juga, jadi mulai dengan hal yang kecil, dalam hal ini hanya beberapa kilometer lari, mudah-mudahan tahun depan bisa ikut marathon, amin.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>My Essential plugin or gem for Jekyll</title>
+   <link href="http://localhost:4000/2019/09/essential-for-jekyll-blog"/>
+   <updated>2019-09-25T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/09/essential-for-jekyll-blog</id>
+   <content type="html">&lt;p&gt;This blog site are built using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, a blog engine that i currently using and loved, i’m using Jekyll because its simplicity and also ease of use, it’s free and Jekyll also on e of the blog engine that supported by &lt;a href=&quot;https://netlify.com/&quot;&gt;Netlify&lt;/a&gt;, site publishing it’s all free, and not to mention all of the code stored in Github, that’s also free.&lt;/p&gt;
+
+&lt;p&gt;I’ve been try other static generator blog engine like Hugo or Ghost, and it always get back to Jekyll, dunno why.&lt;/p&gt;
+
+&lt;p&gt;For publishing this site, i’m using :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll-seo-tag/&quot;&gt;Jekyll SEO tag&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Jekyll Paginate (currently obsolete, since Jekyll 3, this was moved to core)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll-sitemap&quot;&gt;Jekyll sitemap&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Github Pages (this more like a ruby gems not Jekyll Plugin)&lt;/li&gt;
+  &lt;li&gt;Bulma CSS for styling&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Jekyll SEO tag helps a lot for maximazing and optimazing the SEO performance, with few thousands a month visitor, that’s what motivates me to write.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ketahui dan kenali pengeluaran-pengeluaranmu</title>
+   <link href="http://localhost:4000/2019/09/seputar-finansial-kenali-pengeluaran"/>
+   <updated>2019-09-24T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/09/seputar-finansial-kenali-pengeluaran</id>
+   <content type="html">&lt;p&gt;Membahas pentingnya mengetahui dan mengenali pengeluaran-pengeluaran setiap hari/minggu/bulannya, karena mengetahui pengeluaran, jenisnya, jumlahnya, kita berkaca pada diri kita, bagaimana kita memandang uang dan kekayaan, bagaimana sikap kita terhadap uang, baik, buruk, boros, hemat dan lainnya.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://seputarfinansial.com/ketahui-pengeluaran-pengeluaran/&quot;&gt;website&lt;/a&gt;, follow &lt;a href=&quot;https://twitter.com/SFinansial/&quot;&gt;twitter&lt;/a&gt; dan &lt;a href=&quot;https://instagram.com/seputarfinansial&quot;&gt;instagram&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Before Breakfast Podcast</title>
