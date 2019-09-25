@@ -71,7 +71,7 @@ with_header: true
 
         {% if post.page_type != "long" %}
         
-          {% if words > 110 %}
+          {% if words > 100 %}
             {{ post.excerpt }} 
             <a href="{{ site.github.url }}{{ post.url }}">Read more &rarr;</a><br><br>
           {% else %}

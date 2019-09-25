@@ -16,6 +16,8 @@ comments: true
 
 This FOPO eats up our confidence, we lived by other people's opinions that probably knows nothing about us. look, everyone has their own struggle that we dont know. But mosty, this FOPO are only in our head, we tend to care what might come from other people's head than minding our own growth.
 
+<!--more-->
+
 The way to get around this according to the article, build a personal philosophy, starts with answering the question
 > When I’m at my best, what beliefs lie just beneath the surface of my thoughts and actions?  
 > 
