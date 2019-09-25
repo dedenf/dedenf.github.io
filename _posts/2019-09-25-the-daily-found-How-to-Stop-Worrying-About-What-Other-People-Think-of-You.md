@@ -29,3 +29,4 @@ Circle the words you choose, develope the philosophy, commit, live with that phi
 
 it's a journey.
 
+[Other resource](https://www.hypnosisdownloads.com/blog/how-to-stop-worrying-what-other-people-think)
