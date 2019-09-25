@@ -9,7 +9,7 @@ tags:
 
 category: post
 comments: true
-published: false
+published: true
 ---
 
 Mungkin isu ini sangat sensitif sekarang ini, terlebih dengan kasus cambridge analytica dan beberapa jebolnya masalah privasi dan keamanan di internet.
