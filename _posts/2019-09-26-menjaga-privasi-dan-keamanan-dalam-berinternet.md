@@ -12,13 +12,13 @@ comments: true
 published: true
 ---
 
-Mungkin isu ini sangat sensitif sekarang ini, terlebih dengan kasus cambridge analytica dan beberapa jebolnya masalah privasi dan keamanan di internet.
+Mungkin isu ini sangat sensitif sekarang ini, terlebih dengan kasus Cambridge Analytica dan beberapa jebolnya masalah privasi dan keamanan di internet.
 
 Pasti pernah mengalami ketika sedang chat atau ngobrol dengan teman, pasangan, bahas tentang sesuatu, tiba-tiba kita disugihi iklan yang mirip atau mendekati dengan apa yang kita sedang bahas, menakutkan? yup, pernah mengalami ini dan sempat nanya-nanya apa ini disadap ya?
 
 <!--more-->
 
-Mungkin saja, mungkin saja tidak, karena zaman sekarang *marketing tools* sudah sangat kompleks, canggih, rumit dan moderen, dengan ditambah dengan *artificial intelligent*(A.I), mereka dapat menerka apa yang sedang kita lakukan di internet, iya, gerak-gerik kita bisa diawasi, karena sebenarnya ponsel, komputer kita memiliki semacam sidik jari, yang unik, yang mana misalkan kita meninggalkan ‘jejak’, maka tools marketing itu akan mengikuti kita dari mana saja.
+Mungkin saja, mungkin juga tidak, karena zaman sekarang *marketing tools* sudah sangat kompleks, canggih, rumit dan moderen, dengan ditambah dengan *artificial intelligent*(A.I), mereka dapat menerka apa yang sedang kita lakukan di internet, iya, gerak-gerik kita bisa diawasi, karena sebenarnya ponsel, komputer kita memiliki semacam sidik jari, yang unik, yang mana misalkan kita meninggalkan ‘jejak’, maka tools marketing itu akan mengikuti kita dari mana saja, saking canggihnya kita sampai berpikir kalau kita disadap.
 
 Ambil skenario misalkan januari sedang googling susu untuk itu hamil, obat-obatan, vitamin dan lain-lain, di sini iklan akan menambilkan berbagai variasi dari obat-obat hamil, kemudian akhir-akhir kehamilan kita juga mencari baju bayi, dari awal sudah dibuntuti dan mengetahui perjalanan orang tersebut. dari hamil kemudian melahirkan akan terus diikuti.
 
