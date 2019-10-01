@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-10-01T16:41:58+07:00</updated>
+ <updated>2019-10-01T16:50:42+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -19,6 +19,19 @@
    <updated>2019-10-01T00:00:00+07:00</updated>
    <id>http://localhost:4000/2019/10/mencoba-reksadana-dengan-ajaib</id>
    <content type="html">&lt;p&gt;Semakin marak aplikasi-aplikasi yang memudahkan generasi millenials dan gen z untuk melakukan investasi, sebelumnya sudah membahas aplikasi seperti Bareksa, Tanamduit, Bibit. Kali ini yang dicoba adalah aplikasi &lt;a href=&quot;https://ajaib.co.id/&quot;&gt;Ajaib&lt;/a&gt; yang berfokus pada investasi reksa dana.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Investasi</title>
+   <link href="http://localhost:4000/2019/09/investasi"/>
+   <updated>2019-09-30T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/09/investasi</id>
+   <content type="html">&lt;p&gt;Kali ini membahas tentang investasi, karena lumayan agak sering membahas tentang reksa dana di sini, dan sampe membeli khusus domain &lt;a href=&quot;https://seputarfinansial.com&quot;&gt;seputarfinansial.com&lt;/a&gt; dan kali ini mencoba hanya fokus terhadap 2 instrumen investasi yaitu reksa dana dan saham.&lt;/p&gt;
+
+&lt;p&gt;Karena investasi ini iklimnya sedang naik sekarang, terutama dikalangan generasi milleanials dan gen z, akses terhadap investasi sangat penting, selain menabung tentunya, dan sekarang sangat dipermudah aksesnya.&lt;/p&gt;
+
+&lt;p&gt;Tujuan investasi bisa berbeda untuk setiap orang, tapi setidaknya ada persamaan yaitu mendapatkan nilai yang lebih dari apa yang kita investasikan dikemudian hari, yang tentunya menguntungkan, meski tidak lepas dari risiko-risiko yang ada, tergantung instrumen dan profil risikonya.&lt;/p&gt;
 </content>
  </entry>
  
