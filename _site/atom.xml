@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-10-01T16:50:42+07:00</updated>
+ <updated>2019-10-03T12:48:27+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,30 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Bagaimana agar tetap bisa update dengan teknologi terbaru?</title>
+   <link href="http://localhost:4000/2019/10/bagaimana-tetap-update-dengan-teknologi-terbaru"/>
+   <updated>2019-10-03T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/10/bagaimana-tetap-update-dengan-teknologi-terbaru</id>
+   <content type="html">&lt;p&gt;Untuk yang bekerja dan mengkonsumsi banyak waktu, perhatian, terhadap project, pastinya agak susah mendapatkan waktu untuk mengikuti teknologi terbaru, atau sekadar informasi rilis versi terbaru dari bahasa, &lt;em&gt;framework&lt;/em&gt;, dan lainnnya, jadinya kita kurang &lt;em&gt;update&lt;/em&gt; (&lt;em&gt;kudet&lt;/em&gt;(?)), padahal bidang IT adalah kerjaan sehari-hari, tentu tetap butuh &lt;em&gt;keep up&lt;/em&gt; dengan informasi baru.&lt;/p&gt;
+
+&lt;p&gt;Bagaimana caranya agar tetap bisa &lt;strong&gt;&lt;em&gt;up to date&lt;/em&gt;&lt;/strong&gt; dengan waktu yang terbatas?&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Agak gampang-gampang susah, semua sebenarnya ada, internet merupakan sumber yang tidak ada habisnya, informasi berseliweran, tinggal kita filter aja mana yang sekiranya menguntungkan kita dan bisa menambah pengetahuan dengan waktu kita yang minim, beberapa cara yang biasa saya lakukan&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mengikuti website yang khusus untuk development (&lt;a href=&quot;https://news.ycombinator.com/&quot;&gt;hackernews&lt;/a&gt; misalnya, atau kurasi link di &lt;a href=&quot;https://jakartadev.org/&quot;&gt;jakartadev.org&lt;/a&gt; (&lt;em&gt;shameless plug&lt;/em&gt;))&lt;/li&gt;
+  &lt;li&gt;Mengikuti webinar, tapi tonton yang sudah direkam, biasanya di Youtube banyak, contoh &lt;a href=&quot;https://www.youtube.com/watch?v=bJiU-Fdj6wg&quot;&gt;How to Accelerate Kubernetes Adoption with Konvoy&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Datang ke meetup, meski ini membutuhkan alokasi waktu, tapi karena meetup biasanya dijadwalkan sebulan sebelumnya, jadi mungkin bisa lebih leluasa atur jadwal dengan kerjaan.&lt;/li&gt;
+  &lt;li&gt;Podcast khusus dev dan tech, karena bisa sambil &lt;em&gt;commuting&lt;/em&gt;, misalkan saya langganan &lt;a href=&quot;https://kubernetespodcast.com/&quot;&gt;Kubenernetes Podcast&lt;/a&gt;, &lt;a href=&quot;https://changelog.com/podcast&quot;&gt;The Changelog&lt;/a&gt;, &lt;a href=&quot;https://feedpress.me/RideHome&quot;&gt;Techmeme Ridehome&lt;/a&gt;, &lt;a href=&quot;https://softwareengineeringdaily.com/&quot;&gt;Software Engineering Daily&lt;/a&gt;, &lt;a href=&quot;https://talkpython.fm/&quot;&gt;Talk Python&lt;/a&gt;, &lt;a href=&quot;https://pythonbytes.fm/&quot;&gt;Python Bytes&lt;/a&gt;, &lt;a href=&quot;https://changelog.com/gotime&quot;&gt;Go time&lt;/a&gt;, &lt;a href=&quot;https://changelog.com/jsparty&quot;&gt;JS Party&lt;/a&gt; dan lainnya.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mungkin cara di atas ada yang bisa berhasil atau tidak, atau mungkin ada cara lain? &lt;em&gt;share!&lt;/em&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Investasi Reksa Dana dengan aplikasi Ajaib</title>
@@ -31,7 +55,7 @@
 
 &lt;p&gt;Karena investasi ini iklimnya sedang naik sekarang, terutama dikalangan generasi milleanials dan gen z, akses terhadap investasi sangat penting, selain menabung tentunya, dan sekarang sangat dipermudah aksesnya.&lt;/p&gt;
 
-&lt;p&gt;Tujuan investasi bisa berbeda untuk setiap orang, tapi setidaknya ada persamaan yaitu mendapatkan nilai yang lebih dari apa yang kita investasikan dikemudian hari, yang tentunya menguntungkan, meski tidak lepas dari risiko-risiko yang ada, tergantung instrumen dan profil risikonya.&lt;/p&gt;
+&lt;p&gt;Tujuan investasi bisa berbeda untuk setiap orang, tapi setidaknya ada persamaan yaitu mendapatkan nilai yang lebih dari apa yang kita investasikan dikemudian harinya, yang tentunya menguntungkan, meski tidak lepas dari risiko-risiko yang ada, tergantung instrumen dan profil risikonya.&lt;/p&gt;
 </content>
  </entry>
  
