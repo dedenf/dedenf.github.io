@@ -14,7 +14,10 @@ published: true
 
 Reksadana sebagai salah satu cara untuk berinvestasi non-sektor rill (emas, properti, dll) menjadi salah satu cara mudah untuk melakukan investasi tanpa harus melakukan pembelian sesuatu yang fisik, setidaknya itu apa yang saya rasakan dan mengerti semenjak membeli produk reksadana, untuk mengetahui apa itu reksadana, silakan baca [artikel ini](https://www.moneysmart.id/untuk-pemula-begini-lah-cara-kerja-investasi-reksa-dana-dan-simulasinya-secara-sederhana/) dan [jenisnya](http://www.aberdeen-asset.com/tengoldenrulesid/article/jenis-jenis-reksadana.html).
 
+Untuk informasi seputar personal finance dan artikel investasi lainnya, silakan buka [Seputarfinansial.com](https://seputarfinansial.com).
+
 Dulu saya melakukan transaksi pembelian/penjualan unit reksadana di bank commonwealth, di bank ini menyediakan fitur di aplikasi web bankingnya pembelian atau penjualan (*redemption*) unit, nyaman, tapi pilihan terbatas (ini pengetahuan saya 3 tahun ke belakang, sudah tidak aktif menggunakan commbank).
+
 <!--more-->
 Saat ini saya mencoba melakukan investasi reksadana melalui Bukalapak dan Tokopedia, di Bukalapak produk/fitur reksadana menggunakan nama BukaReksa, sedang di Tokopedia menggunakan diberi nama, Reksa Dana di menu keuangan.
 

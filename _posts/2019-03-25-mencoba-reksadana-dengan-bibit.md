@@ -14,6 +14,9 @@ published: true
 
 Investasi dengan instrumen Reksadana sekarang ini, dimudahkan dengan makin banyaknya penyedia layanan penjualan produk reksadana, agen-agen ini menggunakan teknologi sebagai basis, yang mana tentu sangat memudahkan investor yang secara waktu tidak banyak untuk berkunjung ke broker-broker atau agen penjual.
 Seperti yang pernah saya tulis dan review sebelumnya, seperti [Bareksa, Investree dan TanamDuit](/2018/12/perbandingan-bareksa-tanamduit-investree-bagian-2), kali ini akan menuliskan review BIBIT.
+
+Untuk informasi seputar personal finance dan artikel investasi lainnya, silakan buka [Seputarfinansial.com](https://seputarfinansial.com).
+
 <!--more-->
 
 [Bibit](https://bibit.id/) merupakan aplikasi yang membantu untuk investasi anda melakukan investasi dalam produk reksadana, tersedia didalam Android atau iOS, dan juga web. Menurut situsnya, Bibit menggunakan teori Modern Portfolio, yakni diversifikasi portfolio, jadi tidak menjadikan hanya dalam satu tipe produk reksadana saja, tapi dipecah tergantung dari nilai risiko, nilai risiko ini didapat dengan kuisioner yang biasanya ditanyakan pada saat pertama kali registrasi.

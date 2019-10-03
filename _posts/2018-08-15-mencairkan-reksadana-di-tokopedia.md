@@ -16,6 +16,8 @@ Melanjutkan apa yang pernah saya tulis sebelummya, yaitu perbandingan [pembukaan
 
 Meskipun fitur Reksa Dana ini menggunakan Bareksa sebagai agen penjual reksa dana (APRD) seperti Bukalapak, tetapi Bareksa tidak menampilkan portfolio saya di web Bareksa untuk Reksa Dana yang saya beli di Tokopedia, lain hal dengan Bukalapak, akun saya dan portofolio langsung *nge-sync* dan bisa melakukan aksi di app/web Bareksa langsung, tetapi saya belum mencoba melakukan pembelian di Bareksa apakah akan *nge-sync* balik ke Bukalapak (saya rasa *sih* tidak akan, nanti dicoba).
 
+Untuk informasi seputar personal finance dan artikel investasi lainnya, silakan buka [Seputarfinansial.com](https://seputarfinansial.com).
+
 <!--more-->
 
 Untuk pencairan di bukalapak cukup cepat, kita disediakan pilihan untuk mencairkan berapa rupiah milik kita yang hendak dicairkan di menu "**Jual**", saya sejauh ini tidak menemukan opsi untuk menjual berdasarkan unit yang kita punya.

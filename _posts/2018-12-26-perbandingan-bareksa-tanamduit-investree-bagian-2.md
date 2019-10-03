@@ -16,6 +16,9 @@ _Bagian kedua pembahasan layanan investasi online yakni Bareksa, Tanam Duit dan 
 
 Pada bagian pertama, dijelaskan tentang apa yang disajikan dimasing-masing website dan bagaimana caranya untuk membuka akun dimasing-masing website/aplikasi.
 
+Untuk informasi seputar personal finance dan artikel investasi lainnya, silakan buka [Seputarfinansial.com](https://seputarfinansial.com).
+
+
 <!--more-->
 
 # Pembelian dan penjualan

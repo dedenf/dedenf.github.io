@@ -17,6 +17,8 @@ published: true
 
 Dengan teknologi yang sekarang menyentuh hampir semua lini, menonton di bioskop adalah salah satu bentuk hiburan yang tak lepas dari kemajuan teknologi, pembelian tiket bioskop sekarang amat mudah, bisa dilakukan di rumah, dimanapun. 
 
+Untuk informasi seputar personal finance dan artikel investasi lainnya, silakan buka [Seputarfinansial.com](https://seputarfinansial.com).
+
 Ini adalah pengalaman saya menggunakan M-Tix XXI sebagai salah satu bioskop yang banyak cabangnya di indonesia.
 
 Di aplikasi **Cinema XXI**, untuk pembelian tiket diharuskan melakukan *topup* saldo yang ada di aplikasi itu yang terkait dengan akun yang dimiliki, untuk pengisian bisa melalui beberapa *channel*, antara lain.

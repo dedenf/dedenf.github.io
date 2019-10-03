@@ -13,6 +13,9 @@ published: true
 ---
 
 Setelah sebelumnya menulis, "[Topup eMoney menggunakan Jenius](https://jenius.tech/2017/10/19/jenius-topup-emoney/)", beberapa waktu lalu, sepertinya Mandiri memutuskan untuk tidak lagi men-*support* aplikasi isi ulang, ditandai dengan ditariknya aplikasi [*mandiri e-money isi ulang*](https://play.google.com/store/apps/details?id=id.co.bankmandiri.mandiriemoneynfc&hl=in) di playstore, dan juga jika anda sudah pernah mengunduh aplikasi tersebut, akan selalu ada pesan gagal terhubung ke server.
+
+Untuk informasi seputar personal finance dan artikel investasi lainnya, silakan buka [Seputarfinansial.com](https://seputarfinansial.com).
+
 <!--more-->
 ### **Tokopedia**
 Sepertinya, Mandiri sudah memiliki kesepakatan dengan Tokopedia untuk melakukan topup dan aktivasi saldo dengan menggunakan aplikasi Tokopedia, dan Tokopedia memang sudah menjadi *mini-apps* di dalamnya, strategi yang hampir sama dilakukan oleh Go-Jek, BukaLapak. Hal ini dipelopori oleh WeChat sebelumnya di china yang bisa membuka mini aplikasi di dalam aplikasi WeChat, dalam hal Tokopedia, *mini-apps* berupa layanan-layanan kecil yang hampir menyentuh banyak kebutuhan kita, bahkan investasi pun ada.
