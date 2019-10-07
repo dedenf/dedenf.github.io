@@ -9,7 +9,7 @@ tags:
     - "daily found"
     - ngaturduit
     - investasi
-
+categories: [dailyfound]
 published: true
 comments: true
 ---

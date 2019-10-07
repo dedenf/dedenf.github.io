@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<h1 class="center">Archive</h1>
+<hr class="half-width">
+
 {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y %B'"  %}
 {% for yearMonth in postsByYearMonth %}
   <h3>{{ yearMonth.name }}</h3>

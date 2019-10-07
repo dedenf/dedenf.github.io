@@ -3,7 +3,9 @@ layout: page
 title: Tentang
 ---
 
-# About
+<h1 class="center">About</h1>
+<hr class="half-width">
+
 <div class="author__avatar">
     <a href="https://notes.dedenf.com/">
         <img src="/public/avatar.jpg" alt="Deden Fathurahman" itemprop="image">

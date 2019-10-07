@@ -7,7 +7,7 @@ category: links
 tags: 
     - finance
     - "daily found"
-
+categories: [dailyfound]
 published: true
 comments: true
 ---

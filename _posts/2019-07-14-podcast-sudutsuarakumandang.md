@@ -8,7 +8,7 @@ tags:
     - life
     - podcast
     - "daily found"
-
+categories: [dailyfound]
 published: true
 ---
 

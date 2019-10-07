@@ -6,7 +6,7 @@ tags:
     - blog
     - development
 
-category: post
+category: [post]
 comments: true
 published: true
 ---

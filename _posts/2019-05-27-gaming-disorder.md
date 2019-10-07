@@ -7,7 +7,7 @@ category: links
 tags: 
     - gaming
     - "daily found"
-
+categories: [dailyfound]
 published: true
 comments: true
 ---

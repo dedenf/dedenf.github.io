@@ -7,7 +7,7 @@ tags:
     - development
     - "daily found"
     - podcast
-
+categories: [dailyfound]
 published: true
 comments: true
 ---

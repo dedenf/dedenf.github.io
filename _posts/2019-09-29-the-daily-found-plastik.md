@@ -8,7 +8,7 @@ tags:
     - plastic
     - "daily found"
     - health
-
+categories: [dailyfound]
 published: true
 comments: true
 ---

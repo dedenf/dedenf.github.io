@@ -7,7 +7,7 @@ category: links
 tags: 
     - engineer
     - "daily found"
-
+categories: [dailyfound]
 published: true
 comments: true
 ---

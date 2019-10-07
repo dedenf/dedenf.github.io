@@ -8,7 +8,7 @@ tags:
     - apple
     - "daily found"
     - microsoft
-
+categories: [dailyfound]
 published: true
 comments: true
 ---

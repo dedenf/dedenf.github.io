@@ -8,7 +8,7 @@ tags:
     - seputarfinansial
     - "daily found"
     - ngaturduit
-
+categories: [dailyfound]
 published: true
 comments: true
 ---

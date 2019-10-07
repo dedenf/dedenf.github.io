@@ -3,13 +3,13 @@ layout: link
 type: link
 link: https://anchor.fm/suara-puan/
 title: "Podcast: Suara Puan"
-category: [dailyfound, link, podcast]
+category: [link, podcast]
 tags: 
     - asmr
     - podcast
     - life
     - "daily found"
-
+categories: [dailyfound]
 published: true
 comments: true
 ---

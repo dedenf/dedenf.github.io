@@ -7,7 +7,7 @@ tags:
     - finansial
     - "daily found"
     - seputarfinansial
-
+categories: [dailyfound]
 published: true
 comments: true
 ---

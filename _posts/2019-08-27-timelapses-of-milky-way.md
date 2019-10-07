@@ -7,7 +7,7 @@ tags:
     - stars
     - "daily found"
     - universe
-
+categories: [dailyfound]
 published: true
 comments: true
 ---

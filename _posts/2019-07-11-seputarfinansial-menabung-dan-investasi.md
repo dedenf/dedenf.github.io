@@ -7,7 +7,7 @@ tags:
     - seputarfinansial
     - "daily found"
     - investasi
-
+categories: [dailyfound]
 published: true
 comments: true
 ---

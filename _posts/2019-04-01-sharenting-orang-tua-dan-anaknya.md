@@ -8,7 +8,7 @@ tags:
     - tech
     - life
     - "daily found"
-
+categories: [dailyfound]
 published: true
 ---
 

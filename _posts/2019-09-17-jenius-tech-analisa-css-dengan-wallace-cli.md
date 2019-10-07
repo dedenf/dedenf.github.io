@@ -8,7 +8,7 @@ tags:
     - "daily found"
     - jenius
     - css
-
+categories: [dailyfound]
 published: true
 comments: true
 ---

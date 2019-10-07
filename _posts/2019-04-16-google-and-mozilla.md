@@ -10,7 +10,7 @@ tags:
     - google
     - mozilla
     - "daily found"
-
+categories: [dailyfound]
 published: true
 comments: true
 ---

@@ -9,7 +9,7 @@ tags:
     - "daily found"
     - fakenews
     - rant
-
+categories: [dailyfound]
 published: true
 comments: true
 ---
