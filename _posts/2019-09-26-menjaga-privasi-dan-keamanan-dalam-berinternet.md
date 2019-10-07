@@ -47,11 +47,11 @@ Langkah selanjutnya agak lebih teknikal, untuk settingan di atas bisa lumayan cu
 #### Encrypted DNS resolver
 Sederhananya, jika kita meminta satu nama website, misalkan detik.com, handphone/komputer akan bertanya ke ISP/Operator yang kita gunakan (misalkan biznet, indosat, telkomsel dll) berapa IP address-nya, dari sini ISP/Operator akan mencari IP dari website tersebut dan mencatat permintaan kita ke website tersebut, dan sudah pasti detik.com juga memanggil resource yang lain, bisa berupa gambar, scripts, dan yang pasti iklan-iklannya yang kadang bikin sakit mata.
 
-Dengan menggunakan encrypted dns resolver, request yang kita lakukan itu dienkripsi dan tidak bisa disadap, dan juga request kita tidak tercatat di ISP/Operator, tetapi melalui resolver ini, selain itu, memiliki fitur tambahan, yaitu blocking iklan, tracking, malware dan juga domain-domain yang terindikasi phising.
+Dengan menggunakan encrypted dns resolver, request domain yang kita lakukan tersebut dienkrip, dan juga request kita tidak tercatat di ISP/Operator, tetapi melalui resolver ini, selain itu, memiliki fitur tambahan, yaitu blocking iklan, *tracking*, malware dan juga domain-domain yang terindikasi phising.
 
-Ada banyak penyedia enkripsi dns ini, artikel yang bagus dari [Lifehacker](https://lifehacker.com/how-to-boost-your-internet-security-with-dnscrypt-510386189), di sini dijelaskn guna dan mekanisme enkripsi DNS.
+Ada banyak penyedia enkripsi DNS ini, artikel yang bagus dari [Lifehacker](https://lifehacker.com/how-to-boost-your-internet-security-with-dnscrypt-510386189), di sini dijelaskn guna dan mekanisme enkripsi DNS.
 
-Untuk pribadi, saya menggunakan [tiar.app](https://doh.tiar.app/), service yang dibangun oleh [teman](https://github.com/pengelana/blocklist/), mendukung [DNSCrypt](https://en.wikipedia.org/wiki/DNSCrypt), [DoH](https://en.wikipedia.org/wiki/DNS_over_HTTPS), [DoT](https://en.wikipedia.org/wiki/DNS_over_TLS).
+Untuk pribadi, saya menggunakan [doh.tiar.app](https://doh.tiar.app/), service yang dibangun oleh [teman](https://github.com/pengelana/blocklist/), mendukung [DNSCrypt](https://en.wikipedia.org/wiki/DNSCrypt), [DoH](https://en.wikipedia.org/wiki/DNS_over_HTTPS), [DoT](https://en.wikipedia.org/wiki/DNS_over_TLS).
 
 Untuk implementasi enkripsi DNS ini di smartphone dan komputer, saya pribadi menggunakan aplikasi-aplikasi berikut
 - Android, menggunakan [Intra app](https://play.google.com/store/apps/details) dengan settingan [tiar.app](https://github.com/pengelana/blocklist/wiki/DNS-over-HTTPS-(DoH)#android)
