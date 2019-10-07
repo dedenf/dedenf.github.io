@@ -1,20 +1,20 @@
 <footer class='py4'>
-  {% include footer.html %}
-  <br>
+  <nav class="pagination">
   {% if paginator.previous_page %}
   {% if paginator.page == 2 %}
-    <a class='h2' href="{{ site.baseurl }}/">&larr;</a>
+    <a class='h3' href="{{ site.baseurl }}/">&larr; Newer</a>
   {% else %}
-    <a class='h2' href="{{ site.baseurl }}/page/{{ paginator.previous_page }}/">&larr;</a>
+    <a class='h3 button' href="{{ site.baseurl }}/page/{{ paginator.previous_page }}/">&larr; Newer</a>
   {% endif %}
   {% else %}
-  <span class='h2'>&larr;</span>
+  <span class='h3'>&nbsp;</span>
   {% endif %}
 
   {% if paginator.next_page %}
-    <a class='h2' href="{{ site.baseurl }}/page/{{ paginator.next_page }}/">&rarr;</a>
+    <a class='h3 button' href="{{ site.baseurl }}/page/{{ paginator.next_page }}/">Older &rarr;</a>
   {% else %}
-    <span class='h2'>&rarr;</span>
+    <span class='h3'>&nbsp;</span>
   {% endif %}
-  
+  </nav>
+  {% include footer.html %}
 </footer>

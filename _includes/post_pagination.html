@@ -1,13 +1,17 @@
 <footer class='py4'>
-  {% if page.previous.url %}
-    <a class='h2' href="{{ site.baseurl }}{{ page.previous.url }}/">&larr;</a>
-  {% else %}
-    <span class='h2'>&larr;</span>
-  {% endif %}
+    <nav class="pagination">
+        {% if page.previous.url %}
+        <a class='h3' href="{{ site.baseurl }}{{ page.previous.url }}/">&larr; Older</a>
+        {% else %}
+          <span class='h3'>&larr;</span>
+        {% endif %}
 
-  {% if page.next.url %}
-    <a class='h2' href="{{ site.baseurl }}{{ page.next.url }}/">&rarr;</a>
-  {% else %}
-    <span class='h2'>&rarr;</span>
-  {% endif %}
+        {% if page.next.url %}
+          <a class='h3' href="{{ site.baseurl }}{{ page.next.url }}/">Newer &rarr;</a>
+        {% else %}
+          <span class='h3'>&rarr;</span>
+        {% endif %}
+    </nav>
+      {% include footer.html %}
+  
 </footer>

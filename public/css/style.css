@@ -30,7 +30,7 @@ article h3, article h4,article h5, article h6{font-family:'Lato',Helvetica,sans-
 dl,ol,p,ul{line-height:1.5}
 code,pre,samp{font-family:'Source Code Pro',Consolas,monospace;background:#f0f0f0;padding:2px 5px}
 pre{overflow-x:scroll}
-hr{margin-top:5rem;margin-bottom:5rem}
+hr{margin-top:3rem;margin-bottom:3rem}
 blockquote{border-left:2px solid #005eb0;color:#767676;margin:1rem 0;padding:0 1rem;font-style:italic;}
 blockquote,blockquote p{font-style:italic;}
 .h1,h1{font-size:2rem}
@@ -58,6 +58,7 @@ blockquote,blockquote p{font-style:italic;}
 .regular{font-weight:400}
 .caps{text-transform:uppercase;letter-spacing:.2em}
 .center{text-align:center}
+.text-left{text-align:left}
 .right-align{text-align:right}
 .justify{text-align:left}
 .break-word{word-wrap:break-word}
@@ -102,7 +103,7 @@ blockquote,blockquote p{font-style:italic;}
 .py3{padding-top:2rem;padding-bottom:2rem}
 .px3{padding-left:2rem;padding-right:2rem}
 .p4{padding:4rem}
-.py4{padding-top:4rem;padding-bottom:4rem}
+.py4{padding-top:2rem;padding-bottom:2rem}
 .px4{padding-left:4rem;padding-right:4rem}
 .lg-show,.md-show,.sm-show{display:none!important}
 @media (min-width:40em){
@@ -420,6 +421,51 @@ h1.mb1{font-family:'Crimson Text',Bitter,serif;font-size:1.8em}
 .h3.mb0,h2.m0{font-family:'Crimson Text',Bitter,serif;font-size:30px;font-weight:400;line-height:1.2;opacity:1;margin-top:0;margin-bottom:10px;letter-spacing:-.72px;word-spacing:0;text-transform:none}
 h4.m0{margin-top:10px}
 .footnotes{border-top:1px solid silver;padding:20px 0;margin:40px 0 0}
+footer {font-family: 'Enriqueta', 'Lato', sans-serif;font-weight: normal;line-height: 1.65em;font-size: .9em;padding-bottom: 8px;}
+footer .meta {
+    color: #666;
+    font-size: .8em;
+    font-family: 'Lato', sans-serif;font-weight: normal;line-height: 1.65em;
+}
+nav.pagination {padding-top: 2rem;padding-bottom: 1rem;
+        margin: 1rem 0;
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+nav.pagination a, nav.pagination a:visited{color: #005eb0;}
+a.button:hover {
+    border: none;
+    background-color: var(--darkgrey);
+    color: var(--white);
+}
+a.button{
+    border: none;
+    background-color: var(--darkgrey);
+    color: var(--white);
+}
+.elsewhere {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 2.2rem;
+    font-size: var(--font-size);
+    margin: 2rem 0 1.5rem;
+    border-top: 1px solid var(--lightgrey);
+    border-bottom: 1px solid var(--lightgrey);
+}
+.elsewhere h4 {margin-right: 1rem;}
+.list-inline {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.list-inline li {
+    list-style: none;
+    display: inline-block;
+    margin-right: .6rem;
+}
 .image-caption {font-size: 16px;text-align: center;font-style: italic;margin:5px 0;color:#333;}
 .photo-credit{font-style:italic;margin-bottom:10px;text-align:center}
 .author__avatar{display:table-cell;vertical-align:top;width:36px;height:36px;margin-left:0;margin-right:0;text-align:center}
