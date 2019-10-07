@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-10-07T20:49:46+07:00</updated>
+ <updated>2019-10-07T23:27:44+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -151,11 +151,11 @@ ada banyak fitur lain yang dibahas antara lain budgeting, histori, trend pengelu
 &lt;h4 id=&quot;encrypted-dns-resolver&quot;&gt;Encrypted DNS resolver&lt;/h4&gt;
 &lt;p&gt;Sederhananya, jika kita meminta satu nama website, misalkan detik.com, handphone/komputer akan bertanya ke ISP/Operator yang kita gunakan (misalkan biznet, indosat, telkomsel dll) berapa IP address-nya, dari sini ISP/Operator akan mencari IP dari website tersebut dan mencatat permintaan kita ke website tersebut, dan sudah pasti detik.com juga memanggil resource yang lain, bisa berupa gambar, scripts, dan yang pasti iklan-iklannya yang kadang bikin sakit mata.&lt;/p&gt;
 
-&lt;p&gt;Dengan menggunakan encrypted dns resolver, request yang kita lakukan itu dienkripsi dan tidak bisa disadap, dan juga request kita tidak tercatat di ISP/Operator, tetapi melalui resolver ini, selain itu, memiliki fitur tambahan, yaitu blocking iklan, tracking, malware dan juga domain-domain yang terindikasi phising.&lt;/p&gt;
+&lt;p&gt;Dengan menggunakan encrypted dns resolver, request domain yang kita lakukan tersebut dienkrip, dan juga request kita tidak tercatat di ISP/Operator, tetapi melalui resolver ini, selain itu, memiliki fitur tambahan, yaitu blocking iklan, &lt;em&gt;tracking&lt;/em&gt;, malware dan juga domain-domain yang terindikasi phising.&lt;/p&gt;
 
-&lt;p&gt;Ada banyak penyedia enkripsi dns ini, artikel yang bagus dari &lt;a href=&quot;https://lifehacker.com/how-to-boost-your-internet-security-with-dnscrypt-510386189&quot;&gt;Lifehacker&lt;/a&gt;, di sini dijelaskn guna dan mekanisme enkripsi DNS.&lt;/p&gt;
+&lt;p&gt;Ada banyak penyedia enkripsi DNS ini, artikel yang bagus dari &lt;a href=&quot;https://lifehacker.com/how-to-boost-your-internet-security-with-dnscrypt-510386189&quot;&gt;Lifehacker&lt;/a&gt;, di sini dijelaskn guna dan mekanisme enkripsi DNS.&lt;/p&gt;
 
-&lt;p&gt;Untuk pribadi, saya menggunakan &lt;a href=&quot;https://doh.tiar.app/&quot;&gt;tiar.app&lt;/a&gt;, service yang dibangun oleh &lt;a href=&quot;https://github.com/pengelana/blocklist/&quot;&gt;teman&lt;/a&gt;, mendukung &lt;a href=&quot;https://en.wikipedia.org/wiki/DNSCrypt&quot;&gt;DNSCrypt&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/DNS_over_HTTPS&quot;&gt;DoH&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/DNS_over_TLS&quot;&gt;DoT&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Untuk pribadi, saya menggunakan &lt;a href=&quot;https://doh.tiar.app/&quot;&gt;doh.tiar.app&lt;/a&gt;, service yang dibangun oleh &lt;a href=&quot;https://github.com/pengelana/blocklist/&quot;&gt;teman&lt;/a&gt;, mendukung &lt;a href=&quot;https://en.wikipedia.org/wiki/DNSCrypt&quot;&gt;DNSCrypt&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/DNS_over_HTTPS&quot;&gt;DoH&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/DNS_over_TLS&quot;&gt;DoT&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Untuk implementasi enkripsi DNS ini di smartphone dan komputer, saya pribadi menggunakan aplikasi-aplikasi berikut&lt;/p&gt;
 &lt;ul&gt;

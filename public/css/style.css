@@ -456,10 +456,14 @@ a.button{
     border-bottom: 1px solid var(--lightgrey);
 }
 .elsewhere h4 {margin-right: 1rem;}
+
 .list-inline {
     margin: 0;
     padding: 0;
-    display: flex;
+    @media (min-width: 25em) {
+        display: flex;
+      }
+    
 }
 .list-inline li {
     list-style: none;
