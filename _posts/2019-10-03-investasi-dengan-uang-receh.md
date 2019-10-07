@@ -9,7 +9,7 @@ tags:
     - "daily found"
     - investment
     - "personal finance"
-
+categories: dailyfound
 published: true
 comments: true
 ---
