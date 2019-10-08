@@ -463,7 +463,6 @@ a.button{
     @media (min-width: 25em) {
         display: flex;
       }
-    
 }
 .list-inline li {
     list-style: none;
