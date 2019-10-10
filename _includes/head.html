@@ -34,7 +34,12 @@
   <link rel="shortcut icon" href="/public/favicon.png"/>
 
   <link rel="canonical" href="{{ site.url }}">
+
+  {% if page.image.feature %}
+  <link rel="image_src" href="{{ site.baseurl }}{{ page.image.feature }}">
+  {% else %}
   <link rel="image_src" href="/public/deden.png">
+  {% endif %}
 
   <!-- Sharing -->
   {% if page.title == "Home" %}
@@ -59,15 +64,30 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@dedenf">
   <meta name="twitter:title" content="{{ page.title }}">
+  {% if page.title == "Home" %}
+  <meta name="twitter:description" content="{{ site.description }}">
+  {% else %}
   <meta name="twitter:description" content="{{ page.content | strip_html| truncatewords:50 | split:'<!--break-->' | first }}">
+  {% endif %}
+  {% if page.image.feature %}
+  <meta name="twitter:image:src" content="{{ site.baseurl }}{{ page.image.feature }}">
+  {% else %}
   <meta name="twitter:image:src" content="{{ site.baseurl }}/public/deden.png">
+  {% endif %}
+  
   {% endif %}
 
 
   <meta itemprop="name" content="{{ page.title }}" />
 	<meta itemprop="headline" content="{{ page.title }}" />
-	<meta itemprop="author" content="dedenf, deden fathurahman" />
-	<meta itemprop="description" content="{{ page.content | strip_html| truncatewords:50 | split:'<!--break-->' | first }}" />
+	<meta itemprop="author" content="Deden Fathurahman" />
+  {% if page.title == "Home" %}
+  <meta itemprop="description" content="{{ site.description }}">
+  {% else %}
+  <meta itemprop="description" content="{{ page.content | strip_html| truncatewords:50 | split:'<!--break-->' | first }}" />
+  {% endif %}
+
+	
 	<link itemprop="url" href="{{ site.url }}{{ page.url }}" />
 
   {% if page.gallery == true %}

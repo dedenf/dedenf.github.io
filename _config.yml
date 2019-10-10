@@ -12,7 +12,7 @@ permalink: /:year/:month/:title
 # Setup
 title:            "HyperText Thrones"
 tagline:          "on the HyperText"
-description:      'HyperText Thrones'
+description:      "HyperText Thrones, Daily muse, putting my tought, reaction, comments, and things that i need to write. About tech, financial, life."
 url:              https://notes.dedenf.com
 baseurl: 		      ""
 author:

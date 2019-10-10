@@ -33,7 +33,10 @@
   <link rel="shortcut icon" href="/public/favicon.png"/>
 
   <link rel="canonical" href="http://localhost:4000">
+
+  
   <link rel="image_src" href="/public/deden.png">
+  
 
   <!-- Sharing -->
   
@@ -52,15 +55,24 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@dedenf">
   <meta name="twitter:title" content="Reading">
+  
   <meta name="twitter:description" content="Reading {% for post in site.posts %} {% if post.categories contains "dailyfound" %} {% if post.link %} {{ post.date | date: '%B %-d, %Y' }} &mdash; link to the post {{ post.title }} &rarr; {% else %} {{ post.title }} {{ post.date | date: '%B %-d, %Y' }} &mdash; {%...">
+  
+  
   <meta name="twitter:image:src" content="/public/deden.png">
+  
+  
   
 
 
   <meta itemprop="name" content="Reading" />
 	<meta itemprop="headline" content="Reading" />
-	<meta itemprop="author" content="dedenf, deden fathurahman" />
-	<meta itemprop="description" content="Reading {% for post in site.posts %} {% if post.categories contains "dailyfound" %} {% if post.link %} {{ post.date | date: '%B %-d, %Y' }} &mdash; link to the post {{ post.title }} &rarr; {% else %} {{ post.title }} {{ post.date | date: '%B %-d, %Y' }} &mdash; {%..." />
+	<meta itemprop="author" content="Deden Fathurahman" />
+  
+  <meta itemprop="description" content="Reading {% for post in site.posts %} {% if post.categories contains "dailyfound" %} {% if post.link %} {{ post.date | date: '%B %-d, %Y' }} &mdash; link to the post {{ post.title }} &rarr; {% else %} {{ post.title }} {{ post.date | date: '%B %-d, %Y' }} &mdash; {%..." />
+  
+
+	
 	<link itemprop="url" href="http://localhost:4000/my-reading" />
 
   

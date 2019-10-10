@@ -7,10 +7,23 @@ tags:
     - security
     - privacy
 
+summary: "<p>Mungkin isu ini sangat sensitif sekarang ini, terlebih dengan kasus Cambridge Analytica dan beberapa jebolnya masalah privasi dan keamanan di internet.</p>
+
+<p>Pasti pernah mengalami ketika sedang chat atau ngobrol dengan teman, pasangan, bahas tentang sesuatu, tiba-tiba kita disugihi iklan yang mirip atau mendekati dengan apa yang kita sedang bahas, menakutkan? yup, pernah mengalami ini dan sempat nanya-nanya apa ini disadap ya?</p>"
+image:
+  feature: /images/posts/ev-gpjvRZyavZc-unsplash.jpg
+  teaser: /images/posts/ev-gpjvRZyavZc-unsplash.jpg
+  credit: ev
+  source: <a href="https://unsplash.com/photos/gpjvRZyavZc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  creditlink: https://unsplash.com/@ev
 category: post
 comments: true
 published: true
 ---
+
+![](/images/posts/ev-gpjvRZyavZc-unsplash.jpg)
+<p><center><em>Photo by <a href="https://unsplash.com/@ev?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ev</a> on <a href="https://unsplash.com/photos/gpjvRZyavZc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></em></center></p>
+
 
 Mungkin isu ini sangat sensitif sekarang ini, terlebih dengan kasus Cambridge Analytica dan beberapa jebolnya masalah privasi dan keamanan di internet.
 

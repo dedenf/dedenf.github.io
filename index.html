@@ -19,7 +19,9 @@ with_header: true
 
     {% if post.summary %}
       {% if post.image.teaser %}
-        <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/images/{{ post.image.teaser }}"></a>
+        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image.teaser }}"></a>
+      {% else if post.image.feature %}
+      <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image.feature }}"></a>
       {% endif %}
       {{ post.summary | markdownify }}
       <a href='{{ site.baseurl }}{{ post.url }}/'>Continue reading &rarr;</a>
@@ -29,7 +31,7 @@ with_header: true
         {% if post.page_type != "long" %}
         
           {% if words > 110 %}
-            {{ post.excerpt }} <a href="{{ site.github.url }}{{ post.url }}">Read more &rarr;</a>
+            {{ post.excerpt }} <a href="{{ site.baseurl }}{{ post.url }}">Read more &rarr;</a>
           {% else %}
             {{ post.content }}
           {% endif %}
@@ -59,9 +61,14 @@ with_header: true
     {% endif %}
 
     {% if post.summary %}
-      {% if post.image.teaser %}
-        <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/images/{{ post.image.teaser }}"></a>
-      {% endif %}
+    {% if post.image.teaser %}
+      <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image.teaser }}"></a>
+    {% else if post.image.feature %}
+      <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image.feature }}"></a>
+    {% endif %}
+    {% if post.image.credit %}
+    <p><center><em>Photo by <a href="{{ post.image.creditlink }}">{{ post.image.credit }}</a> on {{ post.image.source }}</em></center></p>
+    {% endif %}
       {{ post.summary | markdownify }}
       <a href='{{ site.baseurl }}{{ post.url }}/'>Continue reading &rarr;</a>
     {% else %}
@@ -71,8 +78,14 @@ with_header: true
         {% if post.page_type != "long" %}
         
           {% if words > 100 %}
+          {% if post.image.teaser %}
+          <a href="{{ site.url }}{{ post.url }}"><img src="{{ post.image.teaser }}"></a>
+        {% else if post.image.feature %}
+        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image.feature }}"></a>
+        {% endif %}
+
             {{ post.excerpt }} 
-            <a href="{{ site.github.url }}{{ post.url }}">Read more &rarr;</a><br><br>
+            <a href="{{ site.baseurl }}{{ post.url }}">Read more &rarr;</a><br><br>
           {% else %}
             {{ post.content }}
           {% endif %}
