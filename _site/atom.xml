@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-10-10T14:22:53+07:00</updated>
+ <updated>2019-10-11T00:20:46+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,19 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Bank digital, apa itu?</title>
+   <link href="http://localhost:4000/2019/10/seputarfinansial-bank-digital"/>
+   <updated>2019-10-11T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/10/seputarfinansial-bank-digital</id>
+   <content type="html">&lt;p&gt;Bank digital, yang sedang marak, seiring dengan banyaknya startup atau bisnis dengan label &lt;em&gt;fintech&lt;/em&gt;, atau financial technology, keperluan perbankan ini lebih banyak mengandalkan komputer atau smartphone untuk menggunakannya.&lt;/p&gt;
+
+&lt;p&gt;Apa saja yang bisa dilakukan dengan bank digital?&lt;/p&gt;
+
+&lt;p&gt;via &lt;a href=&quot;https://seputarfinansial.com/bank-digital-apa-itu/&quot;&gt;seputarfinansial.com&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Why smart people are more likely to believe fake news </title>
