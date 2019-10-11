@@ -16,6 +16,6 @@ comments: true
 
 Bank digital, yang sedang marak, seiring dengan banyaknya startup atau bisnis dengan label *fintech*, atau financial technology, keperluan perbankan ini lebih banyak mengandalkan komputer atau smartphone untuk menggunakannya.
 
-Apa saja yang bisa dilakukan dengan bank digital?
+Apa saja yang bisa dilakukan dengan bank digital? 
 
 via [seputarfinansial.com](https://seputarfinansial.com/bank-digital-apa-itu/)
