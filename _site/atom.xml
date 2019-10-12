@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-10-11T14:11:34+07:00</updated>
+ <updated>2019-10-12T23:19:08+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -14,18 +14,12 @@
 
  
  <entry>
-   <title>The Power of Placebo: How Our Brains Can Heal Our Minds and Bodies</title>
-   <link href="http://localhost:4000/2019/10/the-power-of-placebo-dan-cognitive-biases"/>
-   <updated>2019-10-11T00:00:00+07:00</updated>
-   <id>http://localhost:4000/2019/10/the-power-of-placebo-dan-cognitive-biases</id>
-   <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;..our brain’s most remarkable powers: its ability to heal both mind and body. Vance explores the profound influence our thoughts, feelings and expectations can have on our well-being—how a positive outlook can, for example, help ease physical pain.&lt;/p&gt;
-&lt;/blockquote&gt;
+   <title>8 powerful ways to overcome thinking errors and cognitive biases</title>
+   <link href="http://localhost:4000/2019/10/8-overcome-cognitive-biases"/>
+   <updated>2019-10-12T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/10/8-overcome-cognitive-biases</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Cognitive biases&lt;/em&gt;, &lt;a href=&quot;https://notes.dedenf.com/2019/07/logical-fallacy-kesesatan-berpikir&quot;&gt;&lt;em&gt;logical fallacy&lt;/em&gt;&lt;/a&gt; dan kesalahan berpikir hal yang sering terjadi sebenarnya, entah sadar atau tidak, artikel membahas cara mengatasi hal-hal tersebut sebelum jatuh ke prasangka (&lt;em&gt;bias&lt;/em&gt; dalam bahasa inggris).&lt;/p&gt;
 
-&lt;p&gt;Dokter terkadang sering juga ngasih resep obat yang mungkin tidak ada efeknya, tapi karena ada efek placebo, percaya dengan dokter + obat yang diberi maka akan lebih cepat sembuh.&lt;/p&gt;
-
-&lt;h1 id=&quot;8-powerful-ways-to-overcome-thinking-errors-and-cognitive-biases&quot;&gt;&lt;a href=&quot;https://cognitiontoday.com/2018/03/8-powerful-ways-to-overcome-thinking-errors-and-cognitive-biases/&quot;&gt;8 powerful ways to overcome thinking errors and cognitive biases&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;Cognitive biases&lt;/em&gt;, &lt;a href=&quot;https://notes.dedenf.com/2019/07/logical-fallacy-kesesatan-berpikir&quot;&gt;&lt;em&gt;logical fallacy&lt;/em&gt;&lt;/a&gt; dan kesalahan berpikir hal yang sering terjadi sebenarnya, entah sadar atau tidak, artikel membahas cara mengatasi hal-hal tersebut sebelum jatuh ke prasangka (&lt;em&gt;bias&lt;/em&gt; dalam bahas inggris).&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;Fokus terhadap data&lt;/li&gt;
   &lt;li&gt;Cari data/informasi lain&lt;/li&gt;
@@ -36,6 +30,20 @@
   &lt;li&gt;Lihat dari banyak sisi, perspektif.&lt;/li&gt;
   &lt;li&gt;Kita tidak tahu semua hal, maka dari itu kita tidak tahu apa yang kita tidak tahu (iya, ribet, tapi memang fakta)&lt;/li&gt;
 &lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Power of Placebo: How Our Brains Can Heal Our Minds and Bodies</title>
+   <link href="http://localhost:4000/2019/10/the-power-of-placebo"/>
+   <updated>2019-10-11T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/10/the-power-of-placebo</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;..our brain’s most remarkable powers: its ability to heal both mind and body. Vance explores the profound influence our thoughts, feelings and expectations can have on our well-being—how a positive outlook can, for example, help ease physical pain.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Dokter terkadang sering juga ngasih resep obat yang mungkin tidak ada efeknya, tapi karena ada efek placebo, percaya dengan dokter + obat yang diberi maka akan lebih cepat sembuh.&lt;/p&gt;
+
 </content>
  </entry>
  
@@ -991,7 +999,7 @@ Perubahan yang terjadi dalam hidup yang bersangkutan ini banyak disebut oleh ora
 
 &lt;p&gt;Saya teringat Gus muwaffiq dalam melihat fenomena ini, menurut beliau, hijrah, pada masa Nabi Muhammad SAW, hijrah itu adalah kebenaran yang sudah benar yang saat itu tidak bisa lagi diajarkan di mekah, maka nabi Muhammad SAW hijrah/pindah ke Madinah, dimana beliau mengajarkan islam di sana, dan berkembang. Sementara itu, untuk kasus hijrah di sini, dari proses sebelum memakai pakaian syar’i kemudian menggunakan pakaian syar’i, ini tidak disebut hijrah, melainkan taubat.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;wallahua’lam bissowan&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;wallahua’lam bissowab&lt;/em&gt;.&lt;/p&gt;
 </content>
  </entry>
  

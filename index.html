@@ -102,7 +102,7 @@ with_header: true
     {% else %}
       {% assign tags = page.tags %}
     {% endif %}
-    <div>
+    <div class="grayish">
     Tag{% if post.tags.size > 1 %}s{% endif %}:
     {% for tag in tags %}
       <a href="/tags#{{tag|slugify}}">{{tag}}</a>{% unless forloop.last %},{% endunless %}

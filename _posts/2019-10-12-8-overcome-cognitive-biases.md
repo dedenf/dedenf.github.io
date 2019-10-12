@@ -13,7 +13,7 @@ published: true
 comments: true
 ---
 
-*Cognitive biases*, [*logical fallacy*](https://notes.dedenf.com/2019/07/logical-fallacy-kesesatan-berpikir) dan kesalahan berpikir hal yang sering terjadi sebenarnya, entah sadar atau tidak, artikel membahas cara mengatasi hal-hal tersebut sebelum jatuh ke prasangka (*bias* dalam bahas inggris).
+*Cognitive biases*, [*logical fallacy*](https://notes.dedenf.com/2019/07/logical-fallacy-kesesatan-berpikir) dan kesalahan berpikir hal yang sering terjadi sebenarnya, entah sadar atau tidak, artikel membahas cara mengatasi hal-hal tersebut sebelum jatuh ke prasangka (*bias* dalam bahasa inggris).
 
 1. Fokus terhadap data
 2. Cari data/informasi lain
