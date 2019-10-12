@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-10-12T23:19:08+07:00</updated>
+ <updated>2019-10-12T23:55:47+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,25 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Read it <i>maybe</i> later</title>
+   <link href="http://localhost:4000/2019/10/read-maybe-later"/>
+   <updated>2019-10-12T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/10/read-maybe-later</id>
+   <content type="html">&lt;p&gt;Saya penggemar aplikasi &lt;a href=&quot;https://getpocket.com/&quot;&gt;Pocket&lt;/a&gt;, banyak mengumpulkan artikel, membaca artikel menggunakan Pocket, &lt;em&gt;browser&lt;/em&gt; yang digunakan dilengkapi dengan fitur &lt;em&gt;save to Pocket&lt;/em&gt;, apalagi &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/pocket/&quot;&gt;Firefox menjadi kan Pocket sebagai fitur &lt;em&gt;default&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Artikel yang dikumpulkan sudah sangat banyak, ketika saya coba hitung, ternyata sudah sampai ribuan, ada yang sudah dibaca, tapi lebih banyak yang belum, artikel bervariasi, dari hal teknikal, engineering, development, sampai yang membahas tentang kesehatan, finansial dan &lt;em&gt;random stuff&lt;/em&gt;.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Di sini tanpa disadari, mengumpulkan artikel untuk-dibaca-nanti (&lt;em&gt;read it later&lt;/em&gt;), menjadi artikel-yang-mungkin-dibaca-nanti (&lt;em&gt;read it &lt;strong&gt;maybe&lt;/strong&gt; later&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;Setiap hari mengumpulkan artikel tanpa sempat membaca semua yang di&lt;em&gt;bookmark&lt;/em&gt;, apalagi artikel yang kurasi via &lt;a href=&quot;https://getpocket.com/explore/pocket-hits&quot;&gt;Pocket Hits&lt;/a&gt;, sangat sayang bila tidak disimpan, dan tanpa disadari pula kemudian menjadi &lt;em&gt;hoarder&lt;/em&gt; atau penimbun.&lt;/p&gt;
+
+&lt;p&gt;Mungkin perlu alur yang bisa lebih baik supaya mencegah menjadi &lt;em&gt;article hoarder&lt;/em&gt; lebih akut, dan bisa lebih banyak membaca.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>8 powerful ways to overcome thinking errors and cognitive biases</title>
