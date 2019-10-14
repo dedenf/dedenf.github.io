@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-10-12T23:55:47+07:00</updated>
+ <updated>2019-10-14T13:56:13+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,53 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Reeder, aplikasi RSS reader</title>
+   <link href="http://localhost:4000/2019/10/aplikasi-reeder-sebuah-review-singkat"/>
+   <updated>2019-10-13T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/10/aplikasi-reeder-sebuah-review-singkat</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/reeder-app.png&quot; alt=&quot;reeder app&quot; title=&quot;Reeder application&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sebagai pengguna MacOS, dan juga pecinta &lt;a href=&quot;https://en.wikipedia.org/wiki/RSS&quot;&gt;RSS&lt;/a&gt;, agar bisa membaca isi dari situs yang sering diakses tanpa harus mengunjungi website-nya, dan jika website itu mempunya &lt;a href=&quot;https://en.wikipedia.org/wiki/Web_feed&quot;&gt;RSS Feed&lt;/a&gt;, maka bisa diakses dengan menggunakan RSS reader, yang akan menampilkan sebagian atau keseluruhan artikel yang ditulis di situs tersebut.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Sudah menggunakan banyak aplikasi &lt;em&gt;rss reader&lt;/em&gt;, dari mulai &lt;a href=&quot;https://www.vienna-rss.com/&quot;&gt;Vienna&lt;/a&gt;, &lt;a href=&quot;http://newsfirerss.com/&quot;&gt;NewsFire&lt;/a&gt;, &lt;a href=&quot;https://www.google.com/reader/about/&quot;&gt;Google Reader&lt;/a&gt;, atau mungkin lebih tepatnya mantan pengguna Google Reader tentu masih inget bagaimana Google mematikan layanan ini, kemudian aplikasi &lt;a href=&quot;https://ranchero.com/netnewswire/&quot;&gt;NetNewsWire&lt;/a&gt;, sampai akhirnya sekarang menggunakan aplikasi &lt;a href=&quot;https://www.reederapp.com/&quot;&gt;Reeder&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Reeder merupakan aplikasi RSS &lt;em&gt;reader&lt;/em&gt; berbayar, yang saat ini &lt;a href=&quot;https://apps.apple.com/us/app/reeder-4/id1449412357&quot;&gt;dibanderol dengan harga&lt;/a&gt; $4.99.&lt;/p&gt;
+
+&lt;h2 id=&quot;fitur&quot;&gt;Fitur&lt;/h2&gt;
+&lt;p&gt;Selain bisa membaca &lt;em&gt;feed rss/atom&lt;/em&gt; dari website, Reeder memiliki fitur lain, yaitu bisa mengakses layanan read-it-later seperti Pocket, Instapaper, dan bisa juga mengakses layanan rss reader online seperti newsblur, feedly dan lainnya.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/posts/reeder-account-add.png&quot;&gt;&lt;img src=&quot;/images/posts/reeder-account-add-small.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fitur auto-find feed juga ada, jadi ketika memasukan link website, akan dicari otomatis link feed-nya jika ada oleh Reeder.&lt;/p&gt;
+
+&lt;p&gt;Reeder juga memiliki fitur untuk sharing, dan bisa mengkonfigurasikan aplikasi mana saja yang menjadi untuk share, di sini karena saya pengguna Pocket, maka sering share, simpan di Pocket.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/posts/reeder-sharing.png&quot;&gt;&lt;img src=&quot;/images/posts/reeder-sharing-small.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Reeder juga sangat mudah untuk dikostumasi, ada pilihan untuk mengubah &lt;em&gt;layout&lt;/em&gt; dan &lt;em&gt;theme&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/posts/reeder-option-theme.png&quot;&gt;&lt;img src=&quot;/images/posts/reeder-option-theme-small.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;membaca&quot;&gt;Membaca&lt;/h2&gt;
+&lt;p&gt;Di Reeder ada beberapa mode baca yang bisa dipilih, ini tergantung dari selera, dan memang Reeder sudah menjadikan feed artikel menjadi ramah untuk dibaca, tidak ada banner, iklan dan lainnya yang membuat kita &lt;em&gt;gak&lt;/em&gt; fokus.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/reeder-read-mode.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;desain&quot;&gt;Desain&lt;/h2&gt;
+&lt;p&gt;Sisi desain, selain bisa mengubah layout dan juga &lt;em&gt;theme&lt;/em&gt; seperti diurai di atas, desain aplikasi Reeder secara keseluruhan sangat &lt;em&gt;intuitive&lt;/em&gt;, mudah dipahami, mudah untuk pindah dari sisi satu ke sisi lainnya.&lt;/p&gt;
+
+&lt;p&gt;Simpel mungkin kata yang tepat, tidak banyak &lt;em&gt;tetek bengek&lt;/em&gt;, tidak banyak tombol yang bisa membuat bingung pengguna.&lt;/p&gt;
+
+&lt;h2 id=&quot;penutup&quot;&gt;Penutup&lt;/h2&gt;
+&lt;p&gt;Keputusan membeli Reeder setidaknya buat saya, tepat, dengan fitur yang untuk pribadi cukup, juga memenuhi semua standar teknologi, mudah digunakan, koneksi ke layanan &lt;em&gt;bookmark&lt;/em&gt; online dan lain-lain.&lt;/p&gt;
+
+&lt;p&gt;Saya mengumpulkan &lt;em&gt;News feed bookmark&lt;/em&gt; (dalam bentuk file OPML) bisa &lt;a href=&quot;https://github.com/dedenf/news-feed&quot;&gt;didownload direpo ini&lt;/a&gt; jika ada yang tertarik unduh, dan bisa dimport di RSS reader manapun yang memiliki dukungan terhadap file .&lt;a href=&quot;https://en.wikipedia.org/wiki/OPML&quot;&gt;OPML&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Read it <i>maybe</i> later</title>
