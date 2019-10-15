@@ -56,7 +56,12 @@ with_header: true
     {% else %}
       <div class='mb2'>
         <h1 class='m0'><a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a></h1>
-        <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }} &mdash; {% include read-time.html %}</time>
+        <span class="grayish">
+          
+        </span>
+        <span class="grayish"><time>{{ post.date | date: '%B %-d, %Y' }}</time> &mdash; {% include read-time.html %} &mdash; in {% for cat in post.category %}
+          <a href="/category/#{{cat|slugify}}">{{cat}}</a>{% unless forloop.last %},{% endunless %}
+        {% endfor %} </span>
       </div>
     {% endif %}
 

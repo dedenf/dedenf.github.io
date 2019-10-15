@@ -11,7 +11,7 @@ comments: true
 published: true
 ---
 
-Untuk yang bekerja dan mengkonsumsi banyak waktu, perhatian, terhadap project, pastinya agak susah mendapatkan waktu untuk mengikuti teknologi terbaru, atau sekadar informasi rilis versi terbaru dari bahasa, *framework*, dan lainnnya, jadinya kita kurang *update* (*kudet*(?)), padahal bidang IT adalah kerjaan sehari-hari, tentu tetap butuh *keep up* dengan informasi baru.
+Untuk yang bekerja dan mengkonsumsi banyak waktu, perhatian, terhadap project, pastinya agak susah mendapatkan waktu untuk mengikuti teknologi terbaru, atau sekedar informasi rilis versi terbaru dari bahasa, *framework*, dan lainnnya, jadinya kita kurang *update* (*kudet*(?)), padahal bidang IT adalah kerjaan sehari-hari, tentu tetap butuh *keep up* dengan informasi baru.
 
 Bagaimana caranya agar tetap bisa **_up to date_** dengan waktu yang terbatas?
 

@@ -416,6 +416,7 @@ a{color:#005eb0;}
     .sm-ml2{margin-left:1rem}
 }
 .grayish{color:#767676}
+.post-category-name {text-transform: capitalize;}
 time, .grayish { font-size: .8em; font-family: 'Lato', sans-serif;}
 h1.mb1{font-family:'Crimson Text',Bitter,serif;font-size:1.8em}
 .h3.mb0,h2.m0{font-family:'Crimson Text',Bitter,serif;font-size:30px;font-weight:400;line-height:1.2;opacity:1;margin-top:0;margin-bottom:10px;letter-spacing:-.72px;word-spacing:0;text-transform:none}

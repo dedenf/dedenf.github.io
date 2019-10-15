@@ -6,7 +6,7 @@ tags:
     - blog
     - review
 
-category: [post]
+category: [review]
 comments: true
 published: true
 ---

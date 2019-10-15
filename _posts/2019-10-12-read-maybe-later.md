@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Read it <i>maybe</i> later"
+title: "Read it maybe later"
 tags: 
     - reading
     - blog
+    - life
 
-category: [post]
+category: [life]
 comments: true
 published: true
 ---
