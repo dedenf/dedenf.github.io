@@ -37,3 +37,7 @@ Game menawarkan kehidupan lain dalam suatu layar kecil, dunia dalam pixel, dunia
 Dunia yang disajikan dalam game bisa berubah, dinamis, menjadikannya lebih menarik, atau bahkan memiliki kesempatan untuk membuat dunia sendiri yang diinginkan oleh pemain.
 
 Game-game itu sudah bisa menjadi dunia sendiri, tempat bermain, tempat berkumpul bersosialisasi, film seperti [Sword Art Online](https://en.wikipedia.org/wiki/Sword_Art_Online), atau [Ready player one](https://en.wikipedia.org/wiki/Ready_Player_One_(film)) adalah bentuk dari perubahan game menjadi semacam dunia sendiri, menjadi ‘kenyataan’ untuk gamer-gamer.
+
+
+### Note
+Mungkin yang perlu diwaspadai mengenai game-game ini adalah penyakit [Gaming Disorder](https://notes.dedenf.com/2019/05/gaming-disorder), gunakan seperlunya, [kejadian seperti ini menakutkan](https://health.detik.com/berita-detikhealth/d-4747446/ratusan-anak-di-jabar-masuk-rs-jiwa-karena-kecanduan-ponsel-ini-gejalanya "Ratusan Anak di Jabar Masuk RS Jiwa karena Kecanduan Ponsel, Ini Gejalanya"), dan ini yang ditakutkan setiap orang tua.
