@@ -8,8 +8,9 @@ layout: default
   <div class='mb2'>
     <h1 class='h1 m0'>{{ page.title }}</h1>
     <!-- <a href="{{site.author.url}}">{{ site.author.name }}</a> &mdash;  -->
-    <time class='grayish'>Posted on {{ page.date | date: '%B %-d, %Y' }}</time> &mdash; 
-    <span class="grayish"><i class="far fa-clock"></i> {% include read-time.html %}</span>
+    <span class="grayish"><time>{{ page.date | date: '%B %-d, %Y' }}</time> &mdash; {% include read-time.html %} &mdash; in {% for cat in page.category %}
+      <a href="/category/#{{cat|slugify}}">{{cat}}</a>{% unless forloop.last %},{% endunless %}
+    {% endfor %}</span>
   </div>
 
   {{ content }}

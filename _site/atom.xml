@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-10-15T13:08:06+07:00</updated>
+ <updated>2019-10-16T14:27:09+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -14,12 +14,61 @@
 
  
  <entry>
+   <title>Menemukan project Open Source</title>
+   <link href="http://localhost:4000/2019/10/menemukan-project-open-source-baru"/>
+   <updated>2019-10-16T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/10/menemukan-project-open-source-baru</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/software-opensource.png&quot; alt=&quot;&quot; title=&quot;github + brew&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://a16z.com/2011/08/20/why-software-is-eating-the-world/&quot;&gt;Why Software Eating the World&lt;/a&gt;, essay yang ditulis oleh Marc Adreessen, &lt;em&gt;software&lt;/em&gt; atau perangkat lunak menjadi hal yang tak terlihat tapi ada, orang menggunakan &lt;em&gt;software&lt;/em&gt; sebagai kebutuhan, di komputernya, &lt;em&gt;smartphone&lt;/em&gt;-nya, terlepas jenisnya apa, software ini bisa untuk &lt;em&gt;end-user&lt;/em&gt;, atau untuk tipe &lt;em&gt;enterprise&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Open source&lt;/em&gt; adalah salah satu proyek penggerak tersebarnya &lt;em&gt;software&lt;/em&gt; ini ke hampir semua lini, untuk memudahkan pekerjaan kita sehari-hari, ada &lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;Libre office&lt;/a&gt; yang merupakan salah satu proyek open source yang besar untuk yang perlu untuk mengetik laporan misalkan, atau mungkin yang tidak disadari, Linux, yang merupakan sistem operasi yang merupakan dasar dari Android yang dipakai sehari-hari.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Untuk penggunaan di komputer, karena saya sendiri dibidang IT, tentunya software (perangkat lunak) merupakan bagian penting, dan hampir setiap hari menggunakan produk &lt;em&gt;software&lt;/em&gt; open source, ada tools yang untuk mengecek kinerja sistem, ada yang untuk mengetes API, bahkan sistem operasi server adalah produk dari open source, dan lainnya.&lt;/p&gt;
+
+&lt;p&gt;Beberapa &lt;em&gt;tools&lt;/em&gt; yang dipakai terkadang ‘ditemukan’ tidak disengaja, ada yang ditemukan melalui artikel, kemudian kalau sedang &lt;em&gt;browsing&lt;/em&gt; di &lt;a href=&quot;https://github.com/explore&quot;&gt;Github ke bagian explore&lt;/a&gt;, dan karena menggunakan MacOS, dan menggunakan aplikasi brew, sering juga juga menemukan tools/aplikasi open source baru di sini, tidak dengan cara browsing ke &lt;a href=&quot;https://brew.sh/&quot;&gt;websitenya&lt;/a&gt;, tapi melalui command line.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/iterm-brew.jpg&quot; alt=&quot;macos iterm2 and brew&quot; title=&quot;iterm + brew&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Contoh di atas adalah ketika mencoba install satu software, dan brew menampilkan informasi update software-software yang tersedia, dari sini kadang menemukan hal baru, tools baru, framework baru, kadang nama project open source berpengaruh supaya lebih catchy.&lt;/p&gt;
+
+&lt;p&gt;Kalau menemukan project yang membuat penasaran, tinggal cari infonya melalui command line lagi, misalkan&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dedenf@elementium ~ $ brew info homebank
+homebank: stable 5.2.8 (bottled)
+Manage your personal accounts at home
+http://homebank.free.fr
+Not installed
+From: https://github.com/Homebrew/homebrew-core/blob/master/Formula/homebank.rb
+==&amp;gt; Dependencies
+Build: intltool ✘, pkg-config ✔
+Required: adwaita-icon-theme ✘, fontconfig ✔, freetype ✔, gettext ✔, gtk+3 ✘, hicolor-icon-theme ✘, libofx ✘, libsoup ✘
+==&amp;gt; Analytics
+install: 268 (30 days), 547 (90 days), 1,958 (365 days)
+install_on_request: 240 (30 days), 498 (90 days), 1,745 (365 days)
+build_error: 0 (30 days)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Kunjungi websitenya, cek cocok atau tidak, suka dengan UI-nya misalkan, kalau mau ngetest tinggal install &lt;code class=&quot;highlighter-rouge&quot;&gt;brew [cask] install package_name&lt;/code&gt;, beres, dan kita bisa mulai menggunakan software tersebut.&lt;/p&gt;
+
+&lt;p&gt;Untuk project open source biasanya kode di-host di Github atau layanan SCM lainnya, dan untuk melihat apakah project ini banyak menggunakan juga bisa lihat aktivitas dari kode yang dikirimkan, banyaknya &lt;em&gt;commit&lt;/em&gt; yang dilakukan, baik dari penciptanya, maupun dari komunitasnya (ini bisa jadi bahasan lain).&lt;/p&gt;
+
+&lt;p&gt;Sumber lain:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lobste.rs/&quot;&gt;Lobster&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>PUBG, Free Fire, Forthnight, Minecraft bukan sekedar game, tapi sebuah tempat</title>
    <link href="http://localhost:4000/2019/10/pubg-free-fire-fortnight-minecraft-adalah-suatu-tempat-bukan-sekedar-game"/>
    <updated>2019-10-15T00:00:00+07:00</updated>
    <id>http://localhost:4000/2019/10/pubg-free-fire-fortnight-minecraft-adalah-suatu-tempat-bukan-sekedar-game</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/pawel-kadysz-CuFYW1c97w8-unsplash.jpg&quot; alt=&quot;gaming stick&quot; title=&quot;Game&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;em&gt;Photo by &lt;a href=&quot;https://unsplash.com/@pawelkadysz?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;ev&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/CuFYW1c97w8?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/em&gt;&lt;/center&gt;
+&lt;center&gt;&lt;em&gt;Photo by &lt;a href=&quot;https://unsplash.com/@pawelkadysz?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Pawel Kadysz&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/CuFYW1c97w8?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/em&gt;&lt;/center&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;“Yuk Mabar!”&lt;/p&gt;
@@ -44,6 +93,9 @@
 &lt;p&gt;Dunia yang disajikan dalam game bisa berubah, dinamis, menjadikannya lebih menarik, atau bahkan memiliki kesempatan untuk membuat dunia sendiri yang diinginkan oleh pemain.&lt;/p&gt;
 
 &lt;p&gt;Game-game itu sudah bisa menjadi dunia sendiri, tempat bermain, tempat berkumpul bersosialisasi, film seperti &lt;a href=&quot;https://en.wikipedia.org/wiki/Sword_Art_Online&quot;&gt;Sword Art Online&lt;/a&gt;, atau &lt;a href=&quot;https://en.wikipedia.org/wiki/Ready_Player_One_(film)&quot;&gt;Ready player one&lt;/a&gt; adalah bentuk dari perubahan game menjadi semacam dunia sendiri, menjadi ‘kenyataan’ untuk gamer-gamer.&lt;/p&gt;
+
+&lt;h3 id=&quot;note&quot;&gt;Note&lt;/h3&gt;
+&lt;p&gt;Mungkin yang perlu diwaspadai mengenai game-game ini adalah penyakit &lt;a href=&quot;https://notes.dedenf.com/2019/05/gaming-disorder&quot;&gt;Gaming Disorder&lt;/a&gt;, gunakan seperlunya, &lt;a href=&quot;https://health.detik.com/berita-detikhealth/d-4747446/ratusan-anak-di-jabar-masuk-rs-jiwa-karena-kecanduan-ponsel-ini-gejalanya&quot; title=&quot;Ratusan Anak di Jabar Masuk RS Jiwa karena Kecanduan Ponsel, Ini Gejalanya&quot;&gt;kejadian seperti ini menakutkan&lt;/a&gt;, dan ini yang ditakutkan setiap orang tua.&lt;/p&gt;
 </content>
  </entry>
  

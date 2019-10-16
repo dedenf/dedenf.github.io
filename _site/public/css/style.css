@@ -28,7 +28,7 @@ td{vertical-align:top}
 h1,h2,h3,h4,h5,h6{font-family:'Enriqueta',Georgia,serif;font-weight:800;line-height:1.25;margin-top:1em;margin-bottom:.5em;line-height:1.2;opacity:1;margin-top:0;margin-bottom:10px;letter-spacing:-.72px;word-spacing:0;text-transform:none}
 article h3, article h4,article h5, article h6{font-family:'Lato',Helvetica,sans-serif;font-weight:800;line-height:1.25;margin-top:1em;margin-bottom:.5em;line-height:1.2;opacity:1;margin-top:0;margin-bottom:10px;letter-spacing:-.72px;word-spacing:0;text-transform:none}
 dl,ol,p,ul{line-height:1.5}
-code,pre,samp{font-family:'Source Code Pro',Consolas,monospace;background:#f0f0f0;padding:2px 5px}
+code,pre,samp{font-family:'Source Code Pro',Consolas, monospace;background:#f0f0f0;padding:2px 5px;font-size: .8em;}
 pre{overflow-x:scroll}
 hr{margin-top:3rem;margin-bottom:3rem}
 blockquote{border-left:2px solid #005eb0;color:#767676;margin:1rem 0;padding:0 1rem;font-style:italic;}
