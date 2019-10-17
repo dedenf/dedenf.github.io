@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-10-16T17:30:33+07:00</updated>
+ <updated>2019-10-17T11:33:27+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,17 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Resesi? apa yang harus diperhatikan?</title>
+   <link href="http://localhost:4000/2019/10/seputar-finansial-resesi-apa-yang-harus-dilakukan"/>
+   <updated>2019-10-16T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/10/seputar-finansial-resesi-apa-yang-harus-dilakukan</id>
+   <content type="html">&lt;p&gt;Meski media  selalu mendengungkan resesi, baik indonesia, maupun dunia global, ini bisa jadi memang resesi atau sebuah &lt;em&gt;self-fulfilling-prophecy&lt;/em&gt;, yang mana ramalan jadi kenyataan karena banyak yang melakukannya, karena takut atau dilandasi ramalan itu sendiri, dan kemudian jadi kenyataan.&lt;/p&gt;
+
+&lt;p&gt;Terlepas itu, yang pertama yang dilakukan tetap tenang, karena faktor psikologis bisa jadi salah satu faktor bisa melewati resesi, dan tentunya tips &lt;a href=&quot;https://seputarfinansial.com/resesi-apa-yang-harus-diperhatikan/&quot;&gt;finansial lainnya&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Menemukan project Open Source</title>

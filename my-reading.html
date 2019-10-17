@@ -7,7 +7,7 @@ permalink: "/my-reading"
 <h1 class="center">Reading</h1>
 <hr class="half-width">
 {% for post in site.posts %}
-  {% if post.categories contains "dailyfound" or "reading" %}
+  {% if post.type == "link" %}
   <article class=''>
     {% if post.link %}
       <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }} &mdash; <a href='{{ post.url }}'>link to the post</a></time>
