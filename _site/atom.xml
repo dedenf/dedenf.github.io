@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-10-16T17:30:33+07:00</updated>
+ <updated>2019-10-18T01:42:04+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,60 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Low-code dan No-code development</title>
+   <link href="http://localhost:4000/2019/10/low-code-no-code-development"/>
+   <updated>2019-10-18T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/10/low-code-no-code-development</id>
+   <content type="html">&lt;p&gt;Membangun aplikasi, zaman dulu merupakan hal yang lumayan memakan waktu, dari mulai men-desain, koding, &lt;em&gt;deployment&lt;/em&gt;, masih ingat juga, dulu harus &lt;em&gt;upload&lt;/em&gt; aplikasi web melalui FTP (belum ada GIT, atau CI/CD, dan SFTP belum umum), belum lagi harus setup database manual untuk menyimpan data.&lt;/p&gt;
+
+&lt;p&gt;Kemudian muncul &lt;em&gt;tools&lt;/em&gt; yang lebih memudahkan &lt;em&gt;developer&lt;/em&gt;/perusahaan dalam membuat aplikasi, testing, sampai &lt;em&gt;deployment&lt;/em&gt;, dengan lahirnya &lt;em&gt;cloud computing&lt;/em&gt;, menjadikan proses &lt;em&gt;development&lt;/em&gt; sampai akhirnya di &lt;em&gt;production&lt;/em&gt; lebih cepat dan terhitung mudah.&lt;/p&gt;
+
+&lt;p&gt;Dan kemudian baru-baru ini muncul inovasi berikutnya, yaitu &lt;em&gt;low-code&lt;/em&gt; dan &lt;em&gt;no-code&lt;/em&gt; development, apa itu?.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h3 id=&quot;low-code&quot;&gt;Low-code&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Low-code_development_platform&quot;&gt;&lt;em&gt;Low code development&lt;/em&gt;&lt;/a&gt;, pengertian gampangnya kita membuat/men-&lt;em&gt;develop&lt;/em&gt; sesuatu, misalkan website, aplikasi &lt;em&gt;mobile&lt;/em&gt;, dengan cara sedikit &lt;em&gt;coding&lt;/em&gt;, lebih cepat, lebih mudah, dengan low-code ini kita bisa menggunakannya untuk membuat MVP (&lt;em&gt;minimum viable product&lt;/em&gt;), proses dimulai dari desain sampai akhirnya menjadi produk.&lt;/p&gt;
+
+&lt;p&gt;Low-code, yang bisa dibilang masuk ke kategori RAD (&lt;em&gt;Rapid Application Development&lt;/em&gt;) dilengkapi dengan UI visual menghubungkan dengan database, dengan web API, atau ke sumber data lain. bisa juga diintegrasikan dengan layanan-layanan yang ada di internet seperti Twillio, mailchimp, Google Analytics dan lain-lain.&lt;/p&gt;
+
+&lt;p&gt;Penyedia layanan low-code antara lain ada &lt;a href=&quot;https://www.mendix.com/&quot;&gt;Mendix&lt;/a&gt;, &lt;a href=&quot;https://www.outsystems.com/&quot;&gt;Outsystems&lt;/a&gt;, kedua layanan ini menyediakan aplikasi IDE (&lt;em&gt;Integrated Development Environment&lt;/em&gt;) visual, yang bisa digunakan oleh pengguna untuk melakukan ”coding” di aplikasi tersebut, dan kemudian menghasilkan aplikasi mobile atau aplikasi web.&lt;/p&gt;
+
+&lt;p&gt;Selain IDE visual, low-code development environment juga menyediakan konektor ke sistem backend dan  layanan lain, bisa itu media penyimpanan (storage), data, API external. Low-code juga dilengkapi dengan proses compile-build, debugging, deploy, mengatur sistem enviroment seperti testing, staging, production.&lt;/p&gt;
+
+&lt;p&gt;Vendor low-code seperti OutSystem atau Mendix biasanya menghasilkan aplikasi yang &lt;em&gt;cross-platform&lt;/em&gt;, yang mana satu sumber bisa dipakai untuk mobile (iOS, Android) dan web sekaligus.&lt;/p&gt;
+
+&lt;h3 id=&quot;no-code&quot;&gt;No-code&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/No-code_development_platform&quot;&gt;No-code&lt;/a&gt; lebih ekstrim lagi, tidak menggunakan kode sama sekali, tidak menggunakan kode, semua dilakukan melalui &lt;em&gt;interface&lt;/em&gt;, biasanya berupa web, contoh yang bisa dilihat adalah &lt;a href=&quot;https://webflow.com/&quot;&gt;Webflow&lt;/a&gt;, sebuah layanan untuk membuat website tanpa harus memiliki keterampilan membuat code backed atau frontend, desain, CSS, javascript, pemilihan gambar dan lain-lain.&lt;/p&gt;
+
+&lt;p&gt;Mirip dengan low-code, no-code juga mengandalkan API-API eksternal atau berupa widget yang sudah jadi, misalkan API untuk mengirim email, widget untuk &lt;em&gt;chatting&lt;/em&gt;, atau API untuk membuat &lt;em&gt;workflow&lt;/em&gt; seperti &lt;a href=&quot;(https://zapier.com/)&quot;&gt;Zapier&lt;/a&gt;, dan lain sebagainya, yang kita tinggal lakukan hanya menghubungkannya dengan aplikasi yang kita buat.&lt;/p&gt;
+
+&lt;h3 id=&quot;apakah-bisa-mengantikan-koding-konvensional&quot;&gt;Apakah bisa mengantikan koding ”konvensional”?&lt;/h3&gt;
+&lt;p&gt;Low-code, no-code tidak serta merta mengganti flow development yang sebelumnya ada, karena low-code no-code, tidak bisa sampai ke development yang lebih mendalam, karena tidak menjawab isu sering muncul misalkan skalabilitas, kostumasi, karena kostumasi ini terbatas dengan tools/fitur yang ada disediakan.&lt;/p&gt;
+
+&lt;p&gt;Sumber lanjutan dan layanan&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.makerpad.co/&quot;&gt;Makerpad&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zapier.com/&quot;&gt;Zapier&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.integromat.com/&quot;&gt;Integromat&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ifttt.com/&quot;&gt;ifttt&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.pcmag.com/roundup/353252/the-best-low-code-development-platforms&quot;&gt;The Best Low-Code Development Platforms for 2019&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Resesi? apa yang harus diperhatikan?</title>
+   <link href="http://localhost:4000/2019/10/seputar-finansial-resesi-apa-yang-harus-dilakukan"/>
+   <updated>2019-10-16T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/10/seputar-finansial-resesi-apa-yang-harus-dilakukan</id>
+   <content type="html">&lt;p&gt;Meski media  selalu mendengungkan resesi, baik indonesia, maupun dunia global, ini bisa jadi memang resesi atau sebuah &lt;em&gt;self-fulfilling-prophecy&lt;/em&gt;, yang mana ramalan jadi kenyataan karena banyak yang melakukannya, karena takut atau dilandasi ramalan itu sendiri, dan kemudian jadi kenyataan.&lt;/p&gt;
+
+&lt;p&gt;Terlepas itu, yang pertama yang dilakukan tetap tenang, karena faktor psikologis bisa jadi salah satu faktor bisa melewati resesi, dan tentunya tips &lt;a href=&quot;https://seputarfinansial.com/resesi-apa-yang-harus-diperhatikan/&quot;&gt;finansial lainnya&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Menemukan project Open Source</title>
