@@ -36,7 +36,13 @@ Vendor low-code seperti OutSystem atau Mendix biasanya menghasilkan aplikasi yan
 ### No-code
 [No-code](https://en.wikipedia.org/wiki/No-code_development_platform) lebih ekstrim lagi, tidak menggunakan kode sama sekali, tidak menggunakan kode, semua dilakukan melalui *interface*, biasanya berupa web, contoh yang bisa dilihat adalah [Webflow](https://webflow.com/), sebuah layanan untuk membuat website tanpa harus memiliki keterampilan membuat code backed atau frontend, desain, CSS, javascript, pemilihan gambar dan lain-lain.
 
+![](/images/posts/webflow.png)
+<p><center><em><a href="https://webflow.com/">Webflow</a>visual interface</em></center></p>
+
+
 Mirip dengan low-code, no-code juga mengandalkan API-API eksternal atau berupa widget yang sudah jadi, misalkan API untuk mengirim email, widget untuk *chatting*, atau API untuk membuat *workflow* seperti [Zapier]((https://zapier.com/)), dan lain sebagainya, yang kita tinggal lakukan hanya menghubungkannya dengan aplikasi yang kita buat.
+
+Untuk sisi visual IDE-nya mungkin yang *oldschool* ingat sama Macromedia Dreamweaver.
 
 ### Apakah bisa mengantikan koding ”konvensional”?
 Low-code, no-code tidak serta merta mengganti flow development yang sebelumnya ada, karena low-code no-code, tidak bisa sampai ke development yang lebih mendalam, karena tidak menjawab isu sering muncul misalkan skalabilitas, kostumasi, karena kostumasi ini terbatas dengan tools/fitur yang ada disediakan.
