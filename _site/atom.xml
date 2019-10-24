@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-10-18T16:12:02+07:00</updated>
+ <updated>2019-10-24T21:07:58+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,26 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Is an epidemic of sleeplessness increasing the incidence of Alzheimer’s disease?</title>
+   <link href="http://localhost:4000/2019/10/sleeplessness-and-alzheimer"/>
+   <updated>2019-10-24T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/10/sleeplessness-and-alzheimer</id>
+   <content type="html">&lt;p&gt;Let’s start with this line&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…the World Health Organization has pointed to a ‘&lt;strong&gt;global epidemic of sleeplessness&lt;/strong&gt;’ with roughly two-thirds of adults sleeping less than 8 h a night. Are too many of us getting too little sleep and, in so doing, increasing our risk of disorders such as Alzheimer’s disease?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In this day, especially younger people, we all have this sleeplessness, i know i have, in average i slept like 6h a day, in today’s world, With all the screen time on our tv or mostly our smartphone, all of social media that need to catch up, need to be update in some way, there’s social pressure on to that.&lt;/p&gt;
+
+&lt;p&gt;And this research about the connection of our sleeplessness and alzheimer, even it’s still need more research, but there’s a bidirectional relationship between those two.&lt;/p&gt;
+
+&lt;p&gt;To get more sleep, it is recommended that we do more exercise, i should do more…&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Low-code dan No-code development</title>
