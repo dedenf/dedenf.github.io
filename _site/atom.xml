@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-10-24T21:07:58+07:00</updated>
+ <updated>2019-10-29T20:17:29+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,29 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>200 Words a day</title>
+   <link href="http://localhost:4000/2019/10/200wordsaday"/>
+   <updated>2019-10-29T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/10/200wordsaday</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/200wordsaday.png&quot; alt=&quot;&quot; title=&quot;Words a day, hore tulisan masuk ke Post of the day!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Saat ini sedang giat atau mungkin tepatnya mencoba untuk giat menulis di &lt;a href=&quot;https://200wordsaday.com/writers/dedenf?ref=dedenf.com&quot;&gt;200wordsaday.com&lt;/a&gt;, website yang dibuat dan dikhususkan untuk orang yang hendak mempertajam tulisan, atau membuat kegiatan menulis ini menjadi kebiasaan.&lt;/p&gt;
+
+&lt;p&gt;Ada aspek komunitas di sini, dengan kita berkomunikasi dengan orang lain melalui komentar, bisa saling mengikuti dan memiliki garis waktu.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Mungkin fitur yang saya sukai adalah, ya menulis, dengan menggunakan layanan ini, kita ‘diharuskan’ untuk menulis sebanyak 200 kata atau lebih setiap hari, jika lewati hari tanpa menulis di sini, mungkin ada semacam hukuman (saya sendiri belum lewat seharipun, jadi belum lihat apa ‘hukumannya’), dan cetakan hari di kalendernya akan bolong karena kita tidak menulis hari itu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/200wordsaday-calendar.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dengan membiasakan menulis, ada konsep &lt;em&gt;reward-punishment&lt;/em&gt; dan juga ada orang lain yang melihat tulisan kita, diharapkan kita bisa menjaga akuntabilitas, dan mau menulis setiap hari.&lt;/p&gt;
+
+&lt;p&gt;Tujuan saya sendiri bukan menjadi penulis buku tentunya, hanya supaya bisa lebih banyak menuangkan apa yang ada dikepala ke dalam bentuk tulisan.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Is an epidemic of sleeplessness increasing the incidence of Alzheimer’s disease?</title>
@@ -28,7 +51,7 @@
 
 &lt;p&gt;And this research about the connection of our sleeplessness and alzheimer, even it’s still need more research, but there’s a bidirectional relationship between those two.&lt;/p&gt;
 
-&lt;p&gt;To get more sleep, it is recommended that we do more exercise, i should do more…&lt;/p&gt;
+&lt;p&gt;To get more sleep, it is recommended &lt;a href=&quot;https://notes.dedenf.com/2019/09/lets-be-kind-to-your-future-self&quot;&gt;that we do more exercise&lt;/a&gt;, i should do more…&lt;/p&gt;
 
 </content>
  </entry>
@@ -4999,7 +5022,7 @@ So, this &lt;span class=&quot;medium-big-text font-della&quot;&gt;should&lt;/spa
 &lt;p&gt;the hook&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;COMMITID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;git rev-parse HEAD&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;COMMITID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;git rev-parse HEAD&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
 imagesnap &lt;span class=&quot;nt&quot;&gt;-q&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; 1 .gitsnap/&lt;span class=&quot;nv&quot;&gt;$COMMITID&lt;/span&gt;.jpg&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
