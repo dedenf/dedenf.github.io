@@ -32,7 +32,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="/public/favicon.png"/>
 
-  <link rel="canonical" href="http://localhost:4000">
+  <link rel="canonical" href="http://localhost:4001">
 
   
   <link rel="image_src" href="/public/deden.png">
@@ -43,7 +43,7 @@
   <meta property="og:title" content="HyperText Thrones" />
   
 	<meta property="og:site_name" content="HyperText Thrones | on the HyperText"/>
-	<meta property="og:url" content="http://localhost:4000/page/55/" />
+	<meta property="og:url" content="http://localhost:4001/page/55/" />
    
 	<meta property="og:type" content="website" />
   
@@ -72,7 +72,7 @@
   
 
 	
-	<link itemprop="url" href="http://localhost:4000/page/55/" />
+	<link itemprop="url" href="http://localhost:4001/page/55/" />
 
   
 
@@ -125,6 +125,146 @@
   
 
 
+  
+
+
+
+
+  <article class=''>
+    
+      <div class='mb2'>
+        <h1 class='m0'><a href='/2012/02/what-a-day'>What a day</a></h1>
+        <span class="grayish">
+          
+        </span>
+        <span class="grayish"><time>February 22, 2012</time> &mdash; 
+  
+  
+    1 minute read (194 words)
+  
+
+
+
+ &mdash; in 
+          <a href="/category/#blog">blog</a>
+         </span>
+      </div>
+    
+
+    
+      
+        
+
+        
+        
+          
+          
+        <a href="/2012/02/what-a-day"><img src=""></a>
+        
+
+            <p>yesterday, a site that i help build, <a href="http://wujudkan.com">wujudkan.com</a> is launched, for those who don’t know wujudkan is, it’s a crowd funding site, that helps creative talent, or someone who wants to build something and need some fundings.</p>
+
+<p>it took a lot of confident to launch it, since so many little things that we have to handle, from the working codes, redactional text, email etc. from many startup advice, launch as soon as possible is essential, to get users feedback you have to launch your product, to get to know what is wrong with your app is launch it. so by today, i look at the Google Analytics, it was quite good, from the developers perspective, the site is running just fine, no choke, no database overload, maybe because the traffic is just average (dunno, though).</p>
+
+<p><img src="https://cl.ly/3Q3r19053a390s08300d/Screen%20Shot%202012-02-22%20at%2012.58.36%20PM.png" alt="stats" /></p>
+
+<p>and</p>
+
+<p><img src="https://cl.ly/032E2S1p3j38181f1W1O/Screen%20Shot%202012-02-22%20at%2012.58.46%20PM.png" alt="another stat" /></p>
+
+<p>and now for the engagement to the users, from the beginning, the team has already using social media tools to make an introductory to the users. the feedback from twitter channel is quite positive, they help us by reporting bugs and what features they want. so i guess now is the time for some bug squashing and development.</p>
+ 
+            <a href="/2012/02/what-a-day">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div class="grayish">
+    Tags:
+    
+      <a href="/tags#dev">dev</a>,
+    
+      <a href="/tags#development">development</a>,
+    
+      <a href="/tags#startup">startup</a>,
+    
+      <a href="/tags#wujudkan">wujudkan</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+
+
+  <article class=''>
+    
+      <div class='mb2'>
+        <h1 class='m0'><a href='/2012/02/modernizr-vs-ie'>Modernizr vs IE</a></h1>
+        <span class="grayish">
+          
+        </span>
+        <span class="grayish"><time>February 20, 2012</time> &mdash; 
+  
+  
+    1 minute read (272 words)
+  
+
+
+
+ &mdash; in 
+          <a href="/category/#blog">blog</a>
+         </span>
+      </div>
+    
+
+    
+      
+        
+
+        
+        
+          
+          
+        <a href="/2012/02/modernizr-vs-ie"><img src=""></a>
+        
+
+            <p>Today, i’ve found out something weird, we took an internal launch of our newly developed app that display numerous graph and statistics, it went crash. not the app, but the browser, and you can guess, it’s IE.</p>
+
+<p>From IE6 on XP sp2 until IE8 on windows 7, it all went crash, first i thought about many ‘add-ons’ like Yahoo! websearch (curse you!), and other kind of IE rubbish. i’m heading to the code to look something that might be not right, first i disabled header() from the code, but it’s not it, and the look at the doctype, maybe
+<code class="highlighter-rouge"><span class="c">&lt;!--[if lt IE 7]&gt; &lt;html lang="en"&gt; &lt;![endif]--&gt;</span></code>,</p>
+
+<p>delete that line, but still it doesn’t work.</p>
+
+<p>ook a shot disabled Modernizr (mine is v2.0.6), and it went ok, that’s the ‘culprit’ behind the IE6-IE8 assasinations, as usual, went to google, stumbling at the Modernizr github repo to see maybe other users experienced the same thing, and yes, there is. many <a href="https://github.com/scottjehl/Respond/issues/27">asking</a> about the positioning of the Modernizr call, is it before css, or after css calls. the documentation <a href="http://www.modernizr.com/docs/#installing">says</a> that to install Modernizr is after CSS calls. went to see my code again, it is after CSS calls, a mystery that should be solve, but it’s not, the IE still crashing.</p>
+
+<p>Right now, i just disabled the Modernizr, because can’t find any windows machine right now, too much if i’m firing my VM right now. but i still do believe that placing jQuery and Modernizr is the problem, and some about some CSS3 code that i’ve written, oh they all plotted together to kill our beloved IE.</p>
+
+<p>well, time to write about Sherlock’s ending.</p>
+ 
+            <a href="/2012/02/modernizr-vs-ie">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div class="grayish">
+    Tags:
+    
+      <a href="/tags#javascript">javascript</a>,
+    
+      <a href="/tags#ie">ie</a>,
+    
+      <a href="/tags#web-development">web-development</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
 
 
   <article class=''>
@@ -305,62 +445,6 @@ for now, i’m making my own design system, taking from couple of source.</p>
   <hr class='half-width'/>
 
 
-  <article class=''>
-    
-      <div class='mb2'>
-        <h1 class='m0'><a href='/2011/01/if-i-were-facebook'>If i were Facebook</a></h1>
-        <span class="grayish">
-          
-        </span>
-        <span class="grayish"><time>January 18, 2011</time> &mdash; 
-  
-  
-    less than 1 minute read (78 words)
-  
-
-
-
- &mdash; in 
-          <a href="/category/#blog">blog</a>
-         </span>
-      </div>
-    
-
-    
-      
-        
-
-        
-        
-          
-            <p>i will buy Last.fm.</p>
-
-<p>create a ‘channel-app-like’, so we’ve got status stream (text), photos, video, and last but not least, Audio. that’s where Last.fm coming.</p>
-
-<p>as we know that Spotify is already built in to the Facebook, it’s easier to integrate both of them. status flooding is something that many user would not love, so for the audio, the traffic will be huge, don’t bother about putting what other people listened into their wall. just don’t do that.</p>
-
-          
-
-        
-
-      
-    
-
-    
-    <div class="grayish">
-    Tags:
-    
-      <a href="/tags#facebook">facebook</a>,
-    
-      <a href="/tags#rant">rant</a>,
-    
-      <a href="/tags#idea">idea</a>
-    
-    </div>
-  </article>
-  <hr class='half-width'/>
-
-
 
 <footer class='py4'>
   <nav class="pagination">
@@ -371,7 +455,7 @@ for now, i’m making my own design system, taking from couple of source.</p>
   
 
   
-    <span class='h3'>&nbsp;</span>
+    <a class='h3 button' href="/page/56/">Older &rarr;</a>
   
   </nav>
   <hr class="full-width">
