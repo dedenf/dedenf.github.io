@@ -8,6 +8,7 @@ tags:
 category: [dailyfound]
 comments: true
 published: true
+page_type: long
 ---
 
 Dari [berita dari Sindonews ini](https://daerah.sindonews.com/read/1308539/21/sehat-rokok-konvensional-atau-vape-ini-hasil-penelitian-unpad-1527143850), yang melaporkan penelitian yang dilakukan oleh dokter mengenai rokok dan vape, penelitian yang dilakukan adalah dengan menggunakan metode dipanaskan, tidak seperti apa yang terjadi pada rokok (dibakar),
