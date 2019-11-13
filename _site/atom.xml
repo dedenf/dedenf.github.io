@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-11-07T16:34:26+07:00</updated>
+ <updated>2019-11-13T17:25:44+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,54 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Dulu rokok, sekarang vape (vaping)</title>
+   <link href="http://localhost:4000/2019/11/rokok-vape-apakah-bahaya"/>
+   <updated>2019-11-13T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/11/rokok-vape-apakah-bahaya</id>
+   <content type="html">&lt;p&gt;Dari &lt;a href=&quot;https://daerah.sindonews.com/read/1308539/21/sehat-rokok-konvensional-atau-vape-ini-hasil-penelitian-unpad-1527143850&quot;&gt;berita dari Sindonews ini&lt;/a&gt;, yang melaporkan penelitian yang dilakukan oleh dokter mengenai rokok dan vape, penelitian yang dilakukan adalah dengan menggunakan metode dipanaskan, tidak seperti apa yang terjadi pada rokok (dibakar),&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hasil penelitian terhadap semua cairan vape setelah dipanaskan menggunakan alat tertentu, nyaris semua cairan tidak mengalami perubahan zat. Peneliti hanya menemukan penambahan antara satu hingga dua zat. Juga ditemukan liquid yang tidak mengalami penambahan zat sama sekali.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Dari hasil riset ini, berkesimpulan bahwa (empasis dari saya)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Berdasarkan hasil penelitian itu, produk tembakau alternatif seperti rokok elektrik serta produk tembakau yang dipanaskan, bukan dibakar, &lt;strong&gt;memiliki risiko kesehatan lebih rendah dibandingkan rokok konvensional&lt;/strong&gt;. Bahwa pengguna produk tembakau alternatif seperti rokok elektrik memiliki risiko kesehatan dua kali lebih rendah dibandingkan perokok konvensional.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Memang bukan ahli kesehatan, apalagi seorang dokter, hanya saja, masih bingung dengan hasil penelitian ini, hal ini karena membaca hasil penelitian dari peneliti di Amerika serikat tentang bahaya dari vape (atau nge-vaping).&lt;/p&gt;
+
+&lt;p&gt;Silakan baca hasil laporan dari &lt;a href=&quot;https://www.fda.gov/news-events/public-health-focus/lung-illnesses-associated-use-vaping-products&quot;&gt;FDA ini&lt;/a&gt;, dan juga artikel dari &lt;a href=&quot;https://getpocket.com/redirect?url=http%3A%2F%2Fflip.it%2F5r0hWu&quot;&gt;New York Times&lt;/a&gt;,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A 17-year-old boy whose &lt;em&gt;lungs were irreversibly damaged by vaping&lt;/em&gt; received a double-lung transplant at the Henry Ford Hospital in Detroit, a lifesaving measure taken when a patient’s own lungs are diseased or damaged beyond repair and there is no other hope of survival, doctors said on Tuesday.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Bisa diartiken juga, vaping tidak lebih sehat dari pada rokok biasa, karena saya rasa mengganti paru-paru bukan hal yang bisa dibilang &lt;em&gt;risiko rendah&lt;/em&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Apple’s Promise Of A Powerful MacBook Pro Has Been Frustrated </title>
+   <link href="http://localhost:4000/2019/11/apple-macbook-pro-sucks"/>
+   <updated>2019-11-10T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/11/apple-macbook-pro-sucks</id>
+   <content type="html">&lt;p&gt;I’ve been Apple user for sometime, i got introduced to Apple product when i’m using Powerbook from my boss back then, it’s a great machine, i love the alumunium, love the keyboard, i’m using Cheetah that time (10.0.0).&lt;/p&gt;
+
+&lt;p&gt;One of the issue i’ve had right now with my Macbook Pro&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hardware choices in recent years may have helped make the MacBook Pro more fashionable, but it has become harder to use. The butterfly keyboard crystallises this approach with a preference for a light and thin design over-ruling a solid and dependable keyboard&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Indeed, the keyboard sucks, too many problem, from adding letter ‘e’, and now with this machine it added more spaces when i’m typing, the keyboard are subpar, i prefer the old one, i don’t mind if the machine thicker than current line up, as long as it worked.&lt;/p&gt;
+
+&lt;p&gt;So wanna try other laptop like XPC from Dell, or Spectre from HP, stuff it with Linux.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Clickbait, cara yang masih ampuh menarik pembaca</title>
