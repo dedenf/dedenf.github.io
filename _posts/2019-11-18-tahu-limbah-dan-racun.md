@@ -1,20 +1,18 @@
 ---
-layout: link
-type: link
-link: https://www.nytimes.com/2019/11/14/world/asia/indonesia-tofu-dioxin-plastic.html
-title: "To Make This Tofu, Start by Burning Toxic Plastic"
-category: links
+layout: post
+title: "Tahu, Limbah dan Racun"
 tags: 
     - health
     - "daily found"
     - toxic
     - environment
-
-categories: dailyfound
-published: true
+    
+category: [dailyfound]
 comments: true
+published: true
 page_type: long
 ---
+
 
 > Plastic waste from America, collected for recycling, is shipped to Indonesia. Some is burned as fuel by tofu makers, producing deadly chemicals and contaminating food
 
