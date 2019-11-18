@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-11-18T15:48:58+07:00</updated>
+ <updated>2019-11-18T16:03:50+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -50,6 +50,20 @@
 
 &lt;p&gt;Alasan klasik &lt;em&gt;sih&lt;/em&gt;, masalah bahan bakar mahal.&lt;/p&gt;
 
+</content>
+ </entry>
+ 
+ <entry>
+   <title>MacBook Pro teardown confirms the new keyboard is basically just the old, good keyboard</title>
+   <link href="http://localhost:4000/2019/11/apple-new-macbook-pro"/>
+   <updated>2019-11-18T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/11/apple-new-macbook-pro</id>
+   <content type="html">&lt;p&gt;Just last week, Apple introduced new 16” Macbook Pro line up, and i’ve complained about &lt;a href=&quot;https://notes.dedenf.com/2019/11/apple-macbook-pro-sucks&quot;&gt;Macbook Pro&lt;/a&gt; for quite &lt;a href=&quot;https://notes.dedenf.com/2017/12/worst-macbookpro&quot;&gt;some times&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As per &lt;a href=&quot;https://www.ifixit.com/News/16-inch-macbook-pro-magic-keyboard-throwback&quot;&gt;iFixit reported&lt;/a&gt; (re-reported by &lt;a href=&quot;https://www.theverge.com/circuitbreaker/2019/11/15/20966926/apple-16-inch-macbook-pro-teardown-ifixit-keyboard-switches-scissor-butterfly&quot;&gt;The Verge&lt;/a&gt;) about the new 16” Macbook Pro with “new” keyboard, which is basically an old scissor keyboard.&lt;/p&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe width=&quot;660&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/Uk5rpK6SpX4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;&lt;center&gt;&lt;em&gt;Video review from The Verge&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
 </content>
  </entry>
  

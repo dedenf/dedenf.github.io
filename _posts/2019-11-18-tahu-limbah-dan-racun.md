@@ -38,5 +38,5 @@ Dan saya rasa banyak daerah lain (seperti Lakardowo, Mojokerto misalkan) yang me
 [Ini Alasan Pabrik Tahu di Sidoarjo Masih Gunakan Sampah Plastik Impor](https://news.detik.com/berita-jawa-timur/d-4789031/ini-alasan-pabrik-tahu-di-sidoarjo-masih-gunakan-sampah-plastik-impor).   
 > "Karena menggunakan bahan bakar lainnya biayanya mahal. Mengunakan bahan bakar sampah plastik ini biaya lebih ngirit," kata Khambali, salah satu pekerja pabrik tahu kepada detikcom di lokasi, Senin (18/11/2019).
 
-Alasan klasik *sih*, masalah bahan bakar mahal.
+Alasan klasik *sih*, masalah bahan bakar mahal, jadi lebih hemat membakar sampah.
 
