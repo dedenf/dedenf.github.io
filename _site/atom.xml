@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-11-18T16:24:19+07:00</updated>
+ <updated>2019-11-20T16:34:16+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,17 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Cek up finansial sebelum membuat blueprint tujuan finansial</title>
+   <link href="http://localhost:4000/2019/11/seputar-finansial-blueprint-finansial"/>
+   <updated>2019-11-20T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/11/seputar-finansial-blueprint-finansial</id>
+   <content type="html">&lt;p&gt;Setiap orang bisa melakukan finansial &lt;em&gt;checkup&lt;/em&gt;, yang berguna untuk mengetahui bagaimana kinerja keuangan kita, susah sampai mana, apakah kurang, dan apa saja yang bisa dilakukan berikutnya?&lt;/p&gt;
+
+&lt;p&gt;Agar tujuan, goal, dalam hidup bisa optimal, strategi apa saja yang bisa dilakukan.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Tahu, Limbah dan Racun</title>
