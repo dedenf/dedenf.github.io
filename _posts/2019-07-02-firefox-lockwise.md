@@ -13,7 +13,7 @@ published: true
 comments: true
 ---
 
-![Firefox lockwise](https://lockwise.firefox.com/assets/images/lockwise-horizontal-logo.svg)
+![Firefox lockwise](/images/posts/image-lockwise.jpg)
 
 Been a fan of [Firefox](/2017/11/firefox-quantum) for [a while](/2016/05/firefox-testpilot), testing out their new services (and they shut it down) or just using [their products](https://www.mozilla.org/en-US/firefox/) on a [daily basis](https://getpocket.com/), now they launched [Lockwise](https://lockwise.firefox.com/).
 
