@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-11-21T20:16:03+07:00</updated>
+ <updated>2019-11-28T19:41:37+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,37 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Memulai investasi saham?</title>
+   <link href="http://localhost:4000/2019/11/seputar-finansial-investasi-saham"/>
+   <updated>2019-11-28T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/11/seputar-finansial-investasi-saham</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://d33wubrfki0l68.cloudfront.net/8632e2853e78d9e0c29b5b0c1449b7996f015c99/7d773/images/posts/chris-liverani-dbi_my696rk-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Artikel yang ditulis di seputarfinansial, dengan fokus investasi disaham, memang tidak terlalu mendalam, tidak ada analisa teknikal atau fundamental, hanya suatu perkenalan.&lt;/p&gt;
+
+&lt;p&gt;Saham sebagai intrumen investasi memiliki karakteristik sendiri, dan untuk investasi atau trading disaham diperlukan pengetahuan mengenai perusahaannya, kinerjanya. Dan yang penting bagaimana cara membeli, menjual saham tersebut.&lt;/p&gt;
+
+&lt;p&gt;Dibahas juga apa yang bisa didapat dari investasi saham, keuntungan, risiko yang terpapar.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Google Maps the dominant local search tool, followed by Facebook and Yelp</title>
+   <link href="http://localhost:4000/2019/11/mencari-informasi-bisnis-usaha-di-google-map"/>
+   <updated>2019-11-27T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/11/mencari-informasi-bisnis-usaha-di-google-map</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;…a &lt;a href=&quot;https://www.brandify.com/blog/announcing-the-brandify-local-search-consumer-survey&quot;&gt;new consumer survey&lt;/a&gt; from Brandify found that 77% of respondents use Google Maps to find “near me” business information well ahead of other sites.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sering melakukan ini untuk mencari tempat makan biasanya, dengan perkembangan &lt;em&gt;smartphone&lt;/em&gt;, dan juga bagaimana orang mencari informasi tentang usaha di internet, karena tempat usaha itu berkaitan dengan lokasi, mencari di &lt;em&gt;Google Map&lt;/em&gt; adalah pilihan pertama.&lt;/p&gt;
+
+&lt;p&gt;Dan ditambah dengan rating, komentar dari orang-orang yang disediakan oleh Google Map, dan itu terhubung dengan Google Business, menjadikan Google Map sebagai direktori seperti Yellow Pages dulu zaman pakai telepon rumah.&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Firefox Lockwise, apakah masih membutuhkan 1Password?</title>
@@ -102,7 +133,9 @@ Integrasi aplikasi, kondisi dimana password manager memberikan opsi untuk login 
    <link href="http://localhost:4000/2019/11/seputar-finansial-blueprint-finansial"/>
    <updated>2019-11-20T00:00:00+07:00</updated>
    <id>http://localhost:4000/2019/11/seputar-finansial-blueprint-finansial</id>
-   <content type="html">&lt;p&gt;Setiap orang bisa melakukan finansial &lt;em&gt;checkup&lt;/em&gt;, yang berguna untuk mengetahui bagaimana kinerja keuangan kita, susah sampai mana, apakah kurang, dan apa saja yang bisa dilakukan berikutnya?&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://d33wubrfki0l68.cloudfront.net/707874d4440ad6458c46e87bc331466f17c7bb6c/716dd/images/posts/alev-takil-d-oimr6jx0e-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Setiap orang bisa melakukan finansial &lt;em&gt;checkup&lt;/em&gt;, yang berguna untuk mengetahui bagaimana kinerja keuangan kita, susah sampai mana, apakah kurang, dan apa saja yang bisa dilakukan berikutnya?&lt;/p&gt;
 
 &lt;p&gt;Agar tujuan, goal, dalam hidup bisa optimal, strategi apa saja yang bisa dilakukan.&lt;/p&gt;
 </content>
