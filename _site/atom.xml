@@ -4,7 +4,7 @@
  <title>HyperText Thrones</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-12-03T22:30:36+07:00</updated>
+ <updated>2019-12-04T19:34:45+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Deden Fathurahman</name>
@@ -12,6 +12,25 @@
    <twitter>dedenf</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Let's talk about coffee</title>
+   <link href="http://localhost:4000/2019/12/coffee-anxiety-nerveous-stress-related"/>
+   <updated>2019-12-04T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/12/coffee-anxiety-nerveous-stress-related</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/isaac-benhesed-onLbXleIkds-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I love coffee, no doubt, been drinking coffee since 4th grade, making it with lots of way, collected few coffee gadget along these years, tools for brewing, manual, semi manual (or semi automatic?), old fashioned way, tasting different kind of coffee, from different region, locally and internationally.&lt;/p&gt;
+
+&lt;p&gt;I even bought a domain name specific for my love of coffee, &lt;a href=&quot;https://epicoffee.com/,&quot; title=&quot;yayaya haven't updated for a while&quot;&gt;epicoffee.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But it lately, it took a toll on me, i felt like more anxious, sometimes nervous, and sometimes i woke up in the middle of the night these last few weeks.&lt;/p&gt;
+
+&lt;p&gt;Reading these &lt;a href=&quot;https://www.psychologytoday.com/us/blog/progress-not-perfection/201106/i-quit-coffee-cure-my-anxiety&quot;&gt;article&lt;/a&gt;, &lt;a href=&quot;https://www.deathwishcoffee.com/blogs/news/caffeine-and-anxiety&quot;&gt;talks about the effect&lt;/a&gt; &lt;a href=&quot;https://www.sbs.com.au/food/article/2019/03/14/why-does-coffee-make-me-anxious-while-others-can-drink-it-bed&quot;&gt;of caffeine in your&lt;/a&gt; blood, and eventually to your brain , the caffeine could cause jitter, anxiety, nerveousness, and some cases stress (hey! sounds familiar).&lt;/p&gt;
+
+&lt;p&gt;Accidentally, i’m not drinking coffee since monday, and i don’t know, just felt more clear, having less anxiety, will continue to reduce my caffeine intake, hopefully for the better.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Isyana Sarasvati — LEXICON</title>
