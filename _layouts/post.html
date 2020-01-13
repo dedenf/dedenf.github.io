@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% if page.image %}
+  <meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
+{% endif %}
+
+<div class='o-wrapper'>
+  <div class='o-grid'>
+    <div class='o-grid__col'>
+      <article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>
+
+        <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
+
+        <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }} &mdash; {% include read-time.html %} &mdash; {{ site.author.name}}</time>
+
+        <div class='c-content' itemprop='articleBody'>
+          {% if page.image.feature %}
+            <img src="{{ page.image.feature }}" class='c-post__image' alt='{{ page.title }}'>
+            {% if page.image.creditlink %}
+            <p><center><em>Photo by <a href="{{ page.image.creditlink }}">{{ page.image.author }}</a></em></center></p>
+            {% endif %}
+          {% endif %}
+          {{ content }}
+        </div>
+
+        <div class='c-tags'>
+          {% for tag in page.tags %}
+            <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
+          {% endfor %}
+        </div>
+
+        <hr>
+
+        
+
+      </article>
+    </div>
+  </div>
+</div>

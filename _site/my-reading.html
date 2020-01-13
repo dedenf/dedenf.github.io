@@ -1,0 +1,3559 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <title>
+    
+      Reading &middot; HyperText Thrones
+    
+
+  </title>
+  <meta name='description' content="HyperText Thrones, Daily muse, putting my tought, reaction, comments, and things that i need to write. About tech, financial, life.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f4f5f6">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#f4f5f6">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <link rel='canonical' href="http://localhost:4000/my-reading">
+  <link rel='alternate' type='application/rss+xml' title='HyperText Thrones' href="http://localhost:4000/feed">
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/sites/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/images/sites/favicon.png"/>
+  
+  <link rel="image_src" href="/images/sites/deden.png">
+  
+
+  <!-- Sharing -->
+  
+  <meta property="og:title" content="Reading" />
+  <meta property="og:description" content="{% for post in site.posts %} {% if post.type == "link" %} {% if post.link %} {{ post.date | date: '%B %-d, %Y' }} &mdash; link to the post {{ post.title }} &rarr; {% else %} {{ post.title }} {{ post.date | date: '%B %-d, %Y' }} &mdash; {% include..." />
+  
+	<meta property="og:site_name" content="HyperText Thrones | HyperText Thrones, Daily muse, putting my tought, reaction, comments, and things that i need to write. About tech, financial, life."/>
+	<meta property="og:url" content="http://localhost:4000/my-reading" />
+   
+	<meta property="og:type" content="website" />
+  
+  <meta property="og:image" content="" />
+  
+  
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dedenf">
+  <meta name="twitter:title" content="Reading">
+  
+  <meta name="twitter:description" content="{% for post in site.posts %} {% if post.type == "link" %} {% if post.link %} {{ post.date | date: '%B %-d, %Y' }} &mdash; link to the post {{ post.title }} &rarr; {% else %} {{ post.title }} {{ post.date | date: '%B %-d, %Y' }} &mdash; {% include...">
+  
+  
+  <meta name="twitter:image:src" content="/public/deden.png">
+  
+  
+  
+
+  
+  <meta itemprop="name" content="Reading" />
+	<meta itemprop="headline" content="Reading" />
+	<meta itemprop="author" content="Deden Fathurahman" />
+  <meta itemprop="description" content="{% for post in site.posts %} {% if post.type == "link" %} {% if post.link %} {{ post.date | date: '%B %-d, %Y' }} &mdash; link to the post {{ post.title }} &rarr; {% else %} {{ post.title }} {{ post.date | date: '%B %-d, %Y' }} &mdash; {% include..." />
+  
+	
+	<link itemprop="url" href="http://localhost:4000/my-reading" />
+
+  
+
+
+
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700|Crimson+Text:400,400i,600,600i,700,700i|Enriqueta:400,500|Georgia|Merriwather|Lato:400,600&display=swap" rel="stylesheet">
+
+  <style>
+    
+
+    html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:0.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}body,h1,h2,h3,h4,h5,h6,blockquote,p,pre,dl,dd,ol,ul,figure,hr,fieldset,legend{margin:0;padding:0}li>ol,li>ul{margin-bottom:0}table{border-collapse:collapse;border-spacing:0}address,h1,h2,h3,h4,h5,h6,blockquote,p,pre,dl,ol,ul,figure,hr,table,fieldset{margin-bottom:32px}dd,ol,ul{margin-left:16px}.elsewhere{align-items:baseline;display:flex;flex-wrap:wrap;line-height:2.2rem;font-size:var(--font-size);margin:2rem 0 1.5rem;border-top:1px solid var(--lightgrey);border-bottom:1px solid var(--lightgrey)}.elsewhere h4{margin-right:1rem}.list-inline{margin:0;padding:0}@media (min-width: 25em){.list-inline{display:flex}}.list-inline li{list-style:none;display:inline-block;margin-right:.6rem}footer .meta{color:#666;font-size:.8em;font-family:'Lato', sans-serif;font-weight:normal;line-height:1.65em}h1.c-post__title,.c-post-card__title{font-family:'Enriqueta', 'Bitter', serif;font-weight:normal;line-height:1.65em;font-size:2em}article a,.c-post-card__excerpt a{color:#2B5F72}.credit_image{font-size:.8em}@-webkit-keyframes spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.icon{position:relative;display:inline-block;width:25px;height:25px;overflow:hidden;fill:currentColor}.icon__cnt{width:100%;height:100%;background:inherit;fill:inherit;pointer-events:none;transform:translateX(0);-ms-transform:translate(0.5px, -0.3px)}.icon--m{width:50px;height:50px}.icon--l{width:100px;height:100px}.icon--xl{width:150px;height:150px}.icon--xxl{width:200px;height:200px}.icon__spinner{position:absolute;top:0;left:0;width:100%;height:100%}.icon--ei-spinner .icon__spinner,.icon--ei-spinner-2 .icon__spinner{-webkit-animation:spin 1s steps(12) infinite;animation:spin 1s steps(12) infinite}.icon--ei-spinner-3 .icon__spinner{-webkit-animation:spin 1.5s linear infinite;animation:spin 1.5s linear infinite}.icon--ei-sc-facebook{fill:#3b5998}.icon--ei-sc-github{fill:#333}.icon--ei-sc-google-plus{fill:#dd4b39}.icon--ei-sc-instagram{fill:#3f729b}.icon--ei-sc-linkedin{fill:#0976b4}.icon--ei-sc-odnoklassniki{fill:#ed812b}.icon--ei-sc-skype{fill:#00aff0}.icon--ei-sc-soundcloud{fill:#f80}.icon--ei-sc-tumblr{fill:#35465c}.icon--ei-sc-twitter{fill:#55acee}.icon--ei-sc-vimeo{fill:#1ab7ea}.icon--ei-sc-vk{fill:#45668e}.icon--ei-sc-youtube{fill:#e52d27}.icon--ei-sc-pinterest{fill:#bd081c}.icon--ei-sc-telegram{fill:#0088cc}.highlight{margin:0;background:#fff}.highlighter-rouge .highlight{background:#FAFAFA}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k{font-weight:bold}.highlight .o{font-weight:bold}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:bold}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{font-weight:bold}.highlight .kd{font-weight:bold}.highlight .kp{font-weight:bold}.highlight .kr{font-weight:bold}.highlight .kt{color:#458;font-weight:bold}.highlight .m{color:#099}.highlight .s{color:#d14}.highlight .na{color:teal}.highlight .nb{color:#0086B3}.highlight .nc{color:#458;font-weight:bold}.highlight .no{color:teal}.highlight .ni{color:purple}.highlight .ne{color:#900;font-weight:bold}.highlight .nf{color:#900;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:navy}.highlight .nv{color:teal}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .sb{color:#d14}.highlight .sc{color:#d14}.highlight .sd{color:#d14}.highlight .s2{color:#d14}.highlight .se{color:#d14}.highlight .sh{color:#d14}.highlight .si{color:#d14}.highlight .sx{color:#d14}.highlight .sr{color:#009926}.highlight .s1{color:#d14}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc{color:teal}.highlight .vg{color:teal}.highlight .vi{color:teal}.highlight .il{color:#099}body{color:#323232;font-size:19px;font-family:"Merriwather","Bitter",serif;line-height:32px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}*::selection{color:#fff;background:#00A0FF}a{text-decoration:none;color:#323232;transition:.4s}a:hover,a:active,a:focus{text-decoration:underline}@media (min-width: 1200px){.author__avatar{display:block;width:auto;height:auto}.author__avatar img{padding:5px;border:1px solid #f2f3f3}.c-post__image,article img{display:block;max-width:130%;height:auto;padding:0em 0;position:relative;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}}@media (min-width: 320px) and (max-width: 1199px){.c-post__image,article img{display:block;max-width:100%;height:auto;padding:0em 0;position:relative;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}}hr{height:1px;margin:32px 0;border:0;background-color:#E9EFF3}h1,h2,h3,h4,h5,h6{font-weight:inherit;line-height:initial;font-weight:600;font-family:"Bitter",serif}h1{font-size:36px;font-family:inherit}h2{font-size:28px}h3{font-size:24px;font-weight:600}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}blockquote{padding-left:16px;border-left:3px solid #2B5F72;font-style:italic;color:#999}pre,code{font-family:Courier,monospace;background-color:#FAFAFA}pre{overflow:auto;padding:32px;margin-bottom:16px;font-size:16px;line-height:25px;white-space:pre-wrap;word-wrap:break-word}li code,p code{padding:4px 8px}input[type='text'],input[type='tel'],input[type='number'],input[type='email'],select,textarea{width:100%;padding:16px;border:1px solid #E9EFF3;border-radius:0;outline:none;background-color:#fff;font-size:14px;appearance:none;transition:.4s}input[type='text']:hover,input[type='text']:active,input[type='text']:focus,input[type='tel']:hover,input[type='tel']:active,input[type='tel']:focus,input[type='number']:hover,input[type='number']:active,input[type='number']:focus,input[type='email']:hover,input[type='email']:active,input[type='email']:focus,select:hover,select:active,select:focus,textarea:hover,textarea:active,textarea:focus{border:1px solid #323232}.o-grid{margin:0 auto;display:flex;flex-wrap:wrap;max-width:700px}.o-grid:after{content:'';display:table;clear:both}.o-grid .o-grid{margin-right:-16px;margin-left:-16px;padding:0}.o-grid--full{max-width:100vw}.o-grid__col{float:left;padding-right:16px;padding-left:16px}.o-grid__col--1-4-s{width:25%}.o-grid__col--1-3-s{width:33.3333333333%}.o-grid__col--2-4-s{width:50%}.o-grid__col--3-4-s{width:75%}.o-grid__col--4-4-s{width:100%}@media (min-width: 40em){.o-grid__col--1-4-m{width:25%}.o-grid__col--1-3-m{width:33.3333333333%}.o-grid__col--2-4-m{width:50%}.o-grid__col--3-4-m{width:75%}}@media (min-width: 64em){.o-grid__col--1-4-l{width:25%}.o-grid__col--1-3-l{width:33.3333333333%}.o-grid__col--2-4-l{width:50%}.o-grid__col--3-4-l{width:75%}}.o-grid__col--full{width:100%}.o-grid__col--center{margin:0 auto}.o-grid__col--end{margin-left:auto}.o-wrapper{padding:32px 0}.c-off-canvas-container{display:flex;min-height:100vh;flex-direction:column}.c-off-canvas-container .o-wrapper{flex:1 0 auto}.o-plain-list{margin:0;padding:0;list-style:none}.c-header__inner{padding:16px 0;border-bottom:1px solid #E9EFF3}.c-header__icon{vertical-align:middle}.c-logo__link{font-size:19px;font-weight:900;transition:.4s}.c-logo__link:hover,.c-logo__link:active,.c-logo__link:focus{color:#00A0FF;text-decoration:none}.c-nav__item{font-size:16px}.c-nav__link{display:block;transition:.4s}.c-nav__link--current{color:#00A0FF}.home-template .c-nav__link--current:not(:hover){color:#323232}.c-nav__link:hover,.c-nav__link:active,.c-nav__link:focus{color:#00A0FF;text-decoration:none}.c-off-canvas-toggle{float:right;position:relative;top:8px;z-index:10;height:19px;width:25px;cursor:pointer}.c-off-canvas-toggle__icon{position:absolute;left:0;height:1px;width:25px;background:#323232;cursor:pointer}.c-off-canvas-toggle__icon:before,.c-off-canvas-toggle__icon:after{content:'';display:block;height:100%;background-color:inherit;transition:.4s}.c-off-canvas-toggle__icon:before{transform:translateY(16px)}.c-off-canvas-toggle__icon:after{transform:translateY(7px)}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon{height:2px;background-color:transparent}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:before,.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:after{position:relative;visibility:visible;background:#323232}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:before{top:11px;transform:rotate(-45deg)}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:after{top:9px;transform:rotate(45deg)}.c-off-canvas-toggle--close{top:0;float:none;display:block;margin-left:auto}html,body{overflow-x:hidden}.c-off-canvas-content{position:fixed;top:0;right:0;width:300px;height:100%;padding:24px 32px;background-color:#fff;transform:translate3d(300px, 0, 0)}.c-off-canvas-container{transform:translate3d(0, 0, 0);transition:transform .4s cubic-bezier(0.16, 0.68, 0.43, 0.99)}.c-off-canvas-container.is-active{transform:translate3d(-300px, 0, 0)}.c-off-canvas-container.is-active:after{position:fixed;top:0;right:0;bottom:0;left:0;content:'';background-color:rgba(0,0,0,0.2)}.c-tags a{display:inline-block;padding:4px 16px;margin:0 8px 4px 0;font-size:12px;font-family:"Merriwather","Bitter",serif;line-height:25px;background-color:#FAFAFA;transition:.4s}.c-tags a:hover,.c-tags a:active,.c-tags a:focus{text-decoration:none;background-color:#FAFAFA}@media (max-width: 39.99em){.c-tags{margin-bottom:22px}}.c-btn{display:inline-block;padding:8px 32px;cursor:pointer;transition:.4s;text-align:center;vertical-align:middle;white-space:nowrap;line-height:inherit;border:0;border-radius:0;color:#fff;background-color:#207cdf;font-size:16px}.c-btn:hover,.c-btn:active,.c-btn:focus{text-decoration:none;background-color:#238cf6}.c-btn--full{width:100%}.c-btn--small{padding:4px 16px}.c-post-card{display:block;word-break:break-word}.c-post-card--first{padding-top:0}.c-post-card--last{padding-bottom:0;border-bottom:0}.c-post-card__title{margin-bottom:10px;font-size:19px;font-weight:600;transition:.4s}@media (min-width: 40em){.c-post-card__title{font-size:28px}}.c-post-card__excerpt{margin-bottom:10px}.c-post-card__date{display:block;color:#2B5F72;direction:ltr;font-size:12px;font-weight:600;line-height:22px;text-transform:capitalize}.c-post-card:hover{color:#323232;text-decoration:none}.c-post-card:hover .c-post-card__title{color:#00A0FF}.c-post-card__date{margin:10px}.c-pagination{text-transform:uppercase;transition:.4s}.c-pagination:hover,.c-pagination:active,.c-pagination:focus{color:#00A0FF;text-decoration:none}.c-pagination__text{position:relative;font-size:14px;letter-spacing:2px}.c-pagination__text--prev{left:-16px}.c-pagination__text--next{right:-16px}.c-pagination__icon{vertical-align:text-top}.c-pagination__icon--prev{left:-8px}.c-pagination__icon--next{right:-8px}.c-post{margin:0 auto;max-width:740px}.c-post__title{font-size:24px;margin-bottom:16px}@media (min-width: 40em){.c-post__title{font-size:28px}}.c-post__date{position:relative;padding-top:16px;display:block;text-align:center;margin-bottom:16px;font-size:14px;font-weight:600;line-height:22px;color:#2B5F72}.c-post__date:after{position:absolute;content:'';top:0;left:50%;height:1px;width:64px;background:#FAFAFA;transform:translateX(-50%)}.c-post__image{margin:0 auto 16px}.c-content a:not(.c-btn){text-decoration:underline;text-decoration-skip:ink}.c-content a:not(.c-btn):hover,.c-content a:not(.c-btn):active,.c-content a:not(.c-btn):focus{color:#00A0FF}.twitter-tweet,.fluid-width-video-wrapper{margin-bottom:16px !important}.c-social-nav__item{display:inline-block}.c-social-nav__icon{fill:#323232;vertical-align:middle;transition:.4s}.c-social-nav__icon:hover,.c-social-nav__icon:active,.c-social-nav__icon:focus{fill:#00A0FF}.c-footer{padding:32px 0;background-color:#FAFAFA}.u-hidden{display:none}.u-hidden-visually{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.u-font-medium{font-size:16px;line-height:25px}.u-font-small{font-size:14px;line-height:22px}.u-font-tiny{font-size:12px;line-height:19px}.u-text-left{text-align:left}.u-text-right{text-align:right}.u-text-center{text-align:center}.u-text-justify{text-align:justify}.u-inline{display:inline}.u-block{display:block}.u-inline-block{display:inline-block}.u-left{float:left}.u-right{float:right}.u-clearfix:after{content:'';display:table;clear:both}
+
+  </style>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  
+    ga('create', 'UA-38299976-3', 'auto');
+    ga('send', 'pageview');
+  
+  </script>
+  <!-- RSS -->
+
+</head>
+
+<body>
+
+  <div class='js-off-canvas-container c-off-canvas-container'>
+    <header class='c-header'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--full'>
+      <div class='c-header__inner'>
+
+        <div class='o-grid'>
+          <div class='o-grid__col o-grid__col--3-4-s'>
+            <div class='c-logo u-text-left'>
+              <a class='c-logo__link' href='/'>HyperText Thrones</a>
+            </div>
+          </div>
+
+          <div class='o-grid__col o-grid__col--1-4-s'>
+            <label class='js-off-canvas-toggle c-off-canvas-toggle' aria-label='Toggle navigation'>
+              <span class='c-off-canvas-toggle__icon'></span>
+            </label>
+          </div>
+
+          <div class='o-grid__col o-grid__col--1-4-s'>
+            <div class='c-off-canvas-content'>
+              <label class='js-off-canvas-toggle c-off-canvas-toggle c-off-canvas-toggle--close'>
+                <span class='c-off-canvas-toggle__icon'></span>
+              </label>
+              <img src="/images/sites/hypertext-thrones.png" alt="logo">
+              <nav>
+              <ul class='c-nav o-plain-list '>
+                <li class='c-nav__item' role='presentation'><a class='btn button-narrow' href='/about'>About</a></li>
+<li class='c-nav__item' role='presentation'><a class='btn button-narrow' href='/archives'>Archives</a></li>
+<li class='c-nav__item' role='presentation'><a class='btn button-narrow' href='/my-reading' title="links, article, anything worth reading and bookmarking">Reading</a></li>
+<li class='c-nav__item' role='presentation'><a class='btn button-narrow' href='/feed'><i class="fa fa-rss" aria-hidden="true"></i> Feed</a></li>
+              </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</header>
+
+    <div class='o-wrapper'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col'>
+      <article class='c-post'>
+        <h1 class='c-post__title u-text-center'>Reading</h1>
+
+        <div class='c-content'>
+          
+
+          <hr class="half-width">
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>November 29, 2019 &mdash; <a href='/2019/11/seputar-finansial-investasi-dengan-obligasi'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://seputarfinansial.com/apa-itu-obligasi/'>Apa itu obligasi? &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p><img src="https://d33wubrfki0l68.cloudfront.net/9972781650c3ac164217f5e38c0c0f839d4be6ca/b3a18/images/posts/william-daigneault-7c8z4kevgds-unsplash.jpg" alt="" /></p>
+
+<p>Setelah sebelumnya menuliskan tentang investasi dengan instrumen saham, selanjutnya kita berkenalan juga dengan instrumen lain, yaitu Obligasi, atau sering disebut juga dengan surat hutang.</p>
+
+<p>Di sini hanya dibahas mengenai obligasi yang dikeluarkan perusahaan atau oleh negara.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#life">life</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#seputarfinansial">seputarfinansial</a>,
+    
+      <a href="/tags#finansial">finansial</a>,
+    
+      <a href="/tags#obligasi">obligasi</a>,
+    
+      <a href="/tags#bond">bond</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>November 28, 2019 &mdash; <a href='/2019/11/seputar-finansial-investasi-saham'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://seputarfinansial.com/memulai-invetasi-saham/'>Memulai investasi saham? &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p><img src="https://d33wubrfki0l68.cloudfront.net/8632e2853e78d9e0c29b5b0c1449b7996f015c99/7d773/images/posts/chris-liverani-dbi_my696rk-unsplash.jpg" alt="" /></p>
+
+<p>Artikel yang ditulis di seputarfinansial, dengan fokus investasi disaham, memang tidak terlalu mendalam, tidak ada analisa teknikal atau fundamental, hanya suatu perkenalan.</p>
+
+<p>Saham sebagai intrumen investasi memiliki karakteristik sendiri, dan untuk investasi atau trading disaham diperlukan pengetahuan mengenai perusahaannya, kinerjanya. Dan yang penting bagaimana cara membeli, menjual saham tersebut.</p>
+
+<p>Dibahas juga apa yang bisa didapat dari investasi saham, keuntungan, risiko yang terpapar.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#life">life</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#seputarfinansial">seputarfinansial</a>,
+    
+      <a href="/tags#finansial">finansial</a>,
+    
+      <a href="/tags#saham">saham</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>November 27, 2019 &mdash; <a href='/2019/11/mencari-informasi-bisnis-usaha-di-google-map'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://searchengineland.com/google-maps-the-dominant-local-search-tool-followed-by-facebook-and-yelp-325699'>Google Maps the dominant local search tool, followed by Facebook and Yelp &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>…a <a href="https://www.brandify.com/blog/announcing-the-brandify-local-search-consumer-survey">new consumer survey</a> from Brandify found that 77% of respondents use Google Maps to find “near me” business information well ahead of other sites.</p>
+</blockquote>
+
+<p>Sering melakukan ini untuk mencari tempat makan biasanya, dengan perkembangan <em>smartphone</em>, dan juga bagaimana orang mencari informasi tentang usaha di internet, karena tempat usaha itu berkaitan dengan lokasi, mencari di <em>Google Map</em> adalah pilihan pertama.</p>
+
+<p>Dan ditambah dengan rating, komentar dari orang-orang yang disediakan oleh Google Map, dan itu terhubung dengan Google Business, menjadikan Google Map sebagai direktori seperti Yellow Pages dulu zaman pakai telepon rumah.</p>
+
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#business">business</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#map">map</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>November 20, 2019 &mdash; <a href='/2019/11/seputar-finansial-blueprint-finansial'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://seputarfinansial.com/check-up-finansial-sebelum-membuat-blueprint-tujuan-finansial/'>Cek up finansial sebelum membuat blueprint tujuan finansial &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p><img src="https://d33wubrfki0l68.cloudfront.net/707874d4440ad6458c46e87bc331466f17c7bb6c/716dd/images/posts/alev-takil-d-oimr6jx0e-unsplash.jpg" alt="" /></p>
+
+<p>Setiap orang bisa melakukan finansial <em>checkup</em>, yang berguna untuk mengetahui bagaimana kinerja keuangan kita, susah sampai mana, apakah kurang, dan apa saja yang bisa dilakukan berikutnya?</p>
+
+<p>Agar tujuan, goal, dalam hidup bisa optimal, strategi apa saja yang bisa dilakukan.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#life">life</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#seputarfinansial">seputarfinansial</a>,
+    
+      <a href="/tags#finansial">finansial</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>November 18, 2019 &mdash; <a href='/2019/11/apple-new-macbook-pro'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.theverge.com/circuitbreaker/2019/11/15/20966926/apple-16-inch-macbook-pro-teardown-ifixit-keyboard-switches-scissor-butterfly'>MacBook Pro teardown confirms the new keyboard is basically just the old, good keyboard &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Just last week, Apple introduced new 16” Macbook Pro line up, and i’ve complained about <a href="https://notes.dedenf.com/2019/11/apple-macbook-pro-sucks">Macbook Pro</a> for quite <a href="https://notes.dedenf.com/2017/12/worst-macbookpro">some times</a>.</p>
+
+<p>As per <a href="https://www.ifixit.com/News/16-inch-macbook-pro-magic-keyboard-throwback">iFixit reported</a> (re-reported by <a href="https://www.theverge.com/circuitbreaker/2019/11/15/20966926/apple-16-inch-macbook-pro-teardown-ifixit-keyboard-switches-scissor-butterfly">The Verge</a>) about the new 16” Macbook Pro with “new” keyboard, which is basically an old scissor keyboard.</p>
+
+<div class="embed-container"><iframe width="660" height="415" src="https://www.youtube.com/embed/Uk5rpK6SpX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p><center><em>Video review from The Verge</em></center></p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#apple">apple</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#computer">computer</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>November 15, 2019 &mdash; <a href='/2019/11/google-chrome'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.zdnet.com/article/google-chrome-experiment-crashes-browser-tabs-impacts-companies-worldwide/'>Google Chrome experiment crashes browser tabs, impacts companies worldwide &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+          <p>This is a deja vu all over again, with Google Chrome has became the dominant web browser that people use, Google Chrome has been use by more than 60% of the internet population, Firefox behind it, but with huge differences of course (about &gt; 7% marketshare) (source: <a href="https://en.wikipedia.org/wiki/Usage_share_of_web_browsers">wikipedia</a>, <a href="https://www.netmarketshare.com/browser-market-share.aspx?options=%7B%22filter%22%3A%7B%7D%2C%22dateLabel%22%3A%22Custom%22%2C%22attributes%22%3A%22share%22%2C%22group%22%3A%22browser%22%2C%22sort%22%3A%7B%22share%22%3A-1%7D%2C%22id%22%3A%22browsersDesktop%22%2C%22dateInterval%22%3A%22Monthly%22%2C%22dateStart%22%3A%222019-01%22%2C%22dateEnd%22%3A%222019-10%22%2C%22segments%22%3A%22-1000%22%7D">Netmarketshare</a> ).</p>
+
+<p><a href="https://www.zdnet.com/article/google-chrome-experiment-crashes-browser-tabs-impacts-companies-worldwide/">In the news</a>, covering many people from many organization who got issue with the Google Chrome installation, even cost them money.</p>
+<blockquote>
+  <p>“Do you see the impact you created for thousands of us without any warning or explanation? We are not your test subjects,” said an angry sysadmin. “We are running professional services for multi million dollar programs. Do you understand how many hours of resources were wasted by your ‘experiment’?”</p>
+</blockquote>
+
+<p>or</p>
+
+<blockquote>
+  <p>“How many tens of thousands of dollars has this oops cost everyone? This is starting to look like a pretty massive mistake on Googles part,” added another disgruntled sysadmin.</p>
+</blockquote>
+
+<p>Banking are one of the tightly-controlled environment, i know one bank using Google Chrome as their main browser (probably other bank using it also, but this one i know deeply), even on the Microsoft Windows machine, it was centralise controlled software, admin controll all of the version, installation, everything, on each machine.</p>
+
+<p>The deja vu part, goes way back with IE 6.0, it’s the most used browser in 2000s.</p>
+
+<p>Google Chrome has became integral part of the business now, and if it has misstep, it will impacting a lot of its users, even it’s a free software (but i believe it’s not free entirely, you have to pay in someway or another).</p>
+
+<p>Time to consider and use another browser? <a href="https://www.mozilla.org/en-US/firefox/new/">FireFox</a> or <a href="https://brave.com/">Brave</a>, maybe. <br />
+I have <a href="/2019/09/menjaga-privasi-dan-keamanan-dalam-berinternet">switch for some time</a>, and you should too.</p>
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#browser">browser</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#chrome">chrome</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>November 14, 2019 &mdash; <a href='/2019/11/standups'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://andyjohns.co/why-standups-are-useless-and-how-to-run-great-product-team-meetings/'>Why Standups are Useless and How to Run Great Product Team Meetings &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>In any case prior to a launch, standups are mostly a waste of time. That’s because the bulk of the product development process centers around (1) building (2) making decisions.</p>
+</blockquote>
+
+<p>This lines, is a hard truth.</p>
+
+<p>I’ve fell to this also, we are gathering at the end of the day, and thinking that we are updating each other, but since the team grew, the “update” session became long, and it took people’s time, and it’s not okay.</p>
+
+<p>The communication could be done by other type of communication, asynchronously. this way, people could finish their job.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#agile">agile</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#development">development</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>November 10, 2019 &mdash; <a href='/2019/11/apple-macbook-pro-sucks'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.forbes.com/sites/ewanspence/2019/11/09/apple-macbook-pro-macos-community-neglected-strategy-fail-iphone-flagship/#7b1d506b4228'>Apple’s Promise Of A Powerful MacBook Pro Has Been Frustrated  &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>I’ve been Apple user for sometime, i got introduced to Apple product when i’m using Powerbook from my boss back then, it’s a great machine, i love the alumunium, love the keyboard, i’m using Cheetah that time (10.0.0).</p>
+
+<p>One of the issue i’ve had right now with my Macbook Pro</p>
+
+<blockquote>
+  <p>Hardware choices in recent years may have helped make the MacBook Pro more fashionable, but it has become harder to use. The butterfly keyboard crystallises this approach with a preference for a light and thin design over-ruling a solid and dependable keyboard</p>
+</blockquote>
+
+<p>Indeed, the keyboard sucks, too many problem, from adding letter ‘e’, and now with this machine it added more spaces when i’m typing, the keyboard are subpar, i prefer the old one, i don’t mind if the machine thicker than current line up, as long as it worked.</p>
+
+<p>So wanna try other laptop like XPC from Dell, or Spectre from HP, stuff it with Linux.</p>
+ 
+            <a href="/2019/11/apple-macbook-pro-sucks">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#apple">apple</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#computer">computer</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>November 6, 2019 &mdash; <a href='/2019/11/indonesia-failed-to-take-profit'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.bloomberg.com/news/articles/2019-11-05/why-indonesia-failed-to-cash-in-on-the-china-u-s-trade-war'>Bloomberg: Why Indonesia Failed to Cash in on the China-U.S. Trade War &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Dengan adanya perang dagang antara Amerika dan Tiongkok, banyak berimbas terhadap industri-industri yang ada didua negara itu, dan beberapa negara di asia tenggara bisa mengambil untung dari kondisi itu.</p>
+
+<p>Sebut Vietnam, Thailand, banyak investor yang mengalihkan investasinya ke negara tersebut, alasan kenapa Indonesia tidak begitu besar terkena imbasnya.</p>
+
+ 
+            <a href="/2019/11/indonesia-failed-to-take-profit">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#life">life</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#development">development</a>,
+    
+      <a href="/tags#indonesia">indonesia</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>October 31, 2019 &mdash; <a href='/2019/10/twitter-ban-iklan-politik'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://twitter.com/jack/status/1189634360472829952'>Twitter ban iklan politik di platform-nya &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Whoa! ini menarik!, meski mungkin keputusan oleh @Jack ini berkaitan dengan nanti ajang pemilihan presiden di Amerika, yang mana memang sangat penuh dengan banyak hal, trik, penyesatan opini dan pandangan, sehingga lahirlah presiden Trump.</p>
+
+<p>Andaikan ini terjadi sebelum pemilihan presiden kemarin di indonesia, akan sangat membantu menghilangkan <em>hoax</em>, penggiringan opini, <a href="https://notes.dedenf.com/2019/10/fake-news">berita palsu, meski orang tersebut terpelajar</a>.</p>
+
+<p>Hanya saja, sayangnya Facebook belum mau ikut aksi ini, meski sebenarnya corong <em>hoax</em> itu menurut saya, paling banyak di Facebook, tahu karena keluarga sendiri terpapar hal seperti <em>hoax</em>, berita palsu.</p>
+
+<h4 id="link-berita-lain">Link berita lain</h4>
+<ul>
+  <li><a href="https://www.vox.com/recode/2019/10/30/20940612/twitter-political-ads-announcement-jack-dorsey-facebook">Twitter’s new ban on political ads is a silent challenge to Facebook</a></li>
+  <li><a href="https://www.nytimes.com/2019/10/30/opinion/political-advertising-facebook-twitter.html">Your Move, Facebook</a></li>
+</ul>
+ 
+            <a href="/2019/10/twitter-ban-iklan-politik">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#life">life</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#hoax">hoax</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>October 24, 2019 &mdash; <a href='/2019/10/sleeplessness-and-alzheimer'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://academic.oup.com/brain/article/142/6/e30/5425265'>Is an epidemic of sleeplessness increasing the incidence of Alzheimer’s disease? &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Let’s start with this line</p>
+
+<blockquote>
+  <p>…the World Health Organization has pointed to a ‘<strong>global epidemic of sleeplessness</strong>’ with roughly two-thirds of adults sleeping less than 8 h a night. Are too many of us getting too little sleep and, in so doing, increasing our risk of disorders such as Alzheimer’s disease?</p>
+</blockquote>
+
+<p>In this day, especially younger people, we all have this sleeplessness, i know i have, in average i slept like 6h a day, in today’s world, With all the screen time on our tv or mostly our smartphone, all of social media that need to catch up, need to be update in some way, there’s social pressure on to that.</p>
+
+<p>And this research about the connection of our sleeplessness and alzheimer, even it’s still need more research, but there’s a bidirectional relationship between those two.</p>
+
+<p>To get more sleep, it is recommended <a href="https://notes.dedenf.com/2019/09/lets-be-kind-to-your-future-self">that we do more exercise</a>, i should do more…</p>
+
+ 
+            <a href="/2019/10/sleeplessness-and-alzheimer">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#life">life</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#productivity">productivity</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>October 16, 2019 &mdash; <a href='/2019/10/seputar-finansial-resesi-apa-yang-harus-dilakukan'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://seputarfinansial.com/resesi-apa-yang-harus-diperhatikan/'>Resesi? apa yang harus diperhatikan? &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Meski media  selalu mendengungkan resesi, baik indonesia, maupun dunia global, ini bisa jadi memang resesi atau sebuah <em>self-fulfilling-prophecy</em>, yang mana ramalan jadi kenyataan karena banyak yang melakukannya, karena takut atau dilandasi ramalan itu sendiri, dan kemudian jadi kenyataan.</p>
+
+<p>Terlepas itu, yang pertama yang dilakukan tetap tenang, karena faktor psikologis bisa jadi salah satu faktor bisa melewati resesi, dan tentunya tips <a href="https://seputarfinansial.com/resesi-apa-yang-harus-diperhatikan/">finansial lainnya</a>.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#life">life</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#seputarfinansial">seputarfinansial</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>October 12, 2019 &mdash; <a href='/2019/10/8-overcome-cognitive-biases'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://cognitiontoday.com/2018/03/8-powerful-ways-to-overcome-thinking-errors-and-cognitive-biases/'>8 powerful ways to overcome thinking errors and cognitive biases &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p><em>Cognitive biases</em>, <a href="https://notes.dedenf.com/2019/07/logical-fallacy-kesesatan-berpikir"><em>logical fallacy</em></a> dan kesalahan berpikir hal yang sering terjadi sebenarnya, entah sadar atau tidak, artikel membahas cara mengatasi hal-hal tersebut sebelum jatuh ke prasangka (<em>bias</em> dalam bahasa inggris).</p>
+
+<ol>
+  <li>Fokus terhadap data</li>
+  <li>Cari data/informasi lain</li>
+  <li>Pilah yang benar-benar fakta</li>
+  <li>Tes dan tes ulang hasil pemikiran</li>
+  <li>Buat asumsi berdasarkan fakta, kemudian validasi</li>
+  <li>Hindari gangguan, emosi yang membuat kita susah fokus</li>
+  <li>Lihat dari banyak sisi, perspektif.</li>
+  <li>Kita tidak tahu semua hal, maka dari itu kita tidak tahu apa yang kita tidak tahu (iya, ribet, tapi memang fakta)</li>
+</ol>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#life">life</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#development">development</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>October 11, 2019 &mdash; <a href='/2019/10/the-power-of-placebo'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.scientificamerican.com/article/the-power-of-placebo-how-our-brains-can-heal-our-minds-and-bodies/why-smart-people-are-more-likely-to-believe-fake-news'>The Power of Placebo: How Our Brains Can Heal Our Minds and Bodies &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>..our brain’s most remarkable powers: its ability to heal both mind and body. Vance explores the profound influence our thoughts, feelings and expectations can have on our well-being—how a positive outlook can, for example, help ease physical pain.</p>
+</blockquote>
+
+<p>Dokter terkadang sering juga ngasih resep obat yang mungkin tidak ada efeknya, tapi karena ada efek placebo, percaya dengan dokter + obat yang diberi maka akan lebih cepat sembuh.</p>
+
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#life">life</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#hoax">hoax</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>October 11, 2019 &mdash; <a href='/2019/10/seputarfinansial-bank-digital'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://seputarfinansial.com/bank-digital-apa-itu/'>Bank digital, apa itu? &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Bank digital, yang sedang marak, seiring dengan banyaknya startup atau bisnis dengan label <em>fintech</em>, atau financial technology, keperluan perbankan ini lebih banyak mengandalkan komputer atau smartphone untuk menggunakannya.</p>
+
+<p>Apa saja yang bisa dilakukan dengan bank digital?</p>
+
+<p>via <a href="https://seputarfinansial.com/bank-digital-apa-itu/">seputarfinansial.com</a></p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#seputarfinansial">seputarfinansial</a>,
+    
+      <a href="/tags#reading">reading</a>,
+    
+      <a href="/tags#bank">bank</a>,
+    
+      <a href="/tags#personal finance">personal finance</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>October 8, 2019 &mdash; <a href='/2019/10/fake-news'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.theguardian.com/books/2019/apr/01/why-smart-people-are-more-likely-to-believe-fake-news'>Why smart people are more likely to believe fake news  &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>…Some people are “cognitive misers”, for instance: they may have a lot of brainpower that allows them to perform well in exams, but they don’t always apply it, using intuition and gut instinct rather than reflective, analytical thinking.</p>
+</blockquote>
+
+<p><strong>Baca: punya otak tapi tidak digunakan</strong>. lebih mengandalkan insting dan perasaan, meski dia adalah lulusan S2-S3, atau kalangan berpendidikan. Belum lagi jika berita bohong/hoax itu dari orang yang kita kenal, dekat, maka seakan ada legitimasi terhadap hoax tersebut, <em>peer validation</em>, dan tentunya <a href="/2019/07/logical-fallacy-kesesatan-berpikir">kesesatan berpikir (logical fallacy)</a> ikut andil.</p>
+
+<p>Pola yang biasa terjadi dalam penyebaran hoax ini</p>
+<ol>
+  <li>Tidak membaca secara menyeluruh.</li>
+  <li>Penggunaan gambar dalam berita palsu/hoax itu disengaja, karena otak lebih gampang proses gambar daripada membaca.</li>
+  <li>Pengulangan, semakin banyak berita hoax itu didengar, diulang, berulang kali, orang cenderung akan percaya.</li>
+</ol>
+ 
+            <a href="/2019/10/fake-news">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#life">life</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#hoax">hoax</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>October 7, 2019 &mdash; <a href='/2019/10/seputarfinansial-review-aplikasi-money-lover'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://seputarfinansial.com/money-lover-aplikasi-ngaturduit-keuangan/?utm_source=dedenf'>Review: Money Lover, aplikasi manajemen keuangan &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p><img src="https://seputarfinansial.com/images/posts/moneylover/money-lover-site.jpg" alt="" /></p>
+
+<p>Review singkat mengenai aplikasi Money Lover yang saya gunakan hampir setiap hari, mencatat pengeluaran terutama.
+ada banyak fitur lain yang dibahas antara lain budgeting, histori, trend pengeluaran dan lainnya.</p>
+
+<p><a href="https://seputarfinansial.com/money-lover-aplikasi-ngaturduit-keuangan/?utm_source=dedenf">via seputarfinansial.com</a></p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#seputarfinansial">seputarfinansial</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#budgeting">budgeting</a>,
+    
+      <a href="/tags#personal finance">personal finance</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>October 3, 2019 &mdash; <a href='/2019/10/investasi-dengan-uang-receh'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://seputarfinansial.com/investasi-reksadana-dengan-uang-receh-di-bibit/'>Investasi reksa dana dengan 'uang receh' di BIBIT &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>Salah satu penggunaan GoPay itu itu bisa membeli reksa dana, tepatnya membeli reksa dana di BIBIT, seperti yang sudah ditulis sebelumnya mengenai review saya dalam menggunakan BIBIT, dengan menggunakan GoPay sebagai media pembayaran terhitung cerdas, karena menurut saya bisa investasi dengan uang receh “sisa”, sisa dari GoRide, GoFood, yang mana bisa membeli produk reksa dana mulai dari Rp10.000 saja.</p>
+</blockquote>
+
+<p>Uang sisa beli-beli makanan bisa lho dipakai buat investasi.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#seputarfinansial">seputarfinansial</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#investment">investment</a>,
+    
+      <a href="/tags#personal finance">personal finance</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>October 1, 2019 &mdash; <a href='/2019/10/mencoba-reksadana-dengan-ajaib'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://seputarfinansial.com/investasi-reksadana-dengan-ajaib/'>Investasi Reksa Dana dengan aplikasi Ajaib &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Semakin marak aplikasi-aplikasi yang memudahkan generasi millenials dan gen z untuk melakukan investasi, sebelumnya sudah membahas aplikasi seperti Bareksa, Tanamduit, Bibit. Kali ini yang dicoba adalah aplikasi <a href="https://ajaib.co.id/">Ajaib</a> yang berfokus pada investasi reksa dana.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#seputarfinansial">seputarfinansial</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#ngaturduit">ngaturduit</a>,
+    
+      <a href="/tags#reksadana">reksadana</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>September 30, 2019 &mdash; <a href='/2019/09/investasi'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://seputarfinansial.com/investasi/'>Investasi &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Kali ini membahas tentang investasi, karena lumayan agak sering membahas tentang reksa dana di sini, dan sampe membeli khusus domain <a href="https://seputarfinansial.com">seputarfinansial.com</a> dan kali ini mencoba hanya fokus terhadap 2 instrumen investasi yaitu reksa dana dan saham.</p>
+
+<p>Karena investasi ini iklimnya sedang naik sekarang, terutama dikalangan generasi milleanials dan gen z, akses terhadap investasi sangat penting, selain menabung tentunya, dan sekarang sangat dipermudah aksesnya.</p>
+
+<p>Tujuan investasi bisa berbeda untuk setiap orang, tapi setidaknya ada persamaan yaitu mendapatkan nilai yang lebih dari apa yang kita investasikan dikemudian harinya, yang tentunya menguntungkan, meski tidak lepas dari risiko-risiko yang ada, tergantung instrumen dan profil risikonya.</p>
+ 
+            <a href="/2019/09/investasi">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#seputarfinansial">seputarfinansial</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#ngaturduit">ngaturduit</a>,
+    
+      <a href="/tags#investasi">investasi</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>September 29, 2019 &mdash; <a href='/2019/09/the-daily-found-plastik'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.cbc.ca/news/technology/bottled-water-microplastics-1.4575045'>Microplastics found in 93% of bottled water tested in global study &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Plastik, selain berguna untuk beberapa hal, tetapi banyak juga kerugiannya, sebagai contoh tentang bahayanya plastik ini yang terlihat mata, diliput oleh <a href="https://regional.kompas.com/read/2019/04/09/12553481/beragam-contoh-sampah-plastik-tak-terurai-lebih-dari-belasan-tahun?page=all">kompas.com mengenai tidak terurainya plastik</a> di alam.</p>
+
+<p>Sedangkan ada bahaya yang lebih besar juga untuk manusia, yaitu <em>microplastic</em>, di <a href="https://www.cbc.ca/news/technology/bottled-water-microplastics-1.4575045">artikel ini membahas bagaimana bisa <em>microplastic</em> bisa masuk ke minuman kemasan</a>, yang berbahan plastik, meski perusahaan-perusahaan membantah ini, daftar merek yang diteliti salah satunya merek Aqua, terurai dan lepasnya microplastic ini kemudian bisa ada di minuman salah satunya karena panas, jalur distribusi minuman kemasan bisa sangat jauh, dan terpapar sinar matahari, ini banyak ditemui di jalan, banyak truk yang mengangkut minuman kemasan ini tidak ditutup.</p>
+
+ 
+            <a href="/2019/09/the-daily-found-plastik">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#plastic">plastic</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#health">health</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>September 25, 2019 &mdash; <a href='/2019/09/the-daily-found-how-to-stop-worrying-about-what-other-people-think-of-you'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://hbr.org/2019/05/how-to-stop-worrying-about-what-other-people-think-of-you'>How to Stop Worrying About What Other People Think of You &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>Our fear of other people’s opinions, or FOPO as I call it, has become an irrational and unproductive obsession in the modern world, and its negative effects reach far beyond performance.</p>
+</blockquote>
+
+<p>This FOPO eats up our confidence, we lived by other people’s opinions that probably knows nothing about us. look, everyone has their own struggle that we dont know. But mosty, this FOPO are only in our head, we tend to care what might come from other people’s head than minding our own growth.</p>
+
+ 
+            <a href="/2019/09/the-daily-found-how-to-stop-worrying-about-what-other-people-think-of-you">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#personal development">personal development</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>September 24, 2019 &mdash; <a href='/2019/09/seputar-finansial-kenali-pengeluaran'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://seputarfinansial.com/ketahui-pengeluaran-pengeluaran/'>Ketahui dan kenali pengeluaran-pengeluaranmu &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Membahas pentingnya mengetahui dan mengenali pengeluaran-pengeluaran setiap hari/minggu/bulannya, karena mengetahui pengeluaran, jenisnya, jumlahnya, kita berkaca pada diri kita, bagaimana kita memandang uang dan kekayaan, bagaimana sikap kita terhadap uang, baik, buruk, boros, hemat dan lainnya.</p>
+
+<p><a href="https://seputarfinansial.com/ketahui-pengeluaran-pengeluaran/">website</a>, follow <a href="https://twitter.com/SFinansial/">twitter</a> dan <a href="https://instagram.com/seputarfinansial">instagram</a>.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#seputarfinansial">seputarfinansial</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#ngaturduit">ngaturduit</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>August 28, 2019 &mdash; <a href='/2019/08/seputarfinansial-inflasi-gaya-hidup'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://seputarfinansial.com/inflasi-gaya-hidup/'>Inflasi gaya hidup &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Hal yang hampir tidak bisa kita hindarkan, dengan naiknya pendapatan, bisa naik juga gaya hidup kita, hal itu yang disebut inflasi gaya hidup, lebih banyak memikirkan yang sekarang dibanding dengan finansial di masa depan.</p>
+
+<p>Tulisan terbaru yang setelah lebih dari sebulan tidak menulis blog.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#seputarfinansial">seputarfinansial</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#ngaturduit">ngaturduit</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>August 27, 2019 &mdash; <a href='/2019/08/software-tester-to-data-science'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://techbeacon.com/app-dev-testing/how-i-jumped-software-testing-data-science'>How I jumped from software testing to data science &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>“Wow,” I thought to myself, “the goal of testing is to protect the customer from evil bugs created by evil developers, and the ultimate manifestation of that goal is to slip the ship date!” That misguided belief stuck with me and drove many of my behaviors around software testing for nearly a decade.</p>
+</blockquote>
+
+<p>There are many misguded belief around software testing, they should help developers also and present some solution for every bug or <em>future-bug</em> that they think will hinder either devs or end users.</p>
+
+<p>To have so many scenarios around testing, it will involving devs, and i kinda agree when QA and software tester engineer sits or doing test together with devs, PO within the same squad (no, this is not only applied to agile/scrum), it will creates dynamics within the team.</p>
+ 
+            <a href="/2019/08/software-tester-to-data-science">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#engineer">engineer</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>July 24, 2019 &mdash; <a href='/2019/07/the-man-who-build-retweet'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.buzzfeednews.com/article/alexkantrowitz/how-the-retweet-ruined-the-internet'>The Man Who Built The Retweet: “We Handed A Loaded Weapon To 4-Year-Olds” &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>We Handed A Loaded Weapon To 4-Year-Olds</p>
+</blockquote>
+
+<p>The retweet button are powerful, powerful enough to destroy ones credibility, it can started with false news, with link of course, and people without context or without reading the link, will be trigger happy and it will clicked retweet button without thinking.</p>
+
+<blockquote>
+  <p>The retweet and share, in other words, incentivize extreme, polarizing, and outrage-inducing content.</p>
+</blockquote>
+
+<p>Very true, the last Indonesia presidential election are proof, the one who got the loudest voice are the true one, no matter how false the news is, no matter how much misinformation or just simply hoaxes, it doesn’t matter, as long that tweet (or other re-share mechanism) supporting our view, judgement or their bias.</p>
+
+<p>Combined that with <a href="/2019/07/logical-fallacy-kesesatan-berpikir">logical fallacy</a>, perfect weapon.</p>
+ 
+            <a href="/2019/07/the-man-who-build-retweet">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#misinformation">misinformation</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#fakenews">fakenews</a>,
+    
+      <a href="/tags#rant">rant</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>July 14, 2019 &mdash; <a href='/2019/07/podcast-sudutsuarakumandang'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://open.spotify.com/show/05KxeBcLCtIZDXa4OZ5BxI'>Sudut Suara Kumandang &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Adalah podcast yang dibawakan oleh salah satu illustrator yang saya sering lihat karyanya di <a href="https://www.instagram.com/banggaber/">instagram</a>, podcastnya masih terhitung baru, dan sejauh ini saya menikmati, bisa juga dengarkan di <a href="https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy9jM2FkMzY4L3BvZGNhc3QvcnNz">google podcast</a>, mudah-mudahan semakin banyak <em>creator</em> podcast di indonesia.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#life">life</a>,
+    
+      <a href="/tags#podcast">podcast</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>July 4, 2019 &mdash; <a href='/2019/07/money-hack-digital-wallet'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://seputarfinansial.com/money-hack-penggunaan-digital-wallet-untuk-penghematan/'>Money hack: Menggunakan Digital Wallet untuk penghematan  &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Publis artikel mengenai finansial memang gampang-gampang susah, dan ini terkait dengan pengalaman menggunakan aplikasi dompet digital yang saat ini sedang menjamur di indonesia, khususnya jakarta.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#finance">finance</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>June 29, 2019 &mdash; <a href='/2019/06/Microsoft-Apple-OSs-A-visual-history'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.youtube.com/watch?v=f_Q0XPher3o'>Microsoft & Apple OSs: A visual history &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <div class="embed-container"><iframe class="embed-container" src="https://www.youtube.com/embed/f_Q0XPher3o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+<p>Watching this, a blast from the past, remind me of the journey, experiencing the evolution of the desktop computing and its interface, both windows and mac.</p>
+
+<p>Yes there’s a lot of other OSes that i’ve been play with like OS/2, Novell netware, GNU/Linux (Suse, Slackware, Mandrake in particular), BSDs, Solaris.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#apple">apple</a>,
+    
+      <a href="/tags#daily found">daily found</a>,
+    
+      <a href="/tags#microsoft">microsoft</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>May 27, 2019 &mdash; <a href='/2019/05/gaming-disorder'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.gamesindustry.biz/articles/2019-05-25-world-health-organisation-makes-gaming-disorder-a-recognised-illness'>World Health Organisation makes 'gaming disorder' a recognised illness &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>According to WHO recently, they officially recognized the new illness called “Gaming Disorder”, based on the <a href="https://www.who.int/news-room/detail/25-05-2019-world-health-assembly-update">WHO Update</a> and also many news outlet pointed out, the definitions are</p>
+
+<!-- more -->
+
+<blockquote>
+  <p>Gaming disorder is characterized by a pattern of persistent or recurrent gaming behaviour (‘digital gaming’ or ‘video-gaming’), which may be online (i.e., over the internet) or offline, manifested by:</p>
+</blockquote>
+
+<blockquote>
+  <ol>
+    <li>impaired control over gaming (e.g., onset, frequency, intensity, duration, termination, context);</li>
+    <li>increasing priority given to gaming to the extent that gaming takes precedence over other life interests and daily activities; and</li>
+    <li>continuation or escalation of gaming despite the occurrence of negative consequences. The behaviour pattern is of sufficient severity to result in significant impairment in personal, family, social, educational, occupational or other important areas of functioning.</li>
+  </ol>
+</blockquote>
+
+<blockquote>
+  <p>The pattern of gaming behaviour may be continuous or episodic and recurrent. The gaming behaviour and other features are normally evident over a period of at least 12 months in order for a diagnosis to be assigned, although the required duration may be shortened if all diagnostic requirements are met and symptoms are severe.</p>
+</blockquote>
+
+<p>In essence, people who leave their responsibilities in favor of playing games, are included as gaming disorder, the game itself is not a disorder, probably just like eating, there’s an illness called eating disorder, but the eating part are okay.</p>
+
+<p>other outlet</p>
+<ul>
+  <li><a href="https://www.polygon.com/2019/5/25/18639893/gaming-disorder-addiction-world-health-organization-who-icd-11">‘Gaming disorder’ officially on World Health Organization’s list of diseases</a></li>
+  <li><a href="http://www.pcgamer.com/world-health-organization-will-make-final-decision-on-gaming-disorder-this-weekend">‘Gaming Disorder’ officially recognized as disease by World Health Organization (Updated)</a></li>
+</ul>
+ 
+            <a href="/2019/05/gaming-disorder">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#gaming">gaming</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>May 21, 2019 &mdash; <a href='/2019/05/suara-puan-podcast'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://anchor.fm/suara-puan/'>Podcast: Suara Puan &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Adalah <em>podcast</em> yang terakhir ini saya ketemukan, menurut pewicaranya, kata puan (menurut salah satu episodenya bernama Stephani(?)), diawali dari bentuk tulisan yang dibuat di <a href="https://instagram.com/kata.puan">Instagram</a> yang kemudian berkembang merambah media baru, yaitu suara, <em>podcast</em>.</p>
+
+<blockquote>
+  <p>Diberdayakan oleh Kata Puan (Instagram: <a href="https://instagram.com/kata.puan">@kata.puan</a>) untuk menyuarakan isi pikiran yang berisik dan tak mau diam. Suara ini. Sebuah emosi. Banyaknya rasa.</p>
+</blockquote>
+
+<p>Sejauh ini saya menikmati, bahasa yang mudah, dan untuk yang menyukai <a href="https://en.wikipedia.org/wiki/Autonomous_sensory_meridian_response">ASMR</a> bisa jauh menikmati <em>podcast</em> ini.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#asmr">asmr</a>,
+    
+      <a href="/tags#podcast">podcast</a>,
+    
+      <a href="/tags#life">life</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>May 14, 2019 &mdash; <a href='/2019/05/jakarta-1956-1970'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.facebook.com/photo.php?fbid=10153268871741533&set=a.10153266875291533&type=3&theater'>Jakarta circa tahun 1965-1970 &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p><img src="/images/posts/jalan-jakarta.jpg" alt="kemungkinan ini jalan sudirman" /></p>
+
+<p>Koleksi gambar yang menurut saya luar biasa, menghadirkan Jakarta tahun 65-70an, yang pasti jauh dari kata macet, banyak sekali ruang terbuka. Meski tahun-tahun sebelumnya adalah tahun yang kelam bagi rakyat Indonesia,
+<a href="https://www.facebook.com/photo.php?fbid=10153266876091533&amp;set=a.10153266875291533&amp;type=3&amp;theater">lihat selengkapnya di sini.</a></p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#photo">photo</a>,
+    
+      <a href="/tags#jakarta">jakarta</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>May 8, 2019 &mdash; <a href='/2019/05/multiple-uri-redirection-using-nginx'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://jakartadev.org/redirection-nginx-multiple-uri/'>Redireksi banyak URI dengan menggunakan NGINX &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Akhirnya menulis hal teknikal lagi, di sini saya membahas tentang redireksi banyak URI dengan menggunakan NGINX, hal ini sangat berguna bagi anda yang bergelut di SEO biasanya, tapi URI restructuring terkadang memang diperlukan.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#nginx">nginx</a>,
+    
+      <a href="/tags#development">development</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>April 16, 2019 &mdash; <a href='/2019/04/google-and-mozilla'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.zdnet.com/article/former-mozilla-exec-google-has-sabotaged-firefox-for-years/'>Former Mozilla exec: Google has sabotaged Firefox for years &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>… it’s very hard not to believe or take Nightingale’s comments seriously. Slowly but surely, Google is becoming the new Microsoft, and Chrome is slowly turning into the new IE…</p>
+</blockquote>
+
+<p>Not just <a href="https://notes.dedenf.com/2019/02/google-product-confusing-as-hell">confusing</a>, and i agree that they have grew larger and became the new Microsoft, Google products designed only to be use optimally using Google Chrome.  <br />
+And yes this is bad, not to mention Microsoft also adopting Chromium for their Microsoft Edge browser, and now Firefox is the browser that use rendering engine other than Chromium.</p>
+
+<p>I’ve been using Firefox for quite some years now, and happy with it, and because Google being evil and some of their site are better with Chrome, i go with <a href="https://brave.com/">Brave browser</a>, it’s a Chromium based browser, but with less tracker than Chrome implmented (hopefully!).</p>
+ 
+            <a href="/2019/04/google-and-mozilla">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#tech">tech</a>,
+    
+      <a href="/tags#browsers">browsers</a>,
+    
+      <a href="/tags#google">google</a>,
+    
+      <a href="/tags#mozilla">mozilla</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>April 1, 2019 &mdash; <a href='/2019/04/sharenting-orang-tua-dan-anaknya'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.bbc.com/news/world-47722427'>Can you stop your parents sharing photos of you online? &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>Prof Siibak says many parents feel that, as the adult, they are responsible for their child’s wellbeing, and don’t need their child’s permission as long as they believe the photos are not doing any harm. <br />
+However, she argues that parents should “absolutely” take their children’s privacy concerns more seriously.  <br />
+… <br />
+Parents often set strict internet usage rules for their children to protect their privacy, but the “rules only seem applicable to children, and not adults in the family”.</p>
+</blockquote>
+
+<p>I don’t share my kids photo online, and i hope other people also did not share my kids online, they have their own rights and in my opinion, &gt; we don’t have right to post their picture to the internet.</p>
+
+<p>If the ethical way did not stopping you to share your kids online, how about this one, <a href="http://fortune.com/2019/03/12/millions-of-flickr-photos-were-scraped-to-train-facial-recognition-software/">IBM scrapped, scanning photos from Flickr to train their facial recognition software</a> and god knows for what purpose that training could be. 
+Not to mention this kinda challenge, the <a href="https://www.instagram.com/explore/tags/10yearschallenge/">#10yearschallenge</a> is a great way and a tresure for facial recignition, it can learn about age discrepancies from those people, and we gave them the access freely to our data.</p>
+
+<p>Some people think it’s their rights to post their kids online, but they too have that rights to either posted it or not.</p>
+ 
+            <a href="/2019/04/sharenting-orang-tua-dan-anaknya">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#tech">tech</a>,
+    
+      <a href="/tags#life">life</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>March 13, 2019 &mdash; <a href='/2019/03/daily-found-podcast-choiceology'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.schwab.com/resource-center/insights/podcast'>Choiceology &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p><a href="https://www.schwab.com/resource-center/insights/podcast">Choiceology</a> is the latest podcast that i’ve been listening to, it tells about how human behavior affecting their daily life, their decision, it could be about finance, food choices, how they want to exercise and abandon that plan. it is all human behavior, and since this is Schwab, it has something to do with human financial decision.</p>
+
+<p>My favorite episode is <a href="https://www.schwab.com/resource-center/insights/content/choiceology-season-2-episode-5">A Clean Slate from Season 2 Episode 5</a>. Small change and determination could have a big impact for Ray Zahab.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#tech">tech</a>,
+    
+      <a href="/tags#podcast">podcast</a>,
+    
+      <a href="/tags#development">development</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>January 31, 2019 &mdash; <a href='/2019/01/this-is-crap'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.wired.com/story/facebook-research-app-lessons/'>By Defying Apple’s Rules, Facebook Shows It Never Learns &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>In public and even under oath, executives like Mark Zuckerberg and Sheryl Sandberg have spent at least a year—if not their entire careers—promising to do better by their users. But in private, evidence abounds that the company continues to flout every rule and attempt at oversight placed before it. They’ve promised to protect user privacy by cutting off developer access to data while continuing to give it away to corporate giants and major advertisers.</p>
+</blockquote>
+
+<p>This is utter crap, <a href="https://techcrunch.com/2019/01/30/googles-also-peddling-a-data-collector-through-apples-back-door/">and Google did it too</a>.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#facebook">facebook</a>,
+    
+      <a href="/tags#crap">crap</a>,
+    
+      <a href="/tags#privacy">privacy</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>January 7, 2019 &mdash; <a href='/2019/01/when-you-are-on-instagram'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.recode.net/2018/12/26/18155660/imgur-alan-schaaf-social-media-cesspool-abuse-moderation-kara-swisher-recode-decode-podcast'>How Imgur avoids the ugliness of social media &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <iframe src="https://art19.com/shows/recode-decode/episodes/8ca42c3b-b2b7-473a-ac8f-8b87d80c50c9/embed?theme=dark-custom" style="width: 100%; height: 200px; border: 0 none;" scrolling="no"></iframe>
+
+<blockquote>
+  <p>when you post on Instagram you’re actually curating your own personal brand. You are sharing the highlight moments of your life and in order to make your life look quite good. But then on the receiving end, the people that are looking at it, it makes them feel just a little bit worse about their life because they don’t quite measure up.</p>
+</blockquote>
+
+<p>Could not agree more, yes, i have an instagram, yes, sometimes i did felt that feeling, and i remember a words or something on interwebs.</p>
+
+<p>“<em>Instagram is a the gallery of curated fake life</em>”.</p>
+
+<p>Dunno whether it’s true on people’s case, but i think the real life, the thing that we hold on to, people that we care (in real life) are much more important that how many likes we got.</p>
+ 
+            <a href="/2019/01/when-you-are-on-instagram">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#podcast">podcast</a>,
+    
+      <a href="/tags#social media">social media</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>November 29, 2018 &mdash; <a href='/2018/11/the-human-toll-of-instant-delivery'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.nytimes.com/2018/11/26/podcasts/the-daily/warehouse-workers-instant-delivery.html'>The Human Toll of Instant Delivery &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>With the rise of online retailers like Amazon, consumers’ expectations about the speed of delivery have been transformed.</p>
+</blockquote>
+
+<p>Such a sad story, she got pregnant then miscarriage, but she still have to work, her co-worker died in the line of work and her boss just putting a cone for hours and tell everybody do not touch her or move the body, they have to keep working.</p>
+
+<p>And that’s about workers in America, how about in Indonesia? or what if this event happened in Indonesia, it will be a chaos.</p>
+
+<h1 id="how-disinformation-poisoned-a-facebook-nation"><a href="https://www.recode.net/2018/11/26/18111859/maria-ressa-rappler-facebook-mark-zuckerberg-philippines-kara-swisher-recode-decode-podcast">How disinformation poisoned a ‘Facebook nation’</a></h1>
+<blockquote>
+  <p>“I said, ‘Mark, 97 percent of Filipinos on the internet are on Facebook,’” Ressa recalled. “I invited him to come to the Philippines because he had to see the impact of this. You have to understand the impact … He was frowning while I was saying that. I said, ‘Why, why?’ He said, ‘Oh well. What are the other 3 percent doing, Maria?’”</p>
+</blockquote>
+
+<p>Zuck being such an ass. <br />
+Well, Indonesia also filled with misinformation, disinformation, fake news on facebook, still happening, even with my dear brother and sister, they and lots of other suck the information to the bone, hating other people, glamorizing religion.</p>
+ 
+            <a href="/2018/11/the-human-toll-of-instant-delivery">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#tech">tech</a>,
+    
+      <a href="/tags#podcast">podcast</a>,
+    
+      <a href="/tags#human">human</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>October 26, 2018 &mdash; <a href='/2018/10/carl-sagan-the-measure-of-eratosthenes'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://archive.org/details/TheMeasureOfEratosthenes-CarlSagan/page/n1'>The measure of eratosthenes by Carl Sagan &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>Eratosthenes knew that the distance between 
+Alexandria and Syene was approximately 800 kilometers, because he hired a man to pace it 
+out. Eight hundred kilometers times 50 is 40,000 kilometers: so that must be the 
+circumference of the Earth.</p>
+</blockquote>
+
+<p>It was known that earth is not flat, even from 2000 years ago. this script from Carl Sagan are amazing. and specially this narration from him.</p>
+
+<iframe width="800" height="600" src="https://www.youtube.com/embed/GO5FwsblpT8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#astronomy">astronomy</a>,
+    
+      <a href="/tags#sains">sains</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>October 16, 2018 &mdash; <a href='/2018/10/bahaya-timbel'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://sains.kompas.com/read/2018/10/15/170000923/6-fakta-ilmiah-pencemaran-timbel-di-bogor-dan-tangerang'>6 Fakta Ilmiah Pencemaran Timbel di Bogor dan Tangerang &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Membaca liputan ini memang sangat miris, didukung oleh hasil investigasi dari tim kompas investigasi, fakta limbah ini sudah puluhan tahun, akibat dari limbah ini seperti cacat pada anak-anak sudah banyak terjadi, hanya saja masyarakat mungkin tidak begitu paham dengan bahaya ini. Udara, air hingga tanah sudah tercemar, untuk membalikkan hal ini sangat sulit.</p>
+
+<blockquote>
+  <p>“Menurut Budi, konsentrasi timbel yang terdeposit dalam tubuh tidak dapat dihilangkan. Dampaknya, timbel bisa mengganggu fungsi sistem saraf pusat dalam tubuh manusia.”</p>
+</blockquote>
+
+<p>Semua ini berawal dari proses <a href="https://kompas.id/baca/bebas-akses/2018/10/15/membahayakan-timbal-sudah-cemari-udara-tanah-dan-darah/">peleburan aki (accu) bekas, debu, asapnya sangat berbahaya</a>, lihat pula <a href="https://kompas.id/baca/bebas-akses/2018/10/15/anak-anak-menjadi-korbannya/">akibatnya pada anak-anak</a>.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#indonesia">indonesia</a>,
+    
+      <a href="/tags#limbah">limbah</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>October 2, 2018 &mdash; <a href='/2018/10/daily-found-podcast-kubernetes'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.codingblocks.net/episode90'>Comparing Git Workflows &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>It’s a long podcast around 1,48 hour, but useful, comparing between what so-called ‘best-practice’ git workflow, and i agree that <code class="highlighter-rouge">git-flow</code> are not the silver bullet for all development branching strategy.</p>
+
+<h3 id="why-great-developer-still-google-their-errors"><a href="https://spec.fm/podcasts/developer-tea/204292">Why Great Developer Still Google Their Errors</a></h3>
+<p>Developers are not perfect, to googling an error are normal, and yes, it’s better to store other thing that much more important.</p>
+
+<h3 id="the-problematic-relationship-between-a-team-and-their-product-owner"><a href="https://scrum-master-toolbox.org/2018/10/podcast/peter-zylka-on-the-problematic-relationship-between-a-team-and-their-product-owner/">The problematic relationship between a team and their Product Owner</a></h3>
+<p>This is sometime a never ending ‘issue’, the communication sometime go sour, or unproductive, product wants things, devs wondering the priorities and could ended up in silos or became an ‘enemy’.</p>
+ 
+            <a href="/2018/10/daily-found-podcast-kubernetes">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#tech">tech</a>,
+    
+      <a href="/tags#git">git</a>,
+    
+      <a href="/tags#podcast">podcast</a>,
+    
+      <a href="/tags#development">development</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>September 25, 2018 &mdash; <a href='/2018/09/daily-found-podcast'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://softwareengineeringdaily.com/2018/09/19/kubernetes-distributions-with-brian-gracely-and-michael-hausenblas/'>Kubernetes Distributions with Brian Gracely and Michael Hausenblas &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Interesting talks about how kubernetes became a ‘winner’ in the orchestration realm, and how company like Redhat jump in and create its own kubernetes distribution to accomodate.</p>
+
+<h4 id="also-listen-to-brent-laster-talk-about-jenkins-2-as-build-server">Also listen to <a href="http://www.se-radio.net/2018/09/se-radio-episode-338-brent-laster-on-the-jenkins-2-build-server/">Brent Laster talk about Jenkins 2 as build server</a>.</h4>
+<p>Brent Laster, Author of Jenkins 2: Up and Running, Discussing some improvement and couple technical topics, and how Jenkins fit in on thee Agile and DevOps world.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#tech">tech</a>,
+    
+      <a href="/tags#container">container</a>,
+    
+      <a href="/tags#podcast">podcast</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>September 18, 2018 &mdash; <a href='/2018/09/jakarta-manual-coffee-2018'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://manual.co.id/article/jakarta-coffee-manual-2018/'>Jakarta Coffee Manual 2018 &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+          <blockquote>
+  <p>Celebrating its fifth year, this Coffee Manual is the biggest one yet that also welcomes for the first time an exciting Special Edition up for grabs to enhance your coffee hunting experience.</p>
+</blockquote>
+
+<p>I got to know this site and its gamification just yesterday. yes i love coffee, even <a href="https://epicoffee.com">bought a domain</a> for that (was too occupied to update it :p).</p>
+
+<p>Instant order, but too bad they’re out of stock, have to wait for a while.</p>
+
+<p>Love how well the website crafted, especially the typeface, concise, just love it. props to the developers and designers!</p>
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#coffee">coffee</a>,
+    
+      <a href="/tags#jakarta">jakarta</a>,
+    
+      <a href="/tags#typography">typography</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>September 5, 2018 &mdash; <a href='/2018/09/ikat-pinggang'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.disway.id/jangan-takut-beli-ikat-pinggang/'>Jangan Takut Beli Ikat Pinggang &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Tulisan menarik dari <a href="https://twitter.com/iskan_dahlan?lang=en">Dahlan Iskan</a>. Saya <em>highlight</em> yang menarik bagi saya.</p>
+
+<blockquote>
+  <p>Kita juga lagi sulit. Jangan salahkan Sri Mulyani. Kalau kita tidak gagal di bidang ekspor Sri Mulyani akan baik-baik saja. Kalau ambisi kita tidak berlebihan semua akan baik-baik saja.
+Tapi siapa mau all out menggalakkan ekspor? Politik, bagi mereka, lebih menggiurkan.</p>
+</blockquote>
+
+<p>Iya, issue ini <em>massive</em>, banyak negara terkena massalah ini, banyak orang tidak tahu, banyak orang yang sama sekali <em>ignorant</em>, diberi fakta hanya bisa <em>nyinyir</em> dan <em>counter</em> dengan argumen bodoh. Ditambah lagi dengan <a href="https://notes.dedenf.com/2018/06/kebencian">kebencian</a> yang sudah mengakar.</p>
+
+<p>Alih-alih memahami apa yang ada, lebih suka menyalahkan apapun dan siapapun, karena menyalahkan itu lebih mudah daripada berpikir atau belajar.</p>
+ 
+            <a href="/2018/09/ikat-pinggang">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#indonesia">indonesia</a>,
+    
+      <a href="/tags#ekonomi">ekonomi</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>August 24, 2018 &mdash; <a href='/2018/08/windows-95'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://github.com/felixrieseberg/windows95/'>💩🚀 Windows 95 in Electron. Runs on macOS, Linux, and Windows &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+          <p>Found this project via <a href="https://www.theverge.com/2018/8/23/17773180/microsoft-windows-95-app-download-features">the verge</a>, i can run Windows 95 on my mac, it’s a bit nostalgic, you can see it screenshot below, i first run this windows 95 in about 1997, and still using it until 98, but i still remember my friend still using win95, until 2000, and using Windows 95 Plus! as its theme.</p>
+
+<p>Because back in the day the space on the harddrive are very limited, i had 250MB worth of space, with windows 95 consuming around 120-<em>ish</em> MB, and the rest of it either for office, code (coding with pascal, assembly, c), files or music.
+<a href="/images/posts/windows95.png"><img src="/images/posts/windows95.jpg" alt="windows 95" /></a></p>
+
+<p>head out to this page to <a href="https://github.com/felixrieseberg/windows95/releases">download the release on its github</a>.</p>
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#electron">electron</a>,
+    
+      <a href="/tags#windows">windows</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>August 24, 2018 &mdash; <a href='/2018/08/traffic-solution'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.youtube.com/embed/iHzzSao6ypE'>The Simple Solution to Traffic &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+          <p>Indeed this was happened in every road, all of the points are valid, even tho the solution is simple, but it was hard to implement, we are monkey.</p>
+
+<iframe width="700" height="500" src="https://www.youtube.com/embed/iHzzSao6ypE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>via <a href="https://www..com/">cgpgrey</a></p>
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#traffic">traffic</a>,
+    
+      <a href="/tags#life">life</a>,
+    
+      <a href="/tags#interesting">interesting</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>August 16, 2018 &mdash; <a href='/2018/08/will.i.am-podcast'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.iheart.com/podcast/The-Thrive-Global-Podcast-27844768/episode/william-on-his-creative-journey-and-29702822/'>Will.i.am on His Creative Journey and Breaking Down Barriers &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>Consuming information at the speeds of space travel, There’s no absorbing. … There’s so much information being thrown around that it’s hard to keep up to know what’s real and what’s fake. It’s being done systematically to confuse.</p>
+</blockquote>
+
+<p>Keep listening until the end.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#psychology">psychology</a>,
+    
+      <a href="/tags#podcast">podcast</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>August 16, 2018 &mdash; <a href='/2018/08/lantip-dan-keris'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.podbean.com/media/share/pb-smt84-958c35'>Podcast TemuKonco: Lantip dan keris &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <iframe src="https://www.podbean.com/media/player/smt84-958c35?from=site&amp;vjs=1&amp;skin=1&amp;fonts=Helvetica&amp;auto=0&amp;download=0" height="315" width="100%" frameborder="0" scrolling="no" data-name="pb-iframe-player"></iframe>
+
+<p>Judul di atas memang beda dengan judul episode <em>podcast</em>-nya, tapi memang itu isinya, keris, dari mulai membahas keris yang biasa sampai yang bisa dibilang langka, dan banyak diburu, desain, pamor dan lainnya.</p>
+
+<p>Karena baru pertama kali dengar <em>podcast</em> ini, bukan karena kenal <a href="https://twitter.com/lantip">@lantip</a>-nya, tapi memang suka dengan bagaimana TemuKonco ini membungkus <em>podcast</em>-nya, meski direkam di studio, tapi dibuat seperti di angkringan, dan ada efek suara orang ngobrol di belakang, atau suara air dikucurkan dan kemudian suara adukan sendok, asumsi saya itu teh manis :smile:. apik, santai, itu kesan yang saya dapatkan, semoga bisa terus tim <a href="https://temukonco.com/">Temukonco</a>.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#indonesia">indonesia</a>,
+    
+      <a href="/tags#keris">keris</a>,
+    
+      <a href="/tags#podcast">podcast</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>August 14, 2018 &mdash; <a href='/2018/08/photograph-and-memory'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://medium.com/thrive-global/does-taking-pictures-on-our-smartphones-have-any-effect-on-our-memory-1a9ee03adbf8'>Does Taking Pictures on Our Smartphones Have Any Effect on Our Memory? &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>“When you take a photo of something, you’re counting on the camera to remember for you,” Prof. Henkel says. “You’re basically saying, ‘Okay, I don’t need to think about this any further. The camera’s captured the experience.’ You don’t engage in any of the elaborative or emotional kinds of processing that really would help you remember those experiences, because you’ve outsourced it to your camera.”</p>
+</blockquote>
+
+<p>and it goes</p>
+
+<blockquote>
+  <p>This is called the <em><a href="http://journals.sagepub.com/doi/abs/10.1177/0956797613504438">photo taking impairment effect</a></em>, where my camera functions as a dropbox for my brain.</p>
+</blockquote>
+
+<p>This, indeed hit us hard, be mindful, remember where we stand, enjoy the moment. and i have to admit, sometimes i don’t remember exactly the experience, i just knew that i was there, but the be present when i was there is kinda hard, and it worst with smartphone in your pocket. to admire, to appriciate what’s in front of you, we need to do that and let our brain capture all of that experieces.</p>
+
+ 
+            <a href="/2018/08/photograph-and-memory">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#psychology">psychology</a>,
+    
+      <a href="/tags#addiction">addiction</a>,
+    
+      <a href="/tags#smartphone">smartphone</a>,
+    
+      <a href="/tags#memories">memories</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>July 31, 2018 &mdash; <a href='/2018/07/debating-instagram'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.theatlantic.com/technology/archive/2018/07/the-instagram-forums-where-teens-go-to-debate-big-issues/566153/'>Teens Are Debating the News on Instagram &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Dengan munggunakan sedikit keahlian di aplikasi photoshop misalkan, atau hasil ngambil gambar, <em>meme</em> yang bertebaran, membuat informasi tidak benar sangat gampang, diawali dengan kemalasan membaca, memcari kebenaran berita, verifikasi. dan akhirnya informasi makin liar menjadikan opini, kemudian menjadi satu faktor untuk memutuskan sesuatu.</p>
+
+<p>Artikel tersebut memang menggambarkan apa yang terjadi di Amerika, tapi tidak jauh beda dengan apa yang terjadi di Indonesia, dengan sosial media dipenuhi <em>ABG</em> yang sok bicara politik, menyampaikan ide-ide sendiri, <a href="/2018/06/kebencian">dipenuhi dengan kebencian</a> yang tidak ada asalnya, ditambah dengan <em>confirmation bias</em> + <em>cocoklogi</em> menjadikan semakin keruhnya sosial media, ditambah menjelang pemilihan presiden.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#psychology">psychology</a>,
+    
+      <a href="/tags#rant">rant</a>,
+    
+      <a href="/tags#social media">social media</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>July 19, 2018 &mdash; <a href='/2018/07/Abdul-Wahid-Azad'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.youtube.com/watch?v=JZPh1NakRQg'>Abdul Wahid Azad; Pahlawan Kemerdekaan yang Dilupakan &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <iframe width="670" height="400" src="https://www.youtube.com/embed/JZPh1NakRQg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>Kita tentu mengenal tokoh yang bisa dibilang bukan asli Indonesia seperti misalnya Laksamana Muda Maeda Takashi, yang membantu Indonesia merdeka. ada beberapa pahlawan lain yang mungkin tidak dikenal dikalangan luas, Yaitu Abdul Wahid Azad, beliau adalah salah satu pahlawan dari Tasik malaya, ikut berjuang untuk kemerdekaan Indonesia, Abdul Wahid Azad kelahiran India, banyak mengikuti perang dikala perang dunia II sebelum menetap di indonesia.</p>
+
+<p>Yang menarik di video dokumenter ini, memang beliau secara teknis tidak lahir di indonesia, tapi sangat mencintai indonesia, menolak dibilang ‘asing’ hanya karena beliau pendatang, bahkan ikut peperangan dalam meraih kemerdekaan indonesia melawan belanda, jepang, nica.</p>
+
+<p>Beliau adalah indonesia.</p>
+ 
+            <a href="/2018/07/Abdul-Wahid-Azad">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#pahlawan">pahlawan</a>,
+    
+      <a href="/tags#indonesia">indonesia</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>July 16, 2018 &mdash; <a href='/2018/07/daily-bite-45'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.theguardian.com/uk-news/2018/jul/16/british-diver-in-thai-cave-rescue-stunned-after-attack-by-elon-musk'>British cave diver considering legal action over Elon Musk's 'pedo' attack &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>In a series of tweets on Sunday, Musk said he would produce a video proving his submarine would have been able to reach the children and in a comment directed at Unsworth, added: “Sorry pedo guy, you really did ask for it.”</p>
+</blockquote>
+
+<p>Totally out of line.</p>
+
+<p>Other news links about this crap from Elon musk</p>
+<ul>
+  <li><a href="http://fortune.com/2018/07/15/elon-musk-thai-rescue-diver-pedo-guy/">Elon Musk Calls Diver in Thai Soccer Team Rescue a Pedophile</a></li>
+  <li><a href="https://gizmodo.com/hero-diver-threatens-lawsuit-against-elon-musk-for-call-1827620681">Hero Diver Threatens Lawsuit Against Elon Musk for Calling Him a Pedophile</a></li>
+</ul>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#news">news</a>,
+    
+      <a href="/tags#asshole">asshole</a>,
+    
+      <a href="/tags#elon musk">elon musk</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>July 14, 2018 &mdash; <a href='/2018/07/daily-found'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.theguardian.com/technology/2018/jul/12/i-tracked-my-iphone-usage-for-a-week-and-this-is-what-i-learned'>I tracked my iPhone usage for a week and this is what I learned &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>I’ll admit to suffering from phantom notifications, the feeling that your phone has just buzzed even through it hasn’t. Now I have the data to prove it.</p>
+</blockquote>
+
+<p>Just, wow. and smartphone addiction happened everywhere. you should start to worry if you woke up in the morning, it’s your smartphone the one that you open first, not saying good moring to the person next to you.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#psychology">psychology</a>,
+    
+      <a href="/tags#addiction">addiction</a>,
+    
+      <a href="/tags#smartphone">smartphone</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>July 10, 2018 &mdash; <a href='/2018/07/daily-found'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.wired.com/story/how-facebooks-rise-fueled-chaos-and-confusion-in-myanmar'>How Facebook’s Rise Fueled Chaos and Confusion in Myanmar &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote>
+  <p>The riots wouldn’t have happened without Facebook.</p>
+</blockquote>
+
+<p>Indeed, too many hoaxes, too many misinformation, too many lazy people that they are so lazy to read, so lazy to find the origin source, or a simple googling.
+This also happened to my own family, just instant share, did not mind whether the news are true or false, because it’s someone they know who were share the news, they will think that the news/article/propaganda are true.</p>
+
+<p><a href="https://www.wired.co.uk/article/election-malaysia-2018-general-fake-news-day-2008-syarul-ema">‘Queen of Dragons’: The inside story of Malaysia’s election fixer</a></p>
+<blockquote>
+  <p>The stories in it, he said, could “coax, influence and instigate” people to convert, and thus amounted to proselytising—a crime in Malaysia, where two systems of law, civil and shariah, run in parallel.</p>
+</blockquote>
+
+<p>Well, we have this kind of issue and actually ‘they’ succeed to thrown Ahok, using defamiation and Islam blasphemy issue to drag him to jail. even tho he did not use or blasphemed any of it. but it’s the only tool to dethrown him, and we have a <em>less-excellent</em> governor.</p>
+ 
+            <a href="/2018/07/daily-found">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#psychology">psychology</a>,
+    
+      <a href="/tags#chaos">chaos</a>,
+    
+      <a href="/tags#false news">false news</a>,
+    
+      <a href="/tags#hoax">hoax</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>July 4, 2018 &mdash; <a href='/2018/07/credit-card'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.bloomberg.com/news/articles/2018-07-02/millions-of-americans-make-a-costly-mistake-when-paying-credit-card-bills'>Millions of Americans Make a Costly Mistake When Paying Credit Card Bills &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>Not just in America, in Indonesia also have this misconception, an a lot people only paid at minimum of its bill.
+I don’t use any credit cards, kinda reluctant to apply for it, now i have met and use and even working at <a href="https://www.jenius.com">Jenius</a>, not because i worked here, but it suited my need for my financial need, pay online payments, servers bills etc.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#banking">banking</a>,
+    
+      <a href="/tags#smartphone">smartphone</a>,
+    
+      <a href="/tags#credits">credits</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>May 9, 2018 &mdash; <a href='/2018/05/daily-found'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://hbr.org/2018/03/having-your-smartphone-nearby-takes-a-toll-on-your-thinking'>Having Your Smartphone Nearby Takes a Toll on Your Thinking &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>This kind of anxiety happened to all of us, whether it’s someone calling, message us, or email from work that got us always looking at the smartphone, we sometimes cannot enjoy or live the life that we have.</p>
+
+<p>And the threat is real to the way of our thinking, our focus span become narrow, cannot concentrate on what in front of us.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#psychology">psychology</a>,
+    
+      <a href="/tags#smartphone">smartphone</a>,
+    
+      <a href="/tags#daily found">daily found</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>March 26, 2018 &mdash; <a href='/2018/03/facebook-and-privacy'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://arstechnica.com/information-technology/2018/03/facebook-scraped-call-text-message-data-for-years-from-android-phones/'>Facebook collecting its users phone calls and sms &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>I think with what the service offers you like, seeing your friends posting their selfies photos, or probably seeing the other person’s video that they shared, or anything. this has happened over and over again, yesterday was <a href="https://www.theguardian.com/news/2018/mar/17/data-war-whistleblower-christopher-wylie-faceook-nix-bannon-trump">Cambrige Analytica</a>, now about Facebook collecting your call and sms data. concern? i know i’m concerned, delete the account long time a go, but still recieved this email.</p>
+
+<p><img src="/images/posts/facebook-email.png" alt="facebook still emailing me" /></p>
+
+<p>with subject titled “<strong>Deden, get back on Facebook with one click</strong>”</p>
+
+<p>And for people who <a href="https://www.theatlantic.com/technology/archive/2018/03/my-cow-game-extracted-your-facebook-data/556214/">played Farmville</a>, well, yeah, you’re screwed also by your pig.</p>
+
+<p>The company responds also did not soothing, they basically <a href="https://betanews.com/2018/03/25/facebook-blames-you/">blamed you</a> to opt-in their clause when you install the app before android 6.0 introduced, but wait, users that already newer version of android also collected.</p>
+ 
+            <a href="/2018/03/facebook-and-privacy">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#facebook">facebook</a>,
+    
+      <a href="/tags#privacy">privacy</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>March 20, 2018 &mdash; <a href='/2018/03/daily-found-3'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://kotaku.com/massive-crowds-gather-to-watch-dragon-ball-super-togeth-1823882122'>Massive Crowds Gather To Watch Dragon Ball Super Together &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <blockquote class="twitter-video" data-lang="en"><p lang="en" dir="ltr">BREAKING NEWS: over 10,000 <a href="https://twitter.com/hashtag/DragonBallSuper?src=hash&amp;ref_src=twsrc%5Etfw">#DragonBallSuper</a> fans gather in Machala, Ecuador to see <a href="https://twitter.com/hashtag/DragonBallSuper130?src=hash&amp;ref_src=twsrc%5Etfw">#DragonBallSuper130</a> (episode 130) public live-stream hosted by local government! Im so proud of mi gente across Latin America for showing <a href="https://twitter.com/ToeiAnimation?ref_src=twsrc%5Etfw">@ToeiAnimation</a> <a href="https://twitter.com/FUNimation?ref_src=twsrc%5Etfw">@FUNimation</a> <a href="https://twitter.com/Crunchyroll?ref_src=twsrc%5Etfw">@Crunchyroll</a> the power of fandom <a href="https://t.co/XgtktAVVeG">pic.twitter.com/XgtktAVVeG</a></p>&mdash; 🔥Oppai Senpai🔥 (@MrOppaiSenpai) <a href="https://twitter.com/MrOppaiSenpai/status/975213139708010496?ref_src=twsrc%5Etfw">March 18, 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#video">video</a>,
+    
+      <a href="/tags#anime">anime</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>March 13, 2018 &mdash; <a href='/2018/03/daily-found-2'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.youtube.com/watch?v=tx-9LkVIdz0'>How iFixit Became the World's Best iPhone Teardown Team &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/tx-9LkVIdz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>Kinda old-ish video, but i love this.</p>
+
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#video">video</a>,
+    
+      <a href="/tags#apple">apple</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>March 10, 2018 &mdash; <a href='/2018/03/daily-found-01'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://unsplash.com/photos/qmxzyEJ1PSQ'>daily found &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p><img src="https://images.unsplash.com/photo-1515697203610-d0513edf9cb4?ixlib=rb-0.3.5&amp;s=fecd34d639f5aa781d9444ca968197f7&amp;auto=format&amp;fit=crop&amp;w=1254&amp;q=80" alt="asd" /></p>
+
+<p><a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@nate_dumlao?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Nathan Dumlao"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Nathan Dumlao</span></a></p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#photography">photography</a>,
+    
+      <a href="/tags#unsplash">unsplash</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>January 29, 2018 &mdash; <a href='/2018/01/NGC281'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.swagastro.com/ngc281.html'>NGC281 - The Pacman nebula &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p><img src="https://www.swagastro.com/uploads/2/3/3/7/23377322/ngc281-hst_1_orig.jpg" alt="NGC281" /></p>
+
+<p>30 Hours of total exposure to capture this gem!</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#stars">stars</a>,
+    
+      <a href="/tags#astronomy">astronomy</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>January 11, 2018 &mdash; <a href='/2018/01/macos-appstore-bug'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://www.macrumors.com/2018/01/10/macos-high-sierra-app-store-password-bug/'>macOS High Sierra bug &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>The degradation of macOS development process, dunno why Apple has this thing, not long ago, macOS has some serious bug that you can do admin stuff by just.. <a href="https://www.macrumors.com/2017/11/28/macos-high-sierra-bug-admin-access/">not inserting any password</a>.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tags:
+    
+      <a href="/tags#macos">macos</a>,
+    
+      <a href="/tags#apple">apple</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>July 4, 2017 &mdash; <a href='/2017/07/links'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='http://www.wsj.com/video/how-the-iphone-was-born-inside-stories-of-missteps-and-triumphs/302CFE23-392D-4020-B1BD-B4B9CEF7D9A8.html'>How the iPhone Was Born: Inside Stories of Missteps and Triumphs &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>How Apple build and success with the iPhone, couple former VPs on the interview, it’s a great video!</p>
+
+<p>and also <a href="http://www.wsj.com/video/living-with-the-original-iphone-in-2017/790062D5-748C-47CE-A515-549D1C03E6F3.html">this video</a>.</p>
+
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tag:
+    
+      <a href="/tags#iphone">iphone</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  <article class=''>
+    
+      <time class='grayish'>June 20, 2017 &mdash; <a href='/2017/06/reading-list'>link to the post</a></time>
+      <h2 class='c-post__title'><a href='https://longreads.com/2017/06/13/a-sociology-of-the-smartphone/'>A Sociology of the Smartphone &rarr;</a></h2>
+    
+
+    
+      
+        
+
+        
+        
+          
+            <p>This is a quite long essay, things are spot on, it tells how smartphones changes our lives, our behavior.</p>
+
+<blockquote>
+  <p>For many of us, they are the last thing we look at before sleep each night, and the first thing we reach for upon waking. We use them to meet people, to communicate, to entertain ourselves, and to find our way around.</p>
+</blockquote>
+
+<p>those line almost summed up our daily activity, and how smartphone integral part to our lives, read it all, it is worth the time.</p>
+
+<h4 id="another-read">Another read</h4>
+<h4 id="why-you-should-manage-your-energy-not-your-time-"><a href="http://www.bbc.com/capital/story/20170612-why-you-should-manage-your-energy-not-your-time">Why you should manage your energy, not your time →</a></h4>
+
+<h4 id="leaving-social-media-taught-me-how-broken-the-news-cycle-is-"><a href="https://fivethirtyeight.com/features/leaving-social-media-taught-me-how-broken-the-news-cycle-is">Leaving Social Media Taught Me How Broken The News Cycle Is →</a></h4>
+ 
+            <a href="/2017/06/reading-list">Read more &rarr;</a><br><br>
+          
+
+        
+
+      
+    
+
+    
+    <div>
+    Tag:
+    
+      <a href="/tags#links">links</a>
+    
+    </div>
+  </article>
+  <hr class='half-width'/>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+        </div>
+      </article>
+    </div>
+  </div>
+
+</div>
+
+    
+<footer class='c-footer'>
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--full'>
+      
+          <div class='elsewhere' >
+            <hr>
+            <h4>Elsewhere</h4>
+            <ul class="list-inline meta">
+              <li><a href="https://twitter.com/dedenf"><span class='c-social-nav__icon' data-icon='ei-sc-twitter' data-size='s'></span></a></li>
+              <li><a href="https://github.com/dedenf"><span class='c-social-nav__icon' data-icon='ei-sc-github' data-size='s'></span></a></li>
+              <li><a href="https://instagram.com/dedenf"><span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span></a></li>
+              <li><a href="mailto:dedenf@gmail.com"><span class='c-social-nav__icon' data-icon='ei-envelope' data-size='s'></span></a></li>
+              <li><a href="https://seputarfinansial.com/">Seputar Finansial</a></li>
+              <li><a href="https://jakartadev.com/">JakartaDEV</a></li>
+              <li><a href="/feed">RSS</a></li>
+              <li><a href="https://dedenf.substack.com/subscribe?simple=true&next=https%3A%2F%2Fdedenf.substack.com%2F">Newsletter</a></li>
+              
+          </ul>
+          </div>
+          <div class="text-left meta">
+            &copy; notes.dedenf.com 2011 &mdash; 2020 <br>
+            Deden Fathurahman, <a href="/colophon">Colophon</a>. <br>
+            <ul class="list-inline">
+                <li><a href="https://notes.dedenf.com/tags/#daily-found">Reading</a></li>
+                <li><a href="https://notes.dedenf.com/">Writing</a></li>
+                <li><a href="/archives">Archives</a></li>
+                <li><a href="/my-reading">Reading</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+          </div>
+
+    </div>
+  </div>
+</footer>
+  </div>
+
+  <script src="/js/jquery-3.1.1.min.js"> </script>
+  <script src="/js/evil-icons.min.js">   </script>
+  <script src="/js/jquery.fitvids.js">   </script>
+  <script src="/js/app.js">              </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+/*------------------------------------*\
+  Elements > img
+\*------------------------------------*/
+@media (min-width:1200px){
+  .author__avatar{display:block;width:auto;height:auto}
+  .author__avatar img{padding:5px;border:1px solid #f2f3f3}
+
+  .c-post__image, article img{
+      display: block;
+      max-width: 130%;
+      height: auto;
+      padding: 0em 0;
+      position: relative;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+  }
+  
+}
+
+
+@media (min-width:320px) and (max-width:1199px) {
+  .c-post__image, article img{
+      display: block;
+      max-width: 100%;
+      height: auto;
+      padding: 0em 0;
+      position: relative;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+  }
+  
+}
