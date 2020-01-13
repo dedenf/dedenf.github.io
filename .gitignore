@@ -2,3 +2,6 @@
 Gemfile.lock.forestry
 .forestry
 Gemfile.lock
+.sass-cache/
+**/.sass-cache
+**/.sass-cache/*

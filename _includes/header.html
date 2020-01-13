@@ -1,10 +1,39 @@
-<header class='mt4 mb3 ml4 mr1 sm-ml2'>
-  <h1 class='mb1'><a href='{{ site.baseurl }}/'> {{ site.title }} </a></h1>
-  <div class='mxn1' role='navigation'>
-    <a class='btn button-narrow' href='/'>Home</a>
-    <a class='btn button-narrow' href='{{ site.baseurl }}/about'>About</a>
-    <a class='btn button-narrow' href='{{ site.baseurl }}/archive'>Archive</a>
-    <a class='btn button-narrow' href='{{ site.baseurl }}/my-reading' title="links, article, anything worth reading and bookmarking">Reading</a>
-    <a class='btn button-narrow' href='{{ site.baseurl }}/feed'><i class="fa fa-rss" aria-hidden="true"></i> Feed</a>
+<header class='c-header'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--full'>
+      <div class='c-header__inner'>
+
+        <div class='o-grid'>
+          <div class='o-grid__col o-grid__col--3-4-s'>
+            <div class='c-logo u-text-left'>
+              <a class='c-logo__link' href='{{ site.baseurl }}/'>{{ site.title }}</a>
+            </div>
+          </div>
+
+          <div class='o-grid__col o-grid__col--1-4-s'>
+            <label class='js-off-canvas-toggle c-off-canvas-toggle' aria-label='Toggle navigation'>
+              <span class='c-off-canvas-toggle__icon'></span>
+            </label>
+          </div>
+
+          <div class='o-grid__col o-grid__col--1-4-s'>
+            <div class='c-off-canvas-content'>
+              <label class='js-off-canvas-toggle c-off-canvas-toggle c-off-canvas-toggle--close'>
+                <span class='c-off-canvas-toggle__icon'></span>
+              </label>
+              <img src="/images/sites/hypertext-thrones.png" alt="logo">
+              <nav>
+              <ul class='c-nav o-plain-list '>
+                {% include navigation.html %}
+              </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </div>
+
 </header>

@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <title>
+    
+      Archives &middot; HyperText Thrones
+    
+
+  </title>
+  <meta name='description' content="HyperText Thrones, Daily muse, putting my tought, reaction, comments, and things that i need to write. About tech, financial, life.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f4f5f6">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#f4f5f6">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <link rel='canonical' href="http://localhost:4000/archives">
+  <link rel='alternate' type='application/rss+xml' title='HyperText Thrones' href="http://localhost:4000/feed">
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/sites/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/images/sites/favicon.png"/>
+  
+  <link rel="image_src" href="/images/sites/deden.png">
+  
+
+  <!-- Sharing -->
+  
+  <meta property="og:title" content="Archives" />
+  <meta property="og:description" content="### Blog Posts
+{% for post in site.posts %}
+  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
+{% endfor %}
+" />
+  
+	<meta property="og:site_name" content="HyperText Thrones | HyperText Thrones, Daily muse, putting my tought, reaction, comments, and things that i need to write. About tech, financial, life."/>
+	<meta property="og:url" content="http://localhost:4000/archives" />
+   
+	<meta property="og:type" content="website" />
+  
+  <meta property="og:image" content="" />
+  
+  
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dedenf">
+  <meta name="twitter:title" content="Archives">
+  
+  <meta name="twitter:description" content="### Blog Posts
+{% for post in site.posts %}
+  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
+{% endfor %}
+">
+  
+  
+  <meta name="twitter:image:src" content="/public/deden.png">
+  
+  
+  
+
+  
+  <meta itemprop="name" content="Archives" />
+	<meta itemprop="headline" content="Archives" />
+	<meta itemprop="author" content="Deden Fathurahman" />
+  <meta itemprop="description" content="### Blog Posts
+{% for post in site.posts %}
+  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
+{% endfor %}
+" />
+  
+	
+	<link itemprop="url" href="http://localhost:4000/archives" />
+
+  
+
+
+
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700|Crimson+Text:400,400i,600,600i,700,700i|Enriqueta:400,500|Georgia|Merriwather|Lato:400,600&display=swap" rel="stylesheet">
+
+  <style>
+    
+
+    html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:0.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}body,h1,h2,h3,h4,h5,h6,blockquote,p,pre,dl,dd,ol,ul,figure,hr,fieldset,legend{margin:0;padding:0}li>ol,li>ul{margin-bottom:0}table{border-collapse:collapse;border-spacing:0}address,h1,h2,h3,h4,h5,h6,blockquote,p,pre,dl,ol,ul,figure,hr,table,fieldset{margin-bottom:32px}dd,ol,ul{margin-left:16px}.elsewhere{align-items:baseline;display:flex;flex-wrap:wrap;line-height:2.2rem;font-size:var(--font-size);margin:2rem 0 1.5rem;border-top:1px solid var(--lightgrey);border-bottom:1px solid var(--lightgrey)}.elsewhere h4{margin-right:1rem}.list-inline{margin:0;padding:0}@media (min-width: 25em){.list-inline{display:flex}}.list-inline li{list-style:none;display:inline-block;margin-right:.6rem}footer .meta{color:#666;font-size:.8em;font-family:'Lato', sans-serif;font-weight:normal;line-height:1.65em}h1.c-post__title,.c-post-card__title{font-family:'Enriqueta', 'Bitter', serif;font-weight:normal;line-height:1.65em;font-size:2em}article a,.c-post-card__excerpt a{color:#2B5F72}.credit_image{font-size:.8em}@-webkit-keyframes spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.icon{position:relative;display:inline-block;width:25px;height:25px;overflow:hidden;fill:currentColor}.icon__cnt{width:100%;height:100%;background:inherit;fill:inherit;pointer-events:none;transform:translateX(0);-ms-transform:translate(0.5px, -0.3px)}.icon--m{width:50px;height:50px}.icon--l{width:100px;height:100px}.icon--xl{width:150px;height:150px}.icon--xxl{width:200px;height:200px}.icon__spinner{position:absolute;top:0;left:0;width:100%;height:100%}.icon--ei-spinner .icon__spinner,.icon--ei-spinner-2 .icon__spinner{-webkit-animation:spin 1s steps(12) infinite;animation:spin 1s steps(12) infinite}.icon--ei-spinner-3 .icon__spinner{-webkit-animation:spin 1.5s linear infinite;animation:spin 1.5s linear infinite}.icon--ei-sc-facebook{fill:#3b5998}.icon--ei-sc-github{fill:#333}.icon--ei-sc-google-plus{fill:#dd4b39}.icon--ei-sc-instagram{fill:#3f729b}.icon--ei-sc-linkedin{fill:#0976b4}.icon--ei-sc-odnoklassniki{fill:#ed812b}.icon--ei-sc-skype{fill:#00aff0}.icon--ei-sc-soundcloud{fill:#f80}.icon--ei-sc-tumblr{fill:#35465c}.icon--ei-sc-twitter{fill:#55acee}.icon--ei-sc-vimeo{fill:#1ab7ea}.icon--ei-sc-vk{fill:#45668e}.icon--ei-sc-youtube{fill:#e52d27}.icon--ei-sc-pinterest{fill:#bd081c}.icon--ei-sc-telegram{fill:#0088cc}.highlight{margin:0;background:#fff}.highlighter-rouge .highlight{background:#FAFAFA}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k{font-weight:bold}.highlight .o{font-weight:bold}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:bold}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{font-weight:bold}.highlight .kd{font-weight:bold}.highlight .kp{font-weight:bold}.highlight .kr{font-weight:bold}.highlight .kt{color:#458;font-weight:bold}.highlight .m{color:#099}.highlight .s{color:#d14}.highlight .na{color:teal}.highlight .nb{color:#0086B3}.highlight .nc{color:#458;font-weight:bold}.highlight .no{color:teal}.highlight .ni{color:purple}.highlight .ne{color:#900;font-weight:bold}.highlight .nf{color:#900;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:navy}.highlight .nv{color:teal}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .sb{color:#d14}.highlight .sc{color:#d14}.highlight .sd{color:#d14}.highlight .s2{color:#d14}.highlight .se{color:#d14}.highlight .sh{color:#d14}.highlight .si{color:#d14}.highlight .sx{color:#d14}.highlight .sr{color:#009926}.highlight .s1{color:#d14}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc{color:teal}.highlight .vg{color:teal}.highlight .vi{color:teal}.highlight .il{color:#099}body{color:#323232;font-size:19px;font-family:"Merriwather","Bitter",serif;line-height:32px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}*::selection{color:#fff;background:#00A0FF}a{text-decoration:none;color:#323232;transition:.4s}a:hover,a:active,a:focus{text-decoration:underline}@media (min-width: 1200px){.author__avatar{display:block;width:auto;height:auto}.author__avatar img{padding:5px;border:1px solid #f2f3f3}.c-post__image,article img{display:block;max-width:130%;height:auto;padding:0em 0;position:relative;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}}@media (min-width: 320px) and (max-width: 1199px){.c-post__image,article img,img{display:block;max-width:100%;height:auto;padding:0em 0;position:relative;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}}hr{height:1px;margin:32px 0;border:0;background-color:#E9EFF3}h1,h2,h3,h4,h5,h6{font-weight:inherit;line-height:initial;font-weight:600;font-family:"Bitter",serif}h1{font-size:36px;font-family:inherit}h2{font-size:28px}h3{font-size:24px;font-weight:600}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}blockquote{padding-left:16px;border-left:3px solid #2B5F72;font-style:italic;color:#999}pre,code{font-family:Courier,monospace;background-color:#FAFAFA}pre{overflow:auto;padding:32px;margin-bottom:16px;font-size:16px;line-height:25px;white-space:pre-wrap;word-wrap:break-word}li code,p code{padding:4px 8px}input[type='text'],input[type='tel'],input[type='number'],input[type='email'],select,textarea{width:100%;padding:16px;border:1px solid #E9EFF3;border-radius:0;outline:none;background-color:#fff;font-size:14px;appearance:none;transition:.4s}input[type='text']:hover,input[type='text']:active,input[type='text']:focus,input[type='tel']:hover,input[type='tel']:active,input[type='tel']:focus,input[type='number']:hover,input[type='number']:active,input[type='number']:focus,input[type='email']:hover,input[type='email']:active,input[type='email']:focus,select:hover,select:active,select:focus,textarea:hover,textarea:active,textarea:focus{border:1px solid #323232}.o-grid{margin:0 auto;display:flex;flex-wrap:wrap;max-width:700px}.o-grid:after{content:'';display:table;clear:both}.o-grid .o-grid{margin-right:-16px;margin-left:-16px;padding:0}.o-grid--full{max-width:100vw}.o-grid__col{float:left;padding-right:16px;padding-left:16px}.o-grid__col--1-4-s{width:25%}.o-grid__col--1-3-s{width:33.3333333333%}.o-grid__col--2-4-s{width:50%}.o-grid__col--3-4-s{width:75%}.o-grid__col--4-4-s{width:100%}@media (min-width: 40em){.o-grid__col--1-4-m{width:25%}.o-grid__col--1-3-m{width:33.3333333333%}.o-grid__col--2-4-m{width:50%}.o-grid__col--3-4-m{width:75%}}@media (min-width: 64em){.o-grid__col--1-4-l{width:25%}.o-grid__col--1-3-l{width:33.3333333333%}.o-grid__col--2-4-l{width:50%}.o-grid__col--3-4-l{width:75%}}.o-grid__col--full{width:100%}.o-grid__col--center{margin:0 auto}.o-grid__col--end{margin-left:auto}.o-wrapper{padding:32px 0}.c-off-canvas-container{display:flex;min-height:100vh;flex-direction:column}.c-off-canvas-container .o-wrapper{flex:1 0 auto}.o-plain-list{margin:0;padding:0;list-style:none}.c-header__inner{padding:16px 0;border-bottom:1px solid #E9EFF3}.c-header__icon{vertical-align:middle}.c-logo__link{font-size:19px;font-weight:900;transition:.4s}.c-logo__link:hover,.c-logo__link:active,.c-logo__link:focus{color:#00A0FF;text-decoration:none}.c-nav__item{font-size:16px}.c-nav__link{display:block;transition:.4s}.c-nav__link--current{color:#00A0FF}.home-template .c-nav__link--current:not(:hover){color:#323232}.c-nav__link:hover,.c-nav__link:active,.c-nav__link:focus{color:#00A0FF;text-decoration:none}.c-off-canvas-toggle{float:right;position:relative;top:8px;z-index:10;height:19px;width:25px;cursor:pointer}.c-off-canvas-toggle__icon{position:absolute;left:0;height:1px;width:25px;background:#323232;cursor:pointer}.c-off-canvas-toggle__icon:before,.c-off-canvas-toggle__icon:after{content:'';display:block;height:100%;background-color:inherit;transition:.4s}.c-off-canvas-toggle__icon:before{transform:translateY(16px)}.c-off-canvas-toggle__icon:after{transform:translateY(7px)}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon{height:2px;background-color:transparent}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:before,.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:after{position:relative;visibility:visible;background:#323232}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:before{top:11px;transform:rotate(-45deg)}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:after{top:9px;transform:rotate(45deg)}.c-off-canvas-toggle--close{top:0;float:none;display:block;margin-left:auto}html,body{overflow-x:hidden}.c-off-canvas-content{position:fixed;top:0;right:0;width:300px;height:100%;padding:24px 32px;background-color:#fff;transform:translate3d(300px, 0, 0)}.c-off-canvas-container{transform:translate3d(0, 0, 0);transition:transform .4s cubic-bezier(0.16, 0.68, 0.43, 0.99)}.c-off-canvas-container.is-active{transform:translate3d(-300px, 0, 0)}.c-off-canvas-container.is-active:after{position:fixed;top:0;right:0;bottom:0;left:0;content:'';background-color:rgba(0,0,0,0.2)}.c-tags a{display:inline-block;padding:4px 16px;margin:0 8px 4px 0;font-size:12px;font-family:"Merriwather","Bitter",serif;line-height:25px;background-color:#FAFAFA;transition:.4s}.c-tags a:hover,.c-tags a:active,.c-tags a:focus{text-decoration:none;background-color:#FAFAFA}@media (max-width: 39.99em){.c-tags{margin-bottom:22px}}.c-btn{display:inline-block;padding:8px 32px;cursor:pointer;transition:.4s;text-align:center;vertical-align:middle;white-space:nowrap;line-height:inherit;border:0;border-radius:0;color:#fff;background-color:#207cdf;font-size:16px}.c-btn:hover,.c-btn:active,.c-btn:focus{text-decoration:none;background-color:#238cf6}.c-btn--full{width:100%}.c-btn--small{padding:4px 16px}.c-post-card{display:block;word-break:break-word}.c-post-card--first{padding-top:0}.c-post-card--last{padding-bottom:0;border-bottom:0}.c-post-card__title{margin-bottom:10px;font-size:19px;font-weight:600;transition:.4s}@media (min-width: 40em){.c-post-card__title{font-size:28px}}.c-post-card__excerpt{margin-bottom:10px}.c-post-card__date{display:block;color:#2B5F72;direction:ltr;font-size:12px;font-weight:600;line-height:22px;text-transform:capitalize}.c-post-card:hover{color:#323232;text-decoration:none}.c-post-card:hover .c-post-card__title{color:#00A0FF}.c-post-card__date{margin:10px}.c-pagination{text-transform:uppercase;transition:.4s}.c-pagination:hover,.c-pagination:active,.c-pagination:focus{color:#00A0FF;text-decoration:none}.c-pagination__text{position:relative;font-size:14px;letter-spacing:2px}.c-pagination__text--prev{left:-16px}.c-pagination__text--next{right:-16px}.c-pagination__icon{vertical-align:text-top}.c-pagination__icon--prev{left:-8px}.c-pagination__icon--next{right:-8px}.c-post{margin:0 auto;max-width:740px}.c-post__title{font-size:24px;margin-bottom:16px}@media (min-width: 40em){.c-post__title{font-size:28px}}.c-post__date{position:relative;padding-top:16px;display:block;text-align:center;margin-bottom:16px;font-size:14px;font-weight:600;line-height:22px;color:#2B5F72}.c-post__date:after{position:absolute;content:'';top:0;left:50%;height:1px;width:64px;background:#FAFAFA;transform:translateX(-50%)}.c-post__image{margin:0 auto 16px}.c-content a:not(.c-btn){text-decoration:underline;text-decoration-skip:ink}.c-content a:not(.c-btn):hover,.c-content a:not(.c-btn):active,.c-content a:not(.c-btn):focus{color:#00A0FF}.twitter-tweet,.fluid-width-video-wrapper{margin-bottom:16px !important}.c-social-nav__item{display:inline-block}.c-social-nav__icon{fill:#323232;vertical-align:middle;transition:.4s}.c-social-nav__icon:hover,.c-social-nav__icon:active,.c-social-nav__icon:focus{fill:#00A0FF}.c-footer{padding:32px 0;background-color:#FAFAFA}.u-hidden{display:none}.u-hidden-visually{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.u-font-medium{font-size:16px;line-height:25px}.u-font-small{font-size:14px;line-height:22px}.u-font-tiny{font-size:12px;line-height:19px}.u-text-left{text-align:left}.u-text-right{text-align:right}.u-text-center{text-align:center}.u-text-justify{text-align:justify}.u-inline{display:inline}.u-block{display:block}.u-inline-block{display:inline-block}.u-left{float:left}.u-right{float:right}.u-clearfix:after{content:'';display:table;clear:both}
+
+  </style>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  
+    ga('create', 'UA-38299976-3', 'auto');
+    ga('send', 'pageview');
+  
+  </script>
+  <!-- RSS -->
+
+</head>
+
+<body>
+
+  <div class='js-off-canvas-container c-off-canvas-container'>
+    <header class='c-header'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--full'>
+      <div class='c-header__inner'>
+
+        <div class='o-grid'>
+          <div class='o-grid__col o-grid__col--3-4-s'>
+            <div class='c-logo u-text-left'>
+              <a class='c-logo__link' href='/'>HyperText Thrones</a>
+            </div>
+          </div>
+
+          <div class='o-grid__col o-grid__col--1-4-s'>
+            <label class='js-off-canvas-toggle c-off-canvas-toggle' aria-label='Toggle navigation'>
+              <span class='c-off-canvas-toggle__icon'></span>
+            </label>
+          </div>
+
+          <div class='o-grid__col o-grid__col--1-4-s'>
+            <div class='c-off-canvas-content'>
+              <label class='js-off-canvas-toggle c-off-canvas-toggle c-off-canvas-toggle--close'>
+                <span class='c-off-canvas-toggle__icon'></span>
+              </label>
+              <img src="/images/sites/hypertext-thrones.png" alt="logo">
+              <nav>
+              <ul class='c-nav o-plain-list '>
+                <li class='c-nav__item' role='presentation'><a class='btn button-narrow' href='/about'>About</a></li>
+<li class='c-nav__item' role='presentation'><a class='btn button-narrow' href='/archives'>Archives</a></li>
+<li class='c-nav__item' role='presentation'><a class='btn button-narrow' href='/my-reading' title="links, article, anything worth reading and bookmarking">Reading</a></li>
+<li class='c-nav__item' role='presentation'><a class='btn button-narrow' href='/feed'><i class="fa fa-rss" aria-hidden="true"></i> Feed</a></li>
+              </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</header>
+
+    <div class='o-wrapper'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col'>
+      <article class='c-post'>
+        <h2>Archives</h2>
+        
+        
+        <h3>2020 January</h3>
+            <ul>
+            
+                <li><a href="/2020/01/melakukan-kebiasaan-menulis-setiap-hari">Melakukan kebiasaan menulis setiap hari</a> &mdash; 10 Jan</li>
+            
+                <li><a href="/2020/01/pertama-2020">2020: Ayo!</a> &mdash; 03 Jan</li>
+            
+            </ul>
+        
+        <h3>2019 December</h3>
+            <ul>
+            
+                <li><a href="/2019/12/coffee-anxiety-nervous-stress-related">Let's talk about coffee</a> &mdash; 04 Dec</li>
+            
+                <li><a href="/2019/12/isyana-sarasvati-lexicon">Isyana Sarasvati — LEXICON</a> &mdash; 03 Dec</li>
+            
+            </ul>
+        
+        <h3>2019 November</h3>
+            <ul>
+            
+                <li><a href="/2019/11/seputar-finansial-investasi-dengan-obligasi">Apa itu obligasi?</a> &mdash; 29 Nov</li>
+            
+                <li><a href="/2019/11/seputar-finansial-investasi-saham">Memulai investasi saham?</a> &mdash; 28 Nov</li>
+            
+                <li><a href="/2019/11/mencari-informasi-bisnis-usaha-di-google-map">Google Maps the dominant local search tool, followed by Facebook and Yelp</a> &mdash; 27 Nov</li>
+            
+                <li><a href="/2019/11/firefox-lockwise-masih-butuh-1password">Firefox Lockwise, apakah masih membutuhkan 1Password?</a> &mdash; 21 Nov</li>
+            
+                <li><a href="/2019/11/seputar-finansial-blueprint-finansial">Cek up finansial sebelum membuat blueprint tujuan finansial</a> &mdash; 20 Nov</li>
+            
+                <li><a href="/2019/11/tahu-limbah-dan-racun">Tahu, Limbah dan Racun</a> &mdash; 18 Nov</li>
+            
+                <li><a href="/2019/11/apple-new-macbook-pro">MacBook Pro teardown confirms the new keyboard is basically just the old, good keyboard</a> &mdash; 18 Nov</li>
+            
+                <li><a href="/2019/11/google-chrome">Google Chrome experiment crashes browser tabs, impacts companies worldwide</a> &mdash; 15 Nov</li>
+            
+                <li><a href="/2019/11/standups">Why Standups are Useless and How to Run Great Product Team Meetings</a> &mdash; 14 Nov</li>
+            
+                <li><a href="/2019/11/rokok-vape-apakah-bahaya">Dulu rokok, sekarang vape (vaping)</a> &mdash; 13 Nov</li>
+            
+                <li><a href="/2019/11/apple-macbook-pro-sucks">Apple’s Promise Of A Powerful MacBook Pro Has Been Frustrated </a> &mdash; 10 Nov</li>
+            
+                <li><a href="/2019/11/clickbait">Clickbait, cara yang masih ampuh menarik pembaca</a> &mdash; 07 Nov</li>
+            
+                <li><a href="/2019/11/indonesia-failed-to-take-profit">Bloomberg: Why Indonesia Failed to Cash in on the China-U.S. Trade War</a> &mdash; 06 Nov</li>
+            
+                <li><a href="/2019/11/the-great-hack">The Great Hack: Polarisasi politik (dan agama) di Indonesia</a> &mdash; 05 Nov</li>
+            
+                <li><a href="/2019/11/daily-found-engineering-podcast-infoq">Daily Found: Engineering podcasts</a> &mdash; 04 Nov</li>
+            
+            </ul>
+        
+        <h3>2019 October</h3>
+            <ul>
+            
+                <li><a href="/2019/10/twitter-ban-iklan-politik">Twitter ban iklan politik di platform-nya</a> &mdash; 31 Oct</li>
+            
+                <li><a href="/2019/10/200wordsaday">200 Words a day</a> &mdash; 29 Oct</li>
+            
+                <li><a href="/2019/10/sleeplessness-and-alzheimer">Is an epidemic of sleeplessness increasing the incidence of Alzheimer’s disease?</a> &mdash; 24 Oct</li>
+            
+                <li><a href="/2019/10/low-code-no-code-development">Low-code dan No-code development</a> &mdash; 18 Oct</li>
+            
+                <li><a href="/2019/10/seputar-finansial-resesi-apa-yang-harus-dilakukan">Resesi? apa yang harus diperhatikan?</a> &mdash; 16 Oct</li>
+            
+                <li><a href="/2019/10/menemukan-project-open-source-baru">Menemukan project Open Source</a> &mdash; 16 Oct</li>
+            
+                <li><a href="/2019/10/pubg-free-fire-fortnight-minecraft-adalah-suatu-tempat-bukan-sekedar-game">PUBG, Free Fire, Forthnight, Minecraft bukan sekedar game, tapi sebuah tempat</a> &mdash; 15 Oct</li>
+            
+                <li><a href="/2019/10/aplikasi-reeder-sebuah-review-singkat">Reeder, aplikasi RSS reader</a> &mdash; 13 Oct</li>
+            
+                <li><a href="/2019/10/read-maybe-later">Read it maybe later</a> &mdash; 12 Oct</li>
+            
+                <li><a href="/2019/10/8-overcome-cognitive-biases">8 powerful ways to overcome thinking errors and cognitive biases</a> &mdash; 12 Oct</li>
+            
+                <li><a href="/2019/10/the-power-of-placebo">The Power of Placebo: How Our Brains Can Heal Our Minds and Bodies</a> &mdash; 11 Oct</li>
+            
+                <li><a href="/2019/10/seputarfinansial-bank-digital">Bank digital, apa itu?</a> &mdash; 11 Oct</li>
+            
+                <li><a href="/2019/10/fake-news">Why smart people are more likely to believe fake news </a> &mdash; 08 Oct</li>
+            
+                <li><a href="/2019/10/seputarfinansial-review-aplikasi-money-lover">Review: Money Lover, aplikasi manajemen keuangan</a> &mdash; 07 Oct</li>
+            
+                <li><a href="/2019/10/investasi-dengan-uang-receh">Investasi reksa dana dengan 'uang receh' di BIBIT</a> &mdash; 03 Oct</li>
+            
+                <li><a href="/2019/10/bagaimana-tetap-update-dengan-teknologi-terbaru">Bagaimana agar tetap bisa update dengan teknologi terbaru?</a> &mdash; 03 Oct</li>
+            
+                <li><a href="/2019/10/mencoba-reksadana-dengan-ajaib">Investasi Reksa Dana dengan aplikasi Ajaib</a> &mdash; 01 Oct</li>
+            
+            </ul>
+        
+        <h3>2019 September</h3>
+            <ul>
+            
+                <li><a href="/2019/09/investasi">Investasi</a> &mdash; 30 Sep</li>
+            
+                <li><a href="/2019/09/the-daily-found-plastik">Microplastics found in 93% of bottled water tested in global study</a> &mdash; 29 Sep</li>
+            
+                <li><a href="/2019/09/menjaga-privasi-dan-keamanan-dalam-berinternet">Menjaga privasi dan keamanan dalam berinternet</a> &mdash; 26 Sep</li>
+            
+                <li><a href="/2019/09/the-daily-found-how-to-stop-worrying-about-what-other-people-think-of-you">How to Stop Worrying About What Other People Think of You</a> &mdash; 25 Sep</li>
+            
+                <li><a href="/2019/09/lets-be-kind-to-your-future-self">Be kind to your future self</a> &mdash; 25 Sep</li>
+            
+                <li><a href="/2019/09/essential-for-jekyll-blog">My Essential plugin or gem for Jekyll</a> &mdash; 25 Sep</li>
+            
+                <li><a href="/2019/09/seputar-finansial-kenali-pengeluaran">Ketahui dan kenali pengeluaran-pengeluaranmu</a> &mdash; 24 Sep</li>
+            
+                <li><a href="/2019/09/before-breakfast-podcast">Before Breakfast Podcast</a> &mdash; 18 Sep</li>
+            
+                <li><a href="/2019/09/jenius-tech-analisa-css-dengan-wallace-cli">Analisis CSS dengan menggunakan Wallace-CLI</a> &mdash; 17 Sep</li>
+            
+                <li><a href="/2019/09/penting-perhatikan-selalu-fee-biaya-admin">Mengapa memperhatikan biaya admin (fee) itu penting?</a> &mdash; 03 Sep</li>
+            
+            </ul>
+        
+        <h3>2019 August</h3>
+            <ul>
+            
+                <li><a href="/2019/08/the-death-of-alexander-the-great">The Death of Alexander the Great: One of History’s Great Unsolved Mysteries</a> &mdash; 29 Aug</li>
+            
+                <li><a href="/2019/08/seputarfinansial-inflasi-gaya-hidup">Inflasi gaya hidup</a> &mdash; 28 Aug</li>
+            
+                <li><a href="/2019/08/timelapses-of-milky-way">Milky Way Timelapses</a> &mdash; 27 Aug</li>
+            
+                <li><a href="/2019/08/software-tester-to-data-science">How I jumped from software testing to data science</a> &mdash; 27 Aug</li>
+            
+            </ul>
+        
+        <h3>2019 July</h3>
+            <ul>
+            
+                <li><a href="/2019/07/the-man-who-build-retweet">The Man Who Built The Retweet: “We Handed A Loaded Weapon To 4-Year-Olds”</a> &mdash; 24 Jul</li>
+            
+                <li><a href="/2019/07/membeli-reksadana-di-bibit-dengan-gopay">Membeli reksadana di BIBIT.ID dengan GoPay</a> &mdash; 18 Jul</li>
+            
+                <li><a href="/2019/07/bersyukur">Bersyukur</a> &mdash; 17 Jul</li>
+            
+                <li><a href="/2019/07/1-newsletter">Newslettering</a> &mdash; 17 Jul</li>
+            
+                <li><a href="/2019/07/podcast-sudutsuarakumandang">Sudut Suara Kumandang</a> &mdash; 14 Jul</li>
+            
+                <li><a href="/2019/07/seputarfinansial-menabung-dan-investasi">Menabung dan investasi</a> &mdash; 11 Jul</li>
+            
+                <li><a href="/2019/07/logical-fallacy-kesesatan-berpikir">Logical Fallacy/Kesesatan berpikir</a> &mdash; 10 Jul</li>
+            
+                <li><a href="/2019/07/privacy-on-default-browsers-brave-firefox">Privasi dan keamanan pada aplikasi peramban (browser)</a> &mdash; 09 Jul</li>
+            
+                <li><a href="/2019/07/money-hack-digital-wallet">Money hack: Menggunakan Digital Wallet untuk penghematan </a> &mdash; 04 Jul</li>
+            
+                <li><a href="/2019/07/firefox-lockwise">Firefox Lockwise</a> &mdash; 02 Jul</li>
+            
+            </ul>
+        
+        <h3>2019 June</h3>
+            <ul>
+            
+                <li><a href="/2019/06/Microsoft-Apple-OSs-A-visual-history">Microsoft & Apple OSs: A visual history</a> &mdash; 29 Jun</li>
+            
+                <li><a href="/2019/06/dua-garis-biru">Dua Garis Biru</a> &mdash; 28 Jun</li>
+            
+                <li><a href="/2019/06/spotify-your-library-new-design">Spotify 'Your Library' design refresh</a> &mdash; 26 Jun</li>
+            
+                <li><a href="/2019/06/konspirasi-teori-dan-keagamaan">Teori konspirasi dan keagamaan</a> &mdash; 13 Jun</li>
+            
+            </ul>
+        
+        <h3>2019 May</h3>
+            <ul>
+            
+                <li><a href="/2019/05/gaming-disorder">World Health Organisation makes 'gaming disorder' a recognised illness</a> &mdash; 27 May</li>
+            
+                <li><a href="/2019/05/suara-puan-podcast">Podcast: Suara Puan</a> &mdash; 21 May</li>
+            
+                <li><a href="/2019/05/jakarta-1956-1970">Jakarta circa tahun 1965-1970</a> &mdash; 14 May</li>
+            
+                <li><a href="/2019/05/multiple-uri-redirection-using-nginx">Redireksi banyak URI dengan menggunakan NGINX</a> &mdash; 08 May</li>
+            
+            </ul>
+        
+        <h3>2019 April</h3>
+            <ul>
+            
+                <li><a href="/2019/04/google-and-mozilla">Former Mozilla exec: Google has sabotaged Firefox for years</a> &mdash; 16 Apr</li>
+            
+                <li><a href="/2019/04/sharenting-orang-tua-dan-anaknya">Can you stop your parents sharing photos of you online?</a> &mdash; 01 Apr</li>
+            
+            </ul>
+        
+        <h3>2019 March</h3>
+            <ul>
+            
+                <li><a href="/2019/03/blogging-workflow">Blogging workflow</a> &mdash; 26 Mar</li>
+            
+                <li><a href="/2019/03/mencoba-reksadana-dengan-bibit">Review: Mencoba reksadana dengan menggunakan aplikasi BIBIT</a> &mdash; 25 Mar</li>
+            
+                <li><a href="/2019/03/fitnah-dan-buruk-sangka">Fitnah dan buruk sangka</a> &mdash; 23 Mar</li>
+            
+                <li><a href="/2019/03/hijrah">Tentang Hijrah</a> &mdash; 13 Mar</li>
+            
+                <li><a href="/2019/03/daily-found-podcast-choiceology">Choiceology</a> &mdash; 13 Mar</li>
+            
+            </ul>
+        
+        <h3>2019 February</h3>
+            <ul>
+            
+                <li><a href="/2019/02/google-product-confusing-as-hell">Google product: confusing as hell</a> &mdash; 13 Feb</li>
+            
+            </ul>
+        
+        <h3>2019 January</h3>
+            <ul>
+            
+                <li><a href="/2019/01/this-is-crap">By Defying Apple’s Rules, Facebook Shows It Never Learns</a> &mdash; 31 Jan</li>
+            
+                <li><a href="/2019/01/gumpnhell-drainase">Gumpnhell: Drainase</a> &mdash; 18 Jan</li>
+            
+                <li><a href="/2019/01/isi-ulang-emoney-dengan-jenius-tokopedia">Isi ulang e-money/e-toll gratis dengan Jenius dan Tokopedia</a> &mdash; 15 Jan</li>
+            
+                <li><a href="/2019/01/when-you-are-on-instagram">How Imgur avoids the ugliness of social media</a> &mdash; 07 Jan</li>
+            
+                <li><a href="/2019/01/m-tix-atau-tix-id">M-Tix atau TIX-ID?</a> &mdash; 04 Jan</li>
+            
+                <li><a href="/2019/01/cashless-society">Being Cashless</a> &mdash; 04 Jan</li>
+            
+            </ul>
+        
+        <h3>2018 December</h3>
+            <ul>
+            
+                <li><a href="/2018/12/perbandingan-bareksa-tanamduit-investree-bagian-2">Perbandingan Bareksa vs Tanam Duit vs Investree, bagian 2</a> &mdash; 26 Dec</li>
+            
+                <li><a href="/2018/12/year-in-review-commit-blog-entry">Nge-blog ditahun 2018</a> &mdash; 20 Dec</li>
+            
+                <li><a href="/2018/12/buku-sastra-laluba-nukila-amal">Sastra: Laluba oleh Nukila Amal</a> &mdash; 12 Dec</li>
+            
+                <li><a href="/2018/12/year-in-review-podcast">Year in review: Podcast</a> &mdash; 11 Dec</li>
+            
+                <li><a href="/2018/12/awam">Awam</a> &mdash; 05 Dec</li>
+            
+            </ul>
+        
+        <h3>2018 November</h3>
+            <ul>
+            
+                <li><a href="/2018/11/the-human-toll-of-instant-delivery">The Human Toll of Instant Delivery</a> &mdash; 29 Nov</li>
+            
+            </ul>
+        
+        <h3>2018 October</h3>
+            <ul>
+            
+                <li><a href="/2018/10/carl-sagan-the-measure-of-eratosthenes">The measure of eratosthenes by Carl Sagan</a> &mdash; 26 Oct</li>
+            
+                <li><a href="/2018/10/bahaya-timbel">6 Fakta Ilmiah Pencemaran Timbel di Bogor dan Tangerang</a> &mdash; 16 Oct</li>
+            
+                <li><a href="/2018/10/spotify-noizio-calming">Spotify + Noizio</a> &mdash; 12 Oct</li>
+            
+                <li><a href="/2018/10/daily-found-podcast-kubernetes">Comparing Git Workflows</a> &mdash; 02 Oct</li>
+            
+            </ul>
+        
+        <h3>2018 September</h3>
+            <ul>
+            
+                <li><a href="/2018/09/agile-impact-conference">Agile Impact Conference 2018: Observability</a> &mdash; 26 Sep</li>
+            
+                <li><a href="/2018/09/daily-found-podcast">Kubernetes Distributions with Brian Gracely and Michael Hausenblas</a> &mdash; 25 Sep</li>
+            
+                <li><a href="/2018/09/jakarta-manual-coffee-2018">Jakarta Coffee Manual 2018</a> &mdash; 18 Sep</li>
+            
+                <li><a href="/2018/09/perbandingan-bareksa-tanamduit-investree">Perbandingan Bareksa vs Tanam Duit vs Investree, bagian 1</a> &mdash; 10 Sep</li>
+            
+                <li><a href="/2018/09/loneliness">Loneliness</a> &mdash; 09 Sep</li>
+            
+                <li><a href="/2018/09/ikat-pinggang">Jangan Takut Beli Ikat Pinggang</a> &mdash; 05 Sep</li>
+            
+                <li><a href="/2018/09/life-at-jenius-2">Life at Jenius #2</a> &mdash; 04 Sep</li>
+            
+            </ul>
+        
+        <h3>2018 August</h3>
+            <ul>
+            
+                <li><a href="/2018/08/daily-bite-45">Daily Bite #45</a> &mdash; 25 Aug</li>
+            
+                <li><a href="/2018/08/windows-95">💩🚀 Windows 95 in Electron. Runs on macOS, Linux, and Windows</a> &mdash; 24 Aug</li>
+            
+                <li><a href="/2018/08/traffic-solution">The Simple Solution to Traffic</a> &mdash; 24 Aug</li>
+            
+                <li><a href="/2018/08/will.i.am-podcast">Will.i.am on His Creative Journey and Breaking Down Barriers</a> &mdash; 16 Aug</li>
+            
+                <li><a href="/2018/08/lantip-dan-keris">Podcast TemuKonco: Lantip dan keris</a> &mdash; 16 Aug</li>
+            
+                <li><a href="/2018/08/mencairkan-reksadana-di-tokopedia">Mencairkan Reksadana di Tokopedia</a> &mdash; 15 Aug</li>
+            
+                <li><a href="/2018/08/photograph-and-memory">Does Taking Pictures on Our Smartphones Have Any Effect on Our Memory?</a> &mdash; 14 Aug</li>
+            
+            </ul>
+        
+        <h3>2018 July</h3>
+            <ul>
+            
+                <li><a href="/2018/07/debating-instagram">Teens Are Debating the News on Instagram</a> &mdash; 31 Jul</li>
+            
+                <li><a href="/2018/07/winds-review">Winds app for RSS and Podcast</a> &mdash; 23 Jul</li>
+            
+                <li><a href="/2018/07/Abdul-Wahid-Azad">Abdul Wahid Azad; Pahlawan Kemerdekaan yang Dilupakan</a> &mdash; 19 Jul</li>
+            
+                <li><a href="/2018/07/daily-bite-45">British cave diver considering legal action over Elon Musk's 'pedo' attack</a> &mdash; 16 Jul</li>
+            
+                <li><a href="/2018/07/daily-found">I tracked my iPhone usage for a week and this is what I learned</a> &mdash; 14 Jul</li>
+            
+                <li><a href="/2018/07/mailspring">Mailspring app review</a> &mdash; 13 Jul</li>
+            
+                <li><a href="/2018/07/perbandingan-reksadana-tokopedia-bukalapak">Mencoba Reksadana di Bukalapak dan Tokopedia</a> &mdash; 12 Jul</li>
+            
+                <li><a href="/2018/07/pengalaman-dengan-mtix">Pengalaman topup M-Tix melalui Tokopedia dan Jenius</a> &mdash; 11 Jul</li>
+            
+                <li><a href="/2018/07/daily-found">How Facebook’s Rise Fueled Chaos and Confusion in Myanmar</a> &mdash; 10 Jul</li>
+            
+                <li><a href="/2018/07/credit-card">Millions of Americans Make a Costly Mistake When Paying Credit Card Bills</a> &mdash; 04 Jul</li>
+            
+            </ul>
+        
+        <h3>2018 June</h3>
+            <ul>
+            
+                <li><a href="/2018/06/kebencian">Untuk apa semua kebencian itu?</a> &mdash; 05 Jun</li>
+            
+            </ul>
+        
+        <h3>2018 May</h3>
+            <ul>
+            
+                <li><a href="/2018/05/daily-found">Having Your Smartphone Nearby Takes a Toll on Your Thinking</a> &mdash; 09 May</li>
+            
+            </ul>
+        
+        <h3>2018 April</h3>
+            <ul>
+            
+                <li><a href="/2018/04/pajak-stnk">Mudah membayar pajak kendaraan (perpanjang STNK)</a> &mdash; 19 Apr</li>
+            
+            </ul>
+        
+        <h3>2018 March</h3>
+            <ul>
+            
+                <li><a href="/2018/03/facebook-and-privacy">Facebook collecting its users phone calls and sms</a> &mdash; 26 Mar</li>
+            
+                <li><a href="/2018/03/daily-found-3">Massive Crowds Gather To Watch Dragon Ball Super Together</a> &mdash; 20 Mar</li>
+            
+                <li><a href="/2018/03/scrum-retrospective">Scrum Retrospective</a> &mdash; 16 Mar</li>
+            
+                <li><a href="/2018/03/daily-bite-44">Daily Bite #44</a> &mdash; 15 Mar</li>
+            
+                <li><a href="/2018/03/daily-found-2">How iFixit Became the World's Best iPhone Teardown Team</a> &mdash; 13 Mar</li>
+            
+                <li><a href="/2018/03/dailybite-43">Daily Bite #43</a> &mdash; 12 Mar</li>
+            
+                <li><a href="/2018/03/daily-found-01">daily found</a> &mdash; 10 Mar</li>
+            
+                <li><a href="/2018/03/dailybite-42">Daily Bite #42</a> &mdash; 07 Mar</li>
+            
+                <li><a href="/2018/03/dailybite-41">Daily Bite #41</a> &mdash; 06 Mar</li>
+            
+                <li><a href="/2018/03/dailybite-40">Daily Bite #40</a> &mdash; 05 Mar</li>
+            
+                <li><a href="/2018/03/dailybite-39">Daily Bite #39</a> &mdash; 02 Mar</li>
+            
+                <li><a href="/2018/03/ui-redesign-jakartadev">Jakartadev.org redesign</a> &mdash; 01 Mar</li>
+            
+                <li><a href="/2018/03/dailybite-38">Daily Bite #38</a> &mdash; 01 Mar</li>
+            
+            </ul>
+        
+        <h3>2018 February</h3>
+            <ul>
+            
+                <li><a href="/2018/02/dailybite-37">Daily Bite #37</a> &mdash; 28 Feb</li>
+            
+                <li><a href="/2018/02/dailybite-36">Daily Bite #36</a> &mdash; 27 Feb</li>
+            
+                <li><a href="/2018/02/yowis-ben">Yowis Ben</a> &mdash; 21 Feb</li>
+            
+                <li><a href="/2018/02/that-domain-name">That domain names</a> &mdash; 16 Feb</li>
+            
+                <li><a href="/2018/02/dailybite-35">Daily Bite #35</a> &mdash; 12 Feb</li>
+            
+                <li><a href="/2018/02/dailybite-34">Daily Bite #34</a> &mdash; 08 Feb</li>
+            
+            </ul>
+        
+        <h3>2018 January</h3>
+            <ul>
+            
+                <li><a href="/2018/01/dailybite-33">Daily Bite #33</a> &mdash; 31 Jan</li>
+            
+                <li><a href="/2018/01/dailybite-32">Daily Bite #32</a> &mdash; 30 Jan</li>
+            
+                <li><a href="/2018/01/dailybite-31">Daily Bite #31</a> &mdash; 29 Jan</li>
+            
+                <li><a href="/2018/01/NGC281">NGC281 - The Pacman nebula</a> &mdash; 29 Jan</li>
+            
+                <li><a href="/2018/01/airasia-password">Airasia password rule is ridiculous</a> &mdash; 23 Jan</li>
+            
+                <li><a href="/2018/01/dailybite-30">Daily Bite #30</a> &mdash; 22 Jan</li>
+            
+                <li><a href="/2018/01/tldr">TLDR; a simplified and community-driven man pages</a> &mdash; 18 Jan</li>
+            
+                <li><a href="/2018/01/markdown-editor">Markdown Editor</a> &mdash; 16 Jan</li>
+            
+                <li><a href="/2018/01/dailybite-29">Daily Bite #29</a> &mdash; 12 Jan</li>
+            
+                <li><a href="/2018/01/please-stay">Please Stay</a> &mdash; 11 Jan</li>
+            
+                <li><a href="/2018/01/macos-appstore-bug">macOS High Sierra bug</a> &mdash; 11 Jan</li>
+            
+                <li><a href="/2018/01/dailybite-28">Daily Bite #28</a> &mdash; 11 Jan</li>
+            
+                <li><a href="/2018/01/must-have-addons">Must have addons for your browser</a> &mdash; 10 Jan</li>
+            
+                <li><a href="/2018/01/dailybite-27">Daily Bite #27</a> &mdash; 04 Jan</li>
+            
+                <li><a href="/2018/01/dailybite-26">Daily Bite #26</a> &mdash; 03 Jan</li>
+            
+                <li><a href="/2018/01/podcast">Podcast</a> &mdash; 02 Jan</li>
+            
+            </ul>
+        
+        <h3>2017 December</h3>
+            <ul>
+            
+                <li><a href="/2017/12/different-pixel">720p vs 1080p vs 1080i vs 4K</a> &mdash; 31 Dec</li>
+            
+                <li><a href="/2017/12/dailybite-25">Daily Bite #25</a> &mdash; 28 Dec</li>
+            
+                <li><a href="/2017/12/dailybite-24">Daily Bite #24</a> &mdash; 27 Dec</li>
+            
+                <li><a href="/2017/12/dailybite-23">Daily Bite #23</a> &mdash; 24 Dec</li>
+            
+                <li><a href="/2017/12/dailybite-22">Daily Bite #22</a> &mdash; 21 Dec</li>
+            
+                <li><a href="/2017/12/dailybite-21">Daily Bite #21</a> &mdash; 20 Dec</li>
+            
+                <li><a href="/2017/12/dailybite-20">Daily Bite #20</a> &mdash; 19 Dec</li>
+            
+                <li><a href="/2017/12/worst-macbookpro">Worst Macbook Pro Ever</a> &mdash; 18 Dec</li>
+            
+                <li><a href="/2017/12/dailybite-19">Daily Bite #19</a> &mdash; 15 Dec</li>
+            
+                <li><a href="/2017/12/dailybite-18">Daily Bite #18</a> &mdash; 13 Dec</li>
+            
+            </ul>
+        
+        <h3>2017 November</h3>
+            <ul>
+            
+                <li><a href="/2017/11/gunung-agung">Gunung Agung</a> &mdash; 29 Nov</li>
+            
+                <li><a href="/2017/11/dailybite-17">Daily Bite #17</a> &mdash; 24 Nov</li>
+            
+                <li><a href="/2017/11/MoMa">MoMA : Shipping and Receiving</a> &mdash; 24 Nov</li>
+            
+                <li><a href="/2017/11/dailybite-16">Daily Bite #16</a> &mdash; 22 Nov</li>
+            
+                <li><a href="/2017/11/dailybite-15">Daily Bite #15</a> &mdash; 21 Nov</li>
+            
+                <li><a href="/2017/11/dailybite-14">Daily Bite #14</a> &mdash; 20 Nov</li>
+            
+                <li><a href="/2017/11/dailybite-13">Daily Bite #13</a> &mdash; 18 Nov</li>
+            
+                <li><a href="/2017/11/dailybite-12">Daily Bite #12</a> &mdash; 17 Nov</li>
+            
+                <li><a href="/2017/11/2dailybite-11">Daily Bite #11</a> &mdash; 16 Nov</li>
+            
+                <li><a href="/2017/11/1mainframe-kid">Mainframe Kid</a> &mdash; 16 Nov</li>
+            
+                <li><a href="/2017/11/firefox-quantum">Firefox Quantum</a> &mdash; 15 Nov</li>
+            
+                <li><a href="/2017/11/dailybite10">Daily Bite #10</a> &mdash; 15 Nov</li>
+            
+                <li><a href="/2017/11/2dailybite-9">Daily Bite #9</a> &mdash; 14 Nov</li>
+            
+                <li><a href="/2017/11/1on-rss">About RSS</a> &mdash; 14 Nov</li>
+            
+                <li><a href="/2017/11/dailybite-8">Daily Bite #8</a> &mdash; 12 Nov</li>
+            
+                <li><a href="/2017/11/daily-bite-7">Daily Bite #7</a> &mdash; 07 Nov</li>
+            
+                <li><a href="/2017/11/02-daily-bite-6">Daily Bite #6</a> &mdash; 06 Nov</li>
+            
+                <li><a href="/2017/11/01-the-flash">The Flash</a> &mdash; 06 Nov</li>
+            
+                <li><a href="/2017/11/daily-bite-5">Daily Bite #5</a> &mdash; 05 Nov</li>
+            
+                <li><a href="/2017/11/daily-bite-4">Daily Bite #4</a> &mdash; 03 Nov</li>
+            
+                <li><a href="/2017/11/daily-bite-3">Daily Bite #3</a> &mdash; 02 Nov</li>
+            
+                <li><a href="/2017/11/daily-bite-2">Daily Bite #2</a> &mdash; 01 Nov</li>
+            
+            </ul>
+        
+        <h3>2017 October</h3>
+            <ul>
+            
+                <li><a href="/2017/10/daily-bite-1">Daily Bite #1</a> &mdash; 31 Oct</li>
+            
+            </ul>
+        
+        <h3>2017 September</h3>
+            <ul>
+            
+                <li><a href="/2017/09/high-sierra">High Sierra</a> &mdash; 30 Sep</li>
+            
+                <li><a href="/2017/09/acquired-taste">Acquired Taste</a> &mdash; 15 Sep</li>
+            
+            </ul>
+        
+        <h3>2017 July</h3>
+            <ul>
+            
+                <li><a href="/2017/07/mail-app">Sierra Mail App</a> &mdash; 26 Jul</li>
+            
+                <li><a href="/2017/07/customer-service-lego">LEGO&reg;: Customer service done right</a> &mdash; 12 Jul</li>
+            
+                <li><a href="/2017/07/usb-type-c">USB Type-C</a> &mdash; 06 Jul</li>
+            
+                <li><a href="/2017/07/links">How the iPhone Was Born: Inside Stories of Missteps and Triumphs</a> &mdash; 04 Jul</li>
+            
+            </ul>
+        
+        <h3>2017 June</h3>
+            <ul>
+            
+                <li><a href="/2017/06/hooverphonic">Hooverphonic</a> &mdash; 22 Jun</li>
+            
+                <li><a href="/2017/06/reading-list">A Sociology of the Smartphone</a> &mdash; 20 Jun</li>
+            
+                <li><a href="/2017/06/a-day-with-safari">A day with Safari</a> &mdash; 13 Jun</li>
+            
+            </ul>
+        
+        <h3>2017 May</h3>
+            <ul>
+            
+                <li><a href="/2017/05/jvm-jenius-reactive-system">Jenius x JVMUG - Reactive System</a> &mdash; 17 May</li>
+            
+                <li><a href="/2017/05/hero-not-deserved">Take a moment</a> &mdash; 09 May</li>
+            
+                <li><a href="/2017/05/jvm-meetup">Jenius x JVM User Group meetup</a> &mdash; 04 May</li>
+            
+            </ul>
+        
+        <h3>2017 March</h3>
+            <ul>
+            
+                <li><a href="/2017/03/an-ode-wujudkan">Ode For Wujudkan.com</a> &mdash; 17 Mar</li>
+            
+            </ul>
+        
+        <h3>2017 February</h3>
+            <ul>
+            
+                <li><a href="/2017/02/eat-your-own-dogfood">eat your own dogfood</a> &mdash; 03 Feb</li>
+            
+            </ul>
+        
+        <h3>2016 November</h3>
+            <ul>
+            
+                <li><a href="/2016/11/life-at-jenius">Life at Jenius</a> &mdash; 25 Nov</li>
+            
+            </ul>
+        
+        <h3>2016 August</h3>
+            <ul>
+            
+                <li><a href="/2016/08/laravel-file-extension">Extensi file Virtual di Laravel</a> &mdash; 24 Aug</li>
+            
+                <li><a href="/2016/08/cmus">CMUS</a> &mdash; 09 Aug</li>
+            
+                <li><a href="/2016/08/on-gojek-term-of-use">Go-Jek Privacy Policy</a> &mdash; 02 Aug</li>
+            
+            </ul>
+        
+        <h3>2016 May</h3>
+            <ul>
+            
+                <li><a href="/2016/05/firefox-testpilot">Firefox Testpilot</a> &mdash; 11 May</li>
+            
+                <li><a href="/2016/05/eyd">EYD</a> &mdash; 03 May</li>
+            
+            </ul>
+        
+        <h3>2016 March</h3>
+            <ul>
+            
+                <li><a href="/2016/03/watching-the-watcher">Watching The Watcher</a> &mdash; 24 Mar</li>
+            
+                <li><a href="/2016/03/custom-brew">milk+coffee</a> &mdash; 18 Mar</li>
+            
+                <li><a href="/2016/03/tinypress">Tinypress</a> &mdash; 03 Mar</li>
+            
+            </ul>
+        
+        <h3>2016 February</h3>
+            <ul>
+            
+                <li><a href="/2016/02/jakartajs">JakartaJS Meetup</a> &mdash; 23 Feb</li>
+            
+                <li><a href="/2016/02/chapter">pakeapa and jakartadev</a> &mdash; 22 Feb</li>
+            
+            </ul>
+        
+        <h3>2015 August</h3>
+            <ul>
+            
+                <li><a href="/2015/08/setapak-sriwedari">Setapak Sriwedari</a> &mdash; 04 Aug</li>
+            
+            </ul>
+        
+        <h3>2015 June</h3>
+            <ul>
+            
+                <li><a href="/2015/06/hurt">it is hurt</a> &mdash; 12 Jun</li>
+            
+            </ul>
+        
+        <h3>2015 April</h3>
+            <ul>
+            
+                <li><a href="/2015/04/coffee-reading">Few coffee reading material</a> &mdash; 20 Apr</li>
+            
+            </ul>
+        
+        <h3>2015 March</h3>
+            <ul>
+            
+                <li><a href="/2015/03/trust">repeat ad infinitum</a> &mdash; 05 Mar</li>
+            
+            </ul>
+        
+        <h3>2015 February</h3>
+            <ul>
+            
+                <li><a href="/2015/02/couldnt-do-it">couldn't do it</a> &mdash; 27 Feb</li>
+            
+                <li><a href="/2015/02/interstellar">Interstellar</a> &mdash; 25 Feb</li>
+            
+                <li><a href="/2015/02/i-should-do-this">I Should Do This</a> &mdash; 20 Feb</li>
+            
+                <li><a href="/2015/02/here-with-me">Here with me</a> &mdash; 15 Feb</li>
+            
+                <li><a href="/2015/02/mia">M.I.A</a> &mdash; 06 Feb</li>
+            
+                <li><a href="/2015/02/Quit">⌘q</a> &mdash; 02 Feb</li>
+            
+            </ul>
+        
+        <h3>2015 January</h3>
+            <ul>
+            
+                <li><a href="/2015/01/we-found-love">That bad stuff</a> &mdash; 26 Jan</li>
+            
+                <li><a href="/2015/01/bekerja">bekerja</a> &mdash; 23 Jan</li>
+            
+            </ul>
+        
+        <h3>2014 December</h3>
+            <ul>
+            
+                <li><a href="/2014/12/boys-dont-cry">Boys Don't Cry</a> &mdash; 09 Dec</li>
+            
+                <li><a href="/2014/12/tmux-configuration">TMUX</a> &mdash; 03 Dec</li>
+            
+            </ul>
+        
+        <h3>2014 November</h3>
+            <ul>
+            
+                <li><a href="/2014/11/my-momma-said">A Man and his problems</a> &mdash; 24 Nov</li>
+            
+            </ul>
+        
+        <h3>2014 October</h3>
+            <ul>
+            
+                <li><a href="/2014/10/minimum-viable-infrastructure">Minimum Viable Infrastructure</a> &mdash; 20 Oct</li>
+            
+                <li><a href="/2014/10/programmer-flowchart">Programmer Flowchart</a> &mdash; 10 Oct</li>
+            
+                <li><a href="/2014/10/milkyway">Milky way</a> &mdash; 01 Oct</li>
+            
+                <li><a href="/2014/10/dcinnamons">D'Cinnamons</a> &mdash; 01 Oct</li>
+            
+            </ul>
+        
+        <h3>2014 September</h3>
+            <ul>
+            
+                <li><a href="/2014/09/git-whatchanged">What Changed?</a> &mdash; 27 Sep</li>
+            
+                <li><a href="/2014/09/yourself">Be yourself</a> &mdash; 18 Sep</li>
+            
+                <li><a href="/2014/09/di-kereta">Di kereta</a> &mdash; 08 Sep</li>
+            
+            </ul>
+        
+        <h3>2014 July</h3>
+            <ul>
+            
+                <li><a href="/2014/07/crack-your-code">Crack your code</a> &mdash; 01 Jul</li>
+            
+            </ul>
+        
+        <h3>2014 April</h3>
+            <ul>
+            
+                <li><a href="/2014/04/penamaan-url-lebih-baik">Penamaan URL yang lebih baik</a> &mdash; 17 Apr</li>
+            
+            </ul>
+        
+        <h3>2013 December</h3>
+            <ul>
+            
+                <li><a href="/2013/12/the-right-thing">The Right Thing</a> &mdash; 21 Dec</li>
+            
+            </ul>
+        
+        <h3>2013 November</h3>
+            <ul>
+            
+                <li><a href="/2013/11/kano">Kano</a> &mdash; 22 Nov</li>
+            
+                <li><a href="/2013/11/dent-in-universe">you are a dent in the universe</a> &mdash; 17 Nov</li>
+            
+                <li><a href="/2013/11/share-your-dream">Share your dream</a> &mdash; 14 Nov</li>
+            
+                <li><a href="/2013/11/music-pick-spanish-prisoners">Music pick - Spanish Prisoners</a> &mdash; 08 Nov</li>
+            
+                <li><a href="/2013/11/the-holstee">The holstee manifesto</a> &mdash; 01 Nov</li>
+            
+            </ul>
+        
+        <h3>2013 October</h3>
+            <ul>
+            
+                <li><a href="/2013/10/how-coffee-transformed-life">How coffee transformed someone's life</a> &mdash; 31 Oct</li>
+            
+                <li><a href="/2013/10/quote-one">Violent</a> &mdash; 30 Oct</li>
+            
+                <li><a href="/2013/10/perfect-day">Perfect Day</a> &mdash; 30 Oct</li>
+            
+                <li><a href="/2013/10/farewell">Music pick - Asobi Seksu</a> &mdash; 30 Oct</li>
+            
+                <li><a href="/2013/10/disconnected">Disconnected</a> &mdash; 19 Oct</li>
+            
+            </ul>
+        
+        <h3>2013 September</h3>
+            <ul>
+            
+                <li><a href="/2013/09/how-you-enjoy-your-coffee">How you enjoy your coffee?</a> &mdash; 30 Sep</li>
+            
+                <li><a href="/2013/09/something-in-the-air">Something in the air</a> &mdash; 19 Sep</li>
+            
+            </ul>
+        
+        <h3>2013 August</h3>
+            <ul>
+            
+                <li><a href="/2013/08/pink-floyd-wish-you-were-here">Wish You Were Here</a> &mdash; 30 Aug</li>
+            
+                <li><a href="/2013/08/reading-list">Current reading list</a> &mdash; 14 Aug</li>
+            
+                <li><a href="/2013/08/most-astounding-fact">The Most Astounding Fact</a> &mdash; 02 Aug</li>
+            
+            </ul>
+        
+        <h3>2013 July</h3>
+            <ul>
+            
+                <li><a href="/2013/07/spoofing-mac-address">Spoofing mac address</a> &mdash; 02 Jul</li>
+            
+            </ul>
+        
+        <h3>2013 June</h3>
+            <ul>
+            
+                <li><a href="/2013/06/ten-cli-command">My ten most frequent Command line</a> &mdash; 29 Jun</li>
+            
+                <li><a href="/2013/06/hate-svn">I hate SVN</a> &mdash; 21 Jun</li>
+            
+                <li><a href="/2013/06/tmux-copy-paste">Tmux copy paste with mouse on MacOSX</a> &mdash; 19 Jun</li>
+            
+                <li><a href="/2013/06/selvedge-sleeves">Want! Selvedge Sleeves</a> &mdash; 15 Jun</li>
+            
+                <li><a href="/2013/06/galactic-center">Time-lapse of the Galactic Center</a> &mdash; 15 Jun</li>
+            
+                <li><a href="/2013/06/st-fullpath">Full path info on title</a> &mdash; 14 Jun</li>
+            
+                <li><a href="/2013/06/google-reader-alt">Another Google reader alternative</a> &mdash; 14 Jun</li>
+            
+                <li><a href="/2013/06/reading-list">Reading List</a> &mdash; 13 Jun</li>
+            
+                <li><a href="/2013/06/eye-tracking-study">Eye tracking study on CamelCase and under_score style</a> &mdash; 13 Jun</li>
+            
+                <li><a href="/2013/06/mixtape-breathe">Mixtape Breathe</a> &mdash; 12 Jun</li>
+            
+                <li><a href="/2013/06/common-startup-mistake">16 common mistake young startup make</a> &mdash; 12 Jun</li>
+            
+                <li><a href="/2013/06/server-name">Server Name</a> &mdash; 11 Jun</li>
+            
+                <li><a href="/2013/06/my-dream-backup-scheme">My dream backup scheme</a> &mdash; 11 Jun</li>
+            
+                <li><a href="/2013/06/postman">Postman</a> &mdash; 08 Jun</li>
+            
+                <li><a href="/2013/06/runnnn">Run</a> &mdash; 07 Jun</li>
+            
+                <li><a href="/2013/06/infrastructure-as-code">Infrastructure as code</a> &mdash; 07 Jun</li>
+            
+                <li><a href="/2013/06/wwdc-11-years-banner">Every WWDC Banner Ever For The Last 11 Years</a> &mdash; 06 Jun</li>
+            
+                <li><a href="/2013/06/mixtape-apart">Mixtape apart</a> &mdash; 06 Jun</li>
+            
+                <li><a href="/2013/06/oneline-laravel">Installing Laravel 4, oneliner</a> &mdash; 05 Jun</li>
+            
+                <li><a href="/2013/06/new-office">New office</a> &mdash; 05 Jun</li>
+            
+                <li><a href="/2013/06/blasphemy">This is blasphemy, this is ...</a> &mdash; 05 Jun</li>
+            
+                <li><a href="/2013/06/big-text">Markdown with custom css class test</a> &mdash; 05 Jun</li>
+            
+                <li><a href="/2013/06/mixtape-one">Mixtape Trip-ish</a> &mdash; 04 Jun</li>
+            
+                <li><a href="/2013/06/stevejobs-negotiate">How to negotiate, Steve Job's style.</a> &mdash; 03 Jun</li>
+            
+            </ul>
+        
+        <h3>2013 May</h3>
+            <ul>
+            
+                <li><a href="/2013/05/something-you-know">Something you know</a> &mdash; 01 May</li>
+            
+            </ul>
+        
+        <h3>2013 March</h3>
+            <ul>
+            
+                <li><a href="/2013/03/google-reader">Google Reader</a> &mdash; 21 Mar</li>
+            
+                <li><a href="/2013/03/grown-ups">Grown up</a> &mdash; 20 Mar</li>
+            
+                <li><a href="/2013/03/hispterize-commit">Hipsterized commit</a> &mdash; 06 Mar</li>
+            
+            </ul>
+        
+        <h3>2013 February</h3>
+            <ul>
+            
+                <li><a href="/2013/02/stop-procrastination">How to stop procrastination</a> &mdash; 28 Feb</li>
+            
+                <li><a href="/2013/02/git-commit-and-mood">Git commit and mood</a> &mdash; 27 Feb</li>
+            
+                <li><a href="/2013/02/git-commit">It means we are productive</a> &mdash; 26 Feb</li>
+            
+                <li><a href="/2013/02/mou-scriptogram">Mou &#9829; scriptogr.am</a> &mdash; 11 Feb</li>
+            
+                <li><a href="/2013/02/three-charts">The Charts that you need</a> &mdash; 07 Feb</li>
+            
+                <li><a href="/2013/02/vagrant-everyday">Vagrantfile for everyday use</a> &mdash; 06 Feb</li>
+            
+                <li><a href="/2013/02/been-a-while">It's been a while</a> &mdash; 06 Feb</li>
+            
+            </ul>
+        
+        <h3>2012 February</h3>
+            <ul>
+            
+                <li><a href="/2012/02/what-a-day">What a day</a> &mdash; 22 Feb</li>
+            
+                <li><a href="/2012/02/modernizr-vs-ie">Modernizr vs IE</a> &mdash; 20 Feb</li>
+            
+            </ul>
+        
+        <h3>2012 January</h3>
+            <ul>
+            
+                <li><a href="/2012/01/codeigniter-cache">Codeigniter Cache Tips</a> &mdash; 16 Jan</li>
+            
+                <li><a href="/2012/01/playing-with-twitter-bootstrap">Playing with Twitter Bootstrap</a> &mdash; 12 Jan</li>
+            
+                <li><a href="/2012/01/not-to-great">Not To great</a> &mdash; 09 Jan</li>
+            
+            </ul>
+        
+        <h3>2011 January</h3>
+            <ul>
+            
+                <li><a href="/2011/01/if-i-were-facebook">If i were Facebook</a> &mdash; 18 Jan</li>
+            
+            </ul>
+        
+      </article>
+    </div>
+  </div>
+
+</div>
+
+    
+<footer class='c-footer'>
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--full'>
+      
+          <div class='elsewhere' >
+            <hr>
+            <h4>Elsewhere</h4>
+            <ul class="list-inline meta">
+              <li><a href="https://twitter.com/dedenf"><span class='c-social-nav__icon' data-icon='ei-sc-twitter' data-size='s'></span></a></li>
+              <li><a href="https://github.com/dedenf"><span class='c-social-nav__icon' data-icon='ei-sc-github' data-size='s'></span></a></li>
+              <li><a href="https://instagram.com/dedenf"><span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span></a></li>
+              <li><a href="mailto:dedenf@gmail.com"><span class='c-social-nav__icon' data-icon='ei-envelope' data-size='s'></span></a></li>
+              <li><a href="https://seputarfinansial.com/">Seputar Finansial</a></li>
+              <li><a href="https://jakartadev.com/">JakartaDEV</a></li>
+              <li><a href="/feed">RSS</a></li>
+              <li><a href="https://dedenf.substack.com/subscribe?simple=true&next=https%3A%2F%2Fdedenf.substack.com%2F">Newsletter</a></li>
+              
+          </ul>
+          </div>
+          <div class="text-left meta">
+            &copy; notes.dedenf.com 2011 &mdash; 2020 <br>
+            Deden Fathurahman, <a href="/colophon">Colophon</a>. <br>
+            <ul class="list-inline">
+                <li><a href="https://notes.dedenf.com/tags/#daily-found">Reading</a></li>
+                <li><a href="https://notes.dedenf.com/">Writing</a></li>
+                <li><a href="/archives">Archives</a></li>
+                <li><a href="/my-reading">Reading</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+          </div>
+
+    </div>
+  </div>
+</footer>
+  </div>
+
+  <script src="/js/jquery-3.1.1.min.js"> </script>
+  <script src="/js/evil-icons.min.js">   </script>
+  <script src="/js/jquery.fitvids.js">   </script>
+  <script src="/js/app.js">              </script>
+</body>
+
+</html>

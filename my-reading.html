@@ -4,14 +4,13 @@ title: "Reading"
 permalink: "/my-reading"
 ---
 
-<h1 class="center">Reading</h1>
 <hr class="half-width">
 {% for post in site.posts %}
   {% if post.type == "link" %}
   <article class=''>
     {% if post.link %}
       <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }} &mdash; <a href='{{ post.url }}'>link to the post</a></time>
-      <h1 class='h3 mb0'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h1>
+      <h2 class='c-post__title'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h2>
     {% else %}
       <div class='mb2'>
         <h1 class='m0'><a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a></h1>

@@ -1,70 +1,57 @@
 <head>
-  <meta charset="UTF-8">
-  <link href="https://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  {% if page.title == "Home" %}
-  <meta name='description' content="{{ site.description }}" />
-  {% else %}
-  <meta name='description' content="{{ page.title }} {{ page.content | strip_html| truncatewords:50 | split:'<!--break-->' | first }}" />
-  {% endif %}
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <title>
+    {% if page.url != '/' %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% else %}
+      {{ site.title }}
+    {% endif %}
+
+  </title>
+  <meta name='description' content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#f4f5f6">
   <meta name="apple-mobile-web-app-status-bar-style" content="#f4f5f6">
   <meta name="apple-mobile-web-app-capable" content="yes">
 
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <link rel='canonical' href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel='alternate' type='application/rss+xml' title='{{ site.title }}' href="{{ '/feed' | prepend: site.baseurl | prepend: site.url }}">
 
-  <title>
-    {% if page.title and page.title != 'Home' %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% else %}
-      {{ site.title }}
-    {% endif %}
-  </title>
-
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/style.css" media="all">
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}/atom.xml">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" media="all">
-
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="/public/favicon.png"/>
-
-  <link rel="canonical" href="{{ site.url }}">
-
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/sites/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/images/sites/favicon.png"/>
   {% if page.image.feature %}
   <link rel="image_src" href="{{ site.baseurl }}{{ page.image.feature }}">
   {% else %}
-  <link rel="image_src" href="/public/deden.png">
+  <link rel="image_src" href="/images/sites/deden.png">
   {% endif %}
 
   <!-- Sharing -->
-  {% if page.title == "Home" %}
+  {% if page.url == "/" %}
   <meta property="og:title" content="{{ site.title }}" />
   {% else %}
-  <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:description" content="{{ page.content | strip_html| truncatewords:50 | split:'<!--break-->' | first }}" />
   {% endif %}
-	<meta property="og:site_name" content="{{ site.title }} | {{ site.tagline }}"/>
+	<meta property="og:site_name" content="{{ site.title }} | {{ site.description }}"/>
 	<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
    {% if page.content contains '<!--break-->' %}
   <meta property="og:description" content="{{ page.content | strip_html| truncatewords:50 | split:'<!--break-->' | first }}" />
    {% endif %}
 	<meta property="og:type" content="website" />
-  {% if page.title == "Home" %}
-	<meta property="og:image" content="{{ site.baseurl }}/public/deden.png" />
+  {% if page.url == "/" %}
+	<meta property="og:image" content="{{ site.baseurl }}/images/sites/deden.png" />
   {% else %}
   <meta property="og:image" content="{{ site.baseurl }}{{ page.image.teaser }}" />
   {% endif %}
   
-  {% if page.title != "" %}
+  {% if page.url != "/" %}
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@dedenf">
   <meta name="twitter:title" content="{{ page.title }}">
-  {% if page.title == "Home" %}
+  {% if page.url == "/" %}
   <meta name="twitter:description" content="{{ site.description }}">
   {% else %}
   <meta name="twitter:description" content="{{ page.content | strip_html| truncatewords:50 | split:'<!--break-->' | first }}">
@@ -77,16 +64,17 @@
   
   {% endif %}
 
-
+  {% if page.url == "/" %}
+  <meta itemprop="name" content="{{ site.site_short }}" />
+	<meta itemprop="headline" content="{{ site.title }}" />
+	<meta itemprop="author" content="Deden Fathurahman" />
+  <meta itemprop="description" content="{{ site.description }}">
+  {% else %}
   <meta itemprop="name" content="{{ page.title }}" />
 	<meta itemprop="headline" content="{{ page.title }}" />
 	<meta itemprop="author" content="Deden Fathurahman" />
-  {% if page.title == "Home" %}
-  <meta itemprop="description" content="{{ site.description }}">
-  {% else %}
   <meta itemprop="description" content="{{ page.content | strip_html| truncatewords:50 | split:'<!--break-->' | first }}" />
   {% endif %}
-
 	
 	<link itemprop="url" href="{{ site.url }}{{ page.url }}" />
 
@@ -94,12 +82,17 @@
   <link href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css" rel="stylesheet">
   {% endif %}
 
+
+
+  {% include fonts.html %}
+  <style>
+    {% capture inlineCSS %}
+      {% include app.scss %}
+    {% endcapture %}
+
+    {{ inlineCSS | scssify }}
+  </style>
+
   {% include google_analytics.html %}
 
-  <!-- <script>
-    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
-    analytics.load("EPr4PHwCZ3odvj0jOEsbJFozLmStBRVn");
-    analytics.page();
-    }}();
-  </script> -->
 </head>
