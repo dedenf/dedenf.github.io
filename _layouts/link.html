@@ -11,15 +11,9 @@ layout: default
   <div class='o-grid'>
     <div class='o-grid__col'>
       <article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>
-
-
+        
         <p><a href='{{ site.baseurl }}/'>&larr; back to home</a></p>
-
-
-        <h2 class='h3 mb0'><a href='{{ page.link }}'>{{ page.title }} &rarr;</a></h2>
-            <!-- <a href="{{site.author.url}}">{{ site.author.name }}</a> &mdash; <br> -->
-            <!-- <time class='grayish'>Posted on {{ page.date | date: '%B %-d, %Y' }}</time> &mdash; 
-            <span class="grayish"><i class="far fa-clock"></i> {% include read-time.html %}</span> -->
+        <h1 class='c-post__title'><a href='{{ page.link }}'>{{ page.title }} &rarr;</a></h1>
         <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }} &mdash; <i class="far fa-clock"></i> {% include read-time.html %}</time>
 
         {{ content }}

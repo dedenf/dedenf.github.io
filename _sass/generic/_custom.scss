@@ -31,14 +31,17 @@ footer .meta {
 
 h1.c-post__title, .c-post-card__title {
     font-family: 'Enriqueta', 'Bitter', serif;
-    font-weight: normal;
-    line-height: 1.65em;
-    font-size: 2em;
+    font-weight: bold;
+    line-height: 1em;
+    font-size: 3em;
+    text-align: center;
 }
 
 article a, .c-post-card__excerpt a {
     color: $article_link;
+
 }
 
+.c-post-card__excerpt {margin-bottom: 2em; border-bottom: 1px solid #e9e9e9;}
 
 .credit_image {font-size: .8em;}

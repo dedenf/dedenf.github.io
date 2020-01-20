@@ -7,11 +7,11 @@ layout: default
     {% for post in paginator.posts %}
 
     <div class='o-grid__col'>
-
+      
       <a href='{{ post.url | prepend: site.baseurl }}' class='c-post-card {% if forloop.first == true %} c-post-card--first {% endif %} {% if forloop.last == true %} c-post-card--last {% endif %}'>
         <h1 class='c-post__title'>{{ post.title }}</h1></a>
+        <span class='c-post-card__date'>{{ post.date | date: '%d %b %Y' }} &mdash; {% include read-time.html %} &mdash; {{ site.author.name}}</span>  
         
-        <span class='c-post-card__date'>{{ post.date | date: '%d %b %Y' }} &mdash; {% include read-time.html %} &mdash; {{ site.author.name}}</span>
 
         {% if post.image.teaser %}
           <img src="{{ post.image.teaser }}" class='c-post__image' alt='{{ post.title }}'>

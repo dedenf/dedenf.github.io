@@ -29,7 +29,8 @@
   }
 
   &__excerpt {
-    margin-bottom: half($font-size-base);
+    // margin-bottom: half($font-size-base);
+    margin-bottom: 3em;
   }
 
   &__date {
@@ -40,6 +41,7 @@
     font-weight: $font-weight-bold;
     line-height: $line-height-small;
     text-transform: capitalize;
+    text-align: center;
   }
 
   &:hover {
