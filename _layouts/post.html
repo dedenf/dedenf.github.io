@@ -35,6 +35,9 @@ layout: default
 
         <hr>
 
+        {% if page.comments == true %}
+        {% include disqus.html %}
+        {% endif %}
         
 
       </article>
