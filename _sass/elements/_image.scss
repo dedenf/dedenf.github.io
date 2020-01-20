@@ -4,7 +4,17 @@
 
 
 @media (min-width:1200px){
-  .author__avatar{display:table-cell;vertical-align:top;width:36px;height:36px;margin-left:0;margin-right:10px;text-align:left;float: left;display: flex;}
+  .author__avatar{
+    display:table-cell;
+    vertical-align:top;
+    width:36px;height:36px;
+    margin-left:0;
+    margin-right:100px;
+    margin-bottom:100px;
+    text-align:left;
+    float: left;
+    display: flex;
+  }
   .author__avatar img{max-width:110px;border-radius:50%}
 
 
