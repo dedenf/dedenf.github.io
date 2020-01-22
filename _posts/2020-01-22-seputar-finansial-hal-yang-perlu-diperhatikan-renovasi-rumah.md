@@ -24,4 +24,4 @@ Sebelum melakukan renovasi ini, sangat penting tentunya perencanaan matang, mau 
 
 Perencanaan ini berkaitan dengan budget yang akan dikeluarkan, setidaknya memiliki angka kira-kira yang nantinya kita alokasikan, meski sangat mungkin anggaran itu membengkak (sangat jarang kasus menjadi lebih murah), tapi setidaknya ada angka kisaran yang bisa dipakai.
 
-[seputarfinansial](https://seputarfinansial.com/hal-yang-perlu-diperhatikan-dalam-renovasi-rumah/)
+[Selengkapnya Seputarfinansial](https://seputarfinansial.com/hal-yang-perlu-diperhatikan-dalam-renovasi-rumah/)
