@@ -2,7 +2,7 @@
 layout: link
 type: link
 link: https://seputarfinansial.com/investasi-jangka-pendek-apa-saja/
-title: "Investasi jangka pendek, dengan apa?s"
+title: "Investasi jangka pendek, dengan apa?"
 category: links
 tags: 
     - life
