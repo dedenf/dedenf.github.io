@@ -1229,6 +1229,10 @@
 <lastmod>2020-01-29T00:00:00+07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2020/01/pengalaman-kontribusi-kubernetes</loc>
+<lastmod>2020-01-30T00:00:00+07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
@@ -2016,6 +2020,12 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag/selfhelp/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/kubernetes/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/opensource/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/page/2/</loc>

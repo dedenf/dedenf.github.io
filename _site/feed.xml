@@ -7,6 +7,24 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Pengalaman kontribusi di Kubernetes</title>
+        <description>&lt;p&gt;&lt;a href=&quot;/images/posts/kubernetes-commit.jpg&quot;&gt;&lt;img src=&quot;/images/posts/kubernetes-commit.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kubernetes/community/pull/4176&quot;&gt;Pengalaman pertama&lt;/a&gt; dalam kontribusi ke dalam project opensource yang besar seperti Kubernetes, memang ini hanya mengubah beberapa kata dalam dokumentasinya, tapi perasaannya bisa dibilang luar biasa, bisa menjadi bagian, atau menyumbangkan apa yang bisa disumbangkan, tidak hanya kode, intinya proyek opensource adalah semacam gotong royong.&lt;/p&gt;
+
+&lt;p&gt;Saya sendiri menggunakan Kubernetes untuk sebatas developement, ngulik apa saja yang bisa dilakukan.&lt;/p&gt;
+
+&lt;p&gt;Untuk kontribusi di proyek ini memang memiliki tahapan-tahapan yang dibutuhkan untuk membuktikan kita adalah nyata, manusia yang hendak berkontribusi, seperti memiliki digital signature di &lt;a href=&quot;https://identity.linuxfoundation.org/projects/cncf&quot;&gt;CNCF&lt;/a&gt; Linux Foundation untuk menandatangani &lt;em&gt;agreement&lt;/em&gt;, untuk lebih lengkapnya silakan lihat &lt;a href=&quot;https://github.com/kubernetes/community/tree/master/contributors/guide&quot;&gt;&lt;em&gt;guide&lt;/em&gt; ini&lt;/a&gt; atau &lt;a href=&quot;https://github.com/kubernetes/community/blob/master/contributors/guide/contributor-cheatsheet/README-id.md&quot;&gt;ini&lt;/a&gt; (dibuat bersama-sama kontributor Indonesia lain).&lt;/p&gt;
+
+&lt;p&gt;Proses dari commit dan kemudian membuat Pull Request (PR) ke upstream cukup cepat, selain ada bot, ada juga PR master yang akan melihat PR tersebut dan jika lolos maka akan di commit ke branch master.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 30 Jan 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/01/pengalaman-kontribusi-kubernetes</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/pengalaman-kontribusi-kubernetes</guid>
+      </item>
+    
+      <item>
         <title>How to explain anything to anyone: 4 steps to clearer communication</title>
         <description>&lt;p&gt;Bagaimana melakukan komunikasi yang efektif, terkadang kita agak kesusahan dalam menyampaikan apa yang ada dalam pikiran kita, bagaimana mengartikulasikan pikiran ke dalam bentuk ucapan, jadinya malah tidak jelas.&lt;/p&gt;
 
@@ -211,24 +229,6 @@ Dengan waktu yang pendek, tapi ingin mendapatkan apa apresiasi dari uang yang di
         <pubDate>Fri, 03 Jan 2020 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2020/01/pertama-2020</link>
         <guid isPermaLink="true">http://localhost:4000/2020/01/pertama-2020</guid>
-      </item>
-    
-      <item>
-        <title>Let's talk about coffee</title>
-        <description>&lt;p&gt;I love coffee, no doubt, been drinking coffee since 4th grade, making it with lots of way, collected few coffee gadget along these years, tools for brewing, manual, semi manual (or semi automatic?), old fashioned way, tasting different kind of coffee, from different region, locally and internationally.&lt;/p&gt;
-
-&lt;p&gt;I even bought a domain name specific for my love of coffee, &lt;a href=&quot;https://epicoffee.com/&quot;&gt;epicoffee.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;But it lately, it took a toll on me, i felt like more anxious, sometimes nervous, and sometimes i woke up in the middle of the night these last few weeks.
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;Reading these &lt;a href=&quot;https://www.psychologytoday.com/us/blog/progress-not-perfection/201106/i-quit-coffee-cure-my-anxiety&quot;&gt;article&lt;/a&gt;, &lt;a href=&quot;https://www.deathwishcoffee.com/blogs/news/caffeine-and-anxiety&quot;&gt;talks about the effect&lt;/a&gt; &lt;a href=&quot;https://www.sbs.com.au/food/article/2019/03/14/why-does-coffee-make-me-anxious-while-others-can-drink-it-bed&quot;&gt;of caffeine in your&lt;/a&gt; blood, and eventually to your brain , the caffeine could cause jitter, anxiety, nerveousness, and some cases stress (hey! sounds familiar).&lt;/p&gt;
-
-&lt;p&gt;Accidentally, i’m not drinking coffee since monday, and i don’t know, just felt more clear, having less anxiety, will continue to reduce my caffeine intake, hopefully for the better.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 04 Dec 2019 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/2019/12/coffee-anxiety-nervous-stress-related</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/12/coffee-anxiety-nervous-stress-related</guid>
       </item>
     
   </channel>
