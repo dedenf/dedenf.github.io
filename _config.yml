@@ -1,22 +1,15 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title:       HyperText Thrones
 email:       'dedenf@gmail.com'
-description: 'HyperText Thrones, Daily muse, putting my tought, reaction, comments, and things that i need to write. About tech, financial, life.'
-baseurl:     '' # The subpath of your site, e.g. /blog
-url:         'https://notes.dedenf.com/' # The base hostname & protocol for your site
+description: "Daily muse, putting my tought, reaction, comments, and things that i need to write. About tech, financial, life."
+site_subtitle: 'Blogging about tech, life, finance, or anything in between'
+baseurl:     ""
+url:         "https://notes.dedenf.com"
 site_short:  'notes.dedenf.com'
-twitter:     'https://twitter.com/dedenf'
-github:      'https://github.com/dedenf'
-instagram:   'https://instagram.com/dedenf'
-facebook:    ''
-site_subtitle: 'Blogging about tech, life, finance, or anything in between.'
+date_format: "%b %-d, %Y"
+header_pages:
+ - about.md
+ - contact.html
 
 author:
   name:           'Deden Fathurahman'
@@ -25,37 +18,34 @@ author:
   email:          dedenf@gmail.com
   twitter:        "@dedenf"
   instagram:      "@dedenf"
-
-
-markdown:  kramdown
-permalink: /:year/:month/:title
-paginate:  5
-
-
-paginate_path: "page/:num"
-excerpt_separator: "<!--more-->"
+  github:         "dedenf"
 
 
 sass:
   style: compressed
-  sass_dir: _sass
 
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
   - jekyll/tagging
+# https://github.com/jekyll/jekyll/issues/2938
 
 include:
   - _pages
 
 exclude:
-  - vendor
   - Gemfile
   - Gemfile.lock
+  - Rakefile
+  - README.md
+  - screenshot.png
+  - vendor
 
 # Tags
 tag_page_dir:         tag
 tag_page_layout:      tag_page
 tag_permalink_style:  pretty
+
 
 # Pages path
 defaults:
@@ -63,3 +53,114 @@ defaults:
       path: '_pages'
     values:
       permalink: /:basename:output_ext
+
+
+# Google services
+google_verification:
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
+google_analytics: UA-38299976-3
+google_tag_manager:
+# Bing services
+bing_verification:
+
+# Optional features
+animated:             false
+show_related_posts:   false
+show_post_footers:    false
+show_social_icons:    false
+ajaxify_contact_form: false
+enable_mathjax: true
+extended_fonts: true
+enable_anchorjs: false
+# Preview image for social media aka og:image and twitter:image
+post_preview_image: false
+
+# Facebook Page integration
+# (for instant articles and other stuff)
+fb_page: false
+fb_page_id:
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: dedenf-notes
+
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments:
+facebook_appid:
+facebook_comments_number: 10
+
+# Social icons
+github_username: dedenf
+reddit_username:
+bitbucket_username: dedenf
+stackoverflow_id:
+twitter_username: dedenf
+skype_username:
+steam_nickname:
+google_plus_id:
+linkedin_username: dedenf
+angellist_username:
+medium_id: dedenf
+bitcoin_url:
+paypal_url:
+flattr_button:
+telegram_username:
+vk_id:
+
+# Post sharing icons
+show_sharing_icons: false
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: true
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  share_buttons:
+    text:         'Share this post!'
+    facebook:     'Share on Facebook'
+    twitter:      'Share on Twitter'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+    digg:         'Share on Digg'
+    tumblr:       'Share on Tumblr'
+    reddit:       'Share on Reddit'
+    stumbleupon:  'Share on StumbleUpon'
+    hackernews:   'Share on Hacker News'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+  index:
+    coming_soon: 'Coming soon...'
+  contact:
+    email:    'Email Address'
+    content:  'What would you like to say?'
+    subject:  'New submission!'
+    submit:   'Say Hello'
+    ajax:
+      sending:  'sending..'
+      sent:     'Message sent!'
+      error:    'Error!'
+  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  og_locale: 'en_US'
+
+# Build settings
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+markdown:  kramdown
+permalink: /:year/:month/:title
+paginate:  5
+paginate_path: "page/:num"
+excerpt_separator: "<!--more-->"
+

@@ -1,50 +1,59 @@
 ---
 layout: default
 ---
+{% assign posts_count = paginator.posts | size %}
 
-<div class='o-wrapper'>
-  <div class='o-grid'>
-    {% for post in paginator.posts %}
+<div class="home">
+  {% if posts_count > 0 %}
+    <div class="posts">
+      {% for post in paginator.posts %}
+        <div class="post py3">
+           <a href="{{ post.url | relative_url }}" class="post-link"><h1 class="post-title">{{ post.title }} {% if post.type == 'link'%} &rarr; {% endif %}</h1></a>
+           <p class="post-meta">
+           <span class="post-meta"><time class='post-meta' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ post.date | date: '%d %b %Y' }}</time> &mdash; {% include read-time.html %}</span><br> 
+           {% if post.update_date %}
+             <span class="post-meta">{{ site.text.post.updated | default: "Updated" }}: {{ post.update_date | date: site.date_format }}</span><br>
+           {% endif %}
+           <span class="post-meta small">
+            {{ site.author.name}}
+           </span>
+           </p>
 
-    <div class='o-grid__col'>
-      
-      <a href='{{ post.url | prepend: site.baseurl }}' class='c-post-card {% if forloop.first == true %} c-post-card--first {% endif %} {% if forloop.last == true %} c-post-card--last {% endif %}'>
-        <h1 class='c-post__title'>{{ post.title }}</h1></a>
-        <span class='c-post-card__date'>{{ post.date | date: '%d %b %Y' }} &mdash; {% include read-time.html %} &mdash; {{ site.author.name}}</span>  
-        
-
-        {% if post.image.teaser %}
-          <img src="{{ post.image.teaser }}" class='c-post__image' alt='{{ post.title }}'>
-          {% if post.image.creditlink %}
-            <span class="credit_image"><center><em>Photo by <a href="{{ post.image.creditlink }}">{{ post.image.author }}</a></em></center></span>
+         
+          
+          <div class="post-summary">
+            {% if post.image.teaser%}
+              {% if post.image.url == false %}
+              <img src="{{ post.image.teaser }}" class='c-post__image' alt='{{ post.title }}'>
+              {% else %}
+              <img src="{{ post.image.teaser }}" class='c-post__image' alt='{{ post.title }}'>
+              {% endif %}
+              {% if post.image.creditlink %}
+                <div class="credit_image"><center><em>Photo by <a href="{{ post.image.creditlink }}">{{ post.image.author }}</a></em></center></div>
+              {% endif %}
             {% endif %}
-        {% endif %}
 
-        <div class='c-post-card__excerpt u-font-medium'>
-          <!-- {{ post.content | strip_html | truncatewords:35 }} -->
-          {% assign words = post.content | strip_html | number_of_words %}
 
-          {% if post.page_type != "long" %}
-        
-            {% if words > 100 %}
-              {{ post.excerpt }} 
-              <a href="{{ site.baseurl }}{{ post.url }}">Read more &rarr;</a><br><br>
-            {% else %}
+            {% assign words = post.content | strip_html | number_of_words %}
+
+            {% if post.page_type == "long" %}
               {{ post.content }}
+            {% else %}
+              {% if words > 110 %}
+                {{ post.excerpt }}
+                <a href="{{ site.baseurl }}{{ post.url }}">Read more &rarr;</a>
+              {% else %}
+                {{ post.excerpt }}
+              {% endif %}
             {% endif %}
-          {% else %}
-            {{ post.content }}
-          {% endif %}
+            </div>
+
         </div>
-
-        
-      </a>
-
+      {% endfor %}
     </div>
-    {% endfor %}
-  </div>
 
-  <div class='o-grid'>
     {% include pagination.html %}
-  </div>
+  {% else %}
+    <h1 class='center'>{{ site.text.index.coming_soon }}</h1>
+  {% endif %}
 </div>

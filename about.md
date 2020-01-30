@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Tentang
+title: About
+permalink: /about/
+tags: about
 ---
-
 
 
 <div class="author__avatar">
@@ -39,7 +40,7 @@ or subscribe to my newsletter
 <div class='embed-container'><iframe class="embed-container" width="660" height="220" src="https://dedenf.substack.com/embed" frameborder="0" scrolling="no"></iframe></div>     
 
 # Ack
-CSS Styling and design using [ACE](http://aliou.github.io/ace/) with couple custom style.
+CSS Styling and design using [Pixyll](https://github.com/johno/pixyll) with couple custom style.
 
 
 jekyll :heart: github.

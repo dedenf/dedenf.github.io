@@ -13,6 +13,7 @@ image:
     feature: '/images/posts/isaac-benhesed-onLbXleIkds-unsplash.jpg'
     author: 'Isaac Benhesed'
     creditlink: 'https://unsplash.com/photos/onLbXleIkds'
+    url: false
 ---
 
 I love coffee, no doubt, been drinking coffee since 4th grade, making it with lots of way, collected few coffee gadget along these years, tools for brewing, manual, semi manual (or semi automatic?), old fashioned way, tasting different kind of coffee, from different region, locally and internationally. 
