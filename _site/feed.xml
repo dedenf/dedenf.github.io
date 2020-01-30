@@ -8,11 +8,15 @@
     
       <item>
         <title>Pengalaman kontribusi di Kubernetes</title>
-        <description>&lt;p&gt;&lt;a href=&quot;/images/posts/kubernetes-commit.jpg&quot;&gt;&lt;img src=&quot;/images/posts/kubernetes-commit.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;div class=&quot;callout-block&quot;&gt;
+&lt;p&gt;&lt;b&gt;Coba kita lihat&lt;/b&gt; apabila ada yag terlanjut bla bla bla&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/posts/kubernetes-commit.jpg&quot;&gt;&lt;img src=&quot;/images/posts/kubernetes-commit.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/kubernetes/community/pull/4176&quot;&gt;Pengalaman pertama&lt;/a&gt; dalam kontribusi ke dalam project opensource yang besar seperti Kubernetes, memang ini hanya mengubah beberapa kata dalam dokumentasinya, tapi perasaannya bisa dibilang luar biasa, bisa menjadi bagian, atau menyumbangkan apa yang bisa disumbangkan, tidak hanya kode, intinya proyek opensource adalah semacam gotong royong.&lt;/p&gt;
 
-&lt;p&gt;Saya sendiri menggunakan Kubernetes untuk sebatas developement, ngulik apa saja yang bisa dilakukan.&lt;/p&gt;
+&lt;p&gt;Saya sendiri menggunakan Kubernetes untuk developement, ngulik apa saja yang bisa dilakukan.&lt;/p&gt;
 
 &lt;p&gt;Untuk kontribusi di proyek ini memang memiliki tahapan-tahapan yang dibutuhkan untuk membuktikan kita adalah nyata, manusia yang hendak berkontribusi, seperti memiliki digital signature di &lt;a href=&quot;https://identity.linuxfoundation.org/projects/cncf&quot;&gt;CNCF&lt;/a&gt; Linux Foundation untuk menandatangani &lt;em&gt;agreement&lt;/em&gt;, untuk lebih lengkapnya silakan lihat &lt;a href=&quot;https://github.com/kubernetes/community/tree/master/contributors/guide&quot;&gt;&lt;em&gt;guide&lt;/em&gt; ini&lt;/a&gt; atau &lt;a href=&quot;https://github.com/kubernetes/community/blob/master/contributors/guide/contributor-cheatsheet/README-id.md&quot;&gt;ini&lt;/a&gt; (dibuat bersama-sama kontributor Indonesia lain).&lt;/p&gt;
 
