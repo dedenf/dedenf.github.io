@@ -9,6 +9,7 @@ tags:
 category: [weekly]
 comments: true
 published: true
+page_type: long
 ---
 
 Beberapa hal yang ditemukan minggu lalu yang saya kira bisa di-share, ada mengenai serial baru, buku baru, dan juga podcast yang saya dengarkan.

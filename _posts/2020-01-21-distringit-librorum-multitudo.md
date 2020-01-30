@@ -14,15 +14,18 @@ image:
     feature: '/images/posts/christin-hume-k2Kcwkandwg-unsplash.jpg'
     author: ' Christin Hume'
     creditlink: 'https://unsplash.com/photos/k2Kcwkandwg'
+    url: false
 
 ---
 
-Just like my previous post, titled ["Read maybe later"](/2019/10/read-maybe-later), this quote from Seneca is a hrad truth, 
+Just like my previous post, titled ["Read maybe later"](/2019/10/read-maybe-later), this quote from Seneca is a hard truth, 
 
 > the abundance of books is distraction   
 > (distringit librorum multitudo )
 >
 > Seneca, 1AD
+
+<!--more-->
 
 Sometimes you have too many books, paper or pixel, and you have too little time to read it, and it cluttered, forgotten, even sometime the seal still intact.
 

@@ -11,10 +11,11 @@ category: [writing]
 comments: true
 published: true
 image:
-    teaser: '/images/posts/danielle-macinnes-IuLgi9PWETU-unsplash.jpg'
-    feature: '/images/posts/danielle-macinnes-IuLgi9PWETU-unsplash.jpg'
-    author: 'Danielle MacInnes'
-    creditlink: 'https://unsplash.com/photos/IuLgi9PWETU'
+    teaser: "/images/posts/danielle-macinnes-IuLgi9PWETU-unsplash.jpg"
+    feature: "/images/posts/danielle-macinnes-IuLgi9PWETU-unsplash.jpg"
+    author: "Danielle MacInnes"
+    creditlink: "https://unsplash.com/photos/IuLgi9PWETU"
+    url: false
 
 ---
 

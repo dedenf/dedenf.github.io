@@ -15,9 +15,15 @@ tags:
 categories: dailyfound
 published: true
 comments: true
+image:
+    teaser: "https://d33wubrfki0l68.cloudfront.net/85655639388b0f4713e11a7d3e8314354ad96415/67c95/images/posts/william-daigneault-7c8z4kevgds-unsplash.jpg"
+    feature: "https://d33wubrfki0l68.cloudfront.net/85655639388b0f4713e11a7d3e8314354ad96415/67c95/images/posts/william-daigneault-7c8z4kevgds-unsplash.jpg"
+    author: "William Daigneault"
+    creditlink: "https://unsplash.com/photos/dBI_My696Rk"
+    url: true
+
 ---
 
-![](https://d33wubrfki0l68.cloudfront.net/85655639388b0f4713e11a7d3e8314354ad96415/67c95/images/posts/william-daigneault-7c8z4kevgds-unsplash.jpg)
 
 Setelah sebelumnya menuliskan tentang investasi dengan instrumen saham, selanjutnya kita berkenalan juga dengan instrumen lain, yaitu Obligasi, atau sering disebut juga dengan surat hutang.
 

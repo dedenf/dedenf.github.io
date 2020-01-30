@@ -14,9 +14,15 @@ tags:
 categories: dailyfound
 published: true
 comments: true
+image:
+    teaser: "https://d33wubrfki0l68.cloudfront.net/c40dec13499ce385f26ce11ed7534cdd6a01ace8/362ed/images/posts/linh-ha-zydkwy_soj8-unsplash.jpg"
+    feature: "https://d33wubrfki0l68.cloudfront.net/c40dec13499ce385f26ce11ed7534cdd6a01ace8/362ed/images/posts/linh-ha-zydkwy_soj8-unsplash.jpg"
+    author: "Linh Ha"
+    creditlink: "https://unsplash.com/photos/ZYdKWY_sOJ8"
+    url: true
+
 ---
 
-![](https://d33wubrfki0l68.cloudfront.net/c40dec13499ce385f26ce11ed7534cdd6a01ace8/362ed/images/posts/linh-ha-zydkwy_soj8-unsplash.jpg)
 
 Terkadang kita berat untuk melakukan transfer atau pembelian produk-produk investasi, dan tidak jarang juga malah lebih memilih untuk belanja barang online, itu lumrah, karena bagian dari "otak kadal" atau lizard brain yang bicara, lizard brain meminta kita untuk hidup hari ini, maka dari itu lebih baik dihabiskan hari ini, untuk esok itu urusan nanti.
 

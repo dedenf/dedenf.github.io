@@ -14,9 +14,15 @@ tags:
 categories: dailyfound
 published: true
 comments: true
+image:
+    teaser: "https://d33wubrfki0l68.cloudfront.net/8632e2853e78d9e0c29b5b0c1449b7996f015c99/7d773/images/posts/chris-liverani-dbi_my696rk-unsplash.jpg"
+    feature: "https://d33wubrfki0l68.cloudfront.net/8632e2853e78d9e0c29b5b0c1449b7996f015c99/7d773/images/posts/chris-liverani-dbi_my696rk-unsplash.jpg"
+    author: "Chris Liverani"
+    creditlink: "https://unsplash.com/photos/dBI_My696Rk"
+    url: true
+
 ---
 
-![](https://d33wubrfki0l68.cloudfront.net/8632e2853e78d9e0c29b5b0c1449b7996f015c99/7d773/images/posts/chris-liverani-dbi_my696rk-unsplash.jpg)
 
 Artikel yang ditulis di seputarfinansial, dengan fokus investasi disaham, memang tidak terlalu mendalam, tidak ada analisa teknikal atau fundamental, hanya suatu perkenalan.
 

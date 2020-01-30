@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HyperText Thrones</title>
+    <description>Daily muse, putting my tought, reaction, comments, and things that i need to write. About tech, financial, life.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>How to explain anything to anyone: 4 steps to clearer communication</title>
+        <description>&lt;p&gt;Bagaimana melakukan komunikasi yang efektif, terkadang kita agak kesusahan dalam menyampaikan apa yang ada dalam pikiran kita, bagaimana mengartikulasikan pikiran ke dalam bentuk ucapan, jadinya malah tidak jelas.&lt;/p&gt;
+
+&lt;p&gt;Langkah yang bisa dilakukan menurut artikel tersebut,&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Start off in the right place.&lt;/strong&gt;   &lt;br /&gt;
+Menjelaskan konteks, agar pendengar tidak seperti mendengar penjelasan lompat-lompat, karena beda orang beda juga cara menangkap sesuatunya, memang ini jadinya semacam “kerjaan” lagi, tapi demi komunikasi yang lebih baik&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…“Everyone’s got a different background, everyone’s got a different set of knowledge, and it’s our job to explain the information in terms that they already understand, “ says Walliman. “It’s no good leaving a gap and starting from there because they’re not going to follow along.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Don’t go too far down the rabbit hole.&lt;/strong&gt;  &lt;br /&gt;
+Ini mungkin agak susah, terkadang, terutama yang sangat teknikal, akan tergoda untuk menjelaskan suatu hal sedetail mungkin, tapi yang ada, merunut point nomor 1, hal itu malah membingungkan orang lain, terutama jika orang tersebut bukan orang teknikal.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…Avoid bombarding people with too much knowledge at once. “It’s better to explain, say, three things that someone will understand … rather than barrage them with a whole load of information that kind of undoes all of your good work to begin with,”…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Go for clarity over accuracy.&lt;/strong&gt; &lt;br /&gt;
+terlalu detil bukan berarti jelas, seperti nomor 2, terkadang menjelaskan sesuatu dengan penjelasan sederhana dulu, cari analogi yang sekiranya agak dekat dengan apa yang kita mau jelaskan, tidak harus sama, tapi tujuannya mirip.&lt;/p&gt;
+
+&lt;p&gt;Ini juga terjadi kalau saya mencoba misalkan menjelaskan cara kerja satu teknologi ke istri, saya lebih condong mencari dulu apakah ada analogi yang bisa dipakai.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Explain why you think your subject is so cool.&lt;/strong&gt;     &lt;br /&gt;
+Ini yang mungkin agak susah, karena kita mencoba “menjual” ide tersebut ke orang lain, tidak semua bisa melakukan itu, tapi kalau kita sendiri merasa hal itu menarik, meski orang lain bisa jadi tidak, tapi dengan mengungkapkan hal itu tentu sebuah ekspresi dan mungkin saja orang lain yang memiliki pandangan yang sama akan tertarik.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…The more you can communicate your enthusiasm to others, the more likely they are to feel that way too. One way to do this is give examples that demonstrate how the subject is relevant to their lives can bring it to life for them.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;[&lt;a href=&quot;https://ideas.ted.com/how-to-explain-anything-to-anyone-4-steps-to-clearer-communication/&quot;&gt;via TED Ideas&lt;/a&gt;]&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Jan 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/01/membuat-komunikasi-lebih-jelas</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/membuat-komunikasi-lebih-jelas</guid>
+      </item>
+    
+      <item>
+        <title>Weekly found</title>
+        <description>&lt;p&gt;Beberapa hal yang ditemukan minggu lalu yang saya kira bisa di-share, ada mengenai serial baru, buku baru, dan juga podcast yang saya dengarkan.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.netflix.com/title/80117557&quot;&gt;&lt;strong&gt;Messiah&lt;/strong&gt;&lt;/a&gt;, serial baru yang saya tonton minggu lalu, serial ini produksi Netflix, Messiah, atau diislam dikenal al-masih, meski tidak dijelaskan ini adalah “asli” kedatangan al-masih, atau hanya penipu yang membuat geger dunia.&lt;/p&gt;
+
+&lt;p&gt;Ceritanya agak cliché, dan sengaja dibuat kabur, misalkan jika Messiah melakukan sesuatu, apakah itu tipuan atau mukjizat, penonton dibuat menerk-nerka, dan adegan-adegan lain, saya sendiri cukup menikmati, tapi tidak sampai heboh juga sih.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Buku&lt;/strong&gt; bacaan, sebenarnya bukan berbentuk buku, tapi bentuk dokumen publikasi dan paper journal,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1876224&quot;&gt;Safe Savings Rates: A New Approach to Retirement Planning Over the Lifecycle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.credit-suisse.com/about-us/en/reports-research/studies-publications.html&quot;&gt;Economy in motion. Research publications&lt;/a&gt; – dari Credit Suisse.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Podcast&lt;/strong&gt;, seperti biasa, podcast yang sering saya dengar selain mengenai finansial, juga mengenai teknologi, dunia developer/engineer, episode &lt;a href=&quot;https://affordanything.com/236-how-we-saved-1-million-and-retired-at-31-and-32-with-kristy-shen-and-bryce-leung/&quot;&gt;Afford Anything #236&lt;/a&gt; ini menarik, saya mendengarkan dalam perjalanan kerja.&lt;/p&gt;
+
+&lt;p&gt;Kemudian episode tentang &lt;a href=&quot;https://kubernetespodcast.com/episode/082-chaos-engineering/&quot;&gt;Chaos Engineering&lt;/a&gt; dari &lt;em&gt;kubernetespodcast&lt;/em&gt;, dan episode &lt;a href=&quot;https://kubernetespodcast.com/episode/085-openshift-and-kubernetes/&quot;&gt;OpenShift and Kubernetes, with Clayton Coleman&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ini adalah series/category yang saya buat untuk mendokumentasikan yang saya kerjakan, dengan kata lain, &lt;a href=&quot;https://www.artofmanliness.com/articles/jumpstart-your-journaling-a-31-day-challenge/&quot;&gt;journaling&lt;/a&gt;, selain &lt;a href=&quot;https://today.dedenf.com/&quot;&gt;Today&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 Jan 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/01/weekly-found</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/weekly-found</guid>
+      </item>
+    
+      <item>
+        <title>Investasi jangka pendek, dengan apa?</title>
+        <description>&lt;p&gt;Investasi apa saja yang cocok untuk tujuan finansial jangka pendek?
+Dengan waktu yang pendek, tapi ingin mendapatkan apa apresiasi dari uang yang ditanamkan, produk apa saja yang bisa dicoba untuk investasi tersebut?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://seputarfinansial.com/investasi-jangka-pendek-apa-saja/&quot;&gt;Via Seputarfinansial&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 23 Jan 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/01/seputar-finansial-investasi-jangka-pendek</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/seputar-finansial-investasi-jangka-pendek</guid>
+      </item>
+    
+      <item>
+        <title>Hal-hal yang perlu diperhatikan ketika renovasi rumah</title>
+        <description>&lt;p&gt;Rumah atau tempat tinggal adalah salah satu hal yang penting dalam kehidupan manusia, baik rumah tersebut digunakan sebagai tempat tinggal utama, atau sebagai properti yang disewakan.&lt;/p&gt;
+
+&lt;p&gt;Sebelum melakukan renovasi ini, sangat penting tentunya perencanaan matang, mau melakukan apa, apa saja yang akan direnovasi, ini kalau bisa tentukan diawal sebelum menghubungi kontraktor yang akan merenovasi rumah.&lt;/p&gt;
+
+&lt;p&gt;Perencanaan ini berkaitan dengan budget yang akan dikeluarkan, setidaknya memiliki angka kira-kira yang nantinya kita alokasikan, meski sangat mungkin anggaran itu membengkak (sangat jarang kasus menjadi lebih murah), tapi setidaknya ada angka kisaran yang bisa dipakai.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://seputarfinansial.com/hal-yang-perlu-diperhatikan-dalam-renovasi-rumah/&quot;&gt;Selengkapnya Seputarfinansial&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Jan 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/01/seputar-finansial-hal-yang-perlu-diperhatikan-renovasi-rumah</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/seputar-finansial-hal-yang-perlu-diperhatikan-renovasi-rumah</guid>
+      </item>
+    
+      <item>
+        <title>Distringit Librorum Multitudo </title>
+        <description>&lt;p&gt;Just like my previous post, titled &lt;a href=&quot;/2019/10/read-maybe-later&quot;&gt;“Read maybe later”&lt;/a&gt;, this quote from Seneca is a hard truth,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the abundance of books is distraction &lt;br /&gt;
+(distringit librorum multitudo )&lt;/p&gt;
+
+  &lt;p&gt;Seneca, 1AD&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Sometimes you have too many books, paper or pixel, and you have too little time to read it, and it cluttered, forgotten, even sometime the seal still intact.&lt;/p&gt;
+
+&lt;p&gt;We are living with so many informations, so many knowledge that one could not absorb all of it, i remembered many technical paper that i have collected/downloaded over the year, and read only few of them, that’s the non-physical form, not to mention the physical books that i bought, links that i collected (Pocket or Instapaper), the amount of percentage that i successfully read are like 10-15% of it.&lt;/p&gt;
+
+&lt;p&gt;To be &lt;a href=&quot;/2020/01/melakukan-kebiasaan-menulis-setiap-hari&quot;&gt;more in writing&lt;/a&gt;, i have to be more on reading.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 21 Jan 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/01/distringit-librorum-multitudo</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/distringit-librorum-multitudo</guid>
+      </item>
+    
+      <item>
+        <title>Markdown Editor: Typora</title>
+        <description>&lt;p&gt;Format &lt;a href=&quot;https://en.wikipedia.org/wiki/Markdown&quot;&gt;Markdown&lt;/a&gt; memang sudah dimana-mana, beberapa blog engine dan juga publishing sudah mendukung format markdown yang memudahkan penulisnya untuk membuat dokumen yang nantinya bisa diconvert menjadi format file lain.&lt;/p&gt;
+
+&lt;p&gt;Sedikit sejarah mengenai markdown, markdown ini dibuat awalnya oleh &lt;a href=&quot;https://en.wikipedia.org/wiki/Markdown&quot;&gt;John Gruber&lt;/a&gt;, dan memang sengaja tidak dibuat standar baku, markdown memiliki semacam sintaksis, tapi masih bisa dibaca dengan mudah tanpa kode-kode html (hypertext markup language).&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Tidak seperti HTML yang kadang sudah untuk dibaca secara telanjang, karena ada tag-tag yang mengindikasikan bagaimana informasi/text diformatkan, contoh untuk menuliskan tulisan menjadi tebal&lt;/p&gt;
+&lt;h5 id=&quot;html&quot;&gt;html&lt;/h5&gt;
+&lt;p&gt;Tulisan ini &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;i&amp;gt;miring&amp;lt;/i&amp;gt;&lt;/code&gt; dan kemudian menjadi &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;b&amp;gt;Tebal&amp;lt;/b&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;markdown&quot;&gt;Markdown&lt;/h5&gt;
+&lt;p&gt;Tulisan ini &lt;code class=&quot;highlighter-rouge&quot;&gt;*miring*&lt;/code&gt; dan kemudian menjadi &lt;code class=&quot;highlighter-rouge&quot;&gt;**Tebal**&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Cukup jauh bedanya, dan markdown relatif lebih mudah dibaca secara langsung.&lt;/p&gt;
+
+&lt;p&gt;Dan untuk menulis dan membaca dalam format markdown, bisa saja secara langsung ditulis, untuk editing bisa dilakukan di notepad, notepad++, visual code studio, atau editor yang bisa mengedit dan juga menampilkan format markdown, salah satunya &lt;a href=&quot;https://typora.io/&quot;&gt;Typora&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mengedit file markdown (ekstensi .md atau .markdown) dengan Typora sangat mudah, juga mendukung kombinasi keyboard, bisa juga toggle antara mode edit dan mode preview, atau bisa melakukan edit + preview berbarengan (shortcut ⌘ + /).&lt;/p&gt;
+
+&lt;h4 id=&quot;format-paragraf&quot;&gt;Format paragraf&lt;/h4&gt;
+&lt;p&gt;Seperti editor lainnya, Typora juga menyediakan &lt;em&gt;predefined formatting&lt;/em&gt;, seperti untuk heading (1-6), memformat paragraf, tabel, lists, dan format lainnya, yang berguna untuk orang yang tidak begitu familiar dengan  format markdown yang terkadang agak sedikit susah dihapal jika sudah advance seperti catatan kaki, tabel.&lt;/p&gt;
+
+&lt;p&gt;Dan format tulisan lain seperti blok kode, tulisan miring, tebal dan lainya mudah diakses atau melalui shortcut.&lt;/p&gt;
+
+&lt;h4 id=&quot;fitur--editor&quot;&gt;Fitur  Editor&lt;/h4&gt;
+&lt;p&gt;Typora mendukung mode file di bagian sidebar, yang bisa juga dikondisikan  menjadi daftar file tree, atau melalui daftar markdown, hal ini bisa dilihat di menu ”View”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/typora-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tampilan juga bisa dikostumasi, dengan mengganti tema (Themes), tema yang ada seperti Github, Gothic dan lainnya, hal ini tentu tergantung dari selera, kadang ada yang suka terang, gelap, atau temaram.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/typora-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;fitur-lain&quot;&gt;Fitur lain&lt;/h4&gt;
+&lt;p&gt;Ini merupakan fitur favorit saya, yaitu export, Typora bisa melakukan export ke bentuk file lain selain, bisa ke PDF, HTML, LaTeX, Word, epub dan lainnya, yang membuat Typora bisa meng-export ke file-file tersebut dilakukan melalui &lt;a href=&quot;https://pandoc.org/&quot;&gt;Pandoc&lt;/a&gt;, yang bekerja meng-export ke semua file itu.&lt;/p&gt;
+
+&lt;p&gt;Aplikasi editor markdown yang lain perlu membayar untuk fitur export ini sebagai fitur premium, sedangkan di Typora gratis.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 20 Jan 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/01/markdown-editor-typora</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/markdown-editor-typora</guid>
+      </item>
+    
+      <item>
+        <title>Otomatisasi finansial</title>
+        <description>&lt;p&gt;Terkadang kita berat untuk melakukan transfer atau pembelian produk-produk investasi, dan tidak jarang juga malah lebih memilih untuk belanja barang online, itu lumrah, karena bagian dari “otak kadal” atau lizard brain yang bicara, lizard brain meminta kita untuk hidup hari ini, maka dari itu lebih baik dihabiskan hari ini, untuk esok itu urusan nanti.&lt;/p&gt;
+
+&lt;p&gt;Dengan melakuan otomatisasi ini, otak kita lebih ringan dalam mengambil keputusan, karena sudah dilakukan didepan dan tanpa ada intervensi kita.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 14 Jan 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/01/seputar-finansial-otomasi-finansial</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/seputar-finansial-otomasi-finansial</guid>
+      </item>
+    
+      <item>
+        <title>Melakukan kebiasaan menulis setiap hari</title>
+        <description>&lt;p&gt;Membuat suatu kebiasaan itu susah, apalagi membuat kebiasaan itu dilakukan setiap waktu yang ditentukan, itu lebih susah lagi.&lt;/p&gt;
+
+&lt;p&gt;Di sini kebiasaan yang saya coba bangun adalah menulis setiap hari, banyak hambatan, banyak hal yang membuat menjadi malas, atau teralihnya fokus oleh berita, sosial media dan lainnya.&lt;/p&gt;
+
+&lt;p&gt;Pernah mencoba menulis setiap hari ini di &lt;a href=&quot;https://200wordsaday.com/@dedenf&quot;&gt;200Wordsaday.com&lt;/a&gt;, di sini penulis diminta untuk selalu menulis setiap hari atau diberikan “sanksi”, sanksi di sini adalah turunnya rating atau pencapaian yang sudah didapat setiap kali mempublikasikan tulisan di situ.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Dan seperti manusia umumnya, terhalang satu kerjaan sampai larut, hingga tidak sempat untuk menulis dan menjadikan rating kembali menjadi nol, ini tentu sangat mendemotivasi keinginan menulis lagi, meski ini merupakan satu fitur yang diharapkan penulis-penulis menjadi tergerak untuk menulis 200 kata sehari, jika tidak maka rating menjadi nol.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ivanlanin.wordpress.com/2019/12/28/menulis-tiap-hari/&quot;&gt;Ivan lanin sedang melakukan target menulis setiap hari&lt;/a&gt; juga sebagai bagian dari resolusi 2020, membuat saya kembali memikirkan untuk menulis lebih sering lagi, setidaknya mencobanya, meski sepertinya untuk menulis setiap hari dan mempublikasikannya agak merepotkan, akan mencoba lagi menulis dengan agak lebih sering.&lt;/p&gt;
+
+&lt;p&gt;Meski menulis sebenarnya tidak harus selalu dipublikasikan, bisa menulis mengenai hal teknikal, membuat dokumentasi atau hanya sekadar menulis tentang daftar yang syukuri hari ini, jadi, &lt;em&gt;mungkin&lt;/em&gt; target menulis setiap hari bisa dicapai.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Jan 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/01/melakukan-kebiasaan-menulis-setiap-hari</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/melakukan-kebiasaan-menulis-setiap-hari</guid>
+      </item>
+    
+      <item>
+        <title>2020: Ayo!</title>
+        <description>&lt;p&gt;Sudah menginjak tahun 2020, memang tidak ada rencana khusus atau orang biasa menyebutnya resolusi, untuk tahun ini, saya ingin terus melanjutkan kebiasaan yang sudah dibangun di 2019, seperti lebih sering menulis, melanjutkan belajar-belajar dunia &lt;em&gt;engineering&lt;/em&gt; yang baru-baru, melakukan sisi manajerial yang lebih baik.&lt;/p&gt;
+
+&lt;p&gt;Dan semoga tahun ini menjadi lebih baik dalam segala hal, Ayo!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 03 Jan 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/01/pertama-2020</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/pertama-2020</guid>
+      </item>
+    
+      <item>
+        <title>Let's talk about coffee</title>
+        <description>&lt;p&gt;I love coffee, no doubt, been drinking coffee since 4th grade, making it with lots of way, collected few coffee gadget along these years, tools for brewing, manual, semi manual (or semi automatic?), old fashioned way, tasting different kind of coffee, from different region, locally and internationally.&lt;/p&gt;
+
+&lt;p&gt;I even bought a domain name specific for my love of coffee, &lt;a href=&quot;https://epicoffee.com/&quot;&gt;epicoffee.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But it lately, it took a toll on me, i felt like more anxious, sometimes nervous, and sometimes i woke up in the middle of the night these last few weeks.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Reading these &lt;a href=&quot;https://www.psychologytoday.com/us/blog/progress-not-perfection/201106/i-quit-coffee-cure-my-anxiety&quot;&gt;article&lt;/a&gt;, &lt;a href=&quot;https://www.deathwishcoffee.com/blogs/news/caffeine-and-anxiety&quot;&gt;talks about the effect&lt;/a&gt; &lt;a href=&quot;https://www.sbs.com.au/food/article/2019/03/14/why-does-coffee-make-me-anxious-while-others-can-drink-it-bed&quot;&gt;of caffeine in your&lt;/a&gt; blood, and eventually to your brain , the caffeine could cause jitter, anxiety, nerveousness, and some cases stress (hey! sounds familiar).&lt;/p&gt;
+
+&lt;p&gt;Accidentally, i’m not drinking coffee since monday, and i don’t know, just felt more clear, having less anxiety, will continue to reduce my caffeine intake, hopefully for the better.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 04 Dec 2019 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2019/12/coffee-anxiety-nervous-stress-related</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/12/coffee-anxiety-nervous-stress-related</guid>
+      </item>
+    
+  </channel>
+</rss>

@@ -14,9 +14,14 @@ tags:
 categories: dailyfound
 published: true
 comments: true
----
+image:
+    teaser: "https://d33wubrfki0l68.cloudfront.net/4582ab41e61cbc9da5b50e065c07ddf72bdc5081/3577d/images/posts/milivoj-kuhar-te48tpzdcu8-unsplash.jpg"
+    feature: "https://d33wubrfki0l68.cloudfront.net/4582ab41e61cbc9da5b50e065c07ddf72bdc5081/3577d/images/posts/milivoj-kuhar-te48tpzdcu8-unsplash.jpg"
+    author: "Milivoj Kuhar"
+    creditlink: "https://unsplash.com/photos/Te48TPzdcU8"
+    url: true
 
-![](https://d33wubrfki0l68.cloudfront.net/4582ab41e61cbc9da5b50e065c07ddf72bdc5081/3577d/images/posts/milivoj-kuhar-te48tpzdcu8-unsplash.jpg)
+---
 
 Rumah atau tempat tinggal adalah salah satu hal yang penting dalam kehidupan manusia, baik rumah tersebut digunakan sebagai tempat tinggal utama, atau sebagai properti yang disewakan.
 
