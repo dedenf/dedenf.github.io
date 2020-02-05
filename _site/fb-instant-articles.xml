@@ -13,11 +13,7 @@
                 <link>http://localhost:4000/2020/01/pengalaman-kontribusi-kubernetes</link>
                 <content:encoded>
                     <![CDATA[
-                    <div class="callout-block">
-<p><b>Coba kita lihat</b> apabila ada yag terlanjut bla bla bla</p>
-</div>
-
-<p><a href="/images/posts/kubernetes-commit.jpg"><img src="/images/posts/kubernetes-commit.jpg" alt="" /></a></p>
+                    <p><a href="/images/posts/kubernetes-commit.jpg"><img src="/images/posts/kubernetes-commit.jpg" alt="" /></a></p>
 
 <p><a href="https://github.com/kubernetes/community/pull/4176">Pengalaman pertama</a> dalam kontribusi ke dalam project opensource yang besar seperti Kubernetes, memang ini hanya mengubah beberapa kata dalam dokumentasinya, tapi perasaannya bisa dibilang luar biasa, bisa menjadi bagian, atau menyumbangkan apa yang bisa disumbangkan, tidak hanya kode, intinya proyek opensource adalah semacam gotong royong.</p>
 
@@ -5908,7 +5904,7 @@ of a <span class="red">post</span> <span class="mid-gray">with</span> <span clas
 <p>Markdown footnotes are supported, and they look great! Simply put e.g. <code class="highlighter-rouge">[^1]</code> where you want the footnote to appear,<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> and then add
 the reference at the end of your markdown.</p>
 
-<h3 id="stylish-blockquotes-included">Stylish blockquotes included</h3>
+<h3 id="stylish-s-included">Stylish s included</h3>
 
 <p>You can use the markdown quote syntax, <code class="highlighter-rouge">&gt;</code> for simple quotes.</p>
 
@@ -5919,12 +5915,12 @@ the reference at the end of your markdown.</p>
 <p>However, you need to inject html if you’d like a citation footer. I will be working on a way to
 hopefully sidestep this inconvenience.</p>
 
-<blockquote>
-  <p>
+<p>&lt;&gt;</p>
+<p>
     Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
   </p>
-  <footer><cite title="Antoine de Saint-Exupéry">Antoine de Saint-Exupéry</cite></footer>
-</blockquote>
+<footer><cite title="Antoine de Saint-Exupéry">Antoine de Saint-Exupéry</cite></footer>
+<p>&lt;/&gt;</p>
 
 <h3 id="tables">Tables</h3>
 

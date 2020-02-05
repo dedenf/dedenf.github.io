@@ -107,7 +107,7 @@ I don't recommend using blue, though. It looks like a <span class="blue">link</s
 Markdown footnotes are supported, and they look great! Simply put e.g. `[^1]` where you want the footnote to appear,[^1] and then add
 the reference at the end of your markdown.
 
-### Stylish blockquotes included
+### Stylish s included
 
 You can use the markdown quote syntax, `>` for simple quotes.
 
@@ -116,12 +116,12 @@ You can use the markdown quote syntax, `>` for simple quotes.
 However, you need to inject html if you'd like a citation footer. I will be working on a way to
 hopefully sidestep this inconvenience.
 
-<blockquote>
+<>
   <p>
     Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
   </p>
   <footer><cite title="Antoine de Saint-Exupéry">Antoine de Saint-Exupéry</cite></footer>
-</blockquote>
+</>
 
 
 ### Tables
