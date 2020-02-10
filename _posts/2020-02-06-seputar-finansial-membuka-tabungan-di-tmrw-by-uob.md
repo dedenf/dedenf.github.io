@@ -15,8 +15,8 @@ categories: dailyfound
 published: true
 comments: true
 image:
-    teaser: "https://www.tmrwbyuob.com/content/dam/uobtmrw/images/home/fbshareimg.jpg"
-    feature: "https://www.tmrwbyuob.com/content/dam/uobtmrw/images/home/fbshareimg.pg"
+    teaser: "/images/posts/fbshareimg.jpg"
+    feature: "/images/posts/fbshareimg.pg"
     author: "TMRW by UOB"
     creditlink: "https://www.tmrwbyuob.com/id/id.html"
     url: true
