@@ -32,3 +32,5 @@ Menurut saya, iya dan tidak, iya jika hal tersebut membantu kita menyelesaikan t
 Autopilot bisa jadi buruk jika lingkungan sekitar banyak terjadi perubahan, dan iya, menyetir dengan pikiran autopilot sangat berbahaya, kita harus lebih awas dan sadar akan sekitar, karena banyak objek yang bergerak, dan butuh konsentrasi dan kesadaran.
 
 Hal lain yang coba saya handari dari autopilot ini yakni kemampuannya untuk mengubah kebiasaan kita, semisal sedang mengantri atau sedang berada di tempat yang bagus pemandangannya, dan otak berpikir kita tidak sedang melakukan apa-apa, yang terjadi berikutnya adalah kita membuka handphone melihat media sosial atau berita, yang berarti kita tidak awas sekitar, dan kita juga akan melewatkan pemandangan bagus dan mensyukuri itu.
+
+Dan juga Autopilot bisa bermanfaat, karena mengurangi _mental bandwidth_ yang mengharuskan kita untuk berpikir, dengan mengurangi itu, pikiran kita bisa dialokasikan untuk hal lain yang memang membutuhkan pemikiran lebih.
