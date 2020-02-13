@@ -1237,6 +1237,10 @@
 <lastmod>2020-02-06T00:00:00+07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2020/02/autopilot</loc>
+<lastmod>2020-02-13T00:00:00+07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
@@ -2030,6 +2034,15 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag/opensource/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/self-development/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/productivity/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/psychology/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/page/2/</loc>
