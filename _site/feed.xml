@@ -7,12 +7,30 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Survivorship bias</title>
+        <description>&lt;p&gt;&lt;em&gt;Survivorship bias&lt;/em&gt; Ini adalah salah satu jenis prasangka (&lt;em&gt;bias&lt;/em&gt;) yang sering terjadi, tentu kita sering temui dan membaca artikel seperti “&lt;strong&gt;5 Hal yang dilakukan orang sukses!&lt;/strong&gt;”, atau “&lt;strong&gt;Milyuner ini melakukan 3 hal dalam hidupnya!&lt;/strong&gt;”, atau melihat tokoh-tokoh sukses yang bisa melakukan ini itu, berhasil dalam bidang yang mereka geluti, yang berakhir dengan cerita kisah sukses orang tersebut.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Orang-orang yang sukses tersebut menuliskan, atau ada orang lain yang menuliskan rahasia suksesnya, yang berisi kebiasaan-kebiasaan orang sukses yang menjadikannya sukses, setidaknya dalam pikiran mereka, yang kemudian orang-orang menirunya, dengan harapan bisa ikut sukses atau berhasil dalam urusannya.&lt;/p&gt;
+
+&lt;p&gt;Nyatanya, tidak seperti itu, hal yang orang sukses lalui berbeda-beda perjalanannya, dan kebiasaan yang mereka lakukan bukan suatu jaminan akan bisa mencetak kesuksesan yang sama juga untuk orang lain.&lt;/p&gt;
+
+&lt;p&gt;Mark Zuckerberg dan Bill Gates adalah pengusaha sukses yang tidak lulus kuliah, dan bukan berarti menggunakan argumen tidak lulus kuliah akan menjadi sukses, ini salah satu &lt;a href=&quot;/2019/07/logical-fallacy-kesesatan-berpikir&quot;&gt;logical fallacy&lt;/a&gt; juga.&lt;/p&gt;
+
+&lt;p&gt;Kita lebih cenderung berkonsentrasi dan fokus pada orang yang sukses tadi, apa yang sudah/bisa mereka raih dengan kesuksesan itu, dan berasumsi misalkan contohnya orang-orang sukses bangun lebih pagi, jam 4 misalkan, dengan bangun pagi jam 4 orang tersebut bisa sukses dalam urusannya, dan tentunya banyak juga orang yang bangun jam 4 dan tidak sukses, dan jumlahnya bisa sangat banyak pastinya.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Feb 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/02/survivorship-bias-prasangka</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/02/survivorship-bias-prasangka</guid>
+      </item>
+    
+      <item>
         <title>Autopilot</title>
         <description>&lt;p&gt;Pernah mengalami melakukan sesuatu tanpa harus berpikir? semua bisa dilakukan tanpa otak memproses, mengkalkulasi dan melakukan itu dengan cara otomatis, tanpa halangan, dan bahkan ekstrim-nya ada yang tidak ingat kita melakukan hal tersebut, saking sudah otomatisnya.&lt;/p&gt;
 
 &lt;p&gt;Ini yang disebut sebagai &lt;strong&gt;autopilot&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Autopilot ini kita lakukan hampir setiap hari, misalkan bernafas, mengedip, itu contoh dari autopilot, kita tidak perlu berpikir untuk bernafas, mengedip, semua dilakukan tanpa kita sadari.
+&lt;p&gt;Autopilot ini kita lakukan hampir setiap hari, misalkan bernafas, mengedip, itu contoh dari autopilot, kita tidak perlu berpikir untuk bernafas, mengedip, semua dilakukan tanpa kita sadari, semua otomatis.
 &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;Hal lain yang saya sendiri sadari dilakukan secara autopilot adalah menyetir dan berjalan, terkadang ketika autopilot sedang aktif, saya sendiri akan lupa dan tidak akan awas akan sekitar, dalam artian, saya tidak akan ingat mobil apa, atau melihat apa saja ketika menyetir saat itu, dan mencoba mengingatnya ketika sudah sampai tujuan, memang terkadang ada gambaran sedikit di memori (residu), tapi sesudah itu lupa, hari-hari berikutnya kalau coba mengingat, akan sedikit kesusahan untuk asosiasikannya dengan waktu kejadian.&lt;/p&gt;
@@ -23,6 +41,10 @@
 &lt;p&gt;Autopilot bisa jadi buruk jika lingkungan sekitar banyak terjadi perubahan, dan iya, menyetir dengan pikiran autopilot sangat berbahaya, kita harus lebih awas dan sadar akan sekitar, karena banyak objek yang bergerak, dan butuh konsentrasi dan kesadaran.&lt;/p&gt;
 
 &lt;p&gt;Hal lain yang coba saya handari dari autopilot ini yakni kemampuannya untuk mengubah kebiasaan kita, semisal sedang mengantri atau sedang berada di tempat yang bagus pemandangannya, dan otak berpikir kita tidak sedang melakukan apa-apa, yang terjadi berikutnya adalah kita membuka handphone melihat media sosial atau berita, yang berarti kita tidak awas sekitar, dan kita juga akan melewatkan pemandangan bagus dan mensyukuri itu.&lt;/p&gt;
+
+&lt;p&gt;Dan juga Autopilot bisa bermanfaat, karena mengurangi &lt;em&gt;mental bandwidth&lt;/em&gt; yang mengharuskan kita untuk berpikir, dengan mengurangi itu, pikiran kita bisa dialokasikan untuk hal lain yang memang membutuhkan pemikiran lebih.&lt;/p&gt;
+
+&lt;p&gt;Untuk menjadikan suatu aktivitas menjadi autopilot, yang pertama harus dilakukan menjadikan aktivitas tersebut suatu rutin, dan kemudian menjadi kebiasaan, habit, dan akhirnya berevolusi menjadi autopilot.&lt;/p&gt;
 </description>
         <pubDate>Thu, 13 Feb 2020 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2020/02/autopilot</link>
@@ -222,17 +244,6 @@ Dengan waktu yang pendek, tapi ingin mendapatkan apa apresiasi dari uang yang di
         <pubDate>Mon, 20 Jan 2020 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2020/01/markdown-editor-typora</link>
         <guid isPermaLink="true">http://localhost:4000/2020/01/markdown-editor-typora</guid>
-      </item>
-    
-      <item>
-        <title>Otomatisasi finansial</title>
-        <description>&lt;p&gt;Terkadang kita berat untuk melakukan transfer atau pembelian produk-produk investasi, dan tidak jarang juga malah lebih memilih untuk belanja barang online, itu lumrah, karena bagian dari “otak kadal” atau lizard brain yang bicara, lizard brain meminta kita untuk hidup hari ini, maka dari itu lebih baik dihabiskan hari ini, untuk esok itu urusan nanti.&lt;/p&gt;
-
-&lt;p&gt;Dengan melakuan otomatisasi ini, otak kita lebih ringan dalam mengambil keputusan, karena sudah dilakukan didepan dan tanpa ada intervensi kita.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 14 Jan 2020 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/2020/01/seputar-finansial-otomasi-finansial</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/01/seputar-finansial-otomasi-finansial</guid>
       </item>
     
   </channel>
