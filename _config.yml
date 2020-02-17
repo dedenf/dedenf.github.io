@@ -27,6 +27,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-emoji
   - jekyll/tagging
 # https://github.com/jekyll/jekyll/issues/2938
 
