@@ -17,17 +17,17 @@ An [engineer](https://github.com/dedenf), loves tech, [blogger](https://notes.de
 
 I love coffee, started a semi-active blog site [Epicoffee](http://epicoffee.com).
 
-# About _HyperText Thrones_
+### About _HyperText Thrones_
 The site started around 2013, but the content has been imported from my various blogging platform, i'm blogging since 2006, my content scattered, from blogger.com, blogsome, posterous, wordpress and eventually bought my own domain and imported my _can-save_ content out there.
 
 I host this site using [Github page](https://pages.github.com/), so, no server cost, _ha!_, just push the content to [my repo](https://github.com/dedenf/dedenf.github.io/), and Github will take care the rest. I use [Ruby Jekyll](https://jekyllrb.com/) blogging engine, been eyeing Ghost, but i always came back to Jekyll. Park my domain to Cloudflare, they took care about security and any other stuff.
 
 
-# Bahasa/Language
+### Bahasa/Language
 Jadi, terkadang isi dari *blog* ini campur-campur, kadang bahasa inggris, kadang bahasa indonesia, tergantung konteks dan keinginan *hehe..*, jadi iya, bahasa indonesia adalah bahasa indonesia, *don't call it bahasa, call it indonesian.*
 
 
-# Contact
+### Contact
 Email : dedenf@gmail.com or me@dedenf.com   
 Twitter account : [@dedenf](https://twitter.com/dedenf)    
 Keybase : [@dedenf](https://keybase.io/dedenf)   
@@ -38,9 +38,5 @@ or you can [buy me a coffee](https://www.buymeacoffee.com/dedenf)
 
 or subscribe to my newsletter
 <div class='embed-container'><iframe class="embed-container" width="660" height="220" src="https://dedenf.substack.com/embed" frameborder="0" scrolling="no"></iframe></div>     
-
-# Ack
-CSS Styling and design using [Pixyll](https://github.com/johno/pixyll) with couple custom style.
-
 
 jekyll :heart: github.
