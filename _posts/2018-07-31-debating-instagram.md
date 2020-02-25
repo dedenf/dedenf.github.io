@@ -5,7 +5,7 @@ link: https://www.theatlantic.com/technology/archive/2018/07/the-instagram-forum
 title: "Teens Are Debating the News on Instagram"
 category: links
 tags: 
-    - psychology
+    - Psychology
     - rant
     - "social media"
     - "daily found"

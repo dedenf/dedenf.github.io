@@ -5,7 +5,7 @@ link: https://www.wired.com/story/how-facebooks-rise-fueled-chaos-and-confusion-
 title: "How Facebook’s Rise Fueled Chaos and Confusion in Myanmar"
 category: links
 tags: 
-    - psychology
+    - Psychology
     - chaos
     - "false news"
     - hoax

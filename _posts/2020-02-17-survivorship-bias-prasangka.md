@@ -4,7 +4,7 @@ title: "Survivorship bias"
 tags: 
     - "Self Development"
     - Productivity
-    - Psychsology
+    - Psychology
 
 category: [development]
 comments: true

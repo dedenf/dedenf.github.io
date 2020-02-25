@@ -5,7 +5,7 @@ link: https://www.theguardian.com/technology/2018/jul/12/i-tracked-my-iphone-usa
 title: "I tracked my iPhone usage for a week and this is what I learned"
 category: links
 tags: 
-    - psychology
+    - Psychology
     - addiction
     - smartphone
     - "daily found"
