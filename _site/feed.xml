@@ -7,6 +7,17 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Serj Tankian</title>
+        <description>&lt;p&gt;Small post dedicated about Serj, I’ve watched Game of thrones religiously, even though disappointed with the finale, and alread listen to Rain of castemere by Matt Berninger, recently just heard a version from Serj Tankian, the vocalist of System of a Down, oh god that is great version, kinda much more in to this version, you &lt;a href=&quot;https://www.youtube.com/watch?v=tlkgbwmN9mQ&quot;&gt;should listen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My first exposure to Serj’s voice, of course when they release self titled album, System of a down in 1998, and their following album, toxicity, there’s a lot of anger, tell the story of injustice in their lyric, and i love his voice, very distinct with other band in the same era, like limp bizkit (&lt;em&gt;meh?&lt;/em&gt;), or other band (i also love Rage Against the Machine).&lt;/p&gt;
+</description>
+        <pubDate>Thu, 27 Feb 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/02/serj-tankian</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/02/serj-tankian</guid>
+      </item>
+    
+      <item>
         <title>Diet Informasi</title>
         <description>&lt;p&gt;Diet seperti banyak kata yang terkadang sering disalah artikan, jika diet ini dalam konteks makanan, maka di sini lebih kepada memilih apa yang dikonsumsi, dan lebih awas dengan apa yang dikonsumsi, baik jumlah maupun kandungannya.&lt;/p&gt;
 
@@ -216,31 +227,6 @@ Dengan waktu yang pendek, tapi ingin mendapatkan apa apresiasi dari uang yang di
         <pubDate>Wed, 22 Jan 2020 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2020/01/seputar-finansial-hal-yang-perlu-diperhatikan-renovasi-rumah</link>
         <guid isPermaLink="true">http://localhost:4000/2020/01/seputar-finansial-hal-yang-perlu-diperhatikan-renovasi-rumah</guid>
-      </item>
-    
-      <item>
-        <title>Distringit Librorum Multitudo </title>
-        <description>&lt;p&gt;Just like my previous post, titled &lt;a href=&quot;/2019/10/read-maybe-later&quot;&gt;“Read maybe later”&lt;/a&gt;, this quote from Seneca is a hard truth,&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;the abundance of books is distraction &lt;br /&gt;
-(distringit librorum multitudo )&lt;/p&gt;
-
-  &lt;p&gt;Seneca, 1AD&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Sometimes you have too many books, paper or pixel, and you have too little time to read it, and it cluttered, forgotten, even sometime the seal still intact.&lt;/p&gt;
-
-&lt;p&gt;We are living with so many informations, so many knowledge that one could not absorb all of it, i remembered many technical paper that i have collected/downloaded over the year, and read only few of them, that’s the non-physical form, not to mention the physical books that i bought, links that i collected (Pocket or Instapaper), the amount of percentage that i successfully read are like 10-15% of it.&lt;/p&gt;
-
-&lt;p&gt;To be &lt;a href=&quot;/2020/01/melakukan-kebiasaan-menulis-setiap-hari&quot;&gt;more in writing&lt;/a&gt;, i have to be more on reading.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 21 Jan 2020 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/2020/01/distringit-librorum-multitudo</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/01/distringit-librorum-multitudo</guid>
       </item>
     
   </channel>

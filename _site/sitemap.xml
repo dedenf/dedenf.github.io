@@ -1249,6 +1249,10 @@
 <lastmod>2020-02-24T00:00:00+07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2020/02/serj-tankian</loc>
+<lastmod>2020-02-27T00:00:00+07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
@@ -1750,6 +1754,9 @@
 <loc>http://localhost:4000/tag/social-media/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/tag/psychology/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/tag/memories/</loc>
 </url>
 <url>
@@ -2050,10 +2057,10 @@
 <loc>http://localhost:4000/tag/productivity/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/tag/psychology/</loc>
+<loc>http://localhost:4000/tag/people/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/tag/psychsology/</loc>
+<loc>http://localhost:4000/tag/music/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/page/2/</loc>
