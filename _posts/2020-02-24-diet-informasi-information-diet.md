@@ -21,7 +21,7 @@ Diet seperti banyak kata yang terkadang sering disalah artikan, jika diet ini da
 
 Tidak berbeda juga dengan diet informasi, kita memilih sendiri informasi apa yang akan kita konsumsi, dan dari kanal apa informasi itu diterima atau dikonsumsi, dan juga mengukur informasi apa saja yang kita telan..
 
-Saat ini informasi sangat-sangat banyak, dengan banyaknya pipa sumber informasi dan membuat kita kewalahan, bagaimana otak kita memproses informasi, menyaring informasi, apalagi dengan era media sosial, ”informasi” menjadi terasa teramat sangat banyak, informasi yang baik, informasi buruk dan terkadang kita tidak mampu memfilternya, misalkan melihat tweet, atau pesan di whatsapp tentang sesuatu dan tanpa berpikir langsung retweet, forward 	dan ikut menyebarkan, tanpa kita tahu benar atau tidak.
+Saat ini informasi sangat-sangat banyak, dengan banyaknya pipa sumber informasi dan membuat kita kewalahan, bagaimana otak kita memproses informasi, menyaring informasi, apalagi dengan era media sosial, ”informasi” menjadi terasa teramat sangat banyak, informasi yang baik, informasi buruk dan terkadang kita tidak mampu memfilternya, misalkan melihat tweet, atau pesan di whatsapp tentang sesuatu dan tanpa berpikir langsung retweet, forward dan ikut menyebarkan, tanpa kita tahu benar atau tidak. 
 <!--more-->
 
 Kejadian di atas sering sekali terjadi, terlebih ketika masa-masa pemilihan presiden, informasi yang salah, opini yang berkedok berita, doktrin-doktrin yang dituliskan orang-orang, menjadikan informasi yang benar menjadi mahal, media memberitakan opini dengan headline yang bombastis, demi klik dan jumlah orang yang melihat iklan.

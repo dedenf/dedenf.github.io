@@ -8,6 +8,31 @@
     </description>
     
         
+            <item>
+                <title>Daily Found: Heavybit Industries Podcast Network</title>
+                <link>http://localhost:4000/2020/03/daily-found-heavybit-development-podcast-network</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Welp, i found interesting podcast today, which is about <a href="https://www.heavybit.com/library/podcasts/o11ycast/ep-16-observability-and-test-engineers-with-abby-bangser-of-moo/">Observability and Test Engineers</a> from <a href="https://www.heavybit.com/library/podcasts/o11ycast/">O11ycast</a> at <a href="https://www.heavybit.com/library/podcasts/">Heavybit Podcast</a>.</p>
+
+<p>I did a presentation about <a href="https://www.slideshare.net/AgileImpact/deden-fathurahman-observability-within-your-devops-environment-119173990">Observability</a> a while back at Agile Impact Conference, and this episode brings a lot more, and much more thorough, the host are the people i followed much on the interwebs, so it’s a great fits!</p>
+
+<p>Listen the <a href="https://d3aeja1uqhkije.cloudfront.net/podcasts/o11ycast/20200128-o11ycast-016.mp3">#16 Episode here</a></p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/2020/03/daily-found-heavybit-development-podcast-network</guid>
+                <description>
+                    
+                </description>
+                <pubDate>Tue, 03 Mar 2020 00:00:00 +0700</pubDate>
+                <author>{"name"=>"Deden Fathurahman", "url"=>"https://notes.dedenf.com/", "handle"=>"dedenf", "email"=>"dedenf@gmail.com", "twitter"=>"@dedenf", "instagram"=>"@dedenf", "github"=>"dedenf"}</author>
+            </item>
+        
+    
+        
+    
+        
     
         
             <item>
@@ -40,7 +65,7 @@
 
 <p>Tidak berbeda juga dengan diet informasi, kita memilih sendiri informasi apa yang akan kita konsumsi, dan dari kanal apa informasi itu diterima atau dikonsumsi, dan juga mengukur informasi apa saja yang kita telan..</p>
 
-<p>Saat ini informasi sangat-sangat banyak, dengan banyaknya pipa sumber informasi dan membuat kita kewalahan, bagaimana otak kita memproses informasi, menyaring informasi, apalagi dengan era media sosial, ”informasi” menjadi terasa teramat sangat banyak, informasi yang baik, informasi buruk dan terkadang kita tidak mampu memfilternya, misalkan melihat tweet, atau pesan di whatsapp tentang sesuatu dan tanpa berpikir langsung retweet, forward 	dan ikut menyebarkan, tanpa kita tahu benar atau tidak.
+<p>Saat ini informasi sangat-sangat banyak, dengan banyaknya pipa sumber informasi dan membuat kita kewalahan, bagaimana otak kita memproses informasi, menyaring informasi, apalagi dengan era media sosial, ”informasi” menjadi terasa teramat sangat banyak, informasi yang baik, informasi buruk dan terkadang kita tidak mampu memfilternya, misalkan melihat tweet, atau pesan di whatsapp tentang sesuatu dan tanpa berpikir langsung retweet, forward dan ikut menyebarkan, tanpa kita tahu benar atau tidak. 
 <!--more--></p>
 
 <p>Kejadian di atas sering sekali terjadi, terlebih ketika masa-masa pemilihan presiden, informasi yang salah, opini yang berkedok berita, doktrin-doktrin yang dituliskan orang-orang, menjadikan informasi yang benar menjadi mahal, media memberitakan opini dengan headline yang bombastis, demi klik dan jumlah orang yang melihat iklan.</p>
