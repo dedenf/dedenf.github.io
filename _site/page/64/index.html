@@ -19,7 +19,7 @@
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for HyperText Thrones" href="/feed.xml" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/pixyll.css?202003101519" type="text/css">
+    <link rel="stylesheet" href="/css/pixyll.css?202003102356" type="text/css">
 
     <!-- Fonts -->
     
@@ -127,6 +127,63 @@
 <div class="home">
   
     <div class="posts">
+      
+        <div class="post py3">
+           <a href="/2012/01/codeigniter-cache" class="post-link"><h1 class="post-title">Codeigniter Cache Tips </h1></a>
+           <p class="post-meta">
+           <span class="post-meta"><time class='post-meta' datetime='' itemprop='datePublished'>16 Jan 2012</time> &mdash; 
+  
+  
+    1 minute read (208 words)
+  
+
+
+
+</span><br> 
+           
+           <span class="post-meta small">
+            Deden Fathurahman
+           </span>
+           </p>
+
+         
+          
+          <div class="post-summary">
+            
+
+
+            
+
+            
+              
+                <p>Cache system in Codeigniter is a quite nice feature, thanks to its modular system, you can add more than just a built in cache system, you can add your own.</p>
+
+<p>if you want to make an app with search feature, if you don’t implement cache feature in it, the app will always ask the database whether it has the data or not, this could make your database work for just a ‘historical’ data.
+to make things faster, use cache. to get this cache (even it’s in-memory or in-file cache) work, you could make a GET method (or if you have to use POST, that’s ok, will work too) and create a <a href="https://en.wikipedia.org/wiki/URI">URI</a> for that search.</p>
+
+<p>for example, if you want to cache a user information, just put ?key=user_name in URI, so that the URI will be saved as cache by your app (of course you must enable the cache system on config file!).</p>
+
+<p>“what if the user information is changed?”, yes, if the user information is changed your cache will be something  to blame if the information is not updated instantly. to make this work, just delete the cache if there’s a update action in your module, with that you’ll get the same result after its get updated</p>
+
+                <a href="/2012/01/codeigniter-cache">Read more &rarr;</a>
+              
+            
+
+            
+            <div><p><br>
+              Tags:
+              
+                <a href="/tag/php">php</a>,
+              
+                <a href="/tag/cache">cache</a>,
+              
+                <a href="/tag/codeigniter">codeigniter</a>
+              
+              </p>
+              </div>
+            </div>
+
+        </div>
       
         <div class="post py3">
            <a href="/2012/01/playing-with-twitter-bootstrap" class="post-link"><h1 class="post-title">Playing with Twitter Bootstrap </h1></a>

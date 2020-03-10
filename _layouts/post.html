@@ -33,13 +33,14 @@ layout: default
   {% else %}
     {% assign tags = page.tags %}
   {% endif %}
+  <hr class="endofarticle">
   <div>
   Tag{% if page.tags.size > 1 %}s{% endif %}:
   {% for tag in tags %}
     <a href="/tag/{{tag|slugify}}">{{tag}}</a>{% unless forloop.last %},{% endunless %}
   {% endfor %}
   </div>
-
+  <hr>
 </article>
 
 {% if site.show_sharing_icons %}
