@@ -1277,6 +1277,10 @@
 <lastmod>2020-03-10T00:00:00+07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2020/03/daily-found-How-To-Be-Depressed</loc>
+<lastmod>2020-03-11T00:00:00+07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
@@ -2097,6 +2101,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag/podcast/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/book/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/page/2/</loc>
