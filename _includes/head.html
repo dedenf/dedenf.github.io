@@ -14,7 +14,7 @@
     <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{% if page.meta_description %}{{ page.meta_description | xml_escape }}{% elsif page.content %}{{ page.content | strip_html| truncatewords:50 | split:'<!--break-->' | first }}{% else %}{{ site.description | xml_escape }}{% endif %}">
+    <meta name="description" content="{% if page.meta_description %}{{ page.meta_description | xml_escape }}{% elsif page.content %}{{ page.content | strip_html| truncatewords:30 | split:'<!--break-->' | first }}{% else %}{{ site.description | xml_escape }}{% endif %}">
     {% if page.meta_robots %}<meta name="robots" content="{{ page.meta_robots }}">
     {% else %}<meta name="robots" content="all">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
@@ -59,7 +59,7 @@
     <meta property="og:locale" content="{{ site.text.og_locale | default: "en_US" }}">
     <meta property="og:type" content="article">
     <meta property="og:title" content="{% if page.title %}{{ page.title | xml_escape }} - {{ site.author.name }} {% else %} {{ site.title | xml_escape }} - {{ site.author.name }}{% endif %}">
-    <meta property="og:description" content="{% if page.title %} {{ page.content | strip_html| truncatewords:50 | split:'<!--break-->' | first }} {% else %} {{ site.title | xml_escape }} - {{ site.site_subtitle }} by {{ site.author.name }} {% endif %}">
+    <meta property="og:description" content="{% if page.title %} {{ page.content | strip_html| truncatewords:30 | split:'<!--break-->' | first }} {% else %} {{ site.title | xml_escape }} - {{ site.site_subtitle }} by {{ site.author.name }} {% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.author.name | xml_escape }}">
     {% if page.date %}<meta property="article:published_time" content="{{ page.date }}" />{% endif %}
@@ -76,7 +76,7 @@
     <meta name="twitter:site" content="@{{ site.twitter_username }}" />
     <meta name="twitter:creator" content="@{{ site.twitter_username }}" />{% endif %}
     <meta name="twitter:title" content="{% if page.title %}{{ page.title | xml_escape }} - {{ site.author.name }} {% else %} {{ site.title | xml_escape }} - {{ site.author.name }}{% endif %}" />
-    <meta name="twitter:description" content="{% if page.title %} {{ page.content | strip_html| truncatewords:50 | split:'<!--break-->' | first }} {% else %} {{ site.title | xml_escape }} - {{ site.site_subtitle }} by {{ site.author.name }} {% endif %}" />
+    <meta name="twitter:description" content="{% if page.title %} {{ page.content | strip_html| truncatewords:30 | split:'<!--break-->' | first }} {% else %} {{ site.title | xml_escape }} - {{ site.site_subtitle }} by {{ site.author.name }} {% endif %}" />
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />{% if page.title %}
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="{{ site.author.name}}" />
