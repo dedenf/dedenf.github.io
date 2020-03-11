@@ -15,7 +15,7 @@ published: true
 
 Banyak hal yang berkaitan dengan [depresi](https://notes.dedenf.com/2017/11/dailybite-14), [anxiety](https://notes.dedenf.com/2019/12/coffee-anxiety-nervous-stress-related), dan buku "[How To Be Depressed](https://www.upenn.edu/pennpress/book/16088.html)", membahas soal bagaimana mengatasi itu semua.
 
-Dan ada juga yang mencoba untuk mensarikan yang dibahas di buku tersebut, [di sini](https://nplusonemag.com/online-only/online-only/tips-for-the-depressed/), yang menarik dari inti sari-nya adaalah pembahasan tentang hal yang menurut kita kecil, banyak minum, 
+Dan ada juga yang mencoba untuk mensarikan yang dibahas di buku tersebut, [di sini](https://nplusonemag.com/online-only/online-only/tips-for-the-depressed/), yang menarik dari inti sari-nya adalah pembahasan tentang hal yang menurut kita kecil, banyak minum, 
 
 <!--more-->
 

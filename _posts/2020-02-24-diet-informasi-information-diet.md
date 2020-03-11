@@ -50,4 +50,4 @@ Di smartphone yang saat ini umum dimiliki oleh orang-orang, dan memiliki fitur n
 Dengan mematikan notifikasi, setidaknya kita menghapus rasa keharusan membuka smartphone setiap waktu, dan menghindari Nomophobia.
 
 ### Membaca buku fisik
-Ini mungkin bukan untuk semua orang, tapi ini berhasil untuk saya sendiri, dengan menggenggam buku, merasakan kertas di tangan dan membacanya sangat berbeda dengan apa yang dirasakan ketika membaca sesuatu di *smartphone*, membaca buku fisik itu melatih kesabaran, dan menikmati sususan kata, mencerna.
+Ini mungkin bukan untuk semua orang, tapi ini berhasil untuk saya sendiri, dengan menggenggam buku, merasakan kertas di tangan dan membacanya sangat berbeda dengan apa yang dirasakan ketika membaca sesuatu di *smartphone*, membaca buku fisik itu melatih kesabaran, dan menikmati susunan kata, mencerna.
