@@ -7,6 +7,56 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>PPP, framework untuk komunikasi dan manajemen project</title>
+        <description>&lt;p&gt;Jurnaling merupakan salah satu hal yang bisa dilakukan dalam mendokumentasikan apa yang kita kerjakan atau update yang hendak kita sampaikan dalam satu project yang kita kerjakan, ada framework yang bisa dikerjakan yang menjadi compliment terhadap jurnaling, yaitu framework &lt;strong&gt;PPP&lt;/strong&gt; (Progress, Problem, Plan, tidak selalu dalam urutan ini).&lt;/p&gt;
+
+&lt;p&gt;Dengan mendefinisikan,&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Progress&lt;/strong&gt; &lt;br /&gt;
+ Menceritakan progres atau apa yang sudah diraih dalam satu minggu misalkan (durasi bebas, bisa satu hari, minggu, bulan)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Problem&lt;/strong&gt; &lt;br /&gt;
+ Menceritakan kendala yang dihadapi dalam mencapai progres itu, baik yang sudah dilalui atau yang sedang dilalui, belum selesai.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Plan&lt;/strong&gt; &lt;br /&gt;
+ Rencana apa saja yang akan dikerjakan, diraih minggu depan (besok, bulan depan)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Contoh implementasi, PPP saya gunakan ketika meng-update tim sendiri dan tim lain terkait dengan project yang sedang saya dan tim saya lakukan, sehingga bisa dimengerti oleh tim lain dan bisa bersinergi,&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Progress
+    &lt;ul&gt;
+      &lt;li&gt;Membuat &lt;em&gt;automation&lt;/em&gt; (saat ini berhasil mengurangi &lt;em&gt;manual step&lt;/em&gt; untuk &lt;em&gt;provisioning&lt;/em&gt; dan &lt;em&gt;deployment&lt;/em&gt;)&lt;/li&gt;
+      &lt;li&gt;Pods untuk tipe special project berhasil di&lt;em&gt;support&lt;/em&gt;&lt;/li&gt;
+      &lt;li&gt;Implementasi NLB untuk beberapa service (yang lain menyusul).&lt;/li&gt;
+      &lt;li&gt;Membuat repo baru yang ditujukan untuk onboarding developer baru.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Problems
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;Alerting system&lt;/em&gt; terkadang mengganggu, terlalu banyak alert malah cenderung diabaikan&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;Development workflow&lt;/em&gt; untuk beberapa project terlalu rumit&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Plans
+    &lt;ul&gt;
+      &lt;li&gt;Melakukan housekeeping untuk data yang tidak dipakai&lt;/li&gt;
+      &lt;li&gt;Mengimplementasikan automation di beberapa project lain&lt;/li&gt;
+      &lt;li&gt;Tune up Alerting, mengurangi alerting yang tidak perlu&lt;/li&gt;
+      &lt;li&gt;Menyederhanakan &lt;em&gt;development workfolow&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Dengan melakukan hal ini, setidaknya untuk saya, selain bisa membuat jurnaling apa yang sudah dilakukan sehingga lebih bisa memiliki konteks dan ownership dalam project, juga bisa untuk meng-&lt;em&gt;update&lt;/em&gt; tim lain apa yang sudah dikerjakan, dan jika ada tim lain yang bisa membantu atas &lt;em&gt;Problem&lt;/em&gt; dan &lt;em&gt;Plan&lt;/em&gt; kita, maka komunikasi dengan tim bisa terus terjaga, komunikasi yang baik adalah pilar dari project yang sukses dan berkesinambungan.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 14 Mar 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/03/problem-progress-plan</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/03/problem-progress-plan</guid>
+      </item>
+    
+      <item>
         <title>Daily Found: How To Be Depressed</title>
         <description>&lt;p&gt;&lt;img src=&quot;https://ingram-pennsylvania.imgix.net/covers/9780812252019.jpg?auto=format&amp;amp;w=450&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -206,24 +256,6 @@ Koleksi newsletter yang ditampilkan juga banyak, dengan UI yang bagus, dan memil
         <pubDate>Mon, 24 Feb 2020 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2020/02/diet-informasi-information-diet</link>
         <guid isPermaLink="true">http://localhost:4000/2020/02/diet-informasi-information-diet</guid>
-      </item>
-    
-      <item>
-        <title>Survivorship bias</title>
-        <description>&lt;p&gt;&lt;em&gt;Survivorship bias&lt;/em&gt; Ini adalah salah satu jenis prasangka (&lt;em&gt;bias&lt;/em&gt;) yang sering terjadi, tentu kita sering temui dan membaca artikel seperti “&lt;strong&gt;5 Hal yang dilakukan orang sukses!&lt;/strong&gt;”, atau “&lt;strong&gt;Milyuner ini melakukan 3 hal dalam hidupnya!&lt;/strong&gt;”, atau melihat tokoh-tokoh sukses yang bisa melakukan ini itu, berhasil dalam bidang yang mereka geluti, yang berakhir dengan cerita kisah sukses orang tersebut.
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;Orang-orang yang sukses tersebut menuliskan, atau ada orang lain yang menuliskan rahasia suksesnya, yang berisi kebiasaan-kebiasaan orang sukses yang menjadikannya sukses, setidaknya dalam pikiran mereka, yang kemudian orang-orang menirunya, dengan harapan bisa ikut sukses atau berhasil dalam urusannya.&lt;/p&gt;
-
-&lt;p&gt;Nyatanya, tidak seperti itu, hal yang orang sukses lalui berbeda-beda perjalanannya, dan kebiasaan yang mereka lakukan bukan suatu jaminan akan bisa mencetak kesuksesan yang sama juga untuk orang lain.&lt;/p&gt;
-
-&lt;p&gt;Mark Zuckerberg dan Bill Gates adalah pengusaha sukses yang tidak lulus kuliah, dan bukan berarti menggunakan argumen tidak lulus kuliah akan menjadi sukses, ini salah satu &lt;a href=&quot;/2019/07/logical-fallacy-kesesatan-berpikir&quot;&gt;logical fallacy&lt;/a&gt; juga.&lt;/p&gt;
-
-&lt;p&gt;Kita lebih cenderung berkonsentrasi dan fokus pada orang yang sukses tadi, apa yang sudah/bisa mereka raih dengan kesuksesan itu, dan berasumsi misalkan contohnya orang-orang sukses bangun lebih pagi, jam 4 misalkan, dengan bangun pagi jam 4 orang tersebut bisa sukses dalam urusannya, dan tentunya banyak juga orang yang bangun jam 4 dan tidak sukses, dan jumlahnya bisa sangat banyak pastinya.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 17 Feb 2020 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/2020/02/survivorship-bias-prasangka</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/02/survivorship-bias-prasangka</guid>
       </item>
     
   </channel>
