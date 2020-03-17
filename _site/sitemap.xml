@@ -1281,6 +1281,10 @@
 <lastmod>2020-03-14T00:00:00+07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2020/03/manusia-covid-19</loc>
+<lastmod>2020-03-17T00:00:00+07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
@@ -2293,5 +2297,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/page/64/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page/65/</loc>
 </url>
 </urlset>
