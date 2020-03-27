@@ -14,10 +14,10 @@ categories: dailyfound
 published: true
 comments: true
 image:
-    teaser: "https://d33wubrfki0l68.cloudfront.net/fbc19190716a5a4ac0bea17f4ec6034da6c9b2ac/8b8d3/images/posts/keuangan-ber-basis-perilaku-small.jpg"
-    feature: "https://d33wubrfki0l68.cloudfront.net/fbc19190716a5a4ac0bea17f4ec6034da6c9b2ac/8b8d3/images/posts/keuangan-ber-basis-perilaku-small.jpg"
-    author: "Deden Fathurahman"
-    creditlink: "https://seputarfinansial.com/images/posts/keuangan-ber-basis-perilaku.jpg"
+    teaser: "https://d33wubrfki0l68.cloudfront.net/38cae92312b439dd44725742c4e69281cf1054d1/aa3da/images/posts/tom-thain-_0urg2zegmc-unsplash.jpg"
+    feature: "https://d33wubrfki0l68.cloudfront.net/38cae92312b439dd44725742c4e69281cf1054d1/aa3da/images/posts/tom-thain-_0urg2zegmc-unsplash.jpg"
+    author: "Tom Thain"
+    creditlink: "https://unsplash.com/photos/_0URG2ZegMc"
     url: true
 ---
 
