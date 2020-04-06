@@ -7,6 +7,19 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Daily Found: Exploring the effects of social media on art and culture, one selfie at a time</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://edition.cnn.com/style/article/instagram-installation-art/index.html&quot;&gt;Artikel yang terhitung lama&lt;/a&gt;, tapi masih sangat relevan dengan bagaimana media sosial, terutama Instagram mempengaruhi &lt;a href=&quot;https://www.archdaily.com/876903/instagram-is-changing-how-we-design-spaces-and-creating-incredibly-lucrative-businesses&quot;&gt;design arsitektur&lt;/a&gt;, bangunan seperti hotel, restoran, cafe dan bahkan taman didesain menjadi “&lt;em&gt;Instagrammable&lt;/em&gt;”.&lt;/p&gt;
+
+&lt;p&gt;Bahkan &lt;a href=&quot;https://www.bbc.com/indonesia/majalah/2016/10/161016_majalah_kampung_warna_warni_malang&quot;&gt;satu kampung&lt;/a&gt; didesain menjadi menarik di malang, menjadikan banyak spot Instagram.&lt;/p&gt;
+
+&lt;p&gt;Dan itu menjadi satu hal normal baru yang dulu mungkin tidak begitu dilihat, dan dengan keadaan pandemi seperti sekarang, mungkin tempat-tempat itu menjadi kosong, bahkan banyak usaha seperti cafe, hotel, yang gulung tikar karena tidak ada pengunjung.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Apr 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/04/how-instagram-design-building</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/04/how-instagram-design-building</guid>
+      </item>
+    
+      <item>
         <title>Tontonan selama pandemi dan isolasi mandiri</title>
         <description>&lt;p&gt;Sudah hampir 3 minggu saat ini perusahaan tempat saya bekerja menerapkan kebijakan &lt;a href=&quot;/2020/03/work-from-home&quot;&gt;bekerja dari rumah&lt;/a&gt;, karena virus corona (Covid-19) yang saat ini mewabah, selain tetap mengerjakan pekerjaan, terkadang perubahan dari ritme bekerja-dengan-pergi-ke-kantor menjadi ”hanya” bangun, mandi, kemudian bekerja di rumah, di area manapun.&lt;/p&gt;
 
@@ -286,21 +299,6 @@ Koleksi newsletter yang ditampilkan juga banyak, dengan UI yang bagus, dan memil
         <pubDate>Fri, 06 Mar 2020 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2020/03/seputar-finansial-buku-perilaku-keuangan</link>
         <guid isPermaLink="true">http://localhost:4000/2020/03/seputar-finansial-buku-perilaku-keuangan</guid>
-      </item>
-    
-      <item>
-        <title>Daily Found: Heavybit Industries Podcast Network</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://www.heavybit.com/wp-content/uploads/2018/06/ollycast-artwork-1024x1024.jpg&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Welp, i found interesting podcast today, which is about &lt;a href=&quot;https://www.heavybit.com/library/podcasts/o11ycast/ep-16-observability-and-test-engineers-with-abby-bangser-of-moo/&quot;&gt;Observability and Test Engineers&lt;/a&gt; from &lt;a href=&quot;https://www.heavybit.com/library/podcasts/o11ycast/&quot;&gt;O11ycast&lt;/a&gt; at &lt;a href=&quot;https://www.heavybit.com/library/podcasts/&quot;&gt;Heavybit Podcast&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I did a presentation about &lt;a href=&quot;https://www.slideshare.net/AgileImpact/deden-fathurahman-observability-within-your-devops-environment-119173990&quot;&gt;Observability&lt;/a&gt; a while back at Agile Impact Conference, and this episode brings a lot more, and much more thorough, the host are the people i followed much on the interwebs, so it’s a great fits!&lt;/p&gt;
-
-&lt;p&gt;Listen the &lt;a href=&quot;https://d3aeja1uqhkije.cloudfront.net/podcasts/o11ycast/20200128-o11ycast-016.mp3&quot;&gt;#16 Episode&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 03 Mar 2020 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/2020/03/daily-found-heavybit-development-podcast-network</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/03/daily-found-heavybit-development-podcast-network</guid>
       </item>
     
   </channel>
