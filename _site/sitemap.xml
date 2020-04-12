@@ -1301,6 +1301,14 @@
 <lastmod>2020-04-06T00:00:00+07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2020/04/amazing-game-life</loc>
+<lastmod>2020-04-10T00:00:00+07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2020/04/memelan</loc>
+<lastmod>2020-04-12T00:00:00+07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
@@ -2319,5 +2327,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/page/65/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page/66/</loc>
 </url>
 </urlset>
