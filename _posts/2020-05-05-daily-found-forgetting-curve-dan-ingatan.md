@@ -21,7 +21,7 @@ Menariknya mengenai [Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_
 
 <!--more-->
 
-Dan saat ini saya menggunakan 1Password untuk mengatur akun login, password, dan juga informasi-informasi private lainnya di aplikasi tersebut, hal ini dalam satu sisi membantu kita agar bisa memikirkan hal lain selain password, bisa mengalokasikan energinya untuk hal lain juga, dan bisa lebih produktif, di atas kertas.
+Dan saat ini saya menggunakan [1Password](https://1password.com/) untuk mengatur akun login, password, dan juga informasi-informasi private lainnya di aplikasi tersebut, hal ini dalam satu sisi membantu kita agar bisa memikirkan hal lain selain password, bisa mengalokasikan energinya untuk hal lain juga, dan bisa lebih produktif, di atas kertas.
 
 Kenyataannya tidak selalu begitu, bagian untuk mengingat tersebut tidak digunakan untuk hal lain seperti yang direncanakan.
 
