@@ -11,6 +11,7 @@
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="After adding current listened track into my commit message, now i’m adding the action, i take picture everytime commiting something. here’s how. get ImageSnap brew install imagesnap or port install...">
+    <meta name="p:domain_verify" content="f61f05993d4984cd7707cc85bb871cb2"/>
     <meta name="robots" content="all">
     <meta name="author" content="Deden Fathurahman">
     
@@ -19,7 +20,7 @@
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for HyperText Thrones" href="/feed.xml" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/pixyll.css?202004130103" type="text/css">
+    <link rel="stylesheet" href="/css/pixyll.css?202005051910" type="text/css">
 
     <!-- Fonts -->
     
@@ -87,7 +88,7 @@
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
     <link rel="shortcut icon" href="/favicon.ico">
-
+    
     
     <script type="text/javascript">
        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -161,7 +162,7 @@
 <p>the hook</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
-<span class="nv">COMMITID</span><span class="o">=</span><span class="k">$(</span>git rev-parse HEAD<span class="k">)</span>
+<span class="nv">COMMITID</span><span class="o">=</span><span class="si">$(</span>git rev-parse HEAD<span class="si">)</span>
 imagesnap <span class="nt">-q</span> <span class="nt">-w</span> 1 .gitsnap/<span class="nv">$COMMITID</span>.jpg<span class="sb">`</span>
 </code></pre></div></div>
 
