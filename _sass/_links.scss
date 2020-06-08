@@ -10,19 +10,23 @@ a {
   text-shadow: white 1px 0px 0px, white -1px 0px 0px;
 }
 
+p a {
+  border-bottom: 2px solid #2cd0e9;
+}
 a:hover,
 a:focus,
 a:active {
   border: 0;
   color: $link-hover-color;
   text-decoration: none;
-  background-image: linear-gradient(to top,
-    rgba(0,0,0,0) 13%,
-    rgba($link-hover-color,.8) 13%,
-    rgba($link-hover-color,.8) 17%,
-    rgba(0,0,0,0) 17%
-  );
-  text-shadow: white 1px 0px 0px, white -1px 0px 0px;
+  // background-image: linear-gradient(to top,
+  //   rgba(0,0,0,0) 13%,
+  //   rgba($link-hover-color,.8) 13%,
+  //   rgba($link-hover-color,.8) 17%,
+  //   rgba(0,0,0,0) 17%
+  // );
+  // text-shadow: white 1px 0px 0px, white -1px 0px 0px;
+  border-bottom: none;
 }
 
 // Correct issues with buttons
