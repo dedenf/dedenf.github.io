@@ -7,6 +7,19 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Daily Found: Google Podcast Web</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/posts/google-podcast.png&quot; alt=&quot;&quot; title=&quot;My subscribed Podcast channel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At last, &lt;a href=&quot;https://podcasts.google.com/&quot;&gt;Google Podcast web&lt;/a&gt; version with synced with its mobile app, now it is completed, i could listen to podcast on my commuting or working out, and also could listen to my subscribed channel on my computer, and it’s all synced with its timing and listen histories.&lt;/p&gt;
+
+&lt;p&gt;Other podcast app (mobile or web) has this feature already built in, like &lt;a href=&quot;https://www.breaker.audio/&quot;&gt;Breaker&lt;/a&gt;, &lt;a href=&quot;https://anchor.fm/&quot;&gt;Anchor&lt;/a&gt; or even &lt;a href=&quot;https://spotify.com/&quot;&gt;Spotify&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Jun 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/06/google-podcast-web</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/06/google-podcast-web</guid>
+      </item>
+    
+      <item>
         <title>Darah Murni</title>
         <description>&lt;p&gt;Dengan adanya pembunuhan terhadap George Flyod, yang memicu protes dan kerusuhan di Amerika, karena polisi dianggap telah melakukan kejahatan, disebut memiliki alasan ras, kulit putih vs kulit hitam, yang mana kondisi ini sudah terlampau parah di Amerika, yang memiliki sejarah perbudakan, banyak manusia dari Afrika dijadikan budak untuk bekerja di ladang atau pekerjaan kasar lainnya.&lt;/p&gt;
 
@@ -228,36 +241,6 @@
         <pubDate>Fri, 27 Mar 2020 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2020/03/work-from-home-yang-perlu-diperhatikan</link>
         <guid isPermaLink="true">http://localhost:4000/2020/03/work-from-home-yang-perlu-diperhatikan</guid>
-      </item>
-    
-      <item>
-        <title>Bekerja dari rumah</title>
-        <description>&lt;p&gt;Dengan merebaknya wabah &lt;a href=&quot;/2020/03/manusia-covid-19&quot;&gt;corona&lt;/a&gt; di indonesia, terutama Jakarta, tempat saya bekerja mengeluarkan kebijakan untuk bekerja dari rumah, dan hanya keluar jika sangat diperlukan saja.&lt;/p&gt;
-
-&lt;p&gt;Dan dari selasa sampai jumat, 17-20 maret ini saya melakukan pekerjaan dari rumah, dan ini kali pertama melakukan itu secara khusus dan &lt;em&gt;fulltime&lt;/em&gt;, memang sebelumnya pernah, tapi karena dalam kondisi harus istirahat sakit, dan hanya bantu secukupnya dan tidak &lt;em&gt;fulltime&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Hal yang saya sadari susah itu adalah memfokuskan diri ketika jam kerja, tanpa harus seperti terlihat jadi orang asing di rumah sendiri dengan keluarga, yang mana jika kita sedang bekerja, sedang istri perlu bantuan, di sini kondisi bantu atau tidak, atau nanti-dibantunya merupakan hal yang terjadi hampir setiap hari.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;&lt;em&gt;Meeting&lt;/em&gt;, nah ini merupakan hal yang saya sendiri sedang mencoba untuk lebih bisa fokus, jika situasi di meja kerja di rumah agak tidak memungkinkan melakukan pekerjaan, berisik misalkan, saya bisa melakukan pekerjaan di kamar, atau tempat lain yang bisa membantu kita lebih fokus.&lt;/p&gt;
-
-&lt;p&gt;Hal yang saya coba sarikan dalam hampir seminggu bekerja dari rumah,&lt;/p&gt;
-&lt;h3 id=&quot;buat-jadwal-yang-rutin&quot;&gt;Buat jadwal yang rutin&lt;/h3&gt;
-&lt;p&gt;Saya mencoba untuk selalu mandi pagi pada jam yang sama di hari kerja, hal ini untuk membuat otak sama berpikir bahwa ini hari kerja, dan sebentar lagi saya akan melakukan pekerjaan, jika tidak ada hal yang rutin yang dilakukan seperti pada hari kerja di kantor, kita akan tersesat dalam waktu dan agak susah kembali ke ritme yang sudah berjalan.&lt;/p&gt;
-
-&lt;h3 id=&quot;siapkan-internet&quot;&gt;Siapkan internet&lt;/h3&gt;
-&lt;p&gt;Ya memang ini keharusan, koneksi internet yang memadai bisa menunjang pekerjaan.&lt;/p&gt;
-
-&lt;h3 id=&quot;buat-batasan&quot;&gt;Buat batasan&lt;/h3&gt;
-&lt;p&gt;Ini yang memang sedang dipelajari, sedang mencoba mengadaptasi, agak susah dan butuh banyak penyesuaian baik dari saya maupun dari orang rumah, butuh banyak pengertian dari dua pihak.&lt;/p&gt;
-
-&lt;h3 id=&quot;lihat-sisi-positif&quot;&gt;Lihat sisi positif&lt;/h3&gt;
-&lt;p&gt;Dengan adanya kebijakan bekerja dari rumah, bisa lebih dekat dengan keluarga, bisa membantu jika diperlukan dan bisa dimasakin setiap hari, bisa memakai baju santai setiap hari, tidak perlu kemeja atau baju formal.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 21 Mar 2020 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/2020/03/work-from-home</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/03/work-from-home</guid>
       </item>
     
   </channel>
