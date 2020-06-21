@@ -7,6 +7,21 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Video sebagai pengganti membaca?</title>
+        <description>&lt;p&gt;Dengan informasi super cepat, dengan waktu fokus sedikit, atau setidaknya kita merasa waktu kita sedikit, menjadikan pola perhatikan kita kacau, tidak bisa berkonsentrasi terhadap suatu hal, dengan alasan waktu.&lt;/p&gt;
+
+&lt;p&gt;Seperti membangun suatu kebiasaan baru, membangun kebiasaan membaca, memang hal yang tidak gampang, tidak ada &lt;em&gt;reward&lt;/em&gt; yang didapat secara instan kalo kita membaca, yang kita lihat adalah susunan huruf yang mana harus kita proses oleh otak kita, dan itu bagi sebagian orang melelahkan…&lt;/p&gt;
+
+&lt;p&gt;Sekarang kita lihat blog, dan atau website-website yang menerangkan sesuatu sudah dalam bentuk video, hal visual, ada sesuatu yang dilihat, berubah, dan “dinamis”, ini adalah bentuk dari &lt;em&gt;reward&lt;/em&gt; instan yang didapat oleh otak kita ketika mengkonsumsi video, tidak perlu &lt;em&gt;mikir&lt;/em&gt;, visual sudah diserahkan kepada yang membuat video, sehingga kita merasa jadi lebih bisa menikmati video, dan jika ada bagian yang tidak disukai, tinggal cepatkan atau pindah ke bagian yang “menyenangkan”.&lt;/p&gt;
+
+&lt;p&gt;Ada hal lain dari membaca yang tidak bisa digantikan oleh video, otak kita dilatih untuk mengurai kalimat, mencerna kata, dan membuat visualisasi terhadap apa yang kita baca tersebut di otak kita, melelahkan? mungkin, tapi dengan itu otak jadi lebih terlatih, dan lebih sabar.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 21 Jun 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/06/membaca-evolusi-video</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/06/membaca-evolusi-video</guid>
+      </item>
+    
+      <item>
         <title>Daily Found: Google Podcast Web</title>
         <description>&lt;p&gt;&lt;img src=&quot;/images/posts/google-podcast.png&quot; alt=&quot;&quot; title=&quot;My subscribed Podcast channel&quot; /&gt;&lt;/p&gt;
 
@@ -226,21 +241,6 @@
         <pubDate>Wed, 01 Apr 2020 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2020/04/selama-pandemi-work-from-home</link>
         <guid isPermaLink="true">http://localhost:4000/2020/04/selama-pandemi-work-from-home</guid>
-      </item>
-    
-      <item>
-        <title>Hal-hal yang ada ketika bekerja dari rumah</title>
-        <description>&lt;p&gt;Selain hal yang &lt;a href=&quot;/2020/03/work-from-home&quot;&gt;sebaiknya dilakukan ketika bekerja di rumah&lt;/a&gt;, ada hal-hal yang perlu diperhatikan juga, karena bekerja dari rumah bukan berarti bebas masalah, terutama mengenai penggunaan listrik.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;dengan adanya yang bekerja di rumah, menambah orang yang rumah disaat siang hari, yang sebelumnya tidak ada penggunaan listrik siang hari menjadi ada, dan terkadang AC hidup sepanjang hari (yup, saya sendiri mengalami), kemudian lampu yang dihidupkan kalau gelap pada siang hari.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Dan hal lain seperti makanan, kesehatan dan lainnya.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 27 Mar 2020 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/2020/03/work-from-home-yang-perlu-diperhatikan</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/03/work-from-home-yang-perlu-diperhatikan</guid>
       </item>
     
   </channel>
