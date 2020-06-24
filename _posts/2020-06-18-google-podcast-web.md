@@ -12,7 +12,7 @@ comments: true
 published: true
 ---
 
-![](/images/posts/google-podcast.png "My subscribed Podcast channel")
+![My subscribed Podcast channel](/images/posts/google-podcast.png "My subscribed Podcast channel")
 
 At last, [Google Podcast web](https://podcasts.google.com/) version with synced with its mobile app, now it is completed, i could listen to podcast on my commuting or working out, and also could listen to my subscribed channel on my computer, and it's all synced with its timing and listen histories across devices, i could listen on my phone, and continue on my computer.
 
