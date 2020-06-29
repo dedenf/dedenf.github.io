@@ -8,6 +8,8 @@
     </description>
     
         
+    
+        
             <item>
                 <title>Video sebagai pengganti membaca?</title>
                 <link>http://localhost:4000/2020/06/membaca-evolusi-video</link>
@@ -38,9 +40,9 @@
                 <link>http://localhost:4000/2020/06/google-podcast-web</link>
                 <content:encoded>
                     <![CDATA[
-                    <p><img src="/images/posts/google-podcast.png" alt="" title="My subscribed Podcast channel" /></p>
+                    <p><img src="/images/posts/google-podcast.png" alt="My subscribed Podcast channel" title="My subscribed Podcast channel" /></p>
 
-<p>At last, <a href="https://podcasts.google.com/">Google Podcast web</a> version with synced with its mobile app, now it is completed, i could listen to podcast on my commuting or working out, and also could listen to my subscribed channel on my computer, and it’s all synced with its timing and listen histories.</p>
+<p>At last, <a href="https://podcasts.google.com/">Google Podcast web</a> version with synced with its mobile app, now it is completed, i could listen to podcast on my commuting or working out, and also could listen to my subscribed channel on my computer, and it’s all synced with its timing and listen histories across devices, i could listen on my phone, and continue on my computer.</p>
 
 <p>Other podcast app (mobile or web) has this feature already built in, like <a href="https://www.breaker.audio/">Breaker</a>, <a href="https://anchor.fm/">Anchor</a> or even <a href="https://spotify.com/">Spotify</a>.</p>
 
