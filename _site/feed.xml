@@ -7,6 +7,21 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Daily Found: Zodiak</title>
+        <description>&lt;p&gt;Meski saya sendiri tidak begitu memandang serius mengenai zodiak, tapi menarik untuk dibaca asal usul dan juga bagaimana zodiak menjadi satu acuan satu sifat yang dibawa manusia, berubah makna awalnya dari penanggalan revolusi bumi ke matahari.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Babylonians lived over 3,000 years ago. They divided the zodiac into 12 equal parts – like cutting a pizza into 12 equal slices. They picked 12 constellations in the zodiac, one for each of the 12 “slices.” So, as Earth orbits the sun, the sun would appear to pass through each of the 12 parts of the zodiac. Since the Babylonians already had a 12-month calendar (based on the phases of the moon), each month got a slice of the zodiac all to itself.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Penanggalan ini digunakan oleh bangsa babilonia pada zaman dahulu, dan juga pemilihan 12 tanda zodiak.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Jul 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/07/zodiak</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/07/zodiak</guid>
+      </item>
+    
+      <item>
         <title>Seputar Finansial: Membangun pola pikir positif terhadap uang</title>
         <description>&lt;p&gt;Pola pikir terhadap uang tiap orang bisa berbeda, ada yang memandang uang sebagai hal yang baik, dan bisa juga menjadi hal yang buruk, membangun pola pikir positif terhadap uang agar kehidupan finansial bisa lebih baik.&lt;/p&gt;
 
@@ -173,19 +188,6 @@
         <pubDate>Fri, 10 Apr 2020 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2020/04/amazing-game-life</link>
         <guid isPermaLink="true">http://localhost:4000/2020/04/amazing-game-life</guid>
-      </item>
-    
-      <item>
-        <title>Daily Found: Exploring the effects of social media on art and culture, one selfie at a time</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://edition.cnn.com/style/article/instagram-installation-art/index.html&quot;&gt;Artikel yang terhitung lama&lt;/a&gt;, tapi masih sangat relevan dengan bagaimana media sosial, terutama Instagram mempengaruhi &lt;a href=&quot;https://www.archdaily.com/876903/instagram-is-changing-how-we-design-spaces-and-creating-incredibly-lucrative-businesses&quot;&gt;design arsitektur&lt;/a&gt;, bangunan seperti hotel, restoran, cafe dan bahkan taman didesain menjadi “&lt;em&gt;Instagrammable&lt;/em&gt;”.&lt;/p&gt;
-
-&lt;p&gt;Bahkan &lt;a href=&quot;https://www.bbc.com/indonesia/majalah/2016/10/161016_majalah_kampung_warna_warni_malang&quot;&gt;satu kampung&lt;/a&gt; didesain menjadi menarik di malang, menjadikan banyak spot Instagram.&lt;/p&gt;
-
-&lt;p&gt;Dan itu menjadi satu hal normal baru yang dulu mungkin tidak begitu dilihat, dan dengan keadaan pandemi seperti sekarang, mungkin tempat-tempat itu menjadi kosong, bahkan banyak usaha seperti cafe, hotel, yang gulung tikar karena sepi tidak ada pengunjung.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 06 Apr 2020 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/2020/04/how-instagram-design-building</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/04/how-instagram-design-building</guid>
       </item>
     
   </channel>
