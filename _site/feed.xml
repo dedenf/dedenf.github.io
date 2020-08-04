@@ -7,6 +7,19 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Celebrating Netlify</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/posts/netlify-celebrate.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Been using and fans of Netlify, using it for &lt;a href=&quot;https://seputarfinansial.com&quot;&gt;all&lt;/a&gt; &lt;a href=&quot;https://jakartadev.org&quot;&gt;of&lt;/a&gt; &lt;a href=&quot;https://seputardevops.com&quot;&gt;my blogs&lt;/a&gt;, &lt;a href=&quot;https://notes.dedenf.com&quot;&gt;this blog&lt;/a&gt; included, and according to the Netlify, since they are currently aiming for 1 Million users, i was at #185.019, happy customer, not yet using their premium feature, the basic one still enough for me.&lt;/p&gt;
+
+&lt;p&gt;Thanks &lt;a href=&quot;https://netlify.com&quot;&gt;Netlify&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/08/netlify-users</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/08/netlify-users</guid>
+      </item>
+    
+      <item>
         <title>Daily Found: Zodiak</title>
         <description>&lt;p&gt;Meski saya sendiri tidak begitu memandang serius mengenai zodiak, tapi menarik untuk dibaca asal usul dan juga bagaimana zodiak menjadi satu acuan satu sifat yang dibawa manusia, berubah makna awalnya dari penanggalan revolusi bumi ke matahari.&lt;/p&gt;
 
@@ -173,21 +186,6 @@
         <pubDate>Sun, 12 Apr 2020 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2020/04/memelan</link>
         <guid isPermaLink="true">http://localhost:4000/2020/04/memelan</guid>
-      </item>
-    
-      <item>
-        <title>Daily Found: My disabled son’s amazing gaming life in the World of Warcraft</title>
-        <description>&lt;p&gt;This is an amazing article, his son got a rare disorder that causes muscle degeneration, called Duchenne muscular dystrophy (DMD), and has to be on a wheelchair, but since his son loved computer game, the father decided give him one, and the online adventure begin.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;He immersed himself on the planet Azeroth, in the hugely popular game World of Warcraft. Azeroth is a mythical fantasy world. There are continents, seas and forests, cliffs and plains, villages and cities. Mats spent most of his time in a region called the Eastern Kingdoms.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;He found a new world, found new friends, build new community, and more than anything, a friendship.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 10 Apr 2020 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/2020/04/amazing-game-life</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/04/amazing-game-life</guid>
       </item>
     
   </channel>
