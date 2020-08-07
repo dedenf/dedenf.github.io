@@ -1345,6 +1345,10 @@
 <lastmod>2020-08-04T00:00:00+07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2020/08/lebih-banyak-membaca-sejarah-daripada-prediksi</loc>
+<lastmod>2020-08-07T00:00:00+07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
@@ -2180,6 +2184,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag/constellations/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/note-to-self/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/page/2/</loc>

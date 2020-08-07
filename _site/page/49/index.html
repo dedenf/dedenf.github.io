@@ -20,7 +20,7 @@
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for HyperText Thrones" href="/feed.xml" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/pixyll.css?202008041625" type="text/css">
+    <link rel="stylesheet" href="/css/pixyll.css?202008071439" type="text/css">
 
     <!-- Fonts -->
     
@@ -129,6 +129,57 @@
 <div class="home">
   
     <div class="posts">
+      
+        <div class="post py3">
+           <a href="/2016/08/laravel-file-extension" class="post-link"><h1 class="post-title">Extensi file Virtual di Laravel </h1></a>
+           <p class="post-meta">
+           <span class="post-meta"><time class='post-meta' datetime='' itemprop='datePublished'>24 Aug 2016</time> &mdash; 
+  
+  
+    less than 1 minute read (154 words)
+  
+
+
+
+</span><br> 
+           
+           <span class="post-meta small">
+            Deden Fathurahman
+           </span>
+           </p>
+
+         
+          
+          <div class="post-summary">
+            
+
+
+            
+
+            
+              
+                <p>Kasus ini terjadi karena hendak menggunakan Facebook dynamic ads, untuk memenuhi syarat yang ditulis di <a href="https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/product-catalog">dokumentasi facebook marketing</a>, dibutuhkan file XML sebagai data feeding ke marketing funnel feed.</p>
+
+<p>dalam percobaan pertama, hasil response yang digunakan adalah dengan menambahkan <code class="highlighter-rouge">Content-Type</code> dioutput, tapi ini tidak cukup, facebook feed fetcher tidak support hal ini, diharuskan berupa ektensi file. memang ada cara bagaimana untuk membuat file feed ini dengan menggunakan facebook Ads SDK, tetapi hal ini mengharuskan kita untuk meng-_update_ <code class="highlighter-rouge">composer.json</code>, dan menambahkan library-nya.</p>
+
+
+                <a href="/2016/08/laravel-file-extension">Read more &rarr;</a>
+              
+            
+
+            
+            <div><p><br>
+              Tags:
+              
+                <a href="/tag/laravel">laravel</a>,
+              
+                <a href="/tag/php">php</a>
+              
+              </p>
+              </div>
+            </div>
+
+        </div>
       
         <div class="post py3">
            <a href="/2016/08/cmus" class="post-link"><h1 class="post-title">CMUS </h1></a>
@@ -358,57 +409,6 @@ menuliskan surel yang resmi.</p>
                 <a href="/tag/bahasa">bahasa</a>,
               
                 <a href="/tag/iseng">iseng</a>
-              
-              </p>
-              </div>
-            </div>
-
-        </div>
-      
-        <div class="post py3">
-           <a href="/2016/03/watching-the-watcher" class="post-link"><h1 class="post-title">Watching The Watcher </h1></a>
-           <p class="post-meta">
-           <span class="post-meta"><time class='post-meta' datetime='' itemprop='datePublished'>24 Mar 2016</time> &mdash; 
-  
-  
-    less than 1 minute read (87 words)
-  
-
-
-
-</span><br> 
-           
-           <span class="post-meta small">
-            Deden Fathurahman
-           </span>
-           </p>
-
-         
-          
-          <div class="post-summary">
-            
-
-
-            
-
-            
-              
-                <p>This is a constant rant, we have a Job Service defined on our stack, using the very simple tool, Supervisor. this awesome tool do its job, but the thing is, our job service is sucks, and it did not cue or trigger anything if the job stuck/stalled, supervisor assumed that everything is working, because the service is still running, but failed to pass the job and execute it.</p>
-
-<p>all we have to do is restarting the job on <code class="highlighter-rouge">supervisor</code>, guess we should refactoring the job service. <em>darn!</em></p>
-
-              
-            
-
-            
-            <div><p><br>
-              Tags:
-              
-                <a href="/tag/development">development</a>,
-              
-                <a href="/tag/operations">operations</a>,
-              
-                <a href="/tag/rant">rant</a>
               
               </p>
               </div>

@@ -7,6 +7,23 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Lebih baik banyak membaca sejarah daripada prediksi/ramalan</title>
+        <description>&lt;p&gt;Sederhana, sejarah bisa mengajarkan kita tentang suatu hal yang sudah terjadi, jika ada kesalahan, sebisa mungkin diperbaiki dan atau tidak melakukannya dikemudian hari, karena manusia bersifat dinamis, selalu berevolusi.&lt;/p&gt;
+
+&lt;p&gt;Sedangkan prediksi, atau meramalkan sesuatu dimasa depan, lebih banyak berupa spekulasi, mungkin terjadi mungkin tidak akan terjadi, mungkin benar dan mungkin juga salah.&lt;/p&gt;
+
+&lt;p&gt;Lebih baik lebih banyak membaca sejarah daripada membaca banyak prediksi atau ramalan, meski dari orang yang memiliki reputasi, karena faktor spekulasi tersebut, jika benar terjadi, orang bisa dengan mudah menganggap bahwa dirinya jago, jika salah tinggal bilang “&lt;em&gt;namanya juga ramalan™&lt;/em&gt;”.&lt;/p&gt;
+
+&lt;p&gt;Memang terkadang prediksi dan ramalan datang dari hasil mengetahui sejarah masa lalu, tapi apakah hal tersebut akan berulang dengan rentang waktu yang sama? tidak ada yang tahu. Ambil contoh Covid-19 ini, iya, di masa lalu ada flu spanyol yang banyak memakan korban, dan juga “diprediksi” (sebelum covid-19) akan ada flu-flu lain yang akan datang, iya itu benar, tapi kapannya tidak diketahui, dan yang bisa kita ambil dari sejarah itu apa yang salah, apa yang benar dalam penanganan bisa dijadikan acuan di masa mendatang agar bisa lebih siap (sangat jelas dunia belum siap dengan adanya covid ini, karena banyak faktor).&lt;/p&gt;
+
+&lt;p&gt;Dengan sejarah, kejadian-kejadian masa lalu, kita bisa belajar, bisa lebih mengerti dan retrospeksi, dan bisa (mudah-mudahan) menjadikan kita lebih baik lagi dimasa mendatang.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Aug 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/08/lebih-banyak-membaca-sejarah-daripada-prediksi</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/08/lebih-banyak-membaca-sejarah-daripada-prediksi</guid>
+      </item>
+    
+      <item>
         <title>Celebrating Netlify</title>
         <description>&lt;p&gt;&lt;img src=&quot;/images/posts/netlify-celebrate.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -167,25 +184,6 @@
         <pubDate>Tue, 05 May 2020 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2020/05/daily-found-forgetting-curve-dan-ingatan</link>
         <guid isPermaLink="true">http://localhost:4000/2020/05/daily-found-forgetting-curve-dan-ingatan</guid>
-      </item>
-    
-      <item>
-        <title>Memelan</title>
-        <description>&lt;p&gt;Sebelum pandemi disadari atau tidak, hidup berlalu sangat cepat, hari ke minggu ke bulan, berjalan seperti dalam keadaan auto-pilot terkadang tanpa kita tahu makna, hidup jadi seperti hanya lewat.&lt;/p&gt;
-
-&lt;p&gt;Dalam keadaan ini, yang masih beruntung memiliki pekerjaan, dan yang lebih beruntung lagi bisa bekerja dari rumah, memiliki kesempatan untuk refleksi.&lt;/p&gt;
-
-&lt;p&gt;Refleksi dan coba memelan, mengamati semua hal yang mungkin tidak kita sadari, keluarga sekitar kita, anak-anak yang ternyata tumbuh cepat, dan kita banyak ketinggalan akan hal itu.&lt;/p&gt;
-
-&lt;p&gt;Memelan dalam hal spiritual, religi, mencoba introspeksi, melihat ke belakang apa saja yang terjadi.&lt;/p&gt;
-
-&lt;p&gt;Memelan dan menikmati kehidupan, tetap berusaha untuk selalu sehat dan olah raga, kesehatan adalah suatu investasi kita untuk masa depan.&lt;/p&gt;
-
-&lt;p&gt;Memelan dari cepatnya dan bisingnya kehidupan, agar kita bisa memahami dan bisa mendengar diri kita sendiri.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 12 Apr 2020 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/2020/04/memelan</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/04/memelan</guid>
       </item>
     
   </channel>
