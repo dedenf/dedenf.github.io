@@ -9,6 +9,67 @@
     
         
             <item>
+                <title>Artikel vs Dokumentasi</title>
+                <link>http://localhost:4000/2020/08/pilih-artikel-dibanding-dokumentasi</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Baru saja “nyasar” ke halaman artikel blog post dari StackOverFlow, mengenai bagaimana mereka <a href="https://stackoverflow.blog/2020/08/12/how-we-built-it-articles-feature-stack-overflow-teams/">membangun satu fitur di STO teams</a>, <a href="https://stackoverflow.com/teams/features/articles">Articles</a>, selain artikel yang bagus, juga, saya lebih banyak melihat ke <em>tagline</em> dari fitur Articles tersebut.</p>
+
+<!--more-->
+
+<center><h2>Ditch Documentation</h2><p>Introducing Articles on Stack Overflow for Teams.
+Where long-form knowledge goes to thrive.</p></center>
+
+<p>Pertama, itu tagline yang keren, <em>on the spot</em>, coba bayangkan, siapa yang senang baca dokumentasi? manual? yang terbayang di kepala adalah, satu buku tebal yang isinya membosankan, kadang ada gambar, tapi lebih banyak gambar kaku, <a href="https://jvns.ca/">Julia Evans</a> bisa <a href="https://thenewstack.io/julia-evans-bite-size-zines-break-it-down/">dijadikan contoh menjelaskan</a> tanpa membosankan.</p>
+
+<p>Dan juga, di kepala, ketika mendengar kata artikel, kita menerima itu sebagai hal yang kecil, bisa dibaca dengan cepat, atau dibuat menjadi modular yang tidak harus membosankan, tidak perlu ada versi yang terkadang <em>bikin</em> takut duluan.</p>
+
+<p>Saya sendiri lebih suka membaca artikel, sering membagi link artikel tentang teknologi, programming dan lainnya di <a href="https://jakartadev.org">jakartadev</a>, dan dari situ banyak belajar banyak daripada membaca langsung di dalam dokumentasi.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/2020/08/pilih-artikel-dibanding-dokumentasi</guid>
+                <description>
+                    
+                </description>
+                <pubDate>Wed, 19 Aug 2020 00:00:00 +0700</pubDate>
+                <author>{"name"=>"Deden Fathurahman", "url"=>"https://notes.dedenf.com/", "handle"=>"dedenf", "email"=>"dedenf@gmail.com", "twitter"=>"@dedenf", "instagram"=>"@dedenf", "github"=>"dedenf"}</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Work from home, a blessing or distractions?</title>
+                <link>http://localhost:4000/2020/08/work-from-home-blessing-or-distractions</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>With pandemic still lingering Indonesia, many office are still doing Work From Home (WFH) policy, and few other are already working at the office, i’m gonna talk about the one who are still WFH, and for those who already WFO, godspeed, stay safe!</p>
+
+<p>I am grateful that i’m still working, have source of income, and doing the work while i’m at home, i can be closer to my family.</p>
+
+<!--more-->
+
+<p>Doing work at home are not an easy one, with the time and space are blending between work and life, doing some work can be a challenge, many article suggesting things like blocking time, having a special room for working, and other “solution” but makes you far away from the family, even in the same house.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PvjuVnKDUbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>What i can see as a solution are, at least for myself, be fluid, when work need you, go work on something, and for instance, baby need your attention, and the work can wait, be with the kid, you will build a sense of agility, build up your focus, and perceived both to world can dance with each other.</p>
+
+<p>And of course there’s deep work, meeting that can’t be interrupted, like above video, this has to be discussed with your spouse, find best way, tell them your uninterrupted time, usually 1-2 hours, so, you are forgiven haha!.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/2020/08/work-from-home-blessing-or-distractions</guid>
+                <description>
+                    
+                </description>
+                <pubDate>Fri, 14 Aug 2020 00:00:00 +0700</pubDate>
+                <author>{"name"=>"Deden Fathurahman", "url"=>"https://notes.dedenf.com/", "handle"=>"dedenf", "email"=>"dedenf@gmail.com", "twitter"=>"@dedenf", "instagram"=>"@dedenf", "github"=>"dedenf"}</author>
+            </item>
+        
+    
+        
+            <item>
                 <title>Atensi</title>
                 <link>http://localhost:4000/2020/08/atensi</link>
                 <content:encoded>

@@ -20,7 +20,7 @@
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for HyperText Thrones" href="/feed.xml" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/pixyll.css?202008101543" type="text/css">
+    <link rel="stylesheet" href="/css/pixyll.css?202008191605" type="text/css">
 
     <!-- Fonts -->
     
@@ -129,6 +129,124 @@
 <div class="home">
   
     <div class="posts">
+      
+        <div class="post py3">
+           <a href="/2012/02/modernizr-vs-ie" class="post-link"><h1 class="post-title">Modernizr vs IE </h1></a>
+           <p class="post-meta">
+           <span class="post-meta"><time class='post-meta' datetime='' itemprop='datePublished'>20 Feb 2012</time> &mdash; 
+  
+  
+    1 minute read (272 words)
+  
+
+
+
+</span><br> 
+           
+           <span class="post-meta small">
+            Deden Fathurahman
+           </span>
+           </p>
+
+         
+          
+          <div class="post-summary">
+            
+
+
+            
+
+            
+              
+                <p>Today, i’ve found out something weird, we took an internal launch of our newly developed app that display numerous graph and statistics, it went crash. not the app, but the browser, and you can guess, it’s IE.</p>
+
+<p>From IE6 on XP sp2 until IE8 on windows 7, it all went crash, first i thought about many ‘add-ons’ like Yahoo! websearch (curse you!), and other kind of IE rubbish. i’m heading to the code to look something that might be not right, first i disabled header() from the code, but it’s not it, and the look at the doctype, maybe
+<code class="highlighter-rouge"><span class="c">&lt;!--[if lt IE 7]&gt; &lt;html lang="en"&gt; &lt;![endif]--&gt;</span></code>,</p>
+
+<p>delete that line, but still it doesn’t work.</p>
+
+<p>ook a shot disabled Modernizr (mine is v2.0.6), and it went ok, that’s the ‘culprit’ behind the IE6-IE8 assasinations, as usual, went to google, stumbling at the Modernizr github repo to see maybe other users experienced the same thing, and yes, there is. many <a href="https://github.com/scottjehl/Respond/issues/27">asking</a> about the positioning of the Modernizr call, is it before css, or after css calls. the documentation <a href="http://www.modernizr.com/docs/#installing">says</a> that to install Modernizr is after CSS calls. went to see my code again, it is after CSS calls, a mystery that should be solve, but it’s not, the IE still crashing.</p>
+
+<p>Right now, i just disabled the Modernizr, because can’t find any windows machine right now, too much if i’m firing my VM right now. but i still do believe that placing jQuery and Modernizr is the problem, and some about some CSS3 code that i’ve written, oh they all plotted together to kill our beloved IE.</p>
+
+<p>well, time to write about Sherlock’s ending.</p>
+
+                <a href="/2012/02/modernizr-vs-ie">Read more &rarr;</a>
+              
+            
+
+            
+            <div><p><br>
+              Tags:
+              
+                <a href="/tag/javascript">javascript</a>,
+              
+                <a href="/tag/ie">ie</a>,
+              
+                <a href="/tag/web-development">web-development</a>
+              
+              </p>
+              </div>
+            </div>
+
+        </div>
+      
+        <div class="post py3">
+           <a href="/2012/01/codeigniter-cache" class="post-link"><h1 class="post-title">Codeigniter Cache Tips </h1></a>
+           <p class="post-meta">
+           <span class="post-meta"><time class='post-meta' datetime='' itemprop='datePublished'>16 Jan 2012</time> &mdash; 
+  
+  
+    1 minute read (208 words)
+  
+
+
+
+</span><br> 
+           
+           <span class="post-meta small">
+            Deden Fathurahman
+           </span>
+           </p>
+
+         
+          
+          <div class="post-summary">
+            
+
+
+            
+
+            
+              
+                <p>Cache system in Codeigniter is a quite nice feature, thanks to its modular system, you can add more than just a built in cache system, you can add your own.</p>
+
+<p>if you want to make an app with search feature, if you don’t implement cache feature in it, the app will always ask the database whether it has the data or not, this could make your database work for just a ‘historical’ data.
+to make things faster, use cache. to get this cache (even it’s in-memory or in-file cache) work, you could make a GET method (or if you have to use POST, that’s ok, will work too) and create a <a href="https://en.wikipedia.org/wiki/URI">URI</a> for that search.</p>
+
+<p>for example, if you want to cache a user information, just put ?key=user_name in URI, so that the URI will be saved as cache by your app (of course you must enable the cache system on config file!).</p>
+
+<p>“what if the user information is changed?”, yes, if the user information is changed your cache will be something  to blame if the information is not updated instantly. to make this work, just delete the cache if there’s a update action in your module, with that you’ll get the same result after its get updated</p>
+
+                <a href="/2012/01/codeigniter-cache">Read more &rarr;</a>
+              
+            
+
+            
+            <div><p><br>
+              Tags:
+              
+                <a href="/tag/php">php</a>,
+              
+                <a href="/tag/cache">cache</a>,
+              
+                <a href="/tag/codeigniter">codeigniter</a>
+              
+              </p>
+              </div>
+            </div>
+
+        </div>
       
         <div class="post py3">
            <a href="/2012/01/playing-with-twitter-bootstrap" class="post-link"><h1 class="post-title">Playing with Twitter Bootstrap </h1></a>
