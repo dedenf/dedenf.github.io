@@ -7,6 +7,17 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Daily Found: Hubble mosaic of the majestic Sombrero Galaxy</title>
+        <description>&lt;p&gt;It’s just awesome picture&lt;/p&gt;
+
+&lt;p&gt;[&lt;a href=&quot;https://www.spacetelescope.org/images/opo0328a/&quot;&gt;via spacetelescope&lt;/a&gt;]&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Sep 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/09/sombrero-galaxy</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/09/sombrero-galaxy</guid>
+      </item>
+    
+      <item>
         <title>Artikel vs Dokumentasi</title>
         <description>&lt;p&gt;Baru saja “nyasar” ke halaman artikel blog post dari StackOverFlow, mengenai bagaimana mereka &lt;a href=&quot;https://stackoverflow.blog/2020/08/12/how-we-built-it-articles-feature-stack-overflow-teams/&quot;&gt;membangun satu fitur di STO teams&lt;/a&gt;, &lt;a href=&quot;https://stackoverflow.com/teams/features/articles&quot;&gt;Articles&lt;/a&gt;, selain artikel yang bagus, juga, saya lebih banyak melihat ke &lt;em&gt;tagline&lt;/em&gt; dari fitur Articles tersebut.&lt;/p&gt;
 
@@ -19,7 +30,7 @@ Where long-form knowledge goes to thrive.&lt;/p&gt;&lt;/center&gt;
 
 &lt;p&gt;Dan juga, di kepala, ketika mendengar kata artikel, kita menerima itu sebagai hal yang kecil, bisa dibaca dengan cepat, atau dibuat menjadi modular yang tidak harus membosankan, tidak perlu ada versi yang terkadang &lt;em&gt;bikin&lt;/em&gt; takut duluan.&lt;/p&gt;
 
-&lt;p&gt;Saya sendiri lebih suka membaca artikel, sering membagi link artikel tentang teknologi, programming dan lainnya di &lt;a href=&quot;https://jakartadev.org&quot;&gt;jakartadev&lt;/a&gt;, dan dari situ banyak belajar banyak daripada membaca langsung di dalam dokumentasi.&lt;/p&gt;
+&lt;p&gt;Saya sendiri lebih suka membaca artikel, sering membagi link artikel tentang teknologi, programming dan lainnya di &lt;a href=&quot;https://jakartadev.org&quot;&gt;jakartadev&lt;/a&gt;, dan dari situ belajar banyak daripada membaca langsung di dalam dokumentasi.&lt;/p&gt;
 </description>
         <pubDate>Wed, 19 Aug 2020 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2020/08/pilih-artikel-dibanding-dokumentasi</link>
@@ -152,34 +163,6 @@ Where long-form knowledge goes to thrive.&lt;/p&gt;&lt;/center&gt;
         <pubDate>Thu, 18 Jun 2020 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2020/06/google-podcast-web</link>
         <guid isPermaLink="true">http://localhost:4000/2020/06/google-podcast-web</guid>
-      </item>
-    
-      <item>
-        <title>Darah Murni</title>
-        <description>&lt;p&gt;Dengan adanya pembunuhan terhadap George Flyod, yang memicu protes dan kerusuhan di Amerika, karena polisi dianggap telah melakukan kejahatan, disebut memiliki alasan ras, kulit putih vs kulit hitam, yang mana kondisi ini sudah terlampau parah di Amerika, yang memiliki sejarah perbudakan, banyak manusia dari Afrika dijadikan budak untuk bekerja di ladang atau pekerjaan kasar lainnya.&lt;/p&gt;
-
-&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe width=&quot;700&quot; height=&quot;410&quot; src=&quot;https://www.youtube.com/embed/uJRoTG0hA9c&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;center&gt;&lt;em&gt;Kutipan wawancara Muhammad Ali&lt;/em&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Dan persepsi ini terbawa sampai sekarang, bagaimana orang kulit putih rasis memandang orang berkulit hitam.&lt;/p&gt;
-
-&lt;p&gt;Pandangan mengenai kulit hitam, terutama di amerika, lebih rendah kastanya merupakan satu bentuk rasisme, bentuk umumnya ketika memandang dan menilai orang lain berdasarkan warna kulit, asal muasal seseorang, agama, atau perawakan merupakan bentuk rasisme juga.&lt;/p&gt;
-
-&lt;p&gt;Di indonesia tidak luput juga dengan isu rasisme ini, di sini kita menyebutnya dengan akronim, SARA, Suku Agama Ras dan Antar golongan, banyak kasus-kasus yang terjadi juga yang melibatkan ras seseorang, saya tidak akan detil membahasnya, bisa googling kejadian di surabaya dan tempat lainnya, meski banyak yang mencoba menepis, tapi tetap itu SARA.&lt;/p&gt;
-
-&lt;p&gt;Hal ini kejadian juga dalam hal pernikahan, misalkan ras ini hanya boleh menikah dengan ras yang sama, kalo diluar rasnya merupakan hal yang memalukan.&lt;/p&gt;
-
-&lt;p&gt;Zaman dahulu hal ini mungkin lumrah karena populasi juga tidak sebanyak sekarang, dan juga menikah dengan yang secara jarak lebih dekat jadi lebih mudah.&lt;/p&gt;
-
-&lt;p&gt;Tapi kondisi ini menjadi ekstrem dengan argumen hanya dengan menjaga darah ini agar mencari ”murni” dengan menikahi ras yang sama, maka kasta akan tetap terjaga, dengan memiliki ras tertentu ini merasa lebih tinggi dan bisa memandang yang diluar ras-nya itu tidak berarti apa-apa, ada orang tua tega mengusir anaknya jika menikahi orang diluar rasnya, dan tindakan-tindakan ekstrem lainnya.&lt;/p&gt;
-
-&lt;p&gt;Istilah darah murni hanyalah ilusi, yang dianggap beberapa banyak orang sebagai suatu keharusan, atau kemuliaan jika dapat menjaganya, saya termasuk yang membenci hal-hal semacam ini, bahkan dari sisi agama tidak mengenali hal ini, karena semua orang adalah sama di depan tuhannya.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 17 Jun 2020 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/2020/06/masih-ada-yang-menjaga-darah-murni</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/06/masih-ada-yang-menjaga-darah-murni</guid>
       </item>
     
   </channel>

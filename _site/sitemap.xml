@@ -1361,6 +1361,10 @@
 <lastmod>2020-08-19T00:00:00+07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2020/09/sombrero-galaxy</loc>
+<lastmod>2020-09-28T00:00:00+07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
@@ -2400,5 +2404,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/page/68/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page/69/</loc>
 </url>
 </urlset>

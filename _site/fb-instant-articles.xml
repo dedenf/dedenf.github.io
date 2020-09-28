@@ -9,6 +9,27 @@
     
         
             <item>
+                <title>Daily Found: Hubble mosaic of the majestic Sombrero Galaxy</title>
+                <link>http://localhost:4000/2020/09/sombrero-galaxy</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>It’s just awesome picture</p>
+
+<p>[<a href="https://www.spacetelescope.org/images/opo0328a/">via spacetelescope</a>]</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/2020/09/sombrero-galaxy</guid>
+                <description>
+                    
+                </description>
+                <pubDate>Mon, 28 Sep 2020 00:00:00 +0700</pubDate>
+                <author>{"name"=>"Deden Fathurahman", "url"=>"https://notes.dedenf.com/", "handle"=>"dedenf", "email"=>"dedenf@gmail.com", "twitter"=>"@dedenf", "instagram"=>"@dedenf", "github"=>"dedenf"}</author>
+            </item>
+        
+    
+        
+            <item>
                 <title>Artikel vs Dokumentasi</title>
                 <link>http://localhost:4000/2020/08/pilih-artikel-dibanding-dokumentasi</link>
                 <content:encoded>
@@ -24,7 +45,7 @@ Where long-form knowledge goes to thrive.</p></center>
 
 <p>Dan juga, di kepala, ketika mendengar kata artikel, kita menerima itu sebagai hal yang kecil, bisa dibaca dengan cepat, atau dibuat menjadi modular yang tidak harus membosankan, tidak perlu ada versi yang terkadang <em>bikin</em> takut duluan.</p>
 
-<p>Saya sendiri lebih suka membaca artikel, sering membagi link artikel tentang teknologi, programming dan lainnya di <a href="https://jakartadev.org">jakartadev</a>, dan dari situ banyak belajar banyak daripada membaca langsung di dalam dokumentasi.</p>
+<p>Saya sendiri lebih suka membaca artikel, sering membagi link artikel tentang teknologi, programming dan lainnya di <a href="https://jakartadev.org">jakartadev</a>, dan dari situ belajar banyak daripada membaca langsung di dalam dokumentasi.</p>
 
                     ]]>
                 </content:encoded>
