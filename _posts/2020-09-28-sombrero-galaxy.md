@@ -2,9 +2,9 @@
 layout: post
 title: "Daily Found: Hubble mosaic of the majestic Sombrero Galaxy"
 tags: 
-    - building
-    - design
-    - "social media"
+    - galaxy
+    - space
+    - "daily found"
         
 category: [dailyfound]
 comments: true
