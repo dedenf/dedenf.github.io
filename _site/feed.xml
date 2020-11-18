@@ -7,6 +7,27 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>About Github Profile</title>
+        <description>&lt;p&gt;Came across this blog post, titled “&lt;a href=&quot;https://www.benfrederickson.com/github-wont-help-with-hiring/&quot;&gt;Why GitHub Won’t Help You With Hiring&lt;/a&gt;”&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Instead, this post is about why GitHub profiles just aren’t all that useful when looking to hire developers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Interesting article, different takes of how github profile won’t help boost our profile in the development world, and the points are valid, for some people.&lt;/p&gt;
+
+&lt;p&gt;While i do agree most of the stuff, and i have my view also about this, it’s a little different with my experience, since i have been an engineering manager for quite sometimes, I do checked people, or candidates, when I’m hiring, on GitHub, to see a glimps of her/his involvements if any, it’s like stalking the candidates, and if they contributed to opensource, that’s a plus, especially if the OSS is a huge project.&lt;/p&gt;
+
+&lt;p&gt;And for my personal opinion, aside for account name reserved, having my handle @dedenf on Github, is that I have piece of code contributed, and i feel safe to store my code, documents, on my GitHub account.&lt;/p&gt;
+
+&lt;p&gt;While i do have another account in BitBucket, GitLab and other place, GitHub is my first choice to store and contribute.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 29 Sep 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2020/09/github-profile</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/09/github-profile</guid>
+      </item>
+    
+      <item>
         <title>Daily Found: Hubble mosaic of the majestic Sombrero Galaxy</title>
         <description>&lt;p&gt;It’s just awesome picture&lt;/p&gt;
 
@@ -150,19 +171,6 @@ Where long-form knowledge goes to thrive.&lt;/p&gt;&lt;/center&gt;
         <pubDate>Sun, 21 Jun 2020 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2020/06/membaca-evolusi-video</link>
         <guid isPermaLink="true">http://localhost:4000/2020/06/membaca-evolusi-video</guid>
-      </item>
-    
-      <item>
-        <title>Daily Found: Google Podcast Web</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/posts/google-podcast.png&quot; alt=&quot;My subscribed Podcast channel&quot; title=&quot;My subscribed Podcast channel&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;At last, &lt;a href=&quot;https://podcasts.google.com/&quot;&gt;Google Podcast web&lt;/a&gt; version with synced with its mobile app, now it is completed, i could listen to podcast on my commuting or working out, and also could listen to my subscribed channel on my computer, and it’s all synced with its timing and listen histories across devices, i could listen on my phone, and continue on my computer.&lt;/p&gt;
-
-&lt;p&gt;Other podcast app (mobile or web) has this feature already built in, like &lt;a href=&quot;https://www.breaker.audio/&quot;&gt;Breaker&lt;/a&gt;, &lt;a href=&quot;https://anchor.fm/&quot;&gt;Anchor&lt;/a&gt; or even &lt;a href=&quot;https://spotify.com/&quot;&gt;Spotify&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 18 Jun 2020 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/2020/06/google-podcast-web</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/06/google-podcast-web</guid>
       </item>
     
   </channel>

@@ -1365,6 +1365,10 @@
 <lastmod>2020-09-28T00:00:00+07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2020/09/github-profile</loc>
+<lastmod>2020-09-29T00:00:00+07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
@@ -2203,6 +2207,12 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag/note-to-self/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/galaxy/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/code/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/page/2/</loc>
