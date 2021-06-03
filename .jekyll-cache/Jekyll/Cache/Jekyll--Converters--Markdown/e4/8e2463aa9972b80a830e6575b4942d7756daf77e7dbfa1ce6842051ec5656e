@@ -1,7 +1,0 @@
-I"í<p>Membangun aplikasi, zaman dulu merupakan hal yang lumayan memakan waktu, dari mulai men-desain, koding, <em>deployment</em>, masih ingat juga, dulu harus <em>upload</em> aplikasi web melalui FTP (belum ada GIT, atau CI/CD, dan SFTP belum umum), belum lagi harus setup database manual untuk menyimpan data.</p>
-
-<p>Kemudian muncul <em>tools</em> yang lebih memudahkan <em>developer</em>/perusahaan dalam membuat aplikasi, testing, sampai <em>deployment</em>, dengan lahirnya <em>cloud computing</em>, menjadikan proses <em>development</em> sampai akhirnya di <em>production</em> lebih cepat dan terhitung mudah.</p>
-
-<p>Dan kemudian baru-baru ini muncul inovasi berikutnya, yaitu <em>low-code</em> dan <em>no-code</em> development, apa itu?.</p>
-
-:ET
