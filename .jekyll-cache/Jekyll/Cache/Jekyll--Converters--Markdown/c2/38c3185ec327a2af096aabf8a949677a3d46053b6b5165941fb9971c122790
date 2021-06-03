@@ -1,0 +1,14 @@
+I"[<p>Kasus ini terjadi karena hendak menggunakan Facebook dynamic ads, untuk memenuhi syarat yang ditulis di <a href="https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/product-catalog">dokumentasi facebook marketing</a>, dibutuhkan file XML sebagai data feeding ke marketing funnel feed.</p>
+
+<p>dalam percobaan pertama, hasil response yang digunakan adalah dengan menambahkan <code class="language-plaintext highlighter-rouge">Content-Type</code> dioutput, tapi ini tidak cukup, facebook feed fetcher tidak support hal ini, diharuskan berupa ektensi file. memang ada cara bagaimana untuk membuat file feed ini dengan menggunakan facebook Ads SDK, tetapi hal ini mengharuskan kita untuk meng-_update_ <code class="language-plaintext highlighter-rouge">composer.json</code>, dan menambahkan library-nya.
+<!--more-->
+ada cara yang lebih mudah, yaitu dengan menggunakan <code class="language-plaintext highlighter-rouge">routes.php</code>, dan mendeklarasikan ekstensi file (entah itu pdf, xml, csv dan lainnya),</p>
+
+<script src="https://gist.github.com/dedenf/56c9a236e5f6ae04c516a88895448ed9.js"></script>
+
+<p>dengan menggunakan entry routes di atas, kita memiliki kemudahan dalam men-_generate_ file, berikut extensinya, di sini, akan terbuat url <code class="language-plaintext highlighter-rouge">https://www.example.com/products/feed/baju.xml</code></p>
+
+<p>ini mirip dengan yang dulu pernah diimplementasikan di codeigniter.</p>
+
+<p>dengan cara ini kita bisa dengan mudah menggunakan extensi file semau kita, tanpa perlu ada aktual file-nya, dengan didukung oleh content-type dari hasil output kita.</p>
+:ET

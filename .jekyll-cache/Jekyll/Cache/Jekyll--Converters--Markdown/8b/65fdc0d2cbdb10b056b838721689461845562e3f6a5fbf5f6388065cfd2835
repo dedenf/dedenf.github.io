@@ -1,0 +1,40 @@
+I"<p><img src="/images/posts/reeder-app.png" alt="reeder app" title="Reeder application" /></p>
+
+<p>Sebagai pengguna MacOS, dan juga pecinta <a href="https://en.wikipedia.org/wiki/RSS">RSS</a>, agar bisa membaca isi dari situs yang sering diakses tanpa harus mengunjungi website-nya, dan jika website itu mempunya <a href="https://en.wikipedia.org/wiki/Web_feed">RSS Feed</a>, maka bisa diakses dengan menggunakan RSS reader, yang akan menampilkan sebagian atau keseluruhan artikel yang ditulis di situs tersebut.</p>
+
+<!--more-->
+
+<p>Sudah menggunakan banyak aplikasi <em>rss reader</em>, dari mulai <a href="https://www.vienna-rss.com/">Vienna</a>, <a href="http://newsfirerss.com/">NewsFire</a>, <a href="https://www.google.com/reader/about/">Google Reader</a>, atau mungkin lebih tepatnya mantan pengguna Google Reader tentu masih inget bagaimana Google mematikan layanan ini, kemudian aplikasi <a href="https://ranchero.com/netnewswire/">NetNewsWire</a>, sampai akhirnya sekarang menggunakan aplikasi <a href="https://www.reederapp.com/">Reeder</a>.</p>
+
+<p>Reeder merupakan aplikasi RSS <em>reader</em> berbayar, yang saat ini <a href="https://apps.apple.com/us/app/reeder-4/id1449412357">dibanderol dengan harga</a> $4.99.</p>
+
+<h2 id="fitur">Fitur</h2>
+<p>Selain bisa membaca <em>feed rss/atom</em> dari website, Reeder memiliki fitur lain, yaitu bisa mengakses layanan read-it-later seperti Pocket, Instapaper, dan bisa juga mengakses layanan rss reader online seperti newsblur, feedly dan lainnya.</p>
+
+<p><a href="/images/posts/reeder-account-add.png"><img src="/images/posts/reeder-account-add-small.png" alt="" /></a></p>
+
+<p>Fitur auto-find feed juga ada, jadi ketika memasukan link website, akan dicari otomatis link feed-nya jika ada oleh Reeder.</p>
+
+<p>Reeder juga memiliki fitur untuk sharing, dan bisa mengkonfigurasikan aplikasi mana saja yang menjadi untuk share, di sini karena saya pengguna Pocket, maka sering share, simpan di Pocket.</p>
+
+<p><a href="/images/posts/reeder-sharing.png"><img src="/images/posts/reeder-sharing-small.png" alt="" /></a></p>
+
+<p>Reeder juga sangat mudah untuk dikostumasi, ada pilihan untuk mengubah <em>layout</em> dan <em>theme</em>.</p>
+
+<p><a href="/images/posts/reeder-option-theme.png"><img src="/images/posts/reeder-option-theme-small.png" alt="" /></a></p>
+
+<h2 id="membaca">Membaca</h2>
+<p>Di Reeder ada beberapa mode baca yang bisa dipilih, ini tergantung dari selera, dan memang Reeder sudah menjadikan feed artikel menjadi ramah untuk dibaca, tidak ada banner, iklan dan lainnya yang membuat kita <em>gak</em> fokus.</p>
+
+<p><img src="/images/posts/reeder-read-mode.png" alt="" /></p>
+
+<h2 id="desain">Desain</h2>
+<p>Sisi desain, selain bisa mengubah layout dan juga <em>theme</em> seperti diurai di atas, desain aplikasi Reeder secara keseluruhan sangat <em>intuitive</em>, mudah dipahami, mudah untuk pindah dari sisi satu ke sisi lainnya.</p>
+
+<p>Simpel mungkin kata yang tepat, tidak banyak <em>tetek bengek</em>, tidak banyak tombol yang bisa membuat bingung pengguna.</p>
+
+<h2 id="penutup">Penutup</h2>
+<p>Keputusan membeli Reeder setidaknya buat saya, tepat, dengan fitur yang untuk pribadi cukup, juga memenuhi semua standar teknologi, mudah digunakan, koneksi ke layanan <em>bookmark</em> online dan lain-lain.</p>
+
+<p>Saya mengumpulkan <em>News feed bookmark</em> (dalam bentuk file OPML) bisa <a href="https://github.com/dedenf/news-feed">didownload direpo ini</a> jika ada yang tertarik unduh, dan bisa dimport di RSS reader manapun yang memiliki dukungan terhadap file .<a href="https://en.wikipedia.org/wiki/OPML">OPML</a>.</p>
+:ET

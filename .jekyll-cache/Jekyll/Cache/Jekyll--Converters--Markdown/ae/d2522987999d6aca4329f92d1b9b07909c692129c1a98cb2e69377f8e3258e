@@ -1,0 +1,20 @@
+I"v<p>Attempting to find and use Mail.app alternatives is quite hard, Mailapp itself is already mature in my opinion, all the feature are there, no gimmick, no fancy add ons that will make you miserable sometimes.</p>
+
+<p>I’ve been using quite a lot alternatives, like <a href="https://www.thunderbird.net/en-US/">Mozilla Thunderbird</a>, <a href="https://canarymail.io/">Canary</a>, <a href="https://sparkmailapp.com/">Spark</a>, <a href="https://cloudmagic.com/">CloudMagic</a>, <a href="https://www.postbox-inc.com/">Postbox</a>. still they can’t beat Mail.app (this is debatable), and right now, i was introduced to Mailspring. Mailspring is Electron-based app, like many of app that i have mentioned before, it’s free for basic tier, and $8/mo if you want to have extra feature (i’m fine with this current basic tier).
+<!--more--></p>
+<h2 id="user-interface">User Interface</h2>
+<p>Well, as a mac app, User Interface or UI are main object sometimes, you did not want the app to look fugly, outdated and hard to navigate (as it’s part of User eXperience or UX for hipsterized word). Because the design is quite familiar, and i can easily navigate between menus and also couple <em>nice-to-have</em> feature that probably useful for me later on, and also it supporting themes (in the screenshot i’m using Taiga).
+<a href="/images/posts/mailspring-ui-large.png"><img src="/images/posts/mailspring-ui.png" alt="mailspring UI" /></a></p>
+
+<h2 id="accounts-management">Accounts Management</h2>
+<p>Mailspring support multiple account and manages under one roof, for basic tier, you can only have 4 accounts. i think that will be fine for average users (most people have 2 mail accounts), it support IMAP, Yahoo!, Gmail suite, Office 365, iCloud, Fastmail (dunno what that is), sadly it’s not supporting Exchange yet, yeah, i’m using Microsoft Exchange at work.
+Accounts management feature lies on preferences panel, but how it got displayed makes me scratch my head, it was not trigger modal or new panel, it use the same window, because i’m using keyboard quite a lot for navigation, and i tend to close window using <code class="language-plaintext highlighter-rouge">command+w</code>, and because this is not using the same behavior, using <code class="language-plaintext highlighter-rouge">esc</code> to close the preference window.
+<a href="/images/posts/mailspring-accounts-large.png"><img src="/images/posts/mailspring-accounts.png" alt="mailspring UI" /></a></p>
+
+<h2 id="composing-email">Composing email</h2>
+<p>Mailspring almost has the same UI with other mail client, text format, and couple other feature, it did not support markdown yet as default, you have to install it manually.
+<a href="/images/posts/mailspring-compose-large.png"><img src="/images/posts/mailspring-compose.png" alt="mailspring UI" /></a></p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>With its simplicity, i will try to use it for the time being, it cannot be use as my primary working mail client yet, but will use it as mail client for other email account. This version (Version 1.2.2 (1.2.2)), it has quite small memory footprint, event tho electron base app sometime became a memory hog.</p>
+:ET

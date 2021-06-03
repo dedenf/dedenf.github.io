@@ -1,0 +1,77 @@
+I"C<p><img src="/images/posts/1password-lockwise.png" alt="" title="1Password vs Firefox Lockwise" /></p>
+
+<p>Sebagai pengguna <a href="https://www.mozilla.org/en-US/firefox/">Mozilla Firefox</a> yang sudah lumayan lama, salah satu alasan tetap menggunakan Firefox, <a href="https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/releases/1.0">dari versi 1.0</a>, karena saya melihatnya sebagai perusahaan yang masih memikirkan privasi, masih memikirkan penggunanya didepan.</p>
+
+<p>Membaca catatan rilis dari Mozilla untuk <a href="https://hacks.mozilla.org/2019/10/firefox-70-a-bountiful-release-for-all/">Firefox versi 70</a> yang terbaru ini, ada beberapa fitur yang menarik, dan fokus saya di Lockwise, dimana sebelumnya saya pernah menulis <a href="/2019/07/firefox-lockwise">mengenai Lockwise</a> di blog ini.</p>
+
+<p>Di versi ini, Mozilla menjadikan <a href="https://lockwise.firefox.com/">Firefox Lockwise</a> sebagai fitur yang terintegrasi, sebelumnya hanya menjadi ekstensi dan aplikasi web.</p>
+
+<!--more-->
+
+<p>Dengan menjadikan Lockwise terintegrasi, manajemen username dan password menjadi mudah, dan karena menggunakan Firefox di smartphone juga, sinkronisasi lebih mudah, untuk mengetahui login di satu website atau aplikasi mobile yang sekarang sudah bisa edit/delete di aplikasi mobile.</p>
+
+<p>FItur ini pastinya seperti yang pernah saya tulis sebelumnya, yang mengingatkan dengan aplikasi 1Password yang juga sudah lumayan lama pakai, mudah penggunaannya, terintegrasi baik dengan Android, jadi login di aplikasi mudah karena 1Password akan menyajikan opsi login dengan 1Password, dan otomatis username password akan terisi.</p>
+
+<h4 id="apakah-lockwise-bisa-menggantikan-1password">Apakah Lockwise bisa menggantikan 1Password?</h4>
+<p>Lockwise dengan aplikasi yang sekarang sudah bisa menggantikan 1Password, selain Lockwise termasuk gratis, dibanding 1Password yang berbayar (setahun sekitar 350rb), 1Password untuk fitur dan kemudahan penggunaan masih jauh lebih baik saat ini dibanding Lockwise, Lockwise mungkin masih terhitung baru, meski aplikasi mobilenya sudah versi 3.</p>
+
+<p>Fitur dasar yang didukung</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th style="text-align: center">Sinkronisasi antar device</th>
+      <th style="text-align: center">Password generator</th>
+      <th style="text-align: center">Integrasi aplikasi (Autofill)</th>
+      <th style="text-align: left">Platform</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1Password</strong></td>
+      <td style="text-align: center">✓</td>
+      <td style="text-align: center">✓</td>
+      <td style="text-align: center">✓</td>
+      <td style="text-align: left">iOS, Android, MacOS, Windows, Linux (via browser)</td>
+    </tr>
+    <tr>
+      <td><strong>Lockwise</strong></td>
+      <td style="text-align: center">✓</td>
+      <td style="text-align: center">✓</td>
+      <td style="text-align: center">✓</td>
+      <td style="text-align: left">iOS, Android, MacOS, Windows, Linux (via browser)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Sinkronisasi antar device adalah bagaimana servis ini bisa sinkron data username password antara komputer, web, dan aplikasi mobile (iOS, Android). <br />
+Password Generator adalah aplikasi memberikan saran password yang acak, unik, dan susah ditebak. <br />
+Integrasi aplikasi, kondisi dimana password manager memberikan opsi untuk login menggunakan servisnya, biasanya ketika ada kolom usernama/password muncul.</p>
+
+<p>Untuk integrasi aplikasi, ini sangat penting, karena tentunya kita gak mau buka aplikasi terus buka lagi Lockwise, dan bolak balik, dengan mengaktifkan fitur autofill di Android atau iOS, bisa lebih mudah untuk mengisi kredensial akun di app yang membutuhkan.</p>
+
+<p>Untuk mengaktifkan fitur autofill di android dengan Lockwise, bisa melakukan</p>
+<ol>
+  <li>Klik settings di aplikasi Lockwise</li>
+  <li>Klik Autofill</li>
+  <li>Pilih Lockwise (lihat gambar)</li>
+</ol>
+
+<p><img src="/images/posts/autofill-android.png" alt="" /></p>
+
+<p>Untuk aktivasi Autofill di iOS, bisa melakukan langkah</p>
+<ol>
+  <li>Buka aplikasi settings</li>
+  <li>Pilih ”Passwords &amp; Accounts”</li>
+  <li>Pilih Autofill Password</li>
+  <li>Pilih Lockwise</li>
+</ol>
+
+<p><img src="/images/posts/autofill-ios.png" alt="" /></p>
+
+<p>Saat ini masih mencoba membiasakan diri menggunakan Lockwise untuk keperluan sehari-hari, sejauh ini semua ok, tinggal menyamakan data akun yang ada di 1Password dan Lockwise.</p>
+
+<p>Satu hal yang agak kurang di Lockwise ini, untuk mengakses data di Lockwise, ketika pertama membuka browser akan ditanya password akun Firefox, sesudah itu bisa mengakses data. Kemudahan ini justru jadi kelemahan, karena tidak ada proteksi setiap kali kita mengakses data Lockwise, tidak seperti halnya ketika mengakses 1Password, yang akan ditanyakan master password atau menggunakan fingerprint jika ada.</p>
+
+:ET

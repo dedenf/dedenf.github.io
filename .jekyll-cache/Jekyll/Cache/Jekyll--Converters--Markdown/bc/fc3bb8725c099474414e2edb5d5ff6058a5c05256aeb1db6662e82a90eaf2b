@@ -1,0 +1,16 @@
+I"�<p>This blog site are built using <a href="https://jekyllrb.com/">Jekyll</a>, a blog engine that i currently using and loved, i’m using Jekyll because its simplicity and also ease of use, it’s free and Jekyll also on e of the blog engine that supported by <a href="https://netlify.com/">Netlify</a>, site publishing it’s all free, and not to mention all of the code stored in Github, that’s also free.</p>
+
+<p>I’ve been try other static generator blog engine like Hugo or Ghost, and it always get back to Jekyll, dunno why.</p>
+
+<p>For publishing this site, i’m using :</p>
+<ul>
+  <li><a href="https://github.com/jekyll/jekyll-seo-tag/">Jekyll SEO tag</a></li>
+  <li>Jekyll Paginate (currently obsolete, since Jekyll 3, this was moved to core)</li>
+  <li><a href="https://github.com/jekyll/jekyll-sitemap">Jekyll sitemap</a></li>
+  <li><a href="https://github.com/benbalter/jekyll-relative-links">jekyll-relative-links</a></li>
+  <li>Github Pages (this more like a ruby gems not Jekyll Plugin)</li>
+  <li>Bulma CSS for styling</li>
+</ul>
+
+<p>Jekyll SEO tag helps a lot for maximazing and optimazing the SEO performance, with few thousands a month visitor, that’s what motivates me to write.</p>
+:ET

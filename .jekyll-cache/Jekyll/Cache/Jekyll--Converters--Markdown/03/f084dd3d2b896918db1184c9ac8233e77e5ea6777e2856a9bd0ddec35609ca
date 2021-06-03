@@ -1,0 +1,6 @@
+I"�<p>CSS sebagai salah satu bahasa pembangun web saat ini lumayan menjadi lebih ‘rumit’, dengan banyaknya juga lahir <em>pre-processor</em> yang manjadikan CSS lebih modular, lebih sederhana dan dinamis.</p>
+
+<p>Disisi lain file CSS yang dibuat oleh developer bisa menjadi besar, dan menjadikan halaman web menjadi lebih lama untuk ditampilkan, untuk itu perlu digunakan <em>tool</em> yang bisa membantu kita dalam analisa halaman dan CSS yang akan dibuka, apakah perlu dilakukan optimasi, menuliskan kembali properti-properti atau aksi lainnya</p>
+
+<p>Wallace bisa dijadikan satu cara/acuan untuk melakukan optimasi di kode CSS yang kita punya.</p>
+:ET

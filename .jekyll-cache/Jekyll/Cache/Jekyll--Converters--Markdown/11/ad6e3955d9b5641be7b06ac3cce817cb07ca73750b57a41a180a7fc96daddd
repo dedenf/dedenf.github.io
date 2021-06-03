@@ -1,0 +1,5 @@
+I";<p>another tool that i use for covering my ass from tracking beside my tunnel tool, i use <a href="https://github.com/feross/SpoofMAC">spoof-mac</a>, a python library that can be called from your lovely terminal, you could install it via <code class="language-plaintext highlighter-rouge">pip install SpoofMAC</code>.
+run <code class="language-plaintext highlighter-rouge">sudo spoof-mac randomize wi-fi</code> and you’ll get a random mac address assigned to your ether. you could set the spoof-mac to run everytime you boot up your machine and before joining the network (see their github project).</p>
+
+<p>or maybe if you don’t want to install spoof-mac you could always use good old fashion <code class="language-plaintext highlighter-rouge">ifconfig</code> by runnning this command <code class="language-plaintext highlighter-rouge">sudo ifconfig en0 ether xx:xx:xx:xx:xx:xx</code> (remember, use hex for macaddr). or you can use a generated value by using this <code class="language-plaintext highlighter-rouge">openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'</code></p>
+:ET

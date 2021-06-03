@@ -1,0 +1,11 @@
+I"�<p>Hey it’s rhyme!
+on my system right now, i have two timemachine who backed up my entire system, one i had it on my whole dedicated external drive, it’s an old 320GB Seagate drive, and in my <a href="http://en.wikipedia.org/wiki/Direct_Attached_Storage">DAS</a> system (i named it “Kimu Garden”, because it’s sounds beautiful) as a backup in sparsedisk image.</p>
+
+<p>On my 320GB Seagate drive i’m using plain TimeMachine app, as for sparsedisk i use <a href="http://www.bombich.com/">carbon copy cloner</a> (i use the free one) as backup app, maybe having 2 backup for my machine is overkill, but hey, nobody knows when shit happens.</p>
+
+<p>my work files is on dropbox, exclude the codes, all my code is either on TimeMachine or in the Sparsedisk image.</p>
+
+<p>i also subscribed to other online backup system, i use GDrive, Skydrive. but one thing about skydrive, it’s allows you to upload the file without having to syncronize it on to your machine, which is great, i uploaded some of the sensitive data on to it, with sparsedisk protection of course, and doesn’t have to mirror that file on my machine.</p>
+
+<p>i want to have a system that can do the backup for me, i heard backblaze have amazing service and cheap comparing to the other services</p>
+:ET

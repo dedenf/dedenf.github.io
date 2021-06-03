@@ -1,0 +1,12 @@
+I"<p><a href="http://37signals.com/svn/writers/noah">Noah</a> at 37signal made a list about the chart that he need to display data.</p>
+
+<blockquote>
+  <ol>
+    <li>When you want to show how something has changed over time, use a line chart.</li>
+    <li>When you want to show how something is distributed, use a histogram.</li>
+    <li>When you want to display summary information, use a table.</li>
+  </ol>
+</blockquote>
+
+<p>seeing this chart type for people other than devops people or developer i think it’s enough to display data.</p>
+:ET

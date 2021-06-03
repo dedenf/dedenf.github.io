@@ -1,0 +1,17 @@
+I"�<p>After adding current listened track into my commit message, now i’m adding the action, i take picture everytime commiting something. here’s how.</p>
+
+<ul>
+  <li>get ImageSnap
+ <code class="language-plaintext highlighter-rouge">brew install imagesnap</code> or <code class="language-plaintext highlighter-rouge">port install imagesnap</code></li>
+  <li>create this hook at your project .git/hooks/</li>
+</ul>
+
+<p>the hook</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+COMMITID=$(git rev-parse HEAD)
+imagesnap -q -w 1 .gitsnap/$COMMITID.jpg`
+</code></pre></div></div>
+
+<p>save as post-commit (so it will run after commit)</p>
+:ET

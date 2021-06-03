@@ -1,0 +1,28 @@
+I"�<p>Menulis untuk saya, selain sebagai proses belajar, dan juga menyebarkan ilmu, menuangkan apa yang ada dikepala kepada bentuk tulisan, dan memulainya adalah proses yang setidaknya menurut saya adalah proses yang susah, dari ide, pemilihan ide, kemudian membuat tulisan berdasarkan ide tersebut, terkadang dibutuhkan alur kerja, agar tulisan bisa dengan baik ditulis, dimengerti, dengan mengikuti ide, kemudian mungkin memutuskan menulis dalam bahasa apa, misalkan untuk yang berkaitan dengen hal-hal teknikal, kadang saya lebih memilih untuk menggunakan bahasa inggris karena ada beberapa padanan yang terkadang tidak ketemu dalam bahasa indonesia, untuk bahasa indonesia sendiri sebisa mungkin menggunakan ejaan yang disempurnakan, agar lebih mudah dibaca dan <em>future-proof</em>.
+<!--more--></p>
+
+<h4 id="memulai">Memulai</h4>
+<p>Seperti yang disebut sebelumnya, memulai adalah hal yang buat saya, dan terkadang ide yang muncul itu hanya dalam bentuk judul, atau tema, yang belum matang dan mungkin perlu kajian ulang, untuk ini saya membuat semacam folder, untuk alat yang digunakan bisa aplikasi ponsel pintar atar didalam komputer, jangan terlalu terpaku dengan alat, karena yang membuat tulisan itu berguna adalah menuliskannya menjadi sebuah tulisan, jika menggunakan aplikasi Notes.app di macOS atau iOS bisa dengan mudah membuatnya, atau mungkin di Evernote, atau dropbox tau menggunakan folder biasa di komputer, di sini biasanya saya memberi nama “<strong>1 - Ide</strong>”.</p>
+
+<p>Folder <strong>Ide</strong> ini berisi nama ide, atau <strong>tema</strong> yang saya pikir menarik dan belum pernah saya tulis atau bahas, bisa sembarangan, bisa apapun, jangan ragu menulis apa saja, tidak perlu sampai harus berpikir apakah ini berguna atau tidak nanti, atau apakah terdengar menggelikan, jadi tulis saja dulu, apapun itu, karena biasanya suka hilang ide tersebut beberapa saat kemudian.</p>
+
+<h4 id="menulis">Menulis</h4>
+<p>Untuk fase menulis, saya menggunakan teknik folder juga, dengan memberi nama “<strong>2 - Drafts</strong>”, di sini, ide yang ‘selamat’ dan bisa kita jadikan suatu tulisan, masuk ke folder ini, yang mana kita harus memindahkan dari folder “<strong>1 - Ide</strong>” ke folder “<strong>2 - Drafts</strong>” sebagai bentuk keberlanjutan, di sini kita menuliskan apa saja yang ada di kepala kita, tuangkan dalam bentuk tulisan, typo, penggunaan kata yang tidak sensuai atau apapun, bisa terjadi di sini, wajar, yang terpenting segera tuangkan dalam bentik tulisan.</p>
+
+<p>Fase selanjutnya adalah membuat folder “<strong>3 - Edits</strong>”, di sinilah waktunya melakukan revisi, proof-reading, atau mungkin mencoba tes analisa yang dibuat ditulisan tersebut, terbukti atau tidak, atau sekedar meyakinkan bahwa versi perangkat lunak yang dibahas di tulisan tersebut <em>valid</em> jika sedang menulis hal yang teknikal, terkadang juga ada perubahan yang lumayan dari sisi isi atau penulis berpikir ulang mengenai banyak hal, iya, hal itu sering terjadi.</p>
+
+<h4 id="publikasi">Publikasi</h4>
+<p>Selanjutnya, jika kita sudah puas dengan tulisan yang dibuat dan hendak mempublikasikannya, dibuat lagi folder baru dengan nama “<strong>4 - Published</strong>”, tulisan yang dirasa layak publik, akan pindah ke folder ini dari folder sebelumnya (folder <strong>3 - Edits</strong>), dengan memindahkannya kita yakin dan puas dengan apa yang kita sudah tulis, terserah mau mempublikasikan di blog atau dimanapun, saya sendiri menggunakan <a href="https://github.com/dedenf/">Github</a> yang terhubung dengan <a href="https://netlify.com">Netlify</a> untuk publikasi blog ini <a href="https://jakartadev.org/">atau</a> blog <a href="https://jenius.tech/">lainnya</a>.</p>
+
+<h4 id="rekap">Rekap</h4>
+<p>Folder yang digunakan <br />
+<strong>1 - Ide <br />
+2 - Drafts <br />
+3 - Edits <br />
+4 - Published</strong></p>
+
+<p><img src="/images/posts/blogging-workflow.png" alt="macOS notes app" />  <br />
+<em>Tangkapan layar tampilan folder di Notes.app macOS</em></p>
+
+<p>Alur kerja ini untuk saya sangat berguna, dan konsep serupa juga sering diterapkan oleh developer-developer dalam membuat software dengen teknik pencabangan (branching) di <em>source code management</em> (SCM).</p>
+:ET
