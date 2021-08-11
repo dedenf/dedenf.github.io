@@ -12,7 +12,7 @@ page_type: long
 image:
     teaser: "/images/posts/notion.png"
     feature: "/images/posts/notion.png"
-    author: "Dedenf"
+    author: "Thought Catalog"
     creditlink: "https://unsplash.com/photos/o0Qqw21-0NI"
     url: false
 ---
