@@ -12,8 +12,8 @@ page_type: long
 image:
     teaser: "/images/posts/notion.png"
     feature: "/images/posts/notion.png"
-    author: "Thought Catalog"
-    creditlink: "https://unsplash.com/photos/o0Qqw21-0NI"
+    author: "Deden Fathurahman"
+    creditlink: "https://dedenf.com"
     url: false
 ---
 
