@@ -1,0 +1,14 @@
+[Settings]
+ID = "333e15f3-f8cc-4435-815c-b93e8bcf188e"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "max-age=3600, must-revalidate"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+
+[[plugins]]
+package = "netlify-plugin-checklinks"
+
+# [[plugins]]
+# package = "netlify-plugin-image-optim"

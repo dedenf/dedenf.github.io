@@ -40,7 +40,7 @@ Vendor low-code seperti OutSystem atau Mendix biasanya menghasilkan aplikasi yan
 <p><center><em><a href="https://webflow.com/">Webflow</a>visual interface</em></center></p>
 
 
-Mirip dengan low-code, no-code juga mengandalkan API-API eksternal atau berupa widget yang sudah jadi, misalkan API untuk mengirim email, widget untuk *chatting*, atau API untuk membuat *workflow* seperti [Zapier]((https://zapier.com/)), dan lain sebagainya, yang kita tinggal lakukan hanya menghubungkannya dengan aplikasi yang kita buat.
+Mirip dengan low-code, no-code juga mengandalkan API-API eksternal atau berupa widget yang sudah jadi, misalkan API untuk mengirim email, widget untuk *chatting*, atau API untuk membuat *workflow* seperti [Zapier](https://zapier.com/), dan lain sebagainya, yang kita tinggal lakukan hanya menghubungkannya dengan aplikasi yang kita buat.
 
 Untuk sisi visual IDE-nya mungkin yang *oldschool* ingat sama Macromedia Dreamweaver.
 

@@ -16,7 +16,7 @@ published: true
 comments: true
 image:
     teaser: "/images/posts/fbshareimg.jpg"
-    feature: "/images/posts/fbshareimg.pg"
+    feature: "/images/posts/fbshareimg.jpg"
     author: "TMRW by UOB"
     creditlink: "https://www.tmrwbyuob.com/id/id.html"
     url: true

@@ -12,7 +12,7 @@ image:
     teaser: "/images/posts/firefox.jpg"
     feature: "/images/posts/firefox.jpg"
     author: "Dedenf"
-    creditlink: "Seputarfinansial.com"
+    creditlink: "https://seputarfinansial.com"
     url: false
 ---
 

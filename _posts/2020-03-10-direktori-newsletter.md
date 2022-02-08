@@ -19,7 +19,7 @@ image:
 
 Membuat newsletter, atau email yang berisi informasi, update atau informasi lainnya, tergantung dari pemilik newsletter memang susah, dalam artian, susah memeliharanya, melakukan publikasi yang teratur.
 
-Saya tahu karena mencobanya, sampai saat ini memang masih dalam tahap membangun dam membiasakan diri lebih banyak membaca, baik mengenai [finansial](https://seputarfinansial.substack.com/), [development](https://jakartadev.substack.com/), [DevOps]((https://seputardevops.substack.com/)) atau [informasi umum](https://dedenf.substack.com/) yang sekiranya bermanfaat, setidaknya untuk saya sendiri.
+Saya tahu karena mencobanya, sampai saat ini memang masih dalam tahap membangun dam membiasakan diri lebih banyak membaca, baik mengenai [finansial](https://seputarfinansial.substack.com/), [development](https://jakartadev.substack.com/), [DevOps](https://seputardevops.substack.com/) atau [informasi umum](https://dedenf.substack.com/) yang sekiranya bermanfaat, setidaknya untuk saya sendiri.
 
 <!--more-->
 

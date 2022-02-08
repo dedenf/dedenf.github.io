@@ -4,7 +4,6 @@ title: "Membeli reksadana di BIBIT.ID dengan GoPay"
 tags: 
     - fintech
     - reksadana
-    - bibit.id
     - investasi
 
 category: post

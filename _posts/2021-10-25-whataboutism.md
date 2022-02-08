@@ -12,7 +12,7 @@ published: true
 page_type: long
 image:
     teaser: "/images/posts/hhh13-tEMU4lzAL0w-unsplash.jpg"
-    feature: "/images/posts/hhh13-tEMU4lzAL0w-unsplashpg"
+    feature: "/images/posts/hhh13-tEMU4lzAL0w-unsplash.jpg"
     author: "傅甬 华"
     creditlink: "https://unsplash.com/photos/tEMU4lzAL0w"
     url: false

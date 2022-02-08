@@ -16,7 +16,7 @@ As a highest mountain in the island of Bali, as high as 3031m above the sea leve
 And of course, flight cancelation, many people could not back to their country/places, i was on of them, my flight should be on Tuesday 23.40, but because the mountain status is not that flight friendly, so we took decision to came back at monday to Jakarta, this time using SUB as our departure, and we have to take a road for like 13 hours.
 
 <!--more-->
-![bali to juanda airport](/images/posts/bali-juanda/maps-bali-juanda.png)
+![bali to juanda airport](/images/posts/bali-juanda/maps-bali-juanda.jpg)
 It was quite a ride, as you can see on the map, it took us around 13 hours to get to Juanda Airport, and the Surabaya toll is not friendly IMHO, Porong still flooded.
 
 But is was a gem, it was a thrilling experieces, we get to know further north of Bali, we passed Yeh Leh beach, which was awesome, beach and rice paddy get a long together, and further west we can see mountains, it was gorgeous.
