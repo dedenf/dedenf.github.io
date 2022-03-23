@@ -8,7 +8,12 @@ layout: default
     <div class="posts">
       {% for post in paginator.posts %}
         <div class="post py3">
-           <a href="{{ post.url | relative_url }}" class="post-link"><h1 class="post-title">{{ post.title }} {% if post.type == 'link'%} &rarr; {% endif %}</h1></a>
+          {% if post.type == 'link'%}
+          <a href="{{ post.link | relative_url }}" class="post-link">
+          {% else %}
+          <a href="{{ post.url | relative_url }}" class="post-link">
+          {% endif %}
+            <h1 class="post-title">{{ post.title }} {% if post.type == 'link'%} &rarr; {% endif %}</h1></a>
            <p class="post-meta">
            <span class="post-meta"><time class='post-meta' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ post.date | date: '%d %b %Y' }}</time> &mdash; {% include read-time.html %}</span><br> 
            {% if post.update_date %}
