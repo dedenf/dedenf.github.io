@@ -4,6 +4,7 @@ type: link
 link: "https://www.linusakesson.net/programming/tty/index.php"
 title: "The TTY demystified"
 category: links
+date: "2022-03-26 06:00:00"
 tags: 
     - "daily found"
     - linux
