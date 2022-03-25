@@ -1,6 +1,9 @@
 [Settings]
 ID = "333e15f3-f8cc-4435-815c-b93e8bcf188e"
 
+[build.environment]
+TZ='Asia/Jakarta'
+
 [[headers]]
   for = "/*"
   [headers.values]
