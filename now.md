@@ -5,7 +5,12 @@ permalink: /now
 tags: now
 ---
 
-#### Updated : 31 Januari 2022
+#### Updated : Jakarta, 7 Februari 2023
+Lagi-lagi "malas menulis" di media blog, bahkan sudah lebih dari 1 tahun dari menulis update di kategori [`/now`](/now) ini, saat ini memang banyak yang terjadi, sampai lupa untuk bisa lebih *present*, karena waktu yang terkadang terasa lebih cepat, tetapi juga terasa lebih pelan dari biasanya.
+
+Untuk update beberapa blog tulisan, banyak sekali di kolom draft yang saya tulis, dan masih numpuk di aplikasi Notion yang saya gunakan.
+
+#### Updated : Karawang, 31 Januari 2022
 
 ### Domain baru dan tulisan pertama ditahun 2022
 
