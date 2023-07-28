@@ -18,7 +18,7 @@ image:
 
 Hi there, lama memang tidak menulis, saat ini, menulis menjadi hal yang dilakukan, mungkin lebih tepatnya journaling, meski memiliki aplikasi Notion untuk keperluan itu, hanya saja keinginan untuk menulis belum ada.
 
-Saya mencoba membahas mengenai Slow *masukkan nama*, bisa itu slow traveling, slow cooking, slow eating, slow reading, dan slow yang lain.
+Saya mencoba membahas mengenai *slow-tentang-sesuatu*, bisa itu *slow traveling*, *slow cooking*, *slow eating*, *slow reading*, dan *slow* yang lain.
 
 Inti yang saya bisa lihat dari *gerakan* ini adalah, menikmati setiap waktu yang dilalui, sadar akan waktu, sadar akan apa yang ada di hadapan.
 
