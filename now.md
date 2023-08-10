@@ -5,6 +5,10 @@ permalink: /now
 tags: now
 ---
 
+#### Update : Karawang, 10 Agustus 2023
+### Buku
+Membeli beberapa buku yang menurut saya lumayan bisa nambah informasi atau ilmu, antara lain buku [Fearless Perfomance reviews](https://www.oreilly.com/library/view/fearless-performance-reviews/9780071804721/) dan buku [Beginners oleh Tom Vaderbilt](https://tomvanderbilt.com/books/beginners-the-joy-and-transformative-power-of-lifelong-learning/), kedua buku ini dibeli karena menarik, satu sisi terkadang karena masih jadi karyawan, performance review bisa menjadi hal yang bikin tegang, dan juga ketika memberikan review atas kinerja tim juga bsia jadi tegang, karena ga tau apakah yang direview akan merasa sakit hati atau apapun (kalo ga perform ini berani ngasih review jelek), kemudian buku Beginners, ini mungkin hal yang perlu saya refleksikan juga, tidak ada kata terlambat untuk mempelajari hal yang bukan menjadi kebiasaan kita, atau mempelajari yang kita tidak tau.
+
 #### Updated : Jakarta, 7 Februari 2023
 Lagi-lagi "malas menulis" di media blog, bahkan sudah lebih dari 1 tahun dari menulis update di kategori [`/now`](/now) ini, saat ini memang banyak yang terjadi, sampai lupa untuk bisa lebih *present*, karena waktu yang terkadang terasa lebih cepat, tetapi juga terasa lebih pelan dari biasanya.
 
