@@ -18,7 +18,7 @@ Untuk update beberapa blog tulisan, banyak sekali di kolom draft yang saya tulis
 
 ### Domain baru dan tulisan pertama ditahun 2022
 
-Sudah agak lama tidak menulis di sini, dan t[anggal 31 ini tulisan](/2022/01/netlify-plugins-how-to) saya yang pertama di tahun 2022, lumayan banyak yang terjadi nih.
+Sudah agak lama tidak menulis di sini, dan [tanggal 31 ini tulisan](/2022/01/netlify-plugins-how-to) saya yang pertama di tahun 2022, lumayan banyak yang terjadi nih.
 
 Menulis di beberapa blog di bawah sudah lumayan lebih teratur, meski konsistensi masih perlu ditingkatkan.
 
