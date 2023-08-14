@@ -5,6 +5,9 @@ permalink: /now
 tags: now
 ---
 
+#### Update : 14 agustus 2023
+Beberapa waktu lalu, domain yang saya miliki kelupaan diperpanjang, domain [investasietf.com](https://investasietf.com), sampai akhirnya bisa kembali lagi, menurut hasil googling domain yang dimiliki ada kemungkinan bisa dibeli lagi setelah 90 hari expired, dan memang ternyata bisa, domain ini memang tidak begitu aktif, hanya saja, domain ini saya memiliki harapan karena ETF kemungkinan besar akan mendominasi untuk kaum investor rebahan, karena sifatnya yang bisa passive (bisa aktif juga), dan juga biaya admin tidak setinggi reksa dana.
+
 #### Update : Karawang, 10 Agustus 2023
 ### Buku
 Membeli beberapa buku yang menurut saya lumayan bisa nambah informasi atau ilmu, antara lain buku [Fearless Perfomance reviews](https://www.oreilly.com/library/view/fearless-performance-reviews/9780071804721/) dan buku [Beginners oleh Tom Vaderbilt](https://tomvanderbilt.com/books/beginners-the-joy-and-transformative-power-of-lifelong-learning/), kedua buku ini dibeli karena menarik, satu sisi terkadang karena masih jadi karyawan, performance review bisa menjadi hal yang bikin tegang, dan juga ketika memberikan review atas kinerja tim juga bisa jadi tegang, karena ga tau apakah yang direview akan merasa sakit hati atau apapun (kalo ga perform ini berani ngasih review jelek), kemudian buku Beginners, ini mungkin hal yang perlu saya refleksikan juga, tidak ada kata terlambat untuk mempelajari hal yang bukan menjadi kebiasaan kita, atau mempelajari yang kita tidak tau.
