@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Now, sekarang, ayeuna
+title: Now, Sekarang, Ayeuna
 permalink: /now
 tags: now
 ---
