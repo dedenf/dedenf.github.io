@@ -7,7 +7,7 @@ category: links
 date: "2023-10-05"
 tags: 
     - "daily found"
-    - personal
+    - podcast
     
 categories: dailyfound
 published: true
