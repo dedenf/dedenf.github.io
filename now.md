@@ -5,6 +5,10 @@ permalink: /now
 tags: now
 ---
 
+#### Update: 10 Oktober 2023
+Mencoba domain baru untuk experiment, [thisisgoodpodcast.com](https://thisisgoodpodcast.com/), dengan gaya blog, yang isinya lebih banyak seperti [thisisgoodnewsletter.com](https://thisisgoodnewsletter.com/), berisi rekomendasi channel podcast, episode podcast, review, dan lainnya.
+
+
 #### Update : 14 agustus 2023
 Beberapa waktu lalu, domain yang saya miliki kelupaan diperpanjang, domain [investasietf.com](https://investasietf.com), sampai akhirnya bisa kembali lagi, menurut hasil googling domain yang dimiliki ada kemungkinan bisa dibeli lagi setelah 90 hari expired, dan memang ternyata bisa, domain ini memang tidak begitu aktif, hanya saja, domain ini saya memiliki harapan karena ETF kemungkinan besar akan mendominasi untuk kaum investor rebahan, karena sifatnya yang bisa passive (bisa aktif juga), dan juga biaya admin tidak setinggi reksa dana.
 
