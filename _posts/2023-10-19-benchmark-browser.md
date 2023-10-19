@@ -10,7 +10,12 @@ category: [blog]
 comments: false
 published: true
 page_type: long
-image: 
+image:
+    teaser: "/images/posts/thisisgoodpodcast.png"
+    feature: "/images/posts/thisisgoodpodcast.png"
+    author: "Deden Fathurahman &mdash; Orion browser"
+    creditlink: "https://dedenf.com"
+    url: false
 ---
 
 Iseng nge-benchmark ke browser yang biasa saya gunakan sehari-hari, iya, saya menggunakan lebih dari satu jenis browser, dengan tujuan berbeda-beda.
