@@ -4,7 +4,7 @@ type: link
 link: "https://www.quantamagazine.org/in-the-guts-second-brain-key-agents-of-health-emerge-20231121"
 title: "In the Gut’s ‘Second Brain,’ Key Agents of Health Emerge"
 category: links
-date: "2023-11-02"
+date: "2023-11-22"
 tags: 
     - "daily found"
     - health    
