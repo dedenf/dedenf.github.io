@@ -13,17 +13,13 @@ summary: "<p>Mungkin isu ini sangat sensitif sekarang ini, terlebih dengan kasus
 image:
   feature: /images/posts/ev-gpjvRZyavZc-unsplash.jpg
   teaser: /images/posts/ev-gpjvRZyavZc-unsplash.jpg
-  credit: ev
-  source: <a href="https://unsplash.com/photos/gpjvRZyavZc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  creditlink: https://unsplash.com/@ev
+  author: ev
+  creditlink: https://unsplash.com/photos/gpjvRZyavZc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyTex
+  url: false
 category: post
 comments: true
 published: true
 ---
-
-![](/images/posts/ev-gpjvRZyavZc-unsplash.jpg)
-<p><center><em>Photo by <a href="https://unsplash.com/@ev?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ev</a> on <a href="https://unsplash.com/photos/gpjvRZyavZc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></em></center></p>
-
 
 Mungkin isu ini sangat sensitif sekarang ini, terlebih dengan kasus Cambridge Analytica dan beberapa jebolnya masalah privasi dan keamanan di internet.
 
