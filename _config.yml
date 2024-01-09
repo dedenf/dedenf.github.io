@@ -1,8 +1,8 @@
 # Site settings
-title:       HyperText Thrones
+title:       Deden Fathurahman's notes
 email:       'dedenf@gmail.com'
 description: "Daily muse, putting my tought, reaction, comments, and things that i need to write. About tech, financial, life."
-site_subtitle: 'Blogging about tech, life, finance, or anything in between'
+site_subtitle: 'Blogging about tech, life, finance, or anything in between.'
 baseurl:     ""
 url:         "https://notes.dedenf.com"
 site_short:  'notes.dedenf.com'
