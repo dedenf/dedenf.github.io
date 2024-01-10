@@ -13,18 +13,18 @@ tags: about
 </div>
 Hi i'm [Deden fathurahman](https://dedenf.com),
 
-An [engineer](https://github.com/dedenf), loves tech, [blogger](https://notes.dedenf.com), [newsletter author](http://jakartadev.org), currently working at a bank called [Aladin](https://aladinbank.id). Listened to a lot of [podcast](/2018/01/podcast), mumbling about development stuff at [Jakartadev](http://jakartadev.org), like things about developments, agile, high performance/availability, product management.
+An [engineer](https://github.com/dedenf), loves tech, [blogger](https://notes.dedenf.com), [newsletter author](http://jakartadev.org), currently working at a bank called [Aladin](https://aladinbank.id). Listened to a lot of [podcast](/2018/01/podcast), mumbling about development stuff at [Jakartadev](http://jakartadev.org), like things about developments, agile, high performance/availability, product management, or about [finance](https://seputarfinansial.com).
 
-I love coffee, started a semi-active blog site [Epicoffee](http://epicoffee.com).
+I love coffee, started a semi-active blog site [Epicoffee](http://epicoffee.com), see my other [blog list](https://dedenf.com).
 
-### About _HyperText Thrones_
-The site started around 2013, but the content has been imported from my various blogging platform, i'm blogging since 2006, my content scattered, from blogger.com, blogsome, posterous, wordpress and eventually bought my own domain and imported my _can-save_ content out there.
+### About this blog
+The blog started around 2013, but the content has been imported from my various blogging platform, i'm blogging since 2006, my content scattered, from blogger.com, blogsome, posterous, wordpress and eventually bought my own domain and imported my _can-save_ content out there.
 
 I host this site using [Github page](https://pages.github.com/), so, no server cost, _ha!_, just push the content to [my repo](https://github.com/dedenf/dedenf.github.io/), and Github will take care the rest. I use [Ruby Jekyll](https://jekyllrb.com/) blogging engine, been eyeing Ghost, but i always came back to Jekyll. Park my domain to Cloudflare, they took care about security and any other stuff.
 
 
 ### Bahasa/Language
-Jadi, terkadang isi dari *blog* ini campur-campur, kadang bahasa inggris, kadang bahasa indonesia, tergantung konteks dan keinginan *hehe..*, jadi iya, bahasa indonesia adalah bahasa indonesia, *don't call it bahasa, call it indonesian.*
+Jadi, terkadang isi dari *blog* ini campur-campur, kadang bahasa inggris, kadang bahasa indonesia, tergantung konteks dan keinginan *hehe..*, jadi iya, maaf sebelumnya ya kalau liat campur-campur.
 
 
 ### Contact
