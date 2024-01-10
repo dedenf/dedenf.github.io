@@ -11,9 +11,9 @@ tags: about
         <img src="/images/sites/avatar.jpg" alt="Deden Fathurahman" itemprop="image">
     </a>
 </div>
-Hi i'm Deden fathurahman,
+Hi i'm [Deden fathurahman](https://dedenf.com),
 
-An [engineer](https://github.com/dedenf), loves tech, [blogger](https://notes.dedenf.com), [newsletter author](http://jakartadev.org), working at a fintech company [Jenius](https://www.jenius.com). Listened to a lot of [podcast](/2018/01/podcast), mumbling about development stuff at [Jakartadev](http://jakartadev.org) or [Jenius Tech Engineering](http://jenius.tech), like things about developments, agile, high performance/availability, product management.
+An [engineer](https://github.com/dedenf), loves tech, [blogger](https://notes.dedenf.com), [newsletter author](http://jakartadev.org), currently working at a bank called [Aladin](https://aladinbank.id). Listened to a lot of [podcast](/2018/01/podcast), mumbling about development stuff at [Jakartadev](http://jakartadev.org), like things about developments, agile, high performance/availability, product management.
 
 I love coffee, started a semi-active blog site [Epicoffee](http://epicoffee.com).
 

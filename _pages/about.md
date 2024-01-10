@@ -4,8 +4,38 @@ title: About
 image: '/images/pages/about.jpeg'
 ---
 
-You love Minimalism, and you also love writing, Type is designed for you. Type focus on showing your content in a clean and simple way, focus on images, typography, and white space.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<div class="author__avatar">
+    <a href="https://notes.dedenf.com/">
+        <img src="/images/sites/avatar.jpg" alt="Deden Fathurahman" itemprop="image">
+    </a>
+</div>
+Hi i'm [Deden fathurahman](https://dedenf.com),
 
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+An [engineer](https://github.com/dedenf), loves tech, [blogger](https://notes.dedenf.com), [newsletter author](http://jakartadev.org), currently working at a bank called [Aladin](https://aladinbank.id). Listened to a lot of [podcast](/2018/01/podcast), mumbling about development stuff at [Jakartadev](http://jakartadev.org), like things about developments, agile, high performance/availability, product management, or about [finance](https://seputarfinansial.com).
+
+I love coffee, started a semi-active blog site [Epicoffee](http://epicoffee.com), see my other [blog list](https://dedenf.com).
+
+### About this blog
+The blog started around 2013, but the content has been imported from my various blogging platform, i'm blogging since 2006, my content scattered, from blogger.com, blogsome, posterous, wordpress and eventually bought my own domain and imported my _can-save_ content out there.
+
+I host this site using [Github page](https://pages.github.com/), so, no server cost, _ha!_, just push the content to [my repo](https://github.com/dedenf/dedenf.github.io/), and Github will take care the rest. I use [Ruby Jekyll](https://jekyllrb.com/) blogging engine, been eyeing Ghost, but i always came back to Jekyll. Park my domain to Cloudflare, they took care about security and any other stuff.
+
+
+### Bahasa/Language
+Jadi, terkadang isi dari *blog* ini campur-campur, kadang bahasa inggris, kadang bahasa indonesia, tergantung konteks dan keinginan *hehe..*, jadi iya, maaf sebelumnya ya kalau liat campur-campur.
+
+
+### Contact
+Email : dedenf@gmail.com or me@dedenf.com   
+Twitter account : [@dedenf](https://twitter.com/dedenf)    
+Keybase : [@dedenf](https://keybase.io/dedenf)   
+or you can [buy me a coffee](https://www.buymeacoffee.com/dedenf)   
+
+
+<style>.bmc-button img{vertical-align: middle !important;}.bmc-button{text-decoration: none; !important;display:inline-block !important;padding:5px 10px !important;color:#FFFFFF !important;background-color:#BB5794 !important;border-radius: 3px !important;border: 1px solid transparent !important;font-size: 26px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;-webkit-transition: 0.3s all linear !important;transition: 0.3s all linear !important;margin: 0 auto !important;font-family:"Cookie", cursive !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0 4px 16px 0 rgba(190, 190, 190,.45) !important;box-shadow: 0 4px 16px 0 rgba(190, 190, 190,.45) !important;opacity: 0.85 !important;color:#FFFFFF !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/dedenf"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="BMC logo"><span style="margin-left:5px">Buy me a coffee</span></a>
+
+or subscribe to my newsletter
+<div class='embed-container'><iframe class="embed-container" width="660" height="220" src="https://dedenf.substack.com/embed" frameborder="0" scrolling="no"></iframe></div>     
+
+jekyll :heart: github.
