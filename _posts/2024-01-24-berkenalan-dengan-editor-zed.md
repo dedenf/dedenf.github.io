@@ -12,8 +12,8 @@ comments: false
 published: true
 page_type: long
 image:
-    teaser: "/images/posts/zed.jpg"
-    feature: "/images/posts/zed.jpg"
+    teaser: "/images/posts/zed.png"
+    feature: "/images/posts/zed.png"
     author: "Deden Fathurahman &mdash; Zed Editor"
     creditlink: "https://dedenf.com"
     url: false
