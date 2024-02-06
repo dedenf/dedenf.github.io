@@ -11,11 +11,7 @@ comments: false
 published: true
 page_type: long
 image:
-    teaser: ""
-    feature: ""
-    author: ""
-    creditlink: ""
-    url: false
+    
 ---
 
 Membuat blog lain, kali ini khusus tentang podcast, karena saya suka podcast, dan diblog ini pun [sering](/2023/09/google-podcast-rip) [sekali bahas podcast](/2021/10/podcast-player-google-podcast), jadi mikir, kenapa tidak bikin yang khusus tentang itu, sudah beli domainnya beberapa waktu yang lalu, dan mungkin memang agak kurang isinya saat ini.
