@@ -14,7 +14,7 @@ page_type: long
 image:
     teaser: "/images/posts/podman-windows.png"
     feature: "/images/posts/podman-windows.png"
-    author: "dedenf with Tabby on Windows with oh-my-posh running Podman"
+    author: "dedenf"
     creditlink: "notes.dedenf.com"
     url: false
 ---
