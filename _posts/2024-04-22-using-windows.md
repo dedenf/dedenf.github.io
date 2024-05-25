@@ -10,7 +10,7 @@ tags:
 category: [blog]
 comments: false
 published: true
-page_type: long
+page_type: 
 image:
     teaser: "/images/posts/podman-windows.png"
     feature: "/images/posts/podman-windows.png"

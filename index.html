@@ -13,19 +13,17 @@ layout: default
           {% else %}
           <a href="{{ post.url | relative_url }}" class="post-link">
           {% endif %}
-            <h1 class="post-title">{{ post.title }} {% if post.type == 'link'%} &rarr; {% endif %}</h1></a>
-           <p class="post-meta">
-           <span class="post-meta"><time class='post-meta' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ post.date | date: '%d %b %Y' }}</time> &mdash; {% include read-time.html %}</span><br> 
-           {% if post.update_date %}
-             <span class="post-meta">{{ site.text.post.updated | default: "Updated" }}: {{ post.update_date | date: site.date_format }}</span><br>
-           {% endif %}
-           <span class="post-meta small">
-            {{ site.author.name}}
-           </span>
-           </p>
+          <h1 class="post-title">{{ post.title }} {% if post.type == 'link'%} &rarr; {% endif %}</h1></a>
+          <p class="post-meta">
+            <span class="post-meta"><time class='post-meta' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ post.date | date: '%d %b %Y' }}</time> &mdash; {% include read-time.html %}</span><br> 
+            {% if post.update_date %}
+              <span class="post-meta">{{ site.text.post.updated | default: "Updated" }}: {{ post.update_date | date: site.date_format }}</span><br>
+            {% endif %}
+            <span class="post-meta small">
+              {{ site.author.name}}
+            </span>
+          </p>
 
-         
-          
           <div class="post-summary">
             {% if post.image.teaser%}
               {% if post.image.url == false %}
