@@ -4,7 +4,7 @@ type: link
 link: "https://seputarfinansial.com/review-update-ajaib-2024-investasi-saham-obligasi-reksadana/"
 title: "Review update Aplikasi Ajaib 2024"
 category: links
-date: "2024-02-07"
+date: "2024-09-24"
 tags: 
     - "daily found"
     - investasi
