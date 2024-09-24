@@ -21,7 +21,7 @@ image:
 ---
 
 
-Yes, it is still [my ongoing journey of using Windows semi-daily usage](/2024/04/using-windows), and one of the application i have been use on a daily basis is RSS Reader (Really Simple Syndication), where i put my frequent sites or blogs that i read.
+Yess, it is still [my ongoing journey of using Windows semi-daily usage](/2024/04/using-windows), and one of the application i have been use on a daily basis is RSS Reader (Really Simple Syndication), where i put my frequent sites or blogs that i read.
 
 On my mac, i have been a [Reeder](https://reederapp.com/) user for a long time, happy with the UI and its feed management, kinda hard to find a reader which did the same thing or close.
 
