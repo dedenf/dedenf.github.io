@@ -12,11 +12,11 @@
 
 .site-header .site-title {
   font-size: 2em;
+  font-weight: 900;
+  transition: .4s;
   @media (min-width:320px) and (max-width:1199px) {
     font-size: 1.3em;
   }
-  font-weight: 900;
-  transition: .4s;
 }
 
 .site-nav {
