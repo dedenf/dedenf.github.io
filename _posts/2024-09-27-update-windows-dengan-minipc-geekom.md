@@ -39,4 +39,4 @@ Spek dari Geekom Mini PC A5 ini cukup saat ini menurut saya dengan level penggun
 
 Untuk yang tertarik membeli MiniPC ini bisa di [Tokopedia](https://tokopedia.link/RPZe4X2seNb) atau [Shopee](https://s.shopee.co.id/qR2yJRaho?share_channel_code=2), kemarin beli di Shopee karena kebetulan ada diskon aja, sayang kalau ga dimanfaatin.
 
-Komputer sebelumnya saya menggunakan [ThinkCentre bekas](https://tokopedia.link/lfQKnJaveNb), dengan [spesifikasi Intel i5 gen 7](https://s.shopee.co.id/LUmNKMRrL?share_channel_code=2), dengan RAM 16GB dan SSD beli lagi sebesar 1TB, mungkin PC ini balik lagi jadi server lab, dipasang lagi proxmox dan deploy kubernetes.
+Komputer sebelumnya saya menggunakan [ThinkCentre bekas](https://tokopedia.link/lfQKnJaveNb), dengan [spesifikasi Intel i5 gen 7](https://s.shopee.co.id/LUmNKMRrL?share_channel_code=2), dengan RAM 32GB dan SSD NVME beli lagi sebesar 1TB, mungkin PC ini balik lagi jadi server lab, dipasang lagi proxmox dan deploy kubernetes.
