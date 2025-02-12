@@ -3,13 +3,11 @@ layout: post
 title: "Mendengar"
 tags: 
     - life
-        
 category: [development]
 comments: true
 published: true
 page_type: long
 image:
-    
 page_type: long
 
 ---

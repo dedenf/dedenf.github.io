@@ -3,7 +3,6 @@ layout: post
 title: "Menjadi tamu"
 tags: 
     - personal
-        
 category: [blog]
 comments: false
 published: true
