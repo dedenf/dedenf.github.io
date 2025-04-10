@@ -9,7 +9,7 @@ layout: default
       {% for post in paginator.posts %}
         <div class="post py3">
           {% if post.type == 'link'%}
-          <a href="{{ post.link | relative_url }}" class="post-link">
+          <a href="{{ post.link | relative_url }}" class="post-link linked-post">
           {% else %}
           <a href="{{ post.url | relative_url }}" class="post-link">
           {% endif %}

@@ -23,6 +23,10 @@
 a.post-link .post-title {
   // color: #0076df;
 }
+
+a.post-link.linked-post {
+  font-style: italic;
+}
 .post-link .post-title a:visited {
   // color: #0076df;
 }
