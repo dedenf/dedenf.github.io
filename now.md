@@ -5,6 +5,9 @@ permalink: /now
 tags: now
 ---
 
+#### 23 April 2025
+Saat ini mencoba menggunakan workflow baru untuk saham yang hendak dibeli, belum disiplin dalam melakukan jurnaling, ada berserakan memang catatannya, oh iya, dulu pakai domain jakartadev.org, tapi ternyata lupa diperpanjang, dan kebetulan domain [jakartadev.com](https://jakartadev.com) udah ada yang lepas (dulu masih ada yang punya), jadi sekarang mengunakan domain [jakartadev.com](https://jakartadev.com).
+
 #### Update: 10 Oktober 2023
 Mencoba domain baru untuk experiment, [thisisgoodpodcast.com](https://thisisgoodpodcast.com/), dengan gaya blog, yang isinya lebih banyak seperti [thisisgoodnewsletter.com](https://thisisgoodnewsletter.com/), berisi rekomendasi channel podcast, episode podcast, review, dan lainnya.
 
