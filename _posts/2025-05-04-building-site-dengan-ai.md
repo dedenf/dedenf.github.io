@@ -21,7 +21,7 @@ Membangun halaman web sekarang menjadi mudah, lumayan terbantu dari mulai design
 
 ![](/images/posts/jakartadev.png)
 
-Saya menggunakan [Jakarta Dev](https://jakartadev.com) sebagai contoh, dan memang sedan melihat opsi apakah perlu mendesain ulang blog tersebut, sambil coba-coba kemampuan dari AI yang bisa membantu membuat desain website, saya menggunakan [Gemini](https://gemini.google.com) untuk kode generator, dan memang bejalan dengan baik! agak terkejut juga dengan hasilnya.
+Saya menggunakan [Jakarta Dev](https://jakartadev.com) sebagai contoh, dan memang sedang melihat opsi apakah perlu mendesain ulang blog tersebut, sambil coba-coba kemampuan dari AI yang bisa membantu membuat desain website, saya menggunakan [Gemini](https://gemini.google.com) untuk kode generator, dan memang bejalan dengan baik! agak terkejut juga dengan hasilnya.
 
 Dari prompt yang saya berikan, setidaknya Gemini bisa menerjemahkannya dan menjadi halaman web yang utuh, dan saya menggunakan acuan nytimes.com, karean saya suka desainnya.
 
