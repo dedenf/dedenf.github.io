@@ -2,7 +2,7 @@
 layout: post
 title: "Dailyfound: 'Membantah Anggapan Lama tentang Pegawai Negeri Sipil'"
 tags: 
-    - Opinion
+    - opini
     - writing
     - dailyfound
         

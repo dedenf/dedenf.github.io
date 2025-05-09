@@ -15,6 +15,7 @@ image:
     author: "Volkan Olmez"
     creditlink: "https://unsplash.com/photos/BVGMRRFQcf8"
     url: true
+
 ---
 
 Pernah mengalami melakukan sesuatu tanpa harus berpikir? semua bisa dilakukan tanpa otak memproses, mengkalkulasi dan melakukan itu dengan cara otomatis, tanpa halangan, dan bahkan ekstrim-nya ada yang tidak ingat kita melakukan hal tersebut, saking sudah otomatisnya.

@@ -2,7 +2,7 @@
 layout: post
 title: "Sederhana, tapi tidak mudah"
 tags: 
-    - Opinion
+    - opini
     - writing
         
 category: [opini]

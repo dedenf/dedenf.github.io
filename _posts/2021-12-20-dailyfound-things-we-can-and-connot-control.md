@@ -2,7 +2,7 @@
 layout: post
 title: "Dailyfound: Infografic, what we can and cannot control"
 tags: 
-    - Opinion
+    - opini
     - writing
     - dailyfound
         
