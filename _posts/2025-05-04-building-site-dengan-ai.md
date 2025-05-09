@@ -5,7 +5,7 @@ tags:
     - review
     - software
     - artificial intelligence
-    - 
+    
 category: [blog]
 comments: false
 published: true

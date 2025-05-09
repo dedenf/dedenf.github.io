@@ -23,4 +23,4 @@ Paper ini membahas mengenai banyaknya kasus autisme yang terjadi di Amerika Seri
 
 Hal ini yang menimbulkan masalah nutrisi yang tidak seimbang, dan meningkatkan risiko terjadinya defisit nutrisi pada anak-anak dengan autisme.
 
-[Link ke paper](https://www.mdpi.com/2072-6643/17/6/990)    
+[Link ke paper](https://www.mdpi.com/2072-6643/17/6/990)
