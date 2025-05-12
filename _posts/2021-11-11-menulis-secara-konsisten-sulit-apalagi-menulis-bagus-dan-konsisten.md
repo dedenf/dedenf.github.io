@@ -2,7 +2,7 @@
 layout: post
 title: "Menulis secara konsisten itu sulit, dan menulis konsisten tulisan yang bagus lebih sulit lagi"
 tags: 
-    - Opinion
+    - opini
     - writing
     - reading
         
