@@ -25,4 +25,4 @@ And article from [Bloomberg](https://www.bloomberg.com/news/articles/2025-06-18/
 
 > The terminations would follow a previous round of layoffs in May that hit 6,000 people and fell hardest on product and engineering positions, largely sparing customer-facing roles like sales and marketing.
 
-I think there will be more to come, not sure when this trend will be stop.
+I think there will be more to come, not sure when this trend will stop.
