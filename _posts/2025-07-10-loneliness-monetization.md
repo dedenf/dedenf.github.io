@@ -26,4 +26,4 @@ We might not notice it, or notice it but tend or choose to ignore it, how many t
 
 In the video there's people who bring actual grass to an event, to give them sense how to feel touching grass, real grass, mind boggling.
 
-It's a reminder that there's a lot of thing in the outside world, not just your TikTok feeds, Instagram reels etc.
+It's a reminder that there's a lot of thing in the outside world, not just your TikTok feeds, Instagram reels etc, in 2017, Netflix even double down to monitize this loneliness, saying that [sleep](https://www.fastcompany.com/40491939/netflix-ceo-reed-hastings-sleep-is-our-competition) is their competitor, THE sleep, the thing that we need to do, not to mention other things like praying, playing with kids, family.
