@@ -22,6 +22,7 @@ image:
     url: true
 ---
 
+
 Pada awal mendapatkan diagnosis, kayaknya seperti orangtua lainnya, bingung, gak tau musti ngapain, gak tau apa yang harus dipelajari, belum lagi masalah penerimaan, sempat juga fase *denial*, hal yang pertama dilakukan hubungi yang kita pikir sebagai ahlinya dibidang autisme, sampai mencari kemana-mana.
 
 Kadang kita *stuck*, gak tau musti gimana lagi, alhamdulillah kita bisa ketemu dengan orangtua lain yang dalam posisi yang sama, saling menguatkan, saling tukar informasi, ini penting untuk tidak merasa sendirian, meski secara praktek kita memang yang tetap harus menghadapinya, tapi *bonding* dengan orangtua lain sangat membantu.
@@ -40,4 +41,4 @@ Sensori-sensori yang sensitif, terkadang ada yang terhalang masalah fisik, yang 
 
 Tantangan menghadapi ini tidak datang dari individu saja, tapi dari luaran, bisa dari lingkaran keluarga, atau lainnya.
 
-[Artikel](https://neuroclastic.com/my-brain-is-autistic/) | [Download ilustrasi PDF](https://neuroclastic.com/wp-content/uploads/2022/04/Brain-is-autistic-neuroinclusive-story.pdf)
+[Artikel](https://neuroclastic.com/my-brain-is-autistic/) - [Download ilustrasi PDF](https://neuroclastic.com/wp-content/uploads/2022/04/Brain-is-autistic-neuroinclusive-story.pdf)
