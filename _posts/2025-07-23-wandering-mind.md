@@ -2,7 +2,7 @@
 layout: link
 type: link
 link: "https://www.scientificamerican.com/article/a-wandering-mind-is-an-un/"
-title: "A Wandering Mind is an Unhappy One"
+title: "A Wandering Mind is an Unhappy One."
 category: links
 date: "2025-07-23"
 tags: 
