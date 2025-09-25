@@ -2,7 +2,7 @@
 layout: link
 type: link
 link: "https://blog.jim-nielsen.com/2025/rip-browsers/"
-title: ""RIP “Browsers""
+title: "RIP Browsers"
 category: links
 date: "2025-09-24"
 tags: 
