@@ -12,8 +12,13 @@ tags:
 category: [blog]
 comments: false
 published: true
-page_type: false
+page_type: long
 image:
+    teaser: "/images/posts/helium.jpg"
+    feature: "/images/posts/helium.jpg"
+    author: "Deden Fathurahman"
+    creditlink: "https://notes.dedenf.com"
+    url: true
 ---
 
 
