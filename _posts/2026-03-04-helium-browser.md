@@ -14,8 +14,8 @@ comments: false
 published: true
 page_type: long
 image:
-    teaser: "/images/posts/helium.jpg"
-    feature: "/images/posts/helium.jpg"
+    teaser: "/images/posts/helium.png"
+    feature: "/images/posts/helium.png"
     author: "Deden Fathurahman"
     creditlink: "https://notes.dedenf.com"
     url: true
