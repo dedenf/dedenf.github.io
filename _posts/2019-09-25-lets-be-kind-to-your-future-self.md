@@ -5,7 +5,7 @@ tags:
     - health
     - blog
     - umur
-    - "self development"
+    - "self-development"
 
 category: post
 comments: true

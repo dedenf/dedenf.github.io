@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 /* Basscss Color Base */
 
 body {
@@ -13,7 +15,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  
+
 }
 a:visited {
   text-decoration: none;

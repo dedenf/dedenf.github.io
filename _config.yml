@@ -1,25 +1,24 @@
 # Site settings
-title:       Deden Fathurahman's notes
-email:       'dedenf@gmail.com'
+title: Deden Fathurahman's notes
+email: "dedenf@gmail.com"
 description: "Daily muse, putting my tought, reaction, comments, and things that i need to write. About tech, financial, life."
-site_subtitle: 'Blogging about tech, life, finance, or anything in between.'
-baseurl:     ""
-url:         "https://notes.dedenf.com"
-site_short:  'notes.dedenf.com'
+site_subtitle: "Blogging about tech, life, finance, or anything in between."
+baseurl: ""
+url: "https://notes.dedenf.com"
+site_short: "notes.dedenf.com"
 date_format: "%b %-d, %Y"
 header_pages:
- - about.md
- - contact.html
+  - about.md
+  - contact.html
 
 author:
-  name:           'Deden Fathurahman'
-  url:            https://notes.dedenf.com/
-  handle:         "dedenf"
-  email:          dedenf@duck.com
-  twitter:        "@dedenf"
-  instagram:      "@dedenf"
-  github:         "dedenf"
-
+  name: "Deden Fathurahman"
+  url: https://notes.dedenf.com/
+  handle: "dedenf"
+  email: dedenf@duck.com
+  twitter: "@dedenf"
+  instagram: "@dedenf"
+  github: "dedenf"
 
 sass:
   style: compressed
@@ -43,34 +42,32 @@ exclude:
   - vendor
 
 # Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
-
+tag_page_dir: tag
+tag_page_layout: tag_page
+# tag_permalink_style: pretty  # disabled to avoid duplicate page conflicts
 
 # Pages path
 defaults:
   - scope:
-      path: '_pages'
+      path: "_pages"
     values:
       permalink: /:basename:output_ext
-
 
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
 # google_analytics: UA-38299976-3
-google_analytics: 
+google_analytics:
 google_tag_manager:
 # Bing services
 bing_verification:
 
 # Optional features
-animated:             false
-show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    false
+animated: false
+show_related_posts: false
+show_post_footers: false
+show_social_icons: false
 ajaxify_contact_form: false
 enable_mathjax: true
 extended_fonts: true
@@ -86,7 +83,7 @@ fb_page_id:
 # Disqus post comments
 # (leave blank to disable Disqus)
 # disqus_shortname: dedenf-notes
-disqus_shortname: 
+disqus_shortname:
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
@@ -117,7 +114,6 @@ show_sharing_icons: false
 # Change to 'true' to enable individual icons
 share_facebook: false
 share_twitter: true
-share_googleplus: false
 share_linkedin: false
 share_digg: false
 share_tumblr: false
@@ -127,44 +123,42 @@ share_hackernews: false
 
 text:
   pagination:
-    newer: 'Newer'
-    older: 'Older'
+    newer: "Newer"
+    older: "Older"
   share_buttons:
-    text:         'Share this post!'
-    facebook:     'Share on Facebook'
-    twitter:      'Share on Twitter'
-    googleplus:   'Share on Google+'
-    linkedin:     'Share on LinkedIn'
-    digg:         'Share on Digg'
-    tumblr:       'Share on Tumblr'
-    reddit:       'Share on Reddit'
-    stumbleupon:  'Share on StumbleUpon'
-    hackernews:   'Share on Hacker News'
+    text: "Share this post!"
+    facebook: "Share on Facebook"
+    twitter: "Share on Twitter"
+    googleplus: "Share on Google+"
+    linkedin: "Share on LinkedIn"
+    digg: "Share on Digg"
+    tumblr: "Share on Tumblr"
+    reddit: "Share on Reddit"
+    stumbleupon: "Share on StumbleUpon"
+    hackernews: "Share on Hacker News"
   post:
-    updated:        'Updated'
-    minute_read:    'minute read'
-    related_posts:  'Related Posts'
+    updated: "Updated"
+    minute_read: "minute read"
+    related_posts: "Related Posts"
   index:
-    coming_soon: 'Coming soon...'
+    coming_soon: "Coming soon..."
   contact:
-    email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
+    email: "Email Address"
+    content: "What would you like to say?"
+    subject: "New submission!"
+    submit: "Say Hello"
     ajax:
-      sending:  'sending..'
-      sent:     'Message sent!'
-      error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
-  og_locale: 'en_US'
+      sending: "sending.."
+      sent: "Message sent!"
+      error: "Error!"
+  thanks: "Thanks for contacting us. We will reply as soon as possible."
+  og_locale: "en_US"
 
 # Build settings
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-markdown:  kramdown
+markdown: kramdown
 permalink: /:year/:month/:title
-paginate:  5
+paginate: 5
 paginate_path: "page/:num"
 excerpt_separator: "<!--more-->"
 
-apisecret: 73088F97-217E-4488-9A8B-5FF7B7667AAAA
+# apisecret: set via environment variable (plaintext value removed)

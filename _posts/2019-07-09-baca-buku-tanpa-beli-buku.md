@@ -5,7 +5,7 @@ title: "Membaca buku tanpa membeli buku"
 tags: 
     - read
     - books
-    - "self development"
+    - "self-development"
 
 category: post
 comments: true

@@ -2,7 +2,7 @@
 layout: post
 title: "PPP, framework untuk komunikasi dan manajemen project"
 tags: 
-    - "Self Development"
+    - "self-development"
     - development
     - agile
 

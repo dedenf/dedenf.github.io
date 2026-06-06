@@ -9,7 +9,7 @@ tags:
     - "daily found"
     - linux
     - windows
-    - macOS
+    - macos
     - geeking
     
 categories: dailyfound

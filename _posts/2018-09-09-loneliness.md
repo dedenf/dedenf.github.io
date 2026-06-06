@@ -2,7 +2,7 @@
 layout: post
 title: "Loneliness"
 tags: 
-    - Psychology
+    - psychology
     - human
     - life
     - productivity
