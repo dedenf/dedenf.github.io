@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about
+image: '/images/pages/about.jpeg'
 tags: about
 ---
 
