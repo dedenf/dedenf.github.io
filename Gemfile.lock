@@ -71,7 +71,7 @@ GEM
     rexml (3.4.4)
     rouge (4.7.0)
     safe_yaml (1.0.5)
-    sass-embedded (1.100.0)
+    sass-embedded (1.89.2)
       google-protobuf (~> 4.31)
       rake (>= 13)
     terminal-table (3.0.2)
@@ -92,6 +92,7 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-tagging
   kramdown-parser-gfm
+  sass-embedded (~> 1.89.2)
   tzinfo
   tzinfo-data
 
