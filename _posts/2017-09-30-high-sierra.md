@@ -4,7 +4,7 @@ title: "High Sierra"
 tags: 
     - personal
     - life
-    - macOS
+    - macos
     - apple
 
 category: blog

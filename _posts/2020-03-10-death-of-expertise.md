@@ -2,9 +2,9 @@
 layout: post
 title: "Death of Expertise"
 tags: 
-    - "Self Development"
+    - "self-development"
     - "self righteous"
-    - Psychology
+    - psychology
 
 category: [development]
 comments: true

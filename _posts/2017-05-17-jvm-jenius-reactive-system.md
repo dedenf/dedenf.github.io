@@ -3,7 +3,7 @@ layout: post
 title: Jenius x JVMUG - Reactive System
 tags:
     - event
-    - Jenius
+    - jenius
     - engineering
 category: blog
 

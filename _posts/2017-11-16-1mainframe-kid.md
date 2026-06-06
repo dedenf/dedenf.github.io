@@ -3,7 +3,7 @@ layout: post
 title: "Mainframe Kid"
 tags: 
     - IBM
-    - Technology
+    - technology
 
 category: blog
 published: true

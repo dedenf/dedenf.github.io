@@ -3,7 +3,7 @@ layout: post
 title: "Winds app for RSS and Podcast"
 tags: 
     - app
-    - macOS
+    - macos
     - podcast
     - news
     - rss

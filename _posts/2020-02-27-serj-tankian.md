@@ -3,7 +3,7 @@ layout: post
 title: "Serj Tankian"
 tags: 
     - People
-    - Music
+    - music
 
 category: [interest]
 comments: true

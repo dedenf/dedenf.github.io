@@ -4,7 +4,7 @@ title: "Mailspring app review"
 tags: 
     - life
     - app
-    - macOS
+    - macos
     - mail
 
 category: post

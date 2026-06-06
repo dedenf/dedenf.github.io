@@ -2,9 +2,9 @@
 layout: post
 title: "Direktori Newsletter"
 tags: 
-    - "Self Development"
-    - Newsletter
-    - Podcast
+    - "self-development"
+    - newsletter
+    - podcast
 
 category: [development]
 comments: true

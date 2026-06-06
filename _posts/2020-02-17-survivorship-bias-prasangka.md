@@ -2,9 +2,9 @@
 layout: post
 title: "Survivorship bias"
 tags: 
-    - "Self Development"
-    - Productivity
-    - Psychology
+    - "self-development"
+    - productivity
+    - psychology
 
 category: [development]
 comments: true

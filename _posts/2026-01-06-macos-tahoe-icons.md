@@ -8,7 +8,7 @@ date: "2026-01-06"
 tags: 
     - "daily found"
     - development
-    - macOS
+    - macos
     - software
 
 categories: dailyfound
