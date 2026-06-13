@@ -4,7 +4,7 @@ title: 'Rediscovering Software Engineering passion'
 date: "2026-06-11"
 tags: 
     - development
-    - AI
+    - ai
     - software
 category: [blog]
 comments: false
