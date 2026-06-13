@@ -21,9 +21,9 @@
 }
 
 footer {
-  background-color: $footer-bg-color;
-  border-top: $footer-border-top;
-  color: $footer-color;
+  background-color: var(--color-footer-bg);
+  border-top: thin solid var(--color-footer-border);
+  color: var(--color-footer-text);
   font-size: $footer-font-size;
   font-weight: $footer-font-weight;
   padding: $footer-padding;

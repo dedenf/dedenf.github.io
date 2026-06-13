@@ -3,7 +3,7 @@
 /* Basscss Colors */
 
 .dark-gray {
-  color: $dark-gray;
+  color: var(--color-dark-gray);
 }
 
 .white {
@@ -15,15 +15,15 @@
 }
 
 .mid-gray {
-  color: $mid-gray;
+  color: var(--color-mid-gray);
 }
 
 .light-gray {
-  color: $light-gray;
+  color: var(--color-light-gray);
 }
 
 .lighter-gray {
-  color: $lighter-gray;
+  color: var(--color-lighter-gray);
 }
 
 .red {
@@ -43,7 +43,7 @@
 }
 
 .bg-dark-gray {
-  background-color: $dark-gray;
+  background-color: var(--color-dark-gray);
 }
 
 .bg-white {
@@ -55,15 +55,15 @@
 }
 
 .bg-mid-gray {
-  background-color: $mid-gray;
+  background-color: var(--color-mid-gray);
 }
 
 .bg-light-gray {
-  background-color: $light-gray;
+  background-color: var(--color-light-gray);
 }
 
 .bg-lighter-gray {
-  background-color: $lighter-gray;
+  background-color: var(--color-lighter-gray);
 }
 
 .bg-red {
