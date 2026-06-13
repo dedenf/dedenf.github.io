@@ -1,0 +1,33 @@
+<script>
+  (function() {
+    var toggle = document.getElementById('theme-toggle');
+    var icon = document.getElementById('theme-toggle-icon');
+    var html = document.documentElement;
+
+    function setTheme(theme) {
+      html.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+      if (icon) {
+        icon.textContent = theme === 'dark' ? '\u2600' : '\u263E';
+      }
+    }
+
+    if (toggle) {
+      toggle.addEventListener('click', function() {
+        var current = html.getAttribute('data-theme') || 'light';
+        setTheme(current === 'dark' ? 'light' : 'dark');
+      });
+    }
+
+    var currentTheme = html.getAttribute('data-theme') || 'light';
+    if (icon) {
+      icon.textContent = currentTheme === 'dark' ? '\u2600' : '\u263E';
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+      if (!localStorage.getItem('theme')) {
+        setTheme(e.matches ? 'dark' : 'light');
+      }
+    });
+  })();
+</script>

@@ -2,24 +2,24 @@
 
 a {
   // color: $link-color;
-  color: $link-color;
+  color: var(--color-link);
   // background-image: linear-gradient(to top,
   //   rgba(0,0,0,0) 13%,
   //   rgba($link-color,.8) 13%,
   //   rgba($link-color,.8) 18%,
   //   rgba(0,0,0,0) 17%
   // );
-  text-shadow: white 1px 0px 0px, white -1px 0px 0px;
+  text-shadow: var(--color-link-text-shadow);
 }
 
 p a {
-  border-bottom: 2px solid #2cd0e9;
+  border-bottom: 2px solid var(--color-link-underline);
 }
 a:hover,
 a:focus,
 a:active {
   border: 0;
-  color: $link-hover-color;
+  color: var(--color-link-hover);
   text-decoration: none;
   // background-image: linear-gradient(to top,
   //   rgba(0,0,0,0) 13%,
@@ -54,7 +54,7 @@ button,
 .anchorjs-link:focus,
 .anchorjs-link:active{
     border: 0;
-    color: $link-hover-color;
+    color: var(--color-link-hover);
     text-shadow: none;
     background-image: none;
 }
