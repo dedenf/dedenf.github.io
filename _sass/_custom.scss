@@ -179,3 +179,31 @@ hr.endofarticle {
     background-color: var(--color-highlight-bg);
     padding:0 5px;
 }
+
+/* Buy Me a Coffee button */
+.bmc-button img {
+    vertical-align: middle !important;
+}
+.bmc-button {
+    text-decoration: none !important;
+    display: inline-block !important;
+    padding: 7px 15px !important;
+    color: #FFFFFF !important;
+    background-color: #BB5794 !important;
+    border-radius: 5px !important;
+    border: 1px solid transparent !important;
+    font-size: 26px !important;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2) !important;
+    -webkit-transition: 0.3s all linear !important;
+    transition: 0.3s all linear !important;
+    margin: 0 auto !important;
+    font-family: 'Cookie', cursive !important;
+}
+.bmc-button:hover,
+.bmc-button:active,
+.bmc-button:focus {
+    -webkit-box-shadow: 0 4px 16px 0 rgba(190, 190, 190, 0.45) !important;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.3) !important;
+    opacity: 0.85 !important;
+    color: #FFFFFF !important;
+}

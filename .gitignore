@@ -9,3 +9,5 @@ _site/
 .jekyll-cache/
 # Local Netlify folder
 .netlify
+.ruby-lsp/
+.vscode/
