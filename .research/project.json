@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "projectId": "502c2fb3-fedc-4de0-8569-bbb3977efd37",
+  "name": "dedenf.github.io",
+  "rootDocuments": [],
+  "primaryBibliography": "references.bib",
+  "trusted": false,
+  "engine": "pdf",
+  "venue": "neurips",
+  "wordBudget": null,
+  "pageBudget": 9,
+  "spellingWords": []
+}

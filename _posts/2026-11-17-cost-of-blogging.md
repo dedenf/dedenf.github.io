@@ -26,4 +26,4 @@ Other post might have other view the cost of being online, [here](https://anarch
 
 Even though I and not counting those cost, but the mental model, cognitive load, and cognitive exercise are huge benefit for me, in this AI era. Yes, sometimes I missed the struggle of thinking, hit the wall, or can't find the exact word for things I'm thinking of. Now, just throw it to AI, and [it will figure it out](/2026/06/rediscovering-software-engineering-passion), one way or another, true answer, [sloppy or hallucinating](/2026/08/speed-trap).
 
-I do like [writing](/2026/07/slowing-down) (and reading), even though sometimes falls into "*summarize this book for me*" trap, with reading without asking AI, we can see inside the brain of the author.
+I do like [writing](/2026/07/slowing-down) (and reading), even though sometimes falls into "*summarize this book for me*" trap, with reading without asking AI, we can see inside the brain of the author. fdsfdss

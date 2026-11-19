@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "projectId": "f2ab7b53-63e1-48cc-b59a-4798141c2a17",
+  "name": "_posts",
+  "rootDocuments": [],
+  "primaryBibliography": "references.bib",
+  "trusted": false,
+  "engine": "pdf",
+  "venue": "neurips",
+  "wordBudget": null,
+  "pageBudget": 9,
+  "spellingWords": []
+}
